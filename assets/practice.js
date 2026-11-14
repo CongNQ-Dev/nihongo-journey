@@ -85,15 +85,17 @@
           `<button class="cell jp${sel.has(it.key) ? " on" : ""}" data-key="${esc(it.key)}">${esc(it.label)}${st.tab === "vocab" ? `<small>${esc(it.vn)}</small>` : ""}</button>`).join("")}</div>
       </details>
       <div class="pr-dock">
-        <p class="pr-sum">${summary}${nc ? ` <button class="linkbtn" data-clear>bỏ chọn</button>` : ""}</p>
+        <p class="pr-sum">${summary}</p>
+        <div class="pr-quick">${nc < list.length ? `<button class="chip" data-selall>Chọn cả ${list.length}</button>` : ""}${nc ? `<button class="chip" data-clear>Bỏ chọn</button>` : ""}</div>
         <div class="pr-row">
           <span class="pr-lbl">2. Số mục mỗi lượt</span>
-          <span class="pr-step"><button data-dec aria-label="Giảm">−</button><input type="number" min="1" max="100" value="${st.n}" data-n><button data-inc aria-label="Tăng">+</button></span>
-          ${[5, 10, 20].map(v => `<button class="chip${st.n === v ? " on" : ""}" data-setn="${v}">${v}</button>`).join("")}
+          <span class="pr-step"><button data-dec aria-label="Giảm">−</button><input type="number" min="1" max="${p.length}" value="${n}" data-n><button data-inc aria-label="Tăng">+</button></span>
+          ${[5, 10, 20].filter(v => v < p.length).map(v => `<button class="chip${n === v ? " on" : ""}" data-setn="${v}">${v}</button>`).join("")}
+          <span class="pr-max">tối đa ${p.length}</span>
         </div>
         <div class="pr-row">
           <button class="btn primary big" data-draw>Bốc ${n} mục ngẫu nhiên &amp; học</button>
-          ${nc > 1 ? `<button class="btn big" data-all>Học cả ${nc} mục đã chọn</button>` : ""}
+          ${p.length > 1 ? `<button class="btn big" data-all>Học hết ${p.length} mục${nc ? " đã chọn" : ""}</button>` : ""}
         </div>
       </div>`;
     save();
@@ -129,7 +131,7 @@
   }
   function draw(all) {
     const p = N.shuffle(pool());
-    picked = all ? p : p.slice(0, clampN(st.n)); mode = "cards"; session();
+    picked = all ? p : p.slice(0, Math.min(clampN(st.n), p.length)); mode = "cards"; session();
   }
 
   root.addEventListener("click", e => {
@@ -143,15 +145,16 @@
     }
     else if (b.hasAttribute("data-clear")) { chosen().forEach(k => sel.delete(k)); keep(setup); }
     else if (d.setn) { st.n = +d.setn; keep(setup); }
-    else if (b.hasAttribute("data-dec")) { st.n = clampN(st.n - 1); keep(setup); }
-    else if (b.hasAttribute("data-inc")) { st.n = clampN(st.n + 1); keep(setup); }
+    else if (b.hasAttribute("data-dec")) { st.n = clampN(Math.min(st.n, pool().length) - 1); keep(setup); }
+    else if (b.hasAttribute("data-inc")) { st.n = Math.min(pool().length, clampN(Math.min(st.n, pool().length) + 1)); keep(setup); }
+    else if (b.hasAttribute("data-selall")) { POOLS[st.tab].forEach(it => sel.add(it.key)); keep(setup); }
     else if (b.hasAttribute("data-draw")) draw(false);
     else if (b.hasAttribute("data-all")) draw(true);
     else if (b.hasAttribute("data-redraw")) draw(false);
     else if (b.hasAttribute("data-back")) setup();
     else if (d.mode) { mode = d.mode; run(); }
   });
-  root.addEventListener("change", e => { if (e.target.matches("[data-n]")) { st.n = clampN(e.target.value); keep(setup); } });
+  root.addEventListener("change", e => { if (e.target.matches("[data-n]")) { st.n = Math.min(clampN(e.target.value), pool().length); keep(setup); } });
   /* Vẽ lại màn chọn mà không làm trang nhảy lên đầu và giữ ô "chọn từng chữ" đang mở. */
   function keep(fn) {
     const y = scrollY, open = !!root.querySelector(".pr-more[open]"); fn();

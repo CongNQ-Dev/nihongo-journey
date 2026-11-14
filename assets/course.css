@@ -213,3 +213,11 @@ details.answers summary { cursor: pointer; color: var(--accent); }
 @media print { [data-practice] { display: none; } }
 .pr-sess-head .btn { white-space: nowrap; padding: .4rem .75rem; font-size: .8rem; }
 .pr-sess-head strong { font-size: .9rem; text-align: center; }
+
+.pr-quick { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 .7rem; }
+.pr-max { font-size: .75rem; color: var(--muted); }
+.pr-groups { margin-bottom: 1.2rem; }
+.pr-more { margin: 1rem 0 1.4rem; }
+.pr-more[open] summary { margin-bottom: .6rem; }
+.pr-dock { padding: 1rem 1rem 1.1rem; margin: 1.4rem -1rem 0; border-radius: 12px 12px 0 0; }
+@media (max-width: 480px) { .pr-dock { margin-left: -.5rem; margin-right: -.5rem; padding: .8rem .7rem 1rem; } .btn.big { flex: 1 1 100%; } }
