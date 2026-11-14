@@ -60,14 +60,22 @@
   const isNew = id => !load()[id];
 
   /* ---------- Flashcard ---------- */
-  function deck(el) {
-    const review = el.hasAttribute("data-due");
-    let queue = (window.CARDS || []).filter(c => review ? isDue(c.id) : String(c.lesson) === el.dataset.lesson);
-    if (review) queue.sort(() => Math.random() - .5);
+  /* Luyện tự do: Nihongo.deck(el, { cards: [...], onDone }) — không ghi vào lịch ôn. Thẻ kana không có ảnh vẫn chạy. */
+  function deck(el, opt) {
+    const practice = !!(opt && opt.cards), review = !practice && el.hasAttribute("data-due");
+    let queue = practice ? opt.cards.slice() : (window.CARDS || []).filter(c => review ? isDue(c.id) : String(c.lesson) === el.dataset.lesson);
+    if (review || practice) shuffle(queue);
     const total = queue.length; let done = 0;
+    const mode = practice ? "Luyện tự chọn" : review ? "Ôn tập" : "Học mới";
+    const mark = (c, ok) => { if (!practice) grade(c.id, ok); queue.shift(); if (ok) done++; else queue.push(c); show(); };
     el.classList.add("deck");
     function show() {
       el.innerHTML = "";
+      if (!queue.length && practice) {
+        const d = $("div", "deck-done", `Xong ${total} thẻ. Luyện tự chọn không thay đổi lịch ôn hằng ngày. <button class="btn primary" data-again>Làm lại lượt này</button>`);
+        d.querySelector("[data-again]").onclick = () => deck(el, opt);
+        el.append(d); if (opt.onDone) opt.onDone(); return;
+      }
       if (!queue.length) {
         const fresh = (window.CARDS || []).filter(c => isNew(c.id)).length;
         el.append($("div", "deck-done", review && !total
@@ -77,12 +85,14 @@
       }
       const c = queue[0];
       if (c.type === "vocab") return showVocab(c);
-      const hl = c.word.replace(c.glyph, `<b>${c.glyph}</b>`);
-      el.append($("div", "deck-bar", `<span>Thẻ ${done + 1} / ${total}</span><span>${review ? "Ôn tập" : "Học mới"}</span>`));
+      const hl = c.word ? c.word.replace(c.glyph, `<b>${c.glyph}</b>`) : "";
+      el.append($("div", "deck-bar", `<span>Thẻ ${done + 1} / ${total}</span><span>${mode}</span>`));
       const card = $("div", "fc");
-      const photo = $("figure", "fc-photo" + (review ? " veiled" : ""));
+      const photo = $("figure", "fc-photo" + (review || practice ? " veiled" : "") + (c.img ? "" : " noimg"));
       photo.style.margin = 0;
-      photo.innerHTML = `<img src="${BASE}${c.img}" alt="${review ? "" : c.meaning}"><div class="fc-glyph${[...c.glyph].length > 1 ? " long" : ""}">${c.glyph}</div><figcaption>Ảnh: ${c.credit}</figcaption>`;
+      photo.innerHTML = c.img
+        ? `<img src="${BASE}${c.img}" alt="${review || practice ? "" : c.meaning}"><div class="fc-glyph${[...c.glyph].length > 1 ? " long" : ""}">${c.glyph}</div><figcaption>Ảnh: ${c.credit}</figcaption>`
+        : `<div class="fc-big jp">${c.glyph}</div>`;
       const body = $("div", "fc-body");
       body.innerHTML = `<p class="fc-prompt">Chữ này đọc là gì? Đọc to lên, rồi lật thẻ.</p>
         <div class="fc-actions"><button class="btn primary" data-act="flip">Lật thẻ</button></div>`;
@@ -91,22 +101,18 @@
         const act = e.target.dataset.act; if (!act) return;
         if (act === "flip") {
           photo.classList.remove("veiled"); speak(c.glyph);
-          body.innerHTML = `<p class="fc-answer"><span class="sound">${c.sound}</span><span class="hint">${c.vn}</span>
+          body.innerHTML = `<p class="fc-answer"><span class="sound">${c.sound}</span><span class="hint">${c.vn || ""}</span>
               <button class="say" data-say="${c.glyph}">nghe lại</button></p>
-            <p class="fc-word"><span class="jp">${hl}</span> &nbsp;${c.romaji} — ${c.meaning}
-              <button class="say" data-say="${c.word}">nghe từ</button></p>
+            ${c.word ? `<p class="fc-word"><span class="jp">${hl}</span> &nbsp;${c.romaji} — ${c.meaning}
+              <button class="say" data-say="${c.word}">nghe từ</button></p>` : ""}
             <div class="fc-actions"><button class="btn again" data-act="no">Chưa nhớ</button>
               <button class="btn ok" data-act="yes">Nhớ rồi</button></div>`;
-        } else {
-          const ok = act === "yes"; grade(c.id, ok); queue.shift();
-          if (ok) done++; else queue.push(c);
-          show();
-        }
+        } else mark(c, act === "yes");
       });
     }
     /* Thẻ từ vựng: mặt trước chỉ có chữ (ảnh che kín vì ảnh lộ nghĩa), mặt sau có nghĩa + câu ví dụ. */
     function showVocab(c) {
-      el.append($("div", "deck-bar", `<span>Thẻ ${done + 1} / ${total}</span><span>${review ? "Ôn tập" : "Học mới"} · từ vựng</span>`));
+      el.append($("div", "deck-bar", `<span>Thẻ ${done + 1} / ${total}</span><span>${mode} · từ vựng</span>`));
       const card = $("div", "fc vocab");
       const photo = $("figure", "fc-photo veiled");
       photo.style.margin = 0;
@@ -124,11 +130,7 @@
             <p class="fc-word"><span class="jp">${c.ex}</span> <button class="say" data-say="${c.ex}">nghe câu</button><br><span class="hint">${c.exvn}</span></p>
             <div class="fc-actions"><button class="btn again" data-act="no">Chưa nhớ</button>
               <button class="btn ok" data-act="yes">Nhớ rồi</button></div>`;
-        } else {
-          const ok = act === "yes"; grade(c.id, ok); queue.shift();
-          if (ok) done++; else queue.push(c);
-          show();
-        }
+        } else mark(c, act === "yes");
       });
     }
     show();
@@ -365,5 +367,5 @@
     document.querySelectorAll("[data-due-count]").forEach(e => e.textContent = (window.CARDS || []).filter(c => isDue(c.id)).length);
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init) : init();
-  window.Nihongo = { speak };
+  window.Nihongo = { speak, deck, reader, listen, shuffle, esc };
 })();

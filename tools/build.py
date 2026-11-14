@@ -294,7 +294,7 @@ def reference(k):
 <li>Trợ từ: は đọc “wa”, へ đọc “e”, を đọc “o”.</li>
 </ul>""")
     other = "hiragana" if k else "katakana"
-    body.append(f'<nav class="next"><a href="../index.html">Mục lục</a><a href="{other}.html">Bảng {other}</a><a href="../flashcards.html">Ôn flashcard</a></nav>')
+    body.append(f'<nav class="next"><a href="../index.html">Mục lục</a><a href="{other}.html">Bảng {other}</a><a href="../flashcards.html">Ôn flashcard</a><a href="../luyen-tap.html">Luyện tự chọn</a></nav>')
     return page(f"Tra cứu · Bảng {name}", "\n".join(body))
 
 
@@ -307,7 +307,7 @@ def index_html():
   <h1>Mục lục khoá học</h1>
   <p class="lede">Hôm nay có <span data-due-count>0</span> thẻ cần ôn. Ôn trước, học bài mới sau.</p>
 </header>
-<p><a class="btn primary" href="flashcards.html" style="text-decoration:none">Ôn flashcard hôm nay</a></p>
+<p><a class="btn primary" href="flashcards.html" style="text-decoration:none">Ôn flashcard hôm nay</a> <a class="btn" href="luyen-tap.html" style="text-decoration:none">Luyện tự chọn · bốc ngẫu nhiên</a></p>
 <h2>Giai đoạn 0 · Bảng chữ cái</h2>
 <ol class="lesson-list">{items}</ol>
 <p>Học theo thứ tự, mỗi ngày tối đa một bài mới. Xong bài 0011 là đọc được Minna no Nihongo bài 1.</p>
