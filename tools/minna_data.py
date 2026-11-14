@@ -39,7 +39,7 @@ LESSONS = {}
 
 # =====================================================================================
 LESSONS[12] = dict(
-    slug="0012-minna-01-gioi-thieu", minna=1, title="Giới thiệu bản thân", jp="わたしは ナムです",
+    slug="0012-minna-01-introductions", minna=1, title="Giới thiệu bản thân", jp="わたしは ナムです",
     lede="Bài 1 của Minna: câu danh từ “A là B”. Chỉ với bốn mẫu câu là bạn đã nói được tên, quốc tịch, nghề nghiệp và hỏi lại người đối diện.",
     win="Nói và viết được 4 câu tự giới thiệu (tên, quốc tịch, nghề/nơi làm, hỏi lại người kia) — mở đầu bằng はじめまして, kết thúc bằng どうぞ よろしく おねがいします.",
     review=[
@@ -123,7 +123,7 @@ LESSONS[12] = dict(
 
 # =====================================================================================
 LESSONS[13] = dict(
-    slug="0013-minna-02-do-vat", minna=2, title="Đồ vật: これ・それ・あれ", jp="これは なんですか",
+    slug="0013-minna-02-objects", minna=2, title="Đồ vật: これ・それ・あれ", jp="これは なんですか",
     lede="Bài 2: chỉ vào đồ vật và hỏi “cái này là gì, của ai”. Tiếng Nhật chia ba khoảng cách — gần tôi, gần bạn, xa cả hai.",
     win="Chỉ vào đồ vật quanh bạn và nói đúng これ／それ／あれ; hỏi và trả lời “cái này là gì?”, “của ai?”.",
     review=[
@@ -206,7 +206,7 @@ LESSONS[13] = dict(
 
 # =====================================================================================
 LESSONS[14] = dict(
-    slug="0014-minna-03-noi-chon-gia-tien", minna=3, title="Nơi chốn và giá tiền", jp="トイレは どこですか",
+    slug="0014-minna-03-places-prices", minna=3, title="Nơi chốn và giá tiền", jp="トイレは どこですか",
     lede="Bài 3: hỏi đường trong toà nhà, hỏi tầng, hỏi xuất xứ và giá tiền. Bạn cũng học đếm tới hàng vạn — số đọc lệch ở 300, 600, 800, 3000, 8000.",
     win="Hỏi được “~ ở đâu?”, “bao nhiêu tiền?”, nghe hiểu giá tiền và số tầng; mua một món bằng 「これを ください」.",
     review=[
@@ -237,7 +237,7 @@ LESSONS[14] = dict(
          "<p>の còn chỉ nơi sản xuất hay hãng: <span class=\"jp\">イタリアの くつ</span>. Hỏi bằng どこの. Giá tiền: N は いくらですか.</p>",
          [("これは どこの くつですか。…イタリアの くつです。", "Giày này của nước nào? …Giày Ý."), ("この とけいは いくらですか。…にまん さんぜんえんです。", "Đồng hồ này bao nhiêu tiền? …23.000 yên.")]),
         ("Số đếm tới 99.999", "",
-         f"<p>Ghép như tiếng Việt: 350 = さんびゃく ごじゅう. Tiếng Nhật đếm theo <strong>vạn</strong> (まん = 10.000): 23.000 = にまん さんぜん. Các số đọc lệch cần thuộc{cite('num')}:</p><div class=\"table-wrap\"><table><tr><td>300 <span class=\"jp\" data-say=\"さんびゃく\">さんびゃく</span></td><td>600 <span class=\"jp\" data-say=\"ろっぴゃく\">ろっぴゃく</span></td><td>800 <span class=\"jp\" data-say=\"はっぴゃく\">はっぴゃく</span></td></tr><tr><td>3000 <span class=\"jp\" data-say=\"さんぜん\">さんぜん</span></td><td>8000 <span class=\"jp\" data-say=\"はっせん\">はっせん</span></td><td>10.000 <span class=\"jp\" data-say=\"いちまん\">いちまん</span></td></tr></table></div><p>Tầng: いっかい, にかい, <strong>さんがい</strong>, よんかい, ごかい, <strong>ろっかい</strong>, ななかい, <strong>はっかい</strong>. Bảng đầy đủ: <a href=\"../reference/so-dem.html\">Số, giờ, ngày</a>.</p>",
+         f"<p>Ghép như tiếng Việt: 350 = さんびゃく ごじゅう. Tiếng Nhật đếm theo <strong>vạn</strong> (まん = 10.000): 23.000 = にまん さんぜん. Các số đọc lệch cần thuộc{cite('num')}:</p><div class=\"table-wrap\"><table><tr><td>300 <span class=\"jp\" data-say=\"さんびゃく\">さんびゃく</span></td><td>600 <span class=\"jp\" data-say=\"ろっぴゃく\">ろっぴゃく</span></td><td>800 <span class=\"jp\" data-say=\"はっぴゃく\">はっぴゃく</span></td></tr><tr><td>3000 <span class=\"jp\" data-say=\"さんぜん\">さんぜん</span></td><td>8000 <span class=\"jp\" data-say=\"はっせん\">はっせん</span></td><td>10.000 <span class=\"jp\" data-say=\"いちまん\">いちまん</span></td></tr></table></div><p>Tầng: いっかい, にかい, <strong>さんがい</strong>, よんかい, ごかい, <strong>ろっかい</strong>, ななかい, <strong>はっかい</strong>. Bảng đầy đủ: <a href=\"../reference/numbers-counters.html\">Số, giờ, ngày</a>.</p>",
          []),
     ],
     drill=[
@@ -292,7 +292,7 @@ LESSONS[14] = dict(
 
 # =====================================================================================
 LESSONS[15] = dict(
-    slug="0015-minna-04-gio-giac-dong-tu", minna=4, title="Giờ giấc và động từ ～ます", jp="いま なんじですか",
+    slug="0015-minna-04-time-verbs", minna=4, title="Giờ giấc và động từ ～ます", jp="いま なんじですか",
     lede="Bài 4: động từ đầu tiên. Bốn dạng ～ます／～ません／～ました／～ませんでした là đủ để kể lịch ngày của bạn — hôm qua, hôm nay, ngày mai.",
     win="Nói giờ chính xác; kể bạn dậy, làm việc, học, ngủ lúc mấy giờ, ở hiện tại và quá khứ, khẳng định và phủ định.",
     review=[
@@ -312,7 +312,7 @@ LESSONS[15] = dict(
     ],
     grammar=[
         ("いま ～じ ～ふん です", "Bây giờ là ~ giờ ~ phút",
-         "<p>Giờ đọc lệch: <span class=\"jp\" data-say=\"よじ\">よじ</span> (4h), <span class=\"jp\" data-say=\"しちじ\">しちじ</span> (7h), <span class=\"jp\" data-say=\"くじ\">くじ</span> (9h). Phút: ふん sau 2, 5, 7, 9; ぷん sau 1, 3, 4, 6, 8, 10 (いっぷん, さんぷん, よんぷん, ろっぷん, はっぷん, じゅっぷん). Bảng đầy đủ: <a href=\"../reference/so-dem.html\">Số, giờ, ngày</a>.</p>",
+         "<p>Giờ đọc lệch: <span class=\"jp\" data-say=\"よじ\">よじ</span> (4h), <span class=\"jp\" data-say=\"しちじ\">しちじ</span> (7h), <span class=\"jp\" data-say=\"くじ\">くじ</span> (9h). Phút: ふん sau 2, 5, 7, 9; ぷん sau 1, 3, 4, 6, 8, 10 (いっぷん, さんぷん, よんぷん, ろっぷん, はっぷん, じゅっぷん). Bảng đầy đủ: <a href=\"../reference/numbers-counters.html\">Số, giờ, ngày</a>.</p>",
          [("いま なんじですか。…しちじ はんです。", "Mấy giờ rồi? …7 giờ rưỡi."), ("ごご よじ じゅっぷんです。", "4 giờ 10 phút chiều.")]),
         ("V ます／ません／ました／ませんでした", "làm / không làm / đã làm / đã không làm",
          f"<p>Thể ～ます là thể lịch sự.{cite('polite')} Hiện tại dùng cho cả <em>thói quen</em> và <em>tương lai</em> — tiếng Nhật không có thì tương lai riêng.</p><div class=\"table-wrap\"><table><tr><th></th><th>Khẳng định</th><th>Phủ định</th></tr><tr><td>Hiện tại / tương lai</td><td class=\"jp\">おきます</td><td class=\"jp\">おきません</td></tr><tr><td>Quá khứ</td><td class=\"jp\">おきました</td><td class=\"jp\">おきませんでした</td></tr></table></div>",
@@ -377,7 +377,7 @@ LESSONS[15] = dict(
 
 # =====================================================================================
 LESSONS[16] = dict(
-    slug="0016-minna-05-di-den-ve", minna=5, title="Đi đâu, bằng gì, với ai", jp="でんしゃで いきます",
+    slug="0016-minna-05-going-coming", minna=5, title="Đi đâu, bằng gì, với ai", jp="でんしゃで いきます",
     lede="Bài 5: ba động từ di chuyển いきます・きます・かえります, và ba trợ từ へ (hướng), で (phương tiện), と (cùng ai). Thêm ngày tháng — phần nhiều chỗ đọc lệch nhất của sơ cấp.",
     win="Kể một chuyến đi: đi đâu, khi nào, bằng gì, với ai; nói và nghe được ngày tháng.",
     review=[
@@ -409,7 +409,7 @@ LESSONS[16] = dict(
          f"<p>と + người = cùng với.{cite('noun')} Một mình là <span class=\"jp\">ひとりで</span> (không dùng と).</p>",
          [("ともだちと スーパーへ いきます。", "Tôi đi siêu thị với bạn."), ("ひとりで にほんへ きました。", "Tôi đến Nhật một mình.")]),
         ("いつ ／ ngày tháng", "khi nào",
-         "<p>いつ không đi với に. Ngày 1–10 và vài ngày khác đọc theo kiểu Nhật cổ — phải học thuộc:</p><div class=\"table-wrap\"><table><tr><td>1 <span class=\"jp\">ついたち</span></td><td>2 <span class=\"jp\">ふつか</span></td><td>3 <span class=\"jp\">みっか</span></td><td>4 <span class=\"jp\">よっか</span></td><td>5 <span class=\"jp\">いつか</span></td></tr><tr><td>6 <span class=\"jp\">むいか</span></td><td>7 <span class=\"jp\">なのか</span></td><td>8 <span class=\"jp\">ようか</span></td><td>9 <span class=\"jp\">ここのか</span></td><td>10 <span class=\"jp\">とおか</span></td></tr><tr><td>14 <span class=\"jp\">じゅうよっか</span></td><td>20 <span class=\"jp\">はつか</span></td><td>24 <span class=\"jp\">にじゅうよっか</span></td><td colspan=\"2\">còn lại: số + にち</td></tr></table></div><p>Tháng: số + がつ, trừ <span class=\"jp\">しがつ</span> (4), <span class=\"jp\">しちがつ</span> (7), <span class=\"jp\">くがつ</span> (9). Bảng đầy đủ có nút nghe: <a href=\"../reference/so-dem.html\">Số, giờ, ngày</a>.</p>",
+         "<p>いつ không đi với に. Ngày 1–10 và vài ngày khác đọc theo kiểu Nhật cổ — phải học thuộc:</p><div class=\"table-wrap\"><table><tr><td>1 <span class=\"jp\">ついたち</span></td><td>2 <span class=\"jp\">ふつか</span></td><td>3 <span class=\"jp\">みっか</span></td><td>4 <span class=\"jp\">よっか</span></td><td>5 <span class=\"jp\">いつか</span></td></tr><tr><td>6 <span class=\"jp\">むいか</span></td><td>7 <span class=\"jp\">なのか</span></td><td>8 <span class=\"jp\">ようか</span></td><td>9 <span class=\"jp\">ここのか</span></td><td>10 <span class=\"jp\">とおか</span></td></tr><tr><td>14 <span class=\"jp\">じゅうよっか</span></td><td>20 <span class=\"jp\">はつか</span></td><td>24 <span class=\"jp\">にじゅうよっか</span></td><td colspan=\"2\">còn lại: số + にち</td></tr></table></div><p>Tháng: số + がつ, trừ <span class=\"jp\">しがつ</span> (4), <span class=\"jp\">しちがつ</span> (7), <span class=\"jp\">くがつ</span> (9). Bảng đầy đủ có nút nghe: <a href=\"../reference/numbers-counters.html\">Số, giờ, ngày</a>.</p>",
          [("いつ にほんへ きましたか。…さんがつ じゅうごにちに きました。", "Bạn đến Nhật khi nào? …Ngày 15 tháng 3."), ("たんじょうびは いつですか。…しがつ ようかです。", "Sinh nhật bạn khi nào? …Ngày 8 tháng 4.")]),
         ("～よ", "đấy",
          f"<p>Đặt cuối câu khi cho người nghe biết điều họ chưa biết.{cite('adv')} Dùng nhiều quá nghe như dạy đời.</p>",
@@ -466,7 +466,7 @@ LESSONS[16] = dict(
 
 # =====================================================================================
 LESSONS[17] = dict(
-    slug="0017-minna-06-an-uong-ru-re", minna=6, title="Ăn gì, ở đâu, đi cùng không?", jp="いっしょに いきませんか",
+    slug="0017-minna-06-eating-inviting", minna=6, title="Ăn gì, ở đâu, đi cùng không?", jp="いっしょに いきませんか",
     lede="Bài 6: tân ngữ を, nơi hành động で, và cách rủ người khác ～ませんか／～ましょう. Đây là bài giúp bạn hẹn hò, rủ đồng nghiệp đi ăn.",
     win="Kể bạn làm gì ở đâu; rủ ai đó làm việc gì cùng, đồng ý hoặc từ chối khéo.",
     review=[
@@ -553,7 +553,7 @@ LESSONS[17] = dict(
 
 # =====================================================================================
 LESSONS[18] = dict(
-    slug="0018-minna-07-cho-va-nhan", minna=7, title="Bằng cái gì? Cho và nhận", jp="はしで たべます",
+    slug="0018-minna-07-giving-receiving", minna=7, title="Bằng cái gì? Cho và nhận", jp="はしで たべます",
     lede="Bài 7: で còn chỉ công cụ và ngôn ngữ; に chỉ người nhận / người cho. Thêm もう～ました — “đã … chưa?” — câu hỏi bạn sẽ nghe mỗi ngày ở Nhật.",
     win="Nói làm gì bằng công cụ gì; kể bạn đã tặng / nhận / mượn gì từ ai; hỏi một từ tiếng Nhật nói thế nào.",
     review=[
@@ -637,7 +637,7 @@ LESSONS[18] = dict(
 
 # =====================================================================================
 LESSONS[19] = dict(
-    slug="0019-minna-08-tinh-tu", minna=8, title="Tính từ い và な", jp="きれいな まちですね",
+    slug="0019-minna-08-adjectives", minna=8, title="Tính từ い và な", jp="きれいな まちですね",
     lede="Bài 8: miêu tả người, nơi chốn, đồ ăn. Tiếng Nhật có hai loại tính từ, chia phủ định và gắn vào danh từ theo hai cách khác nhau.",
     win="Miêu tả thành phố, công việc, món ăn bằng tính từ — khẳng định, phủ định, gắn trước danh từ; hỏi “… thế nào?”.",
     review=[
@@ -726,7 +726,7 @@ LESSONS[19] = dict(
 
 # =====================================================================================
 LESSONS[20] = dict(
-    slug="0020-minna-09-thich-gioi-hieu", minna=9, title="Thích, giỏi, hiểu — trợ từ が", jp="にほんの りょうりが すきです",
+    slug="0020-minna-09-likes-skills", minna=9, title="Thích, giỏi, hiểu — trợ từ が", jp="にほんの りょうりが すきです",
     lede="Bài 9: nói sở thích, khả năng, mức độ hiểu, và giải thích lý do bằng から. Trợ từ が xuất hiện lần đầu với vai trò đánh dấu đối tượng.",
     win="Nói bạn thích / ghét / giỏi / hiểu gì và ở mức nào; nói lý do bạn học tiếng Nhật bằng から.",
     review=[
@@ -811,7 +811,7 @@ LESSONS[20] = dict(
 
 # =====================================================================================
 LESSONS[21] = dict(
-    slug="0021-minna-10-co-o-dau", minna=10, title="Có gì, ở đâu — あります・います", jp="つくえの うえに ほんが あります",
+    slug="0021-minna-10-existence-location", minna=10, title="Có gì, ở đâu — あります・います", jp="つくえの うえに ほんが あります",
     lede="Bài 10: nói vật gì, ai đang ở đâu. Hai động từ tồn tại あります (vật) và います (người, động vật), cùng 11 từ chỉ vị trí.",
     win="Tả căn phòng và khu phố của bạn: cái gì ở đâu, ai ở đâu; hỏi được “~ ở đâu?” bằng あります／います.",
     review=[

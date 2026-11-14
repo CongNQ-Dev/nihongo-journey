@@ -131,15 +131,15 @@ def page(title, body, base="../"):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
-<link rel="stylesheet" href="{base}assets/course.css">
+<link rel="stylesheet" href="{base}assets/course.css?v=8">
 </head>
 <body>
 <main>
 {body}
 </main>
-<script src="{base}assets/cards.js"></script>
+<script src="{base}assets/cards.js?v=8"></script>
 <script src="{base}assets/strokes.js"></script>
-<script src="{base}assets/nihongo.js" data-base="{base}assets/"></script>
+<script src="{base}assets/nihongo.js?v=8" data-base="{base}assets/"></script>
 </body>
 </html>
 """
@@ -294,7 +294,7 @@ def reference(k):
 <li>Trợ từ: は đọc “wa”, へ đọc “e”, を đọc “o”.</li>
 </ul>""")
     other = "hiragana" if k else "katakana"
-    body.append(f'<nav class="next"><a href="../index.html">Mục lục</a><a href="{other}.html">Bảng {other}</a><a href="../flashcards.html">Ôn flashcard</a><a href="../luyen-tap.html">Luyện tự chọn</a></nav>')
+    body.append(f'<nav class="next"><a href="../index.html">Mục lục</a><a href="{other}.html">Bảng {other}</a><a href="../flashcards.html">Ôn flashcard</a><a href="../practice.html">Luyện tự chọn</a></nav>')
     return page(f"Tra cứu · Bảng {name}", "\n".join(body))
 
 
@@ -307,7 +307,7 @@ def index_html():
   <h1>Mục lục khoá học</h1>
   <p class="lede">Hôm nay có <span data-due-count>0</span> thẻ cần ôn. Ôn trước, học bài mới sau.</p>
 </header>
-<p><a class="btn primary" href="flashcards.html" style="text-decoration:none">Ôn flashcard hôm nay</a> <a class="btn" href="luyen-tap.html" style="text-decoration:none">Luyện tự chọn · bốc ngẫu nhiên</a></p>
+<p><a class="btn primary" href="flashcards.html" style="text-decoration:none">Ôn flashcard hôm nay</a> <a class="btn" href="practice.html" style="text-decoration:none">Luyện tự chọn · bốc ngẫu nhiên</a></p>
 <h2>Giai đoạn 0 · Bảng chữ cái</h2>
 <ol class="lesson-list">{items}</ol>
 <p>Học theo thứ tự, mỗi ngày tối đa một bài mới. Xong bài 0011 là đọc được Minna no Nihongo bài 1.</p>
@@ -315,7 +315,7 @@ def index_html():
 <ol class="lesson-list">{minna}</ol>
 <p>Mỗi bài Minna dài hơn bài kana (60–75 phút) — chia hai buổi nếu cần: buổi 1 từ vựng + ngữ pháp, buổi 2 luyện + sách + viết. Cần có sách Minna, bản dịch tiếng Việt và file nghe.</p>
 <h2>Tra cứu</h2>
-<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/ngu-phap-minna.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/so-dem.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li></ul>"""
+<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li></ul>"""
     return page("Mục lục khoá tiếng Nhật", body, base="")
 
 
@@ -328,8 +328,8 @@ def main():
         open(os.path.join(ROOT, "reference", ("katakana" if k else "hiragana") + ".html"), "w", encoding="utf-8").write(reference(k))
     for n in MINNA:
         open(os.path.join(ROOT, "lessons", MINNA[n]["slug"] + ".html"), "w", encoding="utf-8").write(minna_pages.lesson_html(n, LESSON_FILES, page))
-    open(os.path.join(ROOT, "reference", "ngu-phap-minna.html"), "w", encoding="utf-8").write(minna_pages.grammar_reference(page, LESSON_FILES))
-    open(os.path.join(ROOT, "reference", "so-dem.html"), "w", encoding="utf-8").write(minna_pages.numbers_reference(page))
+    open(os.path.join(ROOT, "reference", "minna-grammar.html"), "w", encoding="utf-8").write(minna_pages.grammar_reference(page, LESSON_FILES))
+    open(os.path.join(ROOT, "reference", "numbers-counters.html"), "w", encoding="utf-8").write(minna_pages.numbers_reference(page))
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(index_html())
     print(f"{len(cards)} thẻ, {len(LESSONS) + len(MINNA)} bài, 4 bảng tra cứu, index.html")
 

@@ -39,7 +39,7 @@
 - Thẻ từ vựng (type "vocab", id "v-<romaji>"): mặt trước chỉ chữ, ảnh bị che (ảnh lộ nghĩa). Chỉ từ chụp ảnh được
   mới có thẻ; từ chức năng (だれ, いくら, とても…) nằm trong bảng + bài tập, không có thẻ.
 - Component mới trong `assets/nihongo.js`: data-build (ghép câu), data-dialog (hội thoại + nói đuổi),
-  data-num (nghe giá/giờ/ngày/tầng — máy tự sinh cách đọc kana). Reference: `ngu-phap-minna.html`, `so-dem.html`.
+  data-num (nghe giá/giờ/ngày/tầng — máy tự sinh cách đọc kana). Reference: `minna-grammar.html`, `numbers-counters.html`.
 - Kanji: mới chỉ hiện để nhận mặt (cột kanji). Chưa có lộ trình kanji — cần bàn với người học trước Minna bài 11.
 - Mỗi bài Minna 60–75 phút; khuyên chia 2 buổi. Bài 11+ chưa soạn.
 - Người học yêu cầu (2026-11-14): mọi bài có từ vựng phải có phần LUYỆN ĐỌC từ vựng (data-read: nhìn chữ → đọc to →
@@ -49,7 +49,7 @@
   bài “tự đặt câu”. Từ chức năng cũng có câu ví dụ + nút nghe (tools/minna_word_ex.py, khớp 1-1 với words).
 
 ## Luyện tự chọn (2026-11-14, người học yêu cầu)
-- `luyen-tap.html` + `assets/practice.js`: chọn chữ/từ (hiragana, katakana đủ bảng kể cả âm ghép; từ vựng Minna theo bài),
+- `practice.html` + `assets/practice.js`: chọn chữ/từ (hiragana, katakana đủ bảng kể cả âm ghép; từ vựng Minna theo bài),
   chọn số N, bốc ngẫu nhiên N mục (từ mục đã chọn, hoặc cả kho nếu chưa chọn) → Flashcard / Gõ cách đọc / Nghe chọn.
   KHÔNG ghi vào lịch Leitner. Lựa chọn lưu ở localStorage `nihongo-practice-v1`. Từ vựng bài mới tự vào kho qua cards.js.
 - Luồng 2 màn (sửa 2026-11-14 sau phản hồi UX): màn chọn có thanh Bốc dính đáy; màn luyện ẩn danh sách mục vừa bốc (tránh lộ đáp án). Lựa chọn chỉ áp dụng cho tab đang mở.

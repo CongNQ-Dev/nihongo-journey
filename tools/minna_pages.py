@@ -155,7 +155,7 @@ def lesson_html(n, files, page):
     s += 1
     out.append(section(s, "Nhớ lại từ trí nhớ"))
     out.append('<div class="recall">Nghỉ 5 phút, rồi không nhìn màn hình:<ol>' + "".join(f"<li>{r}</li>" for r in L["recall"])
-               + '</ol>Tự chấm bằng bài này và <a href="../reference/ngu-phap-minna.html">bảng ngữ pháp</a>. Chỗ phải cố mới nhớ ra chính là chỗ đang được ghi vào trí nhớ dài hạn.</div>')
+               + '</ol>Tự chấm bằng bài này và <a href="../reference/minna-grammar.html">bảng ngữ pháp</a>. Chỗ phải cố mới nhớ ra chính là chỗ đang được ghi vào trí nhớ dài hạn.</div>')
 
     s += 1
     u, t, d = L["primary"]
@@ -212,7 +212,7 @@ def grammar_reference(page, files):
             ex = exs[0] if exs else ("", "")
             rows.append(f'<tr><td class="jp">{pat}</td><td>{pvn}</td><td>' + (f'<span class="jp" data-say="{E(ex[0])}">{ex[0]}</span><br><small>{ex[1]}</small>' if ex[0] else "") + "</td></tr>")
         body.append('<div class="table-wrap"><table>' + "".join(rows) + "</table></div>")
-    body.append('<nav class="next"><a href="../index.html">Mục lục</a><a href="so-dem.html">Số, giờ, ngày</a><a href="../flashcards.html">Ôn flashcard</a></nav>')
+    body.append('<nav class="next"><a href="../index.html">Mục lục</a><a href="numbers-counters.html">Số, giờ, ngày</a><a href="../flashcards.html">Ôn flashcard</a></nav>')
     return page("Tra cứu · Ngữ pháp Minna 1–10", "\n".join(body))
 
 
@@ -247,7 +247,7 @@ def numbers_reference(page):
     body = f"""<header class="lesson-head">
   <div class="kicker">Tra cứu · Minna bài 1–5 · bấm chữ để nghe</div>
   <h1>Số, giờ, ngày</h1>
-  <p class="lede">★ = cách đọc lệch, phải học thuộc. Luyện nghe có chấm điểm nằm trong bài <a href="../lessons/0014-minna-03-noi-chon-gia-tien.html">0014</a> (giá tiền), <a href="../lessons/0015-minna-04-gio-giac-dong-tu.html">0015</a> (giờ), <a href="../lessons/0016-minna-05-di-den-ve.html">0016</a> (ngày).</p>
+  <p class="lede">★ = cách đọc lệch, phải học thuộc. Luyện nghe có chấm điểm nằm trong bài <a href="../lessons/0014-minna-03-places-prices.html">0014</a> (giá tiền), <a href="../lessons/0015-minna-04-time-verbs.html">0015</a> (giờ), <a href="../lessons/0016-minna-05-going-coming.html">0016</a> (ngày).</p>
 </header>
 <h2>0 – 10</h2><div class="table-wrap"><table>{t1}</table></div>
 <p>4 còn đọc し, 7 còn đọc しち, 9 còn đọc く — gặp lại trong giờ và tháng. Ghép số: 11 じゅういち, 20 にじゅう, 47 よんじゅうなな.</p>
@@ -259,5 +259,5 @@ def numbers_reference(page):
 <h2>Tháng</h2><div class="table-wrap"><table>{t4}</table></div>
 <h2>Ngày trong tháng</h2><div class="table-wrap"><table class="grid-table">{t5}</table></div>
 <h2>Tầng</h2><div class="table-wrap"><table class="grid-table"><tr>{t7}</tr></table></div>
-<nav class="next"><a href="../index.html">Mục lục</a><a href="ngu-phap-minna.html">Ngữ pháp Minna 1–10</a><a href="../flashcards.html">Ôn flashcard</a></nav>"""
+<nav class="next"><a href="../index.html">Mục lục</a><a href="minna-grammar.html">Ngữ pháp Minna 1–10</a><a href="../flashcards.html">Ôn flashcard</a></nav>"""
     return page("Tra cứu · Số, giờ, ngày", body)

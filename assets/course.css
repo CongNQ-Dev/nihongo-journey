@@ -169,7 +169,7 @@ details.answers summary { cursor: pointer; color: var(--accent); }
   .vocab-table td:last-child .say { margin-right: .9rem; }
 }
 
-/* ---------- Luyện tự chọn (luyen-tap.html) ---------- */
+/* ---------- Luyện tự chọn (practice.html) ---------- */
 [data-practice] { font-family: var(--font-ui); }
 .pr-tabs { display: flex; gap: .3rem; border-bottom: 1px solid var(--rule); margin: 1.2rem 0 .4rem; }
 .pr-tabs button { border: 0; background: none; padding: .55rem .9rem; font-size: .95rem; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
@@ -246,3 +246,24 @@ details.answers summary { cursor: pointer; color: var(--accent); }
 .rw-pads .pad .rw-score.good { color: var(--good); } .rw-pads .pad .rw-score.bad { color: var(--bad); }
 .rewrite .btn.suggest { box-shadow: 0 0 0 2px var(--accent); }
 .mode-switch { display: flex; gap: .5rem; margin: 0 0 1rem; }
+.rewrite .rw-tgl, .recog .rw-tgl { display: flex; gap: .4rem; justify-content: center; margin: 0 0 .7rem; }
+.rewrite.hide-ro:not(.revealed) .rw-ro, .rewrite.hide-vn:not(.revealed) .rw-vn { display: none; }
+.rewrite.hide-ro.hide-vn:not(.revealed) .rw-prompt::before { content: "Nghe rồi viết"; color: var(--muted); font-size: .9rem; margin-right: .5rem; }
+.recog .word { font-size: 2.6rem; margin: .2rem 0 .4rem; text-align: center; }
+.recog .rw-count { text-align: center; margin: 0 0 .8rem; }
+.recog .rc-opts { grid-template-columns: 1fr; }
+.recog .rc-opts button { text-align: left; padding: .7rem .9rem; }
+.recog .row { display: flex; gap: .5rem; justify-content: center; margin-top: .6rem; }
+
+/* Thẻ lật 3D: hai mặt chồng trong một ô lưới => luôn cùng kích thước */
+.fc3d { perspective: 1400px; }
+.fc-inner { display: grid; transform-style: preserve-3d; transition: transform .6s cubic-bezier(.4, .2, .2, 1); }
+.fc3d.flipped .fc-inner { transform: rotateY(180deg); }
+.fc3d .fc { grid-area: 1 / 1; display: flex; flex-direction: column; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+.fc3d .fc-back { transform: rotateY(180deg); }
+.fc3d .fc-photo { flex: none; }
+.fc3d .fc-body { flex: 1; display: flex; flex-direction: column; }
+.fc3d .fc-body .fc-actions { margin-top: auto; }
+.fc3d:not(.flipped) .fc-back, .fc3d.flipped .fc-front { pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { .fc-inner { transition: none; } }
+.rw-pads.mine-off canvas { visibility: hidden; }
