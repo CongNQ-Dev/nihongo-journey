@@ -59,6 +59,25 @@
   const isDue = id => { const c = load()[id]; return !!c && c.due <= Date.now(); };
   const isNew = id => !load()[id];
 
+  /* ---------- Video khẩu hình ----------
+     Mỗi mục: chars = các chữ kana dùng chung video này; id = mã YouTube (nhúng qua youtube-nocookie).
+     Thêm hàng khác (か, さ…) bằng cách thêm một dòng vào VIDEOS. */
+  const VIDEOS = [
+    { chars: "あいうえおアイウエオ", id: "D6CtlZEpXQk", title: "Japanese Vowel Pronunciation (A I U E O)", by: "Hana Japanese" },
+  ];
+  const videoFor = g => VIDEOS.find(v => [...v.chars].includes(g));
+  function openVideo(v) {
+    const m = $("div", "vid-modal", `<div class="vid-box" role="dialog" aria-label="Video khẩu hình">
+      <button class="vid-x" aria-label="Đóng">×</button>
+      <div class="vid-frame"><iframe src="https://www.youtube-nocookie.com/embed/${v.id}?rel=0&playsinline=1" title="${esc(v.title)}" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+      <p class="vid-cap">${esc(v.title)} · ${esc(v.by)} (YouTube)</p></div>`);
+    const close = () => m.remove();
+    m.addEventListener("click", e => { if (e.target === m || e.target.closest(".vid-x")) close(); });
+    document.addEventListener("keydown", function k(e) { if (e.key === "Escape") { close(); document.removeEventListener("keydown", k); } });
+    document.body.append(m);
+  }
+  document.addEventListener("click", e => { const b = e.target.closest("[data-video]"); if (b) { const v = VIDEOS.find(x => x.id === b.dataset.video); if (v) openVideo(v); } });
+
   /* ---------- Flashcard ---------- */
   /* Luyện tự do: Nihongo.deck(el, { cards: [...], onDone }) — không ghi vào lịch ôn. Thẻ kana không có ảnh vẫn chạy. */
   function deck(el, opt) {
@@ -88,29 +107,34 @@
       /* Hai mặt xếp chồng trong cùng một ô lưới nên luôn cao bằng nhau; lật bằng xoay 3D. */
       const face = (cls, veil, body) => {
         const photo = c.img
-          ? `<figure class="fc-photo${veil ? " veiled" : ""}" style="margin:0"><img src="${BASE}${c.img}" alt=""><div class="fc-glyph${[...big].length > 1 ? " long" : ""}">${big}</div><figcaption>Ảnh: ${c.credit}</figcaption></figure>`
+          ? `<figure class="fc-photo${veil ? " veiled" : ""}" style="margin:0"><img src="${BASE}${c.img}" alt=""><div class="fc-glyph${[...big].length > 1 ? " long" : ""}">${big}</div></figure>`
           : `<figure class="fc-photo noimg" style="margin:0"><div class="fc-big jp">${big}</div></figure>`;
         return `<div class="fc ${cls}">${photo}<div class="fc-body">${body}</div></div>`;
       };
       const hl = !vocab && c.word ? c.word.replace(c.glyph, `<b>${c.glyph}</b>`) : "";
-      const front = `<p class="fc-prompt">${vocab ? "Đọc to từ này, nói nghĩa tiếng Việt, rồi lật thẻ." : "Chữ này đọc là gì? Đọc to lên, rồi lật thẻ."}</p>
-        <div class="fc-actions"><button class="btn primary" data-act="flip">Lật thẻ</button>${vocab ? `<button class="say" data-say="${c.word}">nghe</button>` : ""}</div>`;
+      const front = `<p class="fc-prompt">${vocab ? "Đọc to từ này, nói nghĩa tiếng Việt." : "Chữ này đọc là gì? Đọc to lên."}</p>
+        <p class="fc-tap">Chạm vào thẻ để lật${vocab ? ` <button class="say" data-say="${c.word}">nghe</button>` : ""}</p>`;
       const back = (vocab
         ? `<p class="fc-answer"><span class="sound">${c.meaning}</span><span class="hint">${c.romaji}${c.kanji ? ` · <span class="jp">${c.kanji}</span>` : ""}</span>
             <button class="say" data-say="${c.word}">nghe lại</button></p>
           <p class="fc-word"><span class="jp">${c.ex}</span> <button class="say" data-say="${c.ex}">nghe câu</button><br><span class="hint">${c.exvn}</span></p>`
         : `<p class="fc-answer"><span class="sound">${c.sound}</span><span class="hint">${c.vn || ""}</span>
-            <button class="say" data-say="${c.glyph}">nghe lại</button></p>
+            <button class="say" data-say="${c.glyph}">nghe lại</button>${videoFor(c.glyph) ? ` <button class="say" data-video="${videoFor(c.glyph).id}">▶ xem khẩu hình</button>` : ""}</p>
           ${c.word ? `<p class="fc-word"><span class="jp">${hl}</span> &nbsp;${c.romaji} — ${c.meaning}
             <button class="say" data-say="${c.word}">nghe từ</button></p>` : ""}`)
-        + `<div class="fc-actions"><button class="btn again" data-act="no">Chưa nhớ</button><button class="btn ok" data-act="yes">Nhớ rồi</button></div>`;
+        + `<p class="fc-tap">Chạm vào thẻ để lật lại</p><div class="fc-actions"><button class="btn again" data-act="no">Chưa nhớ</button><button class="btn ok" data-act="yes">Nhớ rồi</button></div>`;
       const wrap = $("div", "fc3d", `<div class="fc-inner">${face("fc-front", review || practice, front)}${face("fc-back", false, back)}</div>`);
       el.append(wrap);
+      /* Kiểu Quizlet: chạm vào thẻ để lật qua lại; nút chấm và nút nghe không làm thẻ lật. */
+      wrap.tabIndex = 0; wrap.setAttribute("role", "button"); wrap.setAttribute("aria-label", "Lật thẻ");
+      const flip = () => { const on = wrap.classList.toggle("flipped"); if (on) speak(big); };
       wrap.addEventListener("click", e => {
-        const act = e.target.dataset.act; if (!act) return;
-        if (act === "flip") { wrap.classList.add("flipped"); speak(big); }
-        else mark(c, act === "yes");
+        const act = e.target.closest("[data-act]");
+        if (act) { mark(c, act.dataset.act === "yes"); return; }
+        if (e.target.closest("button, a")) return;
+        flip();
       });
+      wrap.addEventListener("keydown", e => { if (e.target === wrap && (e.key === " " || e.key === "Enter" || e.key === "ArrowUp" || e.key === "ArrowDown")) { e.preventDefault(); flip(); } });
     }
     show();
   }

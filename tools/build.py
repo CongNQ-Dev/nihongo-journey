@@ -131,15 +131,15 @@ def page(title, body, base="../"):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
-<link rel="stylesheet" href="{base}assets/course.css?v=8">
+<link rel="stylesheet" href="{base}assets/course.css?v=9">
 </head>
 <body>
 <main>
 {body}
 </main>
-<script src="{base}assets/cards.js?v=8"></script>
+<script src="{base}assets/cards.js?v=9"></script>
 <script src="{base}assets/strokes.js"></script>
-<script src="{base}assets/nihongo.js?v=8" data-base="{base}assets/"></script>
+<script src="{base}assets/nihongo.js?v=9" data-base="{base}assets/"></script>
 </body>
 </html>
 """
@@ -315,8 +315,30 @@ def index_html():
 <ol class="lesson-list">{minna}</ol>
 <p>Mỗi bài Minna dài hơn bài kana (60–75 phút) — chia hai buổi nếu cần: buổi 1 từ vựng + ngữ pháp, buổi 2 luyện + sách + viết. Cần có sách Minna, bản dịch tiếng Việt và file nghe.</p>
 <h2>Tra cứu</h2>
-<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li></ul>"""
+<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li><li><a href="credits.html">Nguồn ảnh</a></li></ul>"""
     return page("Mục lục khoá tiếng Nhật", body, base="")
+
+
+def credits_html(cards):
+    """Trang ghi nguồn ảnh (giấy phép CC yêu cầu ghi tác giả); thẻ flashcard không hiện dòng nguồn nữa."""
+    from html import escape as e
+    rows = []
+    for c in cards:
+        im = IMAGES.get(c["id"])
+        if not im or not c.get("img"):
+            continue
+        label = (c["glyph"] + " · " + c["word"]) if c["type"] == "kana" else c["word"]
+        rows.append(f'<tr><td class="jp">{e(label)}</td><td>{e(im["artist"])}</td><td>{e(im["license"])}</td>'
+                    f'<td><a href="{e(im["page"])}" rel="noopener">nguồn</a></td></tr>')
+    body = f"""<header class="lesson-head">
+  <div class="kicker">Ghi nguồn</div>
+  <h1>Nguồn ảnh</h1>
+  <p class="lede">Ảnh trên thẻ lấy từ Wikimedia Commons theo giấy phép Creative Commons hoặc phạm vi công cộng. Để thẻ gọn, tên tác giả và giấy phép được ghi ở trang này.</p>
+</header>
+<table><thead><tr><th>Thẻ</th><th>Tác giả</th><th>Giấy phép</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table>
+<p class="hint">Thứ tự nét chữ: KanjiVG (CC BY-SA 3.0, kanjivg.tagaini.net).</p>
+<nav class="next"><a href="index.html">Mục lục</a><a href="flashcards.html">Ôn hằng ngày</a><a href="practice.html">Luyện tự chọn</a></nav>"""
+    return page("Nguồn ảnh", body, base="")
 
 
 def main():
@@ -331,6 +353,7 @@ def main():
     open(os.path.join(ROOT, "reference", "minna-grammar.html"), "w", encoding="utf-8").write(minna_pages.grammar_reference(page, LESSON_FILES))
     open(os.path.join(ROOT, "reference", "numbers-counters.html"), "w", encoding="utf-8").write(minna_pages.numbers_reference(page))
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(index_html())
+    open(os.path.join(ROOT, "credits.html"), "w", encoding="utf-8").write(credits_html(cards))
     print(f"{len(cards)} thẻ, {len(LESSONS) + len(MINNA)} bài, 4 bảng tra cứu, index.html")
 
 
