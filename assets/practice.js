@@ -1,5 +1,5 @@
 /* Trang luyện tự chọn (luyen-tap.html): chọn chữ / từ muốn học, bốc ngẫu nhiên N mục,
-   rồi luyện bằng flashcard, gõ cách đọc hoặc nghe chọn. Không thay đổi lịch ôn Leitner.
+   rồi luyện bằng flashcard, viết lại từ trí nhớ, gõ cách đọc hoặc nghe chọn. Không thay đổi lịch ôn Leitner.
    Cần nạp sau cards.js và nihongo.js. */
 (function () {
   const N = window.Nihongo, CARDS = window.CARDS || [], esc = N.esc;
@@ -108,7 +108,7 @@
         <div class="pr-sess-head"><button class="btn" data-back>← Chọn lại</button>
           <strong>${picked.length} mục ngẫu nhiên</strong>
           <button class="btn" data-redraw>Bốc lượt khác</button></div>
-        <div class="pr-modes">${[["cards", "Flashcard"], ["read", "Gõ cách đọc"], ["listen", "Nghe chọn"]].map(([k, v]) =>
+        <div class="pr-modes">${[["cards", "Flashcard"], ["write", "Viết lại"], ["read", "Gõ cách đọc"], ["listen", "Nghe chọn"]].map(([k, v]) =>
           `<button class="btn${k === mode ? " primary" : ""}" data-mode="${k}">${v}</button>`).join("")}</div>
         <div class="pr-stage"></div>
         <details class="pr-more"><summary>Xem ${picked.length} mục vừa bốc</summary>
@@ -122,6 +122,8 @@
     const stage = root.querySelector(".pr-stage"); stage.innerHTML = "";
     const el = document.createElement("div"); stage.append(el);
     if (mode === "cards") N.deck(el, { cards: picked.map(it => it.card) });
+    if (mode === "write") N.rewrite(el, picked.map(it => ({ text: it.label, prompt: it.read,
+      hint: it.key[0] === "v" ? it.vn + (it.card.kanji ? " · " + it.card.kanji : "") : (it.key[0] === "k" ? "katakana" : "hiragana") })));
     if (mode === "read") { el.dataset.read = JSON.stringify(picked.map(it => [it.label, it.read, it.vn])); N.reader(el); }
     if (mode === "listen") {
       if (picked.length < 2) { el.className = "note"; el.textContent = "Cần ít nhất 2 mục để nghe chọn — hãy bốc nhiều hơn."; return; }
@@ -135,7 +137,7 @@
   }
 
   root.addEventListener("click", e => {
-    const b = e.target.closest("button"); if (!b || b.closest(".deck, .quiz, .pr-picked-list")) return;
+    const b = e.target.closest("button"); if (!b || b.closest(".deck, .quiz, .rewrite, .pr-picked-list")) return;
     const d = b.dataset;
     if (d.tab) { st.tab = d.tab; setup(); }
     else if (d.key) { sel.has(d.key) ? sel.delete(d.key) : sel.add(d.key); keep(setup); }

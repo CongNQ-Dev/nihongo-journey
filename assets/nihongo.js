@@ -355,17 +355,98 @@
     el.querySelector(".row").onclick = e => { const a = e.target.dataset.a; if (a === "anim") animate(); if (a === "clear") { ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, cv.width, cv.height); ctx.restore(); } };
   }
 
+  /* ---------- Viết lại từ trí nhớ ----------
+     items: [{ text: "せんせい", prompt: "sensei", hint: "giáo viên" }, ...]
+     Mỗi mục: nhìn romaji + nghĩa (hoặc nghe), tự viết từng chữ vào ô trống, rồi bấm
+     "Xem đáp án" để nét chuẩn hiện chồng lên chữ mình viết, tự chấm Nhớ / Chưa nhớ. */
+  function rewrite(el, items) {
+    const S = window.STROKES || {};
+    let order = shuffle(items.slice()), i = 0, ok = 0, missed = [], shown = false, faint = false;
+    el.classList.add("quiz", "rewrite");
+    function pad(ch) {
+      const paths = S[ch] || [];
+      const g = paths.length ? paths.map(d => `<path class="guide" d="${d}"/>`).join("") + paths.map(d => `<path class="ink" d="${d}"/>`).join("")
+        : `<text class="glyph" x="54.5" y="80" text-anchor="middle">${esc(ch)}</text>`;
+      return `<div class="pad"><svg viewBox="0 0 109 109">${g}</svg><canvas></canvas></div>`;
+    }
+    function wire(p) {
+      const cv = p.querySelector("canvas"), ctx = cv.getContext("2d");
+      const r = cv.getBoundingClientRect(), d = devicePixelRatio || 1;
+      cv.width = r.width * d; cv.height = r.height * d; ctx.scale(d, d);
+      ctx.lineWidth = Math.max(4, r.width / 22); ctx.lineCap = ctx.lineJoin = "round";
+      ctx.strokeStyle = getComputedStyle(el).getPropertyValue("--fg").trim() || "#222";
+      let down = false; const pos = e => { const b = cv.getBoundingClientRect(); return [e.clientX - b.left, e.clientY - b.top]; };
+      cv.onpointerdown = e => { if (shown) return; down = true; cv.setPointerCapture(e.pointerId); ctx.beginPath(); ctx.moveTo(...pos(e)); ctx.lineTo(...pos(e)); ctx.stroke(); };
+      cv.onpointermove = e => { if (!down) return; ctx.lineTo(...pos(e)); ctx.stroke(); };
+      cv.onpointerup = cv.onpointercancel = () => down = false;
+      p.clear = () => { ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, cv.width, cv.height); ctx.restore(); };
+    }
+    function animate() {
+      let t = 0;
+      el.querySelectorAll(".pad").forEach(p => p.querySelectorAll("path.ink").forEach(path => {
+        const L = path.getTotalLength(), dur = 300 + L * 7;
+        path.style.transition = "none"; path.style.strokeDasharray = L; path.style.strokeDashoffset = L;
+        setTimeout(() => { path.style.transition = `stroke-dashoffset ${dur}ms ease-in-out`; path.style.strokeDashoffset = 0; }, t + 40);
+        t += dur + 150;
+      }));
+    }
+    function show() {
+      shown = false;
+      if (i >= order.length) return done();
+      const it = order[i], chars = [...it.text.replace(/\s+/g, "")];
+      el.innerHTML = `<p class="q"><span class="score">Mục ${i + 1}/${order.length} · nhớ ${ok}</span>Viết lại bằng tay, không nhìn đáp án:</p>
+        <p class="rw-prompt"><b>${esc(it.prompt)}</b>${it.hint ? ` <span>— ${esc(it.hint)}</span>` : ""}
+          <button class="say" data-say="${esc(it.text)}">nghe</button></p>
+        <div class="rw-pads${faint ? " faint" : ""}${chars.length > 4 ? " many" : ""}">${chars.map(pad).join("")}</div>
+        <p class="rw-count">${chars.length} chữ</p>
+        <div class="row rw-act">
+          <button class="btn" data-a="clear">Xoá</button>
+          <button class="btn" data-a="faint">${faint ? "Tắt" : "Bật"} nét mờ</button>
+          <button class="btn primary" data-a="reveal">Xem đáp án</button>
+        </div><p class="fb"></p>`;
+      el.querySelectorAll(".pad").forEach(wire);
+    }
+    function reveal() {
+      shown = true; const it = order[i];
+      el.querySelector(".rw-pads").classList.add("shown");
+      el.querySelector(".rw-count").innerHTML = `<span class="jp rw-answer">${esc(it.text)}</span>`;
+      el.querySelector(".rw-act").innerHTML = `<button class="btn" data-a="anim">Xem lại thứ tự nét</button>
+        <button class="btn again" data-a="miss">Chưa nhớ</button><button class="btn primary" data-a="ok">Nhớ đúng</button>`;
+      el.querySelector(".fb").textContent = "So chữ của bạn (nét đen) với nét chuẩn (màu), rồi tự chấm.";
+      speak(it.text); animate();
+    }
+    function next(good) { if (good) ok++; else missed.push(order[i]); i++; show(); }
+    function done() {
+      const n = order.length;
+      el.innerHTML = `<p class="q">Xong lượt viết.</p>
+        <p class="fb ${ok >= n * .9 ? "good" : "bad"}">Nhớ đúng ${ok}/${n}.${missed.length ? " Cần viết lại: " : ""}<span class="jp">${missed.map(m => esc(m.text)).join("、")}</span></p>
+        <div class="row">${missed.length ? `<button class="btn primary" data-a="again-miss">Viết lại ${missed.length} mục sai</button>` : ""}
+          <button class="btn${missed.length ? "" : " primary"}" data-a="again">Viết lại tất cả</button></div>`;
+    }
+    el.onclick = e => {
+      const b = e.target.closest("[data-a]"); if (!b) return; const a = b.dataset.a;
+      if (a === "clear") el.querySelectorAll(".pad").forEach(p => p.clear());
+      else if (a === "faint") { faint = !faint; el.querySelector(".rw-pads").classList.toggle("faint", faint); b.textContent = (faint ? "Tắt" : "Bật") + " nét mờ"; }
+      else if (a === "reveal") reveal();
+      else if (a === "anim") animate();
+      else if (a === "ok" || a === "miss") next(a === "ok");
+      else if (a === "again" || a === "again-miss") { order = shuffle((a === "again" ? items : missed).slice()); i = ok = 0; missed = []; show(); }
+    };
+    show();
+  }
+
   function init() {
     document.querySelectorAll("[data-deck]").forEach(deck);
     document.querySelectorAll("[data-listen]").forEach(listen);
     document.querySelectorAll(".quiz[data-answer]").forEach(quiz);
     document.querySelectorAll("[data-write]").forEach(writer);
     document.querySelectorAll("[data-read]").forEach(reader);
+    document.querySelectorAll("[data-rewrite]").forEach(el => { try { rewrite(el, JSON.parse(el.dataset.rewrite)); } catch {} });
     document.querySelectorAll("[data-build]").forEach(builder);
     document.querySelectorAll("[data-dialog]").forEach(dialog);
     document.querySelectorAll("[data-num]").forEach(numDrill);
     document.querySelectorAll("[data-due-count]").forEach(e => e.textContent = (window.CARDS || []).filter(c => isDue(c.id)).length);
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init) : init();
-  window.Nihongo = { speak, deck, reader, listen, shuffle, esc };
+  window.Nihongo = { speak, deck, reader, listen, rewrite, shuffle, esc };
 })();

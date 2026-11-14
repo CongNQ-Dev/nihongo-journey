@@ -221,3 +221,24 @@ details.answers summary { cursor: pointer; color: var(--accent); }
 .pr-more[open] summary { margin-bottom: .6rem; }
 .pr-dock { padding: 1rem 1rem 1.1rem; margin: 1.4rem -1rem 0; border-radius: 12px 12px 0 0; }
 @media (max-width: 480px) { .pr-dock { margin-left: -.5rem; margin-right: -.5rem; padding: .8rem .7rem 1rem; } .btn.big { flex: 1 1 100%; } }
+
+/* Viết lại từ trí nhớ */
+.rewrite .rw-prompt { font-size: 1.15rem; text-align: center; margin: .3rem 0 .8rem; }
+.rewrite .rw-prompt span { color: var(--muted); font-size: .95rem; }
+.rw-pads { display: grid; grid-template-columns: repeat(auto-fit, minmax(7.5rem, 9.5rem)); gap: .6rem; justify-content: center; }
+.rw-pads.many { grid-template-columns: repeat(auto-fit, minmax(5.6rem, 7rem)); }
+.rw-pads .pad { position: relative; aspect-ratio: 1; background: var(--card); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; touch-action: none; }
+.rw-pads .pad::before, .rw-pads .pad::after { content: ""; position: absolute; border: 0 dashed var(--rule); pointer-events: none; }
+.rw-pads .pad::before { left: 50%; top: 0; bottom: 0; border-left-width: 1px; }
+.rw-pads .pad::after { top: 50%; left: 0; right: 0; border-top-width: 1px; }
+.rw-pads svg, .rw-pads canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.rw-pads svg path { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4; }
+.rw-pads svg path.guide { stroke: var(--rule); visibility: hidden; }
+.rw-pads svg path.ink { stroke: var(--shu); opacity: .75; visibility: hidden; }
+.rw-pads svg .glyph { font-size: 80px; fill: var(--rule); visibility: hidden; }
+.rw-pads.faint svg path.guide, .rw-pads.faint svg .glyph, .rw-pads.shown svg path.guide, .rw-pads.shown svg .glyph { visibility: visible; }
+.rw-pads.shown svg path.ink { visibility: visible; }
+.rewrite .rw-count { text-align: center; color: var(--muted); font-size: .8rem; margin: .5rem 0; }
+.rewrite .rw-answer { font-size: 1.8rem; color: var(--fg); }
+.rewrite .row { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; margin: .6rem 0; }
+.rewrite .fb { text-align: center; }
