@@ -62,6 +62,17 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .fc-photo.veiled img { filter: blur(22px) saturate(.6); transform: scale(1.1); }
 .fc-photo figcaption { position: absolute; right: 0; bottom: 0; font-size: .58rem; color: #fff; background: rgba(0,0,0,.45); padding: .1rem .4rem; border-top-left-radius: 6px; }
 .fc-glyph { position: absolute; left: 14px; top: 14px; width: 5.2rem; height: 5.2rem; display: grid; place-items: center; background: rgba(255,255,255,.93); color: #1f1e1c; border-radius: 12px; font-family: var(--font-jp); font-size: 3.6rem; line-height: 1; box-shadow: 0 2px 10px rgba(0,0,0,.25); }
+.fc-glyph.long { width: auto; min-width: 5.2rem; padding: 0 .7rem; font-size: 2.6rem; }
+.quiz .opts button.jp.long { font-size: 1.15rem; padding: .7rem .3rem; }
+.reader .word { font-size: 2.6rem; margin: .2rem 0 .8rem; text-align: center; }
+.reader input { font: inherit; font-family: var(--font-ui); font-size: 1rem; padding: .45rem .7rem; border-radius: 8px; border: 1px solid var(--rule); background: var(--card); color: var(--fg); width: min(16rem, 60%); }
+.grid-table td, .grid-table th { text-align: center; }
+.grid-table td .jp { font-size: 1.6rem; display: block; }
+.grid-table td small { color: var(--muted); font-size: .72rem; }
+.lesson-list { list-style: none; padding: 0; font-family: var(--font-ui); }
+.lesson-list li { display: flex; gap: .8rem; align-items: baseline; padding: .55rem 0; border-bottom: 1px solid var(--rule); }
+.lesson-list .num { color: var(--shu); font-size: .78rem; min-width: 2.6rem; }
+.lesson-list .jp { margin-left: auto; color: var(--muted); font-size: 1rem; }
 .fc-body { padding: 1rem 1.1rem 1.1rem; min-height: 8.2rem; }
 .fc-prompt { color: var(--muted); font-size: .9rem; margin: 0 0 .8rem; }
 .fc-answer { display: flex; align-items: baseline; gap: .8rem; flex-wrap: wrap; margin: 0 0 .3rem; }
@@ -106,4 +117,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .kana-grid div { border: 1px solid var(--rule); border-radius: 8px; text-align: center; padding: .5rem 0 .3rem; background: var(--card); font-family: var(--font-ui); font-size: .75rem; color: var(--muted); }
 .kana-grid div .jp { display: block; font-size: 2.2rem; color: var(--fg); margin-bottom: .2rem; }
 .kana-grid div.todo { opacity: .35; }
+@media (max-width: 480px) {
+  .fc-glyph { width: 3.6rem; height: 3.6rem; font-size: 2.4rem; left: 10px; top: 10px; border-radius: 9px; }
+  .fc-glyph.long { min-width: 3.6rem; font-size: 1.8rem; }
+}
 @media print { .btn, .say, .quiz, .deck { display: none !important; } body { background: #fff; } }

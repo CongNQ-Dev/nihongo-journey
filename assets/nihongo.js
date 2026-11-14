@@ -63,7 +63,7 @@
       const card = $("div", "fc");
       const photo = $("figure", "fc-photo" + (review ? " veiled" : ""));
       photo.style.margin = 0;
-      photo.innerHTML = `<img src="${BASE}${c.img}" alt="${review ? "" : c.meaning}"><div class="fc-glyph">${c.glyph}</div><figcaption>Ảnh: ${c.credit}</figcaption>`;
+      photo.innerHTML = `<img src="${BASE}${c.img}" alt="${review ? "" : c.meaning}"><div class="fc-glyph${[...c.glyph].length > 1 ? " long" : ""}">${c.glyph}</div><figcaption>Ảnh: ${c.credit}</figcaption>`;
       const body = $("div", "fc-body");
       body.innerHTML = `<p class="fc-prompt">Chữ này đọc là gì? Đọc to lên, rồi lật thẻ.</p>
         <div class="fc-actions"><button class="btn primary" data-act="flip">Lật thẻ</button></div>`;
@@ -90,17 +90,18 @@
 
   /* ---------- Quiz nghe ---------- */
   function listen(el) {
-    const items = [...el.dataset.listen], rounds = +el.dataset.rounds || 10;
+    const raw = el.dataset.listen.trim();
+    const items = raw.includes(" ") ? raw.split(/\s+/) : [...raw], rounds = +el.dataset.rounds || 10;
     let n = 0, score = 0, target = null, locked = false;
     el.classList.add("quiz");
     el.innerHTML = `<p class="q"><span class="score"></span>Bấm nghe, rồi chọn chữ vừa nghe được.</p>
       <p><button class="btn primary" data-play>▶ Nghe</button></p>
-      <div class="opts">${items.map(k => `<button class="jp" data-k="${k}">${k}</button>`).join("")}</div><p class="fb"></p>`;
+      <div class="opts">${items.map(k => `<button class="jp${k.length > 2 ? " long" : ""}" data-k="${k}">${k}</button>`).join("")}</div><p class="fb"></p>`;
     const fb = el.querySelector(".fb"), sc = el.querySelector(".score");
     const next = () => {
       locked = false;
-      el.querySelectorAll(".opts button").forEach(b => b.className = "jp");
-      if (n >= rounds) { fb.className = "fb " + (score >= rounds * .9 ? "good" : "bad"); fb.textContent = `Kết quả: ${score}/${rounds}. ${score >= rounds * .9 ? "Tai bạn đã phân biệt được 5 âm này." : "Bấm “Nghe” để làm lại một lượt nữa."}`; n = 0; score = 0; target = null; return; }
+      el.querySelectorAll(".opts button").forEach(b => b.classList.remove("right", "wrong"));
+      if (n >= rounds) { fb.className = "fb " + (score >= rounds * .9 ? "good" : "bad"); fb.textContent = `Kết quả: ${score}/${rounds}. ${score >= rounds * .9 ? "Tai bạn đã phân biệt được các âm này." : "Bấm “Nghe” để làm lại một lượt nữa."}`; n = 0; score = 0; target = null; return; }
       let t; do { t = items[Math.floor(Math.random() * items.length)]; } while (t === target && items.length > 1);
       target = t; sc.textContent = `Câu ${n + 1}/${rounds} · đúng ${score}`; speak(target);
     };
@@ -112,6 +113,45 @@
       else { b.classList.add("wrong"); el.querySelector(`[data-k="${target}"]`).classList.add("right"); fb.className = "fb bad"; fb.textContent = `Chưa đúng — đó là ${target}.`; }
       setTimeout(next, 900);
     };
+  }
+
+  /* ---------- Luyện đọc: nhìn chữ, gõ romaji ---------- */
+  // <div data-read='[["かさ","kasa","cái ô"], ...]'></div>
+  function norm(s) {
+    s = s.toLowerCase().replace(/ā/g, "aa").replace(/ī/g, "ii").replace(/ū/g, "uu").replace(/ē/g, "ee").replace(/ō/g, "ou")
+      .replace(/[^a-z]/g, "");
+    [["tch", "tty"], ["sh", "sy"], ["ch", "ty"], ["j", "zy"], ["syi", "si"], ["tyi", "ti"], ["zyi", "zi"], ["tsu", "tu"],
+     ["fu", "hu"], ["wo", "o"], ["nn", "n"], ["mp", "np"], ["mb", "nb"], ["oo", "ou"]].forEach(([a, b]) => { s = s.split(a).join(b); });
+    return s;
+  }
+  function reader(el) {
+    let items; try { items = JSON.parse(el.dataset.read); } catch { return; }
+    items = items.map(x => x).sort(() => Math.random() - .5);
+    let i = 0, score = 0, answered = false;
+    el.classList.add("quiz", "reader");
+    el.innerHTML = `<p class="q"><span class="score"></span>Đọc to từ dưới đây, rồi gõ cách đọc bằng romaji và nhấn Enter.</p>
+      <p class="word jp"></p><p><input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="romaji…">
+      <button class="btn primary" data-go>Kiểm tra</button></p><p class="fb"></p>`;
+    const w = el.querySelector(".word"), inp = el.querySelector("input"), fb = el.querySelector(".fb"), sc = el.querySelector(".score"), go = el.querySelector("[data-go]");
+    function show() {
+      answered = false; inp.value = ""; fb.textContent = ""; fb.className = "fb"; go.textContent = "Kiểm tra";
+      if (i >= items.length) {
+        w.textContent = "おわり"; sc.textContent = "";
+        fb.className = "fb " + (score >= items.length * .9 ? "good" : "bad");
+        fb.textContent = `Kết quả: ${score}/${items.length}. Nhấn Enter để làm lại theo thứ tự mới.`;
+        i = -1; answered = true; return;
+      }
+      w.textContent = items[i][0]; sc.textContent = `Từ ${i + 1}/${items.length} · đúng ${score}`;
+    }
+    function check() {
+      if (answered) { if (i === -1) { items.sort(() => Math.random() - .5); score = 0; } i++; show(); inp.focus(); return; }
+      const [jp, ro, vn] = items[i]; answered = true; speak(jp);
+      if (norm(inp.value) === norm(ro)) { score++; fb.className = "fb good"; fb.textContent = `Đúng: ${ro} — ${vn}.`; }
+      else { fb.className = "fb bad"; fb.textContent = `Chưa đúng: ${ro} — ${vn}. Đọc to lại một lần.`; }
+      go.textContent = "Từ tiếp →";
+    }
+    go.onclick = check; inp.onkeydown = e => { if (e.key === "Enter") check(); };
+    show();
   }
 
   /* ---------- Quiz chọn đáp án ---------- */
@@ -159,6 +199,7 @@
     document.querySelectorAll("[data-listen]").forEach(listen);
     document.querySelectorAll(".quiz[data-answer]").forEach(quiz);
     document.querySelectorAll("[data-write]").forEach(writer);
+    document.querySelectorAll("[data-read]").forEach(reader);
     document.querySelectorAll("[data-due-count]").forEach(e => e.textContent = (window.CARDS || []).filter(c => isDue(c.id)).length);
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init) : init();

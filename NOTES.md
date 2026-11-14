@@ -21,11 +21,14 @@
   của sách cho bài hội thoại.
 - Không chép nội dung sách Minna; dạy theo thứ tự bài của sách bằng lời và ví dụ riêng.
 
-## Kế hoạch giai đoạn kana (ước lượng của tôi)
-- 0001 あ行 → 0002 か行・さ行 → 0003 た行・な行 → 0004 は行・ま行 → 0005 や行・ら行・わ・ん
-  → 0006 dakuten/handakuten → 0007 âm ghép (きゃ…), っ, trường âm → katakana tương tự (nhanh hơn)
-  → Minna bài 1.
-- Chưa có learning record về bài 0001: chỉ ghi khi người học cho thấy đã đọc/viết được 5 chữ.
+## Giai đoạn kana — ĐÃ SOẠN XONG (2026-11-14, người học yêu cầu soạn hết một lần)
+- Hiragana 0001–0007, katakana 0008 ア〜ソ, 0009 タ〜ホ, 0010 マ〜ン, 0011 ゛゜/ッ/ャ/âm ngoại lai.
+  Sau 0011 → Minna no Nihongo bài 1 (chưa soạn).
+- 0002–0011 SINH TỰ ĐỘNG: sửa `tools/kana_data.py` rồi `python3 -I tools/build.py`. Không sửa tay HTML sinh ra.
+  Bài 0001 viết tay. Ảnh: `tools/fetch_images.py` (search → sheet để duyệt → download), lựa chọn ở PICK/QUERY_FIX.
+- Wikimedia API giới hạn tốc độ (429): script đã chờ 1,5s/lần gọi và tự thử lại.
+- Người học được khuyên tối đa một bài mới mỗi ngày dù đã soạn sẵn; ôn flashcard trước.
+- Chưa có learning record về bài nào: chỉ ghi khi người học báo kết quả phần “Nhớ lại”.
 
 ## Notion
 - Người học KHÔNG cần ghi chú/tiến độ trên Notion nữa (2026-11-14). Không cập nhật Notion; theo dõi tiến độ bằng `learning-records/`.
