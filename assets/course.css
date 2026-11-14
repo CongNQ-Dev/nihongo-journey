@@ -122,3 +122,46 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .fc-glyph.long { min-width: 3.6rem; font-size: 1.8rem; }
 }
 @media print { .btn, .say, .quiz, .deck { display: none !important; } body { background: #fff; } }
+
+/* ---------- Minna: thẻ từ vựng, ghép câu, hội thoại, ngữ pháp ---------- */
+.fc.vocab .fc-glyph.long { font-size: 2.2rem; }
+.fc.vocab .fc-answer .sound { font-size: 1.6rem; }
+.fc .hint { color: var(--muted); font-size: .82rem; }
+.builder .line { min-height: 3.2rem; border-bottom: 2px solid var(--rule); display: flex; flex-wrap: wrap; gap: .4rem; padding: .3rem 0 .5rem; margin-bottom: .7rem; }
+.builder .tiles { display: flex; flex-wrap: wrap; gap: .4rem; min-height: 2.8rem; }
+.builder .tile { font-family: var(--font-jp); font-size: 1.25rem; padding: .35rem .7rem; border-radius: 8px; border: 1px solid var(--rule); background: var(--card); }
+.builder .tile:hover { border-color: var(--accent); }
+.builder .row { margin: .6rem 0 0; }
+.dialog { font-family: var(--font-ui); background: var(--panel); border-radius: 10px; padding: 1rem 1.1rem; margin: 1.2rem 0; }
+.dialog .row { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 .6rem; }
+.dialog ol { list-style: none; padding: 0; margin: 0; }
+.dialog li { padding: .45rem .4rem; border-bottom: 1px solid var(--rule); border-radius: 6px; }
+.dialog li.now { background: color-mix(in srgb, var(--accent) 12%, var(--card)); }
+.dialog .sp { display: inline-block; min-width: 3.6rem; color: var(--shu); font-size: .78rem; }
+.dialog .jp { font-size: 1.2rem; }
+.dialog .vn { display: none; color: var(--muted); font-size: .82rem; margin-left: 3.6rem; }
+.dialog.show-vn .vn { display: block; }
+.pattern { border-left: 4px solid var(--shu); background: var(--card); padding: .7rem 1rem; margin: 1.2rem 0 .6rem; border-radius: 0 8px 8px 0; }
+.pattern .jp { font-size: 1.35rem; }
+.pattern .vn { display: block; font-family: var(--font-ui); font-size: .82rem; color: var(--muted); margin-top: .2rem; }
+ul.ex { list-style: none; padding: 0; margin: .4rem 0 1rem; font-family: var(--font-ui); font-size: .88rem; }
+ul.ex li { padding: .3rem 0; }
+ul.ex .jp { font-size: 1.15rem; margin-right: .3rem; }
+ul.ex .vn { display: block; color: var(--muted); font-size: .82rem; }
+td .jp.sm, .vocab-table td .jp { font-size: 1.15rem; }
+.quiz .opts button.vn { font-size: .85rem; }
+details.answers { font-family: var(--font-ui); font-size: .88rem; background: var(--panel); border-radius: 8px; padding: .6rem 1rem; margin: .8rem 0; }
+details.answers summary { cursor: pointer; color: var(--accent); }
+.lesson-list .tag { font-size: .7rem; color: var(--muted); }
+@media print { .builder, .dialog .row, details.answers { display: none !important; } .dialog .vn { display: block; } }
+.vocab-table td:last-child { white-space: nowrap; line-height: 1.9; }
+/* Bảng từ vựng trên điện thoại: mỗi từ một khối — từ | nghĩa, rồi câu ví dụ, rồi nút nghe trên một hàng. */
+@media (max-width: 560px) {
+  .vocab-table tr:first-child { display: none; }
+  .vocab-table tr { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--rule); padding: .5rem 0; }
+  .vocab-table td { border: 0; padding: .15rem .3rem; }
+  .vocab-table td:nth-child(3), .vocab-table td:nth-child(4) { grid-column: 1 / -1; }
+  .vocab-table td:last-child { white-space: normal; line-height: 1.6; }
+  .vocab-table td:last-child br { display: none; }
+  .vocab-table td:last-child .say { margin-right: .9rem; }
+}

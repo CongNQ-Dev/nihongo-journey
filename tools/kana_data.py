@@ -252,7 +252,7 @@ LESSONS = {
 </table></div>
 <h3>Nói: câu tự giới thiệu đầu tiên</h3>
 <p class="jp" style="font-size:1.5rem;line-height:1.7">はじめまして。わたしは ＿＿＿ です。どうぞ よろしく。</p>
-<p>“Rất vui được gặp. Tôi là ＿＿. Rất mong được giúp đỡ.” Điền tên bạn, nói to 5 lần cho trôi. Cả câu chỉ dùng chữ bạn đã học. <button class="say" data-say="はじめまして。わたしは ＿ です。どうぞ よろしく。">nghe mẫu</button> (giọng máy sẽ bỏ qua chỗ trống).</p>""",
+<p>“Rất vui được gặp. Tôi là ＿＿. Rất mong được giúp đỡ.” Điền tên bạn, nói to 5 lần cho trôi. Cả câu chỉ dùng chữ bạn đã học. <button class="say" data-say="はじめまして。わたしは たなかです。どうぞ よろしく。">nghe mẫu</button> (mẫu dùng tên たなか — bạn thay bằng tên mình).</p>""",
    read=[("きゅうり","kyuuri","dưa chuột"),("じてんしゃ","jitensha","xe đạp"),("おちゃ","ocha","trà"),("ぎゅうにゅう","gyuunyuu","sữa bò"),("きって","kitte","con tem"),("がっこう","gakkou","trường học"),("とうきょう","toukyou","Tokyo"),("おかあさん","okaasan","mẹ (người khác)"),("くうき","kuuki","không khí"),("せんせい","sensei","giáo viên"),("おおきい","ookii","to, lớn"),("きょう","kyou","hôm nay"),("しゃしん","shashin","bức ảnh"),("びょういん","byouin","bệnh viện"),("びよういん","biyouin","tiệm làm tóc")],
    read_note="Gõ trường âm bằng cách lặp nguyên âm như khi gõ bàn phím Nhật: とうきょう = toukyou, おかあさん = okaasan.",
    mc=[("<span class=\"jp\">きって</span> có mấy nhịp?", ["2 nhịp","4 nhịp","3 nhịp","1 nhịp"], 3, "き・っ・て — っ cũng là một nhịp.", False),

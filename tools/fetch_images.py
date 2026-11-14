@@ -12,6 +12,7 @@ import json, os, re, sys, time, urllib.parse, urllib.request, io
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 from kana_data import CARDS  # noqa: E402
+from minna_vocab import VOCAB, vocab_id  # noqa: E402
 
 UA = "kana-flashcards-study/1.0 (personal learning project)"
 API = "https://commons.wikimedia.org/w/api.php"
@@ -24,13 +25,32 @@ PICK = {  # đã duyệt bằng mắt 2026-11-14
     "h-daikon": 3, "h-tenpura": 5, "k-aisu": 2, "k-erebeetaa": 5, "k-orenji": 2, "k-kiui": 3, "k-kukkii": 5,
     "k-keeki": 0, "k-koohii": 0, "k-sarada": 1, "k-shatsu": 3,
     # lượt 2
-    "h-tamago": 3, "h-toufu": 2, "k-supuun": 0, "k-seetaa": 4, "k-terebi": 3, "k-naifu": 1, "k-nekutai": 0,
+    "h-tamago": 3, "h-toufu": 2, "k-supuun": 0, "k-seetaa": 4, "k-naifu": 1, 
     "k-masuku": 2, "k-miruku": 0, "k-taiya": 4, "h-koi": 2, "h-noren": 1, "k-pan": 0, "k-gitaa": 1,
     "k-juusu": 4, "h-tegamiokaku": 1, "h-gyuudon": 0,
+    # từ vựng Minna 1–4
+    "v-sensei": 1, "v-isha": 2, "v-byouin": 5, "v-jisho": 4, "v-enpitsu": 1, "v-omiyage": 1, "v-shokudou": 1,
+    "v-uketsuke": 5, "v-toire": 4, "v-kaigi": 5,
+    # Minna 5–7
+    "v-chikatetsu": 2, "v-tomodachi": 1, "v-kazoku": 1, "v-yomimasu": 2, "v-niku": 3, "v-yasai": 1, "v-fooku": 1,
+    "v-keetai": 1, "v-kippu": 3,
+    "v-enjinia": 3, "v-betonamu": 2, "v-kaban": 2, "v-tsukue": 1, "v-hatarakimasu": 1, "v-torimasu": 1,
+    "v-pasokon": 5, "v-nengajou": 0, "v-kakemasu": 0, "v-kami": 0,
+    "v-konsaato": 1, "v-teeburu": 0, "v-tana": 0, "v-posuto": 1, "v-kissaten": 0,
+    "v-kaishain": 0, "v-okimasu": 3, "v-nemasu": 2, "v-tabemasu": 0, "v-kaimasu": 3, "v-atsui": 1, "v-ryokou": 5,
+    "v-e": 3, "v-arubaito": 0, "v-kodomo": 3, "v-hako": 1, "v-doa": 5, 
+    "v-nimotsu": 2, "v-isogashii": 1,
+    # rà soát 2026-11-14: thay ảnh sai nghĩa
+    "k-terebi": 1, "k-nekutai": 2, "k-paatii": 3, "v-onnanoko": 1, "v-kouen": 0,
 }
+
+# Không tìm được ảnh đúng nghĩa → không có thẻ (từ vẫn nằm trong bảng từ vựng của bài).
+SKIP = set()
 
 # Thẻ mà kết quả “Quality images” lạc đề: tìm lại bằng query này, chỉ tìm thường.
 QUERY_FIX = {
+    "v-onnanoko": "little girl smiling",
+    "k-paatii": "birthday party celebration friends",
     "h-kuruma": "sedan car", "h-kome": "uncooked white rice grains", "h-sakura": "cherry blossoms Tokyo",
     "h-sushi": "nigirizushi", "h-chizu": "paper map hand", "h-nasu": "eggplants vegetable",
     "h-nori": "dried nori seaweed sheets", "h-hebi": "grass snake", "h-momo": "peach fruit",
@@ -42,17 +62,42 @@ QUERY_FIX = {
     "k-shatsu": "dress shirt",
     # lượt 2
     "h-toufu": "hiyayakko", "h-tamago": "brown eggs", "k-supuun": "spoons cutlery", "k-seetaa": "pullover sweater",
-    "k-terebi": "television set living room", "k-naifu": "kitchen knife", "k-nekutai": "neckties",
+    "k-terebi": "flat screen television", "k-naifu": "kitchen knife", "k-nekutai": "silk necktie",
     "k-masuku": "surgical face mask", "k-miruku": "milk bottles", "k-taiya": "car tire tyre",
     "k-pan": "bread loaves bakery", "k-gitaa": "classical guitar", "k-juusu": "orange juice glass",
     "h-koi": "koi fish pond", "h-noren": "noren curtain shop", "h-tegamiokaku": "handwritten letter fountain pen",
     "h-gyuudon": "gyudon beef bowl",
+    # từ vựng Minna 1–4
+    "v-kaishain": "businessman", "v-enjinia": "engineer hard hat construction site",
+    "v-betonamu": "Hoi An ancient town lanterns", "v-kaban": "leather briefcase", "v-tsukue": "wooden writing desk",
+    "v-nemasu": "sleeping baby", "v-hatarakimasu": "office workers working computers",
+    "v-okimasu": "alarm clock",
+    "v-gakkou": "Japanese elementary school building", "v-kaimasu": "shopping",
+    "v-torimasu": "photographer holding camera taking picture", "v-kami": "blank white paper sheets stack",
+    "v-pasokon": "laptop computer on desk",
+    # Minna 7–9
+    "v-nengajou": "New Year greeting postcards Japan", "v-nimotsu": "luggage suitcases",
+    "v-kakemasu": "man talking on mobile phone", "v-atsui": "blazing sun sky",
+    "v-isogashii": "busy restaurant kitchen chefs", "v-ryokou": "backpacker",
+    "v-e": "painting canvas", "v-konsaato": "rock concert stage crowd lights",
+    # Minna 9–10
+    "v-arubaito": "cashier", "v-kodomo": "kids playing",
+    "v-hako": "cardboard box", "v-teeburu": "wooden dining table chairs", "v-tana": "wooden shelves storage",
+    "v-doa": "door", "v-posuto": "Japanese red mailbox street", "v-kouen": "public park lawn trees bench",
+    "v-kissaten": "Japanese coffee shop interior counter", "v-tabemasu": "man eating noodles",
 }
 
 
 def card_id(c):
     prefix = "h" if "぀" <= c[1][0] <= "ゟ" else "k"
     return f"{prefix}-{re.sub(r'[^a-z]', '', c[5].lower())}"
+
+
+def items():
+    """(id, nhãn, query) cho mọi thẻ có ảnh: kana (bài 2–11) + từ vựng Minna (bài 12+)."""
+    out = [(card_id(c), c[4], QUERY_FIX.get(card_id(c), c[7])) for c in CARDS]
+    out += [(vocab_id(v), v[1], QUERY_FIX.get(vocab_id(v), v[5])) for v in VOCAB]
+    return out
 
 
 def get(params):
@@ -83,9 +128,7 @@ def search(q, extra=""):
 
 def cmd_search():
     old = json.load(open(CAND)) if os.path.exists(CAND) else {}
-    for c in CARDS:
-        cid = card_id(c)
-        q = QUERY_FIX.get(cid, c[7])
+    for cid, _, q in items():
         if cid in old and old[cid]["query"] == q and old[cid]["cands"]:
             continue
         seen, cands = set(), []
@@ -117,20 +160,20 @@ def fetch(url):
 def cmd_sheet(out, ids=None, alts=False):
     from PIL import Image, ImageDraw, ImageFont
     cand = json.load(open(CAND))
-    rows = [c for c in CARDS if not ids or card_id(c) in ids]
+    rows = [it for it in items() if not ids or it[0] in ids]
     font = ImageFont.truetype("/System/Library/Fonts/Hiragino Sans GB.ttc", 18)
     tw, th = 240, 160
     if alts:
-        cols = 6; cells = [(card_id(c), c, i) for c in rows for i in range(cols)]
+        cols = 6; cells = [(it[0], it, i) for it in rows for i in range(cols)]
     else:
-        cols = 6; cells = [(card_id(c), c, PICK.get(card_id(c), 0)) for c in rows]
+        cols = 6; cells = [(it[0], it, PICK.get(it[0], 0)) for it in rows]
     nrows = (len(cells) + cols - 1) // cols
     sheet = Image.new("RGB", (cols * tw, nrows * (th + 26)), "white")
     d = ImageDraw.Draw(sheet)
     for k, (cid, c, i) in enumerate(cells):
         x, y = (k % cols) * tw, (k // cols) * (th + 26)
         lst = cand.get(cid, {}).get("cands", [])
-        label = f"{cid} {c[4]} [{i}]"
+        label = f"{cid} {c[1]} [{i}]"
         if i < len(lst):
             try:
                 im = Image.open(io.BytesIO(fetch(lst[i]["thumb"]))).convert("RGB")
@@ -148,8 +191,9 @@ def cmd_download():
     cand = json.load(open(CAND))
     chosen = {}
     os.makedirs(os.path.join(ROOT, "assets", "img"), exist_ok=True)
-    for c in CARDS:
-        cid = card_id(c)
+    for cid, _, _ in items():
+        if cid in SKIP:
+            continue
         x = cand[cid]["cands"][PICK.get(cid, 0)]
         url = re.sub(r"/330px-", "/960px-", x["thumb"])
         dest = os.path.join(ROOT, "assets", "img", cid + ".jpg")

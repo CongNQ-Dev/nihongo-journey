@@ -11,6 +11,16 @@
   ngữ pháp tiếng Việt + file nghe. Dùng cho: thứ tự ngữ pháp, từ vựng, hội thoại, bài nghe.
   Sách có bản quyền — bài học ở đây đi theo thứ tự của sách và giải thích bằng lời riêng,
   không chép lại nội dung sách. Người học cần có sách.
+- [3A Corporation — Minna no Nihongo Shokyu (2nd ed.): cấu trúc mỗi bài](https://plus.3anet.co.jp/mnc/touser_en/)
+  Trang chính thức của nhà xuất bản: mỗi bài gồm 文型, 例文, 会話, 練習 A/B/C, 問題; file nghe có hội thoại
+  và bài nghe; sách dịch & ngữ pháp riêng. Dùng cho: phần “Với sách Minna” trong mỗi bài 0012+.
+- [Tae Kim's Guide to Learning Japanese — Grammar](https://guidetojapanese.org/learn/grammar)
+  Giáo trình ngữ pháp miễn phí, uy tín trong cộng đồng tự học (tiếng Anh). Dùng cho: nguồn đọc thêm và
+  trích dẫn trong bài 0012–0021 (stateofbeing, particlesintro, nounparticles, numbers, polite,
+  verbparticles, adjectives, adverbs, verbs).
+- [JLPT N5 Notes — Minna no Nihongo lesson grammar](https://jlpt-n5-notes.vercel.app/lesson-01/grammar/)
+  Ghi chú theo từng bài Minna (trang cá nhân). Dùng cho: đối chiếu thứ tự mẫu ngữ pháp bài 1–10
+  (2026-11-14, khớp với giáo trình). Độ tin: trung bình — chỉ dùng để đối chiếu, không trích dẫn.
 - [Tofugu — Learn Hiragana: The Ultimate Guide](https://www.tofugu.com/japanese/learn-hiragana/)
   Hướng dẫn hiragana bằng mnemonic, có audio. Dùng cho: giai đoạn kana (bài 0001–0010).
 - [Tofugu — Hiragana chart](https://www.tofugu.com/japanese/hiragana-chart/)

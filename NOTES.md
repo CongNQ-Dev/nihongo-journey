@@ -29,6 +29,24 @@
 - Wikimedia API giới hạn tốc độ (429): script đã chờ 1,5s/lần gọi và tự thử lại.
 - Người học được khuyên tối đa một bài mới mỗi ngày dù đã soạn sẵn; ôn flashcard trước.
 - Chưa có learning record về bài nào: chỉ ghi khi người học báo kết quả phần “Nhớ lại”.
+- 2026-11-14 (/teach lần 2): người học CHƯA bắt đầu bài 0001 → không soạn bài mới, mở 0001. Soạn Minna bài 1 khi họ gần xong kana.
+
+## Giai đoạn Minna — bài 1–10 ĐÃ SOẠN (2026-11-14, người học yêu cầu soạn trước)
+- 0012–0021 = Minna bài 1–10. SINH TỰ ĐỘNG: nội dung ở `tools/minna_data.py`, từ có ảnh ở `tools/minna_vocab.py`,
+  HTML ở `tools/minna_pages.py`; chạy `python3 -I tools/build.py`. Không sửa tay HTML sinh ra.
+- Thứ tự ngữ pháp theo sách (đã đối chiếu); câu ví dụ + hội thoại tự viết. Nhân vật riêng: ナム, リン, たなか, すずき
+  (không dùng nhân vật của sách).
+- Thẻ từ vựng (type "vocab", id "v-<romaji>"): mặt trước chỉ chữ, ảnh bị che (ảnh lộ nghĩa). Chỉ từ chụp ảnh được
+  mới có thẻ; từ chức năng (だれ, いくら, とても…) nằm trong bảng + bài tập, không có thẻ.
+- Component mới trong `assets/nihongo.js`: data-build (ghép câu), data-dialog (hội thoại + nói đuổi),
+  data-num (nghe giá/giờ/ngày/tầng — máy tự sinh cách đọc kana). Reference: `ngu-phap-minna.html`, `so-dem.html`.
+- Kanji: mới chỉ hiện để nhận mặt (cột kanji). Chưa có lộ trình kanji — cần bàn với người học trước Minna bài 11.
+- Mỗi bài Minna 60–75 phút; khuyên chia 2 buổi. Bài 11+ chưa soạn.
+- Người học yêu cầu (2026-11-14): mọi bài có từ vựng phải có phần LUYỆN ĐỌC từ vựng (data-read: nhìn chữ → đọc to →
+  gõ romaji, máy đọc lại). Gồm cả từ có ảnh lẫn từ chức năng. Giữ quy tắc này cho bài 11+.
+- Người học yêu cầu thêm (2026-11-14): MỖI từ vựng phải có câu ví dụ dùng chính từ đó, nghe được cả từ lẫn câu
+  (nút “từ”, “câu”, “từ + câu” và “nghe cả danh sách” dùng data-say-seq), có quiz nghe từ (data-listen) và
+  bài “tự đặt câu”. Từ chức năng cũng có câu ví dụ + nút nghe (tools/minna_word_ex.py, khớp 1-1 với words).
 
 ## Notion
 - Người học KHÔNG cần ghi chú/tiến độ trên Notion nữa (2026-11-14). Không cập nhật Notion; theo dõi tiến độ bằng `learning-records/`.
@@ -37,6 +55,6 @@
 - Repo public trên GitHub (người học yêu cầu). Không commit thông tin cá nhân hay bí mật; ảnh phải có ghi công.
 
 ## Việc cần hỏi người học
-- (Đã trả lời 2026-11-14: ĐÃ CÓ bộ Minna sơ cấp I.) Còn cần hỏi: có đủ bản dịch tiếng Việt + file nghe không?
+- (Đã trả lời 2026-11-14: CÓ bộ Minna sơ cấp I, CÓ bản dịch tiếng Việt và file nghe → bài Minna dùng file nghe của sách.)
 - Có muốn tham gia cộng đồng / luyện nói với người thật không?
 - Định thi JLPT kỳ nào đầu tiên (tháng 7 hay tháng 12)?

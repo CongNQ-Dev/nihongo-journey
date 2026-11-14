@@ -1,8 +1,9 @@
-"""Sinh bài học kana 0002–0011, bảng tra cứu, trang mục lục và assets/cards.js.
+"""Sinh bài học kana 0002–0011, bài Minna 0012+, bảng tra cứu, trang mục lục và assets/cards.js.
 
   python3 -I tools/build.py
 
-Nội dung nằm trong tools/kana_data.py; ảnh đã chọn trong tools/images.json.
+Nội dung: tools/kana_data.py (kana), tools/minna_data.py + tools/minna_vocab.py (Minna);
+ảnh đã chọn trong tools/images.json. Trang Minna sinh bởi tools/minna_pages.py.
 Bài 0001 viết tay, không sinh lại.
 """
 import html, json, os, sys
@@ -11,6 +12,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 from kana_data import CARDS, LESSONS, EXTRA_ROWS  # noqa: E402
 from fetch_images import card_id  # noqa: E402
+import minna_pages  # noqa: E402
+from minna_data import LESSONS as MINNA  # noqa: E402
+from minna_vocab import VOCAB, vocab_id  # noqa: E402
 
 IMAGES = json.load(open(os.path.join(ROOT, "tools", "images.json")))
 STROKES = set()
@@ -98,6 +102,10 @@ def all_cards():
         im = IMAGES[cid]
         out.append(dict(id=cid, lesson=c[0], type="kana", glyph=c[1], sound=c[2], vn=c[3], word=c[4], romaji=c[5],
                         meaning=c[6], img=im["file"], credit=f'{im["artist"][:40]} · {im["license"]}'))
+    missing = [vocab_id(v) for v in VOCAB if vocab_id(v) not in IMAGES]
+    if missing:
+        print("CHƯA CÓ ẢNH (bỏ qua thẻ):", " ".join(missing))
+    out += minna_pages.vocab_cards(IMAGES)
     return out
 
 
@@ -107,8 +115,8 @@ def write_cards(cards):
           + json.dumps(cards, ensure_ascii=False, indent=1) + ";\n")
     open(os.path.join(ROOT, "assets", "cards.js"), "w", encoding="utf-8").write(js)
     rows = [f"| {f} | {t} | {a} | {l} |" for f, t, a, l in LESSON1_CREDITS]
-    for c in CARDS:
-        im = IMAGES[card_id(c)]
+    for cid in [card_id(c) for c in CARDS] + [vocab_id(v) for v in VOCAB if vocab_id(v) in IMAGES]:
+        im = IMAGES[cid]
         rows.append(f'| {im["file"][4:]} | [{im["title"][5:]}]({im["page"]}) | {im["artist"]} | {im["license"]} |')
     md = ("# Ghi công ảnh (Wikimedia Commons)\n\nẢnh được thu nhỏ còn 960px. Sinh tự động bởi `tools/build.py`.\n\n"
           "| File | Ảnh gốc | Tác giả | Giấy phép |\n|---|---|---|---|\n" + "\n".join(rows) + "\n")
@@ -140,6 +148,8 @@ def page(title, body, base="../"):
 LESSON_FILES = {1: ("0001-hiragana-a-i-u-e-o", "Năm nguyên âm", "あいうえお")}
 for n, L in LESSONS.items():
     LESSON_FILES[n] = (L["slug"], L["title"], L["jp"])
+for n, L in MINNA.items():
+    LESSON_FILES[n] = (L["slug"], f'Minna {L["minna"]} · {L["title"]}', L["jp"])
 
 
 def new_glyphs(n):
@@ -289,8 +299,9 @@ def reference(k):
 
 
 def index_html():
-    items = "".join(f'<li><span class="num">{n:04d}</span><a href="lessons/{f}.html">{t}</a><span class="jp">{jp}</span></li>'
-                    for n, (f, t, jp) in sorted(LESSON_FILES.items()))
+    li = lambda rng: "".join(f'<li><span class="num">{n:04d}</span><a href="lessons/{f}.html">{t}</a><span class="jp">{jp}</span></li>'
+                             for n, (f, t, jp) in sorted(LESSON_FILES.items()) if n in rng)
+    items, minna = li(range(1, 12)), li(MINNA)
     body = f"""<header class="lesson-head">
   <div class="kicker">Tiếng Nhật · từ số 0 đến N2, rồi N1</div>
   <h1>Mục lục khoá học</h1>
@@ -300,8 +311,11 @@ def index_html():
 <h2>Giai đoạn 0 · Bảng chữ cái</h2>
 <ol class="lesson-list">{items}</ol>
 <p>Học theo thứ tự, mỗi ngày tối đa một bài mới. Xong bài 0011 là đọc được Minna no Nihongo bài 1.</p>
+<h2>Giai đoạn 1 · Minna no Nihongo sơ cấp I</h2>
+<ol class="lesson-list">{minna}</ol>
+<p>Mỗi bài Minna dài hơn bài kana (60–75 phút) — chia hai buổi nếu cần: buổi 1 từ vựng + ngữ pháp, buổi 2 luyện + sách + viết. Cần có sách Minna, bản dịch tiếng Việt và file nghe.</p>
 <h2>Tra cứu</h2>
-<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li></ul>"""
+<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/ngu-phap-minna.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/so-dem.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li></ul>"""
     return page("Mục lục khoá tiếng Nhật", body, base="")
 
 
@@ -312,8 +326,12 @@ def main():
         open(os.path.join(ROOT, "lessons", LESSONS[n]["slug"] + ".html"), "w", encoding="utf-8").write(lesson_html(n))
     for k in (False, True):
         open(os.path.join(ROOT, "reference", ("katakana" if k else "hiragana") + ".html"), "w", encoding="utf-8").write(reference(k))
+    for n in MINNA:
+        open(os.path.join(ROOT, "lessons", MINNA[n]["slug"] + ".html"), "w", encoding="utf-8").write(minna_pages.lesson_html(n, LESSON_FILES, page))
+    open(os.path.join(ROOT, "reference", "ngu-phap-minna.html"), "w", encoding="utf-8").write(minna_pages.grammar_reference(page, LESSON_FILES))
+    open(os.path.join(ROOT, "reference", "so-dem.html"), "w", encoding="utf-8").write(minna_pages.numbers_reference(page))
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(index_html())
-    print(f"{len(cards)} thẻ, {len(LESSONS)} bài, 2 bảng tra cứu, index.html")
+    print(f"{len(cards)} thẻ, {len(LESSONS) + len(MINNA)} bài, 4 bảng tra cứu, index.html")
 
 
 if __name__ == "__main__":

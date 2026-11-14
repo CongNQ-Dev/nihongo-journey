@@ -20,14 +20,32 @@
     voice = vs.find(v => /Kyoko|Google 日本語/.test(v.name)) || vs[0] || null;
   }
   if ("speechSynthesis" in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
-  function speak(text) {
+  function speak(text, onend, rate) {
     if (!("speechSynthesis" in window)) return alert("Trình duyệt này không có giọng đọc. Hãy mở bằng Chrome hoặc Safari.");
     speechSynthesis.cancel();
+    // Bỏ ký hiệu chỉ để hiển thị: [な], （よい）, ～ ; … và ／ thành chỗ ngắt.
+    text = String(text).replace(/\[[^\]]*\]|［[^］]*］|（[^）]*）|\([^)]*\)/g, "").replace(/[～〜]/g, "")
+      .replace(/…/g, "、").replace(/／/g, "、").replace(/[＿_]+/g, "").replace(/^[、\s]+/, "");
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = "ja-JP"; if (voice) u.voice = voice; u.rate = 0.8;
+    u.lang = "ja-JP"; if (voice) u.voice = voice; u.rate = rate || 0.8;
+    if (onend) u.onend = onend;
     speechSynthesis.speak(u);
   }
+  const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+  const esc = s => String(s).replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
   document.addEventListener("click", e => { const b = e.target.closest("[data-say]"); if (b) speak(b.dataset.say); });
+  /* Đọc nối tiếp: <button data-say-seq='["えき","えきは あそこです。"]'> — dừng giữa các phần để nhại theo. */
+  let seqRun = 0;
+  function speakSeq(list, token) {
+    if (!list.length || token !== seqRun) return;
+    const [t, ...rest] = list;
+    speak(t, () => setTimeout(() => speakSeq(rest, token), 700 + t.length * 180));
+  }
+  document.addEventListener("click", e => {
+    const b = e.target.closest("[data-say-seq]");
+    if (b) { try { speakSeq(JSON.parse(b.dataset.saySeq), ++seqRun); } catch {} }
+    if (e.target.closest("[data-say-stop]")) { seqRun++; speechSynthesis.cancel(); }
+  });
 
   /* ---------- Lịch ôn Leitner ---------- */
   const DAYS = [0, 1, 3, 7, 14], DAY = 864e5, KEY = "nihongo-srs-v1";
@@ -58,6 +76,7 @@
         return;
       }
       const c = queue[0];
+      if (c.type === "vocab") return showVocab(c);
       const hl = c.word.replace(c.glyph, `<b>${c.glyph}</b>`);
       el.append($("div", "deck-bar", `<span>Thẻ ${done + 1} / ${total}</span><span>${review ? "Ôn tập" : "Học mới"}</span>`));
       const card = $("div", "fc");
@@ -85,7 +104,147 @@
         }
       });
     }
+    /* Thẻ từ vựng: mặt trước chỉ có chữ (ảnh che kín vì ảnh lộ nghĩa), mặt sau có nghĩa + câu ví dụ. */
+    function showVocab(c) {
+      el.append($("div", "deck-bar", `<span>Thẻ ${done + 1} / ${total}</span><span>${review ? "Ôn tập" : "Học mới"} · từ vựng</span>`));
+      const card = $("div", "fc vocab");
+      const photo = $("figure", "fc-photo veiled");
+      photo.style.margin = 0;
+      photo.innerHTML = `<img src="${BASE}${c.img}" alt=""><div class="fc-glyph long">${c.word}</div><figcaption>Ảnh: ${c.credit}</figcaption>`;
+      const body = $("div", "fc-body");
+      body.innerHTML = `<p class="fc-prompt">Đọc to từ này, nói nghĩa tiếng Việt, rồi lật thẻ.</p>
+        <div class="fc-actions"><button class="btn primary" data-act="flip">Lật thẻ</button><button class="say" data-say="${c.word}">nghe</button></div>`;
+      card.append(photo, body); el.append(card);
+      body.addEventListener("click", e => {
+        const act = e.target.dataset.act; if (!act) return;
+        if (act === "flip") {
+          photo.classList.remove("veiled"); speak(c.word);
+          body.innerHTML = `<p class="fc-answer"><span class="sound">${c.meaning}</span><span class="hint">${c.romaji}${c.kanji ? ` · <span class="jp">${c.kanji}</span>` : ""}</span>
+              <button class="say" data-say="${c.word}">nghe lại</button></p>
+            <p class="fc-word"><span class="jp">${c.ex}</span> <button class="say" data-say="${c.ex}">nghe câu</button><br><span class="hint">${c.exvn}</span></p>
+            <div class="fc-actions"><button class="btn again" data-act="no">Chưa nhớ</button>
+              <button class="btn ok" data-act="yes">Nhớ rồi</button></div>`;
+        } else {
+          const ok = act === "yes"; grade(c.id, ok); queue.shift();
+          if (ok) done++; else queue.push(c);
+          show();
+        }
+      });
+    }
     show();
+  }
+
+  /* ---------- Ghép câu ----------
+     <div data-build='[["Tôi là sinh viên.","わたし は がくせい です"], ...]'></div>
+     Ô chữ = các phần cách nhau bởi dấu cách. Đáp án thứ 3 (tuỳ chọn) = một thứ tự khác cũng đúng. */
+  function builder(el) {
+    let items; try { items = shuffle(JSON.parse(el.dataset.build)); } catch { return; }
+    let i = 0, score = 0;
+    el.classList.add("quiz", "builder");
+    function show() {
+      if (i >= items.length) {
+        el.innerHTML = `<p class="fb ${score >= items.length * .8 ? "good" : "bad"}">Kết quả: ${score}/${items.length}. ${score >= items.length * .8 ? "Bạn đã nắm được trật tự câu." : "Làm lại một lượt — thứ tự sẽ khác."}</p><p><button class="btn primary" data-again>Làm lại</button></p>`;
+        el.querySelector("[data-again]").onclick = () => { shuffle(items); i = 0; score = 0; show(); };
+        return;
+      }
+      const [vn, ans, alt] = items[i], tiles = shuffle(ans.split(" ").map((t, k) => ({ t, k })));
+      el.innerHTML = `<p class="q"><span class="score">Câu ${i + 1}/${items.length} · đúng ${score}</span>Xếp thành câu tiếng Nhật: <strong>${esc(vn)}</strong></p>
+        <div class="line jp"></div><div class="tiles"></div><p class="fb"></p>
+        <p class="row"><button class="btn" data-clear>Xếp lại</button> <button class="btn primary" data-check>Kiểm tra</button></p>`;
+      const line = el.querySelector(".line"), pool = el.querySelector(".tiles"), fb = el.querySelector(".fb");
+      tiles.forEach(x => { const b = $("button", "tile jp", esc(x.t)); b.dataset.t = x.t; pool.append(b); });
+      el.onclick = e => {
+        const t = e.target.closest(".tile");
+        if (t && !el.dataset.lock) { (t.parentElement === pool ? line : pool).append(t); return; }
+        if (e.target.matches("[data-clear]")) { [...line.children].forEach(b => pool.append(b)); fb.textContent = ""; }
+        if (e.target.matches("[data-check]")) {
+          if (el.dataset.lock) { delete el.dataset.lock; i++; return show(); }
+          if (pool.children.length) { fb.className = "fb bad"; fb.textContent = "Còn ô chưa dùng."; return; }
+          const got = [...line.children].map(b => b.dataset.t).join(" "), ok = got === ans || (alt && got === alt);
+          if (ok) score++;
+          fb.className = "fb " + (ok ? "good" : "bad");
+          fb.innerHTML = ok ? `Đúng: <span class="jp">${esc(ans)}</span>` : `Chưa đúng. Đáp án: <span class="jp">${esc(ans)}</span>`;
+          speak(ans.replace(/ /g, "")); el.dataset.lock = 1; e.target.textContent = "Câu tiếp →";
+        }
+      };
+    }
+    show();
+  }
+
+  /* ---------- Hội thoại ----------
+     <div data-dialog='[["A","はじめまして。","Rất hân hạnh."], ...]'></div> */
+  function dialog(el) {
+    let lines; try { lines = JSON.parse(el.dataset.dialog); } catch { return; }
+    el.classList.add("dialog");
+    el.innerHTML = `<p class="row"><button class="btn primary" data-all>▶ Nghe cả đoạn</button> <button class="btn" data-shadow>Nói đuổi (dừng sau mỗi câu)</button> <button class="btn" data-vn>Hiện / ẩn nghĩa</button> <button class="btn" data-stop>Dừng</button></p>
+      <ol>${lines.map(([sp, jp, vn], k) => `<li data-k="${k}"><span class="sp">${esc(sp)}</span><span class="jp">${esc(jp)}</span> <button class="say" data-say="${esc(jp)}">nghe</button><span class="vn">${esc(vn)}</span></li>`).join("")}</ol>`;
+    const lis = [...el.querySelectorAll("li")]; let run = 0;
+    const mark = k => lis.forEach((li, j) => li.classList.toggle("now", j === k));
+    function play(k, pause, token) {
+      if (token !== run || k >= lines.length) { mark(-1); return; }
+      mark(k);
+      const txt = lines[k][1];
+      speak(txt, () => setTimeout(() => play(k + 1, pause, token), pause ? 900 + txt.length * 260 : 450));
+    }
+    el.querySelector("[data-all]").onclick = () => play(0, false, ++run);
+    el.querySelector("[data-shadow]").onclick = () => play(0, true, ++run);
+    el.querySelector("[data-stop]").onclick = () => { run++; speechSynthesis.cancel(); mark(-1); };
+    el.querySelector("[data-vn]").onclick = () => el.classList.toggle("show-vn");
+  }
+
+  /* ---------- Nghe số: giá tiền, giờ, ngày ----------
+     <div data-num="price|time|date|month|count"></div> — máy đọc, bạn gõ số. */
+  const D = ["", "いち", "に", "さん", "よん", "ご", "ろく", "なな", "はち", "きゅう"];
+  function yomi(n) {
+    if (n === 0) return "ゼロ";
+    let s = "";
+    const man = Math.floor(n / 10000); if (man) { s += yomi(man) + "まん"; n %= 10000; }
+    const sen = Math.floor(n / 1000); n %= 1000;
+    if (sen) s += ({ 1: "せん", 3: "さんぜん", 8: "はっせん" })[sen] || D[sen] + "せん";
+    const hyaku = Math.floor(n / 100); n %= 100;
+    if (hyaku) s += ({ 1: "ひゃく", 3: "さんびゃく", 6: "ろっぴゃく", 8: "はっぴゃく" })[hyaku] || D[hyaku] + "ひゃく";
+    const ju = Math.floor(n / 10); n %= 10;
+    if (ju) s += (ju === 1 ? "" : D[ju]) + "じゅう";
+    return s + D[n];
+  }
+  const HOUR = { 4: "よじ", 7: "しちじ", 9: "くじ" };
+  const MIN1 = ["", "いっぷん", "にふん", "さんぷん", "よんぷん", "ごふん", "ろっぷん", "ななふん", "はっぷん", "きゅうふん"];
+  function minYomi(m) {
+    const t = Math.floor(m / 10), u = m % 10;
+    if (!u) return (t === 1 ? "" : D[t]) + "じゅっぷん";
+    return (t ? (t === 1 ? "" : D[t]) + "じゅう" : "") + MIN1[u];
+  }
+  const MONTH = { 4: "しがつ", 7: "しちがつ", 9: "くがつ" };
+  const DAYS_ = { 1: "ついたち", 2: "ふつか", 3: "みっか", 4: "よっか", 5: "いつか", 6: "むいか", 7: "なのか", 8: "ようか", 9: "ここのか", 10: "とおか", 14: "じゅうよっか", 17: "じゅうしちにち", 19: "じゅうくにち", 20: "はつか", 24: "にじゅうよっか", 27: "にじゅうしちにち", 29: "にじゅうくにち" };
+  const NUM = {
+    price: { hint: "Gõ số tiền bằng chữ số (vd 350).", gen() { const pool = [80, 100, 120, 300, 350, 600, 680, 800, 1000, 1500, 3000, 3800, 6000, 8000, 8500, 12000, 25000]; const n = Math.random() < .5 ? pool[Math.floor(Math.random() * pool.length)] : (Math.floor(Math.random() * 99) + 1) * (Math.random() < .5 ? 10 : 100); return { say: yomi(n) + "えん", ans: String(n) }; } },
+    time: { hint: "Gõ giờ dạng 7:15 (giờ 1–12).", gen() { const h = Math.floor(Math.random() * 12) + 1, m = Math.random() < .25 ? 0 : Math.floor(Math.random() * 12) * 5 || 30; return { say: (HOUR[h] || yomi(h) + "じ") + (m ? minYomi(m) : ""), ans: `${h}:${String(m).padStart(2, "0")}`, alt: m ? null : String(h) }; } },
+    date: { hint: "Gõ ngày dạng tháng/ngày (vd 4/8 = ngày 8 tháng 4).", gen() { const mo = Math.floor(Math.random() * 12) + 1, d = Math.random() < .6 ? [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 20, 24][Math.floor(Math.random() * 13)] : Math.floor(Math.random() * 31) + 1; return { say: (MONTH[mo] || yomi(mo) + "がつ") + " " + (DAYS_[d] || yomi(d) + "にち"), ans: `${mo}/${d}` }; } },
+    count: { hint: "Gõ số bằng chữ số (vd 47).", gen() { const n = Math.floor(Math.random() * 100); return { say: yomi(n), ans: String(n) }; } },
+    floor: { hint: "Gõ số tầng (vd 3).", gen() { const n = Math.floor(Math.random() * 9) + 1; return { say: ({ 1: "いっかい", 3: "さんがい", 6: "ろっかい", 8: "はっかい" })[n] || D[n] + "かい", ans: String(n) }; } },
+  };
+  function numDrill(el) {
+    const kind = NUM[el.dataset.num] || NUM.count, rounds = +el.dataset.rounds || 10;
+    let n = 0, score = 0, cur = null, answered = false;
+    el.classList.add("quiz", "reader");
+    el.innerHTML = `<p class="q"><span class="score"></span>Bấm nghe, rồi gõ con số bạn nghe được. ${kind.hint}</p>
+      <p><button class="btn primary" data-play>▶ Nghe</button> <input type="text" inputmode="numeric" autocomplete="off" placeholder="…"> <button class="btn" data-go>Kiểm tra</button></p><p class="fb"></p>`;
+    const inp = el.querySelector("input"), fb = el.querySelector(".fb"), sc = el.querySelector(".score");
+    const next = () => { answered = false; inp.value = ""; cur = kind.gen(); sc.textContent = `Câu ${n + 1}/${rounds} · đúng ${score}`; speak(cur.say); inp.focus(); };
+    function check() {
+      if (!cur) return next();
+      if (answered) { if (n >= rounds) { n = 0; score = 0; fb.textContent = ""; } return next(); }
+      const v = inp.value.trim().replace(/[：]/g, ":").replace(/[／]/g, "/").replace(/^0+(\d)/, "$1");
+      answered = true; n++;
+      const ok = v === cur.ans || (cur.alt && v === cur.alt);
+      if (ok) score++;
+      fb.className = "fb " + (ok ? "good" : "bad");
+      fb.innerHTML = `${ok ? "Đúng" : "Chưa đúng"}: <strong>${cur.ans}</strong> — <span class="jp">${cur.say}</span>` +
+        (n >= rounds ? `<br>Kết quả: ${score}/${rounds}. Nhấn Enter để làm lượt mới.` : " · Enter để nghe câu tiếp.");
+    }
+    el.querySelector("[data-play]").onclick = () => cur && !answered ? speak(cur.say) : check();
+    el.querySelector("[data-go]").onclick = check;
+    inp.onkeydown = e => { if (e.key === "Enter") check(); };
   }
 
   /* ---------- Quiz nghe ---------- */
@@ -200,6 +359,9 @@
     document.querySelectorAll(".quiz[data-answer]").forEach(quiz);
     document.querySelectorAll("[data-write]").forEach(writer);
     document.querySelectorAll("[data-read]").forEach(reader);
+    document.querySelectorAll("[data-build]").forEach(builder);
+    document.querySelectorAll("[data-dialog]").forEach(dialog);
+    document.querySelectorAll("[data-num]").forEach(numDrill);
     document.querySelectorAll("[data-due-count]").forEach(e => e.textContent = (window.CARDS || []).filter(c => isDue(c.id)).length);
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init) : init();
