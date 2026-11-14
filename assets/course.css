@@ -1,0 +1,109 @@
+/* Stylesheet dùng chung cho mọi bài học, trang tra cứu và trang ôn flashcard. */
+:root {
+  --bg: #fbf9f3; --fg: #1f1e1c; --muted: #6d6a62; --rule: #e3dfd2;
+  --accent: #26457a;      /* chàm (藍) */
+  --shu: #c0392b;         /* son (朱) */
+  --good: #2f7d32; --bad: #b3261e;
+  --panel: #f2efe4; --card: #ffffff;
+  --font-body: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-jp: "YuKyokasho", "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171614; --fg: #ebe8dd; --muted: #a09c91; --rule: #35332d;
+    --accent: #8fb0ea; --shu: #f0816f; --good: #7cc47f; --bad: #f08a80;
+    --panel: #22201c; --card: #1e1d1a;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 18px; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-body); line-height: 1.65; }
+main { max-width: 43rem; margin: 0 auto; padding: 3rem 16px 5rem; }
+header.lesson-head { border-bottom: 1px solid var(--rule); margin-bottom: 2rem; padding-bottom: 1rem; }
+.kicker { font-family: var(--font-ui); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 { font-weight: 400; font-size: 2.1rem; line-height: 1.2; margin: .3rem 0 .6rem; }
+h2 { font-weight: 400; font-size: 1.4rem; margin: 2.8rem 0 .6rem; }
+h2 .n { color: var(--shu); font-family: var(--font-ui); font-size: .8rem; margin-right: .5rem; letter-spacing: .05em; }
+h3 { font-family: var(--font-ui); font-size: .95rem; margin: 1.6rem 0 .4rem; }
+.lede { font-size: 1.15rem; color: var(--muted); margin: 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+sup.cite a { font-family: var(--font-ui); font-size: .7rem; text-decoration: none; }
+.jp { font-family: var(--font-jp); font-size: 1.25em; line-height: 1; }
+.note, .win, .ask { font-family: var(--font-ui); font-size: .88rem; line-height: 1.55; padding: .9rem 1.1rem; border-radius: 6px; margin: 1.4rem 0; background: var(--panel); }
+.win { border-left: 4px solid var(--good); }
+.ask { border-left: 4px solid var(--accent); }
+.note { border-left: 4px solid var(--rule); }
+.note strong, .win strong, .ask strong { display: block; margin-bottom: .2rem; }
+table { border-collapse: collapse; width: 100%; font-family: var(--font-ui); font-size: .85rem; margin: 1rem 0; }
+th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid var(--rule); vertical-align: middle; }
+th { font-weight: 600; color: var(--muted); }
+td .jp { font-size: 1.7rem; }
+.table-wrap { overflow-x: auto; }
+ol.sources { font-family: var(--font-ui); font-size: .8rem; color: var(--muted); padding-left: 1.2rem; }
+nav.next { display: flex; justify-content: space-between; gap: 1rem; font-family: var(--font-ui); font-size: .85rem; margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+
+button { font: inherit; color: inherit; cursor: pointer; }
+.btn { font-family: var(--font-ui); font-size: .82rem; padding: .45rem .9rem; border-radius: 999px; border: 1px solid var(--rule); background: var(--card); }
+.btn:hover { border-color: var(--accent); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.btn.again { border-color: var(--bad); color: var(--bad); }
+.btn.ok { border-color: var(--good); color: var(--good); }
+.say { border: 0; background: none; padding: 0 .15rem; color: var(--accent); font-family: var(--font-ui); font-size: .8rem; text-decoration: underline dotted; text-underline-offset: 3px; }
+.say::before { content: "▶ "; font-size: .7em; }
+
+/* ---------- Flashcard ---------- */
+.deck { margin: 1.5rem 0; font-family: var(--font-ui); }
+.deck-bar { display: flex; justify-content: space-between; align-items: center; font-size: .78rem; color: var(--muted); margin-bottom: .5rem; }
+.fc { background: var(--card); border: 1px solid var(--rule); border-radius: 14px; overflow: hidden; box-shadow: 0 6px 24px rgba(0,0,0,.07); }
+.fc-photo { position: relative; aspect-ratio: 3 / 2; background: var(--panel); }
+.fc-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fc-photo.veiled img { filter: blur(22px) saturate(.6); transform: scale(1.1); }
+.fc-photo figcaption { position: absolute; right: 0; bottom: 0; font-size: .58rem; color: #fff; background: rgba(0,0,0,.45); padding: .1rem .4rem; border-top-left-radius: 6px; }
+.fc-glyph { position: absolute; left: 14px; top: 14px; width: 5.2rem; height: 5.2rem; display: grid; place-items: center; background: rgba(255,255,255,.93); color: #1f1e1c; border-radius: 12px; font-family: var(--font-jp); font-size: 3.6rem; line-height: 1; box-shadow: 0 2px 10px rgba(0,0,0,.25); }
+.fc-body { padding: 1rem 1.1rem 1.1rem; min-height: 8.2rem; }
+.fc-prompt { color: var(--muted); font-size: .9rem; margin: 0 0 .8rem; }
+.fc-answer { display: flex; align-items: baseline; gap: .8rem; flex-wrap: wrap; margin: 0 0 .3rem; }
+.fc-answer .sound { font-size: 2rem; font-family: var(--font-body); color: var(--shu); }
+.fc-answer .hint { font-size: .82rem; color: var(--muted); }
+.fc-word { font-size: .95rem; margin: .2rem 0 .9rem; }
+.fc-word .jp { font-size: 1.5rem; }
+.fc-word .jp b { color: var(--shu); font-weight: 400; }
+.fc-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
+.deck-done { padding: 2rem 1rem; text-align: center; background: var(--panel); border-radius: 14px; }
+
+/* ---------- Quiz ---------- */
+.quiz { font-family: var(--font-ui); background: var(--panel); border-radius: 10px; padding: 1rem 1.1rem; margin: 1.2rem 0; }
+.quiz .q { margin: 0 0 .7rem; font-size: .92rem; }
+.quiz .opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(5.5rem, 1fr)); gap: .5rem; }
+.quiz .opts button { padding: .6rem .4rem; border-radius: 8px; border: 1px solid var(--rule); background: var(--card); font-size: 1rem; }
+.quiz .opts button.jp { font-size: 1.9rem; padding: .5rem; }
+.quiz .opts button.right { border-color: var(--good); background: color-mix(in srgb, var(--good) 15%, var(--card)); }
+.quiz .opts button.wrong { border-color: var(--bad); background: color-mix(in srgb, var(--bad) 12%, var(--card)); }
+.quiz .fb { font-size: .82rem; margin: .7rem 0 0; min-height: 1.3em; }
+.quiz .fb.good { color: var(--good); } .quiz .fb.bad { color: var(--bad); }
+.quiz .score { float: right; font-size: .78rem; color: var(--muted); }
+
+/* ---------- Tập viết ---------- */
+.writers { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 1rem; margin: 1.2rem 0; }
+.writer { font-family: var(--font-ui); text-align: center; }
+.writer .pad { position: relative; aspect-ratio: 1; background: var(--card); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden; touch-action: none; }
+.writer .pad::before, .writer .pad::after { content: ""; position: absolute; border: 0 dashed var(--rule); pointer-events: none; }
+.writer .pad::before { left: 50%; top: 0; bottom: 0; border-left-width: 1px; }
+.writer .pad::after { top: 50%; left: 0; right: 0; border-top-width: 1px; }
+.writer svg, .writer canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.writer svg path { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 5; }
+.writer svg path.guide { stroke: var(--rule); }
+.writer svg path.ink { stroke: var(--shu); }
+.writer svg text { font-size: 7px; fill: var(--muted); font-family: var(--font-ui); }
+.writer .row { display: flex; gap: .4rem; justify-content: center; margin-top: .5rem; }
+.writer .btn { font-size: .72rem; padding: .3rem .7rem; }
+
+.recall { border: 1px dashed var(--muted); border-radius: 10px; padding: 1rem 1.2rem; margin: 1.4rem 0; }
+.recall ol { margin: .4rem 0 0; padding-left: 1.2rem; }
+.kana-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: .5rem; margin: 1rem 0; }
+.kana-grid div { border: 1px solid var(--rule); border-radius: 8px; text-align: center; padding: .5rem 0 .3rem; background: var(--card); font-family: var(--font-ui); font-size: .75rem; color: var(--muted); }
+.kana-grid div .jp { display: block; font-size: 2.2rem; color: var(--fg); margin-bottom: .2rem; }
+.kana-grid div.todo { opacity: .35; }
+@media print { .btn, .say, .quiz, .deck { display: none !important; } body { background: #fff; } }
