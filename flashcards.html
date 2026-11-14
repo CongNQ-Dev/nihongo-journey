@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ôn flashcard hằng ngày</title>
-<link rel="stylesheet" href="assets/course.css">
+<link rel="stylesheet" href="assets/course.css?v=5">
 </head>
 <body>
 <main>
@@ -13,13 +13,35 @@
   <h1>Flashcard hôm nay</h1>
   <p class="lede">Có <span data-due-count>0</span> thẻ đến hạn. Ảnh bị che cho tới khi bạn lật — hãy tự nhớ ra trước.</p>
 </header>
+<div class="mode-switch"><button class="btn primary" data-m="deck">Flashcard</button><button class="btn" data-m="write">Viết lại</button></div>
 <div data-deck data-due></div>
+<div id="rw-due" hidden></div>
 <div class="note"><strong>Cách hoạt động</strong>
-“Nhớ rồi” đẩy thẻ sang hộp xa hơn: 1 → 3 → 7 → 14 ngày. “Chưa nhớ” đưa thẻ về hôm nay. Thẻ mới chỉ vào đây sau khi bạn học lần đầu trong bài học. Tiến độ lưu trong trình duyệt này (localStorage) — hãy luôn mở bằng cùng một trình duyệt.</div>
+“Nhớ rồi” đẩy thẻ sang hộp xa hơn: 1 → 3 → 7 → 14 ngày. “Chưa nhớ” đưa thẻ về hôm nay. Thẻ mới chỉ vào đây sau khi bạn học lần đầu trong bài học. Chế độ “Viết lại” cũng chấm vào lịch này (kèm điểm gợi ý của máy). Tiến độ lưu trong trình duyệt này (localStorage) — hãy luôn mở bằng cùng một trình duyệt.</div>
 <nav class="next"><a href="index.html">Mục lục</a><a href="luyen-tap.html">Luyện tự chọn</a><a href="reference/hiragana.html">Bảng hiragana</a><a href="reference/katakana.html">Bảng katakana</a></nav>
 </main>
-<script src="assets/cards.js"></script>
+<script src="assets/cards.js?v=5"></script>
 <script src="assets/strokes.js"></script>
-<script src="assets/nihongo.js" data-base="assets/"></script>
+<script src="assets/nihongo.js?v=5" data-base="assets/"></script>
+<script>
+(function () {
+  const N = window.Nihongo, deck = document.querySelector("[data-deck]"), rw = document.getElementById("rw-due");
+  const btns = [...document.querySelectorAll("[data-m]")];
+  function startWrite() {
+    const due = (window.CARDS || []).filter(c => N.isDue(c.id));
+    if (!due.length) { rw.className = "note"; rw.textContent = "Hôm nay không có thẻ nào đến hạn để viết lại."; return; }
+    rw.className = "";
+    N.rewrite(rw, due.map(c => c.type === "vocab"
+      ? { id: c.id, text: c.word, prompt: c.romaji, hint: c.meaning + (c.kanji ? " · " + c.kanji : "") }
+      : { id: c.id, text: c.glyph, prompt: c.sound, hint: c.vn || "" }), { onGrade: (it, ok) => N.grade(it.id, ok) });
+  }
+  btns.forEach(b => b.onclick = () => {
+    const w = b.dataset.m === "write";
+    btns.forEach(x => x.classList.toggle("primary", x === b));
+    deck.hidden = w; rw.hidden = !w;
+    if (w) startWrite();
+  });
+})();
+</script>
 </body>
 </html>

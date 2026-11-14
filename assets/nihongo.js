@@ -359,7 +359,8 @@
      items: [{ text: "せんせい", prompt: "sensei", hint: "giáo viên" }, ...]
      Mỗi mục: nhìn romaji + nghĩa (hoặc nghe), tự viết từng chữ vào ô trống, rồi bấm
      "Xem đáp án" để nét chuẩn hiện chồng lên chữ mình viết, tự chấm Nhớ / Chưa nhớ. */
-  function rewrite(el, items) {
+  function rewrite(el, items, opt) {
+    opt = opt || {};
     const S = window.STROKES || {};
     let order = shuffle(items.slice()), i = 0, ok = 0, missed = [], shown = false, faint = false;
     el.classList.add("quiz", "rewrite");
@@ -375,11 +376,33 @@
       cv.width = r.width * d; cv.height = r.height * d; ctx.scale(d, d);
       ctx.lineWidth = Math.max(4, r.width / 22); ctx.lineCap = ctx.lineJoin = "round";
       ctx.strokeStyle = getComputedStyle(el).getPropertyValue("--fg").trim() || "#222";
-      let down = false; const pos = e => { const b = cv.getBoundingClientRect(); return [e.clientX - b.left, e.clientY - b.top]; };
-      cv.onpointerdown = e => { if (shown) return; down = true; cv.setPointerCapture(e.pointerId); ctx.beginPath(); ctx.moveTo(...pos(e)); ctx.lineTo(...pos(e)); ctx.stroke(); };
-      cv.onpointermove = e => { if (!down) return; ctx.lineTo(...pos(e)); ctx.stroke(); };
+      let down = false; p.strokes = [];
+      const pos = e => { const b = cv.getBoundingClientRect(); return [e.clientX - b.left, e.clientY - b.top]; };
+      const norm = e => { const b = cv.getBoundingClientRect(), q = pos(e); return [q[0] / b.width * 109, q[1] / b.height * 109]; };
+      cv.onpointerdown = e => { if (shown) return; down = true; cv.setPointerCapture(e.pointerId); ctx.beginPath(); ctx.moveTo(...pos(e)); ctx.lineTo(...pos(e)); ctx.stroke(); p.strokes.push([norm(e)]); };
+      cv.onpointermove = e => { if (!down) return; ctx.lineTo(...pos(e)); ctx.stroke(); p.strokes[p.strokes.length - 1].push(norm(e)); };
       cv.onpointerup = cv.onpointercancel = () => down = false;
-      p.clear = () => { ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, cv.width, cv.height); ctx.restore(); };
+      p.clear = () => { ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, cv.width, cv.height); ctx.restore(); p.strokes = []; };
+    }
+    /* Chấm gần đúng: so nét mình viết với nét chuẩn KanjiVG (độ phủ + độ chính xác trong dung sai ±8/109, trừ điểm nếu lệch số nét).
+       Không xét thứ tự nét; chỉ là gợi ý. */
+    function scorePad(p, ch) {
+      const paths = S[ch], used = (p.strokes || []).filter(s => s.length);
+      if (!paths) return null;
+      if (!used.length) return 0;
+      const K = 2, W = 109 * K;
+      const mk = () => { const c = document.createElement("canvas"); c.width = c.height = W; const x = c.getContext("2d"); x.scale(K, K); x.lineCap = x.lineJoin = "round"; return x; };
+      const ref = w => { const x = mk(); x.lineWidth = w; paths.forEach(d => x.stroke(new Path2D(d))); return x; };
+      const usr = w => { const x = mk(); x.lineWidth = w; used.forEach(s => { x.beginPath(); x.moveTo(...s[0]); s.forEach(q => x.lineTo(...q)); x.lineTo(s[s.length - 1][0] + .1, s[s.length - 1][1]); x.stroke(); }); return x; };
+      const px = x => x.getImageData(0, 0, W, W).data;
+      const rt = px(ref(3)), rf = px(ref(16)), ut = px(usr(3)), uf = px(usr(16));
+      let nr = 0, hit = 0, nu = 0, good = 0;
+      for (let i = 3; i < rt.length; i += 4) {
+        if (rt[i] > 40) { nr++; if (uf[i] > 40) hit++; }
+        if (ut[i] > 40) { nu++; if (rf[i] > 40) good++; }
+      }
+      const cov = nr ? hit / nr : 0, pre = nu ? good / nu : 0, f1 = cov + pre ? 2 * cov * pre / (cov + pre) : 0;
+      return Math.max(0, f1 - Math.min(.3, Math.abs(used.length - paths.length) * .08));
     }
     function animate() {
       let t = 0;
@@ -412,16 +435,25 @@
       el.querySelector(".rw-count").innerHTML = `<span class="jp rw-answer">${esc(it.text)}</span>`;
       el.querySelector(".rw-act").innerHTML = `<button class="btn" data-a="anim">Xem lại thứ tự nét</button>
         <button class="btn again" data-a="miss">Chưa nhớ</button><button class="btn primary" data-a="ok">Nhớ đúng</button>`;
-      el.querySelector(".fb").textContent = "So chữ của bạn (nét đen) với nét chuẩn (màu), rồi tự chấm.";
+      const chars = [...it.text.replace(/\s+/g, "")], pads = [...el.querySelectorAll(".pad")];
+      const sc = pads.map((p, k) => { const v = scorePad(p, chars[k]);
+        if (v != null) p.insertAdjacentHTML("beforeend", `<span class="rw-score ${v >= .55 ? "good" : "bad"}">${Math.round(v * 100)}%</span>`); return v; }).filter(v => v != null);
+      const fb = el.querySelector(".fb");
+      if (sc.length) {
+        const avg = sc.reduce((a, b) => a + b, 0) / sc.length, good = avg >= .55;
+        fb.className = "fb " + (good ? "good" : "bad");
+        fb.textContent = `Máy chấm: ${Math.round(avg * 100)}% — gợi ý "${good ? "Nhớ đúng" : "Chưa nhớ"}". Đây chỉ là ước lượng (không xét thứ tự nét), bạn tự quyết định.`;
+        el.querySelector(good ? '[data-a="ok"]' : '[data-a="miss"]').classList.add("suggest");
+      } else fb.textContent = "So chữ của bạn (nét đen) với nét chuẩn (màu), rồi tự chấm.";
       speak(it.text); animate();
     }
-    function next(good) { if (good) ok++; else missed.push(order[i]); i++; show(); }
+    function next(good) { if (opt.onGrade) opt.onGrade(order[i], good); if (good) ok++; else missed.push(order[i]); i++; show(); }
     function done() {
       const n = order.length;
       el.innerHTML = `<p class="q">Xong lượt viết.</p>
         <p class="fb ${ok >= n * .9 ? "good" : "bad"}">Nhớ đúng ${ok}/${n}.${missed.length ? " Cần viết lại: " : ""}<span class="jp">${missed.map(m => esc(m.text)).join("、")}</span></p>
         <div class="row">${missed.length ? `<button class="btn primary" data-a="again-miss">Viết lại ${missed.length} mục sai</button>` : ""}
-          <button class="btn${missed.length ? "" : " primary"}" data-a="again">Viết lại tất cả</button></div>`;
+          ${opt.onGrade ? "" : `<button class="btn${missed.length ? "" : " primary"}" data-a="again">Viết lại tất cả</button>`}</div>`;
     }
     el.onclick = e => {
       const b = e.target.closest("[data-a]"); if (!b) return; const a = b.dataset.a;
@@ -448,5 +480,5 @@
     document.querySelectorAll("[data-due-count]").forEach(e => e.textContent = (window.CARDS || []).filter(c => isDue(c.id)).length);
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init) : init();
-  window.Nihongo = { speak, deck, reader, listen, rewrite, shuffle, esc };
+  window.Nihongo = { speak, deck, reader, listen, rewrite, shuffle, esc, grade, isDue };
 })();
