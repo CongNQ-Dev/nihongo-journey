@@ -82,7 +82,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .fc-word .jp { font-size: 1.5rem; }
 .fc-word .jp b { color: var(--shu); font-weight: 400; }
 .fc-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
-.fc-photo.noimg { aspect-ratio: 5 / 2; display: grid; place-items: center; background: linear-gradient(135deg, var(--panel), var(--card)); }
+.fc-photo.noimg { aspect-ratio: auto; display: grid; place-items: center; padding: 2.2rem 0 1.8rem; background: linear-gradient(135deg, var(--panel), var(--card)); }
 .fc-big { font-size: 6rem; line-height: 1; color: var(--fg); }
 .deck-done .btn { display: block; margin: 1rem auto 0; }
 .deck-done { padding: 2rem 1rem; text-align: center; background: var(--panel); border-radius: 14px; }
@@ -171,27 +171,45 @@ details.answers summary { cursor: pointer; color: var(--accent); }
 
 /* ---------- Luyện tự chọn (luyen-tap.html) ---------- */
 [data-practice] { font-family: var(--font-ui); }
-.pr-tabs { display: flex; gap: .3rem; border-bottom: 1px solid var(--rule); margin: 1.2rem 0 .6rem; }
+.pr-tabs { display: flex; gap: .3rem; border-bottom: 1px solid var(--rule); margin: 1.2rem 0 .4rem; }
 .pr-tabs button { border: 0; background: none; padding: .55rem .9rem; font-size: .95rem; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
 .pr-tabs button.on { color: var(--fg); border-bottom-color: var(--shu); }
-.pr-help { font-size: .8rem; color: var(--muted); margin: .3rem 0 .6rem; }
-.pr-groups { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: .7rem; }
-.chip { border: 1px solid var(--rule); background: var(--card); border-radius: 999px; padding: .25rem .7rem; font-size: .78rem; color: var(--fg); }
-.chip.part { border-color: var(--accent); }
+.pr-h { font-family: var(--font-ui); font-size: 1rem; margin: 1.2rem 0 .6rem; }
+.pr-h small { font-weight: 400; color: var(--muted); font-size: .78rem; }
+.pr-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(8.6rem, 1fr)); gap: .5rem; }
+.gcard { position: relative; text-align: left; border: 1px solid var(--rule); background: var(--card); border-radius: 10px; padding: .55rem .7rem; color: var(--fg); display: flex; flex-direction: column; gap: .15rem; }
+.gcard b { font-size: .78rem; font-weight: 600; }
+.gcard .jp { font-size: 1rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gcard em { position: absolute; right: .55rem; top: .5rem; font-style: normal; font-size: .68rem; color: var(--shu); }
+.gcard.part { border-color: var(--shu); }
+.gcard.on { border-color: var(--shu); background: color-mix(in srgb, var(--shu) 13%, var(--card)); box-shadow: inset 0 0 0 1px var(--shu); }
+.chip { border: 1px solid var(--rule); background: var(--card); border-radius: 999px; padding: .25rem .8rem; font-size: .8rem; color: var(--fg); }
 .chip.on { background: var(--accent); border-color: var(--accent); color: var(--bg); }
-.pr-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(3.4rem, 1fr)); gap: .35rem; }
+.pr-more { margin: .9rem 0; font-size: .85rem; }
+.pr-more summary { cursor: pointer; color: var(--accent); padding: .3rem 0; }
+.pr-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(3.4rem, 1fr)); gap: .35rem; margin-top: .5rem; }
 .pr-grid.words { grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr)); }
 .pr-grid .cell { border: 1px solid var(--rule); background: var(--card); border-radius: 8px; padding: .4rem .2rem; font-size: 1.45rem; color: var(--fg); line-height: 1.2; }
 .pr-grid.words .cell { font-size: 1.05rem; padding: .45rem .4rem; }
 .pr-grid .cell small { display: block; font-family: var(--font-ui); font-size: .66rem; color: var(--muted); margin-top: .15rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pr-grid .cell.on { border-color: var(--shu); background: color-mix(in srgb, var(--shu) 14%, var(--card)); box-shadow: inset 0 0 0 1px var(--shu); }
-.pr-bar, .pr-draw, .pr-modes { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: .8rem 0; }
-.pr-count { font-size: .82rem; color: var(--muted); margin-right: auto; }
-.pr-draw { background: var(--panel); border-radius: 10px; padding: .8rem 1rem; }
-.pr-draw input { font: inherit; width: 4.2rem; padding: .3rem .4rem; border-radius: 6px; border: 1px solid var(--rule); background: var(--card); color: var(--fg); text-align: center; }
-.pr-from { font-size: .8rem; color: var(--muted); margin-right: auto; }
-.pr-picked { scroll-margin-top: 1rem; }
-.pr-picked-list { font-size: .85rem; margin: 1.2rem 0 .2rem; line-height: 2; }
-.pr-picked-list .say { font-size: 1.15rem; }
+.pr-dock { position: sticky; bottom: 0; z-index: 5; background: var(--bg); border-top: 1px solid var(--rule); box-shadow: 0 -8px 20px rgba(0,0,0,.06); padding: .8rem 0 .9rem; margin-top: 1rem; }
+.pr-sum { font-size: .82rem; color: var(--muted); margin: 0 0 .6rem; }
+.pr-sum b { color: var(--fg); }
+.linkbtn { border: 0; background: none; color: var(--accent); text-decoration: underline; font-size: .8rem; padding: 0 .2rem; }
+.pr-row { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin-bottom: .6rem; }
+.pr-lbl { font-size: .82rem; margin-right: .3rem; }
+.pr-step { display: inline-flex; border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; background: var(--card); }
+.pr-step button { border: 0; background: none; width: 2.2rem; font-size: 1.2rem; color: var(--fg); }
+.pr-step input { width: 3rem; border: 0; border-left: 1px solid var(--rule); border-right: 1px solid var(--rule); text-align: center; font: inherit; background: var(--card); color: var(--fg); -moz-appearance: textfield; }
+.pr-step input::-webkit-inner-spin-button { display: none; }
+.btn.big { padding: .75rem 1.3rem; font-size: 1rem; }
+.pr-sess-head { display: flex; align-items: center; justify-content: space-between; gap: .5rem; margin: 1.2rem 0 .8rem; }
+.pr-modes { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1rem; }
+.pr-picked-list { font-size: .9rem; line-height: 2.1; }
+.pr-picked-list .say { font-size: 1.2rem; }
+.pr-picked-list .hint { color: var(--muted); font-size: .8rem; }
 .btn:disabled { opacity: .45; cursor: default; }
 @media print { [data-practice] { display: none; } }
+.pr-sess-head .btn { white-space: nowrap; padding: .4rem .75rem; font-size: .8rem; }
+.pr-sess-head strong { font-size: .9rem; text-align: center; }

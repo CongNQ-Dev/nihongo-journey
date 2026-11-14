@@ -54,98 +54,108 @@
   /* ---------- Trạng thái (nhớ trong trình duyệt này) ---------- */
   let st = { tab: "hira", sel: [], n: 5 };
   try { st = { ...st, ...JSON.parse(localStorage.getItem(KEY)) }; } catch {}
-  let sel = new Set(st.sel.filter(k => ALL[k])), picked = [];
+  let sel = new Set(st.sel.filter(k => ALL[k])), picked = [], mode = "cards";
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ tab: st.tab, sel: [...sel], n: st.n })); } catch {} };
-
   const root = document.querySelector("[data-practice]");
-  root.innerHTML = `
-    <div class="pr-tabs" role="tablist">
-      <button data-tab="hira">Hiragana</button><button data-tab="kata">Katakana</button><button data-tab="vocab">Từ vựng</button>
-    </div>
-    <p class="pr-help">Bấm từng ô để chọn. Bấm tên nhóm để chọn / bỏ cả nhóm. Có thể chọn lẫn cả ba kho.</p>
-    <div class="pr-groups"></div>
-    <div class="pr-grid"></div>
-    <div class="pr-bar">
-      <span class="pr-count"></span>
-      <button class="btn" data-clear>Bỏ chọn hết</button>
-    </div>
-    <div class="pr-draw">
-      <label>Bốc ngẫu nhiên <input type="number" min="1" max="200" step="1" data-n> mục</label>
-      <span class="pr-from"></span>
-      <button class="btn primary" data-draw>Bốc</button>
-      <button class="btn" data-all>Học hết mục đã chọn</button>
-    </div>
-    <div class="pr-picked" hidden>
-      <p class="pr-picked-list"></p>
-      <div class="pr-modes">
-        <button class="btn primary" data-mode="cards">Flashcard</button>
-        <button class="btn" data-mode="read">Gõ cách đọc</button>
-        <button class="btn" data-mode="listen">Nghe chọn</button>
-        <button class="btn" data-draw>Bốc lại</button>
-      </div>
-      <div class="pr-stage"></div>
-    </div>`;
-  const q = s => root.querySelector(s);
-  const nInput = q("[data-n]"); nInput.value = st.n;
+  const TABS = { hira: "Hiragana", kata: "Katakana", vocab: "Từ vựng" };
+  const clampN = v => Math.max(1, Math.min(Math.round(+v) || 5, 100));
+  const tabOf = k => k[0] === "h" ? "hira" : k[0] === "k" ? "kata" : "vocab";
+  const chosen = () => [...sel].filter(k => tabOf(k) === st.tab);   // chỉ lấy lựa chọn của tab đang mở
+  const pool = () => chosen().length ? chosen().map(k => ALL[k]) : POOLS[st.tab].slice();
 
-  function render() {
-    root.querySelectorAll("[data-tab]").forEach(b => b.classList.toggle("on", b.dataset.tab === st.tab));
+  /* ---------- Màn 1: chọn ---------- */
+  function setup() {
     const list = POOLS[st.tab], groups = [...new Set(list.map(it => it.group))];
-    q(".pr-groups").innerHTML = groups.map(g => {
-      const keys = list.filter(it => it.group === g).map(it => it.key), n = keys.filter(k => sel.has(k)).length;
-      return `<button class="chip${n === keys.length ? " on" : n ? " part" : ""}" data-group="${esc(g)}">${esc(g)}${n ? ` · ${n}` : ""}</button>`;
-    }).join("");
-    q(".pr-grid").className = "pr-grid" + (st.tab === "vocab" ? " words" : "");
-    q(".pr-grid").innerHTML = list.map(it =>
-      `<button class="cell jp${sel.has(it.key) ? " on" : ""}" data-key="${esc(it.key)}" title="${esc(it.read + " · " + it.vn)}">${esc(it.label)}${st.tab === "vocab" ? `<small>${esc(it.vn)}</small>` : ""}</button>`).join("");
-    const by = { hira: 0, kata: 0, vocab: 0 };
-    sel.forEach(k => by[k[0] === "h" ? "hira" : k[0] === "k" ? "kata" : "vocab"]++);
-    q(".pr-count").textContent = sel.size
-      ? `Đã chọn ${sel.size} mục (hiragana ${by.hira}, katakana ${by.kata}, từ vựng ${by.vocab})`
-      : "Chưa chọn mục nào — sẽ bốc từ toàn bộ kho đang mở.";
-    q(".pr-from").textContent = sel.size ? `trong ${sel.size} mục đã chọn` : `trong ${list.length} mục của kho này`;
-    q("[data-all]").disabled = !sel.size;
+    const p = pool(), n = Math.min(st.n, p.length);
+    const nc = chosen().length;
+    const summary = nc
+      ? `Đã chọn <b>${nc}</b> mục trong ${TABS[st.tab]}`
+      : `Chưa chọn riêng mục nào — sẽ bốc từ cả kho <b>${TABS[st.tab]}</b> (${list.length} mục)`;
+    root.innerHTML = `
+      <div class="pr-tabs" role="tablist">${Object.entries(TABS).map(([k, v]) =>
+        `<button data-tab="${k}" class="${k === st.tab ? "on" : ""}">${v}</button>`).join("")}</div>
+      <h2 class="pr-h">1. Chọn nhóm muốn học <small>(không bắt buộc)</small></h2>
+      <div class="pr-groups">${groups.map(g => {
+        const items = list.filter(it => it.group === g), c = items.filter(it => sel.has(it.key)).length;
+        const prev = st.tab === "vocab" ? `${items.length} từ` : items.slice(0, 5).map(it => it.label).join(" ");
+        return `<button class="gcard${c === items.length ? " on" : c ? " part" : ""}" data-group="${esc(g)}"><b>${esc(g)}</b><span class="jp">${esc(prev)}</span>${c ? `<em>${c}/${items.length}</em>` : ""}</button>`;
+      }).join("")}</div>
+      <details class="pr-more"><summary>Hoặc chọn từng ${st.tab === "vocab" ? "từ" : "chữ"} một</summary>
+        <div class="pr-grid${st.tab === "vocab" ? " words" : ""}">${list.map(it =>
+          `<button class="cell jp${sel.has(it.key) ? " on" : ""}" data-key="${esc(it.key)}">${esc(it.label)}${st.tab === "vocab" ? `<small>${esc(it.vn)}</small>` : ""}</button>`).join("")}</div>
+      </details>
+      <div class="pr-dock">
+        <p class="pr-sum">${summary}${nc ? ` <button class="linkbtn" data-clear>bỏ chọn</button>` : ""}</p>
+        <div class="pr-row">
+          <span class="pr-lbl">2. Số mục mỗi lượt</span>
+          <span class="pr-step"><button data-dec aria-label="Giảm">−</button><input type="number" min="1" max="100" value="${st.n}" data-n><button data-inc aria-label="Tăng">+</button></span>
+          ${[5, 10, 20].map(v => `<button class="chip${st.n === v ? " on" : ""}" data-setn="${v}">${v}</button>`).join("")}
+        </div>
+        <div class="pr-row">
+          <button class="btn primary big" data-draw>Bốc ${n} mục ngẫu nhiên &amp; học</button>
+          ${nc > 1 ? `<button class="btn big" data-all>Học cả ${nc} mục đã chọn</button>` : ""}
+        </div>
+      </div>`;
     save();
   }
 
-  function pool() { return sel.size ? [...sel].map(k => ALL[k]) : POOLS[st.tab].slice(); }
-  function draw(all) {
-    const p = N.shuffle(pool());
-    st.n = Math.max(1, Math.min(+nInput.value || 5, 200)); nInput.value = st.n; save();
-    picked = all ? p : p.slice(0, st.n);
-    q(".pr-picked").hidden = false;
-    q(".pr-picked-list").innerHTML = `<strong>${picked.length} mục:</strong> ` +
-      picked.map(it => `<button class="say jp" data-say="${esc(it.label)}">${esc(it.label)}</button>`).join(" ");
-    start("cards");
-    q(".pr-picked").scrollIntoView({ behavior: "smooth", block: "start" });
+  /* ---------- Màn 2: luyện ---------- */
+  function session() {
+    root.innerHTML = `
+      <div class="pr-sess">
+        <div class="pr-sess-head"><button class="btn" data-back>← Chọn lại</button>
+          <strong>${picked.length} mục ngẫu nhiên</strong>
+          <button class="btn" data-redraw>Bốc lượt khác</button></div>
+        <div class="pr-modes">${[["cards", "Flashcard"], ["read", "Gõ cách đọc"], ["listen", "Nghe chọn"]].map(([k, v]) =>
+          `<button class="btn${k === mode ? " primary" : ""}" data-mode="${k}">${v}</button>`).join("")}</div>
+        <div class="pr-stage"></div>
+        <details class="pr-more"><summary>Xem ${picked.length} mục vừa bốc</summary>
+          <p class="pr-picked-list">${picked.map(it => `<button class="say jp" data-say="${esc(it.label)}">${esc(it.label)}</button> <span class="hint">${esc(it.read)}${st.tab === "vocab" || it.key[0] === "v" ? " · " + esc(it.vn) : ""}</span>`).join("<br>")}</p></details>
+      </div>`;
+    run();
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
-
-  function start(mode) {
+  function run() {
     root.querySelectorAll("[data-mode]").forEach(b => b.classList.toggle("primary", b.dataset.mode === mode));
-    const stage = q(".pr-stage"); stage.innerHTML = "";
+    const stage = root.querySelector(".pr-stage"); stage.innerHTML = "";
     const el = document.createElement("div"); stage.append(el);
     if (mode === "cards") N.deck(el, { cards: picked.map(it => it.card) });
     if (mode === "read") { el.dataset.read = JSON.stringify(picked.map(it => [it.label, it.read, it.vn])); N.reader(el); }
     if (mode === "listen") {
       if (picked.length < 2) { el.className = "note"; el.textContent = "Cần ít nhất 2 mục để nghe chọn — hãy bốc nhiều hơn."; return; }
       el.dataset.listen = picked.map(it => it.label.replace(/\s+/g, "")).join(" ");
-      el.dataset.rounds = Math.min(20, Math.max(10, picked.length * 2)); N.listen(el);
+      el.dataset.rounds = Math.min(20, Math.max(8, picked.length * 2)); N.listen(el);
     }
+  }
+  function draw(all) {
+    const p = N.shuffle(pool());
+    picked = all ? p : p.slice(0, clampN(st.n)); mode = "cards"; session();
   }
 
   root.addEventListener("click", e => {
-    const b = e.target.closest("button"); if (!b) return;
-    if (b.dataset.tab) { st.tab = b.dataset.tab; render(); }
-    else if (b.dataset.key) { sel.has(b.dataset.key) ? sel.delete(b.dataset.key) : sel.add(b.dataset.key); render(); }
-    else if (b.dataset.group != null) {
-      const keys = POOLS[st.tab].filter(it => it.group === b.dataset.group).map(it => it.key);
-      const allOn = keys.every(k => sel.has(k)); keys.forEach(k => allOn ? sel.delete(k) : sel.add(k)); render();
+    const b = e.target.closest("button"); if (!b || b.closest(".deck, .quiz, .pr-picked-list")) return;
+    const d = b.dataset;
+    if (d.tab) { st.tab = d.tab; setup(); }
+    else if (d.key) { sel.has(d.key) ? sel.delete(d.key) : sel.add(d.key); keep(setup); }
+    else if (d.group != null) {
+      const keys = POOLS[st.tab].filter(it => it.group === d.group).map(it => it.key);
+      const allOn = keys.every(k => sel.has(k)); keys.forEach(k => allOn ? sel.delete(k) : sel.add(k)); keep(setup);
     }
-    else if (b.hasAttribute("data-clear")) { sel.clear(); render(); }
+    else if (b.hasAttribute("data-clear")) { chosen().forEach(k => sel.delete(k)); keep(setup); }
+    else if (d.setn) { st.n = +d.setn; keep(setup); }
+    else if (b.hasAttribute("data-dec")) { st.n = clampN(st.n - 1); keep(setup); }
+    else if (b.hasAttribute("data-inc")) { st.n = clampN(st.n + 1); keep(setup); }
     else if (b.hasAttribute("data-draw")) draw(false);
     else if (b.hasAttribute("data-all")) draw(true);
-    else if (b.dataset.mode) start(b.dataset.mode);
+    else if (b.hasAttribute("data-redraw")) draw(false);
+    else if (b.hasAttribute("data-back")) setup();
+    else if (d.mode) { mode = d.mode; run(); }
   });
-  nInput.addEventListener("change", () => { st.n = Math.max(1, +nInput.value || 5); save(); });
-  render();
+  root.addEventListener("change", e => { if (e.target.matches("[data-n]")) { st.n = clampN(e.target.value); keep(setup); } });
+  /* Vẽ lại màn chọn mà không làm trang nhảy lên đầu và giữ ô "chọn từng chữ" đang mở. */
+  function keep(fn) {
+    const y = scrollY, open = !!root.querySelector(".pr-more[open]"); fn();
+    if (open) root.querySelector(".pr-more").open = true; scrollTo(0, y);
+  }
+  setup();
 })();

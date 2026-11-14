@@ -52,6 +52,7 @@
 - `luyen-tap.html` + `assets/practice.js`: chọn chữ/từ (hiragana, katakana đủ bảng kể cả âm ghép; từ vựng Minna theo bài),
   chọn số N, bốc ngẫu nhiên N mục (từ mục đã chọn, hoặc cả kho nếu chưa chọn) → Flashcard / Gõ cách đọc / Nghe chọn.
   KHÔNG ghi vào lịch Leitner. Lựa chọn lưu ở localStorage `nihongo-practice-v1`. Từ vựng bài mới tự vào kho qua cards.js.
+- Luồng 2 màn (sửa 2026-11-14 sau phản hồi UX): màn chọn có thanh Bốc dính đáy; màn luyện ẩn danh sách mục vừa bốc (tránh lộ đáp án). Lựa chọn chỉ áp dụng cho tab đang mở.
 - `Nihongo.deck(el, {cards})` = chế độ luyện tự do; thẻ kana không có ảnh hiện chữ to (`.noimg`).
 
 ## Notion
