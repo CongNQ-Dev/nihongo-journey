@@ -63,5 +63,19 @@
 
 ## Việc cần hỏi người học
 - (Đã trả lời 2026-11-14: CÓ bộ Minna sơ cấp I, CÓ bản dịch tiếng Việt và file nghe → bài Minna dùng file nghe của sách.)
-- Có muốn tham gia cộng đồng / luyện nói với người thật không?
-- Định thi JLPT kỳ nào đầu tiên (tháng 7 hay tháng 12)?
+- (Đã trả lời 2026-11-14) MUỐN tham gia cộng đồng để luyện nói với người Nhật. Chưa chọn nền tảng; xem RESOURCES.md mục Wisdom.
+  Chưa quyết: có trả phí gia sư không, và bắt đầu nói với người thật từ lúc nào.
+- (Đã trả lời 2026-11-14) ĐỊNH THI JLPT tháng 7 (kỳ đầu tiên 2027, dự kiến 4/7/2027 — chưa xác nhận).
+  Lưu ý: mốc N2 trong MISSION chưa khớp với thời gian này (xem mục dưới). Chưa đổi MISSION — cần người học xác nhận.
+
+## Mốc JLPT tháng 7/2027 — ĐÃ CHỐT: N4 (2026-11-14, xem learning-records/0002)
+- N3 không khả thi trước 7/2027 (~500 giờ có sẵn). MISSION đã cập nhật.
+- N4 cần gần hết 50 bài Minna (sơ cấp II = N4). Trước đó mình nói nhầm "bài 1–25 = N4"; đã sửa trong learning record.
+- Giờ học N4 chưa kiểm chứng; cần theo dõi tiến độ thực tế.
+
+## Tiến độ, sao lưu, kanji (2026-11-15)
+- Sao lưu: `[data-backup]` (index + flashcards) xuất/nhập mọi khoá localStorage bắt đầu bằng `nihongo-`. Khôi phục ghi đè.
+- Tiến độ bài: khoá `nihongo-lessons-v1` {"0012": timestamp}. Nút "Đánh dấu đã học xong" tự chèn trước `nav.next` ở mọi bài (nihongo.js `lessonDone`); index có `[data-progress]` (Minna x/50, số ngày tới 4/7/2027, bài/tuần cần thiết).
+- Kanji: `tools/kanji_data.py` (55 chữ N5, gắn bài 0012–0021) → thẻ type "kanji", id `kj-<hex unicode>`, trang `kanji.html`. Nét: `python3 -I tools/fetch_strokes.py` (KanjiVG). Thẻ kanji chỉ vào ôn bằng chế độ Flashcard; KHÔNG có trong Viết lại / Trắc nghiệm / Luyện tự chọn (đọc kanji có nhiều âm, câu hỏi mơ hồ). Deck bài Minna loại thẻ kanji (cần `data-type="kanji"` mới hiện).
+- Khi soạn Minna bài 11+: thêm kanji của bài đó vào `kanji_data.py`, chạy fetch_strokes rồi build.
+- Chưa làm: hộp Leitner 30/60 ngày, thống kê ôn, thẻ ngữ pháp, nghe chép chính tả, đề JLPT.

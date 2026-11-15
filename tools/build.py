@@ -15,6 +15,7 @@ from fetch_images import card_id  # noqa: E402
 import minna_pages  # noqa: E402
 from minna_data import LESSONS as MINNA  # noqa: E402
 from minna_vocab import VOCAB, vocab_id  # noqa: E402
+from kanji_data import KANJI  # noqa: E402
 
 IMAGES = json.load(open(os.path.join(ROOT, "tools", "images.json")))
 STROKES = set()
@@ -106,7 +107,50 @@ def all_cards():
     if missing:
         print("CHƯA CÓ ẢNH (bỏ qua thẻ):", " ".join(missing))
     out += minna_pages.vocab_cards(IMAGES)
+    out += kanji_cards()
     return out
+
+
+def kanji_id(ch):
+    return f"kj-{ord(ch):x}"
+
+
+def kanji_cards():
+    """Thẻ kanji: không có ảnh (chữ to ở mặt trước). Id theo mã Unicode nên không đổi."""
+    out = []
+    for les, ch, on, kun, hv, mean, word, kana, ro, wmean in KANJI:
+        yomi = " · ".join(x for x in (f"On: {on}" if on else "", f"Kun: {kun}" if kun else "") if x)
+        out.append(dict(id=kanji_id(ch), lesson=les, type="kanji", glyph=ch, sound=yomi, vn=f"Hán Việt: {hv} — {mean}",
+                        word=word, romaji=ro, meaning=wmean, say=kana))
+    return out
+
+
+def kanji_html():
+    from html import escape as e
+    groups = {}
+    for k in KANJI:
+        groups.setdefault(k[0], []).append(k)
+    body = ["""<header class="lesson-head">
+  <div class="kicker">Kanji · học song song với Minna</div>
+  <h1>Kanji N5 theo từng bài Minna</h1>
+  <p class="lede">Mỗi nhóm là các chữ xuất hiện trong từ vựng của bài Minna tương ứng. Với mỗi chữ: xem nét, tập viết, đọc ví dụ, rồi lật thẻ để vào lịch ôn hằng ngày. Người Việt có lợi thế: âm Hán Việt thường gần với âm On.</p>
+</header>
+<div class="note"><strong>Cách học gọn</strong> Mỗi ngày 3–5 chữ mới, không hơn. Học chữ nào thì đọc to từ ví dụ của chữ đó, không chỉ nhìn chữ.</div>"""]
+    for les in sorted(groups):
+        lf = LESSON_FILES.get(les)
+        body.append(f'<h2>Minna bài {les - 11} · bài {les:04d}</h2>')
+        if lf:
+            body.append(f'<p class="hint"><a href="lessons/{lf[0]}.html">Mở bài học {les:04d}</a></p>')
+        for les_, ch, on, kun, hv, mean, word, kana, ro, wmean in groups[les]:
+            body.append(f"""<div class="kanji-item"><div data-write="{ch}"></div>
+<div><p class="jp" style="font-size:2rem;margin:0">{ch}</p>
+<p><strong>{hv}</strong> — {e(mean)}</p>
+<p class="hint">{("On: " + on) if on else ""}{" · " if on and kun else ""}{("Kun: " + kun) if kun else ""}</p>
+<p><span class="jp">{word}</span> ({kana}, {ro}) — {e(wmean)} <button class="say" data-say="{kana}">nghe</button></p></div></div>""")
+        body.append(f'<p><strong>Lật thẻ nhóm này</strong> (thẻ “nhớ rồi” sẽ vào lịch ôn):</p><div data-deck data-type="kanji" data-lesson="{les}"></div>')
+    body.append('<p class="hint">Thứ tự nét: KanjiVG (CC BY-SA 3.0, kanjivg.tagaini.net). Còn thiếu nhiều chữ N5/N4 — nhóm mới được thêm cùng mỗi bài Minna.</p>')
+    body.append('<nav class="next"><a href="index.html">Mục lục</a><a href="flashcards.html">Ôn hằng ngày</a><a href="practice.html">Luyện tự chọn</a></nav>')
+    return page("Kanji theo bài Minna", "\n".join(body), base="")
 
 
 def write_cards(cards):
@@ -131,15 +175,15 @@ def page(title, body, base="../"):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
-<link rel="stylesheet" href="{base}assets/course.css?v=9">
+<link rel="stylesheet" href="{base}assets/course.css?v=13">
 </head>
 <body>
 <main>
 {body}
 </main>
-<script src="{base}assets/cards.js?v=9"></script>
+<script src="{base}assets/cards.js?v=11"></script>
 <script src="{base}assets/strokes.js"></script>
-<script src="{base}assets/nihongo.js?v=9" data-base="{base}assets/"></script>
+<script src="{base}assets/nihongo.js?v=11" data-base="{base}assets/"></script>
 </body>
 </html>
 """
@@ -307,7 +351,8 @@ def index_html():
   <h1>Mục lục khoá học</h1>
   <p class="lede">Hôm nay có <span data-due-count>0</span> thẻ cần ôn. Ôn trước, học bài mới sau.</p>
 </header>
-<p><a class="btn primary" href="flashcards.html" style="text-decoration:none">Ôn flashcard hôm nay</a> <a class="btn" href="practice.html" style="text-decoration:none">Luyện tự chọn · bốc ngẫu nhiên</a></p>
+<div data-progress></div>
+<p><a class="btn primary" href="flashcards.html" style="text-decoration:none">Ôn flashcard hôm nay</a> <a class="btn" href="practice.html" style="text-decoration:none">Luyện tự chọn · bốc ngẫu nhiên</a> <a class="btn" href="kanji.html" style="text-decoration:none">Kanji</a></p>
 <h2>Giai đoạn 0 · Bảng chữ cái</h2>
 <ol class="lesson-list">{items}</ol>
 <p>Học theo thứ tự, mỗi ngày tối đa một bài mới. Xong bài 0011 là đọc được Minna no Nihongo bài 1.</p>
@@ -315,7 +360,8 @@ def index_html():
 <ol class="lesson-list">{minna}</ol>
 <p>Mỗi bài Minna dài hơn bài kana (60–75 phút) — chia hai buổi nếu cần: buổi 1 từ vựng + ngữ pháp, buổi 2 luyện + sách + viết. Cần có sách Minna, bản dịch tiếng Việt và file nghe.</p>
 <h2>Tra cứu</h2>
-<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li><li><a href="credits.html">Nguồn ảnh</a></li></ul>"""
+<div data-backup></div>
+<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li><li><a href="kanji.html">Kanji theo bài Minna</a></li><li><a href="credits.html">Nguồn ảnh</a></li></ul>"""
     return page("Mục lục khoá tiếng Nhật", body, base="")
 
 
@@ -353,6 +399,7 @@ def main():
     open(os.path.join(ROOT, "reference", "minna-grammar.html"), "w", encoding="utf-8").write(minna_pages.grammar_reference(page, LESSON_FILES))
     open(os.path.join(ROOT, "reference", "numbers-counters.html"), "w", encoding="utf-8").write(minna_pages.numbers_reference(page))
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(index_html())
+    open(os.path.join(ROOT, "kanji.html"), "w", encoding="utf-8").write(kanji_html())
     open(os.path.join(ROOT, "credits.html"), "w", encoding="utf-8").write(credits_html(cards))
     print(f"{len(cards)} thẻ, {len(LESSONS) + len(MINNA)} bài, 4 bảng tra cứu, index.html")
 

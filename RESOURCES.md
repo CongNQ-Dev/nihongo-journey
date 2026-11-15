@@ -35,11 +35,20 @@
 
 ## Wisdom (Communities)
 
-- Chưa chọn. Cần tìm: một nhóm người Việt học tiếng Nhật có kiểm duyệt tốt, và một nơi luyện
-  nói với người bản xứ (đổi ngôn ngữ / gia sư). Sẽ đề xuất khi học xong kana.
+- [italki](https://www.italki.com/) — gia sư tiếng Nhật người bản xứ, trả theo buổi, có thể học 1-1.
+  Dùng cho: luyện nói có phản hồi. Độ tin: trung bình (nền tảng thương mại; chọn gia sư có đánh giá cao, thử buổi đầu).
+- [HelloTalk](https://www.hellotalk.com/) — ứng dụng trao đổi ngôn ngữ, người bản xứ có thể sửa tin nhắn.
+  Dùng cho: luyện viết và chat với người Nhật. Độ tin: trung bình (nguồn đánh giá chủ yếu là blog của hãng; kiểm tra tính năng hiện tại).
+- [Tandem](https://www.tandem.net/) — ứng dụng trao đổi ngôn ngữ, luyện nghe và phát âm với người bản xứ.
+  Dùng cho: luyện nói qua chat/voice. Độ tin: trung bình (tương tự HelloTalk).
+- Lưu ý chung (từ nguồn đánh giá tổng hợp, 2026-11-14): ứng dụng trao đổi thường khó tìm bạn luyện đều đặn; nên đặt lịch cố định với một người.
+- [Japanese Language Learning Communities — r/LearnJapanese](https://www.reddit.com/r/LearnJapanese/) — cộng đồng hỏi đáp và chia sẻ lộ trình tự học. Chưa thẩm định kỹ; dùng để tham khảo.
+- Cần người học quyết định: có muốn trả phí gia sư không, và thời điểm bắt đầu nói chuyện với người thật (đề xuất: sau khi xong bài 0011 và Minna bài 1–3).
 
 ## Gaps
 
+- Ngày thi JLPT tháng 7/2027: chưa có thông báo chính thức. Nguồn thứ cấp dự kiến Chủ nhật 4/7/2027 và đăng ký khoảng tháng 3–4/2027 (ước lượng, 2026-11-14). Kiểm tra jlpt.jp trước khi đăng ký. Nguồn: [jlpt.jp](https://www.jlpt.jp/e/) — xem thông tin đăng ký.
+- Hội thoại nói trong JLPT: không có phần thi nói/viết (theo [cấu trúc bài thi](https://www.jlpt.jp/e/guideline/testsections.html)), nên luyện nói là để dùng thật, không phải để thi.
 - NHK World "Easy Japanese" bản tiếng Việt: chưa mở được trang để kiểm chứng (2026-11-14).
 - Mức tương ứng chính thức của Minna Chukyu I–II với N3/N2: chưa có nguồn từ nhà xuất bản.
 - Giáo trình sau sơ cấp cho N2/N1 (Shin Kanzen Master, Sou Matome…): chưa thẩm định.

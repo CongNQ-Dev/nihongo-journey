@@ -11,7 +11,9 @@ cho hồ sơ, nhưng đích là cả 4 kỹ năng nghe – nói – đọc – v
 - Tự giới thiệu, hỏi đường, mua hàng, nói chuyện công việc đơn giản bằng tiếng Nhật.
 - Đọc được tin NHK Easy, email công việc; nghe hiểu hội thoại tốc độ gần tự nhiên.
 - Viết được email / tin nhắn công việc lịch sự (です・ます, sau đó keigo).
-- Đậu JLPT N2. Sau đó đậu N1.
+- **Mốc tháng 7/2027 (kỳ thi dự kiến 4/7/2027, chưa xác nhận trên jlpt.jp): đậu JLPT N4.**
+- Sau N4: đậu N3, rồi N2. Sau đó đậu N1.
+- Tham gia cộng đồng để luyện nói với người Nhật thật (từ sau khi xong bài 0011 và Minna bài 1–3).
 - Mỗi ngày ôn flashcard (kana, từ vựng, kanji) đến mức nhớ lâu, không phải nhớ tạm.
 
 ## Constraints

@@ -280,3 +280,22 @@ details.answers summary { cursor: pointer; color: var(--accent); }
 .vid-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
 .vid-x { position: absolute; right: .5rem; top: .3rem; border: 0; background: none; color: var(--fg); font-size: 1.8rem; line-height: 1; padding: .2rem .6rem; }
 .vid-cap { margin: 0; padding: .6rem .9rem .8rem; font-size: .78rem; color: var(--muted); }
+
+/* Trắc nghiệm: chọn chiều + hẹn giờ */
+.recog .qz-cfg { display: flex; flex-direction: column; gap: .4rem; margin: 0 0 .9rem; }
+.recog .qz-row { display: flex; gap: .35rem; align-items: center; flex-wrap: wrap; font-size: .8rem; }
+.recog .qz-row b { min-width: 5.2rem; font-weight: 500; color: var(--muted); }
+.recog .qz-bar { height: 6px; background: var(--rule); border-radius: 3px; margin: 0 0 .8rem; overflow: hidden; }
+.recog .qz-bar i { display: block; height: 100%; width: 100%; background: var(--accent); transition: width .1s linear; }
+.recog .word.sm { font-size: 1.6rem; }
+.recog .rc-opts.jpopts { grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr)); }
+.recog .rc-opts.jpopts button { text-align: center; font-size: 1.5rem; }
+
+/* Tiến độ bài học */
+.lesson-list li.done a::after{content:" ✓";color:var(--ok,#2a7a3b);font-weight:700}
+.progress .bar{height:10px;border-radius:5px;background:rgba(127,127,127,.25);overflow:hidden}
+.progress .bar i{display:block;height:100%;background:var(--ok,#2a7a3b)}
+.lesson-done{margin-top:2rem}
+.kanji-item .writer{width:100%;max-width:200px}.kanji-item>div:first-child{min-width:0}
+.kanji-item{display:grid;grid-template-columns:minmax(150px,200px) 1fr;gap:1rem;align-items:center;margin:1rem 0;padding-bottom:1rem;border-bottom:1px solid rgba(127,127,127,.25)}
+@media (max-width:560px){.kanji-item{grid-template-columns:1fr}}

@@ -62,8 +62,11 @@
   /* ---------- Video khẩu hình ----------
      Mỗi mục: chars = các chữ kana dùng chung video này; id = mã YouTube (nhúng qua youtube-nocookie).
      Thêm hàng khác (か, さ…) bằng cách thêm một dòng vào VIDEOS. */
+  const kata = t => t.replace(/[ぁ-ゖ]/g, ch => String.fromCharCode(ch.charCodeAt(0) + 0x60));
+  const both = t => t + kata(t);
   const VIDEOS = [
-    { chars: "あいうえおアイウエオ", id: "D6CtlZEpXQk", title: "Japanese Vowel Pronunciation (A I U E O)", by: "Hana Japanese" },
+    { chars: both("あいうえお"), id: "D6CtlZEpXQk", title: "Japanese Vowel Pronunciation (A I U E O)", by: "Hana Japanese" },
+    { chars: both("たちつてとだぢづでどなにぬねのらりるれろ"), id: "UV1AGFOeCHU", title: "た行だ行な行ら行の発音 子音発音法", by: "日本語発音塾" },
   ];
   const videoFor = g => VIDEOS.find(v => [...v.chars].includes(g));
   function openVideo(v) {
@@ -82,7 +85,7 @@
   /* Luyện tự do: Nihongo.deck(el, { cards: [...], onDone }) — không ghi vào lịch ôn. Thẻ kana không có ảnh vẫn chạy. */
   function deck(el, opt) {
     const practice = !!(opt && opt.cards), review = !practice && el.hasAttribute("data-due");
-    let queue = practice ? opt.cards.slice() : (window.CARDS || []).filter(c => review ? isDue(c.id) : String(c.lesson) === el.dataset.lesson);
+    let queue = practice ? opt.cards.slice() : (window.CARDS || []).filter(c => review ? isDue(c.id) : String(c.lesson) === el.dataset.lesson && (el.dataset.type ? c.type === el.dataset.type : c.type !== "kanji"));
     if (review || practice) shuffle(queue);
     const total = queue.length; let done = 0;
     const mode = practice ? "Luyện tự chọn" : review ? "Ôn tập" : "Học mới";
@@ -119,7 +122,7 @@
             <button class="say" data-say="${c.word}">nghe lại</button></p>
           <p class="fc-word"><span class="jp">${c.ex}</span> <button class="say" data-say="${c.ex}">nghe câu</button><br><span class="hint">${c.exvn}</span></p>`
         : `<p class="fc-answer"><span class="sound">${c.sound}</span><span class="hint">${c.vn || ""}</span>
-            <button class="say" data-say="${c.glyph}">nghe lại</button>${videoFor(c.glyph) ? ` <button class="say" data-video="${videoFor(c.glyph).id}">▶ xem khẩu hình</button>` : ""}</p>
+            <button class="say" data-say="${c.say || c.glyph}">nghe lại</button>${videoFor(c.glyph) ? ` <button class="say" data-video="${videoFor(c.glyph).id}">▶ xem khẩu hình</button>` : ""}</p>
           ${c.word ? `<p class="fc-word"><span class="jp">${hl}</span> &nbsp;${c.romaji} — ${c.meaning}
             <button class="say" data-say="${c.word}">nghe từ</button></p>` : ""}`)
         + `<p class="fc-tap">Chạm vào thẻ để lật lại</p><div class="fc-actions"><button class="btn again" data-act="no">Chưa nhớ</button><button class="btn ok" data-act="yes">Nhớ rồi</button></div>`;
@@ -127,7 +130,7 @@
       el.append(wrap);
       /* Kiểu Quizlet: chạm vào thẻ để lật qua lại; nút chấm và nút nghe không làm thẻ lật. */
       wrap.tabIndex = 0; wrap.setAttribute("role", "button"); wrap.setAttribute("aria-label", "Lật thẻ");
-      const flip = () => { const on = wrap.classList.toggle("flipped"); if (on) speak(big); };
+      const flip = () => { const on = wrap.classList.toggle("flipped"); if (on) speak(c.say || big); };
       wrap.addEventListener("click", e => {
         const act = e.target.closest("[data-act]");
         if (act) { mark(c, act.dataset.act === "yes"); return; }
@@ -488,54 +491,147 @@
     show();
   }
 
-  /* ---------- Nhìn chữ Nhật, chọn nghĩa ----------
-     items: [{ text, romaji, vn, kind: "kana" | "vocab" }]; opt.pool = kho để lấy đáp án nhiễu.
-     Từ vựng: chọn tiếng Việt hoặc romaji (đổi được). Chữ kana: chỉ chọn romaji. Không cần viết. */
+  /* ---------- Trắc nghiệm ----------
+     items: [{ text, romaji, vn, kind }]; opt.pool = kho lấy đáp án nhiễu; opt.onGrade(item, ok).
+     Câu hỏi và đáp án chọn tự do trong Nhật / Romaji / Việt (kana không có nghĩa tiếng Việt).
+     Thời gian mỗi câu (tuỳ chọn): hết giờ tính là sai và tự qua câu sau. */
   function recognize(el, items, opt) {
     opt = opt || {};
     const pool = (opt.pool && opt.pool.length >= 4) ? opt.pool : items;
     const canVn = items.every(x => x.kind === "vocab" && x.vn);
-    let ans = canVn ? "vn" : "ro", order = shuffle(items.slice()), i = 0, ok = 0, missed = [], locked = false, opts = [];
+    const KINDS = canVn ? ["jp", "ro", "vn"] : ["jp", "ro"], NAME = { jp: "Nhật", ro: "Romaji", vn: "Việt" };
+    const QKEY = "nihongo-quiz-v1";
+    let cfg = { q: "jp", a: canVn ? "vn" : "ro", t: 0 };
+    try { cfg = { ...cfg, ...JSON.parse(localStorage.getItem(QKEY)) }; } catch {}
+    if (!KINDS.includes(cfg.q)) cfg.q = "jp";
+    if (!KINDS.includes(cfg.a) || cfg.a === cfg.q) cfg.a = KINDS.find(k => k !== cfg.q);
+    if (![0, 5, 10, 20].includes(cfg.t)) cfg.t = 0;
+    const val = (x, k) => k === "jp" ? x.text : k === "ro" ? x.romaji : x.vn;
+    let order = shuffle(items.slice()), i = 0, ok = 0, missed = [], locked = false, opts = [], tick = null, nextT = null, deadline = 0;
     el.classList.add("quiz", "recog");
-    const val = (x, k) => k === "vn" ? x.vn : x.romaji;
+    const stop = () => { clearInterval(tick); clearTimeout(nextT); };
+    const keep = () => { try { localStorage.setItem(QKEY, JSON.stringify(cfg)); } catch {} };
+    const chips = (key, label) => `<span class="qz-row"><b>${label}</b>${KINDS.filter(k => key === "q" || k !== cfg.q).map(k =>
+      `<button class="chip${cfg[key] === k ? " on" : ""}" data-c="${key}:${k}">${NAME[k]}</button>`).join("")}</span>`;
+    function startTimer() {
+      deadline = Date.now() + cfg.t * 1000; const bar = el.querySelector(".qz-bar i");
+      tick = setInterval(() => {
+        if (!el.isConnected) return stop();
+        const left = deadline - Date.now(); if (bar) bar.style.width = Math.max(0, left / (cfg.t * 1000)) * 100 + "%";
+        if (left <= 0) answer(-1);
+      }, 100);
+    }
     function show() {
-      locked = false;
+      stop(); locked = false;
       if (i >= order.length) {
         el.innerHTML = `<p class="q">Xong lượt này.</p><p class="fb ${ok >= order.length * .9 ? "good" : "bad"}">Đúng ${ok}/${order.length}.${missed.length ? " Cần xem lại: " : ""}<span class="jp">${missed.map(m => esc(m.text)).join("、")}</span></p>
           <div class="row">${missed.length ? `<button class="btn primary" data-r="again-miss">Làm lại ${missed.length} mục sai</button>` : ""}<button class="btn${missed.length ? "" : " primary"}" data-r="again">Làm lại tất cả</button></div>`;
         return;
       }
-      const it = order[i], right = val(it, ans);
-      const wrong = shuffle(pool.map(x => val(x, ans)).filter((v, k, a) => v && v !== right && a.indexOf(v) === k)).slice(0, 3);
+      const it = order[i], right = val(it, cfg.a);
+      const wrong = shuffle(pool.map(x => val(x, cfg.a)).filter((v, k, arr) => v && v !== right && arr.indexOf(v) === k)).slice(0, 3);
       opts = shuffle([right, ...wrong]);
-      el.innerHTML = `<p class="q"><span class="score">Mục ${i + 1}/${order.length} · đúng ${ok}</span>Nhìn chữ Nhật, chọn ${ans === "vn" ? "nghĩa tiếng Việt" : "cách đọc (romaji)"}:</p>
-        ${canVn ? `<div class="rw-tgl"><button class="chip${ans === "vn" ? " on" : ""}" data-r="k-vn">Chọn tiếng Việt</button><button class="chip${ans === "ro" ? " on" : ""}" data-r="k-ro">Chọn romaji</button></div>` : ""}
-        <p class="word jp">${esc(it.text)}</p>
-        <p class="rw-count"><button class="say" data-say="${esc(it.text)}">nghe</button></p>
-        <div class="opts rc-opts">${opts.map((o, k) => `<button data-o="${k}">${esc(o)}</button>`).join("")}</div>
+      const ask = { jp: "chữ Nhật", ro: "cách đọc (romaji)", vn: "nghĩa tiếng Việt" }[cfg.a];
+      el.innerHTML = `<div class="qz-cfg">${chips("q", "Câu hỏi")}${chips("a", "Đáp án")}
+          <span class="qz-row"><b>Thời gian</b>${[0, 5, 10, 20].map(t => `<button class="chip${cfg.t === t ? " on" : ""}" data-c="t:${t}">${t ? t + " giây" : "Tắt"}</button>`).join("")}</span></div>
+        <p class="q"><span class="score">Mục ${i + 1}/${order.length} · đúng ${ok}</span>Chọn ${ask} đúng:</p>
+        ${cfg.t ? `<div class="qz-bar"><i></i></div>` : ""}
+        <p class="word${cfg.q === "jp" ? " jp" : " sm"}">${esc(val(it, cfg.q))}</p>
+        ${cfg.q === "jp" ? `<p class="rw-count"><button class="say" data-say="${esc(it.text)}">nghe</button></p>` : ""}
+        <div class="opts rc-opts${cfg.a === "jp" ? " jpopts" : ""}">${opts.map((o, k) => `<button data-o="${k}"${cfg.a === "jp" ? ' class="jp"' : ""}>${esc(o)}</button>`).join("")}</div>
         <p class="fb"></p><div class="row" data-nextrow hidden><button class="btn primary" data-r="next">Tiếp →</button></div>`;
-      speak(it.text);
+      if (cfg.q === "jp") speak(it.text);
+      if (cfg.t) startTimer();
+    }
+    function answer(k) {
+      if (locked) return; locked = true; stop();
+      const it = order[i], right = val(it, cfg.a), good = k >= 0 && opts[k] === right;
+      el.querySelectorAll("[data-o]").forEach(x => { if (opts[+x.dataset.o] === right) x.classList.add("right"); });
+      if (k >= 0 && !good) el.querySelector(`[data-o="${k}"]`).classList.add("wrong");
+      if (good) ok++; else missed.push(it);
+      if (opt.onGrade) opt.onGrade(it, good);
+      const fb = el.querySelector(".fb"); fb.className = "fb " + (good ? "good" : "bad");
+      fb.textContent = `${good ? "Đúng" : k < 0 ? "Hết giờ" : "Chưa đúng"}: ${it.text} · ${it.romaji}${it.kind === "vocab" && it.vn ? " — " + it.vn : ""}`;
+      if (cfg.q !== "jp") speak(it.text);
+      el.querySelector("[data-nextrow]").hidden = false;
+      if (cfg.t) nextT = setTimeout(() => { if (el.isConnected) { i++; show(); } }, 1800);
     }
     el.onclick = e => {
       const b = e.target.closest("button"); if (!b) return;
-      if (b.dataset.o != null) {
-        if (locked) return; locked = true;
-        const it = order[i], right = val(it, ans), good = opts[+b.dataset.o] === right;
-        el.querySelectorAll("[data-o]").forEach(x => { if (opts[+x.dataset.o] === right) x.classList.add("right"); });
-        if (!good) b.classList.add("wrong");
-        if (good) ok++; else missed.push(it);
-        if (opt.onGrade) opt.onGrade(it, good);
-        const fb = el.querySelector(".fb"); fb.className = "fb " + (good ? "good" : "bad");
-        fb.textContent = `${good ? "Đúng" : "Chưa đúng"}: ${it.romaji}${it.kind === "vocab" && it.vn ? " — " + it.vn : ""}`;
-        el.querySelector("[data-nextrow]").hidden = false;
-        return;
+      if (b.dataset.o != null) return answer(+b.dataset.o);
+      if (b.dataset.c) {
+        if (locked) return;
+        const [key, v] = b.dataset.c.split(":"); cfg[key] = key === "t" ? +v : v;
+        if (cfg.a === cfg.q) cfg.a = KINDS.find(k => k !== cfg.q);
+        keep(); return show();
       }
       const r = b.dataset.r; if (!r) return;
-      if (r === "k-vn" || r === "k-ro") { if (locked) return; ans = r.slice(2); show(); }
-      else if (r === "next") { i++; show(); }
+      if (r === "next") { stop(); i++; show(); }
       else if (r === "again" || r === "again-miss") { order = shuffle((r === "again" ? items : missed).slice()); i = ok = 0; missed = []; show(); }
     };
     show();
+  }
+
+  /* ---------- Tiến độ bài học, sao lưu ---------- */
+  const LKEY = "nihongo-lessons-v1", EXAM = new Date(2027, 6, 4);
+  const lessons = () => { try { return JSON.parse(localStorage.getItem(LKEY)) || {}; } catch { return {}; } };
+  const setLesson = (n, on) => { const s = lessons(); if (on) s[n] = Date.now(); else delete s[n]; try { localStorage.setItem(LKEY, JSON.stringify(s)); } catch {} };
+
+  function lessonDone() {
+    const m = location.pathname.match(/\/lessons\/(\d{4})-/), nav = document.querySelector("main nav.next");
+    if (!m || !nav) return;
+    const n = m[1], box = $("div", "note lesson-done", "");
+    const paint = () => {
+      const on = !!lessons()[n];
+      box.innerHTML = on ? `<strong>Bài ${n} đã đánh dấu hoàn thành.</strong> <button class="btn" data-undo>Bỏ đánh dấu</button>`
+        : `<strong>Xong bài này?</strong> Làm hết phần “Nhớ lại” rồi bấm để ghi tiến độ. <button class="btn primary" data-done>Đánh dấu đã học xong</button>`;
+    };
+    box.onclick = e => { if (e.target.closest("[data-done]")) setLesson(n, true); else if (e.target.closest("[data-undo]")) setLesson(n, false); else return; paint(); };
+    paint(); nav.before(box);
+  }
+
+  function progress(el) {
+    const done = lessons(), all = [...document.querySelectorAll(".lesson-list .num")].map(x => x.textContent);
+    document.querySelectorAll(".lesson-list .num").forEach(x => { if (done[x.textContent]) x.parentElement.classList.add("done"); });
+    const kana = Object.keys(done).filter(n => +n <= 11).length, minna = Object.keys(done).filter(n => +n >= 12).length;
+    const days = Math.ceil((EXAM - Date.now()) / DAY), left = Math.max(0, 50 - minna);
+    const pace = days > 0 ? (left / (days / 7)).toFixed(1) : "—";
+    const composed = Math.max(0, all.length - 11);
+    el.innerHTML = `<div class="progress"><div class="bar"><i style="width:${Math.round(minna / 50 * 100)}%"></i></div>
+      <p><strong>Minna ${minna}/50 bài</strong> · kana ${kana}/11 bài · đã soạn ${composed}/50 bài Minna.<br>
+      Còn <strong>${days > 0 ? days : 0} ngày</strong> tới kỳ N4 dự kiến 4/7/2027 (chưa xác nhận trên jlpt.jp): cần khoảng <strong>${pace} bài Minna/tuần</strong> để kịp.</p></div>`;
+  }
+
+  function backup(el) {
+    const keys = () => Object.keys(localStorage).filter(k => k.startsWith("nihongo-"));
+    const last = () => { try { return +localStorage.getItem("nihongo-lastbackup") || 0; } catch { return 0; } };
+    const paint = (msg) => {
+      const t = last(), stale = keys().length && (!t || Date.now() - t > 7 * DAY);
+      el.innerHTML = `<div class="note"><strong>Sao lưu tiến độ</strong> Tiến độ chỉ nằm trong trình duyệt này; xoá dữ liệu duyệt web là mất hết.
+        ${t ? `Lần sao lưu cuối: ${new Date(t).toLocaleDateString("vi-VN")}.` : "Chưa sao lưu lần nào."}${stale ? " <b>Nên sao lưu ngay.</b>" : ""}<br>
+        <button class="btn primary" data-exp>Tải file sao lưu</button> <label class="btn" style="cursor:pointer">Khôi phục từ file<input type="file" accept="application/json,.json" hidden data-imp></label>
+        ${msg ? `<span class="fb">${msg}</span>` : ""}</div>`;
+    };
+    el.addEventListener("click", e => {
+      if (!e.target.closest("[data-exp]")) return;
+      try { localStorage.setItem("nihongo-lastbackup", String(Date.now())); } catch {}
+      const data = {}; keys().forEach(k => data[k] = localStorage.getItem(k));
+      const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(data, null, 1)], { type: "application/json" }));
+      a.download = `nihongo-backup-${new Date().toISOString().slice(0, 10)}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+      paint("Đã tải file sao lưu.");
+    });
+    el.addEventListener("change", e => {
+      const f = e.target.closest("[data-imp]") && e.target.files[0]; if (!f) return;
+      f.text().then(txt => {
+        let d; try { d = JSON.parse(txt); } catch { return paint("File không đọc được."); }
+        const ks = Object.keys(d || {}).filter(k => k.startsWith("nihongo-") && typeof d[k] === "string");
+        if (!ks.length) return paint("File này không phải bản sao lưu của khoá học.");
+        if (!confirm(`Khôi phục ${ks.length} mục? Tiến độ hiện tại trong trình duyệt sẽ bị ghi đè.`)) return;
+        ks.forEach(k => { try { localStorage.setItem(k, d[k]); } catch {} });
+        paint(`Đã khôi phục ${ks.length} mục. Tải lại trang để thấy tiến độ mới.`);
+      });
+    });
+    paint();
   }
 
   function init() {
@@ -548,6 +644,9 @@
     document.querySelectorAll("[data-build]").forEach(builder);
     document.querySelectorAll("[data-dialog]").forEach(dialog);
     document.querySelectorAll("[data-num]").forEach(numDrill);
+    document.querySelectorAll("[data-progress]").forEach(progress);
+    document.querySelectorAll("[data-backup]").forEach(backup);
+    lessonDone();
     document.querySelectorAll("[data-due-count]").forEach(e => e.textContent = (window.CARDS || []).filter(c => isDue(c.id)).length);
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init) : init();

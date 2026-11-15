@@ -108,7 +108,7 @@
         <div class="pr-sess-head"><button class="btn" data-back>← Chọn lại</button>
           <strong>${picked.length} mục ngẫu nhiên</strong>
           <button class="btn" data-redraw>Bốc lượt khác</button></div>
-        <div class="pr-modes">${[["cards", "Flashcard"], ["write", "Viết lại"], ["recog", "Nhật → nghĩa"], ["read", "Gõ cách đọc"], ["listen", "Nghe chọn"]].map(([k, v]) =>
+        <div class="pr-modes">${[["cards", "Flashcard"], ["write", "Viết lại"], ["recog", "Trắc nghiệm"], ["read", "Gõ cách đọc"], ["listen", "Nghe chọn"]].map(([k, v]) =>
           `<button class="btn${k === mode ? " primary" : ""}" data-mode="${k}">${v}</button>`).join("")}</div>
         <div class="pr-stage"></div>
         <details class="pr-more"><summary>Xem ${picked.length} mục vừa bốc</summary>
