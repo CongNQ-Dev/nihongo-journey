@@ -183,7 +183,7 @@ def page(title, body, base="../"):
 </main>
 <script src="{base}assets/cards.js?v=11"></script>
 <script src="{base}assets/strokes.js"></script>
-<script src="{base}assets/nihongo.js?v=11" data-base="{base}assets/"></script>
+<script src="{base}assets/nihongo.js?v=15" data-base="{base}assets/"></script>
 </body>
 </html>
 """

@@ -602,34 +602,103 @@
       Còn <strong>${days > 0 ? days : 0} ngày</strong> tới kỳ N4 dự kiến 4/7/2027 (chưa xác nhận trên jlpt.jp): cần khoảng <strong>${pace} bài Minna/tuần</strong> để kịp.</p></div>`;
   }
 
+  /* ---------- Tự động lưu vào file (Chrome/Edge trên máy tính) ----------
+     Người học chọn một file .json một lần; mỗi khi dữ liệu "nihongo-*" đổi, ghi lại file sau ~3 giây.
+     Tay cầm file giữ trong IndexedDB; sau khi mở lại trình duyệt có thể cần bấm "Cho phép lại" (một cú bấm). */
+  const FS = { ok: !!window.showSaveFilePicker, handle: null, state: "off", last: 0, err: "" };
+  const FSKEY = "nihongo-lastbackup", fsTell = () => document.dispatchEvent(new Event("nihongo-fs"));
+  const idb = (mode, fn) => new Promise((res, rej) => {
+    const r = indexedDB.open("nihongo-fs", 1);
+    r.onupgradeneeded = () => r.result.createObjectStore("h");
+    r.onerror = () => rej(r.error);
+    r.onsuccess = () => { try { const t = r.result.transaction("h", mode), q = fn(t.objectStore("h")); t.oncomplete = () => res(q && q.result); t.onerror = t.onabort = () => rej(t.error); } catch (e) { rej(e); } };
+  });
+  const dataKeys = () => Object.keys(localStorage).filter(k => k.startsWith("nihongo-") && k !== FSKEY);
+  const snapshot = () => { const d = {}; Object.keys(localStorage).filter(k => k.startsWith("nihongo-")).forEach(k => d[k] = localStorage.getItem(k)); return d; };
+  const perm = async (prompt) => {
+    if (!FS.handle) return false;
+    const o = { mode: "readwrite" };
+    try { return (await FS.handle.queryPermission(o)) === "granted" || (prompt && (await FS.handle.requestPermission(o)) === "granted"); } catch { return false; }
+  };
+  async function fsWrite(prompt) {
+    if (!FS.handle) return;
+    if (!dataKeys().length) return;                                   // không ghi đè file tốt bằng dữ liệu rỗng
+    if (!(await perm(prompt))) { FS.state = "perm"; return fsTell(); }
+    try {
+      const w = await FS.handle.createWritable(); await w.write(JSON.stringify(snapshot(), null, 1)); await w.close();
+      FS.last = Date.now(); FS.state = "on"; FS.err = ""; localStorage.setItem(FSKEY, String(FS.last));
+    } catch (e) { FS.state = "error"; FS.err = String(e && e.message || e); }
+    fsTell();
+  }
+  let fsTimer = 0;
+  const fsSchedule = () => { if (!FS.handle) return; clearTimeout(fsTimer); fsTimer = setTimeout(() => fsWrite(false), 3000); };
+  if (FS.ok) {
+    const origSet = Storage.prototype.setItem, origDel = Storage.prototype.removeItem;
+    Storage.prototype.setItem = function (k, v) { origSet.call(this, k, v); if (this === localStorage && String(k).startsWith("nihongo-") && k !== FSKEY) fsSchedule(); };
+    Storage.prototype.removeItem = function (k) { origDel.call(this, k); if (this === localStorage && String(k).startsWith("nihongo-") && k !== FSKEY) fsSchedule(); };
+    idb("readonly", st => st.get("backup")).then(async h => {
+      if (!h) return; FS.handle = h; FS.state = (await perm(false)) ? "on" : "perm"; fsTell();
+    }).catch(() => {});
+  }
+  function applyBackup(txt) {                                          // trả về thông báo
+    let d; try { d = JSON.parse(txt); } catch { return { ok: false, msg: "File không đọc được." }; }
+    const ks = Object.keys(d || {}).filter(k => k.startsWith("nihongo-") && typeof d[k] === "string");
+    if (!ks.length) return { ok: false, msg: "File này không phải bản sao lưu của khoá học." };
+    if (!confirm(`Khôi phục ${ks.length} mục? Tiến độ hiện tại trong trình duyệt sẽ bị ghi đè.`)) return { ok: false, msg: "" };
+    ks.forEach(k => { try { localStorage.setItem(k, d[k]); } catch {} });
+    return { ok: true, msg: `Đã khôi phục ${ks.length} mục. Đang tải lại trang…` };
+  }
+
   function backup(el) {
-    const keys = () => Object.keys(localStorage).filter(k => k.startsWith("nihongo-"));
-    const last = () => { try { return +localStorage.getItem("nihongo-lastbackup") || 0; } catch { return 0; } };
-    const paint = (msg) => {
-      const t = last(), stale = keys().length && (!t || Date.now() - t > 7 * DAY);
+    const when = t => new Date(t).toLocaleString("vi-VN", { dateStyle: "short", timeStyle: "short" });
+    let note = "";
+    const paint = () => {
+      const t = +localStorage.getItem(FSKEY) || 0, stale = dataKeys().length && !FS.handle && (!t || Date.now() - t > 7 * DAY);
+      let auto;
+      if (!FS.ok) auto = `<p class="hint">Trình duyệt này (Safari, Firefox, iPad) chưa hỗ trợ tự động lưu vào file. Hãy dùng Chrome hoặc Edge trên máy tính, hoặc tải file sao lưu thủ công bên dưới.</p>`;
+      else if (!FS.handle) auto = `<p><button class="btn primary" data-link>Bật tự động lưu vào file…</button> <span class="hint">Chọn một file .json (nên đặt trong iCloud Drive/Google Drive để có bản sao ngoài máy).</span></p>`;
+      else auto = `<p>Tự động lưu: <strong>${esc(FS.handle.name)}</strong>${FS.state === "on" ? ` · lần cuối ${FS.last ? when(FS.last) : "chưa ghi"}` : FS.state === "perm" ? " · <b>cần cấp quyền lại</b>" : FS.state === "error" ? ` · lỗi: ${esc(FS.err)}` : ""}<br>
+        ${FS.state === "perm" ? `<button class="btn primary" data-allow>Cho phép lại</button> ` : ""}<button class="btn" data-now>Lưu ngay</button> <button class="btn" data-load>Nạp từ file này</button> <button class="btn" data-unlink>Tắt tự động lưu</button></p>`;
       el.innerHTML = `<div class="note"><strong>Sao lưu tiến độ</strong> Tiến độ chỉ nằm trong trình duyệt này; xoá dữ liệu duyệt web là mất hết.
-        ${t ? `Lần sao lưu cuối: ${new Date(t).toLocaleDateString("vi-VN")}.` : "Chưa sao lưu lần nào."}${stale ? " <b>Nên sao lưu ngay.</b>" : ""}<br>
-        <button class="btn primary" data-exp>Tải file sao lưu</button> <label class="btn" style="cursor:pointer">Khôi phục từ file<input type="file" accept="application/json,.json" hidden data-imp></label>
-        ${msg ? `<span class="fb">${msg}</span>` : ""}</div>`;
+        ${t && !FS.handle ? `Lần sao lưu cuối: ${when(t)}.` : ""}${stale ? " <b>Nên sao lưu ngay.</b>" : ""}
+        ${auto}
+        <p><button class="btn" data-exp>Tải file sao lưu</button> <label class="btn" style="cursor:pointer">Nhập từ file…<input type="file" accept="application/json,.json" hidden data-imp></label>
+        ${note ? `<span class="fb">${note}</span>` : ""}</p></div>`;
     };
-    el.addEventListener("click", e => {
-      if (!e.target.closest("[data-exp]")) return;
-      try { localStorage.setItem("nihongo-lastbackup", String(Date.now())); } catch {}
-      const data = {}; keys().forEach(k => data[k] = localStorage.getItem(k));
-      const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(data, null, 1)], { type: "application/json" }));
-      a.download = `nihongo-backup-${new Date().toISOString().slice(0, 10)}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-      paint("Đã tải file sao lưu.");
+    const say = m => { note = m; paint(); };
+    document.addEventListener("nihongo-fs", paint);
+    const reloadSoon = () => setTimeout(() => location.reload(), 900);
+    el.addEventListener("click", async e => {
+      const b = e.target.closest("button"); if (!b) return;
+      if (b.hasAttribute("data-exp")) {
+        try { localStorage.setItem(FSKEY, String(Date.now())); } catch {}
+        const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(snapshot(), null, 1)], { type: "application/json" }));
+        a.download = `nihongo-backup-${new Date().toISOString().slice(0, 10)}.json`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+        say("Đã tải file sao lưu (xem thư mục Tải xuống).");
+      } else if (b.hasAttribute("data-link")) {
+        let h; try { h = await showSaveFilePicker({ suggestedName: "nihongo-backup.json", types: [{ description: "Sao lưu khoá học", accept: { "application/json": [".json"] } }] }); } catch { return; }
+        FS.handle = h; await idb("readwrite", st => st.put(h, "backup")).catch(() => {});
+        let existing = ""; try { existing = await (await h.getFile()).text(); } catch {}
+        if (existing.trim()) {                                         // file đã có dữ liệu: hỏi nạp hay ghi đè
+          const has = dataKeys().length;
+          if (!has || confirm("File này đã có dữ liệu sao lưu.\nOK = nạp dữ liệu từ file vào trình duyệt.\nHuỷ = ghi đè file bằng tiến độ hiện tại.")) {
+            const r = applyBackup(existing); FS.state = "on"; say(r.msg); if (r.ok) reloadSoon(); return;
+          }
+        }
+        FS.state = "on"; await fsWrite(true); say("Đã bật tự động lưu.");
+      } else if (b.hasAttribute("data-allow")) { await fsWrite(true); say(""); }
+      else if (b.hasAttribute("data-now")) { await fsWrite(true); say(FS.state === "on" ? "Đã lưu." : ""); }
+      else if (b.hasAttribute("data-load")) {
+        if (!(await perm(true))) return say("Chưa được cấp quyền đọc file.");
+        try { const r = applyBackup(await (await FS.handle.getFile()).text()); say(r.msg); if (r.ok) reloadSoon(); } catch (err) { say("Không đọc được file: " + err.message); }
+      } else if (b.hasAttribute("data-unlink")) {
+        FS.handle = null; FS.state = "off"; await idb("readwrite", st => st.delete("backup")).catch(() => {}); say("Đã tắt tự động lưu (file cũ vẫn còn trên máy).");
+      }
     });
     el.addEventListener("change", e => {
       const f = e.target.closest("[data-imp]") && e.target.files[0]; if (!f) return;
-      f.text().then(txt => {
-        let d; try { d = JSON.parse(txt); } catch { return paint("File không đọc được."); }
-        const ks = Object.keys(d || {}).filter(k => k.startsWith("nihongo-") && typeof d[k] === "string");
-        if (!ks.length) return paint("File này không phải bản sao lưu của khoá học.");
-        if (!confirm(`Khôi phục ${ks.length} mục? Tiến độ hiện tại trong trình duyệt sẽ bị ghi đè.`)) return;
-        ks.forEach(k => { try { localStorage.setItem(k, d[k]); } catch {} });
-        paint(`Đã khôi phục ${ks.length} mục. Tải lại trang để thấy tiến độ mới.`);
-      });
+      f.text().then(txt => { const r = applyBackup(txt); say(r.msg); if (r.ok) reloadSoon(); });
+      e.target.value = "";
     });
     paint();
   }

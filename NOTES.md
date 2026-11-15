@@ -84,3 +84,9 @@
 - `notebook.html` + `assets/notebook.js` (viết tay, KHÔNG sinh tự động). Canvas 1000×1414 vector, nhiều trang, 4 nền giấy (trắng, kẻ ngang, ô vuông, genkou), bút/tẩy nét, hoàn tác, xuất PNG, chặn lòng bàn tay khi có Apple Pencil.
 - Lưu ở localStorage `nihongo-notebook-v1` (nằm trong file sao lưu). Nhiều trang có thể đầy bộ nhớ → nhắc tải PNG.
 - Khi sửa notebook.js nhớ tăng `?v=` trong notebook.html.
+
+## Tự động lưu vào file (2026-11-15)
+- `nihongo.js`: người học chọn 1 file .json (File System Access API, chỉ Chrome/Edge desktop); mọi thay đổi khoá `nihongo-*` được ghi lại sau ~3 giây. Tay cầm file lưu trong IndexedDB `nihongo-fs`; mở lại trình duyệt có thể cần bấm "Cho phép lại".
+- Không ghi file khi không có dữ liệu (tránh ghi đè bản tốt bằng dữ liệu rỗng). Liên kết file đã có dữ liệu → hỏi nạp hay ghi đè.
+- Safari/Firefox/iPad: không hỗ trợ → chỉ tải file thủ công + "Nhập từ file…". Nhập chỉ nhận khoá bắt đầu bằng `nihongo-`.
+- Đã test bằng file giả lập, chưa thử hộp chọn file thật.
