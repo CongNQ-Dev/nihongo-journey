@@ -79,3 +79,8 @@
 - Kanji: `tools/kanji_data.py` (55 chữ N5, gắn bài 0012–0021) → thẻ type "kanji", id `kj-<hex unicode>`, trang `kanji.html`. Nét: `python3 -I tools/fetch_strokes.py` (KanjiVG). Thẻ kanji chỉ vào ôn bằng chế độ Flashcard; KHÔNG có trong Viết lại / Trắc nghiệm / Luyện tự chọn (đọc kanji có nhiều âm, câu hỏi mơ hồ). Deck bài Minna loại thẻ kanji (cần `data-type="kanji"` mới hiện).
 - Khi soạn Minna bài 11+: thêm kanji của bài đó vào `kanji_data.py`, chạy fetch_strokes rồi build.
 - Chưa làm: hộp Leitner 30/60 ngày, thống kê ôn, thẻ ngữ pháp, nghe chép chính tả, đề JLPT.
+
+## Sổ tay viết tay (2026-11-15)
+- `notebook.html` + `assets/notebook.js` (viết tay, KHÔNG sinh tự động). Canvas 1000×1414 vector, nhiều trang, 4 nền giấy (trắng, kẻ ngang, ô vuông, genkou), bút/tẩy nét, hoàn tác, xuất PNG, chặn lòng bàn tay khi có Apple Pencil.
+- Lưu ở localStorage `nihongo-notebook-v1` (nằm trong file sao lưu). Nhiều trang có thể đầy bộ nhớ → nhắc tải PNG.
+- Khi sửa notebook.js nhớ tăng `?v=` trong notebook.html.
