@@ -52,12 +52,13 @@
   const ALL = {}; Object.values(POOLS).forEach(list => list.forEach(it => ALL[it.key] = it));
 
   /* ---------- Trạng thái (nhớ trong trình duyệt này) ---------- */
-  let st = { tab: "hira", sel: [], n: 5 };
+  let st = { tab: "hira", sel: [], n: 5, lessons: [] };
   try { st = { ...st, ...JSON.parse(localStorage.getItem(KEY)) }; } catch {}
   let sel = new Set(st.sel.filter(k => ALL[k])), picked = [], mode = "cards";
-  const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ tab: st.tab, sel: [...sel], n: st.n })); } catch {} };
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ tab: st.tab, sel: [...sel], n: st.n, lessons: st.lessons })); } catch {} };
   const root = document.querySelector("[data-practice]");
-  const TABS = { hira: "Hiragana", kata: "Katakana", vocab: "Từ vựng" };
+  const TABS = { hira: "Hiragana", kata: "Katakana", vocab: "Từ vựng", sent: "Đặt câu" };
+  const SENT = window.SENTENCES || {};
   const clampN = v => Math.max(1, Math.min(Math.round(+v) || 5, 100));
   const tabOf = k => k[0] === "h" ? "hira" : k[0] === "k" ? "kata" : "vocab";
   const chosen = () => [...sel].filter(k => tabOf(k) === st.tab);   // chỉ lấy lựa chọn của tab đang mở
@@ -65,6 +66,7 @@
 
   /* ---------- Màn 1: chọn ---------- */
   function setup() {
+    if (st.tab === "sent") return setupSent();
     const list = POOLS[st.tab], groups = [...new Set(list.map(it => it.group))];
     const p = pool(), n = Math.min(st.n, p.length);
     const nc = chosen().length;
@@ -140,6 +142,72 @@
     picked = all ? p : p.slice(0, Math.min(clampN(st.n), p.length)); mode = "cards"; session();
   }
 
+  /* ---------- Đặt câu theo chủ đề: chọn bài ngữ pháp → trộn từ vựng các bài → đặt câu với từng từ ---------- */
+  const lessonNums = () => Object.keys(SENT).map(Number).sort((a, b) => a - b);
+  const chosenLessons = () => st.lessons.filter(n => SENT[n]);
+  let sq = [], si = 0, sdone = [], sshown = false;
+
+  function setupSent() {
+    const ls = chosenLessons(), words = ls.reduce((t, n) => t + SENT[n].words.length, 0);
+    root.innerHTML = `
+      <div class="pr-tabs" role="tablist">${Object.entries(TABS).map(([k, v]) =>
+        `<button data-tab="${k}" class="${k === st.tab ? "on" : ""}">${v}</button>`).join("")}</div>
+      <h2 class="pr-h">1. Chọn các bài ngữ pháp <small>(ví dụ bài 1, 2, 3)</small></h2>
+      <p class="hint">Từ vựng của các bài đã chọn sẽ được <b>trộn lại</b>. Bạn đặt một câu cho từng từ, dùng các mẫu ngữ pháp của chính những bài đó.</p>
+      <div class="pr-groups">${lessonNums().map(n => `<button class="gcard${ls.includes(n) ? " on" : ""}" data-sl="${n}"><b>Minna bài ${n}</b><span class="jp">${esc(SENT[n].title)}</span><em>${SENT[n].words.length} từ · ${SENT[n].grammar.length} mẫu</em></button>`).join("")}</div>
+      <div class="pr-dock">
+        <p class="pr-sum">${ls.length ? `Đã chọn bài <b>${ls.join(", ")}</b> — trộn được <b>${words}</b> từ` : "Chưa chọn bài nào — hãy bấm vào ít nhất một bài ở trên."}</p>
+        <div class="pr-row">
+          <button class="btn primary big" data-sgo ${ls.length ? "" : "disabled"}>Trộn ${words || ""} từ &amp; đặt câu</button>
+          ${ls.length ? `<button class="chip" data-sclear>Bỏ chọn</button>` : ""}
+        </div>
+      </div>`;
+    save();
+  }
+  function startSent() {
+    sq = N.shuffle(chosenLessons().flatMap(n => SENT[n].words.map(w => ({ w, n }))));
+    si = 0; sdone = []; sshown = false; showSent();
+  }
+  function hintsHtml() {
+    return `<details class="pr-more"><summary>Gợi ý mẫu câu của bài ${chosenLessons().join(", ")}</summary>${chosenLessons().map(n =>
+      `<p><b>Bài ${n}</b></p><ul>${SENT[n].grammar.map(g => `<li><span class="jp">${esc(g[0])}</span> — ${esc(g[1])}</li>`).join("")}</ul>`).join("")}</details>`;
+  }
+  function showSent() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    if (si >= sq.length) {
+      root.innerHTML = `<div class="pr-sess"><div class="pr-sess-head"><button class="btn" data-sback>← Chọn lại</button><strong>Xong ${sdone.length}/${sq.length} câu</strong><button class="btn" data-sgo>Trộn lại</button></div>
+        <ol class="jp">${sdone.map(d => `<li><b>${esc(d.w[0])}</b> — ${esc(d.text || "(bỏ qua)")}</li>`).join("")}</ol>
+        <p><button class="btn" data-scopy>Chép danh sách câu</button> <span class="hint" data-smsg></span></p></div>`;
+      return;
+    }
+    const { w, n } = sq[si];
+    root.innerHTML = `<div class="pr-sess">
+      <div class="pr-sess-head"><button class="btn" data-sback>← Chọn lại</button><strong>Từ ${si + 1}/${sq.length}</strong><button class="btn" data-sgo>Trộn lại</button></div>
+      <div class="quiz"><p class="q">Đặt một câu tiếng Nhật có từ: <span class="jp" style="font-size:1.6rem"><b>${esc(w[0])}</b></span>
+        <button class="say jp" data-ssay="${esc(w[0])}">nghe</button><br><span class="hint">${esc(w[1])} · ${esc(w[2])} · bài ${n}</span></p>
+        <textarea class="jp" data-stext rows="2" style="width:100%;font-size:1.2rem" placeholder="Gõ câu của bạn ở đây (có thể để trống rồi xem câu mẫu)"></textarea>
+        <p class="row"><button class="btn" data-sshow>Xem câu mẫu</button> <button class="btn primary" data-snext>Câu tiếp →</button></p>
+        <div class="fb" data-sfb></div></div>${hintsHtml()}</div>`;
+    sshown = false;
+  }
+  root.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b || st.tab !== "sent") return;
+    const d = b.dataset, ta = root.querySelector("[data-stext]");
+    if (d.sl) { const n = +d.sl; st.lessons = st.lessons.includes(n) ? st.lessons.filter(x => x !== n) : [...st.lessons, n]; keep(setupSent); }
+    else if (b.hasAttribute("data-sclear")) { st.lessons = []; keep(setupSent); }
+    else if (b.hasAttribute("data-sgo")) startSent();
+    else if (b.hasAttribute("data-sback")) setupSent();
+    else if (d.ssay) N.speak(d.ssay);
+    else if (b.hasAttribute("data-sshow")) {
+      const w = sq[si].w; root.querySelector("[data-sfb]").innerHTML = `<p>Câu mẫu: <span class="jp">${esc(w[3])}</span> <button class="say jp" data-ssay="${esc(w[3])}">nghe</button><br><span class="hint">${esc(w[4])}</span></p>`;
+      N.speak(w[3]); sshown = true;
+    }
+    else if (b.hasAttribute("data-snext")) { sdone.push({ w: sq[si].w, text: (ta.value || "").trim() }); si++; showSent(); }
+    else if (b.hasAttribute("data-scopy")) {
+      const txt = sdone.map(x => `${x.w[0]}: ${x.text}`).join("\n"), m = root.querySelector("[data-smsg]");
+      (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => m.textContent = "Đã chép.", () => m.textContent = "Không chép được — hãy chọn và chép tay.");
+    }
+  });
   root.addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b || b.closest(".deck, .quiz, .rewrite, .recog, .pr-picked-list")) return;
     const d = b.dataset;

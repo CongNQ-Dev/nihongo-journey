@@ -6,7 +6,7 @@ Nội dung: tools/kana_data.py (kana), tools/minna_data.py + tools/minna_vocab.p
 ảnh đã chọn trong tools/images.json. Trang Minna sinh bởi tools/minna_pages.py.
 Bài 0001 viết tay, không sinh lại.
 """
-import html, json, os, sys
+import html, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
@@ -387,9 +387,27 @@ def credits_html(cards):
     return page("Nguồn ảnh", body, base="")
 
 
+def write_sentence_data():
+    """assets/sentences.js: từ vựng + mẫu ngữ pháp từng bài Minna, cho chế độ "Đặt câu" ở practice.html."""
+    from minna_word_ex import WORD_EX
+    data = {}
+    for n, L in MINNA.items():
+        words = [[v[1], v[3], v[4], v[6], v[7]] for v in VOCAB if v[0] == n and v[1]]
+        for w, ex in zip(L["words"], WORD_EX.get(n, [])):
+            if "／" in w[0] or "～" in w[0]:
+                continue
+            words.append([re.sub(r"\[.*?\]", "", w[0]), w[2], w[3], ex[0], ex[1]])
+        data[n - 11] = dict(title=L["title"], words=words,
+                            grammar=[[g[0], g[1], [list(e) for e in g[3]]] for g in L["grammar"]])
+    js = ("/* SINH TỰ ĐỘNG bởi tools/build.py — đừng sửa tay. Dữ liệu cho chế độ Đặt câu (practice.html). */\n"
+          "window.SENTENCES = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n")
+    open(os.path.join(ROOT, "assets", "sentences.js"), "w", encoding="utf-8").write(js)
+
+
 def main():
     cards = all_cards()
     write_cards(cards)
+    write_sentence_data()
     for n in LESSONS:
         open(os.path.join(ROOT, "lessons", LESSONS[n]["slug"] + ".html"), "w", encoding="utf-8").write(lesson_html(n))
     for k in (False, True):
