@@ -53,13 +53,15 @@
   const save = s => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch {} };
   const dayKey = t => { const d = new Date(t || Date.now()); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
   const loadStats = () => { try { return JSON.parse(localStorage.getItem(SKEY)) || {}; } catch { return {}; } };
-  function logStat(ok) {
-    try { const s = loadStats(), k = dayKey(), r = s[k] || { ok: 0, bad: 0 }; ok ? r.ok++ : r.bad++; s[k] = r; localStorage.setItem(SKEY, JSON.stringify(s)); } catch {}
+  function logStat(ok, fresh) {
+    try { const s = loadStats(), k = dayKey(), r = s[k] || { ok: 0, bad: 0 }; ok ? r.ok++ : r.bad++; if (fresh) r.fresh = (r.fresh || 0) + 1; s[k] = r; localStorage.setItem(SKEY, JSON.stringify(s)); } catch {}
   }
+  const NEW_MAX = 20;                                                  // gợi ý, không chặn cứng
+  const newToday = () => (loadStats()[dayKey()] || {}).fresh || 0;
   function grade(id, ok) {
-    const s = load(), cur = s[id] || { box: 0 };
+    const s = load(), cur = s[id] || { box: 0 }, fresh = !s[id];
     const box = ok ? Math.min(cur.box + 1, DAYS.length - 1) : 0;
-    s[id] = { box, due: Date.now() + DAYS[box] * DAY, miss: (cur.miss || 0) + (ok ? 0 : 1) }; save(s); logStat(ok);
+    s[id] = { box, due: Date.now() + DAYS[box] * DAY, miss: (cur.miss || 0) + (ok ? 0 : 1) }; save(s); logStat(ok, fresh);
   }
   const isDue = id => { const c = load()[id]; return !!c && c.due <= Date.now(); };
   const isNew = id => !load()[id];
@@ -93,13 +95,13 @@
     let queue = practice ? opt.cards.slice() : (window.CARDS || []).filter(c => review ? isDue(c.id) : String(c.lesson) === el.dataset.lesson && (el.dataset.type ? c.type === el.dataset.type : c.type !== "kanji"));
     if (review || practice) shuffle(queue);
     const total = queue.length; let done = 0;
-    const mode = practice ? "Luyện tự chọn" : review ? "Ôn tập" : "Học mới";
-    const mark = (c, ok) => { if (!practice) grade(c.id, ok); queue.shift(); if (ok) done++; else queue.push(c); show(); };
+    const mode = practice ? (opt.graded ? "Ôn tập" : "Luyện tự chọn") : review ? "Ôn tập" : "Học mới";
+    const mark = (c, ok) => { if (!practice || opt.graded) grade(c.id, ok); queue.shift(); if (ok) done++; else queue.push(c); show(); };
     el.classList.add("deck");
     function show() {
       el.innerHTML = "";
       if (!queue.length && practice) {
-        const d = $("div", "deck-done", `Xong ${total} thẻ. Luyện tự chọn không thay đổi lịch ôn hằng ngày. <button class="btn primary" data-again>Làm lại lượt này</button>`);
+        const d = $("div", "deck-done", `Xong ${total} thẻ. ${opt.graded ? "Kết quả đã ghi vào lịch ôn." : "Luyện tự chọn không thay đổi lịch ôn hằng ngày."} <button class="btn primary" data-again>Làm lại lượt này</button>`);
         d.querySelector("[data-again]").onclick = () => deck(el, opt);
         el.append(d); if (opt.onDone) opt.onDone(); return;
       }
@@ -107,11 +109,11 @@
         const fresh = (window.CARDS || []).filter(c => isNew(c.id)).length;
         el.append($("div", "deck-done", review && !total
           ? `Hôm nay không có thẻ nào đến hạn.${fresh ? ` Còn ${fresh} thẻ chưa học — mở bài học tương ứng để học lần đầu.` : ""}`
-          : `Xong ${total} thẻ. Thẻ “nhớ rồi” sẽ quay lại sau 1, 3, 7, 14 ngày ở trang ôn tập.`));
+          : `Xong ${total} thẻ. Thẻ “nhớ rồi” sẽ quay lại sau 1, 3, 7, 14… ngày ở trang ôn tập.`));
         return;
       }
       const c = queue[0], vocab = c.type === "vocab", big = vocab ? c.word : c.glyph;
-      el.append($("div", "deck-bar", `<span>Thẻ ${done + 1} / ${total}</span><span>${mode}${vocab ? " · từ vựng" : ""}</span>`));
+      el.append($("div", "deck-bar", `<span>Thẻ ${done + 1} / ${total}</span><span>${mode}${vocab ? " · từ vựng" : ""}${!practice && !review && newToday() >= NEW_MAX ? ` · <b>hôm nay đã ${newToday()} thẻ mới, nên dừng</b>` : ""}</span>`));
       /* Hai mặt xếp chồng trong cùng một ô lưới nên luôn cao bằng nhau; lật bằng xoay 3D. */
       const face = (cls, veil, body) => {
         const photo = c.img
@@ -577,6 +579,87 @@
     show();
   }
 
+  /* ---------- Chép chính tả: nghe câu, gõ lại ----------
+     Nihongo.dictation(el, [["わたしは ナムです。", "Tôi là Nam."], ...]) */
+  function dictation(el, items) {
+    const clean = t => String(t).replace(/^[…\s]+/, "").replace(/[\s、。，．,.!?！？…・「」『』（）()～〜ー-]/g, "");
+    let order = shuffle(items.slice()), i = 0, ok = 0, missed = [];
+    el.classList.add("quiz", "dict");
+    function show() {
+      if (i >= order.length) {
+        el.innerHTML = `<p class="q">Xong lượt chép chính tả.</p><p class="fb ${ok >= order.length * .8 ? "good" : "bad"}">Đúng ${ok}/${order.length}.</p>
+          <div class="row">${missed.length ? `<button class="btn primary" data-r="miss">Làm lại ${missed.length} câu sai</button>` : ""}<button class="btn${missed.length ? "" : " primary"}" data-r="all">Làm lại tất cả</button></div>`;
+        return;
+      }
+      const it = order[i];
+      el.innerHTML = `<p class="q"><span class="score">Câu ${i + 1}/${order.length} · đúng ${ok}</span>Nghe rồi gõ lại câu bạn nghe được (kana hoặc kanji đều được):</p>
+        <p class="row"><button class="btn primary" data-r="play">▶ Nghe</button> <button class="btn" data-r="slow">Nghe chậm</button></p>
+        <textarea class="jp" rows="2" style="width:100%;font-size:1.2rem" placeholder="Gõ câu bạn nghe được"></textarea>
+        <p class="row"><button class="btn primary" data-r="check">Kiểm tra</button> <button class="btn" data-r="reveal">Xem đáp án</button></p><div class="fb" data-fb></div>`;
+      speak(it[0]);
+    }
+    function finish(good) { if (good) ok++; else missed.push(order[i]); i++; show(); }
+    el.onclick = e => {
+      const b = e.target.closest("button"); if (!b || !order[i] && !b.dataset.r) return;
+      const r = b.dataset.r, it = order[i], fb = el.querySelector("[data-fb]"), ta = el.querySelector("textarea");
+      if (r === "play") speak(it[0]);
+      else if (r === "slow") speak(it[0], null, 0.55);
+      else if (r === "check" || r === "reveal") {
+        const good = r === "check" && clean(ta.value) === clean(it[0]);
+        if (good) { fb.className = "fb good"; fb.innerHTML = `Đúng: <span class="jp">${esc(it[0])}</span><br><span class="hint">${esc(it[1] || "")}</span> <button class="btn primary" data-r="good">Câu tiếp →</button>`; }
+        else {
+          fb.className = "fb bad";
+          fb.innerHTML = `Đáp án: <span class="jp">${esc(it[0])}</span><br><span class="hint">${esc(it[1] || "")}</span><br>
+            ${r === "check" ? `<button class="btn" data-r="good">Tôi viết đúng (chỉ khác cách viết)</button> ` : ""}<button class="btn primary" data-r="bad">Câu tiếp →</button>`;
+        }
+      }
+      else if (r === "good") finish(true);
+      else if (r === "bad") finish(false);
+      else if (r === "all" || r === "miss") { order = shuffle((r === "all" ? items : missed).slice()); i = ok = 0; missed = []; show(); }
+    };
+    show();
+  }
+
+  /* ---------- Gộp chế độ ôn: Flashcard / Viết lại / Trắc nghiệm / Gõ cách đọc / Nghe chọn ----------
+     Nihongo.modes(el, cards, { graded: true|false, pool: [thẻ gây nhiễu], tabs: ["deck", ...] })
+     graded = kết quả ghi vào lịch ôn (trang ôn hằng ngày); không graded = luyện tự do. */
+  const hvOf = c => { const m = /^Hán Việt:\s*([^—]+?)\s*—\s*(.*)$/.exec(c.vn || ""); return { name: m ? m[1] : (c.vn || ""), mean: m ? m[2] : "" }; };
+  function cardItem(c) {
+    if (c.type === "vocab") return { id: c.id, text: c.word, romaji: c.romaji, vn: c.meaning, kind: "vocab" };
+    if (c.type === "kanji") { const h = hvOf(c); return { id: c.id, text: c.glyph, romaji: h.name, vn: h.mean, kind: "vocab", say: c.say }; }
+    return { id: c.id, text: c.glyph, romaji: c.sound, vn: c.vn || "", kind: "kana" };
+  }
+  function modes(el, cards, opt) {
+    opt = opt || {};
+    const ALL = [["deck", "Flashcard"], ["write", "Viết lại"], ["recog", "Trắc nghiệm"], ["read", "Gõ cách đọc"], ["listen", "Nghe chọn"]];
+    const noText = cards.some(c => c.type === "kanji");              // kanji: không có kiểu gõ romaji / nghe chọn
+    const list = ALL.filter(([k]) => (opt.tabs ? opt.tabs.includes(k) : true) && !(noText && (k === "read" || k === "listen")));
+    let mode = (opt.mode && list.some(([k]) => k === opt.mode)) ? opt.mode : "deck";
+    el.innerHTML = ""; el.classList.add("modes");
+    if (!cards.length) { el.append($("div", "note", opt.empty || "Không có thẻ nào.")); return; }
+    const bar = $("div", "mode-switch"), stage = $("div"); el.append(bar, stage);
+    const items = cards.map(cardItem), grade_ = it => { if (opt.graded) grade(it.id, true); };
+    function run() {
+      [...bar.children].forEach(b => b.classList.toggle("primary", b.dataset.m === mode));
+      const host = $("div"); stage.innerHTML = ""; stage.append(host);
+      const onGrade = opt.graded ? (it, ok) => grade(it.id, ok) : null;
+      if (mode === "deck") deck(host, { cards, graded: !!opt.graded });
+      else if (mode === "write") rewrite(host, items.map(it => ({ id: it.id, text: it.text, prompt: it.romaji, hint: it.kind === "vocab" ? it.vn : (it.vn || "") })), { onGrade });
+      else if (mode === "recog") {
+        const kinds = new Set(items.map(x => x.kind)), pool = (opt.pool || cards).map(cardItem);
+        recognize(host, items, { pool: pool.filter(x => kinds.size > 1 || kinds.has(x.kind)), onGrade });
+      }
+      else if (mode === "read") { host.dataset.read = JSON.stringify(items.map(it => [it.text, it.romaji, it.vn])); reader(host); }
+      else if (mode === "listen") {
+        if (items.length < 2) { host.className = "note"; host.textContent = "Cần ít nhất 2 mục để nghe chọn."; return; }
+        host.dataset.listen = items.map(it => it.text.replace(/\s+/g, "")).join(" ");
+        host.dataset.rounds = Math.min(20, Math.max(8, items.length * 2)); listen(host);
+      }
+    }
+    list.forEach(([k, v]) => { const b = $("button", "btn", v); b.dataset.m = k; b.onclick = () => { mode = k; run(); }; bar.append(b); });
+    run();
+  }
+
   /* ---------- Tiến độ bài học, sao lưu ---------- */
   const LKEY = "nihongo-lessons-v1", EXAM = new Date(2027, 6, 4);
   const lessons = () => { try { return JSON.parse(localStorage.getItem(LKEY)) || {}; } catch { return {}; } };
@@ -629,6 +712,7 @@
     el.innerHTML = `<div class="stats"><div class="stat-row">
       <div><b>${t.ok + t.bad}</b><span>thẻ đã ôn hôm nay${t.bad ? ` (${t.bad} chưa nhớ)` : ""}</span></div>
       <div><b>${streak}</b><span>ngày học liên tục</span></div>
+      <div><b>${t.fresh || 0}/${NEW_MAX}</b><span>thẻ mới hôm nay (mức nên học)</span></div>
       <div><b>${ids.length}</b><span>thẻ đang học, ${mature} đã chắc (≥14 ngày)</span></div></div>
       <p class="hint">Thẻ đến hạn 7 ngày tới</p>
       <div class="stat-bars">${days.map((n, i) => `<div><i style="height:${Math.round(n / max * 48)}px"></i><b>${n}</b><span>${names[i]}</span></div>`).join("")}</div>
@@ -639,7 +723,7 @@
   function siteNav() {
     const main = document.querySelector("main"); if (!main || document.querySelector(".site-nav")) return;
     const root = BASE.replace(/assets\/$/, ""), path = location.pathname;
-    const links = [["index.html", "Mục lục"], ["flashcards.html", "Ôn hằng ngày"], ["practice.html", "Luyện tự chọn"], ["kanji.html", "Kanji"], ["notebook.html", "Sổ tay"], ["index.html#tra-cuu", "Tra cứu"]];
+    const links = [["index.html", "Mục lục"], ["flashcards.html", "Ôn hằng ngày"], ["practice.html", "Luyện tự chọn"], ["kanji.html", "Kanji"], ["search.html", "Tìm"], ["notebook.html", "Sổ tay"], ["index.html#tra-cuu", "Tra cứu"]];
     const nav = $("nav", "site-nav", links.map(([h, t]) => {
       const file = h.split("#")[0], here = !h.includes("#") && (path.endsWith("/" + file) || (file === "index.html" && /\/$/.test(path)));
       return `<a href="${root}${h}"${here ? ' aria-current="page"' : ""}>${t}</a>`;
@@ -750,6 +834,17 @@
     paint();
   }
 
+  /* ---------- Cài lên màn hình chính + chạy offline (cần https hoặc localhost) ---------- */
+  function pwa() {
+    const root = BASE.replace(/assets\/$/, "");
+    if (!document.querySelector('link[rel=manifest]')) {
+      const l = $("link"); l.rel = "manifest"; l.href = root + "manifest.webmanifest"; document.head.append(l);
+      const a = $("link"); a.rel = "apple-touch-icon"; a.href = root + "assets/icon-192.png"; document.head.append(a);
+      const m = $("meta"); m.name = "theme-color"; m.content = "#243b6b"; document.head.append(m);
+    }
+    if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register(root + "sw.js").catch(() => {});
+  }
+
   function init() {
     document.querySelectorAll("[data-deck]").forEach(deck);
     document.querySelectorAll("[data-listen]").forEach(listen);
@@ -762,11 +857,11 @@
     document.querySelectorAll("[data-num]").forEach(numDrill);
     document.querySelectorAll("[data-progress]").forEach(progress);
     document.querySelectorAll("[data-stats]").forEach(stats);
-    siteNav();
+    siteNav(); pwa();
     document.querySelectorAll("[data-backup]").forEach(backup);
     lessonDone();
     document.querySelectorAll("[data-due-count]").forEach(e => e.textContent = (window.CARDS || []).filter(c => isDue(c.id)).length);
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init) : init();
-  window.Nihongo = { speak, stats, deck, reader, listen, rewrite, recognize, shuffle, esc, grade, isDue };
+  window.Nihongo = { speak, stats, dictation, modes, cardItem, newToday, deck, reader, listen, rewrite, recognize, shuffle, esc, grade, isDue };
 })();

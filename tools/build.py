@@ -402,8 +402,44 @@ def write_sentence_data():
         data[n - 11] = dict(title=L["title"], words=words,
                             grammar=[[g[0], g[1], [list(e) for e in g[3]]] for g in L["grammar"]])
     js = ("/* SINH TỰ ĐỘNG bởi tools/build.py — đừng sửa tay. Dữ liệu cho chế độ Đặt câu (practice.html). */\n"
-          "window.SENTENCES = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n")
+          "window.SENTENCES = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n"
+          "window.LESSON_FILES = " + json.dumps({n: f[0] for n, f in LESSON_FILES.items()}, ensure_ascii=False) + ";\n")
     open(os.path.join(ROOT, "assets", "sentences.js"), "w", encoding="utf-8").write(js)
+
+
+def write_pwa():
+    """sw.js: lưu sẵn mọi trang + asset để học khi không có mạng (cần https hoặc localhost). Phiên bản = hash nội dung."""
+    import hashlib
+    files = []
+    for d, _, fs in os.walk(ROOT):
+        if any(x in d for x in (".git", "tools", "learning-records", "node_modules")):
+            continue
+        for f in sorted(fs):
+            rel = os.path.relpath(os.path.join(d, f), ROOT).replace(os.sep, "/")
+            if rel.endswith((".html", ".js", ".css", ".jpg", ".png", ".svg", ".webmanifest")) and rel != "sw.js":
+                files.append(rel)
+    files.sort()
+    h = hashlib.sha1()
+    for rel in files:
+        h.update(rel.encode()); h.update(open(os.path.join(ROOT, rel), "rb").read())
+    sw = f"""/* SINH TỰ ĐỘNG bởi tools/build.py — đừng sửa tay. */
+const VER = "nihongo-{h.hexdigest()[:10]}", FILES = {json.dumps(files, ensure_ascii=False)};
+self.addEventListener("install", e => {{
+  e.waitUntil(caches.open(VER).then(c => Promise.all(FILES.map(f => c.add(f).catch(() => {{}})))).then(() => self.skipWaiting()));
+}});
+self.addEventListener("activate", e => {{
+  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== VER).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+}});
+/* Ưu tiên bản đã lưu (chạy được khi mất mạng), đồng thời tải bản mới ngầm cho lần sau. */
+self.addEventListener("fetch", e => {{
+  if (e.request.method !== "GET" || new URL(e.request.url).origin !== location.origin) return;
+  e.respondWith(caches.open(VER).then(c => c.match(e.request, {{ ignoreSearch: true }}).then(hit => {{
+    const net = fetch(e.request).then(r => {{ if (r.ok) c.put(e.request, r.clone()); return r; }}).catch(() => hit);
+    return hit || net;
+  }})));
+}});
+"""
+    open(os.path.join(ROOT, "sw.js"), "w", encoding="utf-8").write(sw)
 
 
 def main():
@@ -421,6 +457,7 @@ def main():
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(index_html())
     open(os.path.join(ROOT, "kanji.html"), "w", encoding="utf-8").write(kanji_html())
     open(os.path.join(ROOT, "credits.html"), "w", encoding="utf-8").write(credits_html(cards))
+    write_pwa()
     print(f"{len(cards)} thẻ, {len(LESSONS) + len(MINNA)} bài, 4 bảng tra cứu, index.html")
 
 

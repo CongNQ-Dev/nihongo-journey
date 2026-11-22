@@ -245,7 +245,7 @@ details.answers summary { cursor: pointer; color: var(--accent); }
 .rw-pads .pad .rw-score { position: absolute; right: 4px; top: 3px; font: 600 .68rem var(--font-ui); padding: .05rem .35rem; border-radius: 999px; background: var(--panel); }
 .rw-pads .pad .rw-score.good { color: var(--good); } .rw-pads .pad .rw-score.bad { color: var(--bad); }
 .rewrite .btn.suggest { box-shadow: 0 0 0 2px var(--accent); }
-.mode-switch { display: flex; gap: .5rem; margin: 0 0 1rem; }
+.mode-switch { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1rem; }
 .rewrite .rw-tgl, .recog .rw-tgl { display: flex; gap: .4rem; justify-content: center; margin: 0 0 .7rem; }
 .rewrite.hide-ro:not(.revealed) .rw-ro, .rewrite.hide-vn:not(.revealed) .rw-vn { display: none; }
 .rewrite.hide-ro.hide-vn:not(.revealed) .rw-prompt::before { content: "Nghe rồi viết"; color: var(--muted); font-size: .9rem; margin-right: .5rem; }

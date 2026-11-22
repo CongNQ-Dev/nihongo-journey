@@ -2455,3 +2455,4 @@ window.SENTENCES = {
   ]
  }
 };
+window.LESSON_FILES = {"1": "0001-hiragana-a-i-u-e-o", "2": "0002-hiragana-ka-sa", "3": "0003-hiragana-ta-na", "4": "0004-hiragana-ha-ma", "5": "0005-hiragana-ya-ra-wa-n", "6": "0006-hiragana-dakuten", "7": "0007-hiragana-yoon-sokuon-long", "8": "0008-katakana-a-so", "9": "0009-katakana-ta-ho", "10": "0010-katakana-ma-n", "11": "0011-katakana-dakuten-extended", "12": "0012-minna-01-introductions", "13": "0013-minna-02-objects", "14": "0014-minna-03-places-prices", "15": "0015-minna-04-time-verbs", "16": "0016-minna-05-going-coming", "17": "0017-minna-06-eating-inviting", "18": "0018-minna-07-giving-receiving", "19": "0019-minna-08-adjectives", "20": "0020-minna-09-likes-skills", "21": "0021-minna-10-existence-location"};

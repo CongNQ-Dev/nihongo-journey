@@ -78,7 +78,7 @@
 - Tiến độ bài: khoá `nihongo-lessons-v1` {"0012": timestamp}. Nút "Đánh dấu đã học xong" tự chèn trước `nav.next` ở mọi bài (nihongo.js `lessonDone`); index có `[data-progress]` (Minna x/50, số ngày tới 4/7/2027, bài/tuần cần thiết).
 - Kanji: `tools/kanji_data.py` (55 chữ N5, gắn bài 0012–0021) → thẻ type "kanji", id `kj-<hex unicode>`, trang `kanji.html`. Nét: `python3 -I tools/fetch_strokes.py` (KanjiVG). Thẻ kanji chỉ vào ôn bằng chế độ Flashcard; KHÔNG có trong Viết lại / Trắc nghiệm / Luyện tự chọn (đọc kanji có nhiều âm, câu hỏi mơ hồ). Deck bài Minna loại thẻ kanji (cần `data-type="kanji"` mới hiện).
 - Khi soạn Minna bài 11+: thêm kanji của bài đó vào `kanji_data.py`, chạy fetch_strokes rồi build.
-- Chưa làm: thẻ ngữ pháp, nghe chép chính tả, đề JLPT, giới hạn thẻ mới mỗi ngày, ô tìm kiếm chung, PWA/offline.
+- Chưa làm: đề luyện JLPT, soạn Minna bài 11–50, thẻ ngữ pháp vào lịch ôn (hiện chỉ luyện thêm), chế độ Gõ cách đọc / Nghe chọn chưa chấm vào lịch ôn.
 
 ## Sổ tay viết tay (2026-11-15)
 - `notebook.html` + `assets/notebook.js` (viết tay, KHÔNG sinh tự động). Canvas 1000×1414 vector, nhiều trang, 4 nền giấy (trắng, kẻ ngang, ô vuông, genkou), bút/tẩy nét, hoàn tác, xuất PNG, chặn lòng bàn tay khi có Apple Pencil.
@@ -98,3 +98,10 @@
 - Kanji vào cả chế độ Viết lại / Trắc nghiệm của trang ôn hằng ngày và có tab Kanji ở `practice.html` (không có "Gõ cách đọc" / "Nghe chọn").
 - Mục lục có nút "Học tiếp"; mỗi bài Minna có link tới đúng nhóm kanji (`kanji.html#bai-N`).
 - Sửa version asset lên `v=16` (đổi `course.css` / `nihongo.js` nhớ tăng cả ở `tools/build.py` lẫn các trang viết tay).
+
+## Vòng 2 (2026-11-22)
+- `Nihongo.modes(el, cards, {graded, tabs, pool})` là nơi duy nhất dựng 5 chế độ ôn; `flashcards.html` (graded, 3 chế độ) và `practice.js` (không graded) cùng dùng. Muốn thêm chế độ thì sửa ở đó.
+- `Nihongo.dictation` (nghe chép chính tả) và thẻ ngữ pháp nằm ở tab "Câu & ngữ pháp" của `practice.html`, chọn bài rồi chọn hoạt động.
+- Gợi ý ≤ 20 thẻ mới/ngày (`NEW_MAX`): chỉ nhắc ở thanh thẻ bài học và ở thống kê, không chặn.
+- `search.html` + `assets/search.js`: tìm trên `CARDS` và `SENTENCES`; `LESSON_FILES` sinh vào `sentences.js` để tạo link bài.
+- Offline/PWA: `manifest.webmanifest`, `sw.js` (SINH TỰ ĐỘNG, hash nội dung làm tên cache), icon trong `assets/`. Cần https hoặc localhost. Sửa file viết tay xong nhớ chạy `python3 -I tools/build.py` để sw.js đổi phiên bản.
