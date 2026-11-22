@@ -345,7 +345,7 @@ def reference(k):
 def index_html():
     li = lambda rng: "".join(f'<li><span class="num">{n:04d}</span><a href="lessons/{f}.html">{t}</a><span class="jp">{jp}</span></li>'
                              for n, (f, t, jp) in sorted(LESSON_FILES.items()) if n in rng)
-    items, minna = li(range(1, 12)), li(MINNA)
+    items, minna, minna2 = li(range(1, 12)), li([r for r in MINNA if r <= 36]), li([r for r in MINNA if r > 36])
     body = f"""<header class="lesson-head">
   <div class="kicker">Tiếng Nhật · từ số 0 đến N2, rồi N1</div>
   <h1>Mục lục khoá học</h1>
@@ -359,6 +359,9 @@ def index_html():
 <h2>Giai đoạn 1 · Minna no Nihongo sơ cấp I</h2>
 <ol class="lesson-list">{minna}</ol>
 <p>Mỗi bài Minna dài hơn bài kana (60–75 phút) — chia hai buổi nếu cần: buổi 1 từ vựng + ngữ pháp, buổi 2 luyện + sách + viết. Cần có sách Minna, bản dịch tiếng Việt và file nghe.</p>
+<h2>Giai đoạn 2 · Minna no Nihongo sơ cấp II</h2>
+<ol class="lesson-list">{minna2}</ol>
+<p>Sơ cấp II (bài 26–50) nhanh hơn: nhiều thể động từ và mẫu câu liên kết. Học thể て, ない, từ điển, た thật chắc trước khi vào, và ôn flashcard mỗi ngày.</p>
 <h2 id="tra-cuu">Tra cứu</h2>
 <ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li></ul>
 <h2 id="sao-luu">Sao lưu tiến độ</h2>

@@ -4935,6 +4935,755 @@ window.SENTENCES = {
     ]
    ]
   ]
+ },
+ "26": {
+  "title": "Giải thích lý do và nhờ vả lịch sự",
+  "words": [
+   [
+    "かぎ",
+    "kagi",
+    "chìa khoá",
+    "かぎを さがして いるんです。",
+    "Tôi đang tìm chìa khoá."
+   ],
+   [
+    "ごみ",
+    "gomi",
+    "rác",
+    "もえる ごみは げつようびに だします。",
+    "Rác cháy được đổ vào thứ Hai."
+   ],
+   [
+    "びん",
+    "bin",
+    "chai lọ",
+    "びんは もえない ごみです。",
+    "Chai lọ là rác không cháy được."
+   ],
+   [
+    "かん",
+    "kan",
+    "lon",
+    "かんは あした だします。",
+    "Mai tôi đổ lon."
+   ],
+   [
+    "コース",
+    "koosu",
+    "khoá học",
+    "にほんごの コースに もうしこみました。",
+    "Tôi đã đăng ký khoá tiếng Nhật."
+   ],
+   [
+    "ちこく",
+    "chikoku",
+    "việc đi muộn",
+    "ちこくして すみません。",
+    "Xin lỗi vì đã đến muộn."
+   ],
+   [
+    "さがします",
+    "sagashimasu",
+    "tìm (đồ, người)",
+    "かぎを さがして います。",
+    "Tôi đang tìm chìa khoá."
+   ],
+   [
+    "さんかします",
+    "sanka shimasu",
+    "tham gia",
+    "らいしゅうの パーティーに さんかします。",
+    "Tôi sẽ tham gia buổi tiệc tuần sau."
+   ],
+   [
+    "もうしこみます",
+    "moushikomimasu",
+    "đăng ký",
+    "にほんごの コースに もうしこみました。",
+    "Tôi đã đăng ký khoá tiếng Nhật."
+   ],
+   [
+    "れんらくします",
+    "renraku shimasu",
+    "liên lạc",
+    "あとで れんらくします。",
+    "Lát nữa tôi sẽ liên lạc."
+   ],
+   [
+    "こまります",
+    "komarimasu",
+    "gặp khó khăn, bối rối",
+    "パスポートを なくして、こまりました。",
+    "Tôi làm mất hộ chiếu nên rất khó khăn."
+   ],
+   [
+    "やります",
+    "yarimasu",
+    "làm (khẩu ngữ của します)",
+    "しゅくだいを やって いるんです。",
+    "Tôi đang làm bài tập."
+   ],
+   [
+    "ちょうど",
+    "choudo",
+    "vừa đúng, vừa mới",
+    "ちょうど いま かえったんです。",
+    "Tôi vừa mới về xong."
+   ],
+   [
+    "よかったら",
+    "yokattara",
+    "nếu bạn thấy tiện / nếu được",
+    "よかったら、いっしょに いきませんか。",
+    "Nếu tiện thì cùng đi nhé."
+   ]
+  ],
+  "grammar": [
+   [
+    "V／adj thông thường + んです／んですか",
+    "là vì, chuyện là ~",
+    [
+     [
+      "どう したんですか。…あたまが いたいんです。",
+      "Anh bị làm sao thế? …Tôi bị đau đầu."
+     ],
+     [
+      "どうして おくれたんですか。…バスが こなかったんです。",
+      "Sao anh đến muộn? …Vì xe buýt không đến."
+     ],
+     [
+      "あしたは ひまなんです。",
+      "Mai tôi rảnh (nên có thể đi)."
+     ]
+    ]
+   ],
+   [
+    "～んですが、～ていただけませんか",
+    "có chuyện này, nhờ giúp",
+    [
+     [
+      "ちょっと ききたいんですが、えきは どこですか。",
+      "Tôi muốn hỏi một chút, ga ở đâu ạ?"
+     ],
+     [
+      "にもつが おおいんですが、てつだって いただけませんか。",
+      "Hành lý tôi nhiều, anh có thể giúp được không ạ?"
+     ]
+    ]
+   ],
+   [
+    "V-て いただけませんか",
+    "anh có thể ~ giúp tôi được không ạ?",
+    [
+     [
+      "すみませんが、もう いちど いって いただけませんか。",
+      "Xin lỗi, anh nói lại một lần nữa được không ạ?"
+     ],
+     [
+      "しゃしんを とって いただけませんか。…ええ、いいですよ。",
+      "Anh chụp giúp tôi một tấm ảnh được không ạ? …Vâng, được ạ."
+     ]
+    ]
+   ],
+   [
+    "どう V-たら いいですか",
+    "nên làm thế nào?",
+    [
+     [
+      "この きかいは どう つかったら いいですか。",
+      "Cái máy này nên dùng thế nào?"
+     ],
+     [
+      "えきまで どう いったら いいですか。…バスで いって ください。",
+      "Đến ga nên đi thế nào? …Hãy đi bằng xe buýt."
+     ]
+    ]
+   ]
+  ]
+ },
+ "27": {
+  "title": "Thể khả năng, nhìn thấy, nghe thấy",
+  "words": [
+   [
+    "ペット",
+    "petto",
+    "thú cưng",
+    "うちに ペットが います。",
+    "Nhà tôi có thú cưng."
+   ],
+   [
+    "とり",
+    "tori",
+    "con chim",
+    "ベランダに とりが きます。",
+    "Có chim đến ban công."
+   ],
+   [
+    "はなび",
+    "hanabi",
+    "pháo hoa",
+    "はなびが みられます。",
+    "Có thể xem pháo hoa."
+   ],
+   [
+    "けしき",
+    "keshiki",
+    "phong cảnh",
+    "へやから きれいな けしきが みえます。",
+    "Từ phòng thấy phong cảnh đẹp."
+   ],
+   [
+    "どうぐ",
+    "dougu",
+    "dụng cụ",
+    "この どうぐは じゆうに つかえます。",
+    "Dụng cụ này dùng thoải mái được."
+   ],
+   [
+    "かいます（ペットを）",
+    "kaimasu",
+    "nuôi (thú cưng)",
+    "いぬを かって います。",
+    "Tôi đang nuôi chó."
+   ],
+   [
+    "はしります",
+    "hashirimasu",
+    "chạy",
+    "まいあさ こうえんを はしります。",
+    "Mỗi sáng tôi chạy trong công viên."
+   ],
+   [
+    "できます",
+    "dekimasu",
+    "được xây dựng, hoàn thành; làm được",
+    "えきの まえに あたらしい スーパーが できました。",
+    "Trước ga đã mọc lên siêu thị mới."
+   ],
+   [
+    "ひらきます",
+    "hirakimasu",
+    "mở, tổ chức (lớp, cửa hàng)",
+    "りょうしんが にほんごの きょうしつを ひらきました。",
+    "Bố mẹ tôi đã mở lớp tiếng Nhật."
+   ],
+   [
+    "どうぐ",
+    "dougu",
+    "dụng cụ",
+    "この どうぐは べんりです。",
+    "Dụng cụ này tiện."
+   ],
+   [
+    "じゆうに",
+    "jiyuu ni",
+    "tự do, thoải mái",
+    "じゆうに つかって ください。",
+    "Hãy thoải mái sử dụng."
+   ],
+   [
+    "ほかの",
+    "hoka no",
+    "khác, ngoài ra",
+    "ほかの ひとに ききます。",
+    "Tôi hỏi người khác."
+   ]
+  ],
+  "grammar": [
+   [
+    "Cách chia thể khả năng",
+    "V-potential",
+    [
+     [
+      "かく → かける、のむ → のめる、はなす → はなせる",
+      "Nhóm I."
+     ],
+     [
+      "たべる → たべられる、する → できる、くる → こられる",
+      "Nhóm II và III."
+     ]
+    ]
+   ],
+   [
+    "N が V-potential",
+    "làm được N",
+    [
+     [
+      "わたしは にほんごが はなせます。",
+      "Tôi nói được tiếng Nhật."
+     ],
+     [
+      "ナムさんは かんじが よめます。",
+      "Anh Nam đọc được chữ Hán."
+     ],
+     [
+      "ここで おかねが かえられます。",
+      "Ở đây có thể đổi tiền."
+     ]
+    ]
+   ],
+   [
+    "N が みえます／きこえます",
+    "(tự) nhìn thấy, nghe thấy",
+    [
+     [
+      "へやから ふじさんが みえます。",
+      "Từ phòng thấy được núi Phú Sĩ."
+     ],
+     [
+      "となりの へやから おとが きこえます。",
+      "Từ phòng bên cạnh nghe thấy tiếng động."
+     ]
+    ]
+   ],
+   [
+    "できます (xây xong, hình thành)",
+    "được xây xong, ra đời",
+    [
+     [
+      "えきの まえに あたらしい スーパーが できました。",
+      "Trước ga đã mọc lên siêu thị mới."
+     ],
+     [
+      "あした ひるごはんが できます。",
+      "Mai bữa trưa sẽ xong."
+     ]
+    ]
+   ],
+   [
+    "～しか + phủ định／は／も",
+    "chỉ ~; nhấn mạnh",
+    [
+     [
+      "ひらがなしか かけません。",
+      "Tôi chỉ viết được hiragana."
+     ],
+     [
+      "ひらがなは かけますが、かんじは かけません。",
+      "Hiragana thì viết được, còn chữ Hán thì không."
+     ]
+    ]
+   ]
+  ]
+ },
+ "28": {
+  "title": "Vừa làm vừa, thói quen, liệt kê lý do",
+  "words": [
+   [
+    "ドラマ",
+    "dorama",
+    "phim truyền hình",
+    "ドラマを みながら、ごはんを たべます。",
+    "Tôi vừa xem phim vừa ăn cơm."
+   ],
+   [
+    "かしゅ",
+    "kashu",
+    "ca sĩ",
+    "かしゅの うたを ききながら、はたらきます。",
+    "Tôi vừa nghe bài của ca sĩ vừa làm việc."
+   ],
+   [
+    "きゅうりょう",
+    "kyuuryou",
+    "lương",
+    "きゅうりょうが いいし、しごとも おもしろいです。",
+    "Lương tốt và công việc cũng thú vị."
+   ],
+   [
+    "メモ",
+    "memo",
+    "ghi chú",
+    "メモを とりながら、はなしを ききます。",
+    "Tôi vừa ghi chú vừa nghe."
+   ],
+   [
+    "ばんぐみ",
+    "bangumi",
+    "chương trình TV",
+    "この ばんぐみは にんきが あります。",
+    "Chương trình này được ưa chuộng."
+   ],
+   [
+    "うれます",
+    "uremasu",
+    "bán chạy (パンが よく うれます)",
+    "この パンは よく うれます。",
+    "Bánh mì này bán chạy."
+   ],
+   [
+    "おどります",
+    "odorimasu",
+    "nhảy múa",
+    "ともだちと おどります。",
+    "Tôi nhảy cùng bạn."
+   ],
+   [
+    "えらびます",
+    "erabimasu",
+    "chọn",
+    "すきな いろを えらびました。",
+    "Tôi đã chọn màu mình thích."
+   ],
+   [
+    "かよいます",
+    "kayoimasu",
+    "đi lại đều đặn (ngày nào cũng đến)",
+    "まいにち だいがくに かよいます。",
+    "Ngày nào tôi cũng đến trường đại học."
+   ],
+   [
+    "メモします",
+    "memo shimasu",
+    "ghi chép",
+    "せんせいの はなしを メモします。",
+    "Tôi ghi chép lời thầy giảng."
+   ]
+  ],
+  "grammar": [
+   [
+    "V1-ます(bỏ ます) ながら V2",
+    "vừa V1 vừa V2",
+    [
+     [
+      "おんがくを ききながら、べんきょうします。",
+      "Tôi vừa nghe nhạc vừa học."
+     ],
+     [
+      "ごはんを たべながら、テレビを みます。",
+      "Tôi vừa ăn cơm vừa xem tivi."
+     ],
+     [
+      "はたらきながら、だいがくに かよって います。",
+      "Tôi vừa đi làm vừa đi học đại học."
+     ]
+    ]
+   ],
+   [
+    "V-て います (thói quen, nghề nghiệp, trạng thái kéo dài)",
+    "đều đặn làm V",
+    [
+     [
+      "まいにち にほんごを べんきょうして います。",
+      "Tôi học tiếng Nhật mỗi ngày."
+     ],
+     [
+      "ちちは ぎんこうで はたらいて います。",
+      "Bố tôi làm ở ngân hàng."
+     ],
+     [
+      "いま ピアノを ならって います。",
+      "Hiện giờ tôi đang học đàn piano."
+     ]
+    ]
+   ],
+   [
+    "S1 し、S2 し、～",
+    "vừa ~ lại vừa ~ (liệt kê lý do)",
+    [
+     [
+      "この へやは ひろいし、あかるいし、すきです。",
+      "Phòng này vừa rộng vừa sáng, nên tôi thích."
+     ],
+     [
+      "ナムさんは あたまも いいし、しんせつですから、にんきが あります。",
+      "Anh Nam vừa thông minh vừa tử tế, nên được mến mộ."
+     ]
+    ]
+   ],
+   [
+    "～し、～し ... それに",
+    "ngoài ra, hơn nữa",
+    [
+     [
+      "ここは えきから ちかいです。それに、やちんも やすいです。",
+      "Chỗ này gần ga. Hơn nữa tiền thuê cũng rẻ."
+     ]
+    ]
+   ]
+  ]
+ },
+ "29": {
+  "title": "Trạng thái ～ています, lỡ mất rồi ～てしまいました",
+  "words": [
+   [
+    "さいふ",
+    "saifu",
+    "ví tiền",
+    "さいふを なくして しまいました。",
+    "Tôi lỡ làm mất ví."
+   ],
+   [
+    "コップ",
+    "koppu",
+    "cốc",
+    "コップが われて しまいました。",
+    "Cốc bị vỡ mất rồi."
+   ],
+   [
+    "ふくろ",
+    "fukuro",
+    "túi giấy, nilon",
+    "ふくろに ごみを いれて ください。",
+    "Hãy bỏ rác vào túi."
+   ],
+   [
+    "わすれもの",
+    "wasuremono",
+    "đồ bỏ quên",
+    "わすれものを して しまいました。",
+    "Tôi lỡ bỏ quên đồ."
+   ],
+   [
+    "かさ",
+    "kasa",
+    "cái ô",
+    "かさを わすれて しまいました。",
+    "Tôi lỡ quên ô mất rồi."
+   ],
+   [
+    "こわれます",
+    "kowaremasu",
+    "bị hỏng (máy móc)",
+    "この パソコンは こわれて います。",
+    "Chiếc máy tính này bị hỏng."
+   ],
+   [
+    "みつかります",
+    "mitsukarimasu",
+    "được tìm thấy",
+    "さがして いた かぎが みつかりました。",
+    "Chiếc chìa khoá tôi đang tìm đã được tìm thấy."
+   ],
+   [
+    "かぎ",
+    "kagi",
+    "chìa khoá",
+    "かぎを なくして しまいました。",
+    "Tôi lỡ làm mất chìa khoá mất rồi."
+   ],
+   [
+    "わすれもの",
+    "wasuremono",
+    "đồ bỏ quên",
+    "わすれものは えきいんに いって ください。",
+    "Đồ quên hãy đến hỏi nhân viên ga."
+   ],
+   [
+    "ほんとうに",
+    "hontou ni",
+    "thật sự",
+    "ほんとうに ありがとう ございました。",
+    "Thật sự cảm ơn rất nhiều."
+   ],
+   [
+    "このへん",
+    "kono hen",
+    "quanh đây",
+    "このへんに コンビニは ありますか。",
+    "Quanh đây có cửa hàng tiện lợi không?"
+   ]
+  ],
+  "grammar": [
+   [
+    "N が V-ています (nội động từ)",
+    "N đang ở trạng thái ~",
+    [
+     [
+      "まどが あいて います。",
+      "Cửa sổ đang mở."
+     ],
+     [
+      "でんきが ついて います。",
+      "Đèn đang sáng."
+     ],
+     [
+      "この パソコンは こわれて います。",
+      "Chiếc máy tính này bị hỏng."
+     ]
+    ]
+   ],
+   [
+    "Cặp tha động từ / tự động từ",
+    "あけます ⇄ あきます",
+    [
+     [
+      "かれが ドアを あけました。",
+      "Anh ấy đã mở cửa."
+     ],
+     [
+      "ドアが あきました。",
+      "Cửa đã mở (tự mở)."
+     ]
+    ]
+   ],
+   [
+    "V-て しまいました",
+    "đã V xong / lỡ V mất rồi",
+    [
+     [
+      "パスポートを なくして しまいました。",
+      "Tôi lỡ làm mất hộ chiếu mất rồi."
+     ],
+     [
+      "しゅくだいを ぜんぶ やって しまいました。",
+      "Tôi đã làm xong hết bài tập."
+     ],
+     [
+      "かさを わすれちゃいました。",
+      "Tôi lỡ quên ô mất rồi."
+     ]
+    ]
+   ],
+   [
+    "N が みつかりました",
+    "tìm thấy N rồi",
+    [
+     [
+      "さがして いた かぎが みつかりました。",
+      "Chiếc chìa khoá tôi đang tìm đã được tìm thấy."
+     ],
+     [
+      "さいふが みつかりません。",
+      "Tôi tìm mãi không thấy ví."
+     ]
+    ]
+   ]
+  ]
+ },
+ "30": {
+  "title": "Chuẩn bị sẵn và để nguyên trạng",
+  "words": [
+   [
+    "ポスター",
+    "posutaa",
+    "áp phích",
+    "かべに ポスターが はって あります。",
+    "Trên tường dán áp phích."
+   ],
+   [
+    "カレンダー",
+    "karendaa",
+    "lịch treo tường",
+    "カレンダーが かけて あります。",
+    "Có treo lịch."
+   ],
+   [
+    "ほんだな",
+    "hondana",
+    "giá sách",
+    "ほんだなに ほんが ならべて あります。",
+    "Trên giá sách sách được xếp sẵn."
+   ],
+   [
+    "かべ",
+    "kabe",
+    "bức tường",
+    "かべに えが かざって あります。",
+    "Trên tường treo tranh."
+   ],
+   [
+    "れいぞうこ",
+    "reizouko",
+    "tủ lạnh",
+    "れいぞうこに ビールが いれて あります。",
+    "Trong tủ lạnh có bia được để sẵn."
+   ],
+   [
+    "かけます（かべに）",
+    "kakemasu",
+    "treo (lên tường)",
+    "かべに とけいを かけます。",
+    "Tôi treo đồng hồ lên tường."
+   ],
+   [
+    "しまいます",
+    "shimaimasu",
+    "cất đi, cất vào",
+    "ほんを ほんだなに しまいます。",
+    "Tôi cất sách vào giá sách."
+   ],
+   [
+    "かたづけます",
+    "katazukemasu",
+    "dọn dẹp, thu dọn",
+    "へやを かたづけて おきます。",
+    "Tôi dọn sẵn phòng."
+   ],
+   [
+    "ちゅうしゃ",
+    "chuusha",
+    "đỗ xe, tiêm",
+    "ちゅうしゃじょうは あちらです。",
+    "Bãi đỗ xe ở phía kia."
+   ]
+  ],
+  "grammar": [
+   [
+    "N が V-て あります (tha động từ)",
+    "N đã được ai đó làm sẵn, kết quả còn đó",
+    [
+     [
+      "まどが あけて あります。",
+      "Cửa sổ đã được mở sẵn."
+     ],
+     [
+      "つくえの うえに メモが おいて あります。",
+      "Trên bàn có tờ ghi chú được đặt sẵn."
+     ],
+     [
+      "かべに ポスターが はって あります。",
+      "Trên tường có dán áp phích."
+     ]
+    ]
+   ],
+   [
+    "N に N が V-て あります",
+    "ở chỗ ~ có N được ~ sẵn",
+    [
+     [
+      "へやの かべに えが かざって あります。",
+      "Trên tường phòng có treo tranh."
+     ],
+     [
+      "れいぞうこに ビールが いれて あります。",
+      "Trong tủ lạnh có bia được cho vào sẵn."
+     ]
+    ]
+   ],
+   [
+    "V-て おきます",
+    "làm sẵn, làm trước (chuẩn bị)",
+    [
+     [
+      "りょこうの まえに ホテルを よやくして おきます。",
+      "Trước chuyến đi tôi sẽ đặt sẵn khách sạn."
+     ],
+     [
+      "パーティーの まえに、テーブルを ならべて おきます。",
+      "Trước bữa tiệc tôi sẽ xếp sẵn bàn."
+     ],
+     [
+      "まどは あけて おいて ください。",
+      "Hãy cứ để cửa sổ mở."
+     ]
+    ]
+   ],
+   [
+    "Phân biệt ～ています／～てあります／～てしまいます",
+    "ba kiểu trạng thái",
+    [
+     [
+      "まどが あいて います。",
+      "Cửa sổ đang mở."
+     ],
+     [
+      "まどが あけて あります。",
+      "Cửa sổ đã được mở sẵn."
+     ]
+    ]
+   ]
+  ]
  }
 };
-window.LESSON_FILES = {"1": "0001-hiragana-a-i-u-e-o", "2": "0002-hiragana-ka-sa", "3": "0003-hiragana-ta-na", "4": "0004-hiragana-ha-ma", "5": "0005-hiragana-ya-ra-wa-n", "6": "0006-hiragana-dakuten", "7": "0007-hiragana-yoon-sokuon-long", "8": "0008-katakana-a-so", "9": "0009-katakana-ta-ho", "10": "0010-katakana-ma-n", "11": "0011-katakana-dakuten-extended", "12": "0012-minna-01-introductions", "13": "0013-minna-02-objects", "14": "0014-minna-03-places-prices", "15": "0015-minna-04-time-verbs", "16": "0016-minna-05-going-coming", "17": "0017-minna-06-eating-inviting", "18": "0018-minna-07-giving-receiving", "19": "0019-minna-08-adjectives", "20": "0020-minna-09-likes-skills", "21": "0021-minna-10-existence-location", "22": "0022-minna-11-counting", "23": "0023-minna-12-past-comparison", "24": "0024-minna-13-wants-purpose", "25": "0025-minna-14-te-form", "26": "0026-minna-15-permission-states", "27": "0027-minna-16-te-chain", "28": "0028-minna-17-nai-form", "29": "0029-minna-18-dictionary-form", "30": "0030-minna-19-ta-form", "31": "0031-minna-20-plain-form", "32": "0032-minna-21-opinion-quotes", "33": "0033-minna-22-noun-modifiers", "34": "0034-minna-23-when-and-then", "35": "0035-minna-24-giving-favors", "36": "0036-minna-25-conditionals"};
+window.LESSON_FILES = {"1": "0001-hiragana-a-i-u-e-o", "2": "0002-hiragana-ka-sa", "3": "0003-hiragana-ta-na", "4": "0004-hiragana-ha-ma", "5": "0005-hiragana-ya-ra-wa-n", "6": "0006-hiragana-dakuten", "7": "0007-hiragana-yoon-sokuon-long", "8": "0008-katakana-a-so", "9": "0009-katakana-ta-ho", "10": "0010-katakana-ma-n", "11": "0011-katakana-dakuten-extended", "12": "0012-minna-01-introductions", "13": "0013-minna-02-objects", "14": "0014-minna-03-places-prices", "15": "0015-minna-04-time-verbs", "16": "0016-minna-05-going-coming", "17": "0017-minna-06-eating-inviting", "18": "0018-minna-07-giving-receiving", "19": "0019-minna-08-adjectives", "20": "0020-minna-09-likes-skills", "21": "0021-minna-10-existence-location", "22": "0022-minna-11-counting", "23": "0023-minna-12-past-comparison", "24": "0024-minna-13-wants-purpose", "25": "0025-minna-14-te-form", "26": "0026-minna-15-permission-states", "27": "0027-minna-16-te-chain", "28": "0028-minna-17-nai-form", "29": "0029-minna-18-dictionary-form", "30": "0030-minna-19-ta-form", "31": "0031-minna-20-plain-form", "32": "0032-minna-21-opinion-quotes", "33": "0033-minna-22-noun-modifiers", "34": "0034-minna-23-when-and-then", "35": "0035-minna-24-giving-favors", "36": "0036-minna-25-conditionals", "37": "0037-minna-26-explaining", "38": "0038-minna-27-potential", "39": "0039-minna-28-simultaneous", "40": "0040-minna-29-state-and-completion", "41": "0041-minna-30-prepare-and-state"};
