@@ -299,3 +299,14 @@ details.answers summary { cursor: pointer; color: var(--accent); }
 .kanji-item .writer{width:100%;max-width:200px}.kanji-item>div:first-child{min-width:0}
 .kanji-item{display:grid;grid-template-columns:minmax(150px,200px) 1fr;gap:1rem;align-items:center;margin:1rem 0;padding-bottom:1rem;border-bottom:1px solid rgba(127,127,127,.25)}
 @media (max-width:560px){.kanji-item{grid-template-columns:1fr}}
+.actions{display:flex;flex-wrap:wrap;gap:.5rem}.actions .btn{white-space:nowrap;display:inline-block}
+/* Luyện tự chọn: thanh Bốc gọn trên điện thoại (trước đây chiếm gần nửa màn hình) */
+@media (max-width: 600px) {
+  .pr-dock { padding: .45rem 0 calc(.55rem + env(safe-area-inset-bottom)); margin-top: .5rem; }
+  .pr-sum { font-size: .74rem; margin: 0 0 .35rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pr-quick { margin-bottom: .35rem; }
+  .pr-row { gap: .35rem; margin-bottom: .4rem; flex-wrap: nowrap; }
+  .pr-lbl, .pr-max { display: none; }
+  .pr-row .btn.big { flex: 1 1 0; padding: .55rem .3rem; font-size: .8rem; white-space: normal; line-height: 1.2; }
+  .pr-groups { padding-bottom: .5rem; }
+}

@@ -175,7 +175,7 @@ def page(title, body, base="../"):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
-<link rel="stylesheet" href="{base}assets/course.css?v=13">
+<link rel="stylesheet" href="{base}assets/course.css?v=15">
 </head>
 <body>
 <main>
@@ -352,7 +352,7 @@ def index_html():
   <p class="lede">Hôm nay có <span data-due-count>0</span> thẻ cần ôn. Ôn trước, học bài mới sau.</p>
 </header>
 <div data-progress></div>
-<p><a class="btn primary" href="flashcards.html" style="text-decoration:none">Ôn flashcard hôm nay</a> <a class="btn" href="practice.html" style="text-decoration:none">Luyện tự chọn · bốc ngẫu nhiên</a> <a class="btn" href="kanji.html" style="text-decoration:none">Kanji</a> <a class="btn" href="notebook.html" style="text-decoration:none">Sổ tay viết</a></p>
+<p class="actions"><a class="btn primary" href="flashcards.html" style="text-decoration:none">Ôn flashcard hôm nay</a> <a class="btn" href="practice.html" style="text-decoration:none">Luyện tự chọn</a> <a class="btn" href="kanji.html" style="text-decoration:none">Kanji</a> <a class="btn" href="notebook.html" style="text-decoration:none">Sổ tay viết</a></p>
 <h2>Giai đoạn 0 · Bảng chữ cái</h2>
 <ol class="lesson-list">{items}</ol>
 <p>Học theo thứ tự, mỗi ngày tối đa một bài mới. Xong bài 0011 là đọc được Minna no Nihongo bài 1.</p>
