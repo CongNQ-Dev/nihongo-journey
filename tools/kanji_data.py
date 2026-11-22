@@ -75,3 +75,14 @@ KANJI = [
     (21, "公", "コウ", "", "Công", "công cộng", "公園", "こうえん", "kouen", "công viên"),
     (21, "園", "エン", "その", "Viên", "vườn", "公園", "こうえん", "kouen", "công viên"),
 ]
+
+
+# ---- Bài mở rộng (Minna 11+): mỗi file minna_ext_*.py có LESSONS / VOCAB / WORD_EX / KANJI ----
+EXT_MODULES = ("minna_ext_a", "minna_ext_b", "minna_ext_c")
+import importlib as _il
+for _name in EXT_MODULES:
+    try:
+        _m = _il.import_module(_name)
+    except ModuleNotFoundError:
+        continue
+    KANJI.extend(_m.KANJI)

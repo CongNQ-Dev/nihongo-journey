@@ -78,7 +78,7 @@
 - Tiến độ bài: khoá `nihongo-lessons-v1` {"0012": timestamp}. Nút "Đánh dấu đã học xong" tự chèn trước `nav.next` ở mọi bài (nihongo.js `lessonDone`); index có `[data-progress]` (Minna x/50, số ngày tới 4/7/2027, bài/tuần cần thiết).
 - Kanji: `tools/kanji_data.py` (55 chữ N5, gắn bài 0012–0021) → thẻ type "kanji", id `kj-<hex unicode>`, trang `kanji.html`. Nét: `python3 -I tools/fetch_strokes.py` (KanjiVG). Thẻ kanji chỉ vào ôn bằng chế độ Flashcard; KHÔNG có trong Viết lại / Trắc nghiệm / Luyện tự chọn (đọc kanji có nhiều âm, câu hỏi mơ hồ). Deck bài Minna loại thẻ kanji (cần `data-type="kanji"` mới hiện).
 - Khi soạn Minna bài 11+: thêm kanji của bài đó vào `kanji_data.py`, chạy fetch_strokes rồi build.
-- Chưa làm: đề luyện JLPT, soạn Minna bài 11–50, thẻ ngữ pháp vào lịch ôn (hiện chỉ luyện thêm), chế độ Gõ cách đọc / Nghe chọn chưa chấm vào lịch ôn.
+- Chưa làm: đề luyện JLPT, soạn Minna bài 26–50, thẻ ngữ pháp vào lịch ôn (hiện chỉ luyện thêm), chế độ Gõ cách đọc / Nghe chọn chưa chấm vào lịch ôn.
 
 ## Sổ tay viết tay (2026-11-15)
 - `notebook.html` + `assets/notebook.js` (viết tay, KHÔNG sinh tự động). Canvas 1000×1414 vector, nhiều trang, 4 nền giấy (trắng, kẻ ngang, ô vuông, genkou), bút/tẩy nét, hoàn tác, xuất PNG, chặn lòng bàn tay khi có Apple Pencil.
@@ -105,3 +105,10 @@
 - Gợi ý ≤ 20 thẻ mới/ngày (`NEW_MAX`): chỉ nhắc ở thanh thẻ bài học và ở thống kê, không chặn.
 - `search.html` + `assets/search.js`: tìm trên `CARDS` và `SENTENCES`; `LESSON_FILES` sinh vào `sentences.js` để tạo link bài.
 - Offline/PWA: `manifest.webmanifest`, `sw.js` (SINH TỰ ĐỘNG, hash nội dung làm tên cache), icon trong `assets/`. Cần https hoặc localhost. Sửa file viết tay xong nhớ chạy `python3 -I tools/build.py` để sw.js đổi phiên bản.
+
+## Minna bài 11–25 (2026-11-22)
+- Nội dung nằm ở `tools/minna_ext_a.py` (bài 11–15), `_b` (16–20), `_c` (21–25). Mỗi file có `LESSONS`, `WORD_EX`, `VOCAB`, `KANJI`; `minna_data.py`, `minna_vocab.py`, `minna_word_ex.py`, `kanji_data.py` nạp chúng qua `EXT_MODULES`. Bài 26+ thì thêm `minna_ext_d.py` và ghi tên vào `EXT_MODULES` ở cả 4 file đó.
+- File bài học là 0022–0036 (Minna bài N = file N+11). Kanji mới: 80 chữ, thứ tự nét đã lấy bằng `tools/fetch_strokes.py`.
+- **Chưa có ảnh thẻ** cho từ vựng mới (Wikimedia không truy cập được lúc soạn): các bài đó hiện ghi chú "Chưa có thẻ ảnh" và bảng từ vẫn dùng được. Ở máy có mạng chạy `python3 -I tools/fetch_images.py search`, duyệt ảnh, thêm lựa chọn vào `PICK`, rồi `download` và `build`.
+- Mục "Nguồn nên đọc" của bài 11–25 trỏ về trang mục lục Tae Kim (`/learn/grammar`) vì không kiểm chứng được URL từng phần. Muốn chính xác hơn thì mở trang đó, chọn đúng mục rồi thay URL trong `primary`.
+- Toàn bộ giải thích, câu ví dụ và hội thoại do mình soạn, chưa có người Nhật kiểm tra: nên đối chiếu với sách Minna bài tương ứng và báo chỗ nào sai để sửa.

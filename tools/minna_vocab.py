@@ -148,6 +148,17 @@ VOCAB = [
 ]
 
 
+# ---- Bài mở rộng (Minna 11+): mỗi file minna_ext_*.py có LESSONS / VOCAB / WORD_EX / KANJI ----
+EXT_MODULES = ("minna_ext_a", "minna_ext_b", "minna_ext_c")
+import importlib as _il
+for _name in EXT_MODULES:
+    try:
+        _m = _il.import_module(_name)
+    except ModuleNotFoundError:
+        continue
+    VOCAB.extend(_m.VOCAB)
+
+
 def vocab_id(v):
     import re
     return "v-" + re.sub(r"[^a-z0-9]", "", v[3].lower())

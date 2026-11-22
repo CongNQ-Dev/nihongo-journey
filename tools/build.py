@@ -360,7 +360,7 @@ def index_html():
 <ol class="lesson-list">{minna}</ol>
 <p>Mỗi bài Minna dài hơn bài kana (60–75 phút) — chia hai buổi nếu cần: buổi 1 từ vựng + ngữ pháp, buổi 2 luyện + sách + viết. Cần có sách Minna, bản dịch tiếng Việt và file nghe.</p>
 <h2 id="tra-cuu">Tra cứu</h2>
-<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li></ul>
+<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li></ul>
 <h2 id="sao-luu">Sao lưu tiến độ</h2>
 <div data-backup></div>
 <p class="hint">Ảnh thẻ và thứ tự nét lấy từ nguồn mở: <a href="credits.html">xem ghi nguồn</a>.</p>"""
