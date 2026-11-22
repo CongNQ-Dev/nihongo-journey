@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ôn flashcard hằng ngày</title>
-<link rel="stylesheet" href="assets/course.css?v=15">
+<link rel="stylesheet" href="assets/course.css?v=16">
 </head>
 <body>
 <main>
@@ -14,39 +14,44 @@
   <p class="lede">Có <span data-due-count>0</span> thẻ đến hạn. Ảnh bị che cho tới khi bạn lật — hãy tự nhớ ra trước.</p>
 </header>
 <div class="mode-switch"><button class="btn primary" data-m="deck">Flashcard</button><button class="btn" data-m="write">Viết lại</button><button class="btn" data-m="recog">Trắc nghiệm</button></div>
+<div data-stats></div>
 <div data-deck data-due></div>
 <div id="rw-due" hidden></div>
 <div class="note"><strong>Cách hoạt động</strong>
-“Nhớ rồi” đẩy thẻ sang hộp xa hơn: 1 → 3 → 7 → 14 ngày. “Chưa nhớ” đưa thẻ về hôm nay. Thẻ mới chỉ vào đây sau khi bạn học lần đầu trong bài học. Các chế độ “Viết lại” và “Trắc nghiệm” cũng chấm vào lịch này (kèm điểm gợi ý của máy). Tiến độ lưu trong trình duyệt này (localStorage) — hãy luôn mở bằng cùng một trình duyệt.</div>
-<div data-backup></div>
+“Nhớ rồi” đẩy thẻ sang hộp xa hơn: 1 → 3 → 7 → 14 → 30 → 60 → 120 ngày. “Chưa nhớ” đưa thẻ về hôm nay. Thẻ mới chỉ vào đây sau khi bạn học lần đầu trong bài học. Các chế độ “Viết lại” và “Trắc nghiệm” cũng chấm vào lịch này (kèm điểm gợi ý của máy). Tiến độ lưu trong trình duyệt này (localStorage) — hãy luôn mở bằng cùng một trình duyệt.</div>
+<div data-backup="mini"></div>
 <nav class="next"><a href="index.html">Mục lục</a><a href="practice.html">Luyện tự chọn</a><a href="reference/hiragana.html">Bảng hiragana</a><a href="reference/katakana.html">Bảng katakana</a></nav>
 </main>
 <script src="assets/cards.js?v=11"></script>
 <script src="assets/strokes.js"></script>
-<script src="assets/nihongo.js?v=15" data-base="assets/"></script>
+<script src="assets/nihongo.js?v=16" data-base="assets/"></script>
 <script>
 (function () {
   const N = window.Nihongo, deck = document.querySelector("[data-deck]"), rw = document.getElementById("rw-due");
   const btns = [...document.querySelectorAll("[data-m]")];
+  /* Kanji: "Hán Việt: Tiên — trước, đi trước" → tên Hán Việt + nghĩa */
+  const hv = c => { const m = /^Hán Việt:\s*([^—]+?)\s*—\s*(.*)$/.exec(c.vn || ""); return { name: m ? m[1] : c.vn, mean: m ? m[2] : "" }; };
   function startWrite() {
-    const due = (window.CARDS || []).filter(c => c.type !== "kanji" && N.isDue(c.id));
+    const due = (window.CARDS || []).filter(c => N.isDue(c.id));
     if (!due.length) { rw.className = "note"; rw.textContent = "Hôm nay không có thẻ nào đến hạn để viết lại."; return; }
     rw.className = "";
     N.rewrite(rw, due.map(c => c.type === "vocab"
       ? { id: c.id, text: c.word, prompt: c.romaji, hint: c.meaning }
+      : c.type === "kanji" ? { id: c.id, text: c.glyph, prompt: hv(c).name, hint: hv(c).mean }
       : { id: c.id, text: c.glyph, prompt: c.sound, hint: c.vn || "" }), { onGrade: (it, ok) => N.grade(it.id, ok) });
   }
   function startRecog() {
-    const due = (window.CARDS || []).filter(c => c.type !== "kanji" && N.isDue(c.id));
+    const due = (window.CARDS || []).filter(c => N.isDue(c.id));
     if (!due.length) { rw.className = "note"; rw.textContent = "Hôm nay không có thẻ nào đến hạn."; return; }
     rw.className = "";
     const conv = c => c.type === "vocab"
       ? { id: c.id, text: c.word, romaji: c.romaji, vn: c.meaning, kind: "vocab" }
+      : c.type === "kanji" ? { id: c.id, text: c.glyph, romaji: hv(c).name, vn: hv(c).mean, kind: "vocab" }
       : { id: c.id, text: c.glyph, romaji: c.sound, vn: c.vn || "", kind: "kana" };
-    const all = (window.CARDS || []).filter(c => c.type !== "kanji").map(conv);
+    const all = (window.CARDS || []).map(conv);
     const kinds = new Set(due.map(c => c.type));
     /* Lượt trộn kana với từ vựng thì chỉ chọn romaji (kana không có nghĩa tiếng Việt). */
-    N.recognize(rw, due.map(conv), { pool: all.filter(x => kinds.size > 1 ? true : x.kind === due[0].type), onGrade: (it, ok) => N.grade(it.id, ok) });
+    N.recognize(rw, due.map(conv), { pool: all.filter(x => kinds.size > 1 ? true : x.kind === (due[0].type === "kana" ? "kana" : "vocab")), onGrade: (it, ok) => N.grade(it.id, ok) });
   }
   btns.forEach(b => b.onclick = () => {
     const m = b.dataset.m, w = m !== "deck";

@@ -78,7 +78,7 @@
 - Tiến độ bài: khoá `nihongo-lessons-v1` {"0012": timestamp}. Nút "Đánh dấu đã học xong" tự chèn trước `nav.next` ở mọi bài (nihongo.js `lessonDone`); index có `[data-progress]` (Minna x/50, số ngày tới 4/7/2027, bài/tuần cần thiết).
 - Kanji: `tools/kanji_data.py` (55 chữ N5, gắn bài 0012–0021) → thẻ type "kanji", id `kj-<hex unicode>`, trang `kanji.html`. Nét: `python3 -I tools/fetch_strokes.py` (KanjiVG). Thẻ kanji chỉ vào ôn bằng chế độ Flashcard; KHÔNG có trong Viết lại / Trắc nghiệm / Luyện tự chọn (đọc kanji có nhiều âm, câu hỏi mơ hồ). Deck bài Minna loại thẻ kanji (cần `data-type="kanji"` mới hiện).
 - Khi soạn Minna bài 11+: thêm kanji của bài đó vào `kanji_data.py`, chạy fetch_strokes rồi build.
-- Chưa làm: hộp Leitner 30/60 ngày, thống kê ôn, thẻ ngữ pháp, nghe chép chính tả, đề JLPT.
+- Chưa làm: thẻ ngữ pháp, nghe chép chính tả, đề JLPT, giới hạn thẻ mới mỗi ngày, ô tìm kiếm chung, PWA/offline.
 
 ## Sổ tay viết tay (2026-11-15)
 - `notebook.html` + `assets/notebook.js` (viết tay, KHÔNG sinh tự động). Canvas 1000×1414 vector, nhiều trang, 4 nền giấy (trắng, kẻ ngang, ô vuông, genkou), bút/tẩy nét, hoàn tác, xuất PNG, chặn lòng bàn tay khi có Apple Pencil.
@@ -90,3 +90,11 @@
 - Không ghi file khi không có dữ liệu (tránh ghi đè bản tốt bằng dữ liệu rỗng). Liên kết file đã có dữ liệu → hỏi nạp hay ghi đè.
 - Safari/Firefox/iPad: không hỗ trợ → chỉ tải file thủ công + "Nhập từ file…". Nhập chỉ nhận khoá bắt đầu bằng `nihongo-`.
 - Đã test bằng file giả lập, chưa thử hộp chọn file thật.
+
+## Dọn dẹp và bổ sung (2026-11-22)
+- Thanh điều hướng chung do `nihongo.js` (`siteNav`) tự chèn đầu `<main>` mọi trang có nạp script; không viết tay vào từng trang.
+- Hộp sao lưu chỉ còn ở `index.html#sao-luu`; các trang khác dùng `data-backup="mini"` (chỉ nhắc khi quá 7 ngày chưa sao lưu).
+- Lịch ôn: `[0,1,3,7,14,30,60,120]` ngày (khoá `nihongo-srs-v1`, thêm trường `miss`). Thống kê theo ngày ở khoá `nihongo-stats-v1`, hiển thị bằng `<div data-stats>` ở `flashcards.html`.
+- Kanji vào cả chế độ Viết lại / Trắc nghiệm của trang ôn hằng ngày và có tab Kanji ở `practice.html` (không có "Gõ cách đọc" / "Nghe chọn").
+- Mục lục có nút "Học tiếp"; mỗi bài Minna có link tới đúng nhóm kanji (`kanji.html#bai-N`).
+- Sửa version asset lên `v=16` (đổi `course.css` / `nihongo.js` nhớ tăng cả ở `tools/build.py` lẫn các trang viết tay).

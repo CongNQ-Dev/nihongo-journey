@@ -138,7 +138,7 @@ def kanji_html():
 <div class="note"><strong>Cách học gọn</strong> Mỗi ngày 3–5 chữ mới, không hơn. Học chữ nào thì đọc to từ ví dụ của chữ đó, không chỉ nhìn chữ.</div>"""]
     for les in sorted(groups):
         lf = LESSON_FILES.get(les)
-        body.append(f'<h2>Minna bài {les - 11} · bài {les:04d}</h2>')
+        body.append(f'<h2 id="bai-{les}">Minna bài {les - 11} · bài {les:04d}</h2>')
         if lf:
             body.append(f'<p class="hint"><a href="lessons/{lf[0]}.html">Mở bài học {les:04d}</a></p>')
         for les_, ch, on, kun, hv, mean, word, kana, ro, wmean in groups[les]:
@@ -175,7 +175,7 @@ def page(title, body, base="../"):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
-<link rel="stylesheet" href="{base}assets/course.css?v=15">
+<link rel="stylesheet" href="{base}assets/course.css?v=16">
 </head>
 <body>
 <main>
@@ -183,7 +183,7 @@ def page(title, body, base="../"):
 </main>
 <script src="{base}assets/cards.js?v=11"></script>
 <script src="{base}assets/strokes.js"></script>
-<script src="{base}assets/nihongo.js?v=15" data-base="{base}assets/"></script>
+<script src="{base}assets/nihongo.js?v=16" data-base="{base}assets/"></script>
 </body>
 </html>
 """
@@ -359,9 +359,11 @@ def index_html():
 <h2>Giai đoạn 1 · Minna no Nihongo sơ cấp I</h2>
 <ol class="lesson-list">{minna}</ol>
 <p>Mỗi bài Minna dài hơn bài kana (60–75 phút) — chia hai buổi nếu cần: buổi 1 từ vựng + ngữ pháp, buổi 2 luyện + sách + viết. Cần có sách Minna, bản dịch tiếng Việt và file nghe.</p>
-<h2>Tra cứu</h2>
+<h2 id="tra-cuu">Tra cứu</h2>
+<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li></ul>
+<h2 id="sao-luu">Sao lưu tiến độ</h2>
 <div data-backup></div>
-<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li><li><a href="kanji.html">Kanji theo bài Minna</a></li><li><a href="credits.html">Nguồn ảnh</a></li></ul>"""
+<p class="hint">Ảnh thẻ và thứ tự nét lấy từ nguồn mở: <a href="credits.html">xem ghi nguồn</a>.</p>"""
     return page("Mục lục khoá tiếng Nhật", body, base="")
 
 
@@ -381,7 +383,7 @@ def credits_html(cards):
   <h1>Nguồn ảnh</h1>
   <p class="lede">Ảnh trên thẻ lấy từ Wikimedia Commons theo giấy phép Creative Commons hoặc phạm vi công cộng. Để thẻ gọn, tên tác giả và giấy phép được ghi ở trang này.</p>
 </header>
-<table><thead><tr><th>Thẻ</th><th>Tác giả</th><th>Giấy phép</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table>
+<div class="table-wrap"><table><thead><tr><th>Thẻ</th><th>Tác giả</th><th>Giấy phép</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
 <p class="hint">Thứ tự nét chữ: KanjiVG (CC BY-SA 3.0, kanjivg.tagaini.net).</p>
 <nav class="next"><a href="index.html">Mục lục</a><a href="flashcards.html">Ôn hằng ngày</a><a href="practice.html">Luyện tự chọn</a></nav>"""
     return page("Nguồn ảnh", body, base="")

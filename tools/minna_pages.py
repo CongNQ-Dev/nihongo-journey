@@ -166,6 +166,7 @@ def lesson_html(n, files, page):
     if used:
         out.append('<ol class="sources">' + "".join(f'<li><a href="{C[k][0]}">{C[k][1]}</a></li>' for k in used) + "</ol>")
     out.append('<div class="ask"><strong>Hỏi lại giáo viên</strong>Mình (Claude) là giáo viên của bạn. Chỗ nào chưa rõ — trợ từ, ngữ điệu, câu trong sách, muốn đổi ảnh thẻ — cứ hỏi trong phiên chat. Làm xong phần “Nhớ lại”, báo kết quả để mình ghi nhận tiến độ.</div>')
+    out.append(f'<p class="hint"><a href="../kanji.html#bai-{n}">Kanji của bài này →</a> · <a href="../practice.html">Luyện tự chọn: bốc từ vựng ngẫu nhiên →</a></p>')
     p, nx = files.get(n - 1), files.get(n + 1)
     left = f'<a href="{p[0]}.html">← {n - 1:04d} · {p[1]}</a>' if p else '<a href="../index.html">← Mục lục</a>'
     right = f'<a href="{nx[0]}.html">{n + 1:04d} · {nx[1]} →</a>' if nx else '<span>Tiếp theo: Minna bài 11 (chưa soạn)</span>'

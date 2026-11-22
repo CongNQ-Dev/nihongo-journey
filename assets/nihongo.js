@@ -48,13 +48,18 @@
   });
 
   /* ---------- Lịch ôn Leitner ---------- */
-  const DAYS = [0, 1, 3, 7, 14], DAY = 864e5, KEY = "nihongo-srs-v1";
+  const DAYS = [0, 1, 3, 7, 14, 30, 60, 120], DAY = 864e5, KEY = "nihongo-srs-v1", SKEY = "nihongo-stats-v1";
   const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
   const save = s => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch {} };
+  const dayKey = t => { const d = new Date(t || Date.now()); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
+  const loadStats = () => { try { return JSON.parse(localStorage.getItem(SKEY)) || {}; } catch { return {}; } };
+  function logStat(ok) {
+    try { const s = loadStats(), k = dayKey(), r = s[k] || { ok: 0, bad: 0 }; ok ? r.ok++ : r.bad++; s[k] = r; localStorage.setItem(SKEY, JSON.stringify(s)); } catch {}
+  }
   function grade(id, ok) {
     const s = load(), cur = s[id] || { box: 0 };
     const box = ok ? Math.min(cur.box + 1, DAYS.length - 1) : 0;
-    s[id] = { box, due: Date.now() + DAYS[box] * DAY }; save(s);
+    s[id] = { box, due: Date.now() + DAYS[box] * DAY, miss: (cur.miss || 0) + (ok ? 0 : 1) }; save(s); logStat(ok);
   }
   const isDue = id => { const c = load()[id]; return !!c && c.due <= Date.now(); };
   const isNew = id => !load()[id];
@@ -591,15 +596,55 @@
   }
 
   function progress(el) {
-    const done = lessons(), all = [...document.querySelectorAll(".lesson-list .num")].map(x => x.textContent);
-    document.querySelectorAll(".lesson-list .num").forEach(x => { if (done[x.textContent]) x.parentElement.classList.add("done"); });
+    const done = lessons(), items = [...document.querySelectorAll(".lesson-list li")];
+    items.forEach(li => { const n = li.querySelector(".num").textContent; if (done[n]) li.classList.add("done"); });
     const kana = Object.keys(done).filter(n => +n <= 11).length, minna = Object.keys(done).filter(n => +n >= 12).length;
     const days = Math.ceil((EXAM - Date.now()) / DAY), left = Math.max(0, 50 - minna);
     const pace = days > 0 ? (left / (days / 7)).toFixed(1) : "—";
-    const composed = Math.max(0, all.length - 11);
+    const composed = Math.max(0, items.length - 11);
     el.innerHTML = `<div class="progress"><div class="bar"><i style="width:${Math.round(minna / 50 * 100)}%"></i></div>
-      <p><strong>Minna ${minna}/50 bài</strong> · kana ${kana}/11 bài · đã soạn ${composed}/50 bài Minna.<br>
+      <p>Đã học xong <strong>${minna}/50 bài Minna</strong> và ${kana}/11 bài kana. Khoá hiện có ${composed}/50 bài Minna.<br>
       Còn <strong>${days > 0 ? days : 0} ngày</strong> tới kỳ N4 dự kiến 4/7/2027 (chưa xác nhận trên jlpt.jp): cần khoảng <strong>${pace} bài Minna/tuần</strong> để kịp.</p></div>`;
+    const next = items.find(li => !li.classList.contains("done")), box = document.querySelector(".actions");
+    if (next && box) {
+      const a = $("a", "btn", "Học tiếp: " + next.querySelector(".num").textContent + " · " + esc(next.querySelector("a").textContent));
+      a.href = next.querySelector("a").getAttribute("href"); a.style.textDecoration = "none"; box.firstElementChild ? box.firstElementChild.after(a) : box.prepend(a);
+    }
+  }
+
+  /* ---------- Thống kê ôn tập: <div data-stats></div> ---------- */
+  function stats(el) {
+    const srs = load(), st = loadStats(), today = dayKey(), cards = {};
+    (window.CARDS || []).forEach(c => cards[c.id] = c);
+    const t = st[today] || { ok: 0, bad: 0 };
+    let streak = 0, d = new Date(); if (!st[dayKey(d)]) d.setDate(d.getDate() - 1);
+    while (st[dayKey(d)] && st[dayKey(d)].ok + st[dayKey(d)].bad > 0) { streak++; d.setDate(d.getDate() - 1); }
+    const ids = Object.keys(srs), start = new Date(); start.setHours(0, 0, 0, 0);
+    const days = Array.from({ length: 7 }, () => 0);
+    ids.forEach(id => { const off = Math.floor((srs[id].due - start.getTime()) / DAY); if (off <= 0) days[0]++; else if (off < 7) days[off]++; });
+    const max = Math.max(1, ...days), names = ["Hôm nay", "Mai", ...Array.from({ length: 5 }, (_, i) => { const x = new Date(start); x.setDate(x.getDate() + i + 2); return ["CN", "T2", "T3", "T4", "T5", "T6", "T7"][x.getDay()]; })];
+    const mature = ids.filter(id => srs[id].box >= 4).length;
+    const hard = ids.filter(id => srs[id].miss > 1 && cards[id]).sort((a, b) => srs[b].miss - srs[a].miss).slice(0, 6);
+    const label = c => esc(c.type === "vocab" ? c.word : c.glyph);
+    el.innerHTML = `<div class="stats"><div class="stat-row">
+      <div><b>${t.ok + t.bad}</b><span>thẻ đã ôn hôm nay${t.bad ? ` (${t.bad} chưa nhớ)` : ""}</span></div>
+      <div><b>${streak}</b><span>ngày học liên tục</span></div>
+      <div><b>${ids.length}</b><span>thẻ đang học, ${mature} đã chắc (≥14 ngày)</span></div></div>
+      <p class="hint">Thẻ đến hạn 7 ngày tới</p>
+      <div class="stat-bars">${days.map((n, i) => `<div><i style="height:${Math.round(n / max * 48)}px"></i><b>${n}</b><span>${names[i]}</span></div>`).join("")}</div>
+      ${hard.length ? `<p class="hint">Hay quên nhất: ${hard.map(id => `<span class="jp">${label(cards[id])}</span> ×${srs[id].miss}`).join(" · ")}</p>` : ""}</div>`;
+  }
+
+  /* ---------- Thanh điều hướng chung ---------- */
+  function siteNav() {
+    const main = document.querySelector("main"); if (!main || document.querySelector(".site-nav")) return;
+    const root = BASE.replace(/assets\/$/, ""), path = location.pathname;
+    const links = [["index.html", "Mục lục"], ["flashcards.html", "Ôn hằng ngày"], ["practice.html", "Luyện tự chọn"], ["kanji.html", "Kanji"], ["notebook.html", "Sổ tay"], ["index.html#tra-cuu", "Tra cứu"]];
+    const nav = $("nav", "site-nav", links.map(([h, t]) => {
+      const file = h.split("#")[0], here = !h.includes("#") && (path.endsWith("/" + file) || (file === "index.html" && /\/$/.test(path)));
+      return `<a href="${root}${h}"${here ? ' aria-current="page"' : ""}>${t}</a>`;
+    }).join(""));
+    main.prepend(nav);
   }
 
   /* ---------- Tự động lưu vào file (Chrome/Edge trên máy tính) ----------
@@ -652,8 +697,10 @@
   function backup(el) {
     const when = t => new Date(t).toLocaleString("vi-VN", { dateStyle: "short", timeStyle: "short" });
     let note = "";
+    const mini = el.dataset.backup === "mini";
     const paint = () => {
       const t = +localStorage.getItem(FSKEY) || 0, stale = dataKeys().length && !FS.handle && (!t || Date.now() - t > 7 * DAY);
+      if (mini) { el.innerHTML = stale ? `<div class="note"><strong>Nên sao lưu tiến độ.</strong> Đã hơn 7 ngày chưa sao lưu. <a href="${BASE.replace(/assets\/$/, "")}index.html#sao-luu">Mở phần sao lưu</a></div>` : ""; return; }
       let auto;
       if (!FS.ok) auto = `<p class="hint">Trình duyệt này (Safari, Firefox, iPad) chưa hỗ trợ tự động lưu vào file. Hãy dùng Chrome hoặc Edge trên máy tính, hoặc tải file sao lưu thủ công bên dưới.</p>`;
       else if (!FS.handle) auto = `<p><button class="btn primary" data-link>Bật tự động lưu vào file…</button> <span class="hint">Chọn một file .json (nên đặt trong iCloud Drive/Google Drive để có bản sao ngoài máy).</span></p>`;
@@ -714,10 +761,12 @@
     document.querySelectorAll("[data-dialog]").forEach(dialog);
     document.querySelectorAll("[data-num]").forEach(numDrill);
     document.querySelectorAll("[data-progress]").forEach(progress);
+    document.querySelectorAll("[data-stats]").forEach(stats);
+    siteNav();
     document.querySelectorAll("[data-backup]").forEach(backup);
     lessonDone();
     document.querySelectorAll("[data-due-count]").forEach(e => e.textContent = (window.CARDS || []).filter(c => isDue(c.id)).length);
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init) : init();
-  window.Nihongo = { speak, deck, reader, listen, rewrite, recognize, shuffle, esc, grade, isDue };
+  window.Nihongo = { speak, stats, deck, reader, listen, rewrite, recognize, shuffle, esc, grade, isDue };
 })();

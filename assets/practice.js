@@ -48,7 +48,11 @@
   const vocabItems = CARDS.filter(c => c.type === "vocab").map(c => ({
     key: "v:" + c.id, label: c.word, group: "Minna bài " + (c.lesson - 11), read: c.romaji, vn: c.meaning, card: c }));
 
-  const POOLS = { hira: kanaItems(false), kata: kanaItems(true), vocab: vocabItems };
+  const kanjiItems = CARDS.filter(c => c.type === "kanji").map(c => {
+    const m = /^Hán Việt:\s*([^—]+?)\s*—\s*(.*)$/.exec(c.vn || "");
+    return { key: "j:" + c.id, label: c.glyph, group: "Minna bài " + (c.lesson - 11), read: m ? m[1] : c.vn, vn: m ? m[2] : "", card: c };
+  });
+  const POOLS = { hira: kanaItems(false), kata: kanaItems(true), vocab: vocabItems, kanji: kanjiItems };
   const ALL = {}; Object.values(POOLS).forEach(list => list.forEach(it => ALL[it.key] = it));
 
   /* ---------- Trạng thái (nhớ trong trình duyệt này) ---------- */
@@ -57,10 +61,11 @@
   let sel = new Set(st.sel.filter(k => ALL[k])), picked = [], mode = "cards";
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ tab: st.tab, sel: [...sel], n: st.n, lessons: st.lessons })); } catch {} };
   const root = document.querySelector("[data-practice]");
-  const TABS = { hira: "Hiragana", kata: "Katakana", vocab: "Từ vựng", sent: "Đặt câu" };
+  const TABS = { hira: "Hiragana", kata: "Katakana", vocab: "Từ vựng", kanji: "Kanji", sent: "Đặt câu" };
   const SENT = window.SENTENCES || {};
   const clampN = v => Math.max(1, Math.min(Math.round(+v) || 5, 100));
-  const tabOf = k => k[0] === "h" ? "hira" : k[0] === "k" ? "kata" : "vocab";
+  const tabOf = k => k[0] === "h" ? "hira" : k[0] === "k" ? "kata" : k[0] === "j" ? "kanji" : "vocab";
+  const isWord = it => it.key[0] === "v" || it.key[0] === "j";
   const chosen = () => [...sel].filter(k => tabOf(k) === st.tab);   // chỉ lấy lựa chọn của tab đang mở
   const pool = () => chosen().length ? chosen().map(k => ALL[k]) : POOLS[st.tab].slice();
 
@@ -83,8 +88,8 @@
         return `<button class="gcard${c === items.length ? " on" : c ? " part" : ""}" data-group="${esc(g)}"><b>${esc(g)}</b><span class="jp">${esc(prev)}</span>${c ? `<em>${c}/${items.length}</em>` : ""}</button>`;
       }).join("")}</div>
       <details class="pr-more"><summary>Hoặc chọn từng ${st.tab === "vocab" ? "từ" : "chữ"} một</summary>
-        <div class="pr-grid${st.tab === "vocab" ? " words" : ""}">${list.map(it =>
-          `<button class="cell jp${sel.has(it.key) ? " on" : ""}" data-key="${esc(it.key)}">${esc(it.label)}${st.tab === "vocab" ? `<small>${esc(it.vn)}</small>` : ""}</button>`).join("")}</div>
+        <div class="pr-grid${st.tab === "vocab" || st.tab === "kanji" ? " words" : ""}">${list.map(it =>
+          `<button class="cell jp${sel.has(it.key) ? " on" : ""}" data-key="${esc(it.key)}">${esc(it.label)}${st.tab === "vocab" || st.tab === "kanji" ? `<small>${esc(it.read)}</small>` : ""}</button>`).join("")}</div>
       </details>
       <div class="pr-dock">
         <p class="pr-sum">${summary}</p>
@@ -110,11 +115,11 @@
         <div class="pr-sess-head"><button class="btn" data-back>← Chọn lại</button>
           <strong>${picked.length} mục ngẫu nhiên</strong>
           <button class="btn" data-redraw>Bốc lượt khác</button></div>
-        <div class="pr-modes">${[["cards", "Flashcard"], ["write", "Viết lại"], ["recog", "Trắc nghiệm"], ["read", "Gõ cách đọc"], ["listen", "Nghe chọn"]].map(([k, v]) =>
+        <div class="pr-modes">${[["cards", "Flashcard"], ["write", "Viết lại"], ["recog", "Trắc nghiệm"], ["read", "Gõ cách đọc"], ["listen", "Nghe chọn"]].filter(([k]) => st.tab !== "kanji" || !/read|listen/.test(k)).map(([k, v]) =>
           `<button class="btn${k === mode ? " primary" : ""}" data-mode="${k}">${v}</button>`).join("")}</div>
         <div class="pr-stage"></div>
         <details class="pr-more"><summary>Xem ${picked.length} mục vừa bốc</summary>
-          <p class="pr-picked-list">${picked.map(it => `<button class="say jp" data-say="${esc(it.label)}">${esc(it.label)}</button> <span class="hint">${esc(it.read)}${st.tab === "vocab" || it.key[0] === "v" ? " · " + esc(it.vn) : ""}</span>`).join("<br>")}</p></details>
+          <p class="pr-picked-list">${picked.map(it => `<button class="say jp" data-say="${esc(it.label)}">${esc(it.label)}</button> <span class="hint">${esc(it.read)}${st.tab === "vocab" || isWord(it) ? " · " + esc(it.vn) : ""}</span>`).join("<br>")}</p></details>
       </div>`;
     run();
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -125,9 +130,9 @@
     const el = document.createElement("div"); stage.append(el);
     if (mode === "cards") N.deck(el, { cards: picked.map(it => it.card) });
     if (mode === "write") N.rewrite(el, picked.map(it => ({ text: it.label, prompt: it.read,
-      hint: it.key[0] === "v" ? it.vn : (it.key[0] === "k" ? "katakana" : "hiragana") })));
+      hint: isWord(it) ? it.vn : (it.key[0] === "k" ? "katakana" : "hiragana") })));
     if (mode === "recog") {
-      const conv = it => ({ text: it.label, romaji: it.read, vn: it.vn, kind: it.key[0] === "v" ? "vocab" : "kana" });
+      const conv = it => ({ text: it.label, romaji: it.read, vn: it.vn, kind: isWord(it) ? "vocab" : "kana" });
       N.recognize(el, picked.map(conv), { pool: POOLS[st.tab].map(conv) });
     }
     if (mode === "read") { el.dataset.read = JSON.stringify(picked.map(it => [it.label, it.read, it.vn])); N.reader(el); }
