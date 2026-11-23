@@ -165,6 +165,11 @@ for _name in EXT_MODULES:
                 VOCAB[_i] = (_les, _v[1], _v[2], _v[3], _v[4], _v[5], _ex, _exvn)
 
 
+# Câu ví dụ có nguồn (Tatoeba) thay câu tự soạn khi có
+from tatoeba_apply import override as _ov
+VOCAB[:] = [(_v[0], _v[1], _v[2], _v[3], _v[4], _v[5], *_ov("VOCAB", _v[0], _v[1], _v[6], _v[7])) for _v in VOCAB]
+
+
 def vocab_id(v):
     import re
     return "v-" + re.sub(r"[^a-z0-9]", "", v[3].lower())

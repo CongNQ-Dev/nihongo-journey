@@ -213,3 +213,12 @@ for _name in EXT_MODULES:
     WORD_EX.update(getattr(_m, "WORD_EX", {}))
     for _n, _rows in getattr(_m, "WORDS_ADD", {}).items():
         WORD_EX[_n] = list(WORD_EX[_n]) + [tuple(r[4:6]) for r in _rows]
+
+
+# Câu ví dụ có nguồn (Tatoeba) thay câu tự soạn khi có
+from tatoeba_apply import override as _ov
+from minna_data import LESSONS as _L
+for _n, _rows in WORD_EX.items():
+    _ws = _L[_n]["words"]
+    assert len(_ws) == len(_rows), f"WORD_EX[{_n}] lệch words"
+    WORD_EX[_n] = [tuple(_ov("words", _n, _w[0], _r[0], _r[1])) for _w, _r in zip(_ws, _rows)]
