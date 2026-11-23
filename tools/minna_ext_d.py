@@ -494,7 +494,7 @@ LESSONS[41] = dict(
          '<p>Nêu nơi chốn + vật đang ở trạng thái đã được làm sẵn. Thường dùng khi tả phòng hoặc kể bạn thấy gì lúc bước vào.</p>',
          [("へやの かべに えが かざって あります。", "Trên tường phòng có treo tranh."), ("れいぞうこに ビールが いれて あります。", "Trong tủ lạnh có bia được cho vào sẵn.")]),
         ("V-て おきます", "làm sẵn, làm trước (chuẩn bị)",
-         '<p>(1) Làm trước để chuẩn bị: <span class="jp">りょこうの まえに ホテルを よやくして おきます</span>. (2) Để nguyên trạng đó cho đến khi cần: <span class="jp">まどは あけて おいて ください</span>. Nhấn người nói chủ động chuẩn bị.</p>',
+         '<p>(1) Làm trước để chuẩn bị: <span class="jp">りょこうの まえに ホテルを よやくして おきます</span>. (2) Xử lý trước, đề phòng: <span class="jp">ねつが ありますから、くすりを のんで おきます</span>. (3) Cứ để nguyên trạng đó: <span class="jp">まどは あけて おいて ください</span>. Ba nghĩa trong sách: 準備 (chuẩn bị), 措置 (xử lý), 放置 (để nguyên).</p>',
          [("りょこうの まえに ホテルを よやくして おきます。", "Trước chuyến đi tôi sẽ đặt sẵn khách sạn."), ("パーティーの まえに、テーブルを ならべて おきます。", "Trước bữa tiệc tôi sẽ xếp sẵn bàn."), ("まどは あけて おいて ください。", "Hãy cứ để cửa sổ mở.")]),
         ("Phân biệt ～ています／～てあります／～てしまいます", "ba kiểu trạng thái",
          '<p><span class="jp">まどが あいて います</span>: cửa đang mở (chỉ nêu trạng thái, không nói ai làm). <span class="jp">まどが あけて あります</span>: cửa đã được mở sẵn (ngầm hiểu có người chủ ý làm). <span class="jp">まどを あけて しまいました</span>: lỡ mở cửa sổ mất (tiếc nuối hoặc hoàn tất).</p>',

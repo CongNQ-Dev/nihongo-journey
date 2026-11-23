@@ -72,6 +72,9 @@ LESSONS[12] = dict(
         ("N1 の N2", "N2 của / thuộc N1",
          "<p>の nối hai danh từ: N1 nói rõ N2 thuộc đâu. Ở bài này: nơi làm việc, trường học. Thứ tự ngược tiếng Việt: <span class=\"jp\">だいがくの がくせい</span> = sinh viên (của) đại học.</p>",
          [("わたしは さくらだいがくの がくせいです。", "Tôi là sinh viên trường đại học Sakura."), ("すずきさんは みどりびょういんの いしゃです。", "Chị Suzuki là bác sĩ bệnh viện Midori.")]),
+        ("N は ～さいです", "N ~ tuổi",
+         '<p>Nói tuổi: số + <span class="jp">さい</span> + です. Hỏi: <span class="jp">なんさいですか</span> (thân mật) hoặc <span class="jp">おいくつですか</span> (lịch sự). 1 tuổi: いっさい; 8 tuổi: はっさい; 20 tuổi: <span class="jp">はたち</span>.</p>',
+         [("わたしは にじゅうごさいです。", "Tôi 25 tuổi."), ("リンさんは おいくつですか。…さんじゅっさいです。", "Chị Linh bao nhiêu tuổi ạ? …30 tuổi.")]),
     ],
     drill=[
         ("わたし ＿ ナムです。", ["は", "も", "の", "か"], 1, "Chủ đề của câu → は.", True),

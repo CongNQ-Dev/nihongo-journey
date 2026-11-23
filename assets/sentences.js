@@ -197,6 +197,20 @@ window.SENTENCES = {
       "Chị Suzuki là bác sĩ bệnh viện Midori."
      ]
     ]
+   ],
+   [
+    "N は ～さいです",
+    "N ~ tuổi",
+    [
+     [
+      "わたしは にじゅうごさいです。",
+      "Tôi 25 tuổi."
+     ],
+     [
+      "リンさんは おいくつですか。…さんじゅっさいです。",
+      "Chị Linh bao nhiêu tuổi ạ? …30 tuổi."
+     ]
+    ]
    ]
   ]
  },
@@ -3162,6 +3176,20 @@ window.SENTENCES = {
       "Lát nữa tôi gọi điện nhé? …Không cần đâu ạ."
      ]
     ]
+   ],
+   [
+    "V-ます(bỏ ます) かた",
+    "cách V, cách làm V",
+    [
+     [
+      "この かんじの よみかたを おしえて ください。",
+      "Hãy chỉ cho tôi cách đọc chữ Hán này."
+     ],
+     [
+      "この きかいの つかいかたが わかりません。",
+      "Tôi không biết cách dùng cái máy này."
+     ]
+    ]
    ]
   ]
  },
@@ -3814,6 +3842,10 @@ window.SENTENCES = {
      [
       "しょくじの まえに、てを あらいます。",
       "Trước bữa ăn tôi rửa tay."
+     ],
+     [
+      "さんじゅっぷん まえに、うちを でました。",
+      "Tôi đã ra khỏi nhà cách đây 30 phút (số lượng thời gian + まえに = cách đây)."
      ],
      [
       "にほんへ くる まえに、にほんごを べんきょうしました。",

@@ -420,6 +420,9 @@ LESSONS[25] = dict(
         ("V-ましょうか", "để tôi V nhé?",
          '<p>Đề nghị làm giúp. Đồng ý: <span class="jp">おねがいします</span>; từ chối nhẹ: <span class="jp">けっこうです</span> (không cần đâu, cảm ơn).</p>',
          [("にもつを もちましょうか。…おねがいします。", "Để tôi cầm hành lý nhé? …Nhờ anh."), ("あとで でんわしましょうか。…けっこうです。", "Lát nữa tôi gọi điện nhé? …Không cần đâu ạ.")]),
+        ("V-ます(bỏ ます) かた", "cách V, cách làm V",
+         '<p>Bỏ <span class="jp">ます</span> thêm <span class="jp">かた</span> để nói <em>cách / phương pháp</em> làm việc đó: <span class="jp">よみかた</span> (cách đọc), <span class="jp">つかいかた</span> (cách dùng). Hỏi: <span class="jp">N の V-かたを おしえて ください</span>.</p>',
+         [("この かんじの よみかたを おしえて ください。", "Hãy chỉ cho tôi cách đọc chữ Hán này."), ("この きかいの つかいかたが わかりません。", "Tôi không biết cách dùng cái máy này.")]),
     ],
     drill=[
         ("のみます → thể て:", ["のんで", "のみて", "のんて", "のって"], 1, "み → んで.", True),

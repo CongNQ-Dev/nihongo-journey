@@ -34,7 +34,7 @@
 ## Giai đoạn Minna — bài 1–10 ĐÃ SOẠN (2026-11-14, người học yêu cầu soạn trước)
 - 0012–0021 = Minna bài 1–10. SINH TỰ ĐỘNG: nội dung ở `tools/minna_data.py`, từ có ảnh ở `tools/minna_vocab.py`,
   HTML ở `tools/minna_pages.py`; chạy `python3 -I tools/build.py`. Không sửa tay HTML sinh ra.
-- Thứ tự ngữ pháp theo sách (đã đối chiếu); câu ví dụ + hội thoại tự viết. Nhân vật riêng: ナム, リン, たなか, すずき
+- Thứ tự ngữ pháp theo sách (đối chiếu lần đầu với một trang ghi chú cá nhân, xem mục đối chiếu chính thức ở cuối file); câu ví dụ + hội thoại tự viết. Nhân vật riêng: ナム, リン, たなか, すずき
   (không dùng nhân vật của sách).
 - Thẻ từ vựng (type "vocab", id "v-<romaji>"): mặt trước chỉ chữ, ảnh bị che (ảnh lộ nghĩa). Chỉ từ chụp ảnh được
   mới có thẻ; từ chức năng (だれ, いくら, とても…) nằm trong bảng + bài tập, không có thẻ.
@@ -115,3 +115,8 @@
 
 ## Minna bài 26–30 (2026-11-22)
 - `tools/minna_ext_d.py` (file 0037–0041), đã ghi vào `EXT_MODULES`. Mục lục có thêm "Giai đoạn 2 · Sơ cấp II" từ bài 26. Cùng lưu ý như bài 11–25: chưa có ảnh thẻ, chưa có người Nhật kiểm tra nội dung, nguồn đọc thêm trỏ về mục lục Tae Kim.
+
+## Đối chiếu với nguồn chính thức (2026-11-23)
+- Nguồn: Japan Foundation, bảng "みんなの日本語 文型・表現 ↔ いろどり" (PDF công khai: yg.jpf.go.jp/wp-content/uploads/2023/11/Sentence-Patterns-Minna-no-Nihongo-and-IRODORI.20211027.pdf). Liệt kê mẫu câu từng bài, **không** liệt kê từ vựng hay câu ví dụ.
+- Kết quả bài 1–30: thứ tự và phân bổ mẫu câu khớp. Đã bổ sung chỗ thiếu: bài 1 ～さいです; bài 14 V-かた; bài 18 hai nghĩa của ことができます + ～まえに chỉ khoảng thời gian; bài 30 ba nghĩa của ておきます.
+- Chưa xác nhận bằng nguồn chính thức: bài 11 ～だけ và bài 21 N でも (PDF không nêu hai mục này). Từ vựng từng bài và câu ví dụ vẫn do mình tự soạn, chưa đối chiếu với sách.
