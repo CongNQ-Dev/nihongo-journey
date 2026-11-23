@@ -174,7 +174,7 @@ def lesson_html(n, files, page):
     out.append(f'<p class="hint"><a href="../kanji.html#bai-{n}">Kanji của bài này →</a> · <a href="../practice.html">Luyện tự chọn: bốc từ vựng ngẫu nhiên →</a></p>')
     p, nx = files.get(n - 1), files.get(n + 1)
     left = f'<a href="{p[0]}.html">← {n - 1:04d} · {p[1]}</a>' if p else '<a href="../index.html">← Mục lục</a>'
-    right = f'<a href="{nx[0]}.html">{n + 1:04d} · {nx[1]} →</a>' if nx else f'<span>Tiếp theo: Minna bài {m + 1} (chưa soạn)</span>'
+    right = f'<a href="{nx[0]}.html">{n + 1:04d} · {nx[1]} →</a>' if nx else ('<span>Bạn đã đi hết Minna no Nihongo sơ cấp (bài 1–50) 🎉</span>' if m >= 50 else f'<span>Tiếp theo: Minna bài {m + 1} (chưa soạn)</span>')
     out.append(f'<nav class="next">{left}<a href="../index.html">Mục lục</a>{right}</nav>')
     return page(f"{n:04d} · Minna {m} · {L['title']}", "\n".join(out))
 

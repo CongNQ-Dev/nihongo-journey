@@ -78,7 +78,7 @@
 - Tiến độ bài: khoá `nihongo-lessons-v1` {"0012": timestamp}. Nút "Đánh dấu đã học xong" tự chèn trước `nav.next` ở mọi bài (nihongo.js `lessonDone`); index có `[data-progress]` (Minna x/50, số ngày tới 4/7/2027, bài/tuần cần thiết).
 - Kanji: `tools/kanji_data.py` (55 chữ N5, gắn bài 0012–0021) → thẻ type "kanji", id `kj-<hex unicode>`, trang `kanji.html`. Nét: `python3 -I tools/fetch_strokes.py` (KanjiVG). Thẻ kanji chỉ vào ôn bằng chế độ Flashcard; KHÔNG có trong Viết lại / Trắc nghiệm / Luyện tự chọn (đọc kanji có nhiều âm, câu hỏi mơ hồ). Deck bài Minna loại thẻ kanji (cần `data-type="kanji"` mới hiện).
 - Khi soạn Minna bài 11+: thêm kanji của bài đó vào `kanji_data.py`, chạy fetch_strokes rồi build.
-- Chưa làm: đề luyện JLPT, soạn Minna bài 46–50, thẻ ngữ pháp vào lịch ôn (hiện chỉ luyện thêm), chế độ Gõ cách đọc / Nghe chọn chưa chấm vào lịch ôn.
+- Chưa làm: đề luyện JLPT, đề JLPT N4/N3 và các chặng sau Minna 50, thẻ ngữ pháp vào lịch ôn (hiện chỉ luyện thêm), chế độ Gõ cách đọc / Nghe chọn chưa chấm vào lịch ôn.
 
 ## Sổ tay viết tay (2026-11-15)
 - `notebook.html` + `assets/notebook.js` (viết tay, KHÔNG sinh tự động). Canvas 1000×1414 vector, nhiều trang, 4 nền giấy (trắng, kẻ ngang, ô vuông, genkou), bút/tẩy nét, hoàn tác, xuất PNG, chặn lòng bàn tay khi có Apple Pencil.
@@ -141,3 +141,8 @@
 
 ## Minna bài 41–45 (2026-11-23)
 - `tools/minna_ext_i.py` (file 0052–0056): 41 いただく/くださる/やる; 42 ために/のに; 43 ～そうです, ～てきます; 44 ～すぎる/やすい/にくい/～にする; 45 ばあいは/のに. Mẫu câu theo bảng JF, từ vựng 272/272 (toàn khoá bài 1–45: 2404/2404 theo script).
+
+## Minna bài 46–50 (2026-11-23) — hoàn tất bộ sơ cấp
+- `tools/minna_ext_j.py` (file 0057–0061): 46 ところ/ばかり/はず; 47 そうです(truyền đạt)/ようです; 48 thể sai khiến; 49 kính ngữ; 50 khiêm nhường ngữ. Mẫu câu theo bảng JF, từ vựng 248/248.
+- **Toàn bộ bài 1–50: 2.652/2.652 từ vựng** theo `check_vocab_coverage.py`, mẫu câu khớp bảng JF.
+- Việc còn lại của dự án: ảnh thẻ cho từ mới (cần mạng tới Wikimedia), người Nhật kiểm tra câu ví dụ, đề luyện JLPT N5/N4, chặng N3+.
