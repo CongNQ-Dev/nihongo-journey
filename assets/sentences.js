@@ -3487,6 +3487,34 @@ window.SENTENCES = {
     "Tôi đã uống hai ly bia."
    ],
    [
+    "りんご",
+    "ringo",
+    "táo",
+    "りんごを みっつ かいました。",
+    "Tôi đã mua ba quả táo."
+   ],
+   [
+    "アイスクリーム",
+    "aisukuriimu",
+    "kem",
+    "アイスクリームを ふたつ たべました。",
+    "Tôi đã ăn hai cây kem."
+   ],
+   [
+    "きって",
+    "kitte",
+    "con tem",
+    "きってを ごまい かいました。",
+    "Tôi đã mua năm con tem."
+   ],
+   [
+    "オーストラリア",
+    "oosutoraria",
+    "Úc",
+    "オーストラリアから てがみが きました。",
+    "Có thư từ Úc gửi đến."
+   ],
+   [
     "どのくらい",
     "dono kurai",
     "bao lâu, bao nhiêu (hỏi khoảng thời gian, số lượng)",
@@ -3513,6 +3541,97 @@ window.SENTENCES = {
     "kính chào quý khách (nhân viên cửa hàng nói)",
     "いらっしゃいませ。ごにんですか。",
     "Xin chào quý khách. Năm người ạ?"
+   ],
+   [
+    "いくつ",
+    "ikutsu",
+    "mấy cái, bao nhiêu cái",
+    "りんごを いくつ かいましたか。…みっつ かいました。",
+    "Bạn đã mua mấy quả táo? …Ba quả."
+   ],
+   [
+    "がいこく",
+    "gaikoku",
+    "nước ngoài",
+    "ともだちは がいこくに います。",
+    "Bạn tôi ở nước ngoài."
+   ],
+   [
+    "りゅうがくせい",
+    "ryuugakusei",
+    "lưu học sinh, du học sinh",
+    "リンさんは りゅうがくせいです。",
+    "Chị Linh là lưu học sinh."
+   ],
+   [
+    "クラス",
+    "kurasu",
+    "lớp học",
+    "クラスに がくせいが じゅうにん います。",
+    "Lớp có mười học sinh."
+   ],
+   [
+    "みんな",
+    "minna",
+    "mọi người, tất cả",
+    "みんなで ごにんです。",
+    "Tất cả là năm người."
+   ],
+   [
+    "いい［お］てんきですね。",
+    "ii [o]tenki desu ne",
+    "Trời đẹp nhỉ.",
+    "いい おてんきですね。…そうですね。",
+    "Trời đẹp nhỉ. …Vâng, đúng thế."
+   ],
+   [
+    "おでかけですか。",
+    "odekake desu ka?",
+    "Anh/chị đi ra ngoài à?",
+    "おでかけですか。…ええ、ちょっと ぎんこうまで。",
+    "Chị đi ra ngoài à? …Vâng, tôi chỉ đến ngân hàng một chút."
+   ],
+   [
+    "いってらっしゃい。",
+    "itterasshai",
+    "Anh/chị đi nhé (người ở nhà nói)",
+    "いって きます。…いってらっしゃい。",
+    "Tôi đi đây. …Anh đi nhé."
+   ],
+   [
+    "いって きます。",
+    "itte kimasu",
+    "Tôi đi đây (người ra khỏi nhà nói)",
+    "では、いって きます。…いってらっしゃい。",
+    "Vậy tôi đi đây. …Anh đi nhé."
+   ],
+   [
+    "いって まいります。",
+    "itte mairimasu",
+    "Tôi xin đi đây (lịch sự hơn いって きます)",
+    "ぶちょう、いって まいります。…いってらっしゃい。",
+    "Trưởng phòng, tôi xin đi ạ. …Anh đi nhé."
+   ],
+   [
+    "かしこまりました。",
+    "kashikomarimashita",
+    "Vâng, tôi hiểu rồi ạ (nhân viên đáp lại khách)",
+    "りんごを みっつ ください。…かしこまりました。",
+    "Cho tôi ba quả táo. …Vâng ạ."
+   ],
+   [
+    "おねがいします。",
+    "onegaishimasu",
+    "Làm ơn, nhờ anh/chị",
+    "これ、おねがいします。",
+    "Xin nhờ anh cái này."
+   ],
+   [
+    "それから",
+    "sorekara",
+    "và rồi, sau đó; ngoài ra",
+    "みかんを みっつ、それから、りんごを よっつ かいました。",
+    "Tôi mua ba quả quýt, và bốn quả táo nữa."
    ]
   ],
   "grammar": [
@@ -3649,6 +3768,125 @@ window.SENTENCES = {
     "Sukiyaki hơi ngọt."
    ],
    [
+    "はる",
+    "haru",
+    "mùa xuân",
+    "はるは あたたかいです。",
+    "Mùa xuân thì ấm."
+   ],
+   [
+    "なつ",
+    "natsu",
+    "mùa hè",
+    "なつは あついです。",
+    "Mùa hè thì nóng."
+   ],
+   [
+    "あき",
+    "aki",
+    "mùa thu",
+    "あきが いちばん すきです。",
+    "Tôi thích mùa thu nhất."
+   ],
+   [
+    "ふゆ",
+    "fuyu",
+    "mùa đông",
+    "ふゆは さむいです。",
+    "Mùa đông thì lạnh."
+   ],
+   [
+    "あめ",
+    "ame",
+    "mưa",
+    "きのうは あめでした。",
+    "Hôm qua trời mưa."
+   ],
+   [
+    "ゆき",
+    "yuki",
+    "tuyết",
+    "ふゆは ゆきが おおいです。",
+    "Mùa đông có nhiều tuyết."
+   ],
+   [
+    "くもり",
+    "kumori",
+    "trời nhiều mây",
+    "きょうは くもりでした。",
+    "Hôm nay trời nhiều mây."
+   ],
+   [
+    "おすし",
+    "osushi",
+    "sushi",
+    "おすしは おいしかったです。",
+    "Sushi đã ngon."
+   ],
+   [
+    "てんぷら",
+    "tenpura",
+    "tempura",
+    "てんぷらは おいしかったです。",
+    "Tempura đã ngon."
+   ],
+   [
+    "ぶたにく",
+    "butaniku",
+    "thịt lợn",
+    "ぶたにくは やすいです。",
+    "Thịt lợn thì rẻ."
+   ],
+   [
+    "とりにく",
+    "toriniku",
+    "thịt gà",
+    "とりにくは すきです。",
+    "Tôi thích thịt gà."
+   ],
+   [
+    "ぎゅうにく",
+    "gyuuniku",
+    "thịt bò",
+    "ぎゅうにくは たかいです。",
+    "Thịt bò thì đắt."
+   ],
+   [
+    "レモン",
+    "remon",
+    "chanh vàng",
+    "これは レモンです。",
+    "Đây là quả chanh vàng."
+   ],
+   [
+    "もみじ",
+    "momiji",
+    "lá phong đỏ",
+    "もみじは きれいでした。",
+    "Lá phong đã đẹp."
+   ],
+   [
+    "ぎおんまつり",
+    "gionmatsuri",
+    "lễ hội Gion",
+    "ぎおんまつりは にぎやかでした。",
+    "Lễ hội Gion đã náo nhiệt."
+   ],
+   [
+    "ホンコン",
+    "honkon",
+    "Hồng Kông",
+    "ホンコンは あついですか。",
+    "Hồng Kông nóng không?"
+   ],
+   [
+    "シンガポール",
+    "shingapooru",
+    "Singapore",
+    "シンガポールは あつかったです。",
+    "Singapore đã nóng."
+   ],
+   [
     "かんたん",
     "kantan",
     "đơn giản, dễ",
@@ -3682,6 +3920,76 @@ window.SENTENCES = {
     "lần đầu tiên",
     "きょうとは はじめてでした。",
     "Kyoto là lần đầu tiên của tôi."
+   ],
+   [
+    "どちらも",
+    "dochira mo",
+    "cả hai",
+    "コーヒーと おちゃと どちらが すきですか。…どちらも すきです。",
+    "Cà phê và trà, bạn thích cái nào hơn? …Cả hai đều thích."
+   ],
+   [
+    "ただいま。",
+    "tadaima",
+    "Tôi về rồi đây (nói khi về đến nhà)",
+    "ただいま。…おかえりなさい。",
+    "Tôi về rồi. …Anh về đấy à."
+   ],
+   [
+    "おかえりなさい。",
+    "okaerinasai",
+    "Anh/chị về đấy à (chào người mới về)",
+    "ただいま。…おかえりなさい。",
+    "Tôi về rồi. …Anh về đấy à."
+   ],
+   [
+    "わあ、すごい ひとですね。",
+    "waa, sugoi hito desu ne",
+    "Chà, đông người quá nhỉ!",
+    "わあ、すごい ひとですね。…ええ、にぎやかですね。",
+    "Chà, đông người quá nhỉ! …Vâng, náo nhiệt nhỉ."
+   ],
+   [
+    "つかれました。",
+    "tsukaremashita",
+    "Tôi mệt rồi.",
+    "きょうは いそがしかったです。つかれました。",
+    "Hôm nay bận quá. Tôi mệt rồi."
+   ],
+   [
+    "すごいですね。",
+    "sugoi desu ne",
+    "Giỏi quá / tuyệt quá nhỉ.",
+    "あの ビルは たかいですね。すごいですね。",
+    "Toà nhà kia cao nhỉ. Ghê thật."
+   ],
+   [
+    "パーティー",
+    "paatii",
+    "bữa tiệc (パーティーを します = tổ chức tiệc)",
+    "きのうの パーティーは たのしかったです。",
+    "Bữa tiệc hôm qua vui."
+   ],
+   [
+    "いけばな",
+    "ikebana",
+    "cắm hoa Nhật (いけばなを します)",
+    "いけばなは むずかしかったです。",
+    "Cắm hoa Nhật đã khó."
+   ],
+   [
+    "しけん",
+    "shiken",
+    "kỳ thi",
+    "しけんは かんたんでした。",
+    "Bài thi đã dễ."
+   ],
+   [
+    "でも",
+    "demo",
+    "nhưng (đầu câu)",
+    "にほんごは むずかしいです。でも、おもしろいです。",
+    "Tiếng Nhật khó. Nhưng thú vị."
    ]
   ],
   "grammar": [
@@ -3825,6 +4133,41 @@ window.SENTENCES = {
     "Tôi đi thuỷ cung xem cá."
    ],
    [
+    "つり",
+    "tsuri",
+    "câu cá",
+    "しゅうまつは つりに いきたいです。",
+    "Cuối tuần tôi muốn đi câu cá."
+   ],
+   [
+    "しやくしょ",
+    "shiyakusho",
+    "toà thị chính",
+    "しやくしょへ とうろくに いきます。",
+    "Tôi đi toà thị chính để đăng ký."
+   ],
+   [
+    "ていしょく",
+    "teishoku",
+    "suất cơm (set meal)",
+    "ていしょくを おねがいします。",
+    "Cho tôi một suất cơm."
+   ],
+   [
+    "ぎゅうどん",
+    "gyuudon",
+    "cơm thịt bò",
+    "ぎゅうどんが たべたいです。",
+    "Tôi muốn ăn cơm thịt bò."
+   ],
+   [
+    "ロシア",
+    "roshia",
+    "Nga",
+    "ロシアへ いきたいです。",
+    "Tôi muốn đi Nga."
+   ],
+   [
     "ほしい",
     "hoshii",
     "muốn có (đồ vật)",
@@ -3893,6 +4236,104 @@ window.SENTENCES = {
     "ta làm thế nhé (đồng ý lời rủ)",
     "あしたは えいがを みに いきましょう。…そうしましょう。",
     "Mai ta đi xem phim nhé. …Làm thế đi."
+   ],
+   [
+    "びじゅつ",
+    "bijutsu",
+    "mỹ thuật",
+    "びじゅつを べんきょうしたいです。",
+    "Tôi muốn học mỹ thuật."
+   ],
+   [
+    "しゅうまつ",
+    "shuumatsu",
+    "cuối tuần",
+    "しゅうまつは どこかへ いきたいです。",
+    "Cuối tuần tôi muốn đi đâu đó."
+   ],
+   [
+    "［お］しょうがつ",
+    "[o]shougatsu",
+    "Tết dương lịch (Năm mới)",
+    "おしょうがつに にほんへ いきたいです。",
+    "Dịp Tết tôi muốn đi Nhật."
+   ],
+   [
+    "のどが かわきます",
+    "nodo ga kawakimasu",
+    "khát nước",
+    "のどが かわきました。ジュースが のみたいです。",
+    "Tôi khát nước. Tôi muốn uống nước ép."
+   ],
+   [
+    "おなかが すきます",
+    "onaka ga sukimasu",
+    "đói bụng",
+    "おなかが すきました。なにか たべたいです。",
+    "Tôi đói. Tôi muốn ăn gì đó."
+   ],
+   [
+    "おなかが いっぱいです。",
+    "onaka ga ippai desu",
+    "Tôi no rồi.",
+    "もう おなかが いっぱいです。",
+    "Tôi no rồi."
+   ],
+   [
+    "ごちゅうもんは？",
+    "gochuumon wa?",
+    "Quý khách gọi món gì ạ?",
+    "ごちゅうもんは？…ていしょくを おねがいします。",
+    "Quý khách gọi món gì ạ? …Cho tôi một suất cơm."
+   ],
+   [
+    "［しょうしょう］おまち ください。",
+    "[shoushou] omachi kudasai",
+    "Xin quý khách đợi [một chút].",
+    "しょうしょう おまち ください。…はい。",
+    "Xin quý khách đợi một chút. …Vâng."
+   ],
+   [
+    "べつべつに",
+    "betsubetsu ni",
+    "riêng ra, tách riêng",
+    "べつべつに おねがいします。…かしこまりました。",
+    "Xin tính riêng ạ. …Vâng ạ."
+   ],
+   [
+    "さびしい",
+    "sabishii",
+    "cô đơn, buồn",
+    "ともだちが いませんから、さびしいです。",
+    "Vì không có bạn nên tôi cô đơn."
+   ],
+   [
+    "けいざい",
+    "keizai",
+    "kinh tế",
+    "けいざいを べんきょうしたいです。",
+    "Tôi muốn học kinh tế."
+   ],
+   [
+    "とうろく",
+    "touroku",
+    "đăng ký (とうろくを します)",
+    "しやくしょで とうろくを します。",
+    "Tôi làm thủ tục đăng ký ở toà thị chính."
+   ],
+   [
+    "かいぎ",
+    "kaigi",
+    "cuộc họp (かいぎを します)",
+    "かいぎを しに かいぎしつへ いきます。",
+    "Tôi đến phòng họp để họp."
+   ],
+   [
+    "そうですね。",
+    "sou desu ne",
+    "Vâng, đúng thế nhỉ.",
+    "いい てんきですね。…そうですね。",
+    "Trời đẹp nhỉ. …Vâng, đúng thế."
    ]
   ],
   "grammar": [
@@ -4055,6 +4496,83 @@ window.SENTENCES = {
     "photo",
     "この しりょうを コピーして ください。",
     "Hãy photo tài liệu này."
+   ],
+   [
+    "とめます",
+    "tomemasu",
+    "dừng, đỗ (xe)",
+    "ここで くるまを とめて ください。",
+    "Hãy dừng xe ở đây."
+   ],
+   [
+    "なまえ",
+    "namae",
+    "tên",
+    "ここに なまえを かいて ください。",
+    "Hãy viết tên vào đây."
+   ],
+   [
+    "さあ",
+    "saa",
+    "nào, thôi nào (thúc giục)",
+    "さあ、はじめましょう。",
+    "Nào, ta bắt đầu thôi."
+   ],
+   [
+    "しんごうを みぎへ まがって ください。",
+    "shingou o migi e magatte kudasai",
+    "Hãy rẽ phải ở chỗ đèn giao thông.",
+    "しんごうを みぎへ まがって ください。…はい、わかりました。",
+    "Hãy rẽ phải ở đèn giao thông. …Vâng, tôi hiểu rồi."
+   ],
+   [
+    "これで おねがいします。",
+    "kore de onegaishimasu",
+    "Tôi xin trả bằng cái này.",
+    "これで おねがいします。…はい、かしこまりました。",
+    "Tôi trả bằng cái này. …Vâng ạ."
+   ],
+   [
+    "うめだ",
+    "umeda",
+    "Umeda (khu phố ở Osaka)",
+    "うめだへ でんしゃで いきます。",
+    "Tôi đi Umeda bằng tàu điện."
+   ],
+   [
+    "つかいます",
+    "tsukaimasu",
+    "dùng, sử dụng",
+    "この ペンを つかって ください。",
+    "Hãy dùng cây bút này."
+   ],
+   [
+    "まっすぐ",
+    "massugu",
+    "thẳng",
+    "まっすぐ いって ください。",
+    "Hãy đi thẳng."
+   ],
+   [
+    "あれ？",
+    "are?",
+    "Ồ? Hả? (ngạc nhiên)",
+    "あれ？ かぎが ありません。",
+    "Ơ? Chìa khoá đâu rồi."
+   ],
+   [
+    "おつり",
+    "otsuri",
+    "tiền thừa",
+    "おつりは ごひゃくえんです。",
+    "Tiền thừa là 500 yên."
+   ],
+   [
+    "いいですよ。",
+    "ii desu yo",
+    "Được chứ ạ, vâng.",
+    "てつだいましょうか。…ええ、いいですよ。",
+    "Để tôi giúp nhé? …Vâng, được."
    ]
   ],
   "grammar": [
@@ -4191,6 +4709,27 @@ window.SENTENCES = {
     "Toà nhà kia là ngân hàng."
    ],
    [
+    "でんしじしょ",
+    "denshijisho",
+    "từ điển điện tử",
+    "でんしじしょを つかっても いいですか。",
+    "Tôi dùng từ điển điện tử được không?"
+   ],
+   [
+    "こうこう",
+    "koukou",
+    "trường cấp ba",
+    "あには こうこうの せんせいです。",
+    "Anh trai tôi là giáo viên cấp ba."
+   ],
+   [
+    "プレイガイド",
+    "pureigaido",
+    "quầy bán vé (nhà hát, hoà nhạc)",
+    "プレイガイドは にっぽんばしに あります。",
+    "Quầy bán vé ở Nipponbashi."
+   ],
+   [
     "つかいます",
     "tsukaimasu",
     "dùng, sử dụng",
@@ -4266,6 +4805,76 @@ window.SENTENCES = {
     "độc thân",
     "あには まだ どくしんです。",
     "Anh trai tôi vẫn còn độc thân."
+   ],
+   [
+    "おもいだします",
+    "omoidashimasu",
+    "nhớ ra, nhớ lại",
+    "ナムさんの でんわばんごうを おもいだしました。",
+    "Tôi đã nhớ ra số điện thoại của anh Nam."
+   ],
+   [
+    "いらっしゃいます",
+    "irasshaimasu",
+    "có mặt, ở (dạng kính ngữ của います)",
+    "たなかさんは いま かいぎしつに いらっしゃいます。",
+    "Anh Tanaka hiện đang ở phòng họp ạ."
+   ],
+   [
+    "にっぽんばし",
+    "nipponbashi",
+    "Nipponbashi (khu mua sắm ở Osaka)",
+    "にっぽんばしで パソコンを かいました。",
+    "Tôi đã mua máy tính ở Nipponbashi."
+   ],
+   [
+    "しって います",
+    "shitte imasu",
+    "biết",
+    "ナムさんを しって いますか。…はい、しって います。",
+    "Bạn có biết anh Nam không? …Vâng, tôi biết."
+   ],
+   [
+    "とくに",
+    "tokuni",
+    "đặc biệt là",
+    "とくに あしたが いそがしいです。",
+    "Đặc biệt là ngày mai bận."
+   ],
+   [
+    "ごかぞく",
+    "gokazoku",
+    "gia đình (của người khác)",
+    "ごかぞくは おおさかに いらっしゃいますか。",
+    "Gia đình anh ở Osaka ạ?"
+   ],
+   [
+    "すみません",
+    "sumimasen",
+    "Xin lỗi, làm phiền",
+    "すみません、しゃしんを とっても いいですか。",
+    "Xin lỗi, tôi chụp ảnh được không?"
+   ],
+   [
+    "みなさん",
+    "minasan",
+    "mọi người, quý vị",
+    "みなさん、ここで たべては いけません。",
+    "Thưa mọi người, không được ăn ở đây."
+   ],
+   [
+    "しやくしょ",
+    "shiyakusho",
+    "toà thị chính",
+    "しやくしょで はたらいて います。",
+    "Tôi đang làm việc ở toà thị chính."
+   ],
+   [
+    "けいざい",
+    "keizai",
+    "kinh tế",
+    "ナムさんの せんもんは けいざいです。",
+    "Chuyên môn của anh Nam là kinh tế."
    ]
   ],
   "grammar": [
@@ -4377,6 +4986,20 @@ window.SENTENCES = {
     "Hãy ấn nút này."
    ],
    [
+    "ゆきまつり",
+    "yukimatsuri",
+    "lễ hội tuyết",
+    "さっぽろの ゆきまつりは にぎやかで、きれいです。",
+    "Lễ hội tuyết Sapporo náo nhiệt và đẹp."
+   ],
+   [
+    "フエ",
+    "fue",
+    "Huế (Việt Nam)",
+    "フエは ベトナムの まちで、しずかです。",
+    "Huế là một thành phố ở Việt Nam và yên tĩnh."
+   ],
+   [
     "のりかえます",
     "norikaemasu",
     "đổi tàu, đổi xe",
@@ -4396,6 +5019,153 @@ window.SENTENCES = {
     "nghỉ, bỏ (かいしゃを やめます)",
     "かいしゃを やめて、にほんへ きました。",
     "Tôi bỏ công ty rồi đến Nhật."
+   ],
+   [
+    "でんわします",
+    "denwa shimasu",
+    "gọi điện",
+    "ともだちに でんわして、えいがに いきます。",
+    "Tôi gọi điện cho bạn rồi đi xem phim."
+   ],
+   [
+    "せ",
+    "se",
+    "chiều cao, lưng",
+    "ナムさんは せが たかいです。",
+    "Anh Nam cao."
+   ],
+   [
+    "サービス",
+    "saabisu",
+    "dịch vụ",
+    "この ホテルは サービスが いいです。",
+    "Khách sạn này dịch vụ tốt."
+   ],
+   [
+    "みどり",
+    "midori",
+    "màu xanh lá; cây xanh",
+    "この こうえんは みどりが おおいです。",
+    "Công viên này có nhiều cây xanh."
+   ],
+   [
+    "［いいえ、］まだまだです。",
+    "[iie,] madamada desu",
+    "[Không,] tôi còn kém lắm (đáp lời khen).",
+    "にほんごが じょうずですね。…いいえ、まだまだです。",
+    "Anh giỏi tiếng Nhật nhỉ. …Không, tôi còn kém lắm."
+   ],
+   [
+    "おひきだしですか。",
+    "ohikidashi desu ka?",
+    "Anh/chị rút tiền ạ?",
+    "おひきだしですか。…はい、そうです。",
+    "Anh rút tiền ạ? …Vâng đúng."
+   ],
+   [
+    "あんしょうばんごう",
+    "anshou bangou",
+    "mã PIN",
+    "あんしょうばんごうを いれて、ボタンを おして ください。",
+    "Hãy nhập mã PIN rồi bấm nút."
+   ],
+   [
+    "きんがく",
+    "kingaku",
+    "số tiền",
+    "きんがくを いれて、ボタンを おして ください。",
+    "Hãy nhập số tiền rồi bấm nút."
+   ],
+   [
+    "かくにん",
+    "kakunin",
+    "xác nhận (かくにんします)",
+    "かくにんして、ボタンを おして ください。",
+    "Hãy xác nhận rồi bấm nút."
+   ],
+   [
+    "JR",
+    "JR",
+    "JR (Đường sắt Nhật Bản)",
+    "JRに のって、おおさかへ いきます。",
+    "Tôi đi tàu JR đến Osaka."
+   ],
+   [
+    "あたまが いい",
+    "atama ga ii",
+    "thông minh",
+    "ナムさんは あたまが いいです。",
+    "Anh Nam thông minh."
+   ],
+   [
+    "アジア",
+    "ajia",
+    "châu Á",
+    "アジアの りょうりが すきです。",
+    "Tôi thích món ăn châu Á."
+   ],
+   [
+    "だします",
+    "dashimasu",
+    "lấy ra, nộp, gửi",
+    "てがみを だして、かいしゃへ いきます。",
+    "Tôi gửi thư rồi đi làm."
+   ],
+   [
+    "のみます",
+    "nomimasu",
+    "uống (rượu)",
+    "ビールを のんで、ねます。",
+    "Tôi uống bia rồi đi ngủ."
+   ],
+   [
+    "はじめます",
+    "hajimemasu",
+    "bắt đầu",
+    "しごとを はじめて、ひるに ごはんを たべます。",
+    "Tôi bắt đầu làm việc rồi trưa thì ăn cơm."
+   ],
+   [
+    "けんがくします",
+    "kengaku shimasu",
+    "tham quan để học hỏi",
+    "かいしゃを けんがくして、かえります。",
+    "Tôi tham quan công ty rồi về."
+   ],
+   [
+    "どれ",
+    "dore",
+    "cái nào (trong ba cái trở lên)",
+    "あなたの かばんは どれですか。",
+    "Cặp của bạn là cái nào?"
+   ],
+   [
+    "すごいですね。",
+    "sugoi desu ne",
+    "Giỏi quá / tuyệt quá nhỉ.",
+    "ナムさんは にほんごが じょうずで、すごいですね。",
+    "Anh Nam giỏi tiếng Nhật, ghê thật."
+   ],
+   [
+    "うめだ",
+    "umeda",
+    "Umeda (khu phố ở Osaka)",
+    "バスに のって、うめだで おります。",
+    "Tôi đi xe buýt rồi xuống ở Umeda."
+   ],
+   [
+    "りゅうがくせい",
+    "ryuugakusei",
+    "lưu học sinh",
+    "りゅうがくせいは ベトナムから きました。",
+    "Lưu học sinh đến từ Việt Nam."
+   ],
+   [
+    "ベトナム",
+    "betonamu",
+    "Việt Nam",
+    "ベトナムの まちは にぎやかで、きれいです。",
+    "Các thành phố ở Việt Nam náo nhiệt và đẹp."
    ]
   ],
   "grammar": [
@@ -4579,6 +5349,83 @@ window.SENTENCES = {
     "đau (あたまが いたいです)",
     "あたまが いたいです。",
     "Tôi đau đầu."
+   ],
+   [
+    "しんぱいします",
+    "shinpai shimasu",
+    "lo lắng",
+    "しんぱいしないで ください。",
+    "Xin đừng lo lắng."
+   ],
+   [
+    "たいせつ［な］",
+    "taisetsu [na]",
+    "quan trọng, quý giá",
+    "パスポートは たいせつですから、なくさないで ください。",
+    "Hộ chiếu rất quan trọng nên xin đừng làm mất."
+   ],
+   [
+    "あぶない",
+    "abunai",
+    "nguy hiểm",
+    "ここで はしらないで ください。あぶないです。",
+    "Xin đừng chạy ở đây. Nguy hiểm."
+   ],
+   [
+    "きんえん",
+    "kin'en",
+    "cấm hút thuốc",
+    "ここは きんえんです。",
+    "Ở đây cấm hút thuốc."
+   ],
+   [
+    "２、３にち",
+    "ni-san nichi",
+    "hai ba ngày",
+    "２、３にち ゆっくり やすんで ください。",
+    "Hãy nghỉ ngơi thong thả vài ngày."
+   ],
+   [
+    "ですから",
+    "desukara",
+    "vì vậy, cho nên",
+    "あしたは しけんです。ですから、きょうは べんきょうしなければ なりません。",
+    "Mai có kỳ thi. Vì vậy hôm nay tôi phải học."
+   ],
+   [
+    "どう しましたか。",
+    "dou shimashita ka?",
+    "Anh/chị bị làm sao vậy?",
+    "どう しましたか。…あたまが いたいです。",
+    "Anh bị sao vậy? …Tôi bị đau đầu."
+   ],
+   [
+    "のど",
+    "nodo",
+    "cổ họng",
+    "のどが いたいです。",
+    "Tôi đau họng."
+   ],
+   [
+    "おだいじに。",
+    "odaiji ni",
+    "Anh/chị giữ gìn sức khoẻ nhé (nói với người ốm)",
+    "ゆっくり やすんで ください。おだいじに。",
+    "Hãy nghỉ ngơi thong thả. Anh giữ gìn sức khoẻ nhé."
+   ],
+   [
+    "それから",
+    "sorekara",
+    "rồi, sau đó",
+    "くすりを のんで、それから、ねて ください。",
+    "Hãy uống thuốc rồi sau đó đi ngủ."
+   ],
+   [
+    "せんせい",
+    "sensei",
+    "bác sĩ (cách gọi khi nói với bác sĩ)",
+    "せんせい、あたまが いたいんです。",
+    "Bác sĩ ơi, tôi bị đau đầu."
    ]
   ],
   "grammar": [
@@ -4680,6 +5527,41 @@ window.SENTENCES = {
     "Có thể trả bằng tiền mặt."
    ],
    [
+    "ピアノ",
+    "piano",
+    "đàn piano",
+    "ピアノを ひく ことが できます。",
+    "Tôi chơi được piano."
+   ],
+   [
+    "インターネット",
+    "intaanetto",
+    "Internet",
+    "インターネットで えいがを みる ことが できます。",
+    "Có thể xem phim bằng Internet."
+   ],
+   [
+    "あきはばら",
+    "akihabara",
+    "Akihabara (khu điện tử ở Tokyo)",
+    "あきはばらで パソコンを かう ことが できます。",
+    "Có thể mua máy tính ở Akihabara."
+   ],
+   [
+    "ぼくじょう",
+    "bokujou",
+    "trang trại chăn nuôi",
+    "ぼくじょうで うまに のる ことが できます。",
+    "Ở trang trại có thể cưỡi ngựa."
+   ],
+   [
+    "ビートルズ",
+    "biitoruzu",
+    "ban nhạc The Beatles",
+    "ビートルズの うたを うたう ことが できます。",
+    "Tôi hát được các bài hát của The Beatles."
+   ],
+   [
     "できます",
     "dekimasu",
     "có thể, làm được; xong",
@@ -4727,6 +5609,34 @@ window.SENTENCES = {
     "tiền mặt",
     "げんきんで はらって ください。",
     "Hãy trả bằng tiền mặt."
+   ],
+   [
+    "おいのり",
+    "oinori",
+    "lời cầu nguyện (おいのりを します)",
+    "まいあさ おいのりを します。",
+    "Mỗi sáng tôi cầu nguyện."
+   ],
+   [
+    "ほんとうですか。",
+    "hontou desu ka?",
+    "Thật không ạ?",
+    "ピアノを ひく ことが できます。…ほんとうですか。",
+    "Tôi chơi được piano. …Thật không?"
+   ],
+   [
+    "ふるさと",
+    "furusato",
+    "quê hương (cũng là tên bài hát 「ふるさと」)",
+    "わたしは 「ふるさと」を うたう ことが できます。",
+    "Tôi hát được bài “Furusato”."
+   ],
+   [
+    "とくに",
+    "tokuni",
+    "đặc biệt là",
+    "とくに ジャズを きく ことが すきです。",
+    "Đặc biệt tôi thích nghe nhạc jazz."
    ]
   ],
   "grammar": [
@@ -4839,6 +5749,20 @@ window.SENTENCES = {
     "Cắm hoa Nhật đẹp nhưng khó."
    ],
    [
+    "ケーキ",
+    "keeki",
+    "bánh ngọt",
+    "ダイエットを して いますから、ケーキは たべません。",
+    "Vì đang ăn kiêng nên tôi không ăn bánh."
+   ],
+   [
+    "とうきょうスカイツリー",
+    "toukyousukaitsurii",
+    "Tokyo Skytree",
+    "とうきょうスカイツリーに のぼった ことが あります。",
+    "Tôi đã từng lên tháp Tokyo Skytree."
+   ],
+   [
     "のぼります",
     "noborimasu",
     "leo (núi)",
@@ -4900,6 +5824,90 @@ window.SENTENCES = {
     "nhưng, tuy nhiên (đầu câu)",
     "にほんごは むずかしいです。でも、おもしろいです。",
     "Tiếng Nhật khó. Nhưng thú vị."
+   ],
+   [
+    "よわい",
+    "yowai",
+    "yếu",
+    "わたしは テニスが よわいです。",
+    "Tôi chơi tennis yếu."
+   ],
+   [
+    "れんしゅう",
+    "renshuu",
+    "luyện tập (れんしゅうを します)",
+    "まいにち ピアノを れんしゅうします。",
+    "Ngày nào tôi cũng luyện đàn piano."
+   ],
+   [
+    "かんぱい",
+    "kanpai",
+    "Cạn ly!",
+    "かんぱい！…かんぱい！",
+    "Cạn ly! …Cạn ly!"
+   ],
+   [
+    "ダイエット",
+    "daietto",
+    "ăn kiêng (ダイエットを します)",
+    "あしたから ダイエットを します。",
+    "Từ mai tôi sẽ ăn kiêng."
+   ],
+   [
+    "むり［な］",
+    "muri [na]",
+    "quá sức, bất khả thi",
+    "それは むりです。",
+    "Việc đó quá sức."
+   ],
+   [
+    "からだに いい",
+    "karada ni ii",
+    "tốt cho sức khoẻ",
+    "やさいは からだに いいです。",
+    "Rau thì tốt cho sức khoẻ."
+   ],
+   [
+    "かつしかほくさい",
+    "katsushika hokusai",
+    "Katsushika Hokusai (hoạ sĩ tranh khắc gỗ thời Edo)",
+    "かつしかほくさいの えを みた ことが あります。",
+    "Tôi đã từng xem tranh của Katsushika Hokusai."
+   ],
+   [
+    "じつは",
+    "jitsu wa",
+    "thật ra là",
+    "じつは ダイエットを して います。",
+    "Thật ra tôi đang ăn kiêng."
+   ],
+   [
+    "なんかいも",
+    "nankai mo",
+    "nhiều lần",
+    "なんかいも ふじさんに のぼった ことが あります。",
+    "Tôi đã leo núi Phú Sĩ nhiều lần."
+   ],
+   [
+    "しかし",
+    "shikashi",
+    "tuy nhiên",
+    "にほんごは むずかしいです。しかし、おもしろいです。",
+    "Tiếng Nhật khó. Tuy nhiên thú vị."
+   ],
+   [
+    "おちゃ",
+    "ocha",
+    "trà đạo (cách nói tắt của さどう)",
+    "おちゃを した ことが ありません。",
+    "Tôi chưa từng làm trà đạo."
+   ],
+   [
+    "ひ",
+    "hi",
+    "ngày",
+    "あつい ひは ビールが のみたいです。",
+    "Những ngày nóng tôi muốn uống bia."
    ]
   ],
   "grammar": [
@@ -5023,6 +6031,55 @@ window.SENTENCES = {
     "tra cứu, điều tra",
     "じしょで しらべる。",
     "Tra bằng từ điển."
+   ],
+   [
+    "でんわします",
+    "denwa shimasu",
+    "gọi điện",
+    "あした でんわする。",
+    "Mai tôi sẽ gọi điện."
+   ],
+   [
+    "くにへ かえるの？",
+    "kuni e kaeru no?",
+    "Cậu về nước à? (thân mật)",
+    "くにへ かえるの？…うん、かえる。",
+    "Cậu về nước à? …Ừ, về."
+   ],
+   [
+    "どう するの？",
+    "dou suru no?",
+    "Cậu sẽ làm gì? (thân mật)",
+    "あした どう するの？…うちに いる。",
+    "Mai cậu làm gì? …Ở nhà."
+   ],
+   [
+    "どう しようかな。",
+    "dou shiyou kana",
+    "Không biết nên làm sao nhỉ.",
+    "どう しようかな。…まだ わからない。",
+    "Không biết nên làm sao nhỉ. …Tôi vẫn chưa biết."
+   ],
+   [
+    "おなかが いっぱいです",
+    "onaka ga ippai desu",
+    "Tôi no rồi.",
+    "おなかが いっぱいです。ごちそうさま。",
+    "Tôi no rồi. Cảm ơn bữa ăn."
+   ],
+   [
+    "よかったら",
+    "yokattara",
+    "nếu bạn thấy ổn, nếu được",
+    "よかったら、いっしょに いきませんか。",
+    "Nếu được thì cùng đi nhé."
+   ],
+   [
+    "いろいろ",
+    "iroiro",
+    "nhiều loại, đủ thứ",
+    "いろいろな ひとが いる。",
+    "Có đủ loại người."
    ]
   ],
   "grammar": [
@@ -5140,6 +6197,13 @@ window.SENTENCES = {
     "Thủ tướng đang lên tin tức."
    ],
    [
+    "カンガルー",
+    "kangaruu",
+    "con kangaroo",
+    "カンガルーは オーストラリアに いると おもいます。",
+    "Tôi nghĩ kangaroo sống ở Úc."
+   ],
+   [
     "おもいます",
     "omoimasu",
     "nghĩ, cho rằng",
@@ -5201,6 +6265,174 @@ window.SENTENCES = {
     "ý kiến",
     "ナムさんの いけんは どうですか。",
     "Ý kiến của anh Nam thế nào?"
+   ],
+   [
+    "こうつう",
+    "koutsuu",
+    "giao thông",
+    "ここは こうつうが べんりだと おもいます。",
+    "Tôi nghĩ ở đây giao thông thuận tiện."
+   ],
+   [
+    "ほうそう",
+    "housou",
+    "phát thanh, phát sóng",
+    "ニュースの ほうそうは ごじからだと おもいます。",
+    "Tôi nghĩ bản tin phát từ 5 giờ."
+   ],
+   [
+    "デザイン",
+    "dezain",
+    "thiết kế",
+    "この デザインは きれいだと おもいます。",
+    "Tôi nghĩ thiết kế này đẹp."
+   ],
+   [
+    "ゆめ",
+    "yume",
+    "giấc mơ, ước mơ",
+    "わたしの ゆめは にほんで はたらく ことです。",
+    "Ước mơ của tôi là làm việc ở Nhật."
+   ],
+   [
+    "てんさい",
+    "tensai",
+    "thiên tài",
+    "あの ひとは てんさいだと おもいます。",
+    "Tôi nghĩ người đó là thiên tài."
+   ],
+   [
+    "はなし",
+    "hanashi",
+    "câu chuyện, lời nói",
+    "ナムさんの はなしは おもしろいと おもいます。",
+    "Tôi nghĩ câu chuyện của anh Nam thú vị."
+   ],
+   [
+    "ちきゅう",
+    "chikyuu",
+    "Trái Đất",
+    "ちきゅうは あおいと いいました。",
+    "Anh ấy đã nói Trái Đất màu xanh."
+   ],
+   [
+    "さいきん",
+    "saikin",
+    "gần đây",
+    "さいきん あまり ひまじゃ ありません。",
+    "Gần đây tôi không rảnh lắm."
+   ],
+   [
+    "ひさしぶりですね。",
+    "hisashiburi desu ne",
+    "Lâu rồi mới gặp nhỉ.",
+    "ひさしぶりですね。…ええ、おげんきですか。",
+    "Lâu rồi mới gặp nhỉ. …Vâng, anh khoẻ không?"
+   ],
+   [
+    "もちろん",
+    "mochiron",
+    "tất nhiên",
+    "いっしょに いきませんか。…もちろん。",
+    "Cùng đi nhé? …Tất nhiên rồi."
+   ],
+   [
+    "もう かえらないと……。",
+    "mou kaeranai to……",
+    "Tôi phải về rồi… (cách xin phép ra về)",
+    "もう かえらないと……。…そうですか。また きて ください。",
+    "Tôi phải về rồi… …Vậy à. Lần sau lại đến nhé."
+   ],
+   [
+    "みないと……。",
+    "minai to……",
+    "Tôi phải xem mất…",
+    "きょうの ニュースを みないと……。",
+    "Tôi phải xem tin hôm nay mất…"
+   ],
+   [
+    "しかたが ありません。",
+    "shikata ga arimasen",
+    "Không còn cách nào khác.",
+    "しかたが ありません。あしたも ざんぎょうです。",
+    "Hết cách rồi. Mai cũng phải làm thêm giờ."
+   ],
+   [
+    "しばらくですね。",
+    "shibaraku desu ne",
+    "Lâu quá không gặp nhỉ.",
+    "しばらくですね。…おげんきですか。",
+    "Lâu quá không gặp nhỉ. …Anh khoẻ không?"
+   ],
+   [
+    "ユーモア",
+    "yuumoa",
+    "tính hài hước",
+    "ナムさんは ユーモアが あると おもいます。",
+    "Tôi nghĩ anh Nam có tính hài hước."
+   ],
+   [
+    "ラッシュ",
+    "rasshu",
+    "giờ cao điểm",
+    "あさの ラッシュは すごいと おもいます。",
+    "Tôi nghĩ giờ cao điểm buổi sáng thật kinh khủng."
+   ],
+   [
+    "うごきます",
+    "ugokimasu",
+    "chuyển động, chạy (máy)",
+    "この きかいは うごかないと おもいます。",
+    "Tôi nghĩ cái máy này không chạy."
+   ],
+   [
+    "きを つけます",
+    "ki o tsukemasu",
+    "cẩn thận",
+    "あぶないですから、きを つけて ください。",
+    "Nguy hiểm nên hãy cẩn thận."
+   ],
+   [
+    "りゅうがくします",
+    "ryuugaku shimasu",
+    "du học",
+    "リンさんは らいねん にほんへ りゅうがくすると いいました。",
+    "Chị Linh nói sang năm sẽ sang Nhật du học."
+   ],
+   [
+    "じどうしゃ",
+    "jidousha",
+    "ô tô",
+    "にほんの じどうしゃは すごいと おもいます。",
+    "Tôi nghĩ ô tô của Nhật thật ghê gớm."
+   ],
+   [
+    "ぶっか",
+    "bukka",
+    "vật giá",
+    "にほんは ぶっかが たかいと おもいます。",
+    "Tôi nghĩ vật giá ở Nhật đắt."
+   ],
+   [
+    "つき",
+    "tsuki",
+    "mặt trăng",
+    "つきは きれいだと おもいます。",
+    "Tôi nghĩ mặt trăng đẹp."
+   ],
+   [
+    "ほんとうに",
+    "hontou ni",
+    "thật sự",
+    "ほんとうに すごいと おもいます。",
+    "Tôi thật sự thấy nó ghê gớm."
+   ],
+   [
+    "そんなに",
+    "sonna ni",
+    "đến mức đó (đi với phủ định)",
+    "そんなに たかくないと おもいます。",
+    "Tôi nghĩ không đắt đến mức đó."
    ]
   ],
   "grammar": [
@@ -5333,6 +6565,27 @@ window.SENTENCES = {
     "Căn hộ tôi đang ở thì cũ."
    ],
    [
+    "べんとう",
+    "bentou",
+    "hộp cơm",
+    "これは わたしが つくった べんとうです。",
+    "Đây là hộp cơm tôi làm."
+   ],
+   [
+    "ロボット",
+    "robotto",
+    "người máy",
+    "あの ロボットは にほんで つくった ものです。",
+    "Con người máy kia được làm ở Nhật."
+   ],
+   [
+    "パリ",
+    "pari",
+    "Paris",
+    "わたしが いった パリは きれいな まちでした。",
+    "Paris tôi đã đến là một thành phố đẹp."
+   ],
+   [
     "きます（シャツを）",
     "kimasu",
     "mặc (áo)",
@@ -5387,6 +6640,90 @@ window.SENTENCES = {
     "chung cư nhỏ, nhà cho thuê",
     "わたしは アパートに すんで います。",
     "Tôi sống ở một căn hộ cho thuê."
+   ],
+   [
+    "［お］べんとう",
+    "[o]bentou",
+    "hộp cơm",
+    "これは わたしが つくった べんとうです。",
+    "Đây là hộp cơm tôi làm."
+   ],
+   [
+    "ロボット",
+    "robotto",
+    "người máy",
+    "あれは ロボットが つくった ケーキです。",
+    "Kia là chiếc bánh do người máy làm."
+   ],
+   [
+    "ユーモア",
+    "yuumoa",
+    "tính hài hước",
+    "ユーモアが ある ひとは すきです。",
+    "Tôi thích người có tính hài hước."
+   ],
+   [
+    "つごう",
+    "tsugou",
+    "sự thuận tiện (つごうが いい／わるい)",
+    "あした つごうが いい ひとは いますか。",
+    "Ngày mai có ai tiện không?"
+   ],
+   [
+    "おさがしですか。",
+    "osagashi desu ka?",
+    "Anh/chị đang tìm ~ ạ?",
+    "どんな へやを おさがしですか。",
+    "Anh đang tìm căn phòng như thế nào ạ?"
+   ],
+   [
+    "では",
+    "dewa",
+    "vậy thì",
+    "では、あした あう ひとは たなかさんです。",
+    "Vậy thì người tôi gặp ngày mai là anh Tanaka."
+   ],
+   [
+    "パリ",
+    "pari",
+    "Paris",
+    "わたしが いった パリは きれいな まちでした。",
+    "Paris tôi đã đến là một thành phố đẹp."
+   ],
+   [
+    "ばんりの ちょうじょう",
+    "banri no choujō",
+    "Vạn Lý Trường Thành",
+    "ばんりの ちょうじょうに のぼった ことが あります。",
+    "Tôi đã từng leo Vạn Lý Trường Thành."
+   ],
+   [
+    "うーん。",
+    "uun",
+    "Ừm… (đang suy nghĩ)",
+    "うーん、わかりません。",
+    "Ừm… tôi không biết."
+   ],
+   [
+    "わたしたち",
+    "watashitachi",
+    "chúng tôi",
+    "わたしたちが つくった ケーキです。",
+    "Đây là chiếc bánh chúng tôi làm."
+   ],
+   [
+    "ケーキ",
+    "keeki",
+    "bánh ngọt",
+    "ナムさんが つくった ケーキは おいしいです。",
+    "Chiếc bánh anh Nam làm ngon."
+   ],
+   [
+    "えーと",
+    "eeto",
+    "ừm, để xem nào",
+    "えーと、あした あう ひとは たなかさんです。",
+    "Ừm, người tôi gặp ngày mai là anh Tanaka."
    ]
   ],
   "grammar": [
@@ -5484,6 +6821,41 @@ window.SENTENCES = {
     "Rẽ trái ở trạm xăng thì có ngân hàng."
    ],
    [
+    "おゆ",
+    "oyu",
+    "nước nóng",
+    "この ボタンを おすと、おゆが でます。",
+    "Hễ ấn nút này thì nước nóng chảy ra."
+   ],
+   [
+    "きかい",
+    "kikai",
+    "máy móc",
+    "この きかいは ボタンを おすと うごきます。",
+    "Hễ ấn nút thì cái máy này chạy."
+   ],
+   [
+    "つまみ",
+    "tsumami",
+    "núm vặn",
+    "つまみを まわすと、おとが おおきく なります。",
+    "Hễ xoay núm thì âm thanh to lên."
+   ],
+   [
+    "でんきや",
+    "denkiya",
+    "cửa hàng điện máy",
+    "でんきやで パソコンを かいました。",
+    "Tôi đã mua máy tính ở cửa hàng điện máy."
+   ],
+   [
+    "ほうりゅうじ",
+    "houryuuji",
+    "chùa Horyuji",
+    "ほうりゅうじは ならに あります。",
+    "Chùa Horyuji ở Nara."
+   ],
+   [
     "ききます（ひとに）",
     "kikimasu",
     "hỏi (ai đó)",
@@ -5531,6 +6903,111 @@ window.SENTENCES = {
     "thẳng",
     "ここを まっすぐ いって ください。",
     "Hãy đi thẳng chỗ này."
+   ],
+   [
+    "［お］ゆ",
+    "[o]yu",
+    "nước nóng",
+    "この ボタンを おすと、おゆが でます。",
+    "Hễ ấn nút này thì nước nóng chảy ra."
+   ],
+   [
+    "サイズ",
+    "saizu",
+    "cỡ, kích cỡ",
+    "サイズが ちいさい とき、かえて ください。",
+    "Khi cỡ nhỏ thì hãy đổi."
+   ],
+   [
+    "こしょう",
+    "koshou",
+    "hỏng hóc (こしょうします)",
+    "きかいが こしょうした とき、でんわして ください。",
+    "Khi máy hỏng thì hãy gọi điện."
+   ],
+   [
+    "みち",
+    "michi",
+    "đường",
+    "みちを あるく とき、きを つけて ください。",
+    "Khi đi trên đường hãy cẩn thận."
+   ],
+   [
+    "ひっこしします",
+    "hikkoshi shimasu",
+    "chuyển nhà",
+    "ひっこしする とき、てつだって ください。",
+    "Khi chuyển nhà xin hãy giúp tôi."
+   ],
+   [
+    "でんきや",
+    "denkiya",
+    "cửa hàng điện máy",
+    "でんきやで パソコンを かいました。",
+    "Tôi đã mua máy tính ở cửa hàng điện máy."
+   ],
+   [
+    "きかい",
+    "kikai",
+    "máy móc",
+    "この きかいは ボタンを おすと うごきます。",
+    "Hễ ấn nút thì cái máy này chạy."
+   ],
+   [
+    "つまみ",
+    "tsumami",
+    "núm vặn",
+    "つまみを まわすと、おとが おおきく なります。",
+    "Hễ xoay núm thì âm thanh to lên."
+   ],
+   [
+    "がいこくじんとうろくしょう",
+    "gaikokujin tourokushou",
+    "thẻ đăng ký người nước ngoài",
+    "がいこくじんとうろくしょうを もって います。",
+    "Tôi có thẻ đăng ký người nước ngoài."
+   ],
+   [
+    "さびしい",
+    "sabishii",
+    "cô đơn, buồn",
+    "ひとりの とき、さびしいです。",
+    "Khi ở một mình tôi thấy cô đơn."
+   ],
+   [
+    "おと",
+    "oto",
+    "âm thanh",
+    "おとが おおきい とき、つまみを まわして ください。",
+    "Khi âm thanh to hãy xoay núm."
+   ],
+   [
+    "たてもの",
+    "tatemono",
+    "toà nhà",
+    "この たてものの なかに はいると、すずしいです。",
+    "Hễ vào trong toà nhà này thì mát."
+   ],
+   [
+    "なんかいも",
+    "nankai mo",
+    "nhiều lần",
+    "なんかいも ききました。",
+    "Tôi đã hỏi nhiều lần."
+   ],
+   [
+    "［お］しょうがつ",
+    "[o]shougatsu",
+    "Tết dương lịch",
+    "おしょうがつの とき、くにへ かえります。",
+    "Dịp Tết tôi về nước."
+   ],
+   [
+    "ごちそうさま［でした］。",
+    "gochisousama [deshita]",
+    "Cảm ơn về bữa ăn.",
+    "ごはんを たべた とき、「ごちそうさま」と いいます。",
+    "Khi ăn xong thì nói “gochisousama”."
    ]
   ],
   "grammar": [
@@ -5639,6 +7116,13 @@ window.SENTENCES = {
     "Bà đã cho tôi bánh kẹo."
    ],
    [
+    "ワゴンしゃ",
+    "wagonsha",
+    "xe wagon",
+    "ワゴンしゃで ともだちを おくって あげました。",
+    "Tôi đã lái xe wagon đưa bạn về."
+   ],
+   [
     "くれます",
     "kuremasu",
     "cho (tôi, người trong nhóm tôi)",
@@ -5693,6 +7177,48 @@ window.SENTENCES = {
     "tự mình",
     "じぶんで りょうりを つくりました。",
     "Tôi tự nấu ăn."
+   ],
+   [
+    "ぜんぶ",
+    "zenbu",
+    "tất cả",
+    "しゅくだいを ぜんぶ やって あげました。",
+    "Tôi đã làm giúp hết bài tập."
+   ],
+   [
+    "ほかに",
+    "hoka ni",
+    "ngoài ra",
+    "ほかに てつだって あげる ひとは いませんか。",
+    "Ngoài ra còn ai giúp được không?"
+   ],
+   [
+    "ははの ひ",
+    "haha no hi",
+    "Ngày của Mẹ",
+    "ははの ひに ははに はなを あげます。",
+    "Ngày của Mẹ tôi tặng hoa cho mẹ."
+   ],
+   [
+    "いみ",
+    "imi",
+    "ý nghĩa",
+    "この ことばの いみを おしえて あげました。",
+    "Tôi đã giải thích nghĩa của từ này giúp bạn."
+   ],
+   [
+    "ワゴンしゃ",
+    "wagonsha",
+    "xe wagon",
+    "ワゴンしゃで ともだちを おくって あげました。",
+    "Tôi đã lái xe wagon đưa bạn về."
+   ],
+   [
+    "［お］べんとう",
+    "[o]bentou",
+    "hộp cơm",
+    "ははが べんとうを つくって くれました。",
+    "Mẹ đã làm hộp cơm cho tôi."
    ]
   ],
   "grammar": [
@@ -5833,6 +7359,97 @@ window.SENTENCES = {
     "xin phép (khi vào, ra khỏi phòng, cáo từ)",
     "しつれいします。",
     "Xin phép (tôi vào / tôi xin phép ra)."
+   ],
+   [
+    "チャンス",
+    "chansu",
+    "cơ hội",
+    "いい チャンスを もらいました。",
+    "Tôi đã nhận được một cơ hội tốt."
+   ],
+   [
+    "いみ",
+    "imi",
+    "ý nghĩa",
+    "この ことばの いみが わからなかったら、きいて ください。",
+    "Nếu không hiểu nghĩa của từ này thì hãy hỏi."
+   ],
+   [
+    "てんきん",
+    "tenkin",
+    "chuyển công tác (てんきんします)",
+    "ちちは らいげつ てんきんします。",
+    "Tháng sau bố tôi chuyển công tác."
+   ],
+   [
+    "こと",
+    "koto",
+    "việc, chuyện (～の こと)",
+    "リンさんの ことを おしえて もらいました。",
+    "Tôi được cho biết chuyện về chị Linh."
+   ],
+   [
+    "［いろいろ］おせわに なりました。",
+    "[iroiro] osewa ni narimashita",
+    "Xin cảm ơn [vì mọi sự] đã giúp đỡ.",
+    "いろいろ おせわに なりました。…いいえ、こちらこそ。",
+    "Cảm ơn anh vì mọi sự giúp đỡ. …Không, tôi mới phải cảm ơn."
+   ],
+   [
+    "がんばります",
+    "ganbarimasu",
+    "cố gắng hết sức",
+    "ひまだったら、いっしょに にほんごを がんばりましょう。",
+    "Nếu rảnh thì ta cùng cố gắng học tiếng Nhật nhé."
+   ],
+   [
+    "どうぞ おげんきで。",
+    "douzo ogenki de",
+    "Chúc anh/chị mạnh khoẻ (khi chia tay lâu)",
+    "さようなら。どうぞ おげんきで。",
+    "Tạm biệt. Chúc anh mạnh khoẻ."
+   ],
+   [
+    "グループ",
+    "guruupu",
+    "nhóm",
+    "グループで いっしょに あそびに いきました。",
+    "Chúng tôi cả nhóm cùng đi chơi."
+   ],
+   [
+    "いっぱい のみましょう。",
+    "ippai nomimashou",
+    "Ta uống một ly nhé.",
+    "しごとが おわったら、いっぱい のみましょう。",
+    "Làm xong việc thì ta uống một ly nhé."
+   ],
+   [
+    "おく",
+    "oku",
+    "trăm triệu",
+    "にほんの じんこうは いちおくにんです。",
+    "Dân số Nhật Bản khoảng một trăm triệu người."
+   ],
+   [
+    "もしもし",
+    "moshimoshi",
+    "A lô",
+    "もしもし、ナムです。",
+    "A lô, tôi là Nam."
+   ],
+   [
+    "ひま",
+    "hima",
+    "rảnh rỗi",
+    "ひまだったら、あそびに きて ください。",
+    "Nếu rảnh hãy đến chơi."
+   ],
+   [
+    "ベトナム",
+    "betonamu",
+    "Việt Nam",
+    "ベトナムへ かえっても、にほんごを べんきょうします。",
+    "Dù về Việt Nam tôi vẫn học tiếng Nhật."
    ]
   ],
   "grammar": [
