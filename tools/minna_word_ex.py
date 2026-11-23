@@ -203,7 +203,7 @@ WORD_EX = {
 
 
 # ---- Bài mở rộng (Minna 11+): mỗi file minna_ext_*.py có LESSONS / VOCAB / WORD_EX / KANJI ----
-EXT_MODULES = ("minna_ext_a", "minna_ext_b", "minna_ext_c", "minna_ext_d", "minna_add_a")
+EXT_MODULES = ("minna_ext_a", "minna_ext_b", "minna_ext_c", "minna_ext_d", "minna_add_a", "minna_add_b")
 import importlib as _il
 for _name in EXT_MODULES:
     try:
