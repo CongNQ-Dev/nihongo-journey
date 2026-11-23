@@ -39,7 +39,7 @@ Lý do dừng ở cloud: Wikimedia trả 429 liên tục khi tải ảnh từ IP
    - `https://downloads.tatoeba.org/exports/per_language/jpn/jpn_sentences_detailed.tsv.bz2`
    - `https://downloads.tatoeba.org/exports/per_language/jpn/jpn-eng_links.tsv.bz2`
    - `https://downloads.tatoeba.org/exports/per_language/eng/eng_sentences.tsv.bz2`
-2. `python3 -I tools/tatoeba_match.py <thư mục> tools/tatoeba_ex.json` (chạy khoảng 2–5 phút; trong thử nghiệm ở cloud được khoảng 1530/2590 mục).
+2. `python3 -I tools/tatoeba_match.py <thư mục> tools/tatoeba_ex.json` (chạy khoảng 2–5 phút; bản lọc cuối ở cloud ra 1299/2590 mục, mất khoảng 7 phút).
 3. Xem mẫu kết quả bằng mắt trước khi tin. Đã thấy một số lỗi cần để ý: từ kana ngắn khớp nhầm (ví dụ さる), từ nhiều nghĩa. Có thể sửa điều kiện lọc trong `tatoeba_match.py` hoặc loại tay vài mục khỏi json.
 4. `python3 -I tools/build.py`, rồi mở thử vài trang bài, thẻ ôn và chế độ "Đặt câu" (đảm bảo không lỗi JS, không tràn ngang).
 5. Câu Tatoeba chỉ có bản dịch tiếng Anh (không có tiếng Việt), kèm "(Tatoeba #id, tác giả, CC BY 2.0 FR)". Câu chứa chữ Hán nên người học thấy chữ Hán trong ví dụ; xem có cần furigana không.
