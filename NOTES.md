@@ -146,3 +146,9 @@
 - `tools/minna_ext_j.py` (file 0057–0061): 46 ところ/ばかり/はず; 47 そうです(truyền đạt)/ようです; 48 thể sai khiến; 49 kính ngữ; 50 khiêm nhường ngữ. Mẫu câu theo bảng JF, từ vựng 248/248.
 - **Toàn bộ bài 1–50: 2.652/2.652 từ vựng** theo `check_vocab_coverage.py`, mẫu câu khớp bảng JF.
 - Việc còn lại của dự án: ảnh thẻ cho từ mới (cần mạng tới Wikimedia), người Nhật kiểm tra câu ví dụ, đề luyện JLPT N5/N4, chặng N3+.
+
+## Đối chiếu từ điển mở (`tools/verify_dict.py`)
+- Chạy: `python3 -I tools/verify_dict.py DIR [kanji|words|all]` (DIR chứa `kanjidic2.xml`, `JMdict_e` đã giải nén; tải từ edrdg.org, cần cho phép `www.edrdg.org`, `ftp.edrdg.org`).
+- Đã so: 251 chữ Hán (On/Kun/Hán Việt vs KANJIDIC2; sửa 4 chỗ: 絵, 政, 中, 着) và 1450 cặp (cách đọc, chữ viết) của từ vựng vs JMdict: 1386 khớp, 64 không khớp là tên riêng, thương hiệu, viết tắt, câu giao tiếp, cụm đếm, một vài dạng chia (công cụ không tra được, không phải lỗi).
+- 着: KANJIDIC2 không có Hán Việt khớp, đang ghi "(chưa xác minh)".
+- CHƯA có nguồn: nghĩa tiếng Việt, câu ví dụ, hội thoại, giải thích ngữ pháp, chọn chữ Hán (do người soạn viết). Bước kế tiếp đã bàn: thay/bổ sung câu ví dụ bằng câu Tatoeba (CC BY 2.0 FR, cần ghi nguồn).

@@ -12,3 +12,4 @@ Repo này không chứa nội dung sách Minna no Nihongo (có bản quyền). B
 
 - Ảnh flashcard: Wikimedia Commons, tác giả và giấy phép ở `assets/img/CREDITS.md`.
 - Dữ liệu thứ tự nét (`assets/strokes.js`): [KanjiVG](https://kanjivg.tagaini.net/), CC BY-SA 3.0.
+- Đối chiếu chữ Hán / từ vựng: KANJIDIC2 và JMdict của [EDRDG](https://www.edrdg.org/) (CC BY-SA 4.0), bằng `tools/verify_dict.py`. Từ điển không lưu trong repo.
