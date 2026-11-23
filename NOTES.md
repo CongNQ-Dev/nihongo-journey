@@ -129,4 +129,4 @@
 ### Tiến độ bổ sung từ vựng (cập nhật theo từng nhóm)
 - Bài 1–5: **xong** (272/272 từ theo `check_vocab_coverage.py`). Từ thêm nằm ở `tools/minna_add_a.py` (cơ chế `WORDS_ADD` / `VOCAB` / `VOCAB_MOVE`, đã ghi vào `EXT_MODULES`). Ảnh thẻ của từ mới chưa tải.
 - Bài 6–10: **xong** (bài 1–10: 555/555 từ), từ thêm ở `tools/minna_add_b.py`. Lưu ý rút ra: một từ có thể nằm ở **nhiều bài** của sách (ví dụ おみやげ, えいが, りょこう); `VOCAB_MOVE` chỉ dùng khi từ thực sự sai bài, còn lại thêm hàng `WORDS_ADD` ở bài cần thêm.
-- Bài 11–30: chưa làm. Chạy `python3 -I tools/check_vocab_coverage.py 11-15 --show 100` để xem danh sách.
+- Bài 11–30: **xong** (bài 1–30: 1475/1475 từ theo script), từ thêm ở `tools/minna_add_c.py` … `minna_add_f.py`.
