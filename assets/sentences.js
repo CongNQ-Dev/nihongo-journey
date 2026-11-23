@@ -7,8 +7,8 @@ window.SENTENCES = {
     "せんせい",
     "sensei",
     "giáo viên, thầy/cô",
-    "たなかさんは せんせいです。",
-    "Anh Tanaka là giáo viên."
+    "私も先生です。",
+    "I am a teacher, too. (Tatoeba #152190, small_snow, CC BY 2.0 FR)"
    ],
    [
     "がくせい",
@@ -21,22 +21,22 @@ window.SENTENCES = {
     "かいしゃいん",
     "kaishain",
     "nhân viên công ty",
-    "すずきさんは かいしゃいんです。",
-    "Chị Suzuki là nhân viên công ty."
+    "会社員です。",
+    "I'm an office worker. (Tatoeba #3326577, boscowitch, CC BY 2.0 FR)"
    ],
    [
     "いしゃ",
     "isha",
     "bác sĩ",
-    "わたしは いしゃじゃ ありません。",
-    "Tôi không phải bác sĩ."
+    "私は医者です。",
+    "I'm a doctor. (Tatoeba #158511, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "エンジニア",
     "enjinia",
     "kỹ sư",
-    "ナムさんは エンジニアです。",
-    "Anh Nam là kỹ sư."
+    "私はエンジニアです。",
+    "I am an engineer. (Tatoeba #3580937, e4zh1nmcz, CC BY 2.0 FR)"
    ],
    [
     "けんきゅうしゃ",
@@ -56,8 +56,8 @@ window.SENTENCES = {
     "びょういん",
     "byouin",
     "bệnh viện",
-    "すずきさんは みどりびょういんの いしゃです。",
-    "Chị Suzuki là bác sĩ của bệnh viện Midori."
+    "ここは病院です。",
+    "This is a hospital. (Tatoeba #2604697, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "ベトナム",
@@ -70,22 +70,22 @@ window.SENTENCES = {
     "にほん",
     "nihon",
     "Nhật Bản",
-    "たなかさんは にほんじんです。",
-    "Anh Tanaka là người Nhật."
+    "日本人ですか。",
+    "Are you a Japanese citizen? (Tatoeba #122297, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "アメリカ",
     "amerika",
     "Mỹ, Hoa Kỳ",
-    "ミラーさんは アメリカじんです。",
-    "Anh Miller là người Mỹ."
+    "私はアメリカ人です。",
+    "I am an American. (Tatoeba #161499, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "イギリス",
     "igirisu",
     "Anh",
-    "ブラウンさんは イギリスじんです。",
-    "Anh Brown là người Anh."
+    "いいえ、私はイギリス人です。",
+    "No, I am English. (Tatoeba #1585505, Bah_Dure, CC BY 2.0 FR)"
    ],
    [
     "インド",
@@ -105,8 +105,8 @@ window.SENTENCES = {
     "かんこく",
     "kankoku",
     "Hàn Quốc",
-    "キムさんは かんこくじんです。",
-    "Anh Kim là người Hàn Quốc."
+    "韓国人です。",
+    "I'm South Korean. (Tatoeba #8692860, small_snow, CC BY 2.0 FR)"
    ],
    [
     "タイ",
@@ -119,29 +119,29 @@ window.SENTENCES = {
     "ドイツ",
     "doitsu",
     "Đức",
-    "シュミットさんは ドイツじんです。",
-    "Anh Schmidt là người Đức."
+    "私はドイツ人です。",
+    "I am German. (Tatoeba #5385071, 7evenbananas, CC BY 2.0 FR)"
    ],
    [
     "ブラジル",
     "burajiru",
     "Brazil",
-    "サントスさんは ブラジルじんです。",
-    "Anh Santos là người Brazil."
+    "私はブラジル人です。",
+    "I'm Brazilian. (Tatoeba #7496921, Leonroz, CC BY 2.0 FR)"
    ],
    [
     "フランス",
     "furansu",
     "Pháp",
-    "あの ひとは フランスじんです。",
-    "Người kia là người Pháp."
+    "私はフランス人です。",
+    "I am French. (Tatoeba #536934, tomkun01, CC BY 2.0 FR)"
    ],
    [
     "ちゅうごく",
     "chuugoku",
     "Trung Quốc",
-    "ワンさんも ちゅうごくじんですか。",
-    "Anh Wang cũng là người Trung Quốc à?"
+    "私は中国人です。",
+    "I am Chinese. (Tatoeba #1073486, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "わたし",
@@ -154,22 +154,22 @@ window.SENTENCES = {
     "あなた",
     "anata",
     "bạn, anh, chị (ít dùng — người Nhật gọi tên + さん)",
-    "あなたは がくせいですか。",
-    "Bạn là sinh viên à?"
+    "あなたですか？",
+    "Is it you? (Tatoeba #1001616, Nihonkage, CC BY 2.0 FR)"
    ],
    [
     "あのひと",
     "ano hito",
     "người kia (あのかた: lịch sự hơn)",
-    "あのひとは たなかさんです。",
-    "Người kia là anh Tanaka."
+    "あの人は教師です。",
+    "He is a teacher. (Tatoeba #13172299, atitarev, CC BY 2.0 FR)"
    ],
    [
     "はじめまして",
     "hajimemashite",
     "rất hân hạnh (lần đầu gặp)",
-    "はじめまして。ナムです。",
-    "Rất hân hạnh. Tôi là Nam."
+    "はじめまして。",
+    "Nice to meet you. (Tatoeba #9699149, Sim5634, CC BY 2.0 FR)"
    ],
    [
     "どうぞ よろしく おねがいします",
@@ -182,22 +182,22 @@ window.SENTENCES = {
     "こちらこそ",
     "kochira koso",
     "chính tôi mới phải (đáp lại よろしく)",
-    "こちらこそ、よろしく おねがいします。",
-    "Tôi mới phải mong được anh giúp đỡ."
+    "こちらこそ。",
+    "The pleasure is mine. (Tatoeba #10573391, small_snow, CC BY 2.0 FR)"
    ],
    [
     "しつれいですが",
     "shitsurei desu ga",
     "xin lỗi, cho tôi hỏi…",
-    "しつれいですが、おなまえは？",
-    "Xin lỗi, cho tôi hỏi tên anh là gì ạ?"
+    "失礼ですが......。",
+    "May I ask who's calling? (Tatoeba #10478031, small_snow, CC BY 2.0 FR)"
    ],
    [
     "きょうし",
     "kyoushi",
     "giáo viên (nghề nghiệp, nói về mình)",
-    "わたしは だいがくの きょうしです。",
-    "Tôi là giáo viên đại học."
+    "私は教師です。",
+    "I'm a teacher. (Tatoeba #157602, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しゃいん",
@@ -210,8 +210,8 @@ window.SENTENCES = {
     "ぎんこういん",
     "ginkouin",
     "nhân viên ngân hàng",
-    "たなかさんは ぎんこういんです。",
-    "Anh Tanaka là nhân viên ngân hàng."
+    "私は銀行員です。",
+    "I'm a bank clerk. (Tatoeba #3221181, e4zh1nmcz, CC BY 2.0 FR)"
    ],
    [
     "わたしたち",
@@ -347,64 +347,64 @@ window.SENTENCES = {
     "じしょ",
     "jisho",
     "từ điển",
-    "それは わたしの じしょです。",
-    "Đó là từ điển của tôi."
+    "これは私の辞書です。",
+    "This is my dictionary. (Tatoeba #218305, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ざっし",
     "zasshi",
     "tạp chí",
-    "あれは くるまの ざっしです。",
-    "Kia là tạp chí về ô tô."
+    "これは自動車の雑誌です。",
+    "This is a car magazine. (Tatoeba #10901791, small_snow, CC BY 2.0 FR)"
    ],
    [
     "しんぶん",
     "shinbun",
     "tờ báo",
-    "この しんぶんは だれのですか。",
-    "Tờ báo này là của ai?"
+    "これは新聞です。",
+    "This is a newspaper. (Tatoeba #3578411, e4zh1nmcz, CC BY 2.0 FR)"
    ],
    [
     "ノート",
     "nooto",
     "vở ghi",
-    "その ノートは リンさんのです。",
-    "Quyển vở đó là của chị Linh."
+    "これは私のノートです。",
+    "This is my notebook. (Tatoeba #10901827, small_snow, CC BY 2.0 FR)"
    ],
    [
     "めいし",
     "meishi",
     "danh thiếp",
-    "これは わたしの めいしです。",
-    "Đây là danh thiếp của tôi."
+    "どうぞ、私の名刺です。",
+    "Here's my business card. (Tatoeba #2193086, e4zh1nmcz, CC BY 2.0 FR)"
    ],
    [
     "えんぴつ",
     "enpitsu",
     "bút chì",
-    "これは えんぴつですか、ボールペンですか。",
-    "Cái này là bút chì hay bút bi?"
+    "これは鉛筆。",
+    "This is a pencil. (Tatoeba #6828204, D0UG, CC BY 2.0 FR)"
    ],
    [
     "ボールペン",
     "boorupen",
     "bút bi",
-    "この ボールペンは わたしのじゃ ありません。",
-    "Cây bút bi này không phải của tôi."
+    "このボールペンはいくらですか？",
+    "How much is this ballpoint pen? (Tatoeba #10965344, small_snow, CC BY 2.0 FR)"
    ],
    [
     "とけい",
     "tokei",
     "đồng hồ",
-    "その とけいは だれのですか。",
-    "Cái đồng hồ đó là của ai?"
+    "この時計いくらですか？",
+    "How much is this watch? (Tatoeba #2852688, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "かばん",
     "kaban",
     "cặp, túi xách",
-    "あの かばんは せんせいのです。",
-    "Cái cặp kia là của thầy giáo."
+    "私のかばんです。",
+    "This is my bag. (Tatoeba #164225, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "つくえ",
@@ -424,8 +424,8 @@ window.SENTENCES = {
     "おみやげ",
     "omiyage",
     "quà mang về từ nơi mình đi",
-    "これ、おみやげです。どうぞ。",
-    "Đây là quà, mời anh nhận."
+    "これはお土産です。",
+    "This is a little gift for you. (Tatoeba #218629, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "テレビ",
@@ -480,22 +480,22 @@ window.SENTENCES = {
     "ラジオ",
     "rajio",
     "radio",
-    "あれは ラジオです。",
-    "Kia là cái radio."
+    "これはラジオですか。",
+    "Is this a radio? (Tatoeba #218506, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "カメラ",
     "kamera",
     "máy ảnh",
-    "これは リンさんの カメラです。",
-    "Đây là máy ảnh của chị Linh."
+    "このカメラいくらですか？",
+    "How much is this camera? (Tatoeba #4817731, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "コンピューター",
     "konpyuutaa",
     "máy tính",
-    "それは だれの コンピューターですか。",
-    "Đó là máy tính của ai?"
+    "これは私のコンピュータです。",
+    "This is my computer. (Tatoeba #2346870, everylanguage, CC BY 2.0 FR)"
    ],
    [
     "くるま",
@@ -543,8 +543,8 @@ window.SENTENCES = {
     "じどうしゃ",
     "jidousha",
     "ô tô (cách nói trang trọng)",
-    "これは にほんの じどうしゃです。",
-    "Đây là ô tô của Nhật."
+    "これは私の自動車です。",
+    "This is my car. (Tatoeba #4659110, anhgosho, CC BY 2.0 FR)"
    ],
    [
     "これ",
@@ -578,8 +578,8 @@ window.SENTENCES = {
     "だれの",
     "dare no",
     "của ai",
-    "この ノートは だれのですか。",
-    "Quyển vở này là của ai?"
+    "この車は、だれのですか？",
+    "Who is the owner of this car? (Tatoeba #628695, satosi, CC BY 2.0 FR)"
    ],
    [
     "そう",
@@ -592,8 +592,8 @@ window.SENTENCES = {
     "ちがいます",
     "chigaimasu",
     "không phải, sai rồi",
-    "いいえ、ちがいます。",
-    "Không, không phải."
+    "違いますか？",
+    "Isn't that so? (Tatoeba #3496743, arnab, CC BY 2.0 FR)"
    ],
    [
     "あのう",
@@ -620,8 +620,8 @@ window.SENTENCES = {
     "そうですか",
     "sou desu ka",
     "thế à (giọng xuống — tiếp nhận thông tin mới)",
-    "そうですか。ベトナムの コーヒーですか。",
-    "Thế à. Cà phê Việt Nam à?"
+    "そうですか。",
+    "I see. (Tatoeba #5955917, tatoebane, CC BY 2.0 FR)"
    ],
    [
     "えっ",
@@ -760,8 +760,8 @@ window.SENTENCES = {
     "しょくどう",
     "shokudou",
     "nhà ăn",
-    "しょくどうは どこですか。",
-    "Nhà ăn ở đâu ạ?"
+    "食堂はどこですか。",
+    "Where is the cafeteria? (Tatoeba #145793, small_snow, CC BY 2.0 FR)"
    ],
    [
     "うけつけ",
@@ -774,8 +774,8 @@ window.SENTENCES = {
     "トイレ",
     "toire",
     "nhà vệ sinh",
-    "すみません、トイレは どこですか。",
-    "Xin lỗi, nhà vệ sinh ở đâu ạ?"
+    "トイレはどこですか。",
+    "Where is the toilet? (Tatoeba #201726, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かいだん",
@@ -816,15 +816,15 @@ window.SENTENCES = {
     "ワイン",
     "wain",
     "rượu vang",
-    "この ワインは フランスのです。",
-    "Chai vang này là của Pháp."
+    "ワインです。",
+    "It's wine. (Tatoeba #13028945, small_snow, CC BY 2.0 FR)"
    ],
    [
     "うりば",
     "uriba",
     "quầy bán hàng (trong cửa hàng)",
-    "くつの うりばは なんがいですか。",
-    "Quầy giày ở tầng mấy ạ?"
+    "CD売り場はどこですか？",
+    "Where can I buy a CD? (Tatoeba #9678873, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かいしゃ",
@@ -844,8 +844,8 @@ window.SENTENCES = {
     "かいぎしつ",
     "kaigishitsu",
     "phòng họp",
-    "かいぎしつは どこですか。…あそこです。",
-    "Phòng họp ở đâu? …Ở kia."
+    "会議室はどこ？",
+    "Where is the meeting room? (Tatoeba #10608954, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ロビー",
@@ -858,8 +858,8 @@ window.SENTENCES = {
     "へや",
     "heya",
     "căn phòng",
-    "ここは ナムさんの へやです。",
-    "Đây là phòng của anh Nam."
+    "私の部屋です。",
+    "It's my room. (Tatoeba #13507688, small_snow, CC BY 2.0 FR)"
    ],
    [
     "エレベーター",
@@ -872,8 +872,8 @@ window.SENTENCES = {
     "ネクタイ",
     "nekutai",
     "cà vạt",
-    "この ネクタイは いくらですか。",
-    "Chiếc cà vạt này bao nhiêu tiền?"
+    "ネクタイは？",
+    "Where is your tie? (Tatoeba #12300728, small_snow, CC BY 2.0 FR)"
    ],
    [
     "たばこ",
@@ -893,8 +893,8 @@ window.SENTENCES = {
     "どちら",
     "dochira",
     "phía nào, ở đâu (lịch sự)",
-    "おくには どちらですか。",
-    "Anh là người nước nào ạ?"
+    "国はどちらですか。",
+    "What country are you from? (Tatoeba #10914888, small_snow, CC BY 2.0 FR)"
    ],
    [
     "くに",
@@ -914,8 +914,8 @@ window.SENTENCES = {
     "なんがい",
     "nangai",
     "tầng mấy",
-    "くつの うりばは なんがいですか。",
-    "Quầy giày ở tầng mấy?"
+    "何階ですか。",
+    "What floor is it? (Tatoeba #4561521, Kiraness, CC BY 2.0 FR)"
    ],
    [
     "ちか",
@@ -928,15 +928,15 @@ window.SENTENCES = {
     "いくら",
     "ikura",
     "bao nhiêu tiền",
-    "この とけいは いくらですか。",
-    "Cái đồng hồ này bao nhiêu tiền?"
+    "いくらですか？",
+    "How much is it? (Tatoeba #5332, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "すみません",
     "sumimasen",
     "xin lỗi (gọi ai đó)",
-    "すみません、トイレは どこですか。",
-    "Xin lỗi, nhà vệ sinh ở đâu ạ?"
+    "すみません。",
+    "I'm sorry. (Tatoeba #408301, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "じゃ",
@@ -1046,8 +1046,8 @@ window.SENTENCES = {
     "おきます",
     "okimasu",
     "thức dậy",
-    "まいあさ ろくじに おきます。",
-    "Sáng nào tôi cũng dậy lúc 6 giờ."
+    "毎日何時に起きますか。",
+    "What time do you get up every day? (Tatoeba #81297, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ねます",
@@ -1060,22 +1060,22 @@ window.SENTENCES = {
     "はたらきます",
     "hatarakimasu",
     "làm việc",
-    "くじから ごじまで はたらきます。",
-    "Tôi làm việc từ 9 giờ đến 5 giờ."
+    "日曜日でも、働きます。",
+    "I work even on Sunday. (Tatoeba #6021, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "やすみます",
     "yasumimasu",
     "nghỉ, nghỉ ngơi",
-    "にちようびは やすみます。",
-    "Chủ nhật thì tôi nghỉ."
+    "明日は休みます。",
+    "I'll be absent tomorrow. (Tatoeba #80439, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "べんきょうします",
     "benkyoushimasu",
     "học",
-    "まいばん べんきょうします。",
-    "Tối nào tôi cũng học."
+    "私は韓国語を勉強します。",
+    "I study Korean. (Tatoeba #472101, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "デパート",
@@ -1088,22 +1088,22 @@ window.SENTENCES = {
     "ぎんこう",
     "ginkou",
     "ngân hàng",
-    "ぎんこうは さんじまでです。",
-    "Ngân hàng mở đến 3 giờ."
+    "これが郵便局で、あれが銀行です。",
+    "This is a post office and that is a bank. (Tatoeba #218827, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ゆうびんきょく",
     "yuubinkyoku",
     "bưu điện",
-    "ゆうびんきょくは なんじまでですか。",
-    "Bưu điện mở đến mấy giờ?"
+    "郵便局はどこですか。",
+    "Where is the post office? (Tatoeba #79171, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "としょかん",
     "toshokan",
     "thư viện",
-    "としょかんの やすみは げつようびです。",
-    "Thư viện nghỉ vào thứ Hai."
+    "明日図書館でね。",
+    "See you tomorrow at the library. (Tatoeba #80292, mookeee, CC BY 2.0 FR)"
    ],
    [
     "びじゅつかん",
@@ -1116,8 +1116,8 @@ window.SENTENCES = {
     "えいが",
     "eiga",
     "phim điện ảnh",
-    "えいがは しちじからです。",
-    "Phim bắt đầu từ 7 giờ."
+    "映画は何時からですか。",
+    "When does the movie start? (Tatoeba #189309, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しけん",
@@ -1130,8 +1130,8 @@ window.SENTENCES = {
     "かいぎ",
     "kaigi",
     "cuộc họp",
-    "かいぎは にじから よじまでです。",
-    "Cuộc họp từ 2 giờ đến 4 giờ."
+    "会議は何時から？",
+    "What time will the meeting start? (Tatoeba #11819668, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ニューヨーク",
@@ -1144,8 +1144,8 @@ window.SENTENCES = {
     "ロンドン",
     "rondon",
     "Luân Đôn",
-    "ロンドンは いま ごご くじです。",
-    "Bây giờ ở Luân Đôn là 9 giờ tối."
+    "私はロンドン大学の学生です。",
+    "I am a student at the University of London. (Tatoeba #158576, Kaede, CC BY 2.0 FR)"
    ],
    [
     "ペキン",
@@ -1179,8 +1179,8 @@ window.SENTENCES = {
     "なんじ",
     "nanji",
     "mấy giờ",
-    "まいあさ なんじに おきますか。",
-    "Sáng nào bạn cũng dậy lúc mấy giờ?"
+    "何時ですか。",
+    "What time do you have? (Tatoeba #5059, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おわります",
@@ -1193,29 +1193,29 @@ window.SENTENCES = {
     "げつようび",
     "getsuyoubi",
     "thứ Hai",
-    "げつようびに はたらきます。",
-    "Thứ Hai tôi làm việc."
+    "月曜日です。",
+    "It's Monday. (Tatoeba #175603, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かようび",
     "kayoubi",
     "thứ Ba",
-    "かようびは やすみです。",
-    "Thứ Ba là ngày nghỉ."
+    "今日は火曜日です。",
+    "Today is Tuesday. (Tatoeba #11332317, small_snow, CC BY 2.0 FR)"
    ],
    [
     "すいようび",
     "suiyoubi",
     "thứ Tư",
-    "すいようびに べんきょうします。",
-    "Thứ Tư tôi học."
+    "今日は水曜日です。",
+    "Today is Wednesday. (Tatoeba #1458037, marcelostockle, CC BY 2.0 FR)"
    ],
    [
     "もくようび",
     "mokuyoubi",
     "thứ Năm",
-    "もくようびは かいぎです。",
-    "Thứ Năm có cuộc họp."
+    "今日は木曜日です。",
+    "Today is Thursday. (Tatoeba #2670479, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "きんようび",
@@ -1228,22 +1228,22 @@ window.SENTENCES = {
     "どようび",
     "doyoubi",
     "thứ Bảy",
-    "どようびは やすみです。",
-    "Thứ Bảy là ngày nghỉ."
+    "今日は土曜日です。",
+    "It's Saturday today. (Tatoeba #171533, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "にちようび",
     "nichiyoubi",
     "Chủ nhật",
-    "にちようびに やすみます。",
-    "Chủ nhật tôi nghỉ."
+    "明日は日曜日です。",
+    "It is Sunday tomorrow. (Tatoeba #80407, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "なんようび",
     "nan'youbi",
     "thứ mấy",
-    "きょうは なんようびですか。",
-    "Hôm nay là thứ mấy?"
+    "今日、何曜日？",
+    "What day is it today? (Tatoeba #889710, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "たいへんですね",
@@ -1256,8 +1256,8 @@ window.SENTENCES = {
     "なんぷん",
     "nanpun",
     "mấy phút",
-    "いま なんぷんですか。",
-    "Bây giờ là mấy phút?"
+    "今、何時何分ですか？",
+    "What's the exact time now? (Tatoeba #10962354, small_snow, CC BY 2.0 FR)"
    ],
    [
     "バンコク",
@@ -1270,8 +1270,8 @@ window.SENTENCES = {
     "えーと",
     "eeto",
     "ừm, để xem nào (khi ngập ngừng)",
-    "えーと、いま くじはんです。",
-    "Ừm, bây giờ là 9 giờ rưỡi."
+    "えーとですね。",
+    "Um, well. (Tatoeba #11001436, small_snow, CC BY 2.0 FR)"
    ],
    [
     "１０４",
@@ -1312,8 +1312,8 @@ window.SENTENCES = {
     "そちら",
     "sochira",
     "phía đó, chỗ bạn (lịch sự)",
-    "そちらは なんじまでですか。",
-    "Chỗ anh đóng cửa lúc mấy giờ ạ?"
+    "そちらは今何時ですか？",
+    "What time is it there? (Tatoeba #2182818, tommy_san, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -1408,15 +1408,15 @@ window.SENTENCES = {
     "でんしゃ",
     "densha",
     "tàu điện",
-    "でんしゃで かいしゃへ いきます。",
-    "Tôi đi làm bằng tàu điện."
+    "電車で行きます。",
+    "I'll come by train. (Tatoeba #13115757, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ちかてつ",
     "chikatetsu",
     "tàu điện ngầm",
-    "ちかてつで ぎんこうへ いきました。",
-    "Tôi đã đi tàu điện ngầm đến ngân hàng."
+    "すみません、地下鉄の駅はどこですか？",
+    "Excuse me, where's the subway station? (Tatoeba #10181629, small_snow, CC BY 2.0 FR)"
    ],
    [
     "しんかんせん",
@@ -1429,8 +1429,8 @@ window.SENTENCES = {
     "バス",
     "basu",
     "xe buýt",
-    "バスで うちへ かえります。",
-    "Tôi về nhà bằng xe buýt."
+    "バスが来ますよ。",
+    "There comes the bus. (Tatoeba #198222, small_snow, CC BY 2.0 FR)"
    ],
    [
     "タクシー",
@@ -1457,29 +1457,29 @@ window.SENTENCES = {
     "ともだち",
     "tomodachi",
     "bạn bè",
-    "ともだちと きょうとへ いきました。",
-    "Tôi đã đi Kyoto với bạn."
+    "友達ですか？",
+    "Is he a friend? (Tatoeba #11518465, megamanenm, CC BY 2.0 FR)"
    ],
    [
     "かぞく",
     "kazoku",
     "gia đình",
-    "かぞくと にほんへ きました。",
-    "Tôi đã đến Nhật cùng gia đình."
+    "何人家族ですか。",
+    "How many people are there in your family? (Tatoeba #187368, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "たんじょうび",
     "tanjoubi",
     "sinh nhật",
-    "たんじょうびは いつですか。",
-    "Sinh nhật bạn là khi nào?"
+    "誕生日いつ？",
+    "When is your birthday? (Tatoeba #3073578, nnaffu, CC BY 2.0 FR)"
    ],
    [
     "がっこう",
     "gakkou",
     "trường học",
-    "あるいて がっこうへ いきます。",
-    "Tôi đi bộ đến trường."
+    "あれは学校。",
+    "That's a school. (Tatoeba #6828202, D0UG, CC BY 2.0 FR)"
    ],
    [
     "えき",
@@ -1506,8 +1506,8 @@ window.SENTENCES = {
     "いきます",
     "ikimasu",
     "đi",
-    "あした きょうとへ いきます。",
-    "Ngày mai tôi đi Kyoto."
+    "私が行きます。",
+    "I'll go. (Tatoeba #1507527, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きます",
@@ -1520,8 +1520,8 @@ window.SENTENCES = {
     "かえります",
     "kaerimasu",
     "về (nhà, nước mình)",
-    "じゅうじに うちへ かえります。",
-    "Tôi về nhà lúc 10 giờ."
+    "来週帰ります。",
+    "I'm coming back next week. (Tatoeba #1879941, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ひこうき",
@@ -1534,22 +1534,22 @@ window.SENTENCES = {
     "じてんしゃ",
     "jitensha",
     "xe đạp",
-    "じてんしゃで がっこうへ いきます。",
-    "Tôi đi học bằng xe đạp."
+    "これは君の自転車？",
+    "Is this your bike? (Tatoeba #218624, small_snow, CC BY 2.0 FR)"
    ],
    [
     "あるいて",
     "aruite",
     "đi bộ",
-    "あるいて えきへ いきます。",
-    "Tôi đi bộ ra ga."
+    "歩いてきました。",
+    "I came on foot. (Tatoeba #1937752, FiRez, CC BY 2.0 FR)"
    ],
    [
     "ひとりで",
     "hitori de",
     "một mình",
-    "ひとりで にほんへ きました。",
-    "Tôi đến Nhật một mình."
+    "来月一人で日本に行きます。",
+    "I'm going to Japan by myself next month. (Tatoeba #868622, Sonix, CC BY 2.0 FR)"
    ],
    [
     "いつ",
@@ -1583,8 +1583,8 @@ window.SENTENCES = {
     "つぎの",
     "tsugi no",
     "tiếp theo, kế tiếp",
-    "つぎの でんしゃは なんじですか。",
-    "Chuyến tàu tiếp theo mấy giờ?"
+    "次の駅は、どこ？",
+    "What's the next station? (Tatoeba #9979543, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ひと",
@@ -1684,50 +1684,50 @@ window.SENTENCES = {
     "たべます",
     "tabemasu",
     "ăn",
-    "まいあさ パンを たべます。",
-    "Sáng nào tôi cũng ăn bánh mì."
+    "ここで食べます。",
+    "For here, please. (Tatoeba #224546, Ianagisacos, CC BY 2.0 FR)"
    ],
    [
     "のみます",
     "nomimasu",
     "uống",
-    "いっしょに おちゃを のみませんか。",
-    "Uống trà với tôi không?"
+    "何を飲みますか。",
+    "What will you have to drink? (Tatoeba #187577, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "みます",
     "mimasu",
     "xem, nhìn",
-    "うちで えいがを みます。",
-    "Tôi xem phim ở nhà."
+    "テレビは毎日見ますよ。",
+    "I watch television every day. (Tatoeba #159389, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ききます",
     "kikimasu",
     "nghe",
-    "まいばん ラジオを ききます。",
-    "Tối nào tôi cũng nghe đài."
+    "明日、彼に聞きます。",
+    "Tomorrow, I will ask him. (Tatoeba #1484587, marshmallowcat, CC BY 2.0 FR)"
    ],
    [
     "よみます",
     "yomimasu",
     "đọc",
-    "でんしゃで しんぶんを よみます。",
-    "Tôi đọc báo trên tàu."
+    "私は読みます。",
+    "I read. (Tatoeba #2000082, User22901, CC BY 2.0 FR)"
    ],
    [
     "かきます",
     "kakimasu",
     "viết",
-    "うちで てがみを かきます。",
-    "Tôi viết thư ở nhà."
+    "どこで書きますか。",
+    "Where do you write? (Tatoeba #743856, gracefully, CC BY 2.0 FR)"
    ],
    [
     "かいます",
     "kaimasu",
     "mua",
-    "デパートで くつを かいました。",
-    "Tôi đã mua giày ở bách hoá."
+    "これを買います。",
+    "I'll take it. (Tatoeba #217615, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "とります",
@@ -1740,8 +1740,8 @@ window.SENTENCES = {
     "ごはん",
     "gohan",
     "cơm; bữa ăn",
-    "いっしょに ごはんを たべましょう。",
-    "Mình cùng ăn cơm nhé."
+    "今日の晩ごはん何？",
+    "What's for dinner tonight? (Tatoeba #4704222, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "にく",
@@ -1761,15 +1761,15 @@ window.SENTENCES = {
     "やさい",
     "yasai",
     "rau",
-    "まいにち やさいを たべます。",
-    "Ngày nào tôi cũng ăn rau."
+    "昨日彼女は野菜を買いました。",
+    "She bought vegetables yesterday. (Tatoeba #753459, modelqueen13, CC BY 2.0 FR)"
    ],
    [
     "くだもの",
     "kudamono",
     "trái cây",
-    "くだものを かいましょう。",
-    "Mình mua trái cây đi."
+    "果物はいかがですか？",
+    "Would you like some fruit? (Tatoeba #10006471, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "はなみ",
@@ -1782,8 +1782,8 @@ window.SENTENCES = {
     "テニス",
     "tenisu",
     "quần vợt",
-    "にちようびに テニスを しませんか。",
-    "Chủ nhật chơi quần vợt không?"
+    "テニスをしませんか。",
+    "How about playing tennis? (Tatoeba #202178, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おちゃ",
@@ -1817,29 +1817,29 @@ window.SENTENCES = {
     "します",
     "shimasu",
     "làm, chơi (môn thể thao…)",
-    "にちようびに サッカーを します。",
-    "Chủ nhật tôi chơi bóng đá."
+    "今日します。",
+    "I'll do it today. (Tatoeba #11052197, small_snow, CC BY 2.0 FR)"
    ],
    [
     "あいます",
     "aimasu",
     "gặp (ともだちに あいます)",
-    "えきで ともだちに あいます。",
-    "Tôi gặp bạn ở ga."
+    "今晩私は彼女に会います。",
+    "I'm seeing her this evening. (Tatoeba #171211, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "すいます",
     "suimasu",
     "hút (thuốc)",
-    "わたしは たばこを すいません。",
-    "Tôi không hút thuốc."
+    "たばこは吸いますか。",
+    "Do you smoke? (Tatoeba #203425, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "いっしょに",
     "issho ni",
     "cùng nhau",
-    "いっしょに ひるごはんを たべませんか。",
-    "Cùng ăn trưa không?"
+    "一緒に行きます。",
+    "I'm coming with you. (Tatoeba #190548, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ちょっと",
@@ -1873,15 +1873,15 @@ window.SENTENCES = {
     "わかりました",
     "wakarimashita",
     "tôi hiểu rồi, được",
-    "わかりました。じゅういちじに あいましょう。",
-    "Được rồi. Gặp nhau lúc 11 giờ nhé."
+    "わかりました。",
+    "I see. (Tatoeba #5955914, tatoebane, CC BY 2.0 FR)"
    ],
    [
     "しゅくだい",
     "shukudai",
     "bài tập về nhà",
-    "うちで しゅくだいを します。",
-    "Tôi làm bài tập ở nhà."
+    "私は宿題をします。",
+    "I will be doing my homework. (Tatoeba #1956413, e4zh1nmcz, CC BY 2.0 FR)"
    ],
    [
     "サッカー",
@@ -1908,29 +1908,29 @@ window.SENTENCES = {
     "CD",
     "shiidii",
     "đĩa CD",
-    "CDを ききます。",
-    "Tôi nghe đĩa CD."
+    "あれは私のCDです。",
+    "Those are my CDs. (Tatoeba #229642, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "たばこ",
     "tabako",
     "thuốc lá (たばこを すいます = hút thuốc)",
-    "ここで たばこを すいません。",
-    "Tôi không hút thuốc ở đây."
+    "たばこは吸いますか。",
+    "Do you smoke? (Tatoeba #203425, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "えいが",
     "eiga",
     "phim, điện ảnh",
-    "あした えいがを みます。",
-    "Ngày mai tôi xem phim."
+    "映画を見ました。",
+    "I watched a movie. (Tatoeba #10901497, small_snow, CC BY 2.0 FR)"
    ],
    [
     "レストラン",
     "resutoran",
     "nhà hàng",
-    "レストランで ごはんを たべます。",
-    "Tôi ăn cơm ở nhà hàng."
+    "レストランはどこですか？",
+    "Where is the restaurant? (Tatoeba #5070677, 999yudai, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -2055,15 +2055,15 @@ window.SENTENCES = {
     "きります",
     "kirimasu",
     "cắt",
-    "ナイフで パンを きります。",
-    "Tôi cắt bánh mì bằng dao."
+    "ナイフで切ります。",
+    "I'll cut it with a knife. (Tatoeba #6828177, D0UG, CC BY 2.0 FR)"
    ],
    [
     "パソコン",
     "pasokon",
     "máy tính cá nhân",
-    "パソコンで レポートを かきます。",
-    "Tôi viết báo cáo bằng máy tính."
+    "このノートパソコン、いくらですか？",
+    "How much does this laptop cost? (Tatoeba #11619547, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ケータイ",
@@ -2076,22 +2076,22 @@ window.SENTENCES = {
     "プレゼント",
     "purezento",
     "quà tặng",
-    "たんじょうびに プレゼントを もらいました。",
-    "Tôi đã nhận quà vào sinh nhật."
+    "プレゼントをどうぞ。",
+    "This is a present for you. (Tatoeba #196917, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おかね",
     "okane",
     "tiền",
-    "ちちに おかねを もらいました。",
-    "Tôi đã nhận tiền từ bố."
+    "お金はどこ？",
+    "Where's the money? (Tatoeba #13669575, small_snow, CC BY 2.0 FR)"
    ],
    [
     "きっぷ",
     "kippu",
     "vé (tàu, xe)",
-    "もう きっぷを かいましたか。",
-    "Bạn đã mua vé chưa?"
+    "あなたの切符よ。",
+    "Here's a ticket for you. (Tatoeba #13864877, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ねんがじょう",
@@ -2104,8 +2104,8 @@ window.SENTENCES = {
     "にもつ",
     "nimotsu",
     "hành lý, bưu kiện",
-    "ははに にもつを おくりました。",
-    "Tôi đã gửi bưu kiện cho mẹ."
+    "きのう母に荷物を送りました。",
+    "I sent my mother a package yesterday. (Tatoeba #10899655, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おしえます",
@@ -2153,8 +2153,8 @@ window.SENTENCES = {
     "クリスマス",
     "kurisumasu",
     "Giáng sinh",
-    "クリスマスに ともだちに プレゼントを あげます。",
-    "Giáng sinh tôi tặng quà cho bạn."
+    "クリスマスにはどこに行きますか？",
+    "Where do you go for Christmas? (Tatoeba #10837030, minekai, CC BY 2.0 FR)"
    ],
    [
     "ファクス",
@@ -2174,8 +2174,8 @@ window.SENTENCES = {
     "スペイン",
     "supein",
     "Tây Ban Nha",
-    "らいしゅう スペインへ いきます。",
-    "Tuần sau tôi đi Tây Ban Nha."
+    "私はスペイン人です。",
+    "I'm Spanish. (Tatoeba #3221017, e4zh1nmcz, CC BY 2.0 FR)"
    ],
    [
     "ヨーロッパ",
@@ -2188,8 +2188,8 @@ window.SENTENCES = {
     "あげます",
     "agemasu",
     "cho, tặng",
-    "ははに はなを あげます。",
-    "Tôi tặng hoa cho mẹ."
+    "これをあなたにあげます。",
+    "I will give you this. (Tatoeba #1221471, FiRez, CC BY 2.0 FR)"
    ],
    [
     "もらいます",
@@ -2202,22 +2202,22 @@ window.SENTENCES = {
     "かします",
     "kashimasu",
     "cho mượn",
-    "リンさんに かさを かしました。",
-    "Tôi đã cho chị Linh mượn ô."
+    "何とかします。",
+    "I'll manage it. (Tatoeba #3583313, arnab, CC BY 2.0 FR)"
    ],
    [
     "かります",
     "karimasu",
     "mượn",
-    "としょかんで ほんを かります。",
-    "Tôi mượn sách ở thư viện."
+    "分かりますか。",
+    "Do you follow? (Tatoeba #83717, mookeee, CC BY 2.0 FR)"
    ],
    [
     "ならいます",
     "naraimasu",
     "học (từ ai đó)",
-    "すずきさんに にほんごを ならいます。",
-    "Tôi học tiếng Nhật với chị Suzuki."
+    "来年私はフランス語を習います。",
+    "I am taking French next year. (Tatoeba #78572, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おくります",
@@ -2251,8 +2251,8 @@ window.SENTENCES = {
     "シャツ",
     "shatsu",
     "áo sơ mi",
-    "デパートで シャツを かいました。",
-    "Tôi đã mua áo sơ mi ở bách hoá."
+    "このシャツはだれのですか。",
+    "Whose shirt is this? (Tatoeba #223699, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "もう",
@@ -2272,8 +2272,8 @@ window.SENTENCES = {
     "これから",
     "korekara",
     "từ bây giờ, sắp",
-    "これから ひるごはんを たべます。",
-    "Bây giờ tôi đi ăn trưa."
+    "これから帰ります。",
+    "I'm going home now. (Tatoeba #218960, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "すてきですね",
@@ -2286,15 +2286,15 @@ window.SENTENCES = {
     "いらっしゃい",
     "irasshai",
     "mời vào (chào khách)",
-    "いらっしゃい。どうぞ。",
-    "Chào mừng, mời vào."
+    "いらっしゃい。",
+    "Welcome. (Tatoeba #416304, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しつれいします",
     "shitsurei shimasu",
     "xin phép (khi vào / về)",
-    "しつれいします。",
-    "Tôi xin phép."
+    "失礼します。",
+    "May I be excused? (Tatoeba #507553, orzage, CC BY 2.0 FR)"
    ],
    [
     "どうぞ おあがり ください。",
@@ -2321,8 +2321,8 @@ window.SENTENCES = {
     "りょこう",
     "ryokou",
     "chuyến du lịch (りょこうを します = đi du lịch)",
-    "ナムさんは ヨーロッパへ りょこうを しました。",
-    "Anh Nam đã đi du lịch châu Âu."
+    "旅行はいつから？",
+    "When do you start on your trip? (Tatoeba #11340616, small_snow, CC BY 2.0 FR)"
    ],
    [
     "［お］みやげ",
@@ -2458,15 +2458,15 @@ window.SENTENCES = {
     "たかい",
     "takai",
     "cao; đắt",
-    "スカイツリーは たかいです。",
-    "Tháp Skytree cao."
+    "でも高いよ。",
+    "It's expensive though. (Tatoeba #202087, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おいしい",
     "oishii",
     "ngon",
-    "この ラーメンは おいしいです。",
-    "Bát ramen này ngon."
+    "この魚おいしい。",
+    "This fish is delicious. (Tatoeba #3013049, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "しずか",
@@ -2493,15 +2493,15 @@ window.SENTENCES = {
     "いそがしい",
     "isogashii",
     "bận",
-    "しごとは いそがしいですが、おもしろいです。",
-    "Công việc bận nhưng thú vị."
+    "私は忙しい。",
+    "I'm busy. (Tatoeba #152827, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "レストラン",
     "resutoran",
     "nhà hàng",
-    "あれは どんな レストランですか。",
-    "Kia là nhà hàng như thế nào?"
+    "レストランはどこですか？",
+    "Where is the restaurant? (Tatoeba #5070677, 999yudai, CC BY 2.0 FR)"
    ],
    [
     "ふじさん",
@@ -2542,8 +2542,8 @@ window.SENTENCES = {
     "シャンハイ",
     "shanhai",
     "Thượng Hải",
-    "シャンハイは にぎやかな まちです。",
-    "Thượng Hải là thành phố náo nhiệt."
+    "私は上海人です。",
+    "I'm Shanghainese. (Tatoeba #347350, zhouj1955, CC BY 2.0 FR)"
    ],
    [
     "きんかくじ",
@@ -2570,22 +2570,22 @@ window.SENTENCES = {
     "ハンサム",
     "hansamu",
     "đẹp trai",
-    "たなかさんは ハンサムです。",
-    "Anh Tanaka đẹp trai."
+    "彼はハンサムです。",
+    "He's handsome. (Tatoeba #13231274, atitarev, CC BY 2.0 FR)"
    ],
    [
     "しんせつ",
     "shinsetsu",
     "tốt bụng",
-    "すずきさんは しんせつな ひとです。",
-    "Chị Suzuki là người tốt bụng."
+    "とても親切ですね。",
+    "You're very kind. (Tatoeba #12316434, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ゆうめい",
     "yuumei",
     "nổi tiếng",
-    "ふじさんは ゆうめいな やまです。",
-    "Phú Sĩ là ngọn núi nổi tiếng."
+    "あなたは有名ですか？",
+    "Are you famous? (Tatoeba #3368796, verbum, CC BY 2.0 FR)"
    ],
    [
     "げんき",
@@ -2605,8 +2605,8 @@ window.SENTENCES = {
     "べんり",
     "benri",
     "tiện lợi",
-    "この ケータイは べんりです。",
-    "Cái điện thoại này tiện lợi."
+    "フランス語は便利よ。",
+    "French is useful. (Tatoeba #9749141, small_snow, CC BY 2.0 FR)"
    ],
    [
     "すてき",
@@ -2619,8 +2619,8 @@ window.SENTENCES = {
     "つめたい",
     "tsumetai",
     "lạnh (khi chạm)",
-    "つめたい ビールを のみましょう。",
-    "Uống bia lạnh đi."
+    "水は冷たい？",
+    "Is the water cold? (Tatoeba #8796822, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "どれ",
@@ -2633,8 +2633,8 @@ window.SENTENCES = {
     "そして",
     "soshite",
     "và, thêm nữa (nối câu)",
-    "この みせは やすいです。そして、おいしいです。",
-    "Quán này rẻ. Mà lại ngon."
+    "そして、先生なんですよね？",
+    "And you're a teacher, right? (Tatoeba #11048054, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おげんきですか。",
@@ -2682,8 +2682,8 @@ window.SENTENCES = {
     "べんきょう",
     "benkyou",
     "việc học",
-    "にほんごの べんきょうは おもしろいです。",
-    "Việc học tiếng Nhật thú vị."
+    "勉強は難しいの？",
+    "Is the school work hard? (Tatoeba #83293, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "そうですね。",
@@ -2801,36 +2801,36 @@ window.SENTENCES = {
     "りょうり",
     "ryouri",
     "món ăn; nấu ăn",
-    "にほんの りょうりが すきです。",
-    "Tôi thích món Nhật."
+    "料理は面白いよ。",
+    "Cooking is interesting. (Tatoeba #10548509, small_snow, CC BY 2.0 FR)"
    ],
    [
     "やきゅう",
     "yakyuu",
     "bóng chày",
-    "やきゅうが すきですか。",
-    "Bạn có thích bóng chày không?"
+    "野球をしますか？",
+    "Do you play baseball? (Tatoeba #7929834, Ninja, CC BY 2.0 FR)"
    ],
    [
     "ダンス",
     "dansu",
     "nhảy, khiêu vũ",
-    "リンさんは ダンスが じょうずです。",
-    "Chị Linh nhảy giỏi."
+    "ダンスは好きですか。",
+    "Do you like dancing? (Tatoeba #203074, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "りょこう",
     "ryokou",
     "du lịch",
-    "りょこうが すきです。",
-    "Tôi thích du lịch."
+    "旅行は好き？",
+    "Do you like to travel? (Tatoeba #3309201, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "おんがく",
     "ongaku",
     "âm nhạc",
-    "どんな おんがくが すきですか。",
-    "Bạn thích loại nhạc nào?"
+    "音楽は好き？",
+    "Are you fond of music? (Tatoeba #188279, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "うた",
@@ -2843,8 +2843,8 @@ window.SENTENCES = {
     "カラオケ",
     "karaoke",
     "karaoke",
-    "カラオケは あまり すきじゃ ありません。",
-    "Tôi không thích karaoke lắm."
+    "カラオケに行きましょう。",
+    "Let's go sing karaoke. (Tatoeba #9582259, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かぶき",
@@ -2864,71 +2864,71 @@ window.SENTENCES = {
     "かんじ",
     "kanji",
     "chữ Hán (kanji)",
-    "かんじが すこし わかります。",
-    "Tôi hiểu chút ít chữ Hán."
+    "漢字を書きます。",
+    "I write kanji. (Tatoeba #6828180, D0UG, CC BY 2.0 FR)"
    ],
    [
     "コンサート",
     "konsaato",
     "buổi hoà nhạc",
-    "コンサートの チケットが あります。",
-    "Tôi có vé buổi hoà nhạc."
+    "来週コンサートに行きます。",
+    "I am going to a concert next week. (Tatoeba #78663, mookeee, CC BY 2.0 FR)"
    ],
    [
     "アルバイト",
     "arubaito",
     "việc làm thêm",
-    "アルバイトが ありますから、かえります。",
-    "Tôi có việc làm thêm nên về đây."
+    "何かアルバイトはしていますか。",
+    "Do you have a part-time job? (Tatoeba #188151, small_snow, CC BY 2.0 FR)"
    ],
    [
     "こども",
     "kodomo",
     "trẻ con; con cái",
-    "こどもは やさいが きらいです。",
-    "Con tôi ghét rau."
+    "子どもは何人いますか。",
+    "How many children do you have? (Tatoeba #1038473, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "クラシック",
     "kurashikku",
     "nhạc cổ điển",
-    "わたしは クラシックが すきです。",
-    "Tôi thích nhạc cổ điển."
+    "私はクラシックが好きです。",
+    "I like classical music. (Tatoeba #161120, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ジャズ",
     "jazu",
     "nhạc jazz",
-    "ナムさんは ジャズが すきです。",
-    "Anh Nam thích nhạc jazz."
+    "私はジャズが好きです。",
+    "I like jazz music. (Tatoeba #160613, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "わかります",
     "wakarimasu",
     "hiểu",
-    "えいごが わかります。",
-    "Tôi hiểu tiếng Anh."
+    "わかります。",
+    "I can see that. (Tatoeba #4900369, huizi99, CC BY 2.0 FR)"
    ],
    [
     "あります",
     "arimasu",
     "có (sở hữu)",
-    "きょうは かいぎが あります。",
-    "Hôm nay tôi có cuộc họp."
+    "時間はあります。",
+    "I'm free. (Tatoeba #1302434, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "のみもの",
     "nomimono",
     "đồ uống",
-    "どんな のみものが すきですか。",
-    "Bạn thích đồ uống gì?"
+    "何か飲み物はいかが？",
+    "Would you like to drink something? (Tatoeba #188053, small_snow, CC BY 2.0 FR)"
    ],
    [
     "スポーツ",
     "supootsu",
     "thể thao",
-    "スポーツが すきです。",
-    "Tôi thích thể thao."
+    "スポーツは好き？",
+    "Do you like sports? (Tatoeba #3110652, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "こまかい おかね",
@@ -2941,22 +2941,22 @@ window.SENTENCES = {
     "チケット",
     "chiketto",
     "vé",
-    "えいがの チケットが あります。",
-    "Tôi có vé xem phim."
+    "チケットは高い。",
+    "Tickets are expensive. (Tatoeba #12725625, small_snow, CC BY 2.0 FR)"
    ],
    [
     "じかん",
     "jikan",
     "thời gian",
-    "きょうは じかんが あります。",
-    "Hôm nay tôi có thời gian."
+    "お茶の時間よ。",
+    "It's time for tea. (Tatoeba #12461936, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ぜんぜん",
     "zenzen",
     "hoàn toàn (không)",
-    "かんじが ぜんぜん わかりません。",
-    "Tôi hoàn toàn không hiểu chữ Hán."
+    "全然わかりません。",
+    "I have no idea. (Tatoeba #140787, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "はやく",
@@ -2976,8 +2976,8 @@ window.SENTENCES = {
     "ざんねんです",
     "zannen desu",
     "tiếc quá",
-    "ざんねんですが、きょうは ようじが あります。",
-    "Tiếc quá, nhưng hôm nay tôi có việc bận."
+    "残念ですが。",
+    "That's too bad. (Tatoeba #169258, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かして ください。",
@@ -3123,29 +3123,29 @@ window.SENTENCES = {
     "おとこのひと",
     "otokonohito",
     "người đàn ông",
-    "あそこに おとこのひとが います。",
-    "Ở đằng kia có một người đàn ông."
+    "この男の人は中国人です。",
+    "This man is Chinese. (Tatoeba #2462798, flavio78, CC BY 2.0 FR)"
    ],
    [
     "おんなのひと",
     "onnanohito",
     "người phụ nữ",
-    "あの おんなのひとは だれですか。",
-    "Người phụ nữ kia là ai?"
+    "あなたのお父さんの友達は女の人ですか。",
+    "Is your father's friend a woman? (Tatoeba #1196232, FiRez, CC BY 2.0 FR)"
    ],
    [
     "おとこのこ",
     "otokonoko",
     "bé trai",
-    "こうえんに おとこのこが います。",
-    "Trong công viên có một bé trai."
+    "男の子ですよ。",
+    "It's a boy. (Tatoeba #10633458, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おんなのこ",
     "onnanoko",
     "bé gái",
-    "おんなのこは きの したに います。",
-    "Bé gái ở dưới gốc cây."
+    "女の子は音楽が好きです。",
+    "That girl likes that music. (Tatoeba #5259744, phoonaz, CC BY 2.0 FR)"
    ],
    [
     "パンダ",
@@ -3172,8 +3172,8 @@ window.SENTENCES = {
     "テーブル",
     "teeburu",
     "cái bàn",
-    "テーブルの うえに りんごが あります。",
-    "Trên bàn có quả táo."
+    "テーブルの下よ。",
+    "It's under the table. (Tatoeba #202412, small_snow, CC BY 2.0 FR)"
    ],
    [
     "たな",
@@ -3193,36 +3193,36 @@ window.SENTENCES = {
     "ドア",
     "doa",
     "cửa ra vào",
-    "ドアの まえに にもつが あります。",
-    "Trước cửa có bưu kiện."
+    "彼はドアの前にいます。",
+    "He is in front of the door. (Tatoeba #111772, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ポスト",
     "posuto",
     "hòm thư",
-    "ゆうびんきょくの まえに ポストが あります。",
-    "Trước bưu điện có hòm thư."
+    "ポストはどこにありますか。",
+    "Where is the mailbox? (Tatoeba #196278, small_snow, CC BY 2.0 FR)"
    ],
    [
     "コンビニ",
     "konbini",
     "cửa hàng tiện lợi",
-    "えきの となりに コンビニが あります。",
-    "Cạnh ga có cửa hàng tiện lợi."
+    "コンビニでアルバイトをします。",
+    "I'm going to work part-time at a convenience store. (Tatoeba #6828182, D0UG, CC BY 2.0 FR)"
    ],
    [
     "こうえん",
     "kouen",
     "công viên",
-    "こうえんに きが たくさん あります。",
-    "Trong công viên có nhiều cây."
+    "公園に木があります。",
+    "There's a tree in the park. (Tatoeba #10953987, soueihin, CC BY 2.0 FR)"
    ],
    [
     "きっさてん",
     "kissaten",
     "quán cà phê",
-    "ぎんこうと ゆうびんきょくの あいだに きっさてんが あります。",
-    "Giữa ngân hàng và bưu điện có quán cà phê."
+    "あそこに喫茶店があります。",
+    "There is a coffee shop over there. (Tatoeba #1127354, negichan, CC BY 2.0 FR)"
    ],
    [
     "ぞう",
@@ -3256,8 +3256,8 @@ window.SENTENCES = {
     "ほんや",
     "honya",
     "hiệu sách",
-    "えきの となりに ほんやが あります。",
-    "Cạnh ga có hiệu sách."
+    "本屋で雑誌を買いました。",
+    "I bought some magazines at the bookstore. (Tatoeba #10901506, small_snow, CC BY 2.0 FR)"
    ],
    [
     "チリソース",
@@ -3284,15 +3284,15 @@ window.SENTENCES = {
     "あります",
     "arimasu",
     "có (vật, cây, sự kiện)",
-    "つくえの うえに ほんが あります。",
-    "Trên bàn có quyển sách."
+    "時間はあります。",
+    "I'm free. (Tatoeba #1302434, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "います",
     "imasu",
     "có (người, động vật)",
-    "こうえんに ねこが います。",
-    "Trong công viên có con mèo."
+    "うちにいます。",
+    "I am at home. (Tatoeba #404045, zipangu, CC BY 2.0 FR)"
    ],
    [
     "いろいろ",
@@ -3326,8 +3326,8 @@ window.SENTENCES = {
     "ちかく",
     "chikaku",
     "gần",
-    "うちの ちかくに こうえんが あります。",
-    "Gần nhà tôi có công viên."
+    "私は駅の近くにいます。",
+    "I am near the station. (Tatoeba #158262, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "あいだ",
@@ -3441,8 +3441,8 @@ window.SENTENCES = {
     "サンドイッチ",
     "sandoicchi",
     "bánh sandwich",
-    "サンドイッチを ふたつ たべました。",
-    "Tôi đã ăn hai cái sandwich."
+    "サンドイッチはいかが？",
+    "How about a sandwich? (Tatoeba #9777014, small_snow, CC BY 2.0 FR)"
    ],
    [
     "カレー",
@@ -3462,8 +3462,8 @@ window.SENTENCES = {
     "ふうとう",
     "fuutou",
     "phong bì",
-    "ふうとうを じゅうまい かいました。",
-    "Tôi đã mua mười cái phong bì."
+    "封筒をください。",
+    "I need an envelope. (Tatoeba #84069, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ひこうき",
@@ -3483,22 +3483,22 @@ window.SENTENCES = {
     "ビール",
     "biiru",
     "bia",
-    "ビールを ふたつ のみました。",
-    "Tôi đã uống hai ly bia."
+    "ビールをください。",
+    "A beer, please. (Tatoeba #197657, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "りんご",
     "ringo",
     "táo",
-    "りんごを みっつ かいました。",
-    "Tôi đã mua ba quả táo."
+    "はい、りんご。",
+    "Here's an apple. (Tatoeba #12164803, small_snow, CC BY 2.0 FR)"
    ],
    [
     "アイスクリーム",
     "aisukuriimu",
     "kem",
-    "アイスクリームを ふたつ たべました。",
-    "Tôi đã ăn hai cây kem."
+    "アイスクリーム、おいしい？",
+    "Is the ice cream nice? (Tatoeba #11988872, small_snow, CC BY 2.0 FR)"
    ],
    [
     "きって",
@@ -3511,64 +3511,64 @@ window.SENTENCES = {
     "オーストラリア",
     "oosutoraria",
     "Úc",
-    "オーストラリアから てがみが きました。",
-    "Có thư từ Úc gửi đến."
+    "私はオーストラリア人です。",
+    "I'm Australian. (Tatoeba #13151076, atitarev, CC BY 2.0 FR)"
    ],
    [
     "どのくらい",
     "dono kurai",
     "bao lâu, bao nhiêu (hỏi khoảng thời gian, số lượng)",
-    "ここから えきまで どのくらいですか。",
-    "Từ đây đến ga bao xa (bao lâu)?"
+    "どのくらい高い？",
+    "How high is it? (Tatoeba #200413, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かかります",
     "kakarimasu",
     "mất, tốn (thời gian, tiền)",
-    "えきまで バスで じゅっぷん かかります。",
-    "Đến ga bằng xe buýt mất mười phút."
+    "何分かかりますか？",
+    "How long is the ride? (Tatoeba #187304, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "ぜんぶで",
     "zenbu de",
     "tổng cộng",
-    "ぜんぶで ごひゃくえんです。",
-    "Tổng cộng năm trăm yên."
+    "学生は全部で何人ですか？",
+    "What is the total number of students? (Tatoeba #1117489, mookeee, CC BY 2.0 FR)"
    ],
    [
     "いらっしゃいませ",
     "irasshaimase",
     "kính chào quý khách (nhân viên cửa hàng nói)",
-    "いらっしゃいませ。ごにんですか。",
-    "Xin chào quý khách. Năm người ạ?"
+    "いらっしゃいませ。",
+    "Welcome. (Tatoeba #338114, shiboy, CC BY 2.0 FR)"
    ],
    [
     "いくつ",
     "ikutsu",
     "mấy cái, bao nhiêu cái",
-    "りんごを いくつ かいましたか。…みっつ かいました。",
-    "Bạn đã mua mấy quả táo? …Ba quả."
+    "いくつですか？",
+    "How old are you? (Tatoeba #12890016, small_snow, CC BY 2.0 FR)"
    ],
    [
     "がいこく",
     "gaikoku",
     "nước ngoài",
-    "ともだちは がいこくに います。",
-    "Bạn tôi ở nước ngoài."
+    "来年外国へ行きます。",
+    "I will go abroad next year. (Tatoeba #152388, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "りゅうがくせい",
     "ryuugakusei",
     "lưu học sinh, du học sinh",
-    "リンさんは りゅうがくせいです。",
-    "Chị Linh là lưu học sinh."
+    "来月中国から留学生が来ます。",
+    "We have a foreign student coming from China next month. (Tatoeba #10984928, small_snow, CC BY 2.0 FR)"
    ],
    [
     "クラス",
     "kurasu",
     "lớp học",
-    "クラスに がくせいが じゅうにん います。",
-    "Lớp có mười học sinh."
+    "新しいクラスはどう？",
+    "How is your new class? (Tatoeba #3642234, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "みんな",
@@ -3722,8 +3722,8 @@ window.SENTENCES = {
     "せかい",
     "sekai",
     "thế giới",
-    "せかいで いちばん たかい やまは どこですか。",
-    "Núi cao nhất thế giới là ở đâu?"
+    "この世界は難しい。",
+    "This world is difficult. (Tatoeba #775200, klismangok, CC BY 2.0 FR)"
    ],
    [
     "うみ",
@@ -3743,8 +3743,8 @@ window.SENTENCES = {
     "くうこう",
     "kuukou",
     "sân bay",
-    "くうこうは とおかったです。",
-    "Sân bay đã xa."
+    "今空港にいます。",
+    "I'm at the airport now. (Tatoeba #788209, kenken, CC BY 2.0 FR)"
    ],
    [
     "おまつり",
@@ -3813,15 +3813,15 @@ window.SENTENCES = {
     "くもり",
     "kumori",
     "trời nhiều mây",
-    "きょうは くもりでした。",
-    "Hôm nay trời nhiều mây."
+    "曇りの日です。",
+    "It's a cloudy day. (Tatoeba #123255, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おすし",
     "osushi",
     "sushi",
-    "おすしは おいしかったです。",
-    "Sushi đã ngon."
+    "お寿司を食べましょう。",
+    "Let's have sushi. (Tatoeba #227030, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "てんぷら",
@@ -3834,8 +3834,8 @@ window.SENTENCES = {
     "ぶたにく",
     "butaniku",
     "thịt lợn",
-    "ぶたにくは やすいです。",
-    "Thịt lợn thì rẻ."
+    "フォークで豚肉を食べます。",
+    "I eat pork with a fork. (Tatoeba #6828186, D0UG, CC BY 2.0 FR)"
    ],
    [
     "とりにく",
@@ -3848,15 +3848,15 @@ window.SENTENCES = {
     "ぎゅうにく",
     "gyuuniku",
     "thịt bò",
-    "ぎゅうにくは たかいです。",
-    "Thịt bò thì đắt."
+    "牛肉は高い。",
+    "Beef is expensive. (Tatoeba #9192045, small_snow, CC BY 2.0 FR)"
    ],
    [
     "レモン",
     "remon",
     "chanh vàng",
-    "これは レモンです。",
-    "Đây là quả chanh vàng."
+    "これはレモンの木です。",
+    "This is a lemon tree. (Tatoeba #1508743, ari_diary, CC BY 2.0 FR)"
    ],
    [
     "もみじ",
@@ -3876,15 +3876,15 @@ window.SENTENCES = {
     "ホンコン",
     "honkon",
     "Hồng Kông",
-    "ホンコンは あついですか。",
-    "Hồng Kông nóng không?"
+    "私は今香港にいます。",
+    "I'm in Hong Kong right now. (Tatoeba #2349287, hutian, CC BY 2.0 FR)"
    ],
    [
     "シンガポール",
     "shingapooru",
     "Singapore",
-    "シンガポールは あつかったです。",
-    "Singapore đã nóng."
+    "シンガポールから来ました。",
+    "I'm from Singapore. (Tatoeba #3196466, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "かんたん",
@@ -3904,29 +3904,29 @@ window.SENTENCES = {
     "きせつ",
     "kisetsu",
     "mùa; はる (xuân) なつ (hạ) あき (thu) ふゆ (đông)",
-    "わたしは あきが いちばん すきです。",
-    "Tôi thích mùa thu nhất."
+    "春は花の季節ですね。",
+    "Spring is the season of flowers. (Tatoeba #11821438, small_snow, CC BY 2.0 FR)"
    ],
    [
     "てんき",
     "tenki",
     "thời tiết",
-    "きのうの てんきは あめでした。",
-    "Thời tiết hôm qua là mưa."
+    "天気はいい？",
+    "Is the weather nice? (Tatoeba #8763912, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "はじめて",
     "hajimete",
     "lần đầu tiên",
-    "きょうとは はじめてでした。",
-    "Kyoto là lần đầu tiên của tôi."
+    "日本は初めてですか。",
+    "Is this your first visit to Japan? (Tatoeba #122452, arnab, CC BY 2.0 FR)"
    ],
    [
     "どちらも",
     "dochira mo",
     "cả hai",
-    "コーヒーと おちゃと どちらが すきですか。…どちらも すきです。",
-    "Cà phê và trà, bạn thích cái nào hơn? …Cả hai đều thích."
+    "私はどちらも好きです。",
+    "I like both. (Tatoeba #159295, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ただいま。",
@@ -3981,15 +3981,15 @@ window.SENTENCES = {
     "しけん",
     "shiken",
     "kỳ thi",
-    "しけんは かんたんでした。",
-    "Bài thi đã dễ."
+    "今日の午後に英語の試験があります。",
+    "We will have an English test this afternoon. (Tatoeba #225797, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "でも",
     "demo",
     "nhưng (đầu câu)",
-    "にほんごは むずかしいです。でも、おもしろいです。",
-    "Tiếng Nhật khó. Nhưng thú vị."
+    "でも高いよ。",
+    "It's expensive though. (Tatoeba #202087, bunbuku, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -4080,8 +4080,8 @@ window.SENTENCES = {
     "プール",
     "puuru",
     "bể bơi",
-    "プールで およぎたいです。",
-    "Tôi muốn bơi ở bể bơi."
+    "プールはありません。",
+    "We don't have a swimming pool. (Tatoeba #5886964, rocky6959, CC BY 2.0 FR)"
    ],
    [
     "かわ",
@@ -4115,8 +4115,8 @@ window.SENTENCES = {
     "おんせん",
     "onsen",
     "suối nước nóng",
-    "おんせんへ いきたいです。",
-    "Tôi muốn đi suối nước nóng."
+    "その町は温泉で有名です。",
+    "The town is famous for its hot spring. (Tatoeba #207797, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "りょかん",
@@ -4136,15 +4136,15 @@ window.SENTENCES = {
     "つり",
     "tsuri",
     "câu cá",
-    "しゅうまつは つりに いきたいです。",
-    "Cuối tuần tôi muốn đi câu cá."
+    "釣りはしますか？",
+    "Do you fish? (Tatoeba #3491591, arnab, CC BY 2.0 FR)"
    ],
    [
     "しやくしょ",
     "shiyakusho",
     "toà thị chính",
-    "しやくしょへ とうろくに いきます。",
-    "Tôi đi toà thị chính để đăng ký."
+    "市役所はどこですか？",
+    "Where is the city hall? (Tatoeba #10079796, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ていしょく",
@@ -4164,15 +4164,15 @@ window.SENTENCES = {
     "ロシア",
     "roshia",
     "Nga",
-    "ロシアへ いきたいです。",
-    "Tôi muốn đi Nga."
+    "私はロシア人です。",
+    "I'm Russian. (Tatoeba #13172073, atitarev, CC BY 2.0 FR)"
    ],
    [
     "ほしい",
     "hoshii",
     "muốn có (đồ vật)",
-    "あたらしい パソコンが ほしいです。",
-    "Tôi muốn một cái máy tính mới."
+    "水が欲しい。",
+    "I want some water. (Tatoeba #143813, mookeee, CC BY 2.0 FR)"
    ],
    [
     "かいものします",
@@ -4192,8 +4192,8 @@ window.SENTENCES = {
     "さんぽします",
     "sanpo shimasu",
     "đi dạo (さんぽします＋こうえんを)",
-    "こうえんを さんぽします。",
-    "Tôi đi dạo trong công viên."
+    "父は毎日散歩します。",
+    "My father takes a walk every day. (Tatoeba #84353, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "むかえます",
@@ -4213,15 +4213,15 @@ window.SENTENCES = {
     "けっこんします",
     "kekkon shimasu",
     "kết hôn",
-    "あには らいねん けっこんします。",
-    "Anh trai tôi năm sau sẽ kết hôn."
+    "来週、姉が結婚します。",
+    "My elder sister is getting married at the weekend. (Tatoeba #10982404, small_snow, CC BY 2.0 FR)"
    ],
    [
     "たいへん",
     "taihen",
     "vất vả, khổ; nghiêm trọng",
-    "しごとは たいへんですが、おもしろいです。",
-    "Công việc vất vả nhưng thú vị."
+    "今日は大変寒い。",
+    "It is very cold today. (Tatoeba #171553, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "のどが かわきました",
@@ -4318,15 +4318,15 @@ window.SENTENCES = {
     "とうろく",
     "touroku",
     "đăng ký (とうろくを します)",
-    "しやくしょで とうろくを します。",
-    "Tôi làm thủ tục đăng ký ở toà thị chính."
+    "もう登録したよ。",
+    "I've registered already. (Tatoeba #12148207, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かいぎ",
     "kaigi",
     "cuộc họp (かいぎを します)",
-    "かいぎを しに かいぎしつへ いきます。",
-    "Tôi đến phòng họp để họp."
+    "会議は何時から？",
+    "What time will the meeting start? (Tatoeba #11819668, small_snow, CC BY 2.0 FR)"
    ],
    [
     "そうですね。",
@@ -4410,22 +4410,22 @@ window.SENTENCES = {
     "エアコン",
     "eakon",
     "máy điều hoà",
-    "あついですから、エアコンを つけて ください。",
-    "Nóng quá, hãy bật điều hoà lên."
+    "エアコンつけて。",
+    "Turn the A/C on. (Tatoeba #12098503, small_snow, CC BY 2.0 FR)"
    ],
    [
     "パスポート",
     "pasupooto",
     "hộ chiếu",
-    "パスポートを みせて ください。",
-    "Xin hãy cho xem hộ chiếu."
+    "パスポートを見せて下さい。",
+    "Passport, please. (Tatoeba #198084, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ちず",
     "chizu",
     "bản đồ",
-    "ちずを かいて ください。",
-    "Hãy vẽ bản đồ giúp tôi."
+    "地図をかきましょうか？",
+    "Shall I draw a map for you? (Tatoeba #126856, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しお",
@@ -4438,22 +4438,22 @@ window.SENTENCES = {
     "さとう",
     "satou",
     "đường",
-    "さとうを もう すこし ください。",
-    "Cho tôi thêm một chút đường."
+    "まだ、砂糖はありますか？",
+    "Is there still any sugar? (Tatoeba #195439, small_snow, CC BY 2.0 FR)"
    ],
    [
     "でんき",
     "denki",
     "đèn điện, điện",
-    "でんきを けして ください。",
-    "Hãy tắt đèn."
+    "電気消して。",
+    "Put out the light. (Tatoeba #8586482, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ストーブ",
     "sutoobu",
     "lò sưởi",
-    "さむいですから、ストーブを つけましょうか。",
-    "Lạnh quá, để tôi bật lò sưởi nhé?"
+    "冬は寒いので、ストーブをつけます。",
+    "In the winter it's cold, so we turn on the stove. (Tatoeba #10925591, small_snow, CC BY 2.0 FR)"
    ],
    [
     "いそぎます",
@@ -4473,22 +4473,22 @@ window.SENTENCES = {
     "てつだいます",
     "tetsudaimasu",
     "giúp đỡ",
-    "あした てつだって ください。",
-    "Ngày mai hãy giúp tôi."
+    "手伝いますね。",
+    "We'll help you. (Tatoeba #10657913, small_snow, CC BY 2.0 FR)"
    ],
    [
     "はじめます",
     "hajimemasu",
     "bắt đầu",
-    "かいぎを はじめましょう。",
-    "Ta bắt đầu cuộc họp nhé."
+    "私は来週、新しい仕事を始めます。",
+    "I am going to start a new job next week. (Tatoeba #152416, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ふります（あめが）",
     "furimasu",
     "rơi (mưa, tuyết)",
-    "あめが ふって います。",
-    "Trời đang mưa."
+    "降りますか？",
+    "Are you getting off? (Tatoeba #901501, joeycrunch, CC BY 2.0 FR)"
    ],
    [
     "コピーします",
@@ -4543,15 +4543,15 @@ window.SENTENCES = {
     "つかいます",
     "tsukaimasu",
     "dùng, sử dụng",
-    "この ペンを つかって ください。",
-    "Hãy dùng cây bút này."
+    "それを使います。",
+    "I use it. (Tatoeba #159709, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "まっすぐ",
     "massugu",
     "thẳng",
-    "まっすぐ いって ください。",
-    "Hãy đi thẳng."
+    "まっすぐ前を見てください。",
+    "Look forward, please. (Tatoeba #195363, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "あれ？",
@@ -4564,8 +4564,8 @@ window.SENTENCES = {
     "おつり",
     "otsuri",
     "tiền thừa",
-    "おつりは ごひゃくえんです。",
-    "Tiền thừa là 500 yên."
+    "お釣りはいいです。",
+    "Keep the change. (Tatoeba #9314776, small_snow, CC BY 2.0 FR)"
    ],
    [
     "いいですよ。",
@@ -4663,15 +4663,15 @@ window.SENTENCES = {
     "カタログ",
     "katarogu",
     "ca-ta-lô",
-    "カタログを みても いいですか。",
-    "Tôi xem ca-ta-lô được không?"
+    "これが今年のカタログです。",
+    "This is this year's catalogue. (Tatoeba #12324498, small_snow, CC BY 2.0 FR)"
    ],
    [
     "じこくひょう",
     "jikokuhyou",
     "bảng giờ tàu xe",
-    "じこくひょうを みせて ください。",
-    "Cho tôi xem bảng giờ tàu."
+    "時刻表はありますか？",
+    "Is there a timetable? (Tatoeba #8724681, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ふく",
@@ -4698,15 +4698,15 @@ window.SENTENCES = {
     "ちゅうしゃじょう",
     "chuushajou",
     "bãi đỗ xe",
-    "ここは ちゅうしゃじょうです。",
-    "Đây là bãi đỗ xe."
+    "駐車場はありますか。",
+    "Is there a parking lot? (Tatoeba #126297, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "たてもの",
     "tatemono",
     "toà nhà",
-    "あの たてものは ぎんこうです。",
-    "Toà nhà kia là ngân hàng."
+    "高い建物ですね。",
+    "That is a high building, is it not? (Tatoeba #229710, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "でんしじしょ",
@@ -4719,8 +4719,8 @@ window.SENTENCES = {
     "こうこう",
     "koukou",
     "trường cấp ba",
-    "あには こうこうの せんせいです。",
-    "Anh trai tôi là giáo viên cấp ba."
+    "母は高校の先生です。",
+    "My mother is a high school teacher. (Tatoeba #3050904, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "プレイガイド",
@@ -4733,8 +4733,8 @@ window.SENTENCES = {
     "つかいます",
     "tsukaimasu",
     "dùng, sử dụng",
-    "この ペンを つかっても いいですか。",
-    "Tôi dùng cây bút này được không?"
+    "それを使います。",
+    "I use it. (Tatoeba #159709, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "おきます",
@@ -4747,8 +4747,8 @@ window.SENTENCES = {
     "つくります",
     "tsukurimasu",
     "làm, chế tạo",
-    "わたしは ごはんを つくって います。",
-    "Tôi đang nấu cơm."
+    "今日はどんな料理を作りますか？",
+    "What will you cook today? (Tatoeba #12270177, MathKay, CC BY 2.0 FR)"
    ],
    [
     "うります",
@@ -4768,8 +4768,8 @@ window.SENTENCES = {
     "すみます",
     "sumimasu",
     "sống, cư trú",
-    "わたしは とうきょうに すんで います。",
-    "Tôi đang sống ở Tokyo."
+    "私は来年からこの町に住みます。",
+    "I will live in this town starting from the new year. (Tatoeba #10903710, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "けんきゅうします",
@@ -4782,8 +4782,8 @@ window.SENTENCES = {
     "じこくひょう",
     "jikokuhyou",
     "bảng giờ tàu xe",
-    "じこくひょうを みせて ください。",
-    "Cho tôi xem bảng giờ tàu."
+    "時刻表はありますか？",
+    "Is there a timetable? (Tatoeba #8724681, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ふく",
@@ -4796,8 +4796,8 @@ window.SENTENCES = {
     "せんもん",
     "senmon",
     "chuyên môn, chuyên ngành",
-    "わたしの せんもんは コンピューターです。",
-    "Chuyên môn của tôi là máy tính."
+    "君の専門は何？",
+    "What's your major? (Tatoeba #1099055, mookeee, CC BY 2.0 FR)"
    ],
    [
     "どくしん",
@@ -4817,8 +4817,8 @@ window.SENTENCES = {
     "いらっしゃいます",
     "irasshaimasu",
     "có mặt, ở (dạng kính ngữ của います)",
-    "たなかさんは いま かいぎしつに いらっしゃいます。",
-    "Anh Tanaka hiện đang ở phòng họp ạ."
+    "お母さんはいらっしゃいますか。",
+    "Is your mother at home? (Tatoeba #226613, mookeee, CC BY 2.0 FR)"
    ],
    [
     "にっぽんばし",
@@ -4838,36 +4838,36 @@ window.SENTENCES = {
     "とくに",
     "tokuni",
     "đặc biệt là",
-    "とくに あしたが いそがしいです。",
-    "Đặc biệt là ngày mai bận."
+    "今朝は特に寒い。",
+    "It is especially cold this morning. (Tatoeba #172252, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ごかぞく",
     "gokazoku",
     "gia đình (của người khác)",
-    "ごかぞくは おおさかに いらっしゃいますか。",
-    "Gia đình anh ở Osaka ạ?"
+    "ご家族はいますか。",
+    "Do you have a family? (Tatoeba #237476, mookeee, CC BY 2.0 FR)"
    ],
    [
     "すみません",
     "sumimasen",
     "Xin lỗi, làm phiền",
-    "すみません、しゃしんを とっても いいですか。",
-    "Xin lỗi, tôi chụp ảnh được không?"
+    "すみません。",
+    "I'm sorry. (Tatoeba #408301, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "みなさん",
     "minasan",
     "mọi người, quý vị",
-    "みなさん、ここで たべては いけません。",
-    "Thưa mọi người, không được ăn ở đây."
+    "皆さん、独身なんですか？",
+    "Are you bachelors? (Tatoeba #8703034, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しやくしょ",
     "shiyakusho",
     "toà thị chính",
-    "しやくしょで はたらいて います。",
-    "Tôi đang làm việc ở toà thị chính."
+    "市役所はどこですか？",
+    "Where is the city hall? (Tatoeba #10079796, small_snow, CC BY 2.0 FR)"
    ],
    [
     "けいざい",
@@ -4954,8 +4954,8 @@ window.SENTENCES = {
     "おてら",
     "otera",
     "chùa",
-    "おてらは ふるくて、きれいです。",
-    "Ngôi chùa cũ và đẹp."
+    "お寺はどこですか？",
+    "Where's the temple? (Tatoeba #10049610, small_snow, CC BY 2.0 FR)"
    ],
    [
     "じんじゃ",
@@ -4975,15 +4975,15 @@ window.SENTENCES = {
     "ジョギング",
     "jogingu",
     "chạy bộ",
-    "ジョギングを してから、シャワーを あびます。",
-    "Chạy bộ xong tôi mới tắm."
+    "父は先月ジョギングを始めました。",
+    "My father began jogging last month. (Tatoeba #162808, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ボタン",
     "botan",
     "nút bấm",
-    "この ボタンを おして ください。",
-    "Hãy ấn nút này."
+    "ボタンを押します。",
+    "Press the button. (Tatoeba #10733638, megamanenm, CC BY 2.0 FR)"
    ],
    [
     "ゆきまつり",
@@ -5003,8 +5003,8 @@ window.SENTENCES = {
     "のりかえます",
     "norikaemasu",
     "đổi tàu, đổi xe",
-    "しんじゅくで でんしゃに のりかえます。",
-    "Tôi đổi tàu ở Shinjuku."
+    "次の駅で乗り換えます。",
+    "We'll change trains at the next station. (Tatoeba #150313, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "あびます",
@@ -5024,8 +5024,8 @@ window.SENTENCES = {
     "でんわします",
     "denwa shimasu",
     "gọi điện",
-    "ともだちに でんわして、えいがに いきます。",
-    "Tôi gọi điện cho bạn rồi đi xem phim."
+    "後で電話します。",
+    "I'll call you back later. (Tatoeba #174334, small_snow, CC BY 2.0 FR)"
    ],
    [
     "せ",
@@ -5080,8 +5080,8 @@ window.SENTENCES = {
     "かくにん",
     "kakunin",
     "xác nhận (かくにんします)",
-    "かくにんして、ボタンを おして ください。",
-    "Hãy xác nhận rồi bấm nút."
+    "ご確認ください。",
+    "Please confirm. (Tatoeba #217189, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "JR",
@@ -5101,29 +5101,29 @@ window.SENTENCES = {
     "アジア",
     "ajia",
     "châu Á",
-    "アジアの りょうりが すきです。",
-    "Tôi thích món ăn châu Á."
+    "日本人はアジア人です。",
+    "Japanese are Asians. (Tatoeba #772444, arihato, CC BY 2.0 FR)"
    ],
    [
     "だします",
     "dashimasu",
     "lấy ra, nộp, gửi",
-    "てがみを だして、かいしゃへ いきます。",
-    "Tôi gửi thư rồi đi làm."
+    "耳は出しますか。",
+    "Would you like your ears to show? (Tatoeba #150158, mookeee, CC BY 2.0 FR)"
    ],
    [
     "のみます",
     "nomimasu",
     "uống (rượu)",
-    "ビールを のんで、ねます。",
-    "Tôi uống bia rồi đi ngủ."
+    "何を飲みますか。",
+    "What will you have to drink? (Tatoeba #187577, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "はじめます",
     "hajimemasu",
     "bắt đầu",
-    "しごとを はじめて、ひるに ごはんを たべます。",
-    "Tôi bắt đầu làm việc rồi trưa thì ăn cơm."
+    "私は来週、新しい仕事を始めます。",
+    "I am going to start a new job next week. (Tatoeba #152416, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "けんがくします",
@@ -5157,8 +5157,8 @@ window.SENTENCES = {
     "りゅうがくせい",
     "ryuugakusei",
     "lưu học sinh",
-    "りゅうがくせいは ベトナムから きました。",
-    "Lưu học sinh đến từ Việt Nam."
+    "留学生の方ですか？",
+    "Are you an exchange student? (Tatoeba #2412266, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "ベトナム",
@@ -5263,8 +5263,8 @@ window.SENTENCES = {
     "おふろ",
     "ofuro",
     "bồn tắm, phòng tắm",
-    "ねつが ありますから、おふろに はいらないで ください。",
-    "Vì bị sốt, xin đừng tắm bồn."
+    "お風呂の時間です。",
+    "It's time to take a bath. (Tatoeba #11763476, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ごみばこ",
@@ -5305,15 +5305,15 @@ window.SENTENCES = {
     "だします",
     "dashimasu",
     "nộp, gửi, đưa ra (レポートを だします)",
-    "レポートを だして ください。",
-    "Hãy nộp báo cáo."
+    "耳は出しますか。",
+    "Would you like your ears to show? (Tatoeba #150158, mookeee, CC BY 2.0 FR)"
    ],
    [
     "でかけます",
     "dekakemasu",
     "đi ra ngoài",
-    "あした ともだちと でかけます。",
-    "Mai tôi đi chơi với bạn."
+    "いつ出かけますか。",
+    "When will you leave? (Tatoeba #228646, mookeee, CC BY 2.0 FR)"
    ],
    [
     "ぬぎます",
@@ -5326,15 +5326,15 @@ window.SENTENCES = {
     "しんぱい",
     "shinpai",
     "lo lắng",
-    "しけんが しんぱいです。",
-    "Tôi lo về bài thi."
+    "心配ないよ。",
+    "No need to worry. (Tatoeba #3459218, arnab, CC BY 2.0 FR)"
    ],
    [
     "のみます（くすりを）",
     "nomimasu",
     "uống (thuốc)",
-    "ごはんを たべてから、くすりを のんで ください。",
-    "Ăn cơm xong hãy uống thuốc."
+    "何を飲みますか。",
+    "What will you have to drink? (Tatoeba #187577, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "だいじょうぶ",
@@ -5361,8 +5361,8 @@ window.SENTENCES = {
     "たいせつ［な］",
     "taisetsu [na]",
     "quan trọng, quý giá",
-    "パスポートは たいせつですから、なくさないで ください。",
-    "Hộ chiếu rất quan trọng nên xin đừng làm mất."
+    "大切にします。",
+    "I'll treasure it. (Tatoeba #137434, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "あぶない",
@@ -5382,15 +5382,15 @@ window.SENTENCES = {
     "２、３にち",
     "ni-san nichi",
     "hai ba ngày",
-    "２、３にち ゆっくり やすんで ください。",
-    "Hãy nghỉ ngơi thong thả vài ngày."
+    "１０月３日です。",
+    "It's the third of October. (Tatoeba #236068, mookeee, CC BY 2.0 FR)"
    ],
    [
     "ですから",
     "desukara",
     "vì vậy, cho nên",
-    "あしたは しけんです。ですから、きょうは べんきょうしなければ なりません。",
-    "Mai có kỳ thi. Vì vậy hôm nay tôi phải học."
+    "とても高いですから買いませんでした。",
+    "Because it was very expensive, I did not buy it. (Tatoeba #6453904, Tanaka, CC BY 2.0 FR)"
    ],
    [
     "どう しましたか。",
@@ -5403,8 +5403,8 @@ window.SENTENCES = {
     "のど",
     "nodo",
     "cổ họng",
-    "のどが いたいです。",
-    "Tôi đau họng."
+    "のどが痛いです。",
+    "I have a sore throat. (Tatoeba #198561, wat, CC BY 2.0 FR)"
    ],
    [
     "おだいじに。",
@@ -5424,8 +5424,8 @@ window.SENTENCES = {
     "せんせい",
     "sensei",
     "bác sĩ (cách gọi khi nói với bác sĩ)",
-    "せんせい、あたまが いたいんです。",
-    "Bác sĩ ơi, tôi bị đau đầu."
+    "私も先生です。",
+    "I am a teacher, too. (Tatoeba #152190, small_snow, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -5509,29 +5509,29 @@ window.SENTENCES = {
     "どうぶつえん",
     "doubutsuen",
     "vườn thú",
-    "どうぶつえんへ いく まえに、きっぷを かいます。",
-    "Trước khi đi vườn thú tôi mua vé."
+    "動物園に行きましょう！",
+    "Let's go to the zoo! (Tatoeba #9540642, small_snow, CC BY 2.0 FR)"
    ],
    [
     "にっき",
     "nikki",
     "nhật ký",
-    "ねる まえに、にっきを かきます。",
-    "Trước khi ngủ tôi viết nhật ký."
+    "日記をつけています。",
+    "I keep a diary. (Tatoeba #8533443, small_snow, CC BY 2.0 FR)"
    ],
    [
     "げんきん",
     "genkin",
     "tiền mặt",
-    "げんきんで はらう ことが できます。",
-    "Có thể trả bằng tiền mặt."
+    "現金でも大丈夫ですか？",
+    "Can I pay by cash? (Tatoeba #11890833, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ピアノ",
     "piano",
     "đàn piano",
-    "ピアノを ひく ことが できます。",
-    "Tôi chơi được piano."
+    "ピアノは好き？",
+    "Do you like the piano? (Tatoeba #9640768, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "インターネット",
@@ -5565,29 +5565,29 @@ window.SENTENCES = {
     "できます",
     "dekimasu",
     "có thể, làm được; xong",
-    "わたしは にほんごが すこし できます。",
-    "Tôi làm được một chút tiếng Nhật."
+    "できますか？",
+    "Is that possible? (Tatoeba #8691487, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "あらいます",
     "araimasu",
     "rửa, giặt",
-    "ごはんの まえに、てを あらいます。",
-    "Trước bữa cơm tôi rửa tay."
+    "私は毎朝顔を洗います。",
+    "I wash my face every morning. (Tatoeba #152712, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ひきます（ピアノを）",
     "hikimasu",
     "chơi (đàn)",
-    "ナムさんは ピアノを ひく ことが できます。",
-    "Anh Nam chơi được piano."
+    "私はピアノを弾きます。",
+    "I play the piano. (Tatoeba #159067, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "うたいます",
     "utaimasu",
     "hát",
-    "カラオケで にほんの うたを うたいます。",
-    "Tôi hát bài hát Nhật ở karaoke."
+    "みんなで一緒に歌を歌います。",
+    "We'll all sing together. (Tatoeba #10987714, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かえます",
@@ -5600,22 +5600,22 @@ window.SENTENCES = {
     "うんてんします",
     "unten shimasu",
     "lái xe",
-    "わたしは くるまを うんてんする ことが できます。",
-    "Tôi lái xe được."
+    "彼は車を運転しますよね？",
+    "He drives a car, doesn't he? (Tatoeba #104641, mookeee, CC BY 2.0 FR)"
    ],
    [
     "げんきん",
     "genkin",
     "tiền mặt",
-    "げんきんで はらって ください。",
-    "Hãy trả bằng tiền mặt."
+    "現金でも大丈夫ですか？",
+    "Can I pay by cash? (Tatoeba #11890833, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おいのり",
     "oinori",
     "lời cầu nguyện (おいのりを します)",
-    "まいあさ おいのりを します。",
-    "Mỗi sáng tôi cầu nguyện."
+    "お祈りしましょう。",
+    "Let's pray. (Tatoeba #3488677, arnab, CC BY 2.0 FR)"
    ],
    [
     "ほんとうですか。",
@@ -5628,15 +5628,15 @@ window.SENTENCES = {
     "ふるさと",
     "furusato",
     "quê hương (cũng là tên bài hát 「ふるさと」)",
-    "わたしは 「ふるさと」を うたう ことが できます。",
-    "Tôi hát được bài “Furusato”."
+    "ここは私の故郷です。",
+    "This is the village where I was born. (Tatoeba #224306, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "とくに",
     "tokuni",
     "đặc biệt là",
-    "とくに ジャズを きく ことが すきです。",
-    "Đặc biệt tôi thích nghe nhạc jazz."
+    "今朝は特に寒い。",
+    "It is especially cold this morning. (Tatoeba #172252, bunbuku, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -5717,8 +5717,8 @@ window.SENTENCES = {
     "ゴルフ",
     "gorufu",
     "golf",
-    "ゴルフを した ことが ありますか。",
-    "Bạn đã từng chơi golf chưa?"
+    "ゴルフは好きですか。",
+    "Are you fond of golf? (Tatoeba #219041, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "すもう",
@@ -5752,8 +5752,8 @@ window.SENTENCES = {
     "ケーキ",
     "keeki",
     "bánh ngọt",
-    "ダイエットを して いますから、ケーキは たべません。",
-    "Vì đang ăn kiêng nên tôi không ăn bánh."
+    "ケーキをどうぞ。",
+    "Help yourself to the cake. (Tatoeba #225312, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "とうきょうスカイツリー",
@@ -5766,15 +5766,15 @@ window.SENTENCES = {
     "のぼります",
     "noborimasu",
     "leo (núi)",
-    "ふじさんに のぼった ことが あります。",
-    "Tôi đã từng leo núi Phú Sĩ."
+    "週末、友達と山に登ります。",
+    "I'm going to climb a mountain with a friend this weekend. (Tatoeba #10918339, small_snow, CC BY 2.0 FR)"
    ],
    [
     "とまります",
     "tomarimasu",
     "trọ, nghỉ lại (ホテルに とまります)",
-    "きょうとの りょかんに とまりました。",
-    "Tôi đã trọ ở lữ quán ở Kyoto."
+    "ホテルに泊まります。",
+    "We'll stay at a hotel. (Tatoeba #10953998, small_snow, CC BY 2.0 FR)"
    ],
    [
     "れんしゅうします",
@@ -5787,8 +5787,8 @@ window.SENTENCES = {
     "なります",
     "narimasu",
     "trở thành, trở nên",
-    "だんだん さむく なりました。",
-    "Trời dần dần lạnh đi."
+    "いつ暇になりますか？",
+    "When will you be free? (Tatoeba #177906, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ねむい",
@@ -5808,36 +5808,36 @@ window.SENTENCES = {
     "ちょうし",
     "choushi",
     "tình trạng (ちょうしが いい／わるい)",
-    "きょうは ちょうしが いいです。",
-    "Hôm nay tình trạng tốt."
+    "調子はどう？",
+    "How is it going? (Tatoeba #8655852, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おかげさまで",
     "okagesama de",
     "nhờ ơn trời, may nhờ bạn (đáp lại lời hỏi thăm)",
-    "げんきですか。…おかげさまで げんきです。",
-    "Anh khoẻ chứ? …Nhờ ơn anh, tôi khoẻ."
+    "おかげさまで元気です。",
+    "I'm fine, thank you. (Tatoeba #227762, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "でも",
     "demo",
     "nhưng, tuy nhiên (đầu câu)",
-    "にほんごは むずかしいです。でも、おもしろいです。",
-    "Tiếng Nhật khó. Nhưng thú vị."
+    "何でもない。",
+    "Never mind! (Tatoeba #187835, arnab, CC BY 2.0 FR)"
    ],
    [
     "よわい",
     "yowai",
     "yếu",
-    "わたしは テニスが よわいです。",
-    "Tôi chơi tennis yếu."
+    "私の足が弱い。",
+    "My legs are weak. (Tatoeba #1135865, Scott, CC BY 2.0 FR)"
    ],
    [
     "れんしゅう",
     "renshuu",
     "luyện tập (れんしゅうを します)",
-    "まいにち ピアノを れんしゅうします。",
-    "Ngày nào tôi cũng luyện đàn piano."
+    "毎日３時間練習してます。",
+    "I practice three hours every day. (Tatoeba #10303703, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かんぱい",
@@ -5850,8 +5850,8 @@ window.SENTENCES = {
     "ダイエット",
     "daietto",
     "ăn kiêng (ダイエットを します)",
-    "あしたから ダイエットを します。",
-    "Từ mai tôi sẽ ăn kiêng."
+    "ダイエット中です。",
+    "I'm on a diet. (Tatoeba #203991, arnab, CC BY 2.0 FR)"
    ],
    [
     "むり［な］",
@@ -5878,8 +5878,8 @@ window.SENTENCES = {
     "じつは",
     "jitsu wa",
     "thật ra là",
-    "じつは ダイエットを して います。",
-    "Thật ra tôi đang ăn kiêng."
+    "実は、姉なんです。",
+    "Actually, she's my older sister. (Tatoeba #11563505, small_snow, CC BY 2.0 FR)"
    ],
    [
     "なんかいも",
@@ -5892,8 +5892,8 @@ window.SENTENCES = {
     "しかし",
     "shikashi",
     "tuy nhiên",
-    "にほんごは むずかしいです。しかし、おもしろいです。",
-    "Tiếng Nhật khó. Tuy nhiên thú vị."
+    "しかし、車は欲しい。",
+    "But I want a car. (Tatoeba #216308, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "おちゃ",
@@ -5994,50 +5994,50 @@ window.SENTENCES = {
     "サラリーマン",
     "sarariiman",
     "nhân viên văn phòng",
-    "ちちは サラリーマンだ。",
-    "Bố tôi là nhân viên văn phòng."
+    "私はしがないサラリーマンです。",
+    "I'm just a plain old office worker. (Tatoeba #477341, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "サラリーマン",
     "sarariiman",
     "nhân viên văn phòng (nam)",
-    "ちちは サラリーマンだ。",
-    "Bố tôi là nhân viên văn phòng."
+    "私はしがないサラリーマンです。",
+    "I'm just a plain old office worker. (Tatoeba #477341, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ことば",
     "kotoba",
     "từ, ngôn ngữ",
-    "にほんごの ことばは むずかしい。",
-    "Từ tiếng Nhật khó."
+    "言葉は大切ね。",
+    "Language is important. (Tatoeba #12577570, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ぶっか",
     "bukka",
     "giá cả, vật giá",
-    "にほんは ぶっかが たかい。",
-    "Vật giá ở Nhật đắt."
+    "物価がとても高い国です。",
+    "It's a very expensive country. (Tatoeba #13885230, small_snow, CC BY 2.0 FR)"
    ],
    [
     "いります（ビザが）",
     "irimasu",
     "cần (ビザが いります)",
-    "りょこうに ビザが いる。",
-    "Đi du lịch cần visa."
+    "これ要ります？",
+    "Do you need this? (Tatoeba #11041810, small_snow, CC BY 2.0 FR)"
    ],
    [
     "しらべます",
     "shirabemasu",
     "tra cứu, điều tra",
-    "じしょで しらべる。",
-    "Tra bằng từ điển."
+    "辞書で調べます。",
+    "I will look it up in the dictionary. (Tatoeba #159702, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "でんわします",
     "denwa shimasu",
     "gọi điện",
-    "あした でんわする。",
-    "Mai tôi sẽ gọi điện."
+    "後で電話します。",
+    "I'll call you back later. (Tatoeba #174334, small_snow, CC BY 2.0 FR)"
    ],
    [
     "くにへ かえるの？",
@@ -6071,8 +6071,8 @@ window.SENTENCES = {
     "よかったら",
     "yokattara",
     "nếu bạn thấy ổn, nếu được",
-    "よかったら、いっしょに いきませんか。",
-    "Nếu được thì cùng đi nhé."
+    "よかったら友達になりませんか？",
+    "If it is ok, can you be my friend? (Tatoeba #3710330, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "いろいろ",
@@ -6179,15 +6179,15 @@ window.SENTENCES = {
     "ニュース",
     "nyuusu",
     "tin tức",
-    "ニュースで あめだと いって いました。",
-    "Trên bản tin nói là mưa."
+    "面白いニュースね。",
+    "It's interesting news. (Tatoeba #11254037, small_snow, CC BY 2.0 FR)"
    ],
    [
     "スピーチ",
     "supiichi",
     "bài phát biểu",
-    "かいぎで スピーチを しました。",
-    "Tôi đã phát biểu ở cuộc họp."
+    "明日スピーチをします。",
+    "I'll give a speech tomorrow. (Tatoeba #9575815, small_snow, CC BY 2.0 FR)"
    ],
    [
     "しゅしょう",
@@ -6207,15 +6207,15 @@ window.SENTENCES = {
     "おもいます",
     "omoimasu",
     "nghĩ, cho rằng",
-    "あしたは あめだと おもいます。",
-    "Tôi nghĩ ngày mai sẽ mưa."
+    "そう思います。",
+    "I think so. (Tatoeba #213778, Ianagisacos, CC BY 2.0 FR)"
    ],
    [
     "いいます",
     "iimasu",
     "nói",
-    "ナムさんは 「ありがとう」と いいました。",
-    "Anh Nam đã nói “cảm ơn”."
+    "この花は何と言いますか。",
+    "What do you call this flower? (Tatoeba #222732, mookeee, CC BY 2.0 FR)"
    ],
    [
     "たります",
@@ -6228,22 +6228,22 @@ window.SENTENCES = {
     "あります（かいぎが）",
     "arimasu",
     "diễn ra, được tổ chức (sự kiện)",
-    "あした かいぎが あります。",
-    "Ngày mai có cuộc họp."
+    "熱はありますか。",
+    "Any fever? (Tatoeba #121893, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "やくに たちます",
     "yaku ni tachimasu",
     "có ích",
-    "この じしょは やくに たちます。",
-    "Cuốn từ điển này có ích."
+    "ちょっとした言葉が、とても役に立ちます。",
+    "A little language goes a long way. (Tatoeba #9856575, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おなじ",
     "onaji",
     "giống nhau, cùng",
-    "わたしと おなじです。",
-    "Giống tôi."
+    "同じ意見です。",
+    "I agree. (Tatoeba #774830, marloncori, CC BY 2.0 FR)"
    ],
    [
     "すごい",
@@ -6256,15 +6256,15 @@ window.SENTENCES = {
     "アルバイト",
     "arubaito",
     "việc làm thêm",
-    "アルバイトを して います。",
-    "Tôi đang làm thêm."
+    "何かアルバイトはしていますか。",
+    "Do you have a part-time job? (Tatoeba #188151, small_snow, CC BY 2.0 FR)"
    ],
    [
     "いけん",
     "iken",
     "ý kiến",
-    "ナムさんの いけんは どうですか。",
-    "Ý kiến của anh Nam thế nào?"
+    "同じ意見です。",
+    "I agree. (Tatoeba #774830, marloncori, CC BY 2.0 FR)"
    ],
    [
     "こうつう",
@@ -6284,8 +6284,8 @@ window.SENTENCES = {
     "デザイン",
     "dezain",
     "thiết kế",
-    "この デザインは きれいだと おもいます。",
-    "Tôi nghĩ thiết kế này đẹp."
+    "彼がその車をデザインした。",
+    "He designed the car. (Tatoeba #1168359, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ゆめ",
@@ -6298,8 +6298,8 @@ window.SENTENCES = {
     "てんさい",
     "tensai",
     "thiên tài",
-    "あの ひとは てんさいだと おもいます。",
-    "Tôi nghĩ người đó là thiên tài."
+    "私、天才かも！",
+    "I might be a genius. (Tatoeba #12095501, small_snow, CC BY 2.0 FR)"
    ],
    [
     "はなし",
@@ -6312,8 +6312,8 @@ window.SENTENCES = {
     "ちきゅう",
     "chikyuu",
     "Trái Đất",
-    "ちきゅうは あおいと いいました。",
-    "Anh ấy đã nói Trái Đất màu xanh."
+    "月は地球から遠い。",
+    "The moon is distant from the earth. (Tatoeba #175635, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "さいきん",
@@ -6403,15 +6403,15 @@ window.SENTENCES = {
     "じどうしゃ",
     "jidousha",
     "ô tô",
-    "にほんの じどうしゃは すごいと おもいます。",
-    "Tôi nghĩ ô tô của Nhật thật ghê gớm."
+    "これは私の自動車です。",
+    "This is my car. (Tatoeba #4659110, anhgosho, CC BY 2.0 FR)"
    ],
    [
     "ぶっか",
     "bukka",
     "vật giá",
-    "にほんは ぶっかが たかいと おもいます。",
-    "Tôi nghĩ vật giá ở Nhật đắt."
+    "物価がとても高い国です。",
+    "It's a very expensive country. (Tatoeba #13885230, small_snow, CC BY 2.0 FR)"
    ],
    [
     "つき",
@@ -6431,8 +6431,8 @@ window.SENTENCES = {
     "そんなに",
     "sonna ni",
     "đến mức đó (đi với phủ định)",
-    "そんなに たかくないと おもいます。",
-    "Tôi nghĩ không đắt đến mức đó."
+    "何がそんなに忙しいの？",
+    "How come you're so busy? (Tatoeba #3552525, tommy_san, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -6519,8 +6519,8 @@ window.SENTENCES = {
     "コート",
     "kooto",
     "áo khoác",
-    "さむいですから、コートを きます。",
-    "Lạnh nên tôi mặc áo khoác."
+    "この新しいコート、どう？",
+    "What do you think of my new coat? (Tatoeba #221048, Blanka_Meduzo, CC BY 2.0 FR)"
    ],
    [
     "スーツ",
@@ -6533,15 +6533,15 @@ window.SENTENCES = {
     "ぼうし",
     "boushi",
     "mũ",
-    "ぼうしを かぶって いる ひとは だれですか。",
-    "Người đội mũ là ai?"
+    "帽子、返して。",
+    "Give me back my hat. (Tatoeba #10516099, small_snow, CC BY 2.0 FR)"
    ],
    [
     "めがね",
     "megane",
     "kính",
-    "めがねを かけて いる ひとは たなかさんです。",
-    "Người đeo kính là anh Tanaka."
+    "私の眼鏡はどこ？",
+    "Where are my glasses? (Tatoeba #163890, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ふとん",
@@ -6561,36 +6561,36 @@ window.SENTENCES = {
     "アパート",
     "apaato",
     "căn hộ cho thuê",
-    "わたしが すんで いる アパートは ふるいです。",
-    "Căn hộ tôi đang ở thì cũ."
+    "いいアパートね。",
+    "This is a great apartment. (Tatoeba #229463, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "べんとう",
     "bentou",
     "hộp cơm",
-    "これは わたしが つくった べんとうです。",
-    "Đây là hộp cơm tôi làm."
+    "私は毎日昼に弁当を食べます。",
+    "I eat lunch every day at noon. (Tatoeba #1483518, marshmallowcat, CC BY 2.0 FR)"
    ],
    [
     "ロボット",
     "robotto",
     "người máy",
-    "あの ロボットは にほんで つくった ものです。",
-    "Con người máy kia được làm ở Nhật."
+    "ロボットは好きですか。",
+    "Do you like robots? (Tatoeba #2125746, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "パリ",
     "pari",
     "Paris",
-    "わたしが いった パリは きれいな まちでした。",
-    "Paris tôi đã đến là một thành phố đẹp."
+    "彼はパリへ旅行した。",
+    "He made a journey to Paris. (Tatoeba #111243, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きます（シャツを）",
     "kimasu",
     "mặc (áo)",
-    "あかい シャツを きて います。",
-    "Tôi đang mặc áo sơ mi đỏ."
+    "着物は着ますか。",
+    "Do you wear a kimono? (Tatoeba #126595, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "はきます（くつ・ズボンを）",
@@ -6624,36 +6624,36 @@ window.SENTENCES = {
     "こちら",
     "kochira",
     "đây (người, phía này, lịch sự)",
-    "こちらは リンさんです。",
-    "Đây là chị Linh."
+    "こちらは母です。",
+    "This is my mother. (Tatoeba #373214, kotobaboke, CC BY 2.0 FR)"
    ],
    [
     "やちん",
     "yachin",
     "tiền thuê nhà",
-    "やちんは たかいです。",
-    "Tiền thuê nhà đắt."
+    "家賃は月いくらですか。",
+    "How much is the rent per month? (Tatoeba #186913, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "アパート",
     "apaato",
     "chung cư nhỏ, nhà cho thuê",
-    "わたしは アパートに すんで います。",
-    "Tôi sống ở một căn hộ cho thuê."
+    "いいアパートね。",
+    "This is a great apartment. (Tatoeba #229463, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "［お］べんとう",
     "[o]bentou",
     "hộp cơm",
-    "これは わたしが つくった べんとうです。",
-    "Đây là hộp cơm tôi làm."
+    "私は毎日昼に弁当を食べます。",
+    "I eat lunch every day at noon. (Tatoeba #1483518, marshmallowcat, CC BY 2.0 FR)"
    ],
    [
     "ロボット",
     "robotto",
     "người máy",
-    "あれは ロボットが つくった ケーキです。",
-    "Kia là chiếc bánh do người máy làm."
+    "ロボットは好きですか。",
+    "Do you like robots? (Tatoeba #2125746, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ユーモア",
@@ -6666,8 +6666,8 @@ window.SENTENCES = {
     "つごう",
     "tsugou",
     "sự thuận tiện (つごうが いい／わるい)",
-    "あした つごうが いい ひとは いますか。",
-    "Ngày mai có ai tiện không?"
+    "どこが都合がいい？",
+    "Where's convenient for you? (Tatoeba #201006, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おさがしですか。",
@@ -6680,15 +6680,15 @@ window.SENTENCES = {
     "では",
     "dewa",
     "vậy thì",
-    "では、あした あう ひとは たなかさんです。",
-    "Vậy thì người tôi gặp ngày mai là anh Tanaka."
+    "ではまた明日。",
+    "See you again tomorrow. (Tatoeba #202140, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "パリ",
     "pari",
     "Paris",
-    "わたしが いった パリは きれいな まちでした。",
-    "Paris tôi đã đến là một thành phố đẹp."
+    "彼はパリへ旅行した。",
+    "He made a journey to Paris. (Tatoeba #111243, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ばんりの ちょうじょう",
@@ -6715,15 +6715,15 @@ window.SENTENCES = {
     "ケーキ",
     "keeki",
     "bánh ngọt",
-    "ナムさんが つくった ケーキは おいしいです。",
-    "Chiếc bánh anh Nam làm ngon."
+    "ケーキをどうぞ。",
+    "Help yourself to the cake. (Tatoeba #225312, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "えーと",
     "eeto",
     "ừm, để xem nào",
-    "えーと、あした あう ひとは たなかさんです。",
-    "Ừm, người tôi gặp ngày mai là anh Tanaka."
+    "えーとですね。",
+    "Um, well. (Tatoeba #11001436, small_snow, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -6796,8 +6796,8 @@ window.SENTENCES = {
     "しんごう",
     "shingou",
     "đèn giao thông",
-    "しんごうが あかいと、とまって ください。",
-    "Hễ đèn đỏ thì hãy dừng lại."
+    "その信号を右ね。",
+    "Turn right at the light. (Tatoeba #9518574, small_snow, CC BY 2.0 FR)"
    ],
    [
     "こうさてん",
@@ -6824,22 +6824,22 @@ window.SENTENCES = {
     "おゆ",
     "oyu",
     "nước nóng",
-    "この ボタンを おすと、おゆが でます。",
-    "Hễ ấn nút này thì nước nóng chảy ra."
+    "お湯が出ません。",
+    "The hot water isn't running. (Tatoeba #226801, Ianagisacos, CC BY 2.0 FR)"
    ],
    [
     "きかい",
     "kikai",
     "máy móc",
-    "この きかいは ボタンを おすと うごきます。",
-    "Hễ ấn nút thì cái máy này chạy."
+    "この機械は調子が悪い。",
+    "This machine does not run well. (Tatoeba #222459, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "つまみ",
     "tsumami",
     "núm vặn",
-    "つまみを まわすと、おとが おおきく なります。",
-    "Hễ xoay núm thì âm thanh to lên."
+    "何かおつまみない？",
+    "Do we have anything I can snack on? (Tatoeba #188136, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "でんきや",
@@ -6859,8 +6859,8 @@ window.SENTENCES = {
     "ききます（ひとに）",
     "kikimasu",
     "hỏi (ai đó)",
-    "えきの ひとに ききます。",
-    "Tôi hỏi người ở ga."
+    "明日、彼に聞きます。",
+    "Tomorrow, I will ask him. (Tatoeba #1484587, marshmallowcat, CC BY 2.0 FR)"
    ],
    [
     "かえます",
@@ -6873,8 +6873,8 @@ window.SENTENCES = {
     "でます（おつりが）",
     "demasu",
     "ra (tiền thừa ra)",
-    "ボタンを おすと、おつりが でます。",
-    "Hễ ấn nút thì tiền thừa ra."
+    "私が出ます。",
+    "I'll get it. (Tatoeba #167677, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "うごきます",
@@ -6901,8 +6901,8 @@ window.SENTENCES = {
     "まっすぐ",
     "massugu",
     "thẳng",
-    "ここを まっすぐ いって ください。",
-    "Hãy đi thẳng chỗ này."
+    "まっすぐ前を見てください。",
+    "Look forward, please. (Tatoeba #195363, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "［お］ゆ",
@@ -6915,15 +6915,15 @@ window.SENTENCES = {
     "サイズ",
     "saizu",
     "cỡ, kích cỡ",
-    "サイズが ちいさい とき、かえて ください。",
-    "Khi cỡ nhỏ thì hãy đổi."
+    "靴のサイズはいくつ？",
+    "What's your shoe size? (Tatoeba #10675609, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "こしょう",
     "koshou",
     "hỏng hóc (こしょうします)",
-    "きかいが こしょうした とき、でんわして ください。",
-    "Khi máy hỏng thì hãy gọi điện."
+    "テレビが故障した。",
+    "My TV has broken down. (Tatoeba #202051, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "みち",
@@ -6950,15 +6950,15 @@ window.SENTENCES = {
     "きかい",
     "kikai",
     "máy móc",
-    "この きかいは ボタンを おすと うごきます。",
-    "Hễ ấn nút thì cái máy này chạy."
+    "この機械は調子が悪い。",
+    "This machine does not run well. (Tatoeba #222459, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "つまみ",
     "tsumami",
     "núm vặn",
-    "つまみを まわすと、おとが おおきく なります。",
-    "Hễ xoay núm thì âm thanh to lên."
+    "何かおつまみない？",
+    "Do we have anything I can snack on? (Tatoeba #188136, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "がいこくじんとうろくしょう",
@@ -6985,8 +6985,8 @@ window.SENTENCES = {
     "たてもの",
     "tatemono",
     "toà nhà",
-    "この たてものの なかに はいると、すずしいです。",
-    "Hễ vào trong toà nhà này thì mát."
+    "高い建物ですね。",
+    "That is a high building, is it not? (Tatoeba #229710, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "なんかいも",
@@ -7084,15 +7084,15 @@ window.SENTENCES = {
     "おかし",
     "okashi",
     "bánh kẹo",
-    "たなかさんが おかしを くれました。",
-    "Anh Tanaka đã cho tôi bánh kẹo."
+    "このお菓子は甘いです。",
+    "This candy is sweet. (Tatoeba #11038989, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ひっこし",
     "hikkoshi",
     "việc chuyển nhà",
-    "ともだちが ひっこしを てつだって くれました。",
-    "Bạn đã giúp tôi chuyển nhà."
+    "彼は引っ越した。",
+    "He moved. (Tatoeba #13428431, demiurgastel, CC BY 2.0 FR)"
    ],
    [
     "ホームステイ",
@@ -7112,8 +7112,8 @@ window.SENTENCES = {
     "おばあさん",
     "obaasan",
     "bà",
-    "おばあさんが おかしを くれました。",
-    "Bà đã cho tôi bánh kẹo."
+    "おばあさんはバスから降りた。",
+    "The old lady got down from the bus. (Tatoeba #227592, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ワゴンしゃ",
@@ -7126,15 +7126,15 @@ window.SENTENCES = {
     "くれます",
     "kuremasu",
     "cho (tôi, người trong nhóm tôi)",
-    "ともだちが わたしに はなを くれました。",
-    "Bạn đã tặng tôi hoa."
+    "案内してくれますか。",
+    "Show me the way, will you? (Tatoeba #191238, small_snow, CC BY 2.0 FR)"
    ],
    [
     "なおします",
     "naoshimasu",
     "sửa",
-    "ちちが とけいを なおして くれました。",
-    "Bố tôi đã sửa đồng hồ cho tôi."
+    "今から直します。",
+    "I'll fix it now. (Tatoeba #2241832, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "おくります（ひとを）",
@@ -7147,50 +7147,50 @@ window.SENTENCES = {
     "しょうかいします",
     "shoukai shimasu",
     "giới thiệu",
-    "リンさんを たなかさんに しょうかいしました。",
-    "Tôi đã giới thiệu chị Linh với anh Tanaka."
+    "兄を紹介します。",
+    "I'll introduce you to my brother. (Tatoeba #10129180, small_snow, CC BY 2.0 FR)"
    ],
    [
     "あんないします",
     "annai shimasu",
     "hướng dẫn, dẫn đường",
-    "ともだちに まちを あんないしました。",
-    "Tôi đã dẫn bạn đi tham quan phố."
+    "ご案内します。",
+    "I'll guide you. (Tatoeba #10570941, small_snow, CC BY 2.0 FR)"
    ],
    [
     "せつめいします",
     "setsumei shimasu",
     "giải thích",
-    "ぶちょうが しごとの ことを せつめいしました。",
-    "Trưởng phòng đã giải thích về công việc."
+    "写真で説明します。",
+    "I'll explain using photographs. (Tatoeba #2402543, wakatyann630, CC BY 2.0 FR)"
    ],
    [
     "いれます（コーヒーを）",
     "iremasu",
     "pha (cà phê, trà)",
-    "ともだちに コーヒーを いれて あげました。",
-    "Tôi đã pha cà phê cho bạn."
+    "砂糖は入れますか。",
+    "Would you like some sugar? (Tatoeba #170877, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "じぶんで",
     "jibun de",
     "tự mình",
-    "じぶんで りょうりを つくりました。",
-    "Tôi tự nấu ăn."
+    "自分でします。",
+    "I will do it myself. (Tatoeba #156296, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "ぜんぶ",
     "zenbu",
     "tất cả",
-    "しゅくだいを ぜんぶ やって あげました。",
-    "Tôi đã làm giúp hết bài tập."
+    "それで全部？",
+    "Is that all? (Tatoeba #3507409, arnab, CC BY 2.0 FR)"
    ],
    [
     "ほかに",
     "hoka ni",
     "ngoài ra",
-    "ほかに てつだって あげる ひとは いませんか。",
-    "Ngoài ra còn ai giúp được không?"
+    "ほかに欲しい物はありますか？",
+    "Is there anything else you want? (Tatoeba #11013767, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "ははの ひ",
@@ -7203,8 +7203,8 @@ window.SENTENCES = {
     "いみ",
     "imi",
     "ý nghĩa",
-    "この ことばの いみを おしえて あげました。",
-    "Tôi đã giải thích nghĩa của từ này giúp bạn."
+    "意味は分かります。",
+    "I'm catching on. (Tatoeba #191036, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ワゴンしゃ",
@@ -7217,8 +7217,8 @@ window.SENTENCES = {
     "［お］べんとう",
     "[o]bentou",
     "hộp cơm",
-    "ははが べんとうを つくって くれました。",
-    "Mẹ đã làm hộp cơm cho tôi."
+    "私は毎日昼に弁当を食べます。",
+    "I eat lunch every day at noon. (Tatoeba #1483518, marshmallowcat, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -7287,15 +7287,15 @@ window.SENTENCES = {
     "いなか",
     "inaka",
     "quê, nông thôn",
-    "いなかに りょうしんが すんで います。",
-    "Bố mẹ tôi sống ở quê."
+    "去年の夏、父の田舎に行きました。",
+    "I visited my father's hometown last summer. (Tatoeba #182223, small_snow, CC BY 2.0 FR)"
    ],
    [
     "たいしかん",
     "taishikan",
     "đại sứ quán",
-    "たいしかんで ビザを とりました。",
-    "Tôi đã lấy visa ở đại sứ quán."
+    "私は明日大使館へ行きます。",
+    "I'll go to the embassy tomorrow. (Tatoeba #10903698, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かんがえます",
@@ -7308,8 +7308,8 @@ window.SENTENCES = {
     "つきます（えきに）",
     "tsukimasu",
     "đến (nơi)",
-    "えきに ついたら、でんわして ください。",
-    "Đến ga thì hãy gọi điện."
+    "明日荷物が着きます。",
+    "Your luggage will arrive tomorrow. (Tatoeba #10954009, small_snow, CC BY 2.0 FR)"
    ],
    [
     "りゅうがくします",
@@ -7329,22 +7329,22 @@ window.SENTENCES = {
     "いなか",
     "inaka",
     "quê, nông thôn",
-    "いなかに りょうしんが すんで います。",
-    "Bố mẹ tôi sống ở quê."
+    "去年の夏、父の田舎に行きました。",
+    "I visited my father's hometown last summer. (Tatoeba #182223, small_snow, CC BY 2.0 FR)"
    ],
    [
     "たいしかん",
     "taishikan",
     "đại sứ quán",
-    "たいしかんで ビザを とりました。",
-    "Tôi đã lấy visa ở đại sứ quán."
+    "私は明日大使館へ行きます。",
+    "I'll go to the embassy tomorrow. (Tatoeba #10903698, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ぜんぜん",
     "zenzen",
     "hoàn toàn không (+ phủ định)",
-    "あの ひとの ことは ぜんぜん しりません。",
-    "Tôi hoàn toàn không biết người đó."
+    "全然問題ないよ！",
+    "No problem at all! (Tatoeba #9328935, small_snow, CC BY 2.0 FR)"
    ],
    [
     "もう いちど",
@@ -7357,22 +7357,22 @@ window.SENTENCES = {
     "しつれいします",
     "shitsurei shimasu",
     "xin phép (khi vào, ra khỏi phòng, cáo từ)",
-    "しつれいします。",
-    "Xin phép (tôi vào / tôi xin phép ra)."
+    "失礼します。",
+    "May I be excused? (Tatoeba #507553, orzage, CC BY 2.0 FR)"
    ],
    [
     "チャンス",
     "chansu",
     "cơ hội",
-    "いい チャンスを もらいました。",
-    "Tôi đã nhận được một cơ hội tốt."
+    "もう一度チャンスをください。",
+    "Please give me another chance. (Tatoeba #9687097, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "いみ",
     "imi",
     "ý nghĩa",
-    "この ことばの いみが わからなかったら、きいて ください。",
-    "Nếu không hiểu nghĩa của từ này thì hãy hỏi."
+    "意味は分かります。",
+    "I'm catching on. (Tatoeba #191036, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "てんきん",
@@ -7385,8 +7385,8 @@ window.SENTENCES = {
     "こと",
     "koto",
     "việc, chuyện (～の こと)",
-    "リンさんの ことを おしえて もらいました。",
-    "Tôi được cho biết chuyện về chị Linh."
+    "僕のこと好き？",
+    "Do you love me? (Tatoeba #82218, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "［いろいろ］おせわに なりました。",
@@ -7413,8 +7413,8 @@ window.SENTENCES = {
     "グループ",
     "guruupu",
     "nhóm",
-    "グループで いっしょに あそびに いきました。",
-    "Chúng tôi cả nhóm cùng đi chơi."
+    "学生のグループが一緒に歩きます。",
+    "The group of students all walk together. (Tatoeba #10951072, small_snow, CC BY 2.0 FR)"
    ],
    [
     "いっぱい のみましょう。",
@@ -7530,8 +7530,8 @@ window.SENTENCES = {
     "ごみ",
     "gomi",
     "rác",
-    "もえる ごみは げつようびに だします。",
-    "Rác cháy được đổ vào thứ Hai."
+    "ごみを外に出して。",
+    "Take the garbage out. (Tatoeba #4213360, small_snow, CC BY 2.0 FR)"
    ],
    [
     "びん",
@@ -7551,22 +7551,22 @@ window.SENTENCES = {
     "コース",
     "koosu",
     "khoá học",
-    "にほんごの コースに もうしこみました。",
-    "Tôi đã đăng ký khoá tiếng Nhật."
+    "１日コースがありますか。",
+    "Do you have any day tours? (Tatoeba #235703, mookeee, CC BY 2.0 FR)"
    ],
    [
     "ちこく",
     "chikoku",
     "việc đi muộn",
-    "ちこくして すみません。",
-    "Xin lỗi vì đã đến muộn."
+    "遅刻したね。",
+    "You are late. (Tatoeba #126684, mookeee, CC BY 2.0 FR)"
    ],
    [
     "うんどうかい",
     "undoukai",
     "hội thao",
-    "うんどうかいに さんかしたんです。",
-    "Tôi đã tham gia hội thao."
+    "もうすぐ運動会があります。",
+    "There is an athletic meet soon. (Tatoeba #194439, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ぼんおどり",
@@ -7621,8 +7621,8 @@ window.SENTENCES = {
     "さんかします",
     "sanka shimasu",
     "tham gia",
-    "らいしゅうの パーティーに さんかします。",
-    "Tôi sẽ tham gia buổi tiệc tuần sau."
+    "会議には参加しますよ。",
+    "I'll attend the meeting. (Tatoeba #10503517, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "もうしこみます",
@@ -7635,8 +7635,8 @@ window.SENTENCES = {
     "れんらくします",
     "renraku shimasu",
     "liên lạc",
-    "あとで れんらくします。",
-    "Lát nữa tôi sẽ liên lạc."
+    "また連絡します。",
+    "We'll be in touch. (Tatoeba #3357837, arnab, CC BY 2.0 FR)"
    ],
    [
     "こまります",
@@ -7649,22 +7649,22 @@ window.SENTENCES = {
     "やります",
     "yarimasu",
     "làm (khẩu ngữ của します)",
-    "しゅくだいを やって いるんです。",
-    "Tôi đang làm bài tập."
+    "やりますか。",
+    "Will you do it? (Tatoeba #1564979, marcelostockle, CC BY 2.0 FR)"
    ],
    [
     "ちょうど",
     "choudo",
     "vừa đúng, vừa mới",
-    "ちょうど いま かえったんです。",
-    "Tôi vừa mới về xong."
+    "ちょうど今は忙しい。",
+    "I'm busy at the moment. (Tatoeba #202918, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "よかったら",
     "yokattara",
     "nếu bạn thấy tiện / nếu được",
-    "よかったら、いっしょに いきませんか。",
-    "Nếu tiện thì cùng đi nhé."
+    "よかったら友達になりませんか？",
+    "If it is ok, can you be my friend? (Tatoeba #3710330, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "ひろいます",
@@ -7691,15 +7691,15 @@ window.SENTENCES = {
     "ばしょ",
     "basho",
     "nơi, chỗ",
-    "ばしょが わからないんです。",
-    "Tôi không biết chỗ đó."
+    "場所教えて。",
+    "Tell me where it is. (Tatoeba #10906700, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ボランティア",
     "borantia",
     "tình nguyện viên",
-    "ボランティアを して いるんです。",
-    "Tôi đang làm tình nguyện."
+    "ボランティアの方はいらっしゃいますか？",
+    "Are there any volunteers? (Tatoeba #8689122, small_snow, CC BY 2.0 FR)"
    ],
    [
     "こっかいぎじどう",
@@ -7712,15 +7712,15 @@ window.SENTENCES = {
     "へいじつ",
     "heijitsu",
     "ngày thường",
-    "へいじつは いそがしいんです。",
-    "Ngày thường tôi bận."
+    "平日はいつも人が少ないです。",
+    "On weekdays, there are always fewer people. (Tatoeba #11283960, small_snow, CC BY 2.0 FR)"
    ],
    [
     "こんど",
     "kondo",
     "lần tới, lần này",
-    "こんど おしえて いただけませんか。",
-    "Lần tới anh chỉ cho tôi được không ạ?"
+    "今度はがんばります。",
+    "I'll try not to disappoint you next time. (Tatoeba #172109, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ずいぶん",
@@ -7754,8 +7754,8 @@ window.SENTENCES = {
     "ガス",
     "gasu",
     "ga",
-    "ガスが でないんです。",
-    "Ga không ra."
+    "ガスは止めた？",
+    "Did you turn off the gas? (Tatoeba #3416687, arnab, CC BY 2.0 FR)"
    ],
    [
     "こわい",
@@ -7810,29 +7810,29 @@ window.SENTENCES = {
     "べつの",
     "betsu no",
     "khác, riêng",
-    "べつの ほんを みせて いただけませんか。",
-    "Anh cho tôi xem quyển sách khác được không ạ?"
+    "別のが欲しい。",
+    "I want another. (Tatoeba #8817030, small_snow, CC BY 2.0 FR)"
    ],
    [
     "みます",
     "mimasu",
     "xem; khám (bệnh)",
-    "びょういんで みて いただけませんか。",
-    "Anh khám giúp tôi ở bệnh viện được không ạ?"
+    "猫は夢を見ますか？",
+    "Do cats dream? (Tatoeba #8982983, Shounen, CC BY 2.0 FR)"
    ],
    [
     "さいふ",
     "saifu",
     "ví tiền",
-    "さいふを なくしたんです。",
-    "Tôi làm mất ví."
+    "財布をなくしたの。",
+    "I have lost my wallet. (Tatoeba #5069, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ちがいます",
     "chigaimasu",
     "khác, sai",
-    "それは ちがうんです。",
-    "Cái đó sai rồi."
+    "違いますか？",
+    "Isn't that so? (Tatoeba #3496743, arnab, CC BY 2.0 FR)"
    ],
    [
     "［お］ゆ",
@@ -7926,8 +7926,8 @@ window.SENTENCES = {
     "はなび",
     "hanabi",
     "pháo hoa",
-    "はなびが みられます。",
-    "Có thể xem pháo hoa."
+    "花火を見た？",
+    "Did you see the fireworks? (Tatoeba #9415265, small_snow, CC BY 2.0 FR)"
    ],
    [
     "けしき",
@@ -7954,8 +7954,8 @@ window.SENTENCES = {
     "マンション",
     "manshon",
     "chung cư cao cấp",
-    "この マンションから ふじさんが みえます。",
-    "Từ chung cư này thấy núi Phú Sĩ."
+    "最近、新しいマンションに引っ越しました。",
+    "Recently, I moved to a new apartment. (Tatoeba #11285704, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ドラえもん",
@@ -7968,15 +7968,15 @@ window.SENTENCES = {
     "ポケット",
     "poketto",
     "túi áo",
-    "ポケットに さいふが はいります。",
-    "Ví bỏ vừa trong túi."
+    "ポケットを確認して。",
+    "Check your pockets. (Tatoeba #9308415, small_snow, CC BY 2.0 FR)"
    ],
    [
     "まんが",
     "manga",
     "truyện tranh",
-    "まんがが よめます。",
-    "Tôi đọc được truyện tranh."
+    "私は漫画家です。",
+    "I'm a cartoonist. (Tatoeba #3068313, arnab, CC BY 2.0 FR)"
    ],
    [
     "かいます（ペットを）",
@@ -7989,22 +7989,22 @@ window.SENTENCES = {
     "はしります",
     "hashirimasu",
     "chạy",
-    "まいあさ こうえんを はしります。",
-    "Mỗi sáng tôi chạy trong công viên."
+    "私は走ります。",
+    "I run. (Tatoeba #155349, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "できます",
     "dekimasu",
     "được xây dựng, hoàn thành; làm được",
-    "えきの まえに あたらしい スーパーが できました。",
-    "Trước ga đã mọc lên siêu thị mới."
+    "できますか？",
+    "Is that possible? (Tatoeba #8691487, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ひらきます",
     "hirakimasu",
     "mở, tổ chức (lớp, cửa hàng)",
-    "りょうしんが にほんごの きょうしつを ひらきました。",
-    "Bố mẹ tôi đã mở lớp tiếng Nhật."
+    "ドアが開きます。",
+    "The door opens. (Tatoeba #8888550, mochico, CC BY 2.0 FR)"
    ],
    [
     "どうぐ",
@@ -8017,15 +8017,15 @@ window.SENTENCES = {
     "じゆうに",
     "jiyuu ni",
     "tự do, thoải mái",
-    "じゆうに つかって ください。",
-    "Hãy thoải mái sử dụng."
+    "どうぞ、ご自由にみてください。",
+    "Please go ahead and take a look at your leisure. (Tatoeba #2461914, flavio78, CC BY 2.0 FR)"
    ],
    [
     "ほかの",
     "hoka no",
     "khác, ngoài ra",
-    "ほかの ひとに ききます。",
-    "Tôi hỏi người khác."
+    "他のものはないの？",
+    "Isn't there anything else? (Tatoeba #4561554, Kiraness, CC BY 2.0 FR)"
    ],
    [
     "なみ",
@@ -8038,36 +8038,36 @@ window.SENTENCES = {
     "クリーニング",
     "kuriiningu",
     "giặt là",
-    "クリーニングは どこで できますか。",
-    "Giặt là ở đâu được?"
+    "クリーニング屋はどこですか？",
+    "Where is the laundry? (Tatoeba #1700965, mookeee, CC BY 2.0 FR)"
    ],
    [
     "はっきり",
     "hakkiri",
     "rõ ràng",
-    "ふじさんが はっきり みえます。",
-    "Thấy núi Phú Sĩ rất rõ."
+    "はっきり見えますか？",
+    "Can you see it clearly? (Tatoeba #13537593, LeviHighway, CC BY 2.0 FR)"
    ],
    [
     "かぐ",
     "kagu",
     "đồ nội thất",
-    "かぐが かえます。",
-    "Có thể mua đồ nội thất."
+    "家具屋に行きましょう。",
+    "Let's go to the furniture store. (Tatoeba #12484055, Lumi, CC BY 2.0 FR)"
    ],
    [
     "すばらしい",
     "subarashii",
     "tuyệt vời",
-    "すばらしい けしきが みえます。",
-    "Thấy phong cảnh tuyệt vời."
+    "すばらしい家ですね。",
+    "This is a splendid house. (Tatoeba #214567, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "こどもたち",
     "kodomotachi",
     "bọn trẻ",
-    "こどもたちは うみで およぐ ことが できます。",
-    "Bọn trẻ bơi được ở biển."
+    "私の子どもたちは動物が大好きです。",
+    "My children really like animals. (Tatoeba #163523, Blanka_Meduzo, CC BY 2.0 FR)"
    ],
    [
     "だいすき［な］",
@@ -8094,15 +8094,15 @@ window.SENTENCES = {
     "ポケット",
     "poketto",
     "túi (áo, quần)",
-    "ポケットに さいふが はいります。",
-    "Ví bỏ vừa trong túi."
+    "ポケットを確認して。",
+    "Check your pockets. (Tatoeba #9308415, small_snow, CC BY 2.0 FR)"
    ],
    [
     "たとえば",
     "tatoeba",
     "ví dụ như",
-    "たとえば、にほんごが はなせます。",
-    "Ví dụ như tôi nói được tiếng Nhật."
+    "例えば、英語が好きですか。",
+    "For example, do you like English? (Tatoeba #337412, Swift, CC BY 2.0 FR)"
    ],
    [
     "そら",
@@ -8115,22 +8115,22 @@ window.SENTENCES = {
     "とびます",
     "tobimasu",
     "bay",
-    "とりは そらを とべます。",
-    "Chim bay được trên trời."
+    "ドイツに飛びます。",
+    "I'll be flying to Germany. (Tatoeba #11286127, small_snow, CC BY 2.0 FR)"
    ],
    [
     "じぶん",
     "jibun",
     "bản thân",
-    "じぶんで りょうりが できます。",
-    "Tôi tự nấu ăn được."
+    "自分でします。",
+    "I will do it myself. (Tatoeba #156296, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "しょうらい",
     "shourai",
     "tương lai",
-    "しょうらい にほんで はたらく ことが できます。",
-    "Tương lai tôi có thể làm việc ở Nhật."
+    "将来が心配で。",
+    "I worry about my future. (Tatoeba #11161625, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ドラえもん",
@@ -8150,15 +8150,15 @@ window.SENTENCES = {
     "だいどころ",
     "daidokoro",
     "bếp",
-    "だいどころから こえが きこえます。",
-    "Nghe thấy tiếng nói từ bếp."
+    "台所はどこ？",
+    "Where's the kitchen? (Tatoeba #8532899, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ほとんど",
     "hotondo",
     "hầu như",
-    "ほとんど ひらがなしか かけません。",
-    "Tôi hầu như chỉ viết được hiragana."
+    "本はほとんどない。",
+    "They have few books. (Tatoeba #81647, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "にちようだいく",
@@ -8171,15 +8171,15 @@ window.SENTENCES = {
     "まんが",
     "manga",
     "truyện tranh",
-    "まんがが よめます。",
-    "Tôi đọc được truyện tranh."
+    "私は漫画家です。",
+    "I'm a cartoonist. (Tatoeba #3068313, arnab, CC BY 2.0 FR)"
    ],
    [
     "しんぱい［な］",
     "shinpai [na]",
     "lo lắng",
-    "しけんが しんぱいです。",
-    "Tôi lo về bài thi."
+    "心配ないよ。",
+    "No need to worry. (Tatoeba #3459218, arnab, CC BY 2.0 FR)"
    ],
    [
     "かた",
@@ -8192,15 +8192,15 @@ window.SENTENCES = {
     "ほんだな",
     "hondana",
     "giá sách",
-    "ほんだなが かえます。",
-    "Mua được giá sách."
+    "辞書はあそこの本棚にあります。",
+    "There's a dictionary on that bookshelf. (Tatoeba #10987705, small_snow, CC BY 2.0 FR)"
    ],
    [
     "いつか",
     "itsuka",
     "một ngày nào đó",
-    "いつか ふじさんに のぼれます。",
-    "Một ngày nào đó tôi sẽ leo được núi Phú Sĩ."
+    "いつか電話してよ。",
+    "Call me sometime. (Tatoeba #228981, small_snow, CC BY 2.0 FR)"
    ],
    [
     "たてます",
@@ -8220,15 +8220,15 @@ window.SENTENCES = {
     "つけます",
     "tsukemasu",
     "gắn, bật",
-    "でんきを つけられます。",
-    "Bật được đèn."
+    "私は毎日日記をつけます。",
+    "I keep my diary every day. (Tatoeba #152695, mookeee, CC BY 2.0 FR)"
    ],
    [
     "じどうはんばいき",
     "jidou hanbaiki",
     "máy bán hàng tự động",
-    "じどうはんばいきで ジュースが かえます。",
-    "Có thể mua nước ở máy bán hàng tự động."
+    "自動販売機はあそこにあります。",
+    "The vending machines are over there. (Tatoeba #150020, mookeee, CC BY 2.0 FR)"
    ],
    [
     "あきはばら",
@@ -8248,8 +8248,8 @@ window.SENTENCES = {
     "ロボット",
     "robotto",
     "người máy",
-    "ロボットが はしれます。",
-    "Người máy chạy được."
+    "ロボットは好きですか。",
+    "Do you like robots? (Tatoeba #2125746, bunbuku, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -8336,36 +8336,36 @@ window.SENTENCES = {
     "ドラマ",
     "dorama",
     "phim truyền hình",
-    "ドラマを みながら、ごはんを たべます。",
-    "Tôi vừa xem phim vừa ăn cơm."
+    "韓国ドラマを見ますか？",
+    "Do you watch Korean dramas? (Tatoeba #13254158, atitarev, CC BY 2.0 FR)"
    ],
    [
     "かしゅ",
     "kashu",
     "ca sĩ",
-    "かしゅの うたを ききながら、はたらきます。",
-    "Tôi vừa nghe bài của ca sĩ vừa làm việc."
+    "歌手なんですか？",
+    "Are you a singer? (Tatoeba #8728733, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きゅうりょう",
     "kyuuryou",
     "lương",
-    "きゅうりょうが いいし、しごとも おもしろいです。",
-    "Lương tốt và công việc cũng thú vị."
+    "給料はいくら？",
+    "What is your salary? (Tatoeba #11878994, small_snow, CC BY 2.0 FR)"
    ],
    [
     "メモ",
     "memo",
     "ghi chú",
-    "メモを とりながら、はなしを ききます。",
-    "Tôi vừa ghi chú vừa nghe."
+    "自分のメモを見た。",
+    "I looked at my notes. (Tatoeba #8584098, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ばんぐみ",
     "bangumi",
     "chương trình TV",
-    "この ばんぐみは にんきが あります。",
-    "Chương trình này được ưa chuộng."
+    "いい番組でした。",
+    "That was a good show. (Tatoeba #11021695, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ガム",
@@ -8378,15 +8378,15 @@ window.SENTENCES = {
     "ゲーム",
     "geemu",
     "trò chơi điện tử",
-    "ゲームを しながら、たべます。",
-    "Tôi vừa chơi game vừa ăn."
+    "ゲームで負けた。",
+    "I lost the game. (Tatoeba #12696376, small_snow, CC BY 2.0 FR)"
    ],
    [
     "びよういん",
     "biyouin",
     "tiệm làm tóc",
-    "びよういんに かよって います。",
-    "Tôi hay đến tiệm làm tóc."
+    "昨日美容院へ行きました。",
+    "Yesterday I went to the hairdresser's. (Tatoeba #169816, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "たいいくかん",
@@ -8448,15 +8448,15 @@ window.SENTENCES = {
     "びよういん",
     "biyouin",
     "tiệm làm tóc",
-    "びよういんに かよって います。",
-    "Tôi hay đến tiệm làm tóc."
+    "昨日美容院へ行きました。",
+    "Yesterday I went to the hairdresser's. (Tatoeba #169816, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "だいどころ",
     "daidokoro",
     "bếp",
-    "だいどころで りょうりを しながら、ラジオを ききます。",
-    "Tôi vừa nấu ăn trong bếp vừa nghe radio."
+    "台所はどこ？",
+    "Where's the kitchen? (Tatoeba #8532899, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ガム",
@@ -8469,50 +8469,50 @@ window.SENTENCES = {
     "ゲーム",
     "geemu",
     "trò chơi (điện tử)",
-    "ゲームを しながら、たべます。",
-    "Tôi vừa chơi game vừa ăn."
+    "ゲームで負けた。",
+    "I lost the game. (Tatoeba #12696376, small_snow, CC BY 2.0 FR)"
    ],
    [
     "じぶん",
     "jibun",
     "bản thân",
-    "じぶんで ごはんを つくって います。",
-    "Tôi tự nấu cơm."
+    "自分でします。",
+    "I will do it myself. (Tatoeba #156296, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "しょうらい",
     "shourai",
     "tương lai",
-    "しょうらいの ゆめは しょうせつかです。",
-    "Ước mơ tương lai của tôi là làm tiểu thuyết gia."
+    "将来が心配で。",
+    "I worry about my future. (Tatoeba #11161625, small_snow, CC BY 2.0 FR)"
    ],
    [
     "しばらく",
     "shibaraku",
     "một lúc, một thời gian",
-    "しばらく やすみながら、まって ください。",
-    "Xin vừa nghỉ vừa đợi một lúc."
+    "ここにしばらくいます。",
+    "I'll stay here for a bit. (Tatoeba #440739, bourdu, CC BY 2.0 FR)"
    ],
    [
     "たいてい",
     "taitei",
     "thường thường",
-    "たいてい おんがくを ききながら、はたらきます。",
-    "Tôi thường vừa nghe nhạc vừa làm việc."
+    "たいてい歩いて行きます。",
+    "I usually walk. (Tatoeba #203916, arnab, CC BY 2.0 FR)"
    ],
    [
     "それに",
     "sore ni",
     "hơn nữa",
-    "やすいし、おいしいです。それに、ちかいです。",
-    "Rẻ và ngon. Hơn nữa lại gần."
+    "私、それに目がないのよ。",
+    "I really do love it. (Tatoeba #8871863, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "それで",
     "sorede",
     "vì vậy, thế nên",
-    "ひまでした。それで、えいがを みに いきました。",
-    "Tôi rảnh. Nên đã đi xem phim."
+    "それで全部？",
+    "Is that all? (Tatoeba #3507409, arnab, CC BY 2.0 FR)"
    ],
    [
     "［ちょっと］おねがいが あるんですが。",
@@ -8532,15 +8532,15 @@ window.SENTENCES = {
     "おしらせ",
     "oshirase",
     "thông báo",
-    "おしらせを みながら、でんわします。",
-    "Tôi vừa xem thông báo vừa gọi điện."
+    "お知らせください。",
+    "Please let us know. (Tatoeba #226882, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ひにち",
     "hinichi",
     "ngày tháng",
-    "ひにちは ごがつ いつかです。",
-    "Ngày là mùng 5 tháng 5."
+    "日にちはどのくらいかかりますか。",
+    "How long will it take? (Tatoeba #122926, mookeee, CC BY 2.0 FR)"
    ],
    [
     "ど",
@@ -8602,8 +8602,8 @@ window.SENTENCES = {
     "じつは",
     "jitsu wa",
     "thật ra là",
-    "じつは ともだちが いるんです。",
-    "Thật ra tôi có bạn ở đó."
+    "実は、姉なんです。",
+    "Actually, she's my older sister. (Tatoeba #11563505, small_snow, CC BY 2.0 FR)"
    ],
    [
     "うーん",
@@ -8616,22 +8616,22 @@ window.SENTENCES = {
     "さんかします",
     "sanka shimasu",
     "tham gia",
-    "パーティーに さんかします。",
-    "Tôi sẽ tham gia buổi tiệc."
+    "会議には参加しますよ。",
+    "I'll attend the meeting. (Tatoeba #10503517, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ちがいます",
     "chigaimasu",
     "khác, sai",
-    "それは ちがいます。",
-    "Cái đó sai rồi."
+    "違いますか？",
+    "Isn't that so? (Tatoeba #3496743, arnab, CC BY 2.0 FR)"
    ],
    [
     "しゅうかん",
     "shuukan",
     "thói quen, tập quán",
-    "まいあさ ジョギングを する しゅうかんが あります。",
-    "Tôi có thói quen chạy bộ mỗi sáng."
+    "習慣になりました。",
+    "It has become habit. (Tatoeba #11563298, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ホームステイ",
@@ -8711,15 +8711,15 @@ window.SENTENCES = {
     "さいふ",
     "saifu",
     "ví tiền",
-    "さいふを なくして しまいました。",
-    "Tôi lỡ làm mất ví."
+    "財布をなくしたの。",
+    "I have lost my wallet. (Tatoeba #5069, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "コップ",
     "koppu",
     "cốc",
-    "コップが われて しまいました。",
-    "Cốc bị vỡ mất rồi."
+    "僕のコップはどれ？",
+    "Which one is my cup? (Tatoeba #11505754, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ふくろ",
@@ -8732,15 +8732,15 @@ window.SENTENCES = {
     "わすれもの",
     "wasuremono",
     "đồ bỏ quên",
-    "わすれものを して しまいました。",
-    "Tôi lỡ bỏ quên đồ."
+    "忘れ物ない？",
+    "Do you have everything? (Tatoeba #82540, mookeee, CC BY 2.0 FR)"
    ],
    [
     "ガラス",
     "garasu",
     "kính",
-    "ガラスが われて います。",
-    "Kính bị vỡ."
+    "ビールびんはガラスでできている。",
+    "Beer bottles are made of glass. (Tatoeba #197661, mookeee, CC BY 2.0 FR)"
    ],
    [
     "えだ",
@@ -8774,8 +8774,8 @@ window.SENTENCES = {
     "みつかります",
     "mitsukarimasu",
     "được tìm thấy",
-    "さがして いた かぎが みつかりました。",
-    "Chiếc chìa khoá tôi đang tìm đã được tìm thấy."
+    "きっと見つかりますよ。",
+    "You can't miss it. (Tatoeba #226023, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "かぎ",
@@ -8788,8 +8788,8 @@ window.SENTENCES = {
     "わすれもの",
     "wasuremono",
     "đồ bỏ quên",
-    "わすれものは えきいんに いって ください。",
-    "Đồ quên hãy đến hỏi nhân viên ga."
+    "忘れ物ない？",
+    "Do you have everything? (Tatoeba #82540, mookeee, CC BY 2.0 FR)"
    ],
    [
     "ほんとうに",
@@ -8802,8 +8802,8 @@ window.SENTENCES = {
     "このへん",
     "kono hen",
     "quanh đây",
-    "このへんに コンビニは ありますか。",
-    "Quanh đây có cửa hàng tiện lợi không?"
+    "この辺は寒いよ。",
+    "It's cold around here. (Tatoeba #9972244, small_snow, CC BY 2.0 FR)"
    ],
    [
     "まちがえます",
@@ -8830,15 +8830,15 @@ window.SENTENCES = {
     "ガラス",
     "garasu",
     "kính, thuỷ tinh",
-    "ガラスが われて います。",
-    "Kính bị vỡ."
+    "ビールびんはガラスでできている。",
+    "Beer bottles are made of glass. (Tatoeba #197661, mookeee, CC BY 2.0 FR)"
    ],
    [
     "しょるい",
     "shorui",
     "giấy tờ, tài liệu",
-    "しょるいを わすれて しまいました。",
-    "Tôi lỡ quên tài liệu mất rồi."
+    "その書類をもう一度調べた。",
+    "We checked the document again. (Tatoeba #209397, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "えだ",
@@ -8851,15 +8851,15 @@ window.SENTENCES = {
     "えきいん",
     "ekiin",
     "nhân viên nhà ga",
-    "えきいんに ききました。",
-    "Tôi đã hỏi nhân viên nhà ga."
+    "私は駅員に切符を見せました。",
+    "I showed the station attendant my ticket. (Tatoeba #10899803, small_snow, CC BY 2.0 FR)"
    ],
    [
     "へんじ",
     "henji",
     "câu trả lời (へんじを します)",
-    "へんじを わすれて しまいました。",
-    "Tôi lỡ quên trả lời."
+    "返事がない。",
+    "There is no reply. (Tatoeba #10901650, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おさきに どうぞ。",
@@ -8893,8 +8893,8 @@ window.SENTENCES = {
     "ポケット",
     "poketto",
     "túi áo",
-    "ポケットに さいふが はいって います。",
-    "Ví đang ở trong túi."
+    "ポケットを確認して。",
+    "Check your pockets. (Tatoeba #9308415, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おぼえて いません。",
@@ -8928,15 +8928,15 @@ window.SENTENCES = {
     "しんじゅく",
     "shinjuku",
     "Shinjuku",
-    "しんじゅくで かばんを わすれて しまいました。",
-    "Tôi lỡ bỏ quên cặp ở Shinjuku."
+    "明日の朝、新宿に行きましょう。",
+    "Let's go to Shinjuku tomorrow morning. (Tatoeba #808712, ryanthewired, CC BY 2.0 FR)"
    ],
    [
     "じしん",
     "jishin",
     "động đất",
-    "じしんで ガラスが われて しまいました。",
-    "Kính bị vỡ mất vì động đất."
+    "私は地震が怖い。",
+    "I'm afraid of earthquakes. (Tatoeba #155126, mookeee, CC BY 2.0 FR)"
    ],
    [
     "はり",
@@ -8956,8 +8956,8 @@ window.SENTENCES = {
     "えきまえ",
     "ekimae",
     "khu vực trước ga",
-    "えきまえに ほんやが あります。",
-    "Trước ga có hiệu sách."
+    "駅前にいい店があります。",
+    "There is a good restaurant in front of the station. (Tatoeba #10987713, small_snow, CC BY 2.0 FR)"
    ],
    [
     "たおれます",
@@ -8977,8 +8977,8 @@ window.SENTENCES = {
     "もえます",
     "moemasu",
     "cháy",
-    "ごみが もえて います。",
-    "Rác đang cháy."
+    "木は燃えます。",
+    "Wood burns. (Tatoeba #2080647, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "レポーター",
@@ -9005,8 +9005,8 @@ window.SENTENCES = {
     "スピーチ",
     "supiichi",
     "bài phát biểu",
-    "スピーチを わすれて しまいました。",
-    "Tôi lỡ quên bài phát biểu mất rồi."
+    "明日スピーチをします。",
+    "I'll give a speech tomorrow. (Tatoeba #9575815, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かべ",
@@ -9111,8 +9111,8 @@ window.SENTENCES = {
     "ほんだな",
     "hondana",
     "giá sách",
-    "ほんだなに ほんが ならべて あります。",
-    "Trên giá sách sách được xếp sẵn."
+    "辞書はあそこの本棚にあります。",
+    "There's a dictionary on that bookshelf. (Tatoeba #10987705, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かべ",
@@ -9125,15 +9125,15 @@ window.SENTENCES = {
     "れいぞうこ",
     "reizouko",
     "tủ lạnh",
-    "れいぞうこに ビールが いれて あります。",
-    "Trong tủ lạnh có bia được để sẵn."
+    "冷蔵庫が壊れた。",
+    "Our fridge broke. (Tatoeba #12462062, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かびん",
     "kabin",
     "bình hoa",
-    "かびんに はなが いれて あります。",
-    "Có hoa được cắm sẵn trong bình."
+    "彼は花瓶を落とした。",
+    "He dropped a vase. (Tatoeba #109184, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かがみ",
@@ -9146,15 +9146,15 @@ window.SENTENCES = {
     "にんぎょう",
     "ningyou",
     "búp bê",
-    "にんぎょうが ならべて あります。",
-    "Búp bê được xếp sẵn."
+    "あの人形怖い。",
+    "That doll is scary. (Tatoeba #6855705, Sonata, CC BY 2.0 FR)"
    ],
    [
     "リュック",
     "ryukku",
     "ba lô",
-    "リュックに ほんが いれて あります。",
-    "Sách đã được bỏ sẵn trong ba lô."
+    "私のリュック、とても重いですよ。",
+    "My backpack is very heavy. (Tatoeba #10630157, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かいちゅうでんとう",
@@ -9174,8 +9174,8 @@ window.SENTENCES = {
     "かけます（かべに）",
     "kakemasu",
     "treo (lên tường)",
-    "かべに とけいを かけます。",
-    "Tôi treo đồng hồ lên tường."
+    "また後でかけます。",
+    "I'll call again later. (Tatoeba #195442, small_snow, CC BY 2.0 FR)"
    ],
    [
     "しまいます",
@@ -9195,8 +9195,8 @@ window.SENTENCES = {
     "ちゅうしゃ",
     "chuusha",
     "đỗ xe, tiêm",
-    "ちゅうしゃじょうは あちらです。",
-    "Bãi đỗ xe ở phía kia."
+    "どこに駐車できますか。",
+    "Where can I park? (Tatoeba #200917, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "うえます",
@@ -9223,8 +9223,8 @@ window.SENTENCES = {
     "きめます",
     "kimemasu",
     "quyết định",
-    "ばしょを きめて あります。",
-    "Địa điểm đã được quyết định sẵn."
+    "後で決めます。",
+    "I'll decide later. (Tatoeba #5185677, aoi0913, CC BY 2.0 FR)"
    ],
    [
     "そのままに します",
@@ -9237,15 +9237,15 @@ window.SENTENCES = {
     "ミーティング",
     "miitingu",
     "cuộc họp (ngắn)",
-    "ミーティングの まえに しりょうを コピーして おきます。",
-    "Trước buổi họp tôi photo sẵn tài liệu."
+    "ミーティングは終わりました。",
+    "The meeting was closed. (Tatoeba #1282980, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おしらせ",
     "oshirase",
     "thông báo",
-    "かべに おしらせが はって あります。",
-    "Trên tường dán thông báo."
+    "お知らせください。",
+    "Please let us know. (Tatoeba #226882, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ガイドブック",
@@ -9272,8 +9272,8 @@ window.SENTENCES = {
     "リュック",
     "ryukku",
     "ba lô",
-    "リュックに ほんが いれて あります。",
-    "Sách đã được bỏ sẵn trong ba lô."
+    "私のリュック、とても重いですよ。",
+    "My backpack is very heavy. (Tatoeba #10630157, small_snow, CC BY 2.0 FR)"
    ],
    [
     "せいかつします",
@@ -9293,8 +9293,8 @@ window.SENTENCES = {
     "まるい",
     "marui",
     "tròn",
-    "まるい かがみが かけて あります。",
-    "Có treo một chiếc gương tròn."
+    "地球は丸い。",
+    "The earth is round. (Tatoeba #126969, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ゆめを みます",
@@ -9321,8 +9321,8 @@ window.SENTENCES = {
     "すると",
     "suru to",
     "thế là, rồi thì",
-    "ドアを あけました。すると、ねこが いました。",
-    "Tôi mở cửa. Thế là có con mèo ở đó."
+    "私がああすると痛い？",
+    "Does it hurt when I do that? (Tatoeba #9065795, small_snow, CC BY 2.0 FR)"
    ],
    [
     "めが さめます",
@@ -9349,8 +9349,8 @@ window.SENTENCES = {
     "おこさん",
     "okosan",
     "con (của người khác)",
-    "おこさんは なんさいですか。",
-    "Cháu nhà anh mấy tuổi ạ?"
+    "お子さんはおいくつですか？",
+    "How old are your children? (Tatoeba #3574891, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "あんないしょ",
@@ -9370,8 +9370,8 @@ window.SENTENCES = {
     "きぼう",
     "kibou",
     "nguyện vọng, mong muốn",
-    "きぼうを ききます。",
-    "Tôi hỏi nguyện vọng."
+    "あまり希望がない。",
+    "There is not much hope. (Tatoeba #230333, small_snow, CC BY 2.0 FR)"
    ],
    [
     "なにか ごきぼうが ありますか。",
@@ -9419,8 +9419,8 @@ window.SENTENCES = {
     "こうばん",
     "kouban",
     "đồn cảnh sát nhỏ",
-    "こうばんの ちずが かいて あります。",
-    "Có vẽ sẵn bản đồ chỗ đồn cảnh sát nhỏ."
+    "交番の周りに人がたくさんいた。",
+    "I saw a number of people around the police box. (Tatoeba #174100, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "つき",
@@ -9433,8 +9433,8 @@ window.SENTENCES = {
     "ちきゅう",
     "chikyuu",
     "Trái Đất",
-    "ちきゅうの えが かけて あります。",
-    "Có treo một bức tranh về Trái Đất."
+    "地球は丸い。",
+    "The earth is round. (Tatoeba #126969, bunbuku, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -9518,15 +9518,15 @@ window.SENTENCES = {
     "けっこんしき",
     "kekkonshiki",
     "đám cưới",
-    "らいしゅう けっこんしきに しゅっせきする よていです。",
-    "Tuần sau tôi có lịch dự đám cưới."
+    "結婚式はいつ？",
+    "When's the wedding? (Tatoeba #10043162, small_snow, CC BY 2.0 FR)"
    ],
    [
     "きょうかい",
     "kyoukai",
     "nhà thờ",
-    "きょうかいで けっこんしきが あります。",
-    "Có đám cưới ở nhà thờ."
+    "あれは教会です。",
+    "That's a church. (Tatoeba #1706370, marcelostockle, CC BY 2.0 FR)"
    ],
    [
     "だいがくいん",
@@ -9539,8 +9539,8 @@ window.SENTENCES = {
     "えいがかん",
     "eigakan",
     "rạp chiếu phim",
-    "えいがかんへ いこう。",
-    "Cùng đi rạp chiếu phim nhé."
+    "映画館は駅から近いの？",
+    "Is the movie theater near the station? (Tatoeba #3850777, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "むら",
@@ -9609,8 +9609,8 @@ window.SENTENCES = {
     "みつけます",
     "mitsukemasu",
     "tìm thấy",
-    "しごとを みつけました。",
-    "Tôi đã tìm được việc."
+    "これから見つけます。",
+    "I'll find one later. (Tatoeba #218959, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "もうしこみます",
@@ -9623,43 +9623,43 @@ window.SENTENCES = {
     "きゅうけいします",
     "kyuukei shimasu",
     "nghỉ giải lao",
-    "ちょっと きゅうけいしましょう。",
-    "Ta nghỉ giải lao một chút nhé."
+    "私はこれから少し休憩します。",
+    "I'm going to take a short break. (Tatoeba #4897977, huizi99, CC BY 2.0 FR)"
    ],
    [
     "れんきゅう",
     "renkyuu",
     "kỳ nghỉ liền nhiều ngày",
-    "れんきゅうは おんせんへ いきます。",
-    "Kỳ nghỉ dài tôi đi suối nước nóng."
+    "もうすぐで連休です。",
+    "The holidays will be here soon. (Tatoeba #11529749, small_snow, CC BY 2.0 FR)"
    ],
    [
     "さくぶん",
     "sakubun",
     "bài văn",
-    "さくぶんを かきました。",
-    "Tôi đã viết bài văn."
+    "先生は私の作文を見てくれた。",
+    "My teacher looked over my composition. (Tatoeba #141590, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "はっぴょう",
     "happyou",
     "công bố, thuyết trình",
-    "あした はっぴょうを する よていです。",
-    "Mai tôi có lịch thuyết trình."
+    "この製品を発表するときが来た。",
+    "I think the time is right to introduce this product. (Tatoeba #1525406, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かえり",
     "kaeri",
     "lúc về",
-    "かえりに ほんやへ いきます。",
-    "Trên đường về tôi ghé hiệu sách."
+    "来週帰ります。",
+    "I'm coming back next week. (Tatoeba #1879941, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おこさん",
     "okosan",
     "con (của người khác)",
-    "おこさんは なんさいですか。",
-    "Cháu nhà anh mấy tuổi ạ?"
+    "お子さんはおいくつですか？",
+    "How old are your children? (Tatoeba #3574891, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "－ごう",
@@ -9672,8 +9672,8 @@ window.SENTENCES = {
     "ずっと",
     "zutto",
     "suốt, liên tục",
-    "ずっと うちに います。",
-    "Tôi ở nhà suốt."
+    "彼はずっと忙しい。",
+    "He has been busy. (Tatoeba #113377, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しんこうべ",
@@ -9693,22 +9693,22 @@ window.SENTENCES = {
     "にゅうがくしけん",
     "nyuugaku shiken",
     "kỳ thi đầu vào",
-    "にゅうがくしけんは らいしゅうです。",
-    "Kỳ thi đầu vào là tuần sau."
+    "昨日彼女は入学試験を受けた。",
+    "Yesterday she sat for the entrance examination. (Tatoeba #169820, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "つきに",
     "tsuki ni",
     "mỗi tháng",
-    "つきに いっかい おんせんへ いきます。",
-    "Mỗi tháng tôi đi suối nước nóng một lần."
+    "月には人がいない。",
+    "There are no people on the moon. (Tatoeba #6828194, D0UG, CC BY 2.0 FR)"
    ],
    [
     "そつぎょうします",
     "sotsugyou shimasu",
     "tốt nghiệp",
-    "らいねん だいがくを そつぎょうします。",
-    "Sang năm tôi tốt nghiệp đại học."
+    "今年卒業します。",
+    "I'll graduate this year. (Tatoeba #8619746, small_snow, CC BY 2.0 FR)"
    ],
    [
     "いや［な］",
@@ -9728,43 +9728,43 @@ window.SENTENCES = {
     "こどもたち",
     "kodomotachi",
     "bọn trẻ",
-    "こどもたちは こうえんで あそんで います。",
-    "Bọn trẻ đang chơi ở công viên."
+    "私の子どもたちは動物が大好きです。",
+    "My children really like animals. (Tatoeba #163523, Blanka_Meduzo, CC BY 2.0 FR)"
    ],
    [
     "じゆうに",
     "jiyuu ni",
     "tự do",
-    "じゆうに つかって ください。",
-    "Hãy cứ tự do sử dụng."
+    "どうぞ、ご自由にみてください。",
+    "Please go ahead and take a look at your leisure. (Tatoeba #2461914, flavio78, CC BY 2.0 FR)"
    ],
    [
     "おきゃく［さん］",
     "okyaku [san]",
     "khách",
-    "おきゃくさんが きました。",
-    "Khách đã đến."
+    "あの店はお客さんが多い。",
+    "That shop has many customers. (Tatoeba #230538, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "だれか",
     "dareka",
     "ai đó",
-    "だれか いますか。",
-    "Có ai ở đó không?"
+    "誰か来たよ。",
+    "Someone's at the door. (Tatoeba #10682365, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ふつうの",
     "futsuu no",
     "bình thường",
-    "ふつうの うちに すんで います。",
-    "Tôi sống trong một ngôi nhà bình thường."
+    "これは普通のこと？",
+    "Is this normal? (Tatoeba #8693575, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "せかいじゅう",
     "sekaijuu",
     "khắp thế giới",
-    "せかいじゅうの ひとが あつまります。",
-    "Mọi người trên khắp thế giới tụ họp."
+    "彼は世界中を旅行した。",
+    "He traveled all over the world. (Tatoeba #103410, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "あつまります",
@@ -9883,8 +9883,8 @@ window.SENTENCES = {
     "たいよう",
     "taiyou",
     "mặt trời",
-    "たいようが ひかって います。あしたは はれるでしょう。",
-    "Mặt trời đang sáng. Ngày mai chắc trời quang."
+    "太陽はいいね。",
+    "I like the sun. (Tatoeba #10617782, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ほし",
@@ -9904,22 +9904,22 @@ window.SENTENCES = {
     "インフルエンザ",
     "infuruenza",
     "bệnh cúm",
-    "インフルエンザかもしれませんから、やすんだ ほうが いいです。",
-    "Có thể là cúm nên anh nghỉ thì hơn."
+    "インフルエンザですか？",
+    "Do I have a flu? (Tatoeba #10097976, small_snow, CC BY 2.0 FR)"
    ],
    [
     "エンジン",
     "enjin",
     "động cơ",
-    "エンジンが こしょうしたかもしれません。",
-    "Có thể động cơ bị hỏng."
+    "エンジンがかからない。",
+    "The engine doesn't work. (Tatoeba #227875, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "チーム",
     "chiimu",
     "đội, nhóm",
-    "わたしの チームは かつでしょう。",
-    "Đội của tôi chắc sẽ thắng."
+    "何人チームですか？",
+    "How many people are in your team? (Tatoeba #12300661, small_snow, CC BY 2.0 FR)"
    ],
    [
     "オリンピック",
@@ -9960,15 +9960,15 @@ window.SENTENCES = {
     "すいどう",
     "suidou",
     "vòi nước, hệ thống nước",
-    "すいどうが こしょうしたかもしれません。",
-    "Có thể vòi nước bị hỏng."
+    "水道水は危ないよ。",
+    "Tap water is dangerous. (Tatoeba #10107337, small_snow, CC BY 2.0 FR)"
    ],
    [
     "うんどうします",
     "undou shimasu",
     "tập thể dục",
-    "まいにち うんどうします。",
-    "Ngày nào tôi cũng tập thể dục."
+    "運動します。",
+    "I work out. (Tatoeba #2575053, OrangeTart, CC BY 2.0 FR)"
    ],
    [
     "せいこうします",
@@ -10016,8 +10016,8 @@ window.SENTENCES = {
     "おかしい",
     "okashii",
     "lạ, buồn cười",
-    "この はなしは おかしいです。",
-    "Câu chuyện này lạ lắm."
+    "何かがおかしい。",
+    "Something is strange. (Tatoeba #12300727, small_snow, CC BY 2.0 FR)"
    ],
    [
     "うるさい",
@@ -10030,15 +10030,15 @@ window.SENTENCES = {
     "せんせい",
     "sensei",
     "bác sĩ (khi gọi bác sĩ)",
-    "せんせい、あたまが いたいんです。",
-    "Bác sĩ ơi, tôi đau đầu."
+    "私も先生です。",
+    "I am a teacher, too. (Tatoeba #152190, small_snow, CC BY 2.0 FR)"
    ],
    [
     "こんや",
     "konya",
     "tối nay",
-    "こんや あめが ふるでしょう。",
-    "Tối nay chắc sẽ mưa."
+    "今夜は暇です。",
+    "I'm free tonight. (Tatoeba #171122, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ゆうがた",
@@ -10051,22 +10051,22 @@ window.SENTENCES = {
     "まえ",
     "mae",
     "trước đây, hồi trước",
-    "まえは ここに いえが ありました。",
-    "Hồi trước ở đây có một ngôi nhà."
+    "こちらに来たまえ。",
+    "Come over here. (Tatoeba #12851686, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おそく",
     "osoku",
     "muộn",
-    "おそく かえりました。",
-    "Tôi đã về muộn."
+    "遅くなります。",
+    "I'll be late. (Tatoeba #2465471, nihonjin, CC BY 2.0 FR)"
    ],
    [
     "ヨーロッパ",
     "yooroppa",
     "châu Âu",
-    "ヨーロッパへ いく かもしれません。",
-    "Có thể tôi sẽ đi châu Âu."
+    "冬のヨーロッパは寒い。",
+    "Europe is cold in the winter. (Tatoeba #10588030, Sonata, CC BY 2.0 FR)"
    ],
    [
     "げんき",
@@ -10100,15 +10100,15 @@ window.SENTENCES = {
     "ほしうらない",
     "hoshiuranai",
     "bói chòm sao",
-    "ほしうらないを みました。",
-    "Tôi đã xem bói chòm sao."
+    "今日は、星占い見た？",
+    "Have you read your horoscope today? (Tatoeba #10899481, small_snow, CC BY 2.0 FR)"
    ],
    [
     "はたらきすぎ",
     "hatarakisugi",
     "làm việc quá sức",
-    "はたらきすぎは からだに わるいです。",
-    "Làm việc quá sức có hại cho cơ thể."
+    "働きすぎですよ。",
+    "You work too hard. (Tatoeba #177029, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "こまります",
@@ -10121,15 +10121,15 @@ window.SENTENCES = {
     "けんこう",
     "kenkou",
     "sức khoẻ",
-    "けんこうが いちばん だいじです。",
-    "Sức khoẻ là quan trọng nhất."
+    "私は体は健康です。",
+    "I'm healthy. (Tatoeba #155251, mookeee, CC BY 2.0 FR)"
    ],
    [
     "れんあい",
     "renai",
     "chuyện tình yêu",
-    "れんあいの はなしは おもしろいです。",
-    "Chuyện tình yêu thú vị."
+    "私は恋愛小説が好きです。",
+    "I like love stories. (Tatoeba #524080, qahwa, CC BY 2.0 FR)"
    ],
    [
     "ラッキーアイテム",
@@ -10142,15 +10142,15 @@ window.SENTENCES = {
     "もどります",
     "modorimasu",
     "quay lại",
-    "すぐ もどります。",
-    "Tôi quay lại ngay."
+    "すぐ戻ります。",
+    "I will be back soon. (Tatoeba #214752, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "しんぱい［な］",
     "shinpai [na]",
     "lo lắng",
-    "しんぱいな ことが あります。",
-    "Tôi có chuyện lo lắng."
+    "心配ないよ。",
+    "No need to worry. (Tatoeba #3459218, arnab, CC BY 2.0 FR)"
    ],
    [
     "つき",
@@ -10177,8 +10177,8 @@ window.SENTENCES = {
     "［お］かねもち",
     "[o]kanemochi",
     "người giàu",
-    "おかねもちに なりたいです。",
-    "Tôi muốn trở thành người giàu."
+    "彼女は金持ちです。",
+    "She is a wealthy woman. (Tatoeba #90398, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "そら",
@@ -10262,57 +10262,57 @@ window.SENTENCES = {
     "けいさつ",
     "keisatsu",
     "cảnh sát",
-    "けいさつに でんわします。",
-    "Tôi gọi cảnh sát."
+    "警察はどこですか。",
+    "Where is the police station? (Tatoeba #176215, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "いりぐち",
     "iriguchi",
     "lối vào",
-    "いりぐちは あちらです。",
-    "Lối vào ở phía kia."
+    "ここは入口ではありません。",
+    "This is not the entrance. (Tatoeba #2988140, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "でぐち",
     "deguchi",
     "lối ra",
-    "でぐちは こちらです。",
-    "Lối ra ở đây."
+    "出口はどこですか？",
+    "Where's the exit? (Tatoeba #3549611, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "ひじょうぐち",
     "hijouguchi",
     "cửa thoát hiểm",
-    "ひじょうぐちは うしろです。",
-    "Cửa thoát hiểm ở phía sau."
+    "非常口はどこにありますか。",
+    "Where's the emergency exit? (Tatoeba #85758, small_snow, CC BY 2.0 FR)"
    ],
    [
     "せんたくき",
     "sentakuki",
     "máy giặt",
-    "あたらしい せんたくきを かいました。",
-    "Tôi đã mua máy giặt mới."
+    "家に洗濯機はある？",
+    "Is there a washing machine in the house? (Tatoeba #8814794, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ボール",
     "booru",
     "quả bóng",
-    "ボールを なげます。",
-    "Tôi ném bóng."
+    "ボールは丸い。",
+    "Balls are round. (Tatoeba #196476, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "でんぽう",
     "denpou",
     "điện báo",
-    "でんぽうを うちます。",
-    "Tôi gửi điện báo."
+    "電報でご返事下さい。",
+    "Please answer me by telegram. (Tatoeba #124759, mookeee, CC BY 2.0 FR)"
    ],
    [
     "じしん",
     "jishin",
     "động đất",
-    "じしんが おきたら、にげて ください。",
-    "Nếu có động đất hãy chạy."
+    "私は地震が怖い。",
+    "I'm afraid of earthquakes. (Tatoeba #155126, mookeee, CC BY 2.0 FR)"
    ],
    [
     "にげます",
@@ -10346,22 +10346,22 @@ window.SENTENCES = {
     "まもります",
     "mamorimasu",
     "tuân thủ, bảo vệ",
-    "きそくを まもって ください。",
-    "Hãy tuân thủ quy tắc."
+    "彼は約束を守ります。",
+    "He is as good as his word. (Tatoeba #2316970, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "つたえます",
     "tsutaemasu",
     "truyền đạt, nhắn lại",
-    "たなかさんに つたえて ください。",
-    "Hãy nhắn lại cho anh Tanaka."
+    "そう伝えます。",
+    "I'll tell him that. (Tatoeba #213766, Take32, CC BY 2.0 FR)"
    ],
    [
     "もどります",
     "modorimasu",
     "quay lại",
-    "すぐ もどります。",
-    "Tôi quay lại ngay."
+    "すぐ戻ります。",
+    "I will be back soon. (Tatoeba #214752, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "リサイクルします",
@@ -10374,22 +10374,22 @@ window.SENTENCES = {
     "だめ［な］",
     "dame [na]",
     "không được, hỏng",
-    "ここは だめです。",
-    "Chỗ này không được."
+    "今日はだめです。",
+    "It can't be today. (Tatoeba #7704604, leafjensen, CC BY 2.0 FR)"
    ],
    [
     "おなじ",
     "onaji",
     "giống nhau",
-    "おなじ マークです。",
-    "Ký hiệu giống nhau."
+    "同じ意見です。",
+    "I agree. (Tatoeba #774830, marloncori, CC BY 2.0 FR)"
    ],
    [
     "けいさつ",
     "keisatsu",
     "cảnh sát",
-    "けいさつに でんわします。",
-    "Tôi gọi cảnh sát."
+    "警察はどこですか。",
+    "Where is the police station? (Tatoeba #176215, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "せき",
@@ -10402,22 +10402,22 @@ window.SENTENCES = {
     "マーク",
     "maaku",
     "ký hiệu, dấu",
-    "この マークは どういう いみですか。",
-    "Ký hiệu này nghĩa là gì?"
+    "マークの本はとても面白い。",
+    "Mark's book is very interesting. (Tatoeba #2064489, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しめきり",
     "shimekiri",
     "hạn chót",
-    "しめきりは あしただと いって いました。",
-    "Họ nói hạn chót là ngày mai."
+    "締め切りはいつですか？",
+    "When is the deadline? (Tatoeba #11140910, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きそく",
     "kisoku",
     "quy tắc",
-    "きそくを まもらなければ なりません。",
-    "Phải tuân thủ quy tắc."
+    "私は彼女に規則を説明した。",
+    "I explained the rules to her. (Tatoeba #1041815, mookeee, CC BY 2.0 FR)"
    ],
    [
     "きけん",
@@ -10437,8 +10437,8 @@ window.SENTENCES = {
     "たちいりきんし",
     "tachiiri kinshi",
     "cấm vào",
-    "「たちいりきんし」は はいっては いけないと いう いみです。",
-    "“Cấm vào” nghĩa là không được vào."
+    "ここは立入禁止です。",
+    "This is a restricted area. (Tatoeba #224274, small_snow, CC BY 2.0 FR)"
    ],
    [
     "じょこう",
@@ -10458,8 +10458,8 @@ window.SENTENCES = {
     "わりびき",
     "waribiki",
     "giảm giá",
-    "わりびきが あります。",
-    "Có giảm giá."
+    "学生割引はありますか。",
+    "Do you have a student fare? (Tatoeba #184226, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "のみほうだい",
@@ -10493,29 +10493,29 @@ window.SENTENCES = {
     "ちゅうしゃいはん",
     "chuusha ihan",
     "đỗ xe sai quy định",
-    "ちゅうしゃいはんを して しまいました。",
-    "Tôi lỡ đỗ xe sai quy định."
+    "駐車違反の罰金は高い。",
+    "Parking fines are very costly. (Tatoeba #126304, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ばっきん",
     "bakkin",
     "tiền phạt",
-    "ばっきんを はらいました。",
-    "Tôi đã nộp tiền phạt."
+    "駐車違反の罰金は高い。",
+    "Parking fines are very costly. (Tatoeba #126304, small_snow, CC BY 2.0 FR)"
    ],
    [
     "じしん",
     "jishin",
     "động đất",
-    "きのう おおきい じしんが ありました。",
-    "Hôm qua có động đất lớn."
+    "私は地震が怖い。",
+    "I'm afraid of earthquakes. (Tatoeba #155126, mookeee, CC BY 2.0 FR)"
    ],
    [
     "おきます",
     "okimasu",
     "xảy ra (động đất, sự cố)",
-    "じしんが おきました。",
-    "Đã xảy ra động đất."
+    "考えておきます。",
+    "I'll have to let you know. (Tatoeba #173470, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "たすけあいます",
@@ -10556,22 +10556,22 @@ window.SENTENCES = {
     "あいて",
     "aite",
     "đối phương, người đối diện",
-    "あいての きもちを かんがえます。",
-    "Tôi nghĩ đến cảm xúc của người đối diện."
+    "これは学生相手の店です。",
+    "This is a store that caters specially to students. (Tatoeba #184210, Scott, CC BY 2.0 FR)"
    ],
    [
     "きもち",
     "kimochi",
     "cảm xúc",
-    "たのしい きもちに なりました。",
-    "Tôi đã thấy vui vẻ."
+    "気持ち悪い！",
+    "Gross! (Tatoeba #2393230, anankei, CC BY 2.0 FR)"
    ],
    [
     "あげます",
     "agemasu",
     "nâng lên",
-    "てを あげます。",
-    "Tôi giơ tay lên."
+    "これをあなたにあげます。",
+    "I will give you this. (Tatoeba #1221471, FiRez, CC BY 2.0 FR)"
    ],
    [
     "さげます",
@@ -10612,15 +10612,15 @@ window.SENTENCES = {
     "でんぽう",
     "denpou",
     "điện báo",
-    "でんぽうを うちます。",
-    "Tôi gửi điện báo."
+    "電報でご返事下さい。",
+    "Please answer me by telegram. (Tatoeba #124759, mookeee, CC BY 2.0 FR)"
    ],
    [
     "ひとびと",
     "hitobito",
     "mọi người",
-    "ひとびとが あつまります。",
-    "Mọi người tụ họp."
+    "何千もの人々がそこにいた。",
+    "Thousands of people were there. (Tatoeba #187360, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "きゅうよう",
@@ -10640,8 +10640,8 @@ window.SENTENCES = {
     "できるだけ",
     "dekirudake",
     "cố hết mức có thể",
-    "できるだけ はやく きて ください。",
-    "Hãy đến sớm hết mức có thể."
+    "できるだけ早くね。",
+    "Be as quick as possible. (Tatoeba #11310764, small_snow, CC BY 2.0 FR)"
    ],
    [
     "みじかく",
@@ -10661,8 +10661,8 @@ window.SENTENCES = {
     "たとえば",
     "tatoeba",
     "ví dụ",
-    "たとえば、「キトク」と いう ことばが あります。",
-    "Ví dụ có từ “kitoku”."
+    "例えば、英語が好きですか。",
+    "For example, do you like English? (Tatoeba #337412, Swift, CC BY 2.0 FR)"
    ],
    [
     "キトク",
@@ -10689,15 +10689,15 @@ window.SENTENCES = {
     "るす",
     "rusu",
     "vắng nhà",
-    "いま るすです。",
-    "Bây giờ tôi vắng nhà."
+    "母は留守です。",
+    "Mother is away from home. (Tatoeba #82839, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "るすばん",
     "rusuban",
     "trông nhà",
-    "うちの るすばんを おねがいします。",
-    "Xin nhờ anh trông nhà."
+    "留守番しててね。",
+    "Would you look after the place while I'm out? (Tatoeba #78219, mookeee, CC BY 2.0 FR)"
    ],
    [
     "［お］いわい",
@@ -10819,8 +10819,8 @@ window.SENTENCES = {
     "ソース",
     "soosu",
     "nước sốt",
-    "ソースを つけて たべます。",
-    "Tôi chấm nước sốt rồi ăn."
+    "ソースは足りてますか？",
+    "Is there enough gravy? (Tatoeba #8733064, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "たまねぎ",
@@ -10833,8 +10833,8 @@ window.SENTENCES = {
     "なべ",
     "nabe",
     "cái nồi",
-    "なべを ひに かけます。",
-    "Bắc nồi lên bếp."
+    "なべ物とはどんなものですか。",
+    "What are nabemono like? (Tatoeba #199083, mookeee, CC BY 2.0 FR)"
    ],
    [
     "どんぶり",
@@ -10854,8 +10854,8 @@ window.SENTENCES = {
     "おしろ",
     "oshiro",
     "lâu đài",
-    "おしろの ずを みて ください。",
-    "Hãy xem bản vẽ của lâu đài."
+    "あれは古いお城です。",
+    "That is an old castle. (Tatoeba #229712, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "スポーツクラブ",
@@ -10882,8 +10882,8 @@ window.SENTENCES = {
     "シートベルト",
     "shiitoberuto",
     "dây an toàn",
-    "シートベルトを しないで はしっては いけません。",
-    "Không được lái xe mà không thắt dây an toàn."
+    "シートベルトはした？",
+    "Did you fasten the seatbelt? (Tatoeba #10159562, small_snow, CC BY 2.0 FR)"
    ],
    [
     "くみたてます",
@@ -10952,22 +10952,22 @@ window.SENTENCES = {
     "おきゃく［さん］",
     "okyaku [san]",
     "khách",
-    "おきゃくさんに おちゃを だします。",
-    "Tôi mời khách trà."
+    "あの店はお客さんが多い。",
+    "That shop has many customers. (Tatoeba #230538, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "ゆうべ",
     "yuube",
     "tối qua",
-    "ゆうべ ともだちと たべました。",
-    "Tối qua tôi ăn với bạn."
+    "ゆうべ私に電話くれた？",
+    "Did you call me last night? (Tatoeba #79133, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "さっき",
     "sakki",
     "lúc nãy",
-    "さっき でんわが ありました。",
-    "Lúc nãy có điện thoại gọi đến."
+    "さっきのメールどういう意味？",
+    "What did you mean in that email you just sent? (Tatoeba #2313031, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "さどう",
@@ -10987,8 +10987,8 @@ window.SENTENCES = {
     "さきに",
     "saki ni",
     "trước",
-    "さきに たべて ください。",
-    "Xin hãy ăn trước."
+    "先に寝てていいよ。",
+    "You can sleep first. (Tatoeba #141908, small_snow, CC BY 2.0 FR)"
    ],
    [
     "のせます",
@@ -11022,8 +11022,8 @@ window.SENTENCES = {
     "ざいりょう",
     "zairyou",
     "nguyên liệu",
-    "ざいりょうを じゅんびします。",
-    "Tôi chuẩn bị nguyên liệu."
+    "材料は何ですか？",
+    "What are they made of? (Tatoeba #10808962, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "たまねぎ",
@@ -11050,8 +11050,8 @@ window.SENTENCES = {
     "なべ",
     "nabe",
     "nồi",
-    "なべに みずを いれます。",
-    "Cho nước vào nồi."
+    "なべ物とはどんなものですか。",
+    "What are nabemono like? (Tatoeba #199083, mookeee, CC BY 2.0 FR)"
    ],
    [
     "ひ",
@@ -11106,8 +11106,8 @@ window.SENTENCES = {
     "かぐ",
     "kagu",
     "đồ nội thất",
-    "かぐを くみたてます。",
-    "Tôi lắp đồ nội thất."
+    "家具屋に行きましょう。",
+    "Let's go to the furniture store. (Tatoeba #12484055, Lumi, CC BY 2.0 FR)"
    ],
    [
     "キー",
@@ -11120,8 +11120,8 @@ window.SENTENCES = {
     "シートベルト",
     "shiito beruto",
     "dây an toàn",
-    "シートベルトを して ください。",
-    "Hãy thắt dây an toàn."
+    "シートベルトはした？",
+    "Did you fasten the seatbelt? (Tatoeba #10159562, small_snow, CC BY 2.0 FR)"
    ],
    [
     "とりにく",
@@ -11226,22 +11226,22 @@ window.SENTENCES = {
     "れきし",
     "rekishi",
     "lịch sử",
-    "れきしなら、きょうとが いいですよ。",
-    "Nếu là lịch sử thì Kyoto tốt đấy."
+    "私は歴史家です。",
+    "I am a historian. (Tatoeba #12251169, opalandwoof, CC BY 2.0 FR)"
    ],
    [
     "すいはんき",
     "suihanki",
     "nồi cơm điện",
-    "すいはんきの ボタンを おせば、ごはんが たけます。",
-    "Bấm nút nồi cơm điện thì nấu được cơm."
+    "炊飯器のスイッチを入れてね。",
+    "Turn on the rice cooker, please. (Tatoeba #143618, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "カーテン",
     "kaaten",
     "rèm cửa",
-    "カーテンを あければ、ふじさんが みえます。",
-    "Mở rèm ra thì thấy núi Phú Sĩ."
+    "カーテン閉めて。",
+    "Close the curtain. (Tatoeba #11588302, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ひも",
@@ -11261,15 +11261,15 @@ window.SENTENCES = {
     "にっこう",
     "nikkou",
     "Nikko",
-    "にっこうの しろは ゆうめいです。",
-    "Đền ở Nikko nổi tiếng."
+    "この夏休みは日光に行きたい。",
+    "We would like to visit Nikko during this summer vacation. (Tatoeba #222852, mookeee, CC BY 2.0 FR)"
    ],
    [
     "アフリカ",
     "afurika",
     "châu Phi",
-    "アフリカへ いけば、どうぶつが みられます。",
-    "Nếu đến châu Phi thì xem được động vật."
+    "南アフリカは遠い。",
+    "South Africa is far away. (Tatoeba #640529, arihato, CC BY 2.0 FR)"
    ],
    [
     "やこうバス",
@@ -11289,8 +11289,8 @@ window.SENTENCES = {
     "ハイキング",
     "haikingu",
     "đi bộ đường dài",
-    "ハイキングなら、はこねが いいですよ。",
-    "Nếu là đi bộ đường dài thì Hakone tốt đấy."
+    "私はハイキングに参加した。",
+    "I went hiking with the group. (Tatoeba #159146, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "こまります",
@@ -11324,15 +11324,15 @@ window.SENTENCES = {
     "むこう",
     "mukou",
     "phía bên kia",
-    "かわの むこうに こうえんが あります。",
-    "Bên kia sông có công viên."
+    "城は川の向こうにある。",
+    "The castle is across the river. (Tatoeba #146095, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きんじょ",
     "kinjo",
     "hàng xóm, khu lân cận",
-    "きんじょの ひとに あいさつします。",
-    "Tôi chào hàng xóm."
+    "近所の人よ。",
+    "He's my neighbour. (Tatoeba #12383642, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おくじょう",
@@ -11345,36 +11345,36 @@ window.SENTENCES = {
     "かいがい",
     "kaigai",
     "nước ngoài, hải ngoại",
-    "かいがいへ りょこうに いきたいです。",
-    "Tôi muốn đi du lịch nước ngoài."
+    "海外に行きたい。",
+    "I want to go abroad. (Tatoeba #1200846, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "やまのぼり",
     "yamanobori",
     "leo núi",
-    "やまのぼりが すきです。",
-    "Tôi thích leo núi."
+    "私は山登りが好きです。",
+    "I like climbing mountains. (Tatoeba #156654, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "れきし",
     "rekishi",
     "lịch sử",
-    "れきしを べんきょうして います。",
-    "Tôi đang học lịch sử."
+    "私は歴史家です。",
+    "I am a historian. (Tatoeba #12251169, opalandwoof, CC BY 2.0 FR)"
    ],
    [
     "きかい",
     "kikai",
     "cơ hội",
-    "いい きかいですから、やって みましょう。",
-    "Là cơ hội tốt nên ta thử làm đi."
+    "また、次の機会にでも。",
+    "May I take a rain check? (Tatoeba #195543, small_snow, CC BY 2.0 FR)"
    ],
    [
     "きょか",
     "kyoka",
     "sự cho phép",
-    "きょかが なければ、はいれません。",
-    "Nếu không có giấy phép thì không vào được."
+    "許可が必要ですか？",
+    "Do I need permission? (Tatoeba #11782640, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "まる",
@@ -11415,8 +11415,8 @@ window.SENTENCES = {
     "カーテン",
     "kaaten",
     "rèm cửa",
-    "カーテンを あければ、ふじさんが みえます。",
-    "Mở rèm ra thì thấy núi Phú Sĩ."
+    "カーテン閉めて。",
+    "Close the curtain. (Tatoeba #11588302, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ひも",
@@ -11429,8 +11429,8 @@ window.SENTENCES = {
     "すいはんき",
     "suihanki",
     "nồi cơm điện",
-    "すいはんきの ボタンを おせば、ごはんが たけます。",
-    "Bấm nút nồi cơm điện thì nấu được cơm."
+    "炊飯器のスイッチを入れてね。",
+    "Turn on the rice cooker, please. (Tatoeba #143618, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "は",
@@ -11464,8 +11464,8 @@ window.SENTENCES = {
     "アフリカ",
     "afurika",
     "châu Phi",
-    "アフリカへ いった ことが ありません。",
-    "Tôi chưa từng đến châu Phi."
+    "南アフリカは遠い。",
+    "South Africa is far away. (Tatoeba #640529, arihato, CC BY 2.0 FR)"
    ],
    [
     "マンガミュージアム",
@@ -11485,8 +11485,8 @@ window.SENTENCES = {
     "それなら",
     "sore nara",
     "nếu vậy thì",
-    "それなら、バスの ほうが やすいですよ。",
-    "Nếu vậy thì đi xe buýt rẻ hơn đấy."
+    "それなら、なんの問題もないじゃないですか。",
+    "If so, then there's no problem at all, is there? (Tatoeba #518584, nihonjin, CC BY 2.0 FR)"
    ],
    [
     "やこうバス",
@@ -11513,8 +11513,8 @@ window.SENTENCES = {
     "くわしい",
     "kuwashii",
     "chi tiết, am hiểu",
-    "この ほんは くわしいです。",
-    "Quyển sách này chi tiết."
+    "手話に詳しい？",
+    "Are you familiar with sign language? (Tatoeba #8757190, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "スキーじょう",
@@ -11541,15 +11541,15 @@ window.SENTENCES = {
     "ことわざ",
     "kotowaza",
     "tục ngữ",
-    "ことわざを おぼえて いますか。",
-    "Bạn có nhớ câu tục ngữ nào không?"
+    "これは私がその意味が分からないことわざです。",
+    "This is a proverb the meaning of which I do not understand. (Tatoeba #218907, mookeee, CC BY 2.0 FR)"
    ],
    [
     "かんけい",
     "kankei",
     "mối quan hệ",
-    "ふたりの かんけいは いいです。",
-    "Mối quan hệ của hai người tốt."
+    "私には関係ない。",
+    "This doesn't concern me. (Tatoeba #395840, cheeheerow, CC BY 2.0 FR)"
    ],
    [
     "なかよく します",
@@ -11562,8 +11562,8 @@ window.SENTENCES = {
     "ひつよう［な］",
     "hitsuyou [na]",
     "cần thiết",
-    "パスポートは ひつようです。",
-    "Hộ chiếu là cần thiết."
+    "何が必要ですか。",
+    "What do you need? (Tatoeba #187898, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ひろいます",
@@ -11583,8 +11583,8 @@ window.SENTENCES = {
     "めずらしい",
     "mezurashii",
     "hiếm, lạ",
-    "めずらしい はなが さきました。",
-    "Một bông hoa hiếm đã nở."
+    "ずいぶんと珍しいですね。",
+    "It's so rare. (Tatoeba #3506563, arnab, CC BY 2.0 FR)"
    ],
    [
     "かた",
@@ -11604,8 +11604,8 @@ window.SENTENCES = {
     "ハイキング",
     "haikingu",
     "đi bộ đường dài",
-    "ハイキングに いきます。",
-    "Tôi đi bộ đường dài."
+    "私はハイキングに参加した。",
+    "I went hiking with the group. (Tatoeba #159146, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "そうさ",
@@ -11618,15 +11618,15 @@ window.SENTENCES = {
     "ほうほう",
     "houhou",
     "phương pháp",
-    "いい ほうほうが あります。",
-    "Có phương pháp tốt."
+    "方法はありません。",
+    "There's no way. (Tatoeba #2192113, acbarbosa, CC BY 2.0 FR)"
    ],
    [
     "ふた",
     "futa",
     "nắp",
-    "ふたを あければ、なかが みえます。",
-    "Mở nắp ra thì thấy bên trong."
+    "彼女は箱のふたを開けた。",
+    "She took off the lid of the box. (Tatoeba #87535, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きょく",
@@ -11639,8 +11639,8 @@ window.SENTENCES = {
     "たのしみ",
     "tanoshimi",
     "niềm vui, mong đợi",
-    "れんきゅうが たのしみです。",
-    "Tôi mong kỳ nghỉ dài."
+    "旅行が楽しみです。",
+    "I am looking forward to the trip. (Tatoeba #152338, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "はじめに",
@@ -11734,15 +11734,15 @@ window.SENTENCES = {
     "すいえい",
     "suiei",
     "bơi lội",
-    "まいしゅう すいえいを して います。",
-    "Mỗi tuần tôi bơi lội."
+    "水泳は健康によい。",
+    "Swimming is good for your health. (Tatoeba #143686, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きしゃ",
     "kisha",
     "tàu hơi nước",
-    "むかしは きしゃが はしって いました。",
-    "Ngày xưa tàu hơi nước chạy."
+    "あ、汽車が来た。",
+    "Here comes the train. (Tatoeba #234771, Sim5634, CC BY 2.0 FR)"
    ],
    [
     "きせん",
@@ -11755,8 +11755,8 @@ window.SENTENCES = {
     "こうじょう",
     "koujou",
     "nhà máy",
-    "こうじょうで はたらく ように なりました。",
-    "Tôi đã đi làm ở nhà máy."
+    "この村には工場は一つもない。",
+    "There is no factory in this village. (Tatoeba #220682, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "タンゴ",
@@ -11797,8 +11797,8 @@ window.SENTENCES = {
     "うちゅう",
     "uchuu",
     "vũ trụ",
-    "うちゅうへ いけるように なりました。",
-    "Con người đã có thể lên vũ trụ."
+    "宇宙旅行はもはや夢ではない。",
+    "Space travel is no longer a dream. (Tatoeba #189859, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "きょく",
@@ -11811,8 +11811,8 @@ window.SENTENCES = {
     "このごろ",
     "konogoro",
     "dạo này",
-    "このごろ よく ねられるように なりました。",
-    "Dạo này tôi ngủ được ngon."
+    "このごろ暖かい日が多い。",
+    "Recently we have had many mild days. (Tatoeba #223738, small_snow, CC BY 2.0 FR)"
    ],
    [
     "やっと",
@@ -11825,43 +11825,43 @@ window.SENTENCES = {
     "かなり",
     "kanari",
     "khá",
-    "かなり じょうずに なりました。",
-    "Tôi đã khá hơn nhiều."
+    "かなり寒い。",
+    "It's pretty cold. (Tatoeba #226275, arnab, CC BY 2.0 FR)"
    ],
    [
     "かならず",
     "kanarazu",
     "nhất định",
-    "かならず れんらくして ください。",
-    "Nhất định hãy liên lạc."
+    "必ずやります。",
+    "I'll do it by all means. (Tatoeba #85476, Take32, CC BY 2.0 FR)"
    ],
    [
     "ぜったいに",
     "zettai ni",
     "tuyệt đối",
-    "ぜったいに わすれないで ください。",
-    "Tuyệt đối đừng quên."
+    "絶対に無理！",
+    "When pigs fly! (Tatoeba #11572792, small_snow, CC BY 2.0 FR)"
    ],
    [
     "じょうずに",
     "jouzu ni",
     "một cách giỏi",
-    "じょうずに はなせるように なりたいです。",
-    "Tôi muốn nói giỏi."
+    "上手に歌えた。",
+    "I sang well. (Tatoeba #13028930, small_snow, CC BY 2.0 FR)"
    ],
    [
     "できるだけ",
     "dekirudake",
     "cố hết mức có thể",
-    "できるだけ あるくように して います。",
-    "Tôi cố gắng đi bộ hết mức có thể."
+    "できるだけ早くね。",
+    "Be as quick as possible. (Tatoeba #11310764, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ほとんど",
     "hotondo",
     "hầu như",
-    "ほとんど まいにち あるいて います。",
-    "Hầu như ngày nào tôi cũng đi bộ."
+    "本はほとんどない。",
+    "They have few books. (Tatoeba #81647, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ショパン",
@@ -11881,8 +11881,8 @@ window.SENTENCES = {
     "とくべつ［な］",
     "tokubetsu [na]",
     "đặc biệt",
-    "とくべつな ことは して いません。",
-    "Tôi không làm điều gì đặc biệt."
+    "特別に行きたい場所はありますか？",
+    "Is there any place special you want to go? (Tatoeba #8755628, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "して いらっしゃいます",
@@ -11895,15 +11895,15 @@ window.SENTENCES = {
     "すいえい",
     "suiei",
     "bơi lội",
-    "まいしゅう すいえいを して います。",
-    "Mỗi tuần tôi bơi lội."
+    "水泳は健康によい。",
+    "Swimming is good for your health. (Tatoeba #143686, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ちがいます",
     "chigaimasu",
     "khác, sai",
-    "それは ちがいます。",
-    "Cái đó sai rồi."
+    "違いますか？",
+    "Isn't that so? (Tatoeba #3496743, arnab, CC BY 2.0 FR)"
    ],
    [
     "つかって いらっしゃるんですね。",
@@ -11923,8 +11923,8 @@ window.SENTENCES = {
     "きもち",
     "kimochi",
     "tâm trạng",
-    "きもちが いいです。",
-    "Tôi thấy dễ chịu."
+    "気持ち悪い！",
+    "Gross! (Tatoeba #2393230, anankei, CC BY 2.0 FR)"
    ],
    [
     "のりもの",
@@ -11944,22 +11944,22 @@ window.SENTENCES = {
     "とおく",
     "tooku",
     "nơi xa",
-    "とおくまで いきました。",
-    "Tôi đã đi xa."
+    "遠くに家が見えた。",
+    "I saw a house in the distance. (Tatoeba #188672, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "めずらしい",
     "mezurashii",
     "hiếm, lạ",
-    "めずらしい のりものです。",
-    "Đó là một phương tiện hiếm."
+    "ずいぶんと珍しいですね。",
+    "It's so rare. (Tatoeba #3506563, arnab, CC BY 2.0 FR)"
    ],
    [
     "はこびます",
     "hakobimasu",
     "chở, vận chuyển",
-    "にもつを はこびます。",
-    "Tôi chở hành lý."
+    "その箱、僕が運びますよ。",
+    "Let me carry that box for you. (Tatoeba #9941512, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "りようします",
@@ -11972,8 +11972,8 @@ window.SENTENCES = {
     "じゆうに",
     "jiyuu ni",
     "tự do",
-    "じゆうに つかって ください。",
-    "Hãy cứ tự do sử dụng."
+    "自由になりたい。",
+    "I want freedom. (Tatoeba #5055280, hiroy, CC BY 2.0 FR)"
    ],
    [
     "ふとります",
@@ -11993,15 +11993,15 @@ window.SENTENCES = {
     "こうじょう",
     "koujou",
     "nhà máy",
-    "こうじょうで はたらいて います。",
-    "Tôi làm ở nhà máy."
+    "この村には工場は一つもない。",
+    "There is no factory in this village. (Tatoeba #220682, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "けんこう",
     "kenkou",
     "sức khoẻ",
-    "けんこうの ために あるきます。",
-    "Tôi đi bộ vì sức khoẻ."
+    "水泳は健康によい。",
+    "Swimming is good for your health. (Tatoeba #143686, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "タンゴ",
@@ -12014,29 +12014,29 @@ window.SENTENCES = {
     "れきし",
     "rekishi",
     "lịch sử",
-    "れきしを べんきょうして います。",
-    "Tôi đang học lịch sử."
+    "私は歴史家です。",
+    "I am a historian. (Tatoeba #12251169, opalandwoof, CC BY 2.0 FR)"
    ],
    [
     "とびます",
     "tobimasu",
     "bay",
-    "ひこうきが とびます。",
-    "Máy bay bay."
+    "ドイツに飛びます。",
+    "I'll be flying to Germany. (Tatoeba #11286127, small_snow, CC BY 2.0 FR)"
    ],
    [
     "あんぜん［な］",
     "anzen [na]",
     "an toàn",
-    "あんぜんな のりものです。",
-    "Đó là phương tiện an toàn."
+    "安全運転してね。",
+    "Drive safely. (Tatoeba #485448, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ちきゅう",
     "chikyuu",
     "Trái Đất",
-    "ちきゅうは まるいです。",
-    "Trái Đất tròn."
+    "地球は丸い。",
+    "The earth is round. (Tatoeba #126969, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ライトきょうだい",
@@ -12147,8 +12147,8 @@ window.SENTENCES = {
     "けいかん",
     "keikan",
     "cảnh sát viên",
-    "けいかんに みちを おしえられました。",
-    "Tôi được cảnh sát chỉ đường."
+    "警官みたいですね。",
+    "You look like a cop. (Tatoeba #3385029, e4zh1nmcz, CC BY 2.0 FR)"
    ],
    [
     "ワールドカップ",
@@ -12175,8 +12175,8 @@ window.SENTENCES = {
     "ポルトガル",
     "porutogaru",
     "Bồ Đào Nha",
-    "ポルトガルから パンが つたえられました。",
-    "Bánh mì được truyền từ Bồ Đào Nha."
+    "彼女はポルトガル語を話します。",
+    "She speaks Portuguese. (Tatoeba #1113446, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "サウジアラビア",
@@ -12224,8 +12224,8 @@ window.SENTENCES = {
     "かがくしゃ",
     "kagakusha",
     "nhà khoa học",
-    "かがくしゃに はっけんされました。",
-    "Nó do nhà khoa học phát hiện."
+    "彼は科学者です。",
+    "He is a scientist. (Tatoeba #109217, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "むらさきしきぶ",
@@ -12273,8 +12273,8 @@ window.SENTENCES = {
     "たのみます",
     "tanomimasu",
     "nhờ",
-    "ぶちょうに しごとを たのまれました。",
-    "Tôi bị trưởng phòng nhờ việc."
+    "私はこの料理を頼みます。",
+    "I'll order this dish. (Tatoeba #10903677, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ちゅういします",
@@ -12364,8 +12364,8 @@ window.SENTENCES = {
     "デート",
     "deeto",
     "buổi hẹn hò",
-    "デートに さそわれました。",
-    "Tôi được rủ đi hẹn hò."
+    "デートしませんか？",
+    "Will you go on a date with me? (Tatoeba #10736122, small_snow, CC BY 2.0 FR)"
    ],
    [
     "どろぼう",
@@ -12378,8 +12378,8 @@ window.SENTENCES = {
     "けいかん",
     "keikan",
     "cảnh sát",
-    "けいかんに みちを おしえられました。",
-    "Tôi được cảnh sát chỉ đường."
+    "警官みたいですね。",
+    "You look like a cop. (Tatoeba #3385029, e4zh1nmcz, CC BY 2.0 FR)"
    ],
    [
     "－せいき",
@@ -12392,15 +12392,15 @@ window.SENTENCES = {
     "なにご",
     "nanigo",
     "tiếng nước nào",
-    "これは なにごで かかれて いますか。",
-    "Cái này được viết bằng tiếng gì?"
+    "何語が話せますか？",
+    "What languages do you speak? (Tatoeba #8679659, mochico, CC BY 2.0 FR)"
    ],
    [
     "だれか",
     "dareka",
     "ai đó",
-    "だれかに よばれました。",
-    "Tôi bị ai đó gọi."
+    "誰か来たよ。",
+    "Someone's at the door. (Tatoeba #10682365, small_snow, CC BY 2.0 FR)"
    ],
    [
     "よかったですね。",
@@ -12420,15 +12420,15 @@ window.SENTENCES = {
     "みなさま",
     "minasama",
     "quý vị (kính ngữ của みなさん)",
-    "みなさま、ようこそ。",
-    "Kính chào quý vị."
+    "皆様、ご機嫌いかがですか？",
+    "How are you all doing? (Tatoeba #1147121, Scott, CC BY 2.0 FR)"
    ],
    [
     "そのご",
     "sono go",
     "sau đó",
-    "その ご、どう なりましたか。",
-    "Sau đó thế nào rồi?"
+    "その後彼は家に帰りました。",
+    "After that, he went home. (Tatoeba #236894, mookeee, CC BY 2.0 FR)"
    ],
    [
     "せかいいさん",
@@ -12455,8 +12455,8 @@ window.SENTENCES = {
     "－キロ",
     "-kiro",
     "~ kg / ~ km",
-    "１０キロ あります。",
-    "Nặng 10 ký."
+    "学校は２キロ先にある。",
+    "The school is two kilometers ahead. (Tatoeba #184425, mookeee, CC BY 2.0 FR)"
    ],
    [
     "うつくしい",
@@ -12469,8 +12469,8 @@ window.SENTENCES = {
     "ごうか［な］",
     "gouka [na]",
     "lộng lẫy",
-    "ごうかな たてものです。",
-    "Đó là toà nhà lộng lẫy."
+    "豪華ですね。",
+    "It's gorgeous. (Tatoeba #10585415, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ちょうこく",
@@ -12504,15 +12504,15 @@ window.SENTENCES = {
     "なかま",
     "nakama",
     "đồng nghiệp, bạn bè cùng nhóm",
-    "なかまに しょうかいされました。",
-    "Tôi được giới thiệu với đồng nghiệp."
+    "私も仲間に入れて。",
+    "Count me in. (Tatoeba #1153163, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "いっしょうけんめい",
     "isshoukenmei",
     "hết sức mình",
-    "いっしょうけんめい はたらきました。",
-    "Tôi đã làm việc hết sức mình."
+    "彼は一生懸命勉強した。",
+    "He studied very hard. (Tatoeba #109923, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おこします",
@@ -12532,8 +12532,8 @@ window.SENTENCES = {
     "まんが",
     "manga",
     "truyện tranh",
-    "まんがは せかいじゅうで よまれて います。",
-    "Truyện tranh được đọc trên khắp thế giới."
+    "私は漫画家です。",
+    "I'm a cartoonist. (Tatoeba #3068313, arnab, CC BY 2.0 FR)"
    ],
    [
     "ドミニカ",
@@ -12567,8 +12567,8 @@ window.SENTENCES = {
     "とち",
     "tochi",
     "đất đai",
-    "とちが たりません。",
-    "Đất không đủ."
+    "石の多い土地ですね。",
+    "It's a very rocky soil, isn't it? (Tatoeba #518883, blay_paul, CC BY 2.0 FR)"
    ],
    [
     "そうおん",
@@ -12673,36 +12673,36 @@ window.SENTENCES = {
     "あかちゃん",
     "akachan",
     "em bé",
-    "あかちゃんの せわを するのが すきです。",
-    "Tôi thích chăm em bé."
+    "赤ちゃんは大丈夫？",
+    "Is the baby OK? (Tatoeba #8714261, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しょうがっこう",
     "shougakkou",
     "trường tiểu học",
-    "しょうがっこうの ともだちに あいました。",
-    "Tôi đã gặp bạn hồi tiểu học."
+    "私のフランスケーキ好きは小学校の時からです。",
+    "I've loved French cakes since elementary school. (Tatoeba #146978, wakatyann630, CC BY 2.0 FR)"
    ],
    [
     "ちゅうがっこう",
     "chuugakkou",
     "trường trung học cơ sở",
-    "ちゅうがっこうは えきまえに あります。",
-    "Trường trung học cơ sở ở khu vực trước ga."
+    "父は中学校で英語を教えています。",
+    "My father is teaching English in middle school. (Tatoeba #3050905, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "かいがん",
     "kaigan",
     "bờ biển",
-    "かいがんを さんぽするのが すきです。",
-    "Tôi thích đi dạo bờ biển."
+    "海岸には大勢の人がいた。",
+    "There were a lot of people on the beach. (Tatoeba #10986418, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ゆびわ",
     "yubiwa",
     "nhẫn",
-    "ゆびわを かうのを わすれました。",
-    "Tôi quên mua nhẫn."
+    "指輪がない。",
+    "My ring is gone. (Tatoeba #10367619, small_snow, CC BY 2.0 FR)"
    ],
    [
     "はんこ",
@@ -12715,8 +12715,8 @@ window.SENTENCES = {
     "ふたご",
     "futago",
     "cặp song sinh",
-    "ふたごの しまいは よく にて います。",
-    "Hai chị em song sinh rất giống nhau."
+    "私は双子です。",
+    "I'm a twin. (Tatoeba #2252498, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "げんばくドーム",
@@ -12757,36 +12757,36 @@ window.SENTENCES = {
     "はこびます",
     "hakobimasu",
     "chở, mang",
-    "にもつを はこぶのは たいへんです。",
-    "Mang hành lý thì vất vả."
+    "その箱、僕が運びますよ。",
+    "Let me carry that box for you. (Tatoeba #9941512, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "あかちゃん",
     "akachan",
     "em bé",
-    "あかちゃんの せわを するのは たいへんです。",
-    "Chăm em bé thì vất vả."
+    "赤ちゃんは大丈夫？",
+    "Is the baby OK? (Tatoeba #8714261, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "えきまえ",
     "ekimae",
     "khu vực trước ga",
-    "えきまえは にぎやかです。",
-    "Khu vực trước ga náo nhiệt."
+    "駅前に銀行があるよ。",
+    "There is a bank in front of the station. (Tatoeba #188824, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かいがん",
     "kaigan",
     "bờ biển",
-    "かいがんを さんぽするのが すきです。",
-    "Tôi thích đi dạo bờ biển."
+    "海岸には大勢の人がいた。",
+    "There were a lot of people on the beach. (Tatoeba #10986418, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "こうじょう",
     "koujou",
     "nhà máy",
-    "こうじょうは むらの ちかくに あります。",
-    "Nhà máy ở gần làng."
+    "この村には工場は一つもない。",
+    "There is no factory in this village. (Tatoeba #220682, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "むら",
@@ -12806,36 +12806,36 @@ window.SENTENCES = {
     "ゆびわ",
     "yubiwa",
     "nhẫn",
-    "ゆびわを わすれたのを しって います。",
-    "Tôi biết là mình đã quên chiếc nhẫn."
+    "指輪がない。",
+    "My ring is gone. (Tatoeba #10367619, small_snow, CC BY 2.0 FR)"
    ],
    [
     "でんげん",
     "dengen",
     "nguồn điện",
-    "でんげんは ここに あります。",
-    "Công tắc nguồn ở đây."
+    "携帯の電源は切りました。",
+    "I turned off my phone. (Tatoeba #11052131, small_snow, CC BY 2.0 FR)"
    ],
    [
     "しゅうかん",
     "shuukan",
     "thói quen, tập quán",
-    "まいあさ さんぽする しゅうかんが あります。",
-    "Tôi có thói quen đi dạo mỗi sáng."
+    "習慣になりました。",
+    "It has become habit. (Tatoeba #11563298, small_snow, CC BY 2.0 FR)"
    ],
    [
     "けんこう",
     "kenkou",
     "sức khoẻ",
-    "さんぽは けんこうに いいです。",
-    "Đi dạo tốt cho sức khoẻ."
+    "水泳は健康によい。",
+    "Swimming is good for your health. (Tatoeba #143686, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おととし",
     "ototoshi",
     "năm kia (hai năm trước)",
-    "おととし にほんへ きました。",
-    "Hai năm trước tôi đã đến Nhật."
+    "私は一昨年この山に登りました。",
+    "I climbed this mountain the year before last. (Tatoeba #10899771, small_snow, CC BY 2.0 FR)"
    ],
    [
     "［あ、］いけない。",
@@ -12869,8 +12869,8 @@ window.SENTENCES = {
     "きちんと",
     "kichinto",
     "gọn gàng, đàng hoàng",
-    "きちんと かたづけるのが すきです。",
-    "Tôi thích dọn dẹp gọn gàng."
+    "彼は部屋をきちんと整理した。",
+    "He set things in order in his room. (Tatoeba #100289, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "せいりします",
@@ -12883,8 +12883,8 @@ window.SENTENCES = {
     "ほうほう",
     "houhou",
     "phương pháp",
-    "いい ほうほうを しって います。",
-    "Tôi biết một cách hay."
+    "方法はありません。",
+    "There's no way. (Tatoeba #2192113, acbarbosa, CC BY 2.0 FR)"
    ],
    [
     "－さつ",
@@ -12904,15 +12904,15 @@ window.SENTENCES = {
     "ふたご",
     "futago",
     "cặp song sinh",
-    "ふたごの しまいです。",
-    "Đó là hai chị em song sinh."
+    "私は双子です。",
+    "I'm a twin. (Tatoeba #2252498, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "しまい",
     "shimai",
     "chị em gái",
-    "しまいは よく にて います。",
-    "Hai chị em rất giống nhau."
+    "姉妹はいますか？",
+    "Do you have any sisters? (Tatoeba #168885, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "５ねんせい",
@@ -12932,22 +12932,22 @@ window.SENTENCES = {
     "せいかく",
     "seikaku",
     "tính cách",
-    "せいかくは ぜんぜん ちがいます。",
-    "Tính cách hoàn toàn khác nhau."
+    "彼は性格がよい。",
+    "He has a nice personality. (Tatoeba #103394, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おとなしい",
     "otonashii",
     "hiền lành, trầm lặng",
-    "おとなしい ひとです。",
-    "Đó là người hiền lành, trầm lặng."
+    "この犬は、おとなしい。",
+    "This dog is obedient. (Tatoeba #11263436, small_snow, CC BY 2.0 FR)"
    ],
    [
     "やさしい",
     "yasashii",
     "hiền, dịu dàng",
-    "やさしい ひとが すきです。",
-    "Tôi thích người dịu dàng."
+    "優しい人です。",
+    "He is kind. (Tatoeba #79426, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "せわを します",
@@ -13002,15 +13002,15 @@ window.SENTENCES = {
     "ねんれい",
     "nenrei",
     "tuổi tác",
-    "ねんれいは ちがいます。",
-    "Tuổi tác khác nhau."
+    "年齢は関係ない。",
+    "Age is just a number. (Tatoeba #10181518, Sim5634, CC BY 2.0 FR)"
    ],
    [
     "しかた",
     "shikata",
     "cách làm",
-    "つかいかたは わかりますが、しかたが わかりません。",
-    "Tôi biết cách dùng nhưng không biết cách làm."
+    "それは、しかたないです。",
+    "That's pretty normal. (Tatoeba #2887323, tokyomaths, CC BY 2.0 FR)"
    ],
    [
     "なくなります",
@@ -13023,22 +13023,22 @@ window.SENTENCES = {
     "うそ",
     "uso",
     "lời nói dối",
-    "うそを つくのは いけません。",
-    "Không được nói dối."
+    "もうその話はやめましょう。",
+    "Let's not talk about it any more. (Tatoeba #194409, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "しょるい",
     "shorui",
     "giấy tờ",
-    "しょるいを せいりするのは たいへんです。",
-    "Sắp xếp giấy tờ thì vất vả."
+    "その書類をもう一度調べた。",
+    "We checked the document again. (Tatoeba #209397, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "クラス",
     "kurasu",
     "lớp",
-    "わたしの クラスは にぎやかです。",
-    "Lớp của tôi náo nhiệt."
+    "新しいクラスはどう？",
+    "How is your new class? (Tatoeba #3642234, tommy_san, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -13111,15 +13111,15 @@ window.SENTENCES = {
     "つなみ",
     "tsunami",
     "sóng thần",
-    "つなみの ニュースを みて、びっくりしました。",
-    "Xem tin sóng thần tôi giật mình."
+    "津波が来ますので注意してください。",
+    "A tsunami is coming, so please be on the alert. (Tatoeba #789592, arihato, CC BY 2.0 FR)"
    ],
    [
     "たいふう",
     "taifuu",
     "bão",
-    "たいふうなので、かいしゃを やすみました。",
-    "Vì có bão nên tôi nghỉ làm."
+    "台風が来てます。",
+    "A typhoon's coming. (Tatoeba #10227774, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かみなり",
@@ -13139,8 +13139,8 @@ window.SENTENCES = {
     "じこ",
     "jiko",
     "tai nạn",
-    "じこで でんしゃが おくれました。",
-    "Tàu trễ vì tai nạn."
+    "事故にあいました。",
+    "I had an accident. (Tatoeba #150868, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おみあい",
@@ -13160,22 +13160,22 @@ window.SENTENCES = {
     "フロント",
     "furonto",
     "quầy lễ tân",
-    "フロントに きいて ください。",
-    "Hãy hỏi quầy lễ tân."
+    "フロントガラスをふきますか。",
+    "Should I clean your windshield? (Tatoeba #196875, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "タオル",
     "taoru",
     "khăn tắm",
-    "タオルが ないので、フロントに でんわします。",
-    "Không có khăn tắm nên tôi gọi lễ tân."
+    "タオルを忘れました。",
+    "I forgot my towel. (Tatoeba #12440075, small_snow, CC BY 2.0 FR)"
    ],
    [
     "せっけん",
     "sekken",
     "xà phòng",
-    "せっけんが なくて、こまりました。",
-    "Không có xà phòng nên tôi gặp khó."
+    "せっけんで手を洗いました。",
+    "I washed my hands with soap. (Tatoeba #10899704, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "トラック",
@@ -13188,8 +13188,8 @@ window.SENTENCES = {
     "おとな",
     "otona",
     "người lớn",
-    "おとなに なって、うれしいです。",
-    "Trở thành người lớn nên tôi vui."
+    "大人２枚ください。",
+    "Two adults, please. (Tatoeba #137485, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "せいじんしき",
@@ -13251,15 +13251,15 @@ window.SENTENCES = {
     "ふくざつ［な］",
     "fukuzatsu [na]",
     "phức tạp",
-    "ふくざつなので、わかりません。",
-    "Vì phức tạp nên tôi không hiểu."
+    "複雑すぎます！",
+    "That's too complicated! (Tatoeba #10287866, small_snow, CC BY 2.0 FR)"
    ],
    [
     "じゃま［な］",
     "jama [na]",
     "vướng, cản trở",
-    "にもつが じゃまなので、かたづけます。",
-    "Vì hành lý vướng nên tôi dọn đi."
+    "あなた邪魔よ。",
+    "You're in the way. (Tatoeba #10201385, small_snow, CC BY 2.0 FR)"
    ],
    [
     "きたない",
@@ -13279,8 +13279,8 @@ window.SENTENCES = {
     "ハイキング",
     "haikingu",
     "đi bộ đường dài",
-    "ハイキングが すきなので、やまへ いきます。",
-    "Vì thích đi bộ đường dài nên tôi lên núi."
+    "私はハイキングに参加した。",
+    "I went hiking with the group. (Tatoeba #159146, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "［お］みあい",
@@ -13307,22 +13307,22 @@ window.SENTENCES = {
     "フロント",
     "furonto",
     "quầy lễ tân",
-    "フロントに きいて ください。",
-    "Hãy hỏi quầy lễ tân."
+    "フロントガラスをふきますか。",
+    "Should I clean your windshield? (Tatoeba #196875, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "－ごうしつ",
     "-goushitsu",
     "phòng số ~",
-    "３０５ごうしつです。",
-    "Phòng số 305."
+    "私の部屋は何号室ですか。",
+    "What is my room number? (Tatoeba #162732, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おおぜい",
     "oozei",
     "đông người",
-    "おおぜいの ひとが いるので、うるさいです。",
-    "Vì có đông người nên ồn."
+    "大勢の人が見てた？",
+    "Were there many people watching? (Tatoeba #10759951, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おつかれさまでした。",
@@ -13342,8 +13342,8 @@ window.SENTENCES = {
     "とちゅうで",
     "tochuu de",
     "giữa đường",
-    "とちゅうで じこに あいました。",
-    "Giữa đường tôi gặp tai nạn."
+    "途中で私の車が故障した。",
+    "My car broke down on the way. (Tatoeba #124578, mookeee, CC BY 2.0 FR)"
    ],
    [
     "トラック",
@@ -13356,22 +13356,22 @@ window.SENTENCES = {
     "ぶつかります",
     "butsukarimasu",
     "va, đâm",
-    "くるまが ぶつかりました。",
-    "Xe ô tô đã đâm vào nhau."
+    "ちょうど日曜日にぶつかりますね。",
+    "It falls on Sunday. (Tatoeba #202889, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おとな",
     "otona",
     "người lớn",
-    "おとなに なりました。",
-    "Tôi đã trở thành người lớn."
+    "大人２枚ください。",
+    "Two adults, please. (Tatoeba #137485, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ようふく",
     "youfuku",
     "quần áo kiểu Tây",
-    "ようふくを きて います。",
-    "Tôi đang mặc quần áo kiểu Tây."
+    "デパートで新しい洋服を買いました。",
+    "I bought new clothes at the department store. (Tatoeba #10899740, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "せいようかします",
@@ -13384,8 +13384,8 @@ window.SENTENCES = {
     "あいます［合います］",
     "aimasu",
     "hợp, vừa",
-    "この くつは あしに あいます。",
-    "Đôi giày này vừa chân."
+    "ひどい目にあいますよ。",
+    "You'll have a hard time. (Tatoeba #197521, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "いまでは",
@@ -13412,15 +13412,15 @@ window.SENTENCES = {
     "ちこくします",
     "chikoku shimasu",
     "đi muộn",
-    "でんしゃが おくれて、ちこくしました。",
-    "Tàu trễ nên tôi đi muộn."
+    "遅刻します。",
+    "I'll be late. (Tatoeba #2465468, nihonjin, CC BY 2.0 FR)"
    ],
    [
     "そうたいします",
     "soutai shimasu",
     "về sớm",
-    "あたまが いたいので、そうたいします。",
-    "Vì đau đầu nên tôi về sớm."
+    "熱があるから早退しますね。",
+    "I have a fever, so I'll leave early. (Tatoeba #11030208, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "でんわだい",
@@ -13514,8 +13514,8 @@ window.SENTENCES = {
     "てんきよほう",
     "tenkiyohou",
     "dự báo thời tiết",
-    "てんきよほうを みて みます。",
-    "Tôi thử xem dự báo thời tiết."
+    "天気予報はどうですか？",
+    "What is the weather forecast? (Tatoeba #13118125, atitarev, CC BY 2.0 FR)"
    ],
    [
     "ぼうねんかい",
@@ -13535,15 +13535,15 @@ window.SENTENCES = {
     "コンテスト",
     "kontesuto",
     "cuộc thi",
-    "コンテストが いつか しりません。",
-    "Tôi không biết cuộc thi khi nào."
+    "彼女はそのコンテストに参加した。",
+    "She took part in the contest. (Tatoeba #92602, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "ズボン",
     "zubon",
     "quần dài",
-    "ズボンの サイズが あうか、はいて みます。",
-    "Tôi mặc thử xem cỡ quần có vừa không."
+    "ズボン返してよ。",
+    "Give me back my pants. (Tatoeba #10516098, small_snow, CC BY 2.0 FR)"
    ],
    [
     "オートバイ",
@@ -13563,8 +13563,8 @@ window.SENTENCES = {
     "うんてんしゅ",
     "untenshu",
     "tài xế",
-    "うんてんしゅさんに ききました。",
-    "Tôi đã hỏi bác tài."
+    "運転手がドアを開けた。",
+    "The driver opened the door. (Tatoeba #12593302, small_snow, CC BY 2.0 FR)"
    ],
    [
     "はんにん",
@@ -13591,8 +13591,8 @@ window.SENTENCES = {
     "ながさき",
     "nagasaki",
     "Nagasaki",
-    "ながさきへ いって みたいです。",
-    "Tôi muốn thử đến Nagasaki."
+    "彼は長崎で生まれました。",
+    "He was born in Nagasaki. (Tatoeba #102053, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "せんだい",
@@ -13647,15 +13647,15 @@ window.SENTENCES = {
     "ひつよう［な］",
     "hitsuyou [na]",
     "cần thiết",
-    "ひつようかどうか かんがえます。",
-    "Tôi nghĩ xem có cần không."
+    "何が必要ですか。",
+    "What do you need? (Tatoeba #187898, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "てんきよほう",
     "tenki yohou",
     "dự báo thời tiết",
-    "てんきよほうで あしたは あめだと いって いました。",
-    "Dự báo thời tiết nói ngày mai mưa."
+    "天気予報はどうですか？",
+    "What is the weather forecast? (Tatoeba #13118125, atitarev, CC BY 2.0 FR)"
    ],
    [
     "まちがい",
@@ -13675,15 +13675,15 @@ window.SENTENCES = {
     "ズボン",
     "zubon",
     "quần dài",
-    "ズボンの サイズが あうかどうか、はいて みます。",
-    "Tôi thử mặc xem cỡ quần có vừa không."
+    "ズボン返してよ。",
+    "Give me back my pants. (Tatoeba #10516098, small_snow, CC BY 2.0 FR)"
    ],
    [
     "［お］としより",
     "[o]toshiyori",
     "người già",
-    "おとしよりに せきを ゆずりました。",
-    "Tôi đã nhường ghế cho người già."
+    "私の両親はまだ年寄りではない。",
+    "My parents aren't old yet. (Tatoeba #162434, mookeee, CC BY 2.0 FR)"
    ],
    [
     "［－］びん",
@@ -13724,43 +13724,43 @@ window.SENTENCES = {
     "テスト",
     "tesuto",
     "bài kiểm tra",
-    "テストは いつか おしえて ください。",
-    "Hãy cho tôi biết khi nào kiểm tra."
+    "どんなテストですか。",
+    "What kind of test is that? (Tatoeba #199569, small_snow, CC BY 2.0 FR)"
    ],
    [
     "せいせき",
     "seiseki",
     "thành tích, điểm",
-    "せいせきが どうか しんぱいです。",
-    "Tôi lo về điểm số."
+    "彼は学校の成績がいい。",
+    "He is doing fine in school. (Tatoeba #108875, Yassan, CC BY 2.0 FR)"
    ],
    [
     "ところで",
     "tokoro de",
     "nhân tiện, à này",
-    "ところで、あした どこへ いきますか。",
-    "À này, mai bạn đi đâu?"
+    "ところであなたは今晩暇ですか。",
+    "By the way, are you free tonight? (Tatoeba #200844, nickyeow, CC BY 2.0 FR)"
    ],
    [
     "いらっしゃいます",
     "irasshaimasu",
     "đến, đi, ở (kính ngữ)",
-    "たなかさんは いつ いらっしゃいますか。",
-    "Khi nào anh Tanaka đến ạ?"
+    "娘さんはいらっしゃいますか？",
+    "Do you have a daughter? (Tatoeba #9942972, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ようす",
     "yousu",
     "tình hình, vẻ ngoài",
-    "ようすを みて みます。",
-    "Tôi thử xem tình hình."
+    "様子を見て来て。",
+    "Go check on things. (Tatoeba #11258038, sh5555, CC BY 2.0 FR)"
    ],
    [
     "じけん",
     "jiken",
     "vụ việc",
-    "じけんの ニュースを きいて びっくりしました。",
-    "Nghe tin vụ việc tôi giật mình."
+    "私はその事件を調べた。",
+    "I looked into the incident. (Tatoeba #160108, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "つみます",
@@ -13773,22 +13773,22 @@ window.SENTENCES = {
     "うんてんしゅ",
     "untenshu",
     "tài xế",
-    "うんてんしゅさんに ききました。",
-    "Tôi đã hỏi bác tài."
+    "運転手がドアを開けた。",
+    "The driver opened the door. (Tatoeba #12593302, small_snow, CC BY 2.0 FR)"
    ],
    [
     "はなれた",
     "hanareta",
     "xa, cách xa",
-    "はなれた ところに すんで います。",
-    "Tôi sống ở nơi xa."
+    "すぐにここを離れた方がいい。",
+    "You'd better get away from here at once. (Tatoeba #12101344, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きゅうに",
     "kyuu ni",
     "đột ngột",
-    "きゅうに あめが ふりました。",
-    "Trời đột ngột mưa."
+    "彼は急にやめた。",
+    "He quit without notice. (Tatoeba #2250894, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "うごかします",
@@ -13801,8 +13801,8 @@ window.SENTENCES = {
     "いっしょうけんめい",
     "isshoukenmei",
     "hết sức mình",
-    "いっしょうけんめい さがして みます。",
-    "Tôi thử tìm hết sức."
+    "彼は一生懸命勉強した。",
+    "He studied very hard. (Tatoeba #109923, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "はんにん",
@@ -13829,8 +13829,8 @@ window.SENTENCES = {
     "いまでも",
     "ima demo",
     "đến bây giờ vẫn",
-    "いまでも おぼえて います。",
-    "Đến bây giờ tôi vẫn nhớ."
+    "今でもまだ悲しい？",
+    "Are you still sad? (Tatoeba #8777776, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きけん［な］",
@@ -13843,8 +13843,8 @@ window.SENTENCES = {
     "へんじ",
     "henji",
     "câu trả lời",
-    "へんじが くるかどうか まって います。",
-    "Tôi đang đợi xem có hồi âm không."
+    "返事がない。",
+    "There is no reply. (Tatoeba #10901650, small_snow, CC BY 2.0 FR)"
    ],
    [
     "もうしこみ",
@@ -13871,8 +13871,8 @@ window.SENTENCES = {
     "－キロ",
     "-kiro",
     "~ ký / ~ km",
-    "１０キロ はしって みます。",
-    "Tôi thử chạy 10 km."
+    "学校は２キロ先にある。",
+    "The school is two kilometers ahead. (Tatoeba #184425, mookeee, CC BY 2.0 FR)"
    ],
    [
     "さあ",
@@ -13980,8 +13980,8 @@ window.SENTENCES = {
     "おもちゃ",
     "omocha",
     "đồ chơi",
-    "こどもに おもちゃを やりました。",
-    "Tôi đã cho trẻ đồ chơi."
+    "おもちゃ、直して。",
+    "Fix my toy. (Tatoeba #11875901, small_snow, CC BY 2.0 FR)"
    ],
    [
     "えほん",
@@ -14008,22 +14008,22 @@ window.SENTENCES = {
     "ハンカチ",
     "hankachi",
     "khăn tay",
-    "ハンカチを いただきました。",
-    "Tôi đã nhận khăn tay."
+    "このハンカチはいくらですか。",
+    "How much is this handkerchief? (Tatoeba #223306, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "くつした",
     "kutsushita",
     "tất",
-    "くつしたを いただきました。",
-    "Tôi đã nhận tất."
+    "私の赤い靴下どこ？",
+    "Where are my red socks? (Tatoeba #11436376, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "てぶくろ",
     "tebukuro",
     "găng tay",
-    "ははが てぶくろを くださいました。",
-    "Mẹ đã cho tôi găng tay."
+    "私の手袋どこ？",
+    "Where are my gloves? (Tatoeba #8653978, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ようちえん",
@@ -14057,8 +14057,8 @@ window.SENTENCES = {
     "バッグ",
     "baggu",
     "túi xách",
-    "バッグを いただきました。",
-    "Tôi đã nhận chiếc túi xách."
+    "バッグを開けて下さい。",
+    "Please open your bag. (Tatoeba #197969, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おとしだま",
@@ -14078,22 +14078,22 @@ window.SENTENCES = {
     "いただきます",
     "itadakimasu",
     "nhận (khiêm nhường)",
-    "ぶちょうに おみやげを いただきました。",
-    "Tôi đã nhận quà từ trưởng phòng."
+    "これをいただきます。",
+    "I'll take this. (Tatoeba #11041808, small_snow, CC BY 2.0 FR)"
    ],
    [
     "くださいます",
     "kudasaimasu",
     "cho (tôi) (kính ngữ)",
-    "せんせいが ほんを くださいました。",
-    "Thầy đã cho tôi quyển sách."
+    "はさみを貸してくださいますか。",
+    "Can I borrow your scissors? (Tatoeba #198275, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "やります",
     "yarimasu",
     "cho (người nhỏ hơn, con vật, cây cối)",
-    "いぬに えさを やります。",
-    "Tôi cho chó ăn."
+    "やりますか。",
+    "Will you do it? (Tatoeba #1564979, marcelostockle, CC BY 2.0 FR)"
    ],
    [
     "しんせつに します",
@@ -14113,15 +14113,15 @@ window.SENTENCES = {
     "めずらしい",
     "mezurashii",
     "hiếm, lạ",
-    "めずらしい おかしを いただきました。",
-    "Tôi đã nhận được bánh kẹo lạ."
+    "ずいぶんと珍しいですね。",
+    "It's so rare. (Tatoeba #3506563, arnab, CC BY 2.0 FR)"
    ],
    [
     "おいわい",
     "oiwai",
     "quà chúc mừng",
-    "おいわいを いただきました。",
-    "Tôi đã nhận quà chúc mừng."
+    "友達の誕生日をみんなでお祝いした。",
+    "We all celebrated for our friend's birthday. (Tatoeba #13176269, Gardenia, CC BY 2.0 FR)"
    ],
    [
     "おとしだま",
@@ -14134,22 +14134,22 @@ window.SENTENCES = {
     "［お］みまい",
     "[o]mimai",
     "thăm bệnh, quà thăm bệnh",
-    "おみまいに いきます。",
-    "Tôi đi thăm bệnh."
+    "息子がときどき私の見舞いにきてくれた。",
+    "My son came to see me from time to time. (Tatoeba #140204, small_snow, CC BY 2.0 FR)"
    ],
    [
     "きょうみ",
     "kyoumi",
     "sự quan tâm",
-    "にほんの ぶんかに きょうみが あります。",
-    "Tôi quan tâm đến văn hoá Nhật."
+    "音楽に興味ある？",
+    "Are you interested in music? (Tatoeba #9096671, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "じょうほう",
     "jouhou",
     "thông tin",
-    "せんせいが じょうほうを くださいました。",
-    "Thầy đã cho tôi thông tin."
+    "この情報は正しいか。",
+    "Is this information right? (Tatoeba #221079, shanghainese, CC BY 2.0 FR)"
    ],
    [
     "さる",
@@ -14162,15 +14162,15 @@ window.SENTENCES = {
     "えさ",
     "esa",
     "mồi, thức ăn cho thú",
-    "どうぶつに えさを やります。",
-    "Tôi cho thú ăn."
+    "そこへかえさないで。",
+    "Don't make me go back there. (Tatoeba #6704208, Rabbit, CC BY 2.0 FR)"
    ],
    [
     "おもちゃ",
     "omocha",
     "đồ chơi",
-    "こどもに おもちゃを やります。",
-    "Tôi cho trẻ em đồ chơi."
+    "おもちゃ、直して。",
+    "Fix my toy. (Tatoeba #11875901, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ドライバー",
@@ -14183,8 +14183,8 @@ window.SENTENCES = {
     "ハンカチ",
     "hankachi",
     "khăn tay",
-    "ハンカチを いただきました。",
-    "Tôi nhận được khăn tay."
+    "このハンカチはいくらですか。",
+    "How much is this handkerchief? (Tatoeba #223306, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ようちえん",
@@ -14211,8 +14211,8 @@ window.SENTENCES = {
     "このあいだ",
     "kono aida",
     "hôm nọ",
-    "このあいだ ぶちょうに ごちそうして いただきました。",
-    "Hôm nọ tôi được trưởng phòng đãi."
+    "この間彼女から手紙がきた。",
+    "I received her letter the other day. (Tatoeba #1107953, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ひとこと",
@@ -14225,15 +14225,15 @@ window.SENTENCES = {
     "ふたり",
     "futari",
     "hai người, cặp đôi",
-    "おふたりは しあわせそうです。",
-    "Hai người trông hạnh phúc."
+    "二人は結婚した。",
+    "They got married. (Tatoeba #123072, mookeee, CC BY 2.0 FR)"
    ],
    [
     "おたく",
     "otaku",
     "nhà (của người khác)",
-    "おたくへ うかがいます。",
-    "Tôi sẽ đến thăm nhà anh."
+    "お宅はどちらですか？",
+    "Where is your house? (Tatoeba #3508032, arnab, CC BY 2.0 FR)"
    ],
    [
     "どうぞ おしあわせに。",
@@ -14274,8 +14274,8 @@ window.SENTENCES = {
     "やさしい",
     "yasashii",
     "dịu dàng, tốt bụng",
-    "やさしい おとこでした。",
-    "Anh ta là người tốt bụng."
+    "優しい人です。",
+    "He is kind. (Tatoeba #79426, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おひめさま",
@@ -14302,8 +14302,8 @@ window.SENTENCES = {
     "すると",
     "suru to",
     "thế là",
-    "ドアを あけると、けむりが でました。",
-    "Hễ mở cửa thì khói bay ra."
+    "私がああすると痛い？",
+    "Does it hurt when I do that? (Tatoeba #9065795, small_snow, CC BY 2.0 FR)"
    ],
    [
     "けむり",
@@ -14316,15 +14316,15 @@ window.SENTENCES = {
     "まっしろ［な］",
     "masshiro [na]",
     "trắng tinh",
-    "かみが まっしろに なりました。",
-    "Tóc đã trắng xoá."
+    "真っ白です。",
+    "It's really snow white. (Tatoeba #145002, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "なかみ",
     "nakami",
     "bên trong, nội dung",
-    "なかみを みせて いただけませんか。",
-    "Cho tôi xem bên trong được không ạ?"
+    "箱の中身は何？",
+    "What is in this box? (Tatoeba #3320916, Tadafumi, CC BY 2.0 FR)"
    ],
    [
     "うらしまたろう",
@@ -14337,8 +14337,8 @@ window.SENTENCES = {
     "よびます",
     "yobimasu",
     "gọi, mời",
-    "ぶちょうを うちに よびました。",
-    "Tôi đã mời trưởng phòng đến nhà."
+    "英語ではこの鳥をなんと呼びますか。",
+    "What do you call this bird in English? (Tatoeba #189227, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "とりかえます",
@@ -14351,29 +14351,29 @@ window.SENTENCES = {
     "ゆびわ",
     "yubiwa",
     "nhẫn",
-    "ゆびわを くださいました。",
-    "Anh ấy đã tặng tôi chiếc nhẫn."
+    "指輪がない。",
+    "My ring is gone. (Tatoeba #10367619, small_snow, CC BY 2.0 FR)"
    ],
    [
     "バッグ",
     "baggu",
     "túi xách",
-    "バッグを いただきました。",
-    "Tôi đã nhận chiếc túi xách."
+    "バッグを開けて下さい。",
+    "Please open your bag. (Tatoeba #197969, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おととし",
     "ototoshi",
     "năm kia",
-    "おととし ごけっこんしました。",
-    "Hai năm trước họ đã kết hôn."
+    "おととし、オーストラリアに引っ越しました。",
+    "I moved to Australia the year before last. (Tatoeba #10901488, small_snow, CC BY 2.0 FR)"
    ],
    [
     "はあ",
     "haa",
     "Vâng ạ (đáp lại)",
-    "はあ、わかりました。",
-    "Vâng ạ, tôi hiểu rồi."
+    "先生はあそこよ。",
+    "The teacher is over there. (Tatoeba #11052427, small_snow, CC BY 2.0 FR)"
    ],
    [
     "もうしわけ ありません。",
@@ -14393,15 +14393,15 @@ window.SENTENCES = {
     "せんじつ",
     "senjitsu",
     "hôm trước",
-    "せんじつは ありがとう ございました。",
-    "Hôm trước xin cảm ơn anh."
+    "先日彼女から手紙がきた。",
+    "I received her letter the other day. (Tatoeba #141447, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "たすかります",
     "tasukarimasu",
     "đỡ quá, nhờ có",
-    "てつだって くださって、たすかりました。",
-    "Nhờ anh giúp mà tôi đỡ quá."
+    "とても助かります。",
+    "That helps a lot. (Tatoeba #4378691, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "［お］しろ",
@@ -14414,8 +14414,8 @@ window.SENTENCES = {
     "たのしく",
     "tanoshiku",
     "một cách vui vẻ",
-    "たのしく くらして います。",
-    "Tôi sống vui vẻ."
+    "楽しくやりましょう。",
+    "Let's have some fun. (Tatoeba #184155, small_snow, CC BY 2.0 FR)"
    ],
    [
     "さげます",
@@ -14428,8 +14428,8 @@ window.SENTENCES = {
     "おいわい",
     "oiwai",
     "quà chúc mừng",
-    "けっこんの おいわいを あげました。",
-    "Tôi đã tặng quà mừng cưới."
+    "友達の誕生日をみんなでお祝いした。",
+    "We all celebrated for our friend's birthday. (Tatoeba #13176269, Gardenia, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -14551,8 +14551,8 @@ window.SENTENCES = {
     "そろばん",
     "soroban",
     "bàn tính",
-    "そろばんは けいさんするのに つかいます。",
-    "Bàn tính dùng để tính toán."
+    "これは、そろばんです。",
+    "This is an abacus. (Tatoeba #9741321, small_snow, CC BY 2.0 FR)"
    ],
    [
     "カップめん",
@@ -14579,8 +14579,8 @@ window.SENTENCES = {
     "ベートーベン",
     "beetooben",
     "Beethoven",
-    "ベートーベンの きょくを ひく ために、ピアノを ならって います。",
-    "Tôi học piano để chơi nhạc của Beethoven."
+    "ベートーベンのお父さんは、歌手でした。",
+    "Beethoven's father was a singer. (Tatoeba #12121016, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ポーランド",
@@ -14621,8 +14621,8 @@ window.SENTENCES = {
     "まぜます",
     "mazemasu",
     "trộn",
-    "ざいりょうを まぜるのに ミキサーを つかいます。",
-    "Tôi dùng máy trộn để trộn nguyên liệu."
+    "卵をよくかき混ぜます。",
+    "Beat the eggs. (Tatoeba #78485, mookeee, CC BY 2.0 FR)"
    ],
    [
     "けいさんします",
@@ -14642,36 +14642,36 @@ window.SENTENCES = {
     "じょうぶ［な］",
     "joubu [na]",
     "bền, khoẻ",
-    "じょうぶな かばんです。",
-    "Chiếc cặp này bền."
+    "普通でだいじょうぶです。",
+    "That's normal, ok. (Tatoeba #10901808, small_snow, CC BY 2.0 FR)"
    ],
    [
     "アパート",
     "apaato",
     "căn hộ cho thuê",
-    "アパートを さがすために ふどうさんやに いきます。",
-    "Tôi đến công ty bất động sản để tìm căn hộ."
+    "いいアパートね。",
+    "This is a great apartment. (Tatoeba #229463, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "こどもたち",
     "kodomotachi",
     "bọn trẻ",
-    "こどもたちの ために ほんを かいます。",
-    "Tôi mua sách vì các em nhỏ."
+    "私の子どもたちは動物が大好きです。",
+    "My children really like animals. (Tatoeba #163523, Blanka_Meduzo, CC BY 2.0 FR)"
    ],
    [
     "しぜん",
     "shizen",
     "thiên nhiên",
-    "しぜんを まもる ために はたらきます。",
-    "Tôi làm việc để bảo vệ thiên nhiên."
+    "自然に治りますよ。",
+    "It'll cure itself naturally. (Tatoeba #150103, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "もくてき",
     "mokuteki",
     "mục đích",
-    "もくてきは にほんごを べんきょうする ことです。",
-    "Mục đích của tôi là học tiếng Nhật."
+    "旅行の目的は何ですか。",
+    "What's the purpose of your trip? (Tatoeba #78160, mookeee, CC BY 2.0 FR)"
    ],
    [
     "ろんぶん",
@@ -14684,8 +14684,8 @@ window.SENTENCES = {
     "たのしみ",
     "tanoshimi",
     "niềm vui, thú vui",
-    "りょこうが たのしみです。",
-    "Tôi mong chuyến đi."
+    "旅行が楽しみです。",
+    "I am looking forward to the trip. (Tatoeba #152338, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "ミキサー",
@@ -14705,8 +14705,8 @@ window.SENTENCES = {
     "ふた",
     "futa",
     "nắp",
-    "なべの ふたを あけます。",
-    "Tôi mở nắp nồi."
+    "彼女は箱のふたを開けた。",
+    "She took off the lid of the box. (Tatoeba #87535, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かんづめ",
@@ -14733,8 +14733,8 @@ window.SENTENCES = {
     "そろばん",
     "soroban",
     "bàn tính",
-    "そろばんは けいさんするのに つかいます。",
-    "Bàn tính dùng để tính toán."
+    "これは、そろばんです。",
+    "This is an abacus. (Tatoeba #9741321, small_snow, CC BY 2.0 FR)"
    ],
    [
     "たいおんけい",
@@ -14747,15 +14747,15 @@ window.SENTENCES = {
     "ざいりょう",
     "zairyou",
     "nguyên liệu",
-    "ざいりょうを かいに いきます。",
-    "Tôi đi mua nguyên liệu."
+    "材料は何ですか？",
+    "What are they made of? (Tatoeba #10808962, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "いっしょうけんめい",
     "isshoukenmei",
     "hết sức mình",
-    "いっしょうけんめい べんきょうします。",
-    "Tôi học hết sức mình."
+    "彼は一生懸命勉強した。",
+    "He studied very hard. (Tatoeba #109923, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "なぜ",
@@ -14768,8 +14768,8 @@ window.SENTENCES = {
     "どのくらい",
     "dono kurai",
     "khoảng bao nhiêu",
-    "ろんぶんを かくのに どのくらい かかりますか。",
-    "Viết luận văn mất khoảng bao lâu?"
+    "どのくらい高い？",
+    "How high is it? (Tatoeba #200413, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "こくれん",
@@ -14789,15 +14789,15 @@ window.SENTENCES = {
     "ベートーベン",
     "beetooben",
     "Beethoven",
-    "ベートーベンの おんがくが すきです。",
-    "Tôi thích nhạc của Beethoven."
+    "ベートーベンのお父さんは、歌手でした。",
+    "Beethoven's father was a singer. (Tatoeba #12121016, small_snow, CC BY 2.0 FR)"
    ],
    [
     "はんぶん",
     "hanbun",
     "một nửa",
-    "ボーナスの はんぶんは ちょきんします。",
-    "Một nửa tiền thưởng tôi để dành."
+    "半分よこせ。",
+    "Give me half of it. (Tatoeba #121255, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "ローン",
@@ -14838,8 +14838,8 @@ window.SENTENCES = {
     "わります",
     "warimasu",
     "đập, bẻ",
-    "たまごを わります。",
-    "Tôi đập trứng."
+    "話はかわりますが。",
+    "To change the subject. (Tatoeba #77160, mookeee, CC BY 2.0 FR)"
    ],
    [
     "そそぎます",
@@ -14852,8 +14852,8 @@ window.SENTENCES = {
     "ふたり",
     "futari",
     "hai người",
-    "ふたりで はたらく ために かんがえます。",
-    "Hai người cùng nghĩ để làm việc."
+    "二人は結婚した。",
+    "They got married. (Tatoeba #123072, mookeee, CC BY 2.0 FR)"
    ],
    [
     "いし",
@@ -14887,22 +14887,22 @@ window.SENTENCES = {
     "あと",
     "ato",
     "còn lại",
-    "あと ３ふんで できます。",
-    "Còn 3 phút nữa là xong."
+    "あとで電話します。",
+    "I'll call you later. (Tatoeba #234305, small_snow, CC BY 2.0 FR)"
    ],
    [
     "なべ",
     "nabe",
     "nồi",
-    "なべで めんを にます。",
-    "Tôi nấu mì trong nồi."
+    "なべ物とはどんなものですか。",
+    "What are nabemono like? (Tatoeba #199083, mookeee, CC BY 2.0 FR)"
    ],
    [
     "カップ",
     "kappu",
     "cốc",
-    "カップに おゆを そそぎます。",
-    "Tôi rót nước sôi vào cốc."
+    "カップが割れた。",
+    "The cup broke. (Tatoeba #226319, arnab, CC BY 2.0 FR)"
    ],
    [
     "また",
@@ -15000,36 +15000,36 @@ window.SENTENCES = {
     "ガソリン",
     "gasorin",
     "xăng",
-    "ガソリンが なくなりそうです。",
-    "Xăng sắp hết."
+    "あ！まずい！ガソリンが切れてきた。",
+    "Oh, no! We're running out of gas. (Tatoeba #234772, Sim5634, CC BY 2.0 FR)"
    ],
    [
     "パンフレット",
     "panfuretto",
     "tờ rơi, cuốn giới thiệu",
-    "パンフレットを もらって きます。",
-    "Tôi đi lấy tờ rơi rồi về."
+    "こちらのパンフレットは無料です。",
+    "This pamphlet is free of charge. (Tatoeba #223295, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ばら",
     "bara",
     "hoa hồng",
-    "ばらが さきそうです。",
-    "Hoa hồng sắp nở."
+    "庭にはばらがありません。",
+    "There are no roses in the garden. (Tatoeba #536773, tomkun01, CC BY 2.0 FR)"
    ],
    [
     "ドライブ",
     "doraibu",
     "đi chơi bằng xe",
-    "ドライブに いって きます。",
-    "Tôi đi chơi bằng xe rồi về."
+    "ドライブとかどう？",
+    "What do you say to going for a drive? (Tatoeba #2233552, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "かいいん",
     "kaiin",
     "hội viên",
-    "かいいんに なって きます。",
-    "Tôi đi đăng ký làm hội viên rồi về."
+    "私は会員でした。",
+    "I was a member. (Tatoeba #3552071, arnab, CC BY 2.0 FR)"
    ],
    [
     "へん［な］",
@@ -15063,29 +15063,29 @@ window.SENTENCES = {
     "まずい",
     "mazui",
     "dở",
-    "まずそうな りょうりです。",
-    "Món ăn trông dở."
+    "このビザはまずい。",
+    "This pizza is terrible. (Tatoeba #10792679, small_snow, CC BY 2.0 FR)"
    ],
    [
     "つまらない",
     "tsumaranai",
     "chán, tẻ nhạt",
-    "つまらなそうな えいがです。",
-    "Bộ phim trông chán."
+    "つまらないの？",
+    "Are you bored? (Tatoeba #8689056, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "やさしい",
     "yasashii",
     "dịu dàng; dễ",
-    "やさしそうな せんせいです。",
-    "Thầy trông hiền."
+    "優しい人です。",
+    "He is kind. (Tatoeba #79426, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ガソリン",
     "gasorin",
     "xăng",
-    "ガソリンが なくなりそうです。",
-    "Xăng sắp hết."
+    "あ！まずい！ガソリンが切れてきた。",
+    "Oh, no! We're running out of gas. (Tatoeba #234772, Sim5634, CC BY 2.0 FR)"
    ],
    [
     "ひ",
@@ -15098,8 +15098,8 @@ window.SENTENCES = {
     "パンフレット",
     "panfuretto",
     "tờ rơi",
-    "パンフレットを もらって きます。",
-    "Tôi đi lấy tờ rơi về."
+    "こちらのパンフレットは無料です。",
+    "This pamphlet is free of charge. (Tatoeba #223295, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "いまにも",
@@ -15119,22 +15119,22 @@ window.SENTENCES = {
     "ばら",
     "bara",
     "hoa hồng",
-    "ばらが さきそうです。",
-    "Hoa hồng sắp nở."
+    "庭にはばらがありません。",
+    "There are no roses in the garden. (Tatoeba #536773, tomkun01, CC BY 2.0 FR)"
    ],
    [
     "ドライブ",
     "doraibu",
     "đi chơi bằng xe",
-    "ドライブに いって きます。",
-    "Tôi đi chơi bằng xe rồi về."
+    "ドライブとかどう？",
+    "What do you say to going for a drive? (Tatoeba #2233552, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "りゆう",
     "riyuu",
     "lý do",
-    "りゆうを きいて きます。",
-    "Tôi đi hỏi lý do rồi về."
+    "理由はいろいろある。",
+    "There are many reasons. (Tatoeba #10908693, SomeHungryBois, CC BY 2.0 FR)"
    ],
    [
     "あやまります",
@@ -15154,22 +15154,22 @@ window.SENTENCES = {
     "じょうぶ［な］",
     "joubu [na]",
     "bền, khoẻ",
-    "じょうぶそうな かばんです。",
-    "Chiếc cặp trông bền."
+    "普通でだいじょうぶです。",
+    "That's normal, ok. (Tatoeba #10901808, small_snow, CC BY 2.0 FR)"
    ],
    [
     "センス",
     "sensu",
     "gu, óc thẩm mỹ",
-    "センスが よさそうな ふくです。",
-    "Bộ quần áo trông có gu."
+    "彼はユーモアのセンスがある。",
+    "He has a sense of humor. (Tatoeba #2295511, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かいいん",
     "kaiin",
     "hội viên",
-    "かいいんに なって きます。",
-    "Tôi đi đăng ký làm hội viên rồi về."
+    "私は会員でした。",
+    "I was a member. (Tatoeba #3552071, arnab, CC BY 2.0 FR)"
    ],
    [
     "てきとう［な］",
@@ -15182,15 +15182,15 @@ window.SENTENCES = {
     "ねんれい",
     "nenrei",
     "tuổi tác",
-    "ねんれいを きいて きます。",
-    "Tôi đi hỏi tuổi rồi về."
+    "年齢は関係ない。",
+    "Age is just a number. (Tatoeba #10181518, Sim5634, CC BY 2.0 FR)"
    ],
    [
     "しゅうにゅう",
     "shuunyuu",
     "thu nhập",
-    "しゅうにゅうが ふえそうです。",
-    "Có vẻ thu nhập sẽ tăng."
+    "教師の収入はどれくらいですか。",
+    "How much money does a teacher make? (Tatoeba #8606694, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ぴったり",
@@ -15288,15 +15288,15 @@ window.SENTENCES = {
     "くうき",
     "kuuki",
     "không khí",
-    "くうきが きれいです。",
-    "Không khí trong lành."
+    "月には空気がない。",
+    "There is no air on the moon. (Tatoeba #175663, arnab, CC BY 2.0 FR)"
    ],
    [
     "わしょく",
     "washoku",
     "món ăn Nhật",
-    "わしょくは たべやすいです。",
-    "Món Nhật dễ ăn."
+    "和食が好きです。",
+    "I like Japanese food. (Tatoeba #9360079, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ようしょく",
@@ -15316,8 +15316,8 @@ window.SENTENCES = {
     "シングル",
     "shinguru",
     "phòng đơn",
-    "シングルに して ください。",
-    "Xin cho phòng đơn."
+    "シングルにしてください。",
+    "Single, please. (Tatoeba #215170, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ツイン",
@@ -15330,22 +15330,22 @@ window.SENTENCES = {
     "せんたくもの",
     "sentakumono",
     "đồ giặt",
-    "せんたくものが かわきやすいです。",
-    "Đồ giặt dễ khô."
+    "洗濯物入れてきて。",
+    "Bring the laundry in. (Tatoeba #141201, small_snow, CC BY 2.0 FR)"
    ],
    [
     "DVD",
     "dibuidii",
     "đĩa DVD",
-    "DVDを みすぎました。",
-    "Tôi đã xem DVD quá nhiều."
+    "これはDVDです。",
+    "This is a DVD. (Tatoeba #2602586, OrangeTart, CC BY 2.0 FR)"
    ],
    [
     "カット",
     "katto",
     "cắt tóc",
-    "カットを おねがいします。",
-    "Xin cắt tóc cho tôi."
+    "それは半分にカットして。",
+    "Cut it in half. (Tatoeba #11961643, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "シャンプー",
@@ -15407,8 +15407,8 @@ window.SENTENCES = {
     "あんぜん［な］",
     "anzen [na]",
     "an toàn",
-    "あんぜんに します。",
-    "Tôi làm cho an toàn."
+    "安全運転してね。",
+    "Drive safely. (Tatoeba #485448, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きけん［な］",
@@ -15421,15 +15421,15 @@ window.SENTENCES = {
     "あつい",
     "atsui",
     "dày",
-    "あつすぎる ほんです。",
-    "Sách dày quá."
+    "この本はとても厚い。",
+    "This book is very thick. (Tatoeba #1278238, mandel59, CC BY 2.0 FR)"
    ],
    [
     "くうき",
     "kuuki",
     "không khí",
-    "くうきが きれいです。",
-    "Không khí trong lành."
+    "月には空気がない。",
+    "There is no air on the moon. (Tatoeba #175663, arnab, CC BY 2.0 FR)"
    ],
    [
     "なみだ",
@@ -15463,15 +15463,15 @@ window.SENTENCES = {
     "せんたくもの",
     "sentakumono",
     "đồ giặt",
-    "せんたくものが かわきやすいです。",
-    "Đồ giặt dễ khô."
+    "洗濯物入れてきて。",
+    "Bring the laundry in. (Tatoeba #141201, small_snow, CC BY 2.0 FR)"
    ],
    [
     "DVD",
     "DVD",
     "đĩa DVD",
-    "DVDを みすぎました。",
-    "Tôi đã xem DVD quá nhiều."
+    "これはDVDです。",
+    "This is a DVD. (Tatoeba #2602586, OrangeTart, CC BY 2.0 FR)"
    ],
    [
     "どう なさいますか。",
@@ -15484,8 +15484,8 @@ window.SENTENCES = {
     "カット",
     "katto",
     "cắt tóc",
-    "カットを おねがいします。",
-    "Xin cắt tóc cho tôi."
+    "それは半分にカットして。",
+    "Cut it in half. (Tatoeba #11961643, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "シャンプー",
@@ -15540,8 +15540,8 @@ window.SENTENCES = {
     "うまく",
     "umaku",
     "khéo, suôn sẻ",
-    "うまく できました。",
-    "Tôi đã làm được suôn sẻ."
+    "うまくいかないよ。",
+    "That won't work. (Tatoeba #9524695, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "じゅんじょ",
@@ -15561,15 +15561,15 @@ window.SENTENCES = {
     "ひょうげん",
     "hyougen",
     "cách diễn đạt",
-    "いろいろな ひょうげんを おぼえます。",
-    "Tôi học nhiều cách diễn đạt."
+    "自分の気持ちを表現できない。",
+    "I cannot describe my feelings. (Tatoeba #149882, small_snow, CC BY 2.0 FR)"
    ],
    [
     "たとえば",
     "tatoeba",
     "ví dụ",
-    "たとえば、わらいすぎます。",
-    "Ví dụ như cười quá nhiều."
+    "例えば、英語が好きですか。",
+    "For example, do you like English? (Tatoeba #337412, Swift, CC BY 2.0 FR)"
    ],
    [
     "わかれます",
@@ -15582,8 +15582,8 @@ window.SENTENCES = {
     "これら",
     "korera",
     "những cái này",
-    "これらは たべやすいです。",
-    "Những thứ này dễ ăn."
+    "これらは鳥です。",
+    "These are birds. (Tatoeba #749660, gracefully, CC BY 2.0 FR)"
    ],
    [
     "えんぎが わるい",
@@ -15596,22 +15596,22 @@ window.SENTENCES = {
     "ていねい［な］",
     "teinei [na]",
     "lịch sự, cẩn thận",
-    "ていねいに はなします。",
-    "Tôi nói chuyện lịch sự."
+    "彼女は私に丁寧に頭を下げた。",
+    "She bowed to me politely. (Tatoeba #89463, small_snow, CC BY 2.0 FR)"
    ],
    [
     "こまかい",
     "komakai",
     "nhỏ, chi tiết",
-    "こまかく きります。",
-    "Tôi cắt nhỏ."
+    "細かいのは必要でない。",
+    "The details aren't necessary. (Tatoeba #4808818, Chimera, CC BY 2.0 FR)"
    ],
    [
     "はんぶん",
     "hanbun",
     "một nửa",
-    "はんぶんに します。",
-    "Tôi làm giảm còn một nửa."
+    "半分よこせ。",
+    "Give me half of it. (Tatoeba #121255, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "たんす",
@@ -15624,8 +15624,8 @@ window.SENTENCES = {
     "りゆう",
     "riyuu",
     "lý do",
-    "りゆうを おしえて ください。",
-    "Hãy cho tôi biết lý do."
+    "理由はいろいろある。",
+    "There are many reasons. (Tatoeba #10908693, SomeHungryBois, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -15713,15 +15713,15 @@ window.SENTENCES = {
     "りょうしゅうしょ",
     "ryoushuusho",
     "biên lai",
-    "りょうしゅうしょを もらいます。",
-    "Tôi lấy biên lai."
+    "領収書をください。",
+    "Please give me a receipt. (Tatoeba #13714023, GreySquirrel, CC BY 2.0 FR)"
    ],
    [
     "キャンプ",
     "kyanpu",
     "cắm trại",
-    "あめの ばあいは、キャンプを ちゅうしします。",
-    "Nếu mưa thì huỷ buổi cắm trại."
+    "これが初めてのキャンプです。",
+    "This is my first camping trip. (Tatoeba #11545588, small_snow, CC BY 2.0 FR)"
    ],
    [
     "うめ",
@@ -15748,8 +15748,8 @@ window.SENTENCES = {
     "おくりもの",
     "okurimono",
     "quà tặng",
-    "おくりものを えらびます。",
-    "Tôi chọn quà tặng."
+    "贈り物があります。",
+    "I have some gifts. (Tatoeba #1323417, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "レバー",
@@ -15762,15 +15762,15 @@ window.SENTENCES = {
     "しんじます",
     "shinjimasu",
     "tin",
-    "ともだちを しんじます。",
-    "Tôi tin bạn."
+    "彼女はいつでも私を信じます。",
+    "She always believes me. (Tatoeba #794261, arihato, CC BY 2.0 FR)"
    ],
    [
     "キャンセルします",
     "kyanseru shimasu",
     "huỷ",
-    "ホテルを キャンセルしました。",
-    "Tôi đã huỷ khách sạn."
+    "キャンセルします。",
+    "I'll cancel. (Tatoeba #10682795, small_snow, CC BY 2.0 FR)"
    ],
    [
     "しらせます",
@@ -15790,22 +15790,22 @@ window.SENTENCES = {
     "りょうしゅうしょ",
     "ryoushuusho",
     "biên lai",
-    "りょうしゅうしょを もらいます。",
-    "Tôi lấy biên lai."
+    "領収書をください。",
+    "Please give me a receipt. (Tatoeba #13714023, GreySquirrel, CC BY 2.0 FR)"
    ],
    [
     "キャンプ",
     "kyanpu",
     "cắm trại",
-    "あめの ばあいは、キャンプを ちゅうしします。",
-    "Nếu mưa thì huỷ buổi cắm trại."
+    "これが初めてのキャンプです。",
+    "This is my first camping trip. (Tatoeba #11545588, small_snow, CC BY 2.0 FR)"
    ],
    [
     "ちゅうし",
     "chuushi",
     "đình chỉ, huỷ",
-    "あめの ばあいは、ちゅうしです。",
-    "Nếu mưa thì huỷ."
+    "試合は雨で中止になりました。",
+    "The game was rained out. (Tatoeba #151030, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "てん",
@@ -15825,8 +15825,8 @@ window.SENTENCES = {
     "きゅうに",
     "kyuu ni",
     "đột ngột",
-    "きゅうに あめが ふりました。",
-    "Trời đột ngột mưa."
+    "彼は急にやめた。",
+    "He quit without notice. (Tatoeba #2250894, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "むりに",
@@ -15874,15 +15874,15 @@ window.SENTENCES = {
     "なやみ",
     "nayami",
     "nỗi phiền muộn",
-    "なやみが ある ばあいは、そうだんして ください。",
-    "Nếu có điều phiền muộn hãy trao đổi."
+    "それは、どこの国でも同じ悩みです。",
+    "No matter which country, it's the same trouble. (Tatoeba #11257877, sh5555, CC BY 2.0 FR)"
    ],
    [
     "めざまし［どけい］",
     "mezamashi [dokei]",
     "[đồng hồ] báo thức",
-    "めざましどけいを セットしたのに、おきられませんでした。",
-    "Tuy đã đặt báo thức nhưng tôi không dậy được."
+    "目覚ましはセットした？",
+    "Have you set the alarm clock? (Tatoeba #12934034, small_snow, CC BY 2.0 FR)"
    ],
    [
     "めが さめます",
@@ -15895,22 +15895,22 @@ window.SENTENCES = {
     "だいがくせい",
     "daigakusei",
     "sinh viên đại học",
-    "だいがくせいに なりました。",
-    "Tôi đã trở thành sinh viên đại học."
+    "大学生です。",
+    "I am a university student. (Tatoeba #137609, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "かいとう",
     "kaitou",
     "câu trả lời",
-    "かいとうを おくります。",
-    "Tôi gửi câu trả lời."
+    "金曜日までに回答が必要です。",
+    "I need to know your answer by Friday. (Tatoeba #179610, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "なります",
     "narimasu",
     "reo (chuông)",
-    "でんわが なります。",
-    "Điện thoại reo."
+    "遅くなります。",
+    "I'll be late. (Tatoeba #2465471, nihonjin, CC BY 2.0 FR)"
    ],
    [
     "セットします",
@@ -15923,8 +15923,8 @@ window.SENTENCES = {
     "それでも",
     "soredemo",
     "dù vậy",
-    "それでも おきられません。",
-    "Dù vậy tôi vẫn không dậy được."
+    "私はそれでもかまいませんよ。",
+    "That sounds good to me. (Tatoeba #159765, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "あやまります",
@@ -15951,8 +15951,8 @@ window.SENTENCES = {
     "おくりもの",
     "okurimono",
     "quà tặng",
-    "おくりものを えらびます。",
-    "Tôi chọn quà tặng."
+    "贈り物があります。",
+    "I have some gifts. (Tatoeba #1323417, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "まちがいでんわ",
@@ -15986,8 +15986,8 @@ window.SENTENCES = {
     "ちゃんと",
     "chanto",
     "đúng đắn, đàng hoàng",
-    "ちゃんと はらいます。",
-    "Tôi trả tiền đàng hoàng."
+    "ストーブちゃんと消した？",
+    "Did you turn off the stove? (Tatoeba #2800309, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "ねむります",
@@ -16074,8 +16074,8 @@ window.SENTENCES = {
     "ちゅうしゃ",
     "chuusha",
     "mũi tiêm",
-    "ちゅうしゃを した ばかりです。",
-    "Tôi vừa mới tiêm xong."
+    "注射をしましょう。",
+    "I'll give you a shot. (Tatoeba #126332, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ゆか",
@@ -16088,8 +16088,8 @@ window.SENTENCES = {
     "ベル",
     "beru",
     "chuông",
-    "ベルが なった ところです。",
-    "Chuông vừa reo."
+    "ベルの音がしたよ。",
+    "I heard a bell ringing. (Tatoeba #10802288, small_snow, CC BY 2.0 FR)"
    ],
    [
     "システム",
@@ -16116,15 +16116,15 @@ window.SENTENCES = {
     "やきます",
     "yakimasu",
     "nướng",
-    "パンを やいて いる ところです。",
-    "Tôi đang nướng bánh mì."
+    "パンを焼きますか？",
+    "Do you bake bread? (Tatoeba #8026857, Ninja, CC BY 2.0 FR)"
    ],
    [
     "るす",
     "rusu",
     "vắng nhà",
-    "いま るすの はずです。",
-    "Chắc giờ họ không có nhà."
+    "母は留守です。",
+    "Mother is away from home. (Tatoeba #82839, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "たくはいびん",
@@ -16144,29 +16144,29 @@ window.SENTENCES = {
     "こちら",
     "kochira",
     "phía chúng tôi, bên này",
-    "こちらは ガスサービスセンターです。",
-    "Đây là trung tâm dịch vụ gas."
+    "こちらは母です。",
+    "This is my mother. (Tatoeba #373214, kotobaboke, CC BY 2.0 FR)"
    ],
    [
     "はんとし",
     "hantoshi",
     "nửa năm",
-    "はんとし まえに にほんへ きました。",
-    "Nửa năm trước tôi đã đến Nhật."
+    "学生時代、イギリスに半年留学しました。",
+    "I studied in England for six months when I was a student. (Tatoeba #184224, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "ちょうど",
     "choudo",
     "vừa đúng",
-    "ちょうど ごはんを たべた ところです。",
-    "Tôi vừa mới ăn cơm xong."
+    "ちょうど今は忙しい。",
+    "I'm busy at the moment. (Tatoeba #202918, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "たったいま",
     "tatta ima",
     "vừa ngay lúc nãy",
-    "たったいま かえった ところです。",
-    "Tôi vừa mới về xong."
+    "彼はたった今でかけました。",
+    "He went out just now. (Tatoeba #112022, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "いま いいですか。",
@@ -16200,8 +16200,8 @@ window.SENTENCES = {
     "ぐあい",
     "guai",
     "tình trạng",
-    "ぐあいが わるいはずです。",
-    "Chắc là tình trạng không tốt."
+    "具合悪いの？",
+    "Are you feeling under the weather? (Tatoeba #179506, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "もうしわけありません。",
@@ -16256,8 +16256,8 @@ window.SENTENCES = {
     "あわてて",
     "awatete",
     "vội vã",
-    "あわてて でかけた ところです。",
-    "Tôi vừa vội vã ra ngoài."
+    "私はあわてて逃げた。",
+    "I ran away in a hurry. (Tatoeba #161460, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "じゅんばんに",
@@ -16277,22 +16277,22 @@ window.SENTENCES = {
     "ちゅうしゃ",
     "chuusha",
     "mũi tiêm",
-    "ちゅうしゃを した ばかりです。",
-    "Tôi vừa mới tiêm xong."
+    "注射をしましょう。",
+    "I'll give you a shot. (Tatoeba #126332, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しょくよく",
     "shokuyoku",
     "cảm giác thèm ăn",
-    "しょくよくが ない はずです。",
-    "Chắc là anh ấy không thèm ăn."
+    "私は食欲がない。",
+    "I have no appetite. (Tatoeba #155779, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "パンフレット",
     "panfuretto",
     "tờ rơi",
-    "パンフレットを もらった ところです。",
-    "Tôi vừa mới lấy tờ rơi."
+    "こちらのパンフレットは無料です。",
+    "This pamphlet is free of charge. (Tatoeba #223295, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ステレオ",
@@ -16305,8 +16305,8 @@ window.SENTENCES = {
     "ちしき",
     "chishiki",
     "kiến thức",
-    "ちしきが ふえた はずです。",
-    "Chắc kiến thức đã tăng thêm."
+    "あの人には知識も経験もある。",
+    "He has knowledge, and experience as well. (Tatoeba #230767, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "ほうこ",
@@ -16326,8 +16326,8 @@ window.SENTENCES = {
     "たとえば",
     "tatoeba",
     "ví dụ",
-    "たとえば、きゅうりょうを しらべます。",
-    "Ví dụ tôi tra cứu mức lương."
+    "例えば、英語が好きですか。",
+    "For example, do you like English? (Tatoeba #337412, Swift, CC BY 2.0 FR)"
    ],
    [
     "キーワード",
@@ -16443,8 +16443,8 @@ window.SENTENCES = {
     "きゅうきゅうしゃ",
     "kyuukyuusha",
     "xe cấp cứu",
-    "きゅうきゅうしゃが とまって いるようです。",
-    "Hình như xe cấp cứu đang dừng."
+    "救急車、来たよ。",
+    "The ambulance has arrived. (Tatoeba #12816970, small_snow, CC BY 2.0 FR)"
    ],
    [
     "だいとうりょう",
@@ -16485,22 +16485,22 @@ window.SENTENCES = {
     "カリフォルニア",
     "kariforunia",
     "California",
-    "カリフォルニアは あたたかいそうです。",
-    "Nghe nói California ấm."
+    "カリフォルニアは果物で有名です。",
+    "California is famous for its fruit. (Tatoeba #226168, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "イラン",
     "iran",
     "Iran",
-    "イランは にほんより おおきいそうです。",
-    "Nghe nói Iran lớn hơn Nhật."
+    "イランから来ました。",
+    "I came from Iran. (Tatoeba #3373645, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "じんこう",
     "jinkou",
     "dân số",
-    "じんこうが ふえて いるそうです。",
-    "Nghe nói dân số đang tăng."
+    "インドは人口が多い。",
+    "India is populous. (Tatoeba #228369, mookeee, CC BY 2.0 FR)"
    ],
    [
     "なくなります",
@@ -16513,15 +16513,15 @@ window.SENTENCES = {
     "きびしい",
     "kibishii",
     "nghiêm khắc",
-    "あの せんせいは きびしいそうです。",
-    "Nghe nói thầy đó nghiêm khắc."
+    "彼女は手厳しい人です。",
+    "She's a tough woman. (Tatoeba #2332394, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ひどい",
     "hidoi",
     "tệ, kinh khủng",
-    "ひどい じこだったそうです。",
-    "Nghe nói đó là một vụ tai nạn kinh khủng."
+    "ひどい天気！",
+    "What horrible weather! (Tatoeba #2456862, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "こわい",
@@ -16534,29 +16534,29 @@ window.SENTENCES = {
     "じっけん",
     "jikken",
     "thí nghiệm",
-    "じっけんは せいこうしたそうです。",
-    "Nghe nói thí nghiệm đã thành công."
+    "彼は実験を続けた。",
+    "He carried on with his experiment. (Tatoeba #104718, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "データ",
     "deeta",
     "dữ liệu",
-    "データに よると、ふえたそうです。",
-    "Theo dữ liệu thì đã tăng."
+    "データはまだまとめていません。",
+    "The data hasn't been compiled yet. (Tatoeba #202437, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "じんこう",
     "jinkou",
     "dân số",
-    "じんこうが ふえて いるそうです。",
-    "Nghe nói dân số đang tăng."
+    "インドは人口が多い。",
+    "India is populous. (Tatoeba #228369, mookeee, CC BY 2.0 FR)"
    ],
    [
     "におい",
     "nioi",
     "mùi",
-    "へんな においが します。",
-    "Có mùi lạ."
+    "家においで。",
+    "Come to my house. (Tatoeba #10342034, small_snow, CC BY 2.0 FR)"
    ],
    [
     "パトカー",
@@ -16569,8 +16569,8 @@ window.SENTENCES = {
     "きゅうきゅうしゃ",
     "kyuukyuusha",
     "xe cấp cứu",
-    "きゅうきゅうしゃが とまって いるようです。",
-    "Có vẻ xe cấp cứu đang dừng."
+    "救急車、来たよ。",
+    "The ambulance has arrived. (Tatoeba #12816970, small_snow, CC BY 2.0 FR)"
    ],
    [
     "さんせい",
@@ -16618,8 +16618,8 @@ window.SENTENCES = {
     "あいて",
     "aite",
     "đối phương",
-    "あいては だれか しりません。",
-    "Tôi không biết đối phương là ai."
+    "これは学生相手の店です。",
+    "This is a store that caters specially to students. (Tatoeba #184210, Scott, CC BY 2.0 FR)"
    ],
    [
     "しりあいます",
@@ -16632,8 +16632,8 @@ window.SENTENCES = {
     "けしょう",
     "keshou",
     "trang điểm",
-    "けしょうを して いるようです。",
-    "Có vẻ cô ấy đang trang điểm."
+    "彼女は化粧が濃い。",
+    "She wears a lot of makeup. (Tatoeba #90943, mookeee, CC BY 2.0 FR)"
    ],
    [
     "せわを します",
@@ -16646,36 +16646,36 @@ window.SENTENCES = {
     "ながいき",
     "nagaiki",
     "sống lâu",
-    "ながいきする ひとが ふえたそうです。",
-    "Nghe nói người sống lâu đã nhiều lên."
+    "彼女は長生きした。",
+    "She lived a long life. (Tatoeba #87839, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "りゆう",
     "riyuu",
     "lý do",
-    "りゆうは わからないそうです。",
-    "Nghe nói chưa rõ lý do."
+    "理由はいろいろある。",
+    "There are many reasons. (Tatoeba #10908693, SomeHungryBois, CC BY 2.0 FR)"
    ],
    [
     "かんけい",
     "kankei",
     "quan hệ",
-    "かんけいが あるようです。",
-    "Có vẻ có liên quan."
+    "私には関係ない。",
+    "This doesn't concern me. (Tatoeba #395840, cheeheerow, CC BY 2.0 FR)"
    ],
    [
     "てんきよほう",
     "tenki yohou",
     "dự báo thời tiết",
-    "てんきよほうに よると、あしたは はれだそうです。",
-    "Theo dự báo thời tiết thì mai trời nắng."
+    "天気予報はどうですか？",
+    "What is the weather forecast? (Tatoeba #13118125, atitarev, CC BY 2.0 FR)"
    ],
    [
     "はっぴょう",
     "happyou",
     "công bố",
-    "あした はっぴょうされるそうです。",
-    "Nghe nói ngày mai sẽ được công bố."
+    "この製品を発表するときが来た。",
+    "I think the time is right to introduce this product. (Tatoeba #1525406, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "バリ［とう］",
@@ -16723,15 +16723,15 @@ window.SENTENCES = {
     "しらべ",
     "shirabe",
     "kết quả khảo sát",
-    "しらべに よると、ふえたそうです。",
-    "Theo khảo sát thì đã tăng."
+    "辞書で調べます。",
+    "I will look it up in the dictionary. (Tatoeba #159702, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "きびしい",
     "kibishii",
     "khắc nghiệt",
-    "ふゆは きびしいそうです。",
-    "Nghe nói mùa đông khắc nghiệt."
+    "彼女は手厳しい人です。",
+    "She's a tough woman. (Tatoeba #2332394, bunbuku, CC BY 2.0 FR)"
    ]
   ],
   "grammar": [
@@ -16819,8 +16819,8 @@ window.SENTENCES = {
     "せいと",
     "seito",
     "học sinh",
-    "せんせいは せいとに ほんを よませました。",
-    "Thầy cho học sinh đọc sách."
+    "彼はよい生徒です。",
+    "He is a good student. (Tatoeba #110462, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しょうがくせい",
@@ -16847,22 +16847,22 @@ window.SENTENCES = {
     "スピード",
     "supiido",
     "tốc độ",
-    "スピードを おとさせます。",
-    "Tôi bảo họ giảm tốc độ."
+    "スピード出してたの？",
+    "Were you speeding? (Tatoeba #8796944, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "スケジュール",
     "sukejuuru",
     "lịch trình",
-    "スケジュールを しらべさせます。",
-    "Tôi bảo họ kiểm tra lịch trình."
+    "スケジュール変えたよ。",
+    "I rescheduled. (Tatoeba #10666305, KF, CC BY 2.0 FR)"
    ],
    [
     "ファイル",
     "fairu",
     "tập tin, bìa hồ sơ",
-    "ファイルを コピーさせて いただけませんか。",
-    "Cho tôi sao chép tập tin được không ạ?"
+    "正しいファイルどれですか。",
+    "Which one is the correct file? (Tatoeba #1187323, FiRez, CC BY 2.0 FR)"
    ],
    [
     "おろします",
@@ -16910,22 +16910,22 @@ window.SENTENCES = {
     "せいと",
     "seito",
     "học sinh",
-    "せいとに ほんを よませます。",
-    "Giáo viên cho học sinh đọc sách."
+    "彼はよい生徒です。",
+    "He is a good student. (Tatoeba #110462, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ファイル",
     "fairu",
     "tập tin",
-    "ファイルを コピーさせて いただけませんか。",
-    "Cho tôi sao chép tập tin được không ạ?"
+    "正しいファイルどれですか。",
+    "Which one is the correct file? (Tatoeba #1187323, FiRez, CC BY 2.0 FR)"
    ],
    [
     "じゆうに",
     "jiyuu ni",
     "tự do",
-    "こどもに じゆうに あそばせます。",
-    "Tôi để con chơi tự do."
+    "自由になりたい。",
+    "I want freedom. (Tatoeba #5055280, hiroy, CC BY 2.0 FR)"
    ],
    [
     "いい ことですね。",
@@ -16945,8 +16945,8 @@ window.SENTENCES = {
     "えいぎょう",
     "eigyou",
     "kinh doanh, bán hàng",
-    "えいぎょうの しごとを させられます。",
-    "Tôi bị bắt làm công việc kinh doanh."
+    "車の営業は何年目？",
+    "How many years have you been selling cars? (Tatoeba #11559608, small_snow, CC BY 2.0 FR)"
    ],
    [
     "それまでに",
@@ -17008,22 +17008,22 @@ window.SENTENCES = {
     "ふつうの",
     "futsuu no",
     "bình thường",
-    "ふつうの がっこうに いかせます。",
-    "Tôi cho con đến trường bình thường."
+    "これは普通のこと？",
+    "Is this normal? (Tatoeba #8693575, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きびしい",
     "kibishii",
     "nghiêm khắc",
-    "きびしく しつけます。",
-    "Tôi dạy dỗ nghiêm khắc."
+    "彼女は手厳しい人です。",
+    "She's a tough woman. (Tatoeba #2332394, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "スケジュール",
     "sukejuuru",
     "lịch trình",
-    "スケジュールを しらべさせます。",
-    "Tôi bảo họ kiểm tra lịch trình."
+    "スケジュール変えたよ。",
+    "I rescheduled. (Tatoeba #10666305, KF, CC BY 2.0 FR)"
    ],
    [
     "もの",
@@ -17078,8 +17078,8 @@ window.SENTENCES = {
     "スピード",
     "supiido",
     "tốc độ",
-    "スピードを おとさせます。",
-    "Tôi bảo họ giảm tốc độ."
+    "スピード出してたの？",
+    "Were you speeding? (Tatoeba #8796944, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "きょうそうします",
@@ -17205,15 +17205,15 @@ window.SENTENCES = {
     "バスてい",
     "basutei",
     "trạm xe buýt",
-    "バスていで おおりに なって ください。",
-    "Xin hãy xuống ở trạm xe buýt."
+    "これはバス停よ。",
+    "This is a bus stop. (Tatoeba #12041849, small_snow, CC BY 2.0 FR)"
    ],
    [
     "はいざら",
     "haizara",
     "gạt tàn",
-    "はいざらは こちらです。",
-    "Gạt tàn ở đây ạ."
+    "灰皿を下さい。",
+    "I need an ashtray. (Tatoeba #185012, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "マウス",
@@ -17240,22 +17240,22 @@ window.SENTENCES = {
     "さっか",
     "sakka",
     "nhà văn",
-    "さっかの おおえ けんざぶろうです。",
-    "Đó là nhà văn Oe Kenzaburo."
+    "彼は作家です。",
+    "He writes books. (Tatoeba #106830, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "とうきょうだいがく",
     "toukyoudaigaku",
     "Đại học Tokyo",
-    "とうきょうだいがくを そつぎょうなさいました。",
-    "Anh ấy đã tốt nghiệp Đại học Tokyo."
+    "彼はこの春東京大学に入学した。",
+    "He entered Tokyo University this spring. (Tatoeba #113757, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "いがくぶ",
     "igakubu",
     "khoa y",
-    "いがくぶを そつぎょうなさいました。",
-    "Anh ấy đã tốt nghiệp khoa y."
+    "私は医学部に行きました。",
+    "I went to medical school. (Tatoeba #6695774, jovecidasilva, CC BY 2.0 FR)"
    ],
    [
     "りようします",
@@ -17268,36 +17268,36 @@ window.SENTENCES = {
     "すごします",
     "sugoshimasu",
     "trải qua, sống",
-    "ゆっくり おすごしください。",
-    "Xin hãy nghỉ ngơi thong thả."
+    "クリスマスは、家族みんなで過ごします。",
+    "I spend Christmas together with my whole family. (Tatoeba #10578189, small_snow, CC BY 2.0 FR)"
    ],
    [
     "いらっしゃいます",
     "irasshaimasu",
     "đi, đến, ở (kính ngữ)",
-    "ぶちょうは かいぎしつに いらっしゃいます。",
-    "Trưởng phòng đang ở phòng họp."
+    "娘さんはいらっしゃいますか？",
+    "Do you have a daughter? (Tatoeba #9942972, small_snow, CC BY 2.0 FR)"
    ],
    [
     "めしあがります",
     "meshiagarimasu",
     "ăn, uống (kính ngữ)",
-    "どうぞ めしあがって ください。",
-    "Xin mời dùng."
+    "何を召し上がりますか。",
+    "What would you like to eat? (Tatoeba #187552, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おっしゃいます",
     "osshaimasu",
     "nói (kính ngữ)",
-    "せんせいが そう おっしゃいました。",
-    "Thầy đã nói như vậy."
+    "名前は何とおっしゃいますか。",
+    "May I have your name, please? (Tatoeba #80777, mookeee, CC BY 2.0 FR)"
    ],
    [
     "なさいます",
     "nasaimasu",
     "làm (kính ngữ)",
-    "なにを なさいますか。",
-    "Anh/chị làm gì ạ?"
+    "何になさいますか。",
+    "What will you have to eat? (Tatoeba #187730, Ianagisacos, CC BY 2.0 FR)"
    ],
    [
     "ごらんに なります",
@@ -17310,8 +17310,8 @@ window.SENTENCES = {
     "ごぞんじです",
     "gozonji desu",
     "biết (kính ngữ)",
-    "ナムさんを ごぞんじですか。",
-    "Anh có biết anh Nam không ạ?"
+    "歌舞伎はご存じですか。",
+    "Do you know kabuki? (Tatoeba #186776, small_snow, CC BY 2.0 FR)"
    ],
    [
     "あいさつ",
@@ -17331,8 +17331,8 @@ window.SENTENCES = {
     "バスてい",
     "basutei",
     "trạm xe buýt",
-    "バスていで おおりに なって ください。",
-    "Xin hãy xuống ở trạm xe buýt."
+    "これはバス停よ。",
+    "This is a bus stop. (Tatoeba #12041849, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おくさま",
@@ -17345,15 +17345,15 @@ window.SENTENCES = {
     "たまに",
     "tama ni",
     "thỉnh thoảng",
-    "たまに りょかんに おとまりに なります。",
-    "Thỉnh thoảng anh ấy nghỉ ở lữ quán."
+    "たまには電話してね。",
+    "Call me once in a while. (Tatoeba #9963895, small_snow, CC BY 2.0 FR)"
    ],
    [
     "どなたでも",
     "donata demo",
     "bất kỳ ai (kính ngữ)",
-    "どなたでも おはいり ください。",
-    "Bất kỳ ai cũng xin mời vào."
+    "どなたでもできますよ。",
+    "Anyone can do that. (Tatoeba #9696168, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "－ねん－くみ",
@@ -17387,8 +17387,8 @@ window.SENTENCES = {
     "いがくぶ",
     "igakubu",
     "khoa y",
-    "いがくぶを そつぎょうなさいました。",
-    "Anh ấy đã tốt nghiệp khoa y."
+    "私は医学部に行きました。",
+    "I went to medical school. (Tatoeba #6695774, jovecidasilva, CC BY 2.0 FR)"
    ],
    [
     "めざします",
@@ -17450,15 +17450,15 @@ window.SENTENCES = {
     "やすみます",
     "yasumimasu",
     "đi ngủ, nghỉ (kính ngữ: おやすみに なる)",
-    "もう おやすみに なりました。",
-    "Anh ấy đã đi ngủ rồi."
+    "明日は休みます。",
+    "I'll be absent tomorrow. (Tatoeba #80439, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "はいざら",
     "haizara",
     "gạt tàn",
-    "はいざらは こちらです。",
-    "Gạt tàn ở đây ạ."
+    "灰皿を下さい。",
+    "I need an ashtray. (Tatoeba #185012, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "かいじょう",
@@ -17485,22 +17485,22 @@ window.SENTENCES = {
     "ちっとも",
     "chittomo",
     "chẳng ~ chút nào",
-    "ちっとも ごぞんじありません。",
-    "Anh ấy hoàn toàn không biết."
+    "今日はちっとも風がない。",
+    "There is not the least wind today. (Tatoeba #171757, KK_kaku_, CC BY 2.0 FR)"
    ],
    [
     "えんりょなく",
     "enryo naku",
     "xin cứ tự nhiên",
-    "えんりょなく おっしゃって ください。",
-    "Xin cứ nói tự nhiên."
+    "どうぞ遠慮なく。",
+    "Be my guest. (Tatoeba #201301, small_snow, CC BY 2.0 FR)"
    ],
    [
     "では",
     "dewa",
     "vậy thì (lịch sự)",
-    "では、おはいりください。",
-    "Vậy xin mời vào."
+    "ではまた明日。",
+    "See you again tomorrow. (Tatoeba #202140, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "こうし",
@@ -17520,22 +17520,22 @@ window.SENTENCES = {
     "せかいてきに",
     "sekaiteki ni",
     "mang tầm thế giới",
-    "せかいてきに ゆうめいです。",
-    "Nổi tiếng trên thế giới."
+    "彼女は世界的に有名です。",
+    "Her name is known all over the world. (Tatoeba #93915, small_snow, CC BY 2.0 FR)"
    ],
    [
     "さっか",
     "sakka",
     "nhà văn",
-    "さっかの おおえ けんざぶろうです。",
-    "Đó là nhà văn Oe Kenzaburo."
+    "彼は作家です。",
+    "He writes books. (Tatoeba #106830, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ちょうなん",
     "chounan",
     "con trai cả",
-    "ちょうなんは しょうがいが おありです。",
-    "Con trai cả có khuyết tật."
+    "彼は長男です。",
+    "He's the oldest son. (Tatoeba #115424, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しょうがい",
@@ -17548,29 +17548,29 @@ window.SENTENCES = {
     "おもちです",
     "omochi desu",
     "có (kính ngữ)",
-    "かさを おもちですか。",
-    "Anh có mang ô không ạ?"
+    "車をお持ちですか？",
+    "Do you have a car? (Tatoeba #1142563, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "さっきょく",
     "sakkyoku",
     "sáng tác nhạc",
-    "さっきょくを なさいました。",
-    "Anh ấy đã sáng tác nhạc."
+    "作曲をしています。",
+    "I write songs. (Tatoeba #13894076, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かつどう",
     "katsudou",
     "hoạt động",
-    "かつどうを ごらんに なりました。",
-    "Anh đã xem hoạt động chưa ạ?"
+    "ボランティア活動をしたことがありますか。",
+    "Have you ever done any volunteer work? (Tatoeba #1533033, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "それでは",
     "sore dewa",
     "vậy thì",
-    "それでは、はじめましょう。",
-    "Vậy thì ta bắt đầu thôi."
+    "それでは、天気予報の時間です。",
+    "Now it's time for the weather forecast. (Tatoeba #1602097, jathonjet, CC BY 2.0 FR)"
    ],
    [
     "おおえ けんざぶろう",
@@ -17583,8 +17583,8 @@ window.SENTENCES = {
     "とうきょうだいがく",
     "toukyou daigaku",
     "Đại học Tokyo",
-    "とうきょうだいがくを そつぎょうなさいました。",
-    "Anh ấy đã tốt nghiệp Đại học Tokyo."
+    "彼はこの春東京大学に入学した。",
+    "He entered Tokyo University this spring. (Tatoeba #113757, tommy__san, CC BY 2.0 FR)"
    ],
    [
     "ノーベルぶんがくしょう",
@@ -17704,15 +17704,15 @@ window.SENTENCES = {
     "アルバム",
     "arubamu",
     "album ảnh",
-    "アルバムを はいけんしました。",
-    "Tôi đã xin xem album."
+    "彼はアルバムを見せてくれた。",
+    "He showed me his album. (Tatoeba #544742, vastalto, CC BY 2.0 FR)"
    ],
    [
     "こうがい",
     "kougai",
     "ngoại ô",
-    "こうがいに おります。",
-    "Tôi sống ở ngoại ô."
+    "私の家は郊外にある。",
+    "My house is in the suburbs. (Tatoeba #163959, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "しょうきん",
@@ -17725,22 +17725,22 @@ window.SENTENCES = {
     "まいります",
     "mairimasu",
     "đi, đến (khiêm nhường)",
-    "あした まいります。",
-    "Mai tôi sẽ đến."
+    "すぐ参ります。",
+    "I'm coming. (Tatoeba #214787, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "おります",
     "orimasu",
     "ở, có mặt (khiêm nhường)",
-    "いま かいぎしつに おります。",
-    "Bây giờ tôi đang ở phòng họp."
+    "楽しみにしております。",
+    "I'm looking forward to it. (Tatoeba #184148, small_snow, CC BY 2.0 FR)"
    ],
    [
     "いただきます",
     "itadakimasu",
     "ăn, uống, nhận (khiêm nhường)",
-    "いただきます。",
-    "Xin phép dùng bữa."
+    "これをいただきます。",
+    "I'll take this. (Tatoeba #11041808, small_snow, CC BY 2.0 FR)"
    ],
    [
     "もうします",
@@ -17753,8 +17753,8 @@ window.SENTENCES = {
     "いたします",
     "itashimasu",
     "làm (khiêm nhường)",
-    "わたくしが いたします。",
-    "Để tôi làm."
+    "お知らせいたします。",
+    "I will inform you. (Tatoeba #10982402, small_snow, CC BY 2.0 FR)"
    ],
    [
     "はいけんします",
@@ -17809,15 +17809,15 @@ window.SENTENCES = {
     "メールアドレス",
     "meeru adoresu",
     "địa chỉ thư điện tử",
-    "メールアドレスを おしらせします。",
-    "Tôi xin báo địa chỉ thư điện tử."
+    "メールアドレス何？",
+    "What is your email address? (Tatoeba #13224748, atitarev, CC BY 2.0 FR)"
    ],
    [
     "スケジュール",
     "sukejuuru",
     "lịch trình",
-    "スケジュールを おしらせします。",
-    "Tôi xin báo lịch trình."
+    "スケジュール変えたよ。",
+    "I rescheduled. (Tatoeba #10666305, KF, CC BY 2.0 FR)"
    ],
    [
     "さらいしゅう",
@@ -17879,8 +17879,8 @@ window.SENTENCES = {
     "ころ",
     "koro",
     "thời, lúc",
-    "こどものころ、ここに おりました。",
-    "Hồi nhỏ tôi đã ở đây."
+    "痛いところはどこ？",
+    "Where does it hurt? (Tatoeba #9992496, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おうえんします",
@@ -17893,22 +17893,22 @@ window.SENTENCES = {
     "こころから",
     "kokoro kara",
     "từ tận đáy lòng",
-    "こころから かんしゃいたします。",
-    "Tôi xin cảm ơn từ tận đáy lòng."
+    "心から感謝します。",
+    "I really appreciate it. (Tatoeba #145608, small_snow, CC BY 2.0 FR)"
    ],
    [
     "かんしゃします",
     "kansha shimasu",
     "cảm tạ",
-    "かんしゃして おります。",
-    "Tôi rất biết ơn."
+    "心から感謝します。",
+    "I really appreciate it. (Tatoeba #145608, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おれい",
     "orei",
     "lời cảm ơn, quà đáp lễ",
-    "おれいを もうしあげます。",
-    "Tôi xin gửi lời cảm ơn."
+    "お礼が言いたいです。",
+    "I would like to thank you. (Tatoeba #11851906, small_snow, CC BY 2.0 FR)"
    ],
    [
     "おげんきで いらっしゃいますか。",
@@ -17942,50 +17942,50 @@ window.SENTENCES = {
     "ございます",
     "gozaimasu",
     "có (dạng rất lịch sự của あります)",
-    "あちらに ございます。",
-    "Ở phía kia ạ."
+    "これはなんでございますか。",
+    "What's this? (Tatoeba #347297, zhouj1955, CC BY 2.0 FR)"
    ],
    [
     "おたく",
     "otaku",
     "nhà (của người khác)",
-    "おたくへ うかがいます。",
-    "Tôi sẽ đến nhà anh."
+    "明日お宅に伺います。",
+    "I'll pay you a visit at your house tomorrow. (Tatoeba #80618, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "こうがい",
     "kougai",
     "ngoại ô",
-    "こうがいに おります。",
-    "Tôi sống ở ngoại ô."
+    "私の家は郊外にある。",
+    "My house is in the suburbs. (Tatoeba #163959, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "アルバム",
     "arubamu",
     "album ảnh",
-    "アルバムを はいけんしました。",
-    "Tôi đã xin xem album."
+    "彼はアルバムを見せてくれた。",
+    "He showed me his album. (Tatoeba #544742, vastalto, CC BY 2.0 FR)"
    ],
    [
     "はんとし",
     "hantoshi",
     "nửa năm",
-    "はんとし まえに まいりました。",
-    "Nửa năm trước tôi đã đến."
+    "学生時代、イギリスに半年留学しました。",
+    "I studied in England for six months when I was a student. (Tatoeba #184224, tommy_san, CC BY 2.0 FR)"
    ],
    [
     "さいしょに",
     "saisho ni",
     "trước tiên",
-    "さいしょに おれいを もうしあげます。",
-    "Trước tiên tôi xin gửi lời cảm ơn."
+    "彼が最初に来た。",
+    "He was the first to come. (Tatoeba #120345, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "さいごに",
     "saigo ni",
     "cuối cùng",
-    "さいごに ごあいさつ いたします。",
-    "Cuối cùng xin chào mọi người."
+    "彼女は最後にきた。",
+    "She came last. (Tatoeba #89937, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ただいま",
@@ -18005,8 +18005,8 @@ window.SENTENCES = {
     "しぜん",
     "shizen",
     "thiên nhiên",
-    "しぜんを たのしんで おります。",
-    "Tôi đang tận hưởng thiên nhiên."
+    "自然に治りますよ。",
+    "It'll cure itself naturally. (Tatoeba #150103, bunbuku, CC BY 2.0 FR)"
    ],
    [
     "ぞう",

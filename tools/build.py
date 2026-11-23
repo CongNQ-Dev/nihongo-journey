@@ -388,7 +388,8 @@ def credits_html(cards):
 </header>
 <div class="table-wrap"><table><thead><tr><th>Thẻ</th><th>Tác giả</th><th>Giấy phép</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
 <p class="hint">Thứ tự nét chữ: KanjiVG (CC BY-SA 3.0, kanjivg.tagaini.net).</p>
-<p class="hint">Cách đọc, nghĩa và âm Hán Việt của các chữ Hán, cùng cách đọc và chữ viết của từ vựng, được đối chiếu với KANJIDIC2 và JMdict của Electronic Dictionary Research and Development Group (EDRDG, CC BY-SA 4.0, edrdg.org). Chỉ dùng để kiểm tra; nghĩa tiếng Việt và câu ví dụ do người soạn tự viết.</p>
+<p class="hint">Cách đọc, nghĩa và âm Hán Việt của các chữ Hán, cùng cách đọc và chữ viết của từ vựng, được đối chiếu với KANJIDIC2 và JMdict của Electronic Dictionary Research and Development Group (EDRDG, CC BY-SA 4.0, edrdg.org). Chỉ dùng để kiểm tra; nghĩa tiếng Việt do người soạn tự viết.</p>
+<p class="hint">Nhiều câu ví dụ lấy từ <a href="https://tatoeba.org">Tatoeba</a> (CC BY 2.0 FR), kèm bản dịch tiếng Anh; số câu và tác giả được ghi ngay sau từng câu. Các câu ví dụ không có số Tatoeba do người soạn tự viết.</p>
 <nav class="next"><a href="index.html">Mục lục</a><a href="flashcards.html">Ôn hằng ngày</a><a href="practice.html">Luyện tự chọn</a></nav>"""
     return page("Nguồn ảnh", body, base="")
 

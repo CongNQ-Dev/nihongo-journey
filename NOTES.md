@@ -152,3 +152,8 @@
 - Đã so: 251 chữ Hán (On/Kun/Hán Việt vs KANJIDIC2; sửa 4 chỗ: 絵, 政, 中, 着) và 1450 cặp (cách đọc, chữ viết) của từ vựng vs JMdict: 1386 khớp, 64 không khớp là tên riêng, thương hiệu, viết tắt, câu giao tiếp, cụm đếm, một vài dạng chia (công cụ không tra được, không phải lỗi).
 - 着: KANJIDIC2 không có Hán Việt khớp, đang ghi "(chưa xác minh)".
 - CHƯA có nguồn: nghĩa tiếng Việt, câu ví dụ, hội thoại, giải thích ngữ pháp, chọn chữ Hán (do người soạn viết). Bước kế tiếp đã bàn: thay/bổ sung câu ví dụ bằng câu Tatoeba (CC BY 2.0 FR, cần ghi nguồn).
+
+## Câu ví dụ Tatoeba (2026-11-24)
+- Chạy `tools/tatoeba_match.py` trên Mac: 1299 mục khớp, lọc tiếp bằng tay (bỏ mục có ～／ trong khoá, câu <5 chữ, kana ≤2 ký tự) còn **882** mục trong `tools/tatoeba_ex.json`; `tatoeba_apply.py` thay câu tự soạn khi build.
+- Bản dịch chỉ có tiếng Anh, ghi "(Tatoeba #id, tác giả, CC BY 2.0 FR)". Chưa có furigana cho chữ Hán trong câu. Chưa kiểm hết 882 câu bằng mắt, chỉ lấy mẫu ~40 câu.
+- Khoảng 1700 mục còn lại vẫn là câu tự soạn, chưa có nguồn.

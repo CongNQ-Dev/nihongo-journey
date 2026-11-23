@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 from kana_data import CARDS  # noqa: E402
 from minna_vocab import VOCAB, vocab_id  # noqa: E402
 
-UA = "kana-flashcards-study/1.0 (personal learning project)"
+UA = "nihongo-journey-study/1.0 (educational project; https://github.com/CongNQ-Dev/nihongo-journey)"
 API = "https://commons.wikimedia.org/w/api.php"
 CAND = os.path.join(ROOT, "tools", "candidates.json")
 CHOSEN = os.path.join(ROOT, "tools", "images.json")
