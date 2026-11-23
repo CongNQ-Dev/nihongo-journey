@@ -78,7 +78,7 @@
 - Tiến độ bài: khoá `nihongo-lessons-v1` {"0012": timestamp}. Nút "Đánh dấu đã học xong" tự chèn trước `nav.next` ở mọi bài (nihongo.js `lessonDone`); index có `[data-progress]` (Minna x/50, số ngày tới 4/7/2027, bài/tuần cần thiết).
 - Kanji: `tools/kanji_data.py` (55 chữ N5, gắn bài 0012–0021) → thẻ type "kanji", id `kj-<hex unicode>`, trang `kanji.html`. Nét: `python3 -I tools/fetch_strokes.py` (KanjiVG). Thẻ kanji chỉ vào ôn bằng chế độ Flashcard; KHÔNG có trong Viết lại / Trắc nghiệm / Luyện tự chọn (đọc kanji có nhiều âm, câu hỏi mơ hồ). Deck bài Minna loại thẻ kanji (cần `data-type="kanji"` mới hiện).
 - Khi soạn Minna bài 11+: thêm kanji của bài đó vào `kanji_data.py`, chạy fetch_strokes rồi build.
-- Chưa làm: đề luyện JLPT, soạn Minna bài 31–50, thẻ ngữ pháp vào lịch ôn (hiện chỉ luyện thêm), chế độ Gõ cách đọc / Nghe chọn chưa chấm vào lịch ôn.
+- Chưa làm: đề luyện JLPT, soạn Minna bài 36–50, thẻ ngữ pháp vào lịch ôn (hiện chỉ luyện thêm), chế độ Gõ cách đọc / Nghe chọn chưa chấm vào lịch ôn.
 
 ## Sổ tay viết tay (2026-11-15)
 - `notebook.html` + `assets/notebook.js` (viết tay, KHÔNG sinh tự động). Canvas 1000×1414 vector, nhiều trang, 4 nền giấy (trắng, kẻ ngang, ô vuông, genkou), bút/tẩy nét, hoàn tác, xuất PNG, chặn lòng bàn tay khi có Apple Pencil.
@@ -130,3 +130,7 @@
 - Bài 1–5: **xong** (272/272 từ theo `check_vocab_coverage.py`). Từ thêm nằm ở `tools/minna_add_a.py` (cơ chế `WORDS_ADD` / `VOCAB` / `VOCAB_MOVE`, đã ghi vào `EXT_MODULES`). Ảnh thẻ của từ mới chưa tải.
 - Bài 6–10: **xong** (bài 1–10: 555/555 từ), từ thêm ở `tools/minna_add_b.py`. Lưu ý rút ra: một từ có thể nằm ở **nhiều bài** của sách (ví dụ おみやげ, えいが, りょこう); `VOCAB_MOVE` chỉ dùng khi từ thực sự sai bài, còn lại thêm hàng `WORDS_ADD` ở bài cần thêm.
 - Bài 11–30: **xong** (bài 1–30: 1475/1475 từ theo script), từ thêm ở `tools/minna_add_c.py` … `minna_add_f.py`.
+
+## Minna bài 31–35 (2026-11-23)
+- `tools/minna_ext_g.py` (file 0042–0046), soạn theo quy trình `CLAUDE.md`: mẫu câu lấy từ bảng JF (31: thể ý chí…; 32: ほうがいい/でしょう/かもしれません; 33: mệnh lệnh, biển báo, nhắn lời; 34: とおりに/あとで/ないで; 35: thể ば, なら), từ vựng đối chiếu bằng script (bài 31–35: 321/321; toàn khoá bài 1–35: 1796/1796).
+- Chưa có ảnh thẻ cho từ mới; nghĩa và câu ví dụ tự soạn, chưa có người Nhật kiểm tra.
