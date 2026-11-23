@@ -132,11 +132,11 @@ def cmd_search():
         if cid in old and old[cid]["query"] == q and old[cid]["cands"]:
             continue
         seen, cands = set(), []
-        for extra in (("",) if cid in QUERY_FIX else ("incategory:Quality_images", "")):
+        for extra in ("",):
             for x in search(q, extra):
                 if x["title"] not in seen:
                     seen.add(x["title"]); cands.append(x)
-            time.sleep(1.5)
+            time.sleep(4)
         old[cid] = dict(query=q, cands=cands[:6])
         json.dump(old, open(CAND, "w"), ensure_ascii=False, indent=1)
         print(cid, len(cands), flush=True)
