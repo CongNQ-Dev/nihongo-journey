@@ -6,6 +6,8 @@ VOCAB: (bài, kana, kanji, romaji, nghĩa, query Commons, câu ví dụ, nghĩa 
 - Id thẻ = "v-" + romaji (chỉ chữ cái). Đừng đổi romaji sau khi đã học — tiến độ ôn lưu theo id.
 """
 
+import re
+
 VOCAB = [
     # ---- 0012 · Minna 1
     (12, "せんせい", "先生", "sensei", "giáo viên, thầy/cô", "teacher at blackboard classroom", "たなかさんは せんせいです。", "Anh Tanaka là giáo viên."),
@@ -149,14 +151,18 @@ VOCAB = [
 
 
 # ---- Bài mở rộng (Minna 11+): mỗi file minna_ext_*.py có LESSONS / VOCAB / WORD_EX / KANJI ----
-EXT_MODULES = ("minna_ext_a", "minna_ext_b", "minna_ext_c", "minna_ext_d")
+EXT_MODULES = ("minna_ext_a", "minna_ext_b", "minna_ext_c", "minna_ext_d", "minna_add_a")
 import importlib as _il
 for _name in EXT_MODULES:
     try:
         _m = _il.import_module(_name)
     except ModuleNotFoundError:
         continue
-    VOCAB.extend(_m.VOCAB)
+    VOCAB.extend(getattr(_m, "VOCAB", []))
+    for _rid, (_les, _ex, _exvn) in getattr(_m, "VOCAB_MOVE", {}).items():   # chuyển từ về đúng bài (kèm câu ví dụ hợp ngữ pháp bài đó)
+        for _i, _v in enumerate(VOCAB):
+            if "v-" + re.sub(r"[^a-z0-9]", "", _v[3].lower()) == _rid:
+                VOCAB[_i] = (_les, _v[1], _v[2], _v[3], _v[4], _v[5], _ex, _exvn)
 
 
 def vocab_id(v):

@@ -74,6 +74,76 @@ window.SENTENCES = {
     "Anh Tanaka là người Nhật."
    ],
    [
+    "アメリカ",
+    "amerika",
+    "Mỹ, Hoa Kỳ",
+    "ミラーさんは アメリカじんです。",
+    "Anh Miller là người Mỹ."
+   ],
+   [
+    "イギリス",
+    "igirisu",
+    "Anh",
+    "ブラウンさんは イギリスじんです。",
+    "Anh Brown là người Anh."
+   ],
+   [
+    "インド",
+    "indo",
+    "Ấn Độ",
+    "ラオさんは インドじんです。",
+    "Anh Rao là người Ấn Độ."
+   ],
+   [
+    "インドネシア",
+    "indoneshia",
+    "Indonesia",
+    "あの ひとは インドネシアじんじゃ ありません。",
+    "Người kia không phải người Indonesia."
+   ],
+   [
+    "かんこく",
+    "kankoku",
+    "Hàn Quốc",
+    "キムさんは かんこくじんです。",
+    "Anh Kim là người Hàn Quốc."
+   ],
+   [
+    "タイ",
+    "tai",
+    "Thái Lan",
+    "ワンさんは タイじんですか。",
+    "Anh Wang là người Thái Lan à?"
+   ],
+   [
+    "ドイツ",
+    "doitsu",
+    "Đức",
+    "シュミットさんは ドイツじんです。",
+    "Anh Schmidt là người Đức."
+   ],
+   [
+    "ブラジル",
+    "burajiru",
+    "Brazil",
+    "サントスさんは ブラジルじんです。",
+    "Anh Santos là người Brazil."
+   ],
+   [
+    "フランス",
+    "furansu",
+    "Pháp",
+    "あの ひとは フランスじんです。",
+    "Người kia là người Pháp."
+   ],
+   [
+    "ちゅうごく",
+    "chuugoku",
+    "Trung Quốc",
+    "ワンさんも ちゅうごくじんですか。",
+    "Anh Wang cũng là người Trung Quốc à?"
+   ],
+   [
     "わたし",
     "watashi",
     "tôi",
@@ -121,6 +191,55 @@ window.SENTENCES = {
     "xin lỗi, cho tôi hỏi…",
     "しつれいですが、おなまえは？",
     "Xin lỗi, cho tôi hỏi tên anh là gì ạ?"
+   ],
+   [
+    "きょうし",
+    "kyoushi",
+    "giáo viên (nghề nghiệp, nói về mình)",
+    "わたしは だいがくの きょうしです。",
+    "Tôi là giáo viên đại học."
+   ],
+   [
+    "しゃいん",
+    "shain",
+    "nhân viên (của công ty ~)",
+    "ナムさんは パワーでんきの しゃいんです。",
+    "Anh Nam là nhân viên công ty Power Denki."
+   ],
+   [
+    "ぎんこういん",
+    "ginkouin",
+    "nhân viên ngân hàng",
+    "たなかさんは ぎんこういんです。",
+    "Anh Tanaka là nhân viên ngân hàng."
+   ],
+   [
+    "わたしたち",
+    "watashitachi",
+    "chúng tôi, chúng ta",
+    "わたしたちは ベトナムじんです。",
+    "Chúng tôi là người Việt Nam."
+   ],
+   [
+    "みなさん",
+    "minasan",
+    "mọi người, quý vị",
+    "みなさん、はじめまして。",
+    "Xin chào mọi người, rất hân hạnh."
+   ],
+   [
+    "おなまえは？",
+    "onamae wa?",
+    "Tên bạn là gì ạ? (lịch sự)",
+    "おなまえは？…ナムです。",
+    "Tên bạn là gì? …Tôi là Nam."
+   ],
+   [
+    "でんき",
+    "denki",
+    "điện, đèn điện (có trong tên công ty パワーでんき)",
+    "あの ひとは でんきの エンジニアです。",
+    "Người kia là kỹ sư điện."
    ]
   ],
   "grammar": [
@@ -309,6 +428,125 @@ window.SENTENCES = {
     "Đây là quà, mời anh nhận."
    ],
    [
+    "テレビ",
+    "terebi",
+    "tivi",
+    "それは わたしの テレビです。",
+    "Đó là tivi của tôi."
+   ],
+   [
+    "かぎ",
+    "kagi",
+    "chìa khoá",
+    "これは わたしの かぎです。",
+    "Đây là chìa khoá của tôi."
+   ],
+   [
+    "かさ",
+    "kasa",
+    "cái ô",
+    "それは だれの かさですか。",
+    "Đó là ô của ai vậy?"
+   ],
+   [
+    "てちょう",
+    "techou",
+    "sổ tay (sổ ghi lịch)",
+    "これは わたしの てちょうです。",
+    "Đây là sổ tay của tôi."
+   ],
+   [
+    "カード",
+    "kaado",
+    "thẻ (tín dụng)",
+    "それは だれの カードですか。",
+    "Đó là thẻ của ai vậy?"
+   ],
+   [
+    "シャープペンシル",
+    "shaapupenshiru",
+    "bút chì bấm",
+    "これは シャープペンシルですか、ボールペンですか。",
+    "Đây là bút chì bấm hay bút bi?"
+   ],
+   [
+    "シーディー",
+    "shiidii",
+    "đĩa CD",
+    "それは にほんの CDですか。",
+    "Đó là đĩa CD của Nhật phải không?"
+   ],
+   [
+    "ラジオ",
+    "rajio",
+    "radio",
+    "あれは ラジオです。",
+    "Kia là cái radio."
+   ],
+   [
+    "カメラ",
+    "kamera",
+    "máy ảnh",
+    "これは リンさんの カメラです。",
+    "Đây là máy ảnh của chị Linh."
+   ],
+   [
+    "コンピューター",
+    "konpyuutaa",
+    "máy tính",
+    "それは だれの コンピューターですか。",
+    "Đó là máy tính của ai?"
+   ],
+   [
+    "くるま",
+    "kuruma",
+    "xe ô tô",
+    "あれは たなかさんの くるまです。",
+    "Kia là ô tô của anh Tanaka."
+   ],
+   [
+    "いす",
+    "isu",
+    "cái ghế",
+    "それは わたしの いすです。",
+    "Đó là ghế của tôi."
+   ],
+   [
+    "コーヒー",
+    "koohii",
+    "cà phê",
+    "これは コーヒーですか。…はい、そうです。",
+    "Đây là cà phê à? …Vâng, đúng thế."
+   ],
+   [
+    "テレホンカード",
+    "terehonkaado",
+    "thẻ điện thoại",
+    "これは テレホンカードです。",
+    "Đây là thẻ điện thoại."
+   ],
+   [
+    "テープ",
+    "teepu",
+    "băng (cát-xét)",
+    "それは にほんごの テープですか。",
+    "Đó là băng tiếng Nhật à?"
+   ],
+   [
+    "テープレコーダー",
+    "teepurekoodaa",
+    "máy ghi âm",
+    "あれは だれの テープレコーダーですか。",
+    "Kia là máy ghi âm của ai?"
+   ],
+   [
+    "じどうしゃ",
+    "jidousha",
+    "ô tô (cách nói trang trọng)",
+    "これは にほんの じどうしゃです。",
+    "Đây là ô tô của Nhật."
+   ],
+   [
     "これ",
     "kore",
     "cái này (gần người nói)",
@@ -384,6 +622,55 @@ window.SENTENCES = {
     "thế à (giọng xuống — tiếp nhận thông tin mới)",
     "そうですか。ベトナムの コーヒーですか。",
     "Thế à. Cà phê Việt Nam à?"
+   ],
+   [
+    "えっ",
+    "e'",
+    "Hả? Ồ? (ngạc nhiên khi nghe điều bất ngờ)",
+    "えっ、それは だれのですか。",
+    "Hả, đó là của ai vậy?"
+   ],
+   [
+    "あ",
+    "a",
+    "À! Ồ! (chợt nhận ra điều gì)",
+    "あ、これは わたしのです。",
+    "À, cái này là của tôi."
+   ],
+   [
+    "［どうも］ありがとう［ございます］。",
+    "[doumo] arigatou [gozaimasu]",
+    "Xin cảm ơn [rất nhiều].",
+    "これ、どうぞ。…ありがとう ございます。",
+    "Mời bạn cái này. …Xin cảm ơn."
+   ],
+   [
+    "これから おせわに なります。",
+    "kore kara osewa ni narimasu",
+    "Từ nay xin được giúp đỡ (nói khi bắt đầu một mối quan hệ)",
+    "ナムです。これから おせわに なります。",
+    "Tôi là Nam. Từ nay xin được giúp đỡ."
+   ],
+   [
+    "こちらこそ［どうぞ］よろしく［おねがいします］。",
+    "kochira koso [douzo] yoroshiku [onegaishimasu]",
+    "Chính tôi mới xin được giúp đỡ (đáp lại lời chào làm quen)",
+    "どうぞ よろしく おねがいします。…こちらこそ よろしく おねがいします。",
+    "Rất mong được giúp đỡ. …Tôi cũng rất mong được giúp đỡ."
+   ],
+   [
+    "ほんの きもちです。",
+    "hon no kimochi desu",
+    "Chỉ là chút lòng thành (nói khi tặng quà)",
+    "これは ベトナムの おみやげです。ほんの きもちです。",
+    "Đây là quà từ Việt Nam. Chỉ là chút lòng thành."
+   ],
+   [
+    "どうも。",
+    "doumo",
+    "Cảm ơn nhé (cách nói ngắn, thân mật)",
+    "これ、どうぞ。…どうも。",
+    "Mời bạn cái này. …Cảm ơn nhé."
    ]
   ],
   "grammar": [
@@ -547,6 +834,55 @@ window.SENTENCES = {
     "Anh làm ở công ty nào ạ?"
    ],
    [
+    "じむしょ",
+    "jimusho",
+    "văn phòng",
+    "ここは じむしょです。",
+    "Đây là văn phòng."
+   ],
+   [
+    "かいぎしつ",
+    "kaigishitsu",
+    "phòng họp",
+    "かいぎしつは どこですか。…あそこです。",
+    "Phòng họp ở đâu? …Ở kia."
+   ],
+   [
+    "ロビー",
+    "robii",
+    "sảnh",
+    "ロビーは あちらです。",
+    "Sảnh ở phía kia."
+   ],
+   [
+    "へや",
+    "heya",
+    "căn phòng",
+    "ここは ナムさんの へやです。",
+    "Đây là phòng của anh Nam."
+   ],
+   [
+    "エレベーター",
+    "erebeetaa",
+    "thang máy",
+    "エレベーターは そこです。",
+    "Thang máy ở chỗ đó."
+   ],
+   [
+    "ネクタイ",
+    "nekutai",
+    "cà vạt",
+    "この ネクタイは いくらですか。",
+    "Chiếc cà vạt này bao nhiêu tiền?"
+   ],
+   [
+    "たばこ",
+    "tabako",
+    "thuốc lá",
+    "この たばこは ごひゃくえんです。",
+    "Gói thuốc lá này 500 yên."
+   ],
+   [
     "どこ",
     "doko",
     "ở đâu",
@@ -608,6 +944,27 @@ window.SENTENCES = {
     "thế thì",
     "じゃ、これを ください。",
     "Thế thì cho tôi cái này."
+   ],
+   [
+    "どうも。",
+    "doumo",
+    "Cảm ơn (ngắn gọn)",
+    "これを ください。…はい、どうぞ。…どうも。",
+    "Cho tôi cái này. …Vâng, xin mời. …Cảm ơn."
+   ],
+   [
+    "いらっしゃいませ。",
+    "irasshaimase",
+    "Kính chào quý khách (nhân viên cửa hàng nói)",
+    "いらっしゃいませ。…これを ください。",
+    "Kính chào quý khách. …Cho tôi cái này."
+   ],
+   [
+    "しんおおさか",
+    "shin-oosaka",
+    "Shin-Osaka (tên một nhà ga ở Osaka)",
+    "あそこは しんおおさかです。",
+    "Chỗ kia là Shin-Osaka."
    ]
   ],
   "grammar": [
@@ -777,6 +1134,34 @@ window.SENTENCES = {
     "Cuộc họp từ 2 giờ đến 4 giờ."
    ],
    [
+    "ニューヨーク",
+    "nyuuyooku",
+    "New York",
+    "ニューヨークは いま ごぜん ごじです。",
+    "Bây giờ ở New York là 5 giờ sáng."
+   ],
+   [
+    "ロンドン",
+    "rondon",
+    "Luân Đôn",
+    "ロンドンは いま ごご くじです。",
+    "Bây giờ ở Luân Đôn là 9 giờ tối."
+   ],
+   [
+    "ペキン",
+    "pekin",
+    "Bắc Kinh",
+    "ペキンの ぎんこうは くじから ごじまでです。",
+    "Ngân hàng ở Bắc Kinh làm từ 9 giờ đến 5 giờ."
+   ],
+   [
+    "ロサンゼルス",
+    "rosanzerusu",
+    "Los Angeles",
+    "ロサンゼルスは いま ごぜん じゅうじです。",
+    "Bây giờ ở Los Angeles là 10 giờ sáng."
+   ],
+   [
     "いま",
     "ima",
     "bây giờ",
@@ -866,6 +1251,69 @@ window.SENTENCES = {
     "vất vả nhỉ",
     "まいばん じゅうにじまで はたらきます。…たいへんですね。",
     "Tối nào tôi cũng làm đến 12 giờ. …Vất vả nhỉ."
+   ],
+   [
+    "なんぷん",
+    "nanpun",
+    "mấy phút",
+    "いま なんぷんですか。",
+    "Bây giờ là mấy phút?"
+   ],
+   [
+    "バンコク",
+    "Bankoku",
+    "Bangkok",
+    "バンコクの ぎんこうは くじからです。",
+    "Ngân hàng ở Bangkok mở từ 9 giờ."
+   ],
+   [
+    "えーと",
+    "eeto",
+    "ừm, để xem nào (khi ngập ngừng)",
+    "えーと、いま くじはんです。",
+    "Ừm, bây giờ là 9 giờ rưỡi."
+   ],
+   [
+    "１０４",
+    "hyaku-yon",
+    "104 (số tổng đài hỏi số điện thoại ở Nhật)",
+    "１０４に でんわします。",
+    "Tôi gọi 104."
+   ],
+   [
+    "おねがいします。",
+    "onegaishimasu",
+    "Làm ơn, nhờ anh/chị",
+    "でんわばんごうを おねがいします。",
+    "Xin cho tôi số điện thoại."
+   ],
+   [
+    "かしこまりました。",
+    "kashikomarimashita",
+    "Vâng, tôi hiểu rồi ạ (nhân viên đáp lại khách)",
+    "ぎんこうの ばんごうを おねがいします。…かしこまりました。",
+    "Cho tôi số của ngân hàng. …Vâng ạ."
+   ],
+   [
+    "おといあわせのばんごう",
+    "otoiawase no bangou",
+    "số điện thoại bạn đang hỏi (cách nói của tổng đài)",
+    "おといあわせの ばんごうは ０３－３４５６－７８９０です。",
+    "Số bạn hỏi là 03-3456-7890."
+   ],
+   [
+    "［どうも］ありがとう ございました。",
+    "[doumo] arigatou gozaimashita",
+    "Xin cảm ơn [rất nhiều] (khi việc đã xong)",
+    "ぎんこうの ばんごうは ７３７－１２３４です。…ありがとう ございました。",
+    "Số ngân hàng là 737-1234. …Xin cảm ơn."
+   ],
+   [
+    "そちら",
+    "sochira",
+    "phía đó, chỗ bạn (lịch sự)",
+    "そちらは なんじまでですか。",
+    "Chỗ anh đóng cửa lúc mấy giờ ạ?"
    ]
   ],
   "grammar": [
@@ -1034,6 +1482,27 @@ window.SENTENCES = {
     "Tôi đi bộ đến trường."
    ],
    [
+    "えき",
+    "eki",
+    "nhà ga",
+    "あした えきへ いきます。",
+    "Ngày mai tôi đi ra ga."
+   ],
+   [
+    "おおさかじょう",
+    "oosakajou",
+    "lâu đài Osaka",
+    "おおさかじょうへ ともだちと いきます。",
+    "Tôi đi lâu đài Osaka cùng bạn."
+   ],
+   [
+    "こうしえん",
+    "koushien",
+    "sân vận động Koshien",
+    "こうしえんへ でんしゃで いきます。",
+    "Tôi đi Koshien bằng tàu điện."
+   ],
+   [
     "いきます",
     "ikimasu",
     "đi",
@@ -1095,6 +1564,34 @@ window.SENTENCES = {
     "ừ nhỉ / để xem…",
     "そうですね、きょうとへ いきます。",
     "Để xem… tôi sẽ đi Kyoto."
+   ],
+   [
+    "［どうも］ありがとう ございました。",
+    "[doumo] arigatou gozaimashita",
+    "Xin cảm ơn [rất nhiều] (khi việc đã xong)",
+    "ありがとう ございました。…どう いたしまして。",
+    "Xin cảm ơn. …Không có gì ạ."
+   ],
+   [
+    "どう いたしまして。",
+    "dou itashimashite",
+    "Không có gì ạ (đáp lại lời cảm ơn)",
+    "ありがとう ございました。…どう いたしまして。",
+    "Xin cảm ơn. …Không có gì ạ."
+   ],
+   [
+    "つぎの",
+    "tsugi no",
+    "tiếp theo, kế tiếp",
+    "つぎの でんしゃは なんじですか。",
+    "Chuyến tàu tiếp theo mấy giờ?"
+   ],
+   [
+    "ひと",
+    "hito",
+    "người",
+    "あの ひとは リンさんです。",
+    "Người kia là chị Linh."
    ]
   ],
   "grammar": [
@@ -3063,13 +3560,6 @@ window.SENTENCES = {
     "Lạnh quá, để tôi bật lò sưởi nhé?"
    ],
    [
-    "テレビ",
-    "terebi",
-    "tivi",
-    "いま テレビを みて います。",
-    "Bây giờ tôi đang xem tivi."
-   ],
-   [
     "いそぎます",
     "isogimasu",
     "vội, gấp",
@@ -4827,13 +5317,6 @@ window.SENTENCES = {
     "Tôi đã lấy visa ở đại sứ quán."
    ],
    [
-    "ちゅうごく",
-    "chuugoku",
-    "Trung Quốc",
-    "いつか ちゅうごくへ いきたいです。",
-    "Một ngày nào đó tôi muốn đến Trung Quốc."
-   ],
-   [
     "かんがえます",
     "kangaemasu",
     "suy nghĩ",
@@ -4971,13 +5454,6 @@ window.SENTENCES = {
  "26": {
   "title": "Giải thích lý do và nhờ vả lịch sự",
   "words": [
-   [
-    "かぎ",
-    "kagi",
-    "chìa khoá",
-    "かぎを さがして いるんです。",
-    "Tôi đang tìm chìa khoá."
-   ],
    [
     "ごみ",
     "gomi",
@@ -5465,13 +5941,6 @@ window.SENTENCES = {
     "đồ bỏ quên",
     "わすれものを して しまいました。",
     "Tôi lỡ bỏ quên đồ."
-   ],
-   [
-    "かさ",
-    "kasa",
-    "cái ô",
-    "かさを わすれて しまいました。",
-    "Tôi lỡ quên ô mất rồi."
    ],
    [
     "こわれます",

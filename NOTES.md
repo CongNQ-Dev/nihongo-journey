@@ -120,3 +120,12 @@
 - Nguồn: Japan Foundation, bảng "みんなの日本語 文型・表現 ↔ いろどり" (PDF công khai: yg.jpf.go.jp/wp-content/uploads/2023/11/Sentence-Patterns-Minna-no-Nihongo-and-IRODORI.20211027.pdf). Liệt kê mẫu câu từng bài, **không** liệt kê từ vựng hay câu ví dụ.
 - Kết quả bài 1–30: thứ tự và phân bổ mẫu câu khớp. Đã bổ sung chỗ thiếu: bài 1 ～さいです; bài 14 V-かた; bài 18 hai nghĩa của ことができます + ～まえに chỉ khoảng thời gian; bài 30 ba nghĩa của ておきます.
 - Chưa xác nhận bằng nguồn chính thức: bài 11 ～だけ và bài 21 N でも (PDF không nêu hai mục này). Từ vựng từng bài và câu ví dụ vẫn do mình tự soạn, chưa đối chiếu với sách.
+
+## Đối chiếu từ vựng bài 1–30 (2026-11-23) và quy trình mới
+- Phép so với danh sách từ vựng của sách (công cụ `tools/check_vocab_coverage.py`) cho thấy bài 1–30 mới có 751/1475 từ (≈51%); 724 từ còn thiếu hoặc nằm sai bài. Mẫu câu thì khớp, nên lần đối chiếu mẫu câu trước không phát hiện được chỗ thiếu này.
+- Nguyên nhân: soạn từ trí nhớ về giáo trình, chỉ kiểm tra mẫu câu, rồi báo "khớp" chung chung. Quy trình sửa nằm ở `CLAUDE.md` (đọc trước khi soạn bài mới): lấy mẫu câu (PDF JF) và danh sách từ (script) **trước** khi soạn; chạy script **sau** khi soạn cho đến khi hết thiếu; báo cáo nói rõ đã so cái gì.
+- Tiến độ bổ sung: xem mục cuối file này (cập nhật theo từng nhóm 5 bài).
+
+### Tiến độ bổ sung từ vựng (cập nhật theo từng nhóm)
+- Bài 1–5: **xong** (272/272 từ theo `check_vocab_coverage.py`). Từ thêm nằm ở `tools/minna_add_a.py` (cơ chế `WORDS_ADD` / `VOCAB` / `VOCAB_MOVE`, đã ghi vào `EXT_MODULES`). Ảnh thẻ của từ mới chưa tải.
+- Bài 6–30: chưa làm. Chạy `python3 -I tools/check_vocab_coverage.py 6-10 --show 100` để xem danh sách.

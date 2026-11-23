@@ -558,7 +558,6 @@ WORD_EX[36] = [
 VOCAB += [
     (36, "いなか", "田舎", "inaka", "quê, nông thôn", "Japanese countryside rice fields", "いなかに りょうしんが すんで います。", "Bố mẹ tôi sống ở quê."),
     (36, "たいしかん", "大使館", "taishikan", "đại sứ quán", "embassy building flag", "たいしかんで ビザを とりました。", "Tôi đã lấy visa ở đại sứ quán."),
-    (36, "ちゅうごく", "中国", "chuugoku", "Trung Quốc", "Great Wall of China", "いつか ちゅうごくへ いきたいです。", "Một ngày nào đó tôi muốn đến Trung Quốc."),
 ]
 KANJI += [
     (36, "考", "コウ", "かんが-える", "Khảo", "suy nghĩ", "考えます", "かんがえます", "kangaemasu", "suy nghĩ"),
