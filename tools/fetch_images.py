@@ -144,6 +144,7 @@ def cmd_search():
 
 def fetch(url):
     import urllib.error
+    url = url.replace("://thumb.wikimedia.org/", "://upload.wikimedia.org/")
     for attempt in range(6):
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         try:
