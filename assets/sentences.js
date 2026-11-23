@@ -13965,6 +13965,2086 @@ window.SENTENCES = {
     ]
    ]
   ]
+ },
+ "41": {
+  "title": "Cho và nhận lịch sự (いただく, くださる, やる)",
+  "words": [
+   [
+    "さる",
+    "saru",
+    "con khỉ",
+    "さるに えさを やりました。",
+    "Tôi đã cho khỉ ăn."
+   ],
+   [
+    "おもちゃ",
+    "omocha",
+    "đồ chơi",
+    "こどもに おもちゃを やりました。",
+    "Tôi đã cho trẻ đồ chơi."
+   ],
+   [
+    "えほん",
+    "ehon",
+    "sách tranh",
+    "こどもに えほんを よんで やりました。",
+    "Tôi đã đọc sách tranh cho bé."
+   ],
+   [
+    "えはがき",
+    "ehagaki",
+    "bưu thiếp tranh",
+    "ともだちに えはがきを かいて やりました。",
+    "Tôi đã viết bưu thiếp tranh cho bạn."
+   ],
+   [
+    "ドライバー",
+    "doraibaa",
+    "tua vít",
+    "ドライバーを かして くださいませんか。",
+    "Anh cho tôi mượn tua vít được không ạ?"
+   ],
+   [
+    "ハンカチ",
+    "hankachi",
+    "khăn tay",
+    "ハンカチを いただきました。",
+    "Tôi đã nhận khăn tay."
+   ],
+   [
+    "くつした",
+    "kutsushita",
+    "tất",
+    "くつしたを いただきました。",
+    "Tôi đã nhận tất."
+   ],
+   [
+    "てぶくろ",
+    "tebukuro",
+    "găng tay",
+    "ははが てぶくろを くださいました。",
+    "Mẹ đã cho tôi găng tay."
+   ],
+   [
+    "ようちえん",
+    "youchien",
+    "trường mẫu giáo",
+    "ようちえんの せんせいが おもちゃを くださいました。",
+    "Cô giáo mẫu giáo đã cho tôi đồ chơi."
+   ],
+   [
+    "かめ",
+    "kame",
+    "con rùa",
+    "おとこは かめを たすけて やりました。",
+    "Người đàn ông đã cứu con rùa."
+   ],
+   [
+    "おひめさま",
+    "ohimesama",
+    "công chúa",
+    "おひめさまが てぶくろを くださいました。",
+    "Công chúa đã cho tôi găng tay."
+   ],
+   [
+    "けむり",
+    "kemuri",
+    "khói",
+    "しろい けむりが でました。",
+    "Khói trắng bay ra."
+   ],
+   [
+    "バッグ",
+    "baggu",
+    "túi xách",
+    "バッグを いただきました。",
+    "Tôi đã nhận chiếc túi xách."
+   ],
+   [
+    "おとしだま",
+    "otoshidama",
+    "tiền lì xì",
+    "そふに おとしだまを いただきました。",
+    "Tôi nhận tiền lì xì từ ông."
+   ],
+   [
+    "うらしまたろう",
+    "urashimatarou",
+    "Urashima Taro",
+    "うらしまたろうは かめを たすけて やりました。",
+    "Urashima Taro đã cứu con rùa."
+   ],
+   [
+    "いただきます",
+    "itadakimasu",
+    "nhận (khiêm nhường)",
+    "ぶちょうに おみやげを いただきました。",
+    "Tôi đã nhận quà từ trưởng phòng."
+   ],
+   [
+    "くださいます",
+    "kudasaimasu",
+    "cho (tôi) (kính ngữ)",
+    "せんせいが ほんを くださいました。",
+    "Thầy đã cho tôi quyển sách."
+   ],
+   [
+    "やります",
+    "yarimasu",
+    "cho (người nhỏ hơn, con vật, cây cối)",
+    "いぬに えさを やります。",
+    "Tôi cho chó ăn."
+   ],
+   [
+    "しんせつに します",
+    "shinsetsu ni shimasu",
+    "đối xử tử tế",
+    "ともだちに しんせつに して いただきました。",
+    "Tôi được bạn đối xử tử tế."
+   ],
+   [
+    "かわいい",
+    "kawaii",
+    "dễ thương",
+    "かわいい あかちゃんですね。",
+    "Em bé dễ thương nhỉ."
+   ],
+   [
+    "めずらしい",
+    "mezurashii",
+    "hiếm, lạ",
+    "めずらしい おかしを いただきました。",
+    "Tôi đã nhận được bánh kẹo lạ."
+   ],
+   [
+    "おいわい",
+    "oiwai",
+    "quà chúc mừng",
+    "おいわいを いただきました。",
+    "Tôi đã nhận quà chúc mừng."
+   ],
+   [
+    "おとしだま",
+    "otoshidama",
+    "tiền lì xì năm mới",
+    "おじいさんに おとしだまを いただきました。",
+    "Tôi nhận tiền lì xì từ ông."
+   ],
+   [
+    "［お］みまい",
+    "[o]mimai",
+    "thăm bệnh, quà thăm bệnh",
+    "おみまいに いきます。",
+    "Tôi đi thăm bệnh."
+   ],
+   [
+    "きょうみ",
+    "kyoumi",
+    "sự quan tâm",
+    "にほんの ぶんかに きょうみが あります。",
+    "Tôi quan tâm đến văn hoá Nhật."
+   ],
+   [
+    "じょうほう",
+    "jouhou",
+    "thông tin",
+    "せんせいが じょうほうを くださいました。",
+    "Thầy đã cho tôi thông tin."
+   ],
+   [
+    "さる",
+    "saru",
+    "con khỉ",
+    "さるに えさを やります。",
+    "Tôi cho khỉ ăn."
+   ],
+   [
+    "えさ",
+    "esa",
+    "mồi, thức ăn cho thú",
+    "どうぶつに えさを やります。",
+    "Tôi cho thú ăn."
+   ],
+   [
+    "おもちゃ",
+    "omocha",
+    "đồ chơi",
+    "こどもに おもちゃを やります。",
+    "Tôi cho trẻ em đồ chơi."
+   ],
+   [
+    "ドライバー",
+    "doraibaa",
+    "tua vít",
+    "ドライバーを かして くださいませんか。",
+    "Anh cho tôi mượn tua vít được không ạ?"
+   ],
+   [
+    "ハンカチ",
+    "hankachi",
+    "khăn tay",
+    "ハンカチを いただきました。",
+    "Tôi nhận được khăn tay."
+   ],
+   [
+    "ようちえん",
+    "youchien",
+    "trường mẫu giáo",
+    "ようちえんの せんせいに あいました。",
+    "Tôi đã gặp cô giáo mẫu giáo."
+   ],
+   [
+    "おんど",
+    "ondo",
+    "nhiệt độ",
+    "おんどを さげて くださいませんか。",
+    "Anh hạ nhiệt độ giúp tôi được không ạ?"
+   ],
+   [
+    "かんりにん",
+    "kanrinin",
+    "người quản lý toà nhà",
+    "かんりにんが てつだって くださいました。",
+    "Người quản lý đã giúp tôi."
+   ],
+   [
+    "このあいだ",
+    "kono aida",
+    "hôm nọ",
+    "このあいだ ぶちょうに ごちそうして いただきました。",
+    "Hôm nọ tôi được trưởng phòng đãi."
+   ],
+   [
+    "ひとこと",
+    "hitokoto",
+    "vài lời",
+    "ひとこと おねがいします。",
+    "Xin nói vài lời."
+   ],
+   [
+    "ふたり",
+    "futari",
+    "hai người, cặp đôi",
+    "おふたりは しあわせそうです。",
+    "Hai người trông hạnh phúc."
+   ],
+   [
+    "おたく",
+    "otaku",
+    "nhà (của người khác)",
+    "おたくへ うかがいます。",
+    "Tôi sẽ đến thăm nhà anh."
+   ],
+   [
+    "どうぞ おしあわせに。",
+    "douzo oshiawase ni",
+    "Chúc hai bạn hạnh phúc.",
+    "ごけっこん、おめでとう ございます。どうぞ おしあわせに。",
+    "Chúc mừng đám cưới. Chúc hai bạn hạnh phúc."
+   ],
+   [
+    "むかしばなし",
+    "mukashibanashi",
+    "chuyện cổ tích",
+    "むかしばなしを よんで やりました。",
+    "Tôi đã đọc chuyện cổ tích cho (bé)."
+   ],
+   [
+    "いじめます",
+    "ijimemasu",
+    "bắt nạt",
+    "かめを いじめては いけません。",
+    "Không được bắt nạt con rùa."
+   ],
+   [
+    "かめ",
+    "kame",
+    "con rùa",
+    "おとこは かめを たすけて やりました。",
+    "Người đàn ông đã cứu con rùa."
+   ],
+   [
+    "たすけます",
+    "tasukemasu",
+    "giúp, cứu",
+    "ともだちを たすけて あげました。",
+    "Tôi đã giúp bạn."
+   ],
+   [
+    "やさしい",
+    "yasashii",
+    "dịu dàng, tốt bụng",
+    "やさしい おとこでした。",
+    "Anh ta là người tốt bụng."
+   ],
+   [
+    "おひめさま",
+    "ohimesama",
+    "công chúa",
+    "おひめさまが かめに のって きました。",
+    "Công chúa cưỡi rùa đến."
+   ],
+   [
+    "くらします",
+    "kurashimasu",
+    "sống, sinh hoạt",
+    "ふたりは しあわせに くらしました。",
+    "Hai người sống hạnh phúc."
+   ],
+   [
+    "りく",
+    "riku",
+    "đất liền",
+    "りくへ かえりました。",
+    "Anh ta đã trở về đất liền."
+   ],
+   [
+    "すると",
+    "suru to",
+    "thế là",
+    "ドアを あけると、けむりが でました。",
+    "Hễ mở cửa thì khói bay ra."
+   ],
+   [
+    "けむり",
+    "kemuri",
+    "khói",
+    "しろい けむりが でました。",
+    "Khói trắng bay ra."
+   ],
+   [
+    "まっしろ［な］",
+    "masshiro [na]",
+    "trắng tinh",
+    "かみが まっしろに なりました。",
+    "Tóc đã trắng xoá."
+   ],
+   [
+    "なかみ",
+    "nakami",
+    "bên trong, nội dung",
+    "なかみを みせて いただけませんか。",
+    "Cho tôi xem bên trong được không ạ?"
+   ],
+   [
+    "うらしまたろう",
+    "urashima tarou",
+    "Urashima Taro (nhân vật trong truyện cổ tích)",
+    "うらしまたろうは かめを たすけました。",
+    "Urashima Taro đã cứu con rùa."
+   ],
+   [
+    "よびます",
+    "yobimasu",
+    "gọi, mời",
+    "ぶちょうを うちに よびました。",
+    "Tôi đã mời trưởng phòng đến nhà."
+   ],
+   [
+    "とりかえます",
+    "torikaemasu",
+    "đổi",
+    "サイズを とりかえて いただけませんか。",
+    "Anh đổi cỡ giúp tôi được không ạ?"
+   ],
+   [
+    "ゆびわ",
+    "yubiwa",
+    "nhẫn",
+    "ゆびわを くださいました。",
+    "Anh ấy đã tặng tôi chiếc nhẫn."
+   ],
+   [
+    "バッグ",
+    "baggu",
+    "túi xách",
+    "バッグを いただきました。",
+    "Tôi đã nhận chiếc túi xách."
+   ],
+   [
+    "おととし",
+    "ototoshi",
+    "năm kia",
+    "おととし ごけっこんしました。",
+    "Hai năm trước họ đã kết hôn."
+   ],
+   [
+    "はあ",
+    "haa",
+    "Vâng ạ (đáp lại)",
+    "はあ、わかりました。",
+    "Vâng ạ, tôi hiểu rồi."
+   ],
+   [
+    "もうしわけ ありません。",
+    "moushiwake arimasen",
+    "Tôi rất xin lỗi.",
+    "おくれて、もうしわけ ありません。",
+    "Tôi rất xin lỗi vì đến muộn."
+   ],
+   [
+    "あずかります",
+    "azukarimasu",
+    "giữ hộ, nhận gửi",
+    "にもつを あずかって いただけませんか。",
+    "Anh giữ hộ hành lý được không ạ?"
+   ],
+   [
+    "せんじつ",
+    "senjitsu",
+    "hôm trước",
+    "せんじつは ありがとう ございました。",
+    "Hôm trước xin cảm ơn anh."
+   ],
+   [
+    "たすかります",
+    "tasukarimasu",
+    "đỡ quá, nhờ có",
+    "てつだって くださって、たすかりました。",
+    "Nhờ anh giúp mà tôi đỡ quá."
+   ],
+   [
+    "［お］しろ",
+    "[o]shiro",
+    "lâu đài",
+    "おしろを あんないして いただきました。",
+    "Tôi được dẫn tham quan lâu đài."
+   ],
+   [
+    "たのしく",
+    "tanoshiku",
+    "một cách vui vẻ",
+    "たのしく くらして います。",
+    "Tôi sống vui vẻ."
+   ],
+   [
+    "さげます",
+    "sagemasu",
+    "hạ xuống",
+    "れいぼうの おんどを さげて ください。",
+    "Hãy hạ nhiệt độ máy lạnh."
+   ],
+   [
+    "おいわい",
+    "oiwai",
+    "quà chúc mừng",
+    "けっこんの おいわいを あげました。",
+    "Tôi đã tặng quà mừng cưới."
+   ]
+  ],
+  "grammar": [
+   [
+    "N を いただきます／くださいます／やります",
+    "nhận / cho (lịch sự)",
+    [
+     [
+      "わたしは せんせいに ほんを いただきました。",
+      "Tôi nhận quyển sách từ thầy."
+     ],
+     [
+      "せんせいが わたしに ほんを くださいました。",
+      "Thầy đã cho tôi quyển sách."
+     ],
+     [
+      "わたしは いぬに えさを やりました。",
+      "Tôi đã cho chó ăn."
+     ]
+    ]
+   ],
+   [
+    "V-て いただきます",
+    "được (người trên) làm cho",
+    [
+     [
+      "ぶちょうに くるまで おくって いただきました。",
+      "Tôi được trưởng phòng lái xe đưa về."
+     ],
+     [
+      "せんせいに ぶんぽうを おしえて いただきました。",
+      "Tôi được thầy dạy ngữ pháp."
+     ]
+    ]
+   ],
+   [
+    "V-て くださいます",
+    "(người trên) làm giúp mình",
+    [
+     [
+      "ぶちょうが くるまで おくって くださいました。",
+      "Trưởng phòng đã lái xe đưa tôi về."
+     ],
+     [
+      "せんせいが じょうほうを おしえて くださいました。",
+      "Thầy đã cho tôi thông tin."
+     ]
+    ]
+   ],
+   [
+    "V-て やります／V-て くださいませんか",
+    "làm cho người nhỏ hơn / nhờ lịch sự",
+    [
+     [
+      "こどもに むかしばなしを よんで やりました。",
+      "Tôi đã đọc chuyện cổ tích cho bé."
+     ],
+     [
+      "すみません、ドライバーを かして くださいませんか。",
+      "Xin lỗi, anh cho tôi mượn tua vít được không ạ?"
+     ]
+    ]
+   ]
+  ]
+ },
+ "42": {
+  "title": "Mục đích, dụng cụ dùng để làm gì",
+  "words": [
+   [
+    "ミキサー",
+    "mikisaa",
+    "máy xay trộn",
+    "ミキサーは ざいりょうを まぜるのに つかいます。",
+    "Máy trộn dùng để trộn nguyên liệu."
+   ],
+   [
+    "やかん",
+    "yakan",
+    "ấm đun nước",
+    "やかんは おゆを わかすのに つかいます。",
+    "Ấm dùng để đun nước."
+   ],
+   [
+    "せんぬき",
+    "sennuki",
+    "cái mở nút chai",
+    "せんぬきは びんを あけるのに つかいます。",
+    "Cái mở nút chai dùng để mở chai."
+   ],
+   [
+    "かんきり",
+    "kankiri",
+    "cái mở hộp",
+    "かんきりは かんづめを あけるのに つかいます。",
+    "Dụng cụ mở hộp dùng để mở đồ hộp."
+   ],
+   [
+    "かんづめ",
+    "kanzume",
+    "đồ hộp",
+    "かんづめを あける ために かんきりを つかいます。",
+    "Tôi dùng cái mở hộp để mở đồ hộp."
+   ],
+   [
+    "のしぶくろ",
+    "noshibukuro",
+    "phong bì tiền mừng",
+    "のしぶくろは おいわいに つかいます。",
+    "Phong bì tiền mừng dùng cho dịp chúc mừng."
+   ],
+   [
+    "ふろしき",
+    "furoshiki",
+    "khăn furoshiki",
+    "ふろしきは にもつを つつむのに つかいます。",
+    "Furoshiki dùng để gói đồ."
+   ],
+   [
+    "そろばん",
+    "soroban",
+    "bàn tính",
+    "そろばんは けいさんするのに つかいます。",
+    "Bàn tính dùng để tính toán."
+   ],
+   [
+    "カップめん",
+    "kappumen",
+    "mì cốc",
+    "カップめんは おゆを そそぐのに さんぷん かかります。",
+    "Mì cốc rót nước sôi vào mất 3 phút."
+   ],
+   [
+    "チキンラーメン",
+    "chikinraamen",
+    "mì Chicken Ramen",
+    "チキンラーメンは せかいはつの インスタントラーメンです。",
+    "Chicken Ramen là mì ăn liền đầu tiên trên thế giới."
+   ],
+   [
+    "ピラミッド",
+    "piramiddo",
+    "kim tự tháp",
+    "ピラミッドは いしで つくられました。",
+    "Kim tự tháp được xây bằng đá."
+   ],
+   [
+    "ベートーベン",
+    "beetooben",
+    "Beethoven",
+    "ベートーベンの きょくを ひく ために、ピアノを ならって います。",
+    "Tôi học piano để chơi nhạc của Beethoven."
+   ],
+   [
+    "ポーランド",
+    "poorando",
+    "Ba Lan",
+    "ポーランドへ いく ために、パスポートを とりました。",
+    "Tôi làm hộ chiếu để đi Ba Lan."
+   ],
+   [
+    "ローン",
+    "roon",
+    "khoản vay",
+    "ローンを はらう ために はたらきます。",
+    "Tôi làm việc để trả khoản vay."
+   ],
+   [
+    "ろんぶん",
+    "ronbun",
+    "luận văn",
+    "ろんぶんを かく ために しりょうを あつめます。",
+    "Tôi thu thập tài liệu để viết luận văn."
+   ],
+   [
+    "つつみます",
+    "tsutsumimasu",
+    "gói",
+    "プレゼントを つつむのに ふろしきを つかいます。",
+    "Tôi dùng khăn furoshiki để gói quà."
+   ],
+   [
+    "わかします",
+    "wakashimasu",
+    "đun sôi",
+    "おゆを わかすのに やかんを つかいます。",
+    "Tôi dùng ấm để đun nước."
+   ],
+   [
+    "まぜます",
+    "mazemasu",
+    "trộn",
+    "ざいりょうを まぜるのに ミキサーを つかいます。",
+    "Tôi dùng máy trộn để trộn nguyên liệu."
+   ],
+   [
+    "けいさんします",
+    "keisan shimasu",
+    "tính toán",
+    "けいさんするのに そろばんを つかいます。",
+    "Tôi dùng bàn tính để tính."
+   ],
+   [
+    "ならびます",
+    "narabimasu",
+    "xếp hàng",
+    "チケットを かうために ならびます。",
+    "Tôi xếp hàng để mua vé."
+   ],
+   [
+    "じょうぶ［な］",
+    "joubu [na]",
+    "bền, khoẻ",
+    "じょうぶな かばんです。",
+    "Chiếc cặp này bền."
+   ],
+   [
+    "アパート",
+    "apaato",
+    "căn hộ cho thuê",
+    "アパートを さがすために ふどうさんやに いきます。",
+    "Tôi đến công ty bất động sản để tìm căn hộ."
+   ],
+   [
+    "こどもたち",
+    "kodomotachi",
+    "bọn trẻ",
+    "こどもたちの ために ほんを かいます。",
+    "Tôi mua sách vì các em nhỏ."
+   ],
+   [
+    "しぜん",
+    "shizen",
+    "thiên nhiên",
+    "しぜんを まもる ために はたらきます。",
+    "Tôi làm việc để bảo vệ thiên nhiên."
+   ],
+   [
+    "もくてき",
+    "mokuteki",
+    "mục đích",
+    "もくてきは にほんごを べんきょうする ことです。",
+    "Mục đích của tôi là học tiếng Nhật."
+   ],
+   [
+    "ろんぶん",
+    "ronbun",
+    "luận văn",
+    "ろんぶんを かく ために しりょうを あつめます。",
+    "Tôi thu thập tài liệu để viết luận văn."
+   ],
+   [
+    "たのしみ",
+    "tanoshimi",
+    "niềm vui, thú vui",
+    "りょこうが たのしみです。",
+    "Tôi mong chuyến đi."
+   ],
+   [
+    "ミキサー",
+    "mikisaa",
+    "máy xay trộn",
+    "ミキサーは ざいりょうを まぜるのに つかいます。",
+    "Máy trộn dùng để trộn nguyên liệu."
+   ],
+   [
+    "やかん",
+    "yakan",
+    "ấm đun nước",
+    "やかんは おゆを わかすのに つかいます。",
+    "Ấm dùng để đun nước."
+   ],
+   [
+    "ふた",
+    "futa",
+    "nắp",
+    "なべの ふたを あけます。",
+    "Tôi mở nắp nồi."
+   ],
+   [
+    "かんづめ",
+    "kanzume",
+    "đồ hộp",
+    "かんづめを あけます。",
+    "Tôi mở đồ hộp."
+   ],
+   [
+    "のしぶくろ",
+    "noshibukuro",
+    "phong bì tiền mừng",
+    "のしぶくろに おかねを いれます。",
+    "Tôi bỏ tiền vào phong bì."
+   ],
+   [
+    "ふろしき",
+    "furoshiki",
+    "khăn gói đồ",
+    "ふろしきは にもつを つつむのに つかいます。",
+    "Khăn furoshiki dùng để gói đồ."
+   ],
+   [
+    "そろばん",
+    "soroban",
+    "bàn tính",
+    "そろばんは けいさんするのに つかいます。",
+    "Bàn tính dùng để tính toán."
+   ],
+   [
+    "たいおんけい",
+    "taionkei",
+    "nhiệt kế",
+    "たいおんけいは ねつを はかるのに つかいます。",
+    "Nhiệt kế dùng để đo sốt."
+   ],
+   [
+    "ざいりょう",
+    "zairyou",
+    "nguyên liệu",
+    "ざいりょうを かいに いきます。",
+    "Tôi đi mua nguyên liệu."
+   ],
+   [
+    "いっしょうけんめい",
+    "isshoukenmei",
+    "hết sức mình",
+    "いっしょうけんめい べんきょうします。",
+    "Tôi học hết sức mình."
+   ],
+   [
+    "なぜ",
+    "naze",
+    "tại sao",
+    "なぜ にほんへ きましたか。",
+    "Tại sao bạn đến Nhật?"
+   ],
+   [
+    "どのくらい",
+    "dono kurai",
+    "khoảng bao nhiêu",
+    "ろんぶんを かくのに どのくらい かかりますか。",
+    "Viết luận văn mất khoảng bao lâu?"
+   ],
+   [
+    "こくれん",
+    "kokuren",
+    "Liên Hợp Quốc",
+    "こくれんで はたらく ために べんきょうします。",
+    "Tôi học để làm việc ở Liên Hợp Quốc."
+   ],
+   [
+    "エリーゼの ために",
+    "eriize no tame ni",
+    "“Für Elise” (Dành tặng Elise)",
+    "「エリーゼの ために」は ベートーベンの きょくです。",
+    "“Für Elise” là bản nhạc của Beethoven."
+   ],
+   [
+    "ベートーベン",
+    "beetooben",
+    "Beethoven",
+    "ベートーベンの おんがくが すきです。",
+    "Tôi thích nhạc của Beethoven."
+   ],
+   [
+    "はんぶん",
+    "hanbun",
+    "một nửa",
+    "ボーナスの はんぶんは ちょきんします。",
+    "Một nửa tiền thưởng tôi để dành."
+   ],
+   [
+    "ローン",
+    "roon",
+    "khoản vay",
+    "ローンを はらう ために はたらきます。",
+    "Tôi làm việc để trả khoản vay."
+   ],
+   [
+    "カップめん",
+    "kappumen",
+    "mì cốc",
+    "カップめんは おゆを いれるのに さんぷんかかります。",
+    "Mì cốc cho nước sôi vào mất 3 phút."
+   ],
+   [
+    "せかいはつ",
+    "sekaihatsu",
+    "đầu tiên trên thế giới",
+    "せかいはつの ものです。",
+    "Đó là thứ đầu tiên trên thế giới."
+   ],
+   [
+    "ひろめます",
+    "hiromemasu",
+    "phổ biến",
+    "せかいに ひろめる ために はたらきます。",
+    "Tôi làm việc để phổ biến ra thế giới."
+   ],
+   [
+    "しじょうちょうさ",
+    "shijou chousa",
+    "khảo sát thị trường",
+    "しじょうちょうさを する ために アメリカへ いきました。",
+    "Tôi đã sang Mỹ để khảo sát thị trường."
+   ],
+   [
+    "わります",
+    "warimasu",
+    "đập, bẻ",
+    "たまごを わります。",
+    "Tôi đập trứng."
+   ],
+   [
+    "そそぎます",
+    "sosogimasu",
+    "rót",
+    "おゆを そそぎます。",
+    "Tôi rót nước sôi."
+   ],
+   [
+    "ふたり",
+    "futari",
+    "hai người",
+    "ふたりで はたらく ために かんがえます。",
+    "Hai người cùng nghĩ để làm việc."
+   ],
+   [
+    "いし",
+    "ishi",
+    "đá",
+    "ピラミッドは いしで つくられました。",
+    "Kim tự tháp được xây bằng đá."
+   ],
+   [
+    "ピラミッド",
+    "piramiddo",
+    "kim tự tháp",
+    "ピラミッドを つくるのに ながい じかんが かかりました。",
+    "Xây kim tự tháp mất thời gian dài."
+   ],
+   [
+    "ポーランド",
+    "poorando",
+    "Ba Lan",
+    "ポーランドは ヨーロッパに あります。",
+    "Ba Lan ở châu Âu."
+   ],
+   [
+    "セット",
+    "setto",
+    "bộ",
+    "セットで ごひゃくえんです。",
+    "Cả bộ là 500 yên."
+   ],
+   [
+    "あと",
+    "ato",
+    "còn lại",
+    "あと ３ふんで できます。",
+    "Còn 3 phút nữa là xong."
+   ],
+   [
+    "なべ",
+    "nabe",
+    "nồi",
+    "なべで めんを にます。",
+    "Tôi nấu mì trong nồi."
+   ],
+   [
+    "カップ",
+    "kappu",
+    "cốc",
+    "カップに おゆを そそぎます。",
+    "Tôi rót nước sôi vào cốc."
+   ],
+   [
+    "また",
+    "mata",
+    "lại",
+    "また あした きます。",
+    "Mai tôi lại đến."
+   ],
+   [
+    "どこででも",
+    "doko de demo",
+    "ở bất cứ đâu",
+    "どこででも たべられます。",
+    "Ăn được ở bất cứ đâu."
+   ],
+   [
+    "いまでは",
+    "ima de wa",
+    "bây giờ thì",
+    "いまでは せかいじゅうで たべられて います。",
+    "Bây giờ nó được ăn khắp thế giới."
+   ]
+  ],
+  "grammar": [
+   [
+    "V-る／N の ために、V-ます",
+    "để ~ (mục đích, lợi ích)",
+    [
+     [
+      "にほんで はたらく ために、にほんごを べんきょうして います。",
+      "Tôi đang học tiếng Nhật để làm việc ở Nhật."
+     ],
+     [
+      "かぞくの ために、ちょきんします。",
+      "Tôi tiết kiệm tiền vì gia đình."
+     ],
+     [
+      "ろんぶんを かく ために、しりょうを あつめます。",
+      "Tôi thu thập tài liệu để viết luận văn."
+     ]
+    ]
+   ],
+   [
+    "V-る のに／N に つかいます",
+    "dùng để ~",
+    [
+     [
+      "ふろしきは にもつを つつむのに つかいます。",
+      "Khăn furoshiki dùng để gói đồ."
+     ],
+     [
+      "そろばんは けいさんするのに つかいます。",
+      "Bàn tính dùng để tính toán."
+     ],
+     [
+      "この かんきりは かんづめを あけるのに つかいます。",
+      "Dụng cụ này dùng để mở đồ hộp."
+     ]
+    ]
+   ],
+   [
+    "V-る のに／N に ～ かかります",
+    "tốn ~ để làm V",
+    [
+     [
+      "ろんぶんを かくのに １ねん かかりました。",
+      "Viết luận văn mất một năm."
+     ],
+     [
+      "アパートを かりるのに ３０まんえん いります。",
+      "Thuê căn hộ cần 300.000 yên."
+     ]
+    ]
+   ],
+   [
+    "～は V-る のに／N に ～です (đánh giá)",
+    "~ tiện / hợp để ~",
+    [
+     [
+      "この なべは ラーメンを つくるのに べんりです。",
+      "Cái nồi này tiện để nấu mì."
+     ],
+     [
+      "この かばんは りょこうに ちょうど いいです。",
+      "Chiếc cặp này vừa hợp để đi du lịch."
+     ]
+    ]
+   ]
+  ]
+ },
+ "43": {
+  "title": "Trông có vẻ ~, sắp ~, đi rồi về",
+  "words": [
+   [
+    "ガソリン",
+    "gasorin",
+    "xăng",
+    "ガソリンが なくなりそうです。",
+    "Xăng sắp hết."
+   ],
+   [
+    "パンフレット",
+    "panfuretto",
+    "tờ rơi, cuốn giới thiệu",
+    "パンフレットを もらって きます。",
+    "Tôi đi lấy tờ rơi rồi về."
+   ],
+   [
+    "ばら",
+    "bara",
+    "hoa hồng",
+    "ばらが さきそうです。",
+    "Hoa hồng sắp nở."
+   ],
+   [
+    "ドライブ",
+    "doraibu",
+    "đi chơi bằng xe",
+    "ドライブに いって きます。",
+    "Tôi đi chơi bằng xe rồi về."
+   ],
+   [
+    "かいいん",
+    "kaiin",
+    "hội viên",
+    "かいいんに なって きます。",
+    "Tôi đi đăng ký làm hội viên rồi về."
+   ],
+   [
+    "へん［な］",
+    "hen [na]",
+    "lạ, kỳ cục",
+    "へんな おとが します。",
+    "Có tiếng động lạ."
+   ],
+   [
+    "しあわせ［な］",
+    "shiawase [na]",
+    "hạnh phúc",
+    "しあわせそうですね。",
+    "Trông hạnh phúc nhỉ."
+   ],
+   [
+    "らく［な］",
+    "raku [na]",
+    "dễ chịu, nhàn",
+    "らくそうな しごとです。",
+    "Công việc có vẻ nhàn."
+   ],
+   [
+    "うまい",
+    "umai",
+    "ngon, giỏi",
+    "おいしそうですね。うまそうです。",
+    "Trông ngon nhỉ."
+   ],
+   [
+    "まずい",
+    "mazui",
+    "dở",
+    "まずそうな りょうりです。",
+    "Món ăn trông dở."
+   ],
+   [
+    "つまらない",
+    "tsumaranai",
+    "chán, tẻ nhạt",
+    "つまらなそうな えいがです。",
+    "Bộ phim trông chán."
+   ],
+   [
+    "やさしい",
+    "yasashii",
+    "dịu dàng; dễ",
+    "やさしそうな せんせいです。",
+    "Thầy trông hiền."
+   ],
+   [
+    "ガソリン",
+    "gasorin",
+    "xăng",
+    "ガソリンが なくなりそうです。",
+    "Xăng sắp hết."
+   ],
+   [
+    "ひ",
+    "hi",
+    "lửa",
+    "ひが きえそうです。",
+    "Lửa sắp tắt."
+   ],
+   [
+    "パンフレット",
+    "panfuretto",
+    "tờ rơi",
+    "パンフレットを もらって きます。",
+    "Tôi đi lấy tờ rơi về."
+   ],
+   [
+    "いまにも",
+    "ima ni mo",
+    "sắp sửa, ngay lúc này",
+    "いまにも あめが ふりそうです。",
+    "Trời sắp mưa đến nơi."
+   ],
+   [
+    "わあ",
+    "waa",
+    "Ôi!",
+    "わあ、きれい！",
+    "Ôi, đẹp quá!"
+   ],
+   [
+    "ばら",
+    "bara",
+    "hoa hồng",
+    "ばらが さきそうです。",
+    "Hoa hồng sắp nở."
+   ],
+   [
+    "ドライブ",
+    "doraibu",
+    "đi chơi bằng xe",
+    "ドライブに いって きます。",
+    "Tôi đi chơi bằng xe rồi về."
+   ],
+   [
+    "りゆう",
+    "riyuu",
+    "lý do",
+    "りゆうを きいて きます。",
+    "Tôi đi hỏi lý do rồi về."
+   ],
+   [
+    "あやまります",
+    "ayamarimasu",
+    "xin lỗi",
+    "ちゃんと あやまって きます。",
+    "Tôi đi xin lỗi đàng hoàng."
+   ],
+   [
+    "しりあいます",
+    "shiriaimasu",
+    "quen biết",
+    "ともだちと しりあって、しあわせそうです。",
+    "Quen bạn nên trông hạnh phúc."
+   ],
+   [
+    "じょうぶ［な］",
+    "joubu [na]",
+    "bền, khoẻ",
+    "じょうぶそうな かばんです。",
+    "Chiếc cặp trông bền."
+   ],
+   [
+    "センス",
+    "sensu",
+    "gu, óc thẩm mỹ",
+    "センスが よさそうな ふくです。",
+    "Bộ quần áo trông có gu."
+   ],
+   [
+    "かいいん",
+    "kaiin",
+    "hội viên",
+    "かいいんに なって きます。",
+    "Tôi đi đăng ký làm hội viên rồi về."
+   ],
+   [
+    "てきとう［な］",
+    "tekitou [na]",
+    "vừa phải, thích hợp",
+    "てきとうな ところを さがして きます。",
+    "Tôi đi tìm chỗ thích hợp rồi về."
+   ],
+   [
+    "ねんれい",
+    "nenrei",
+    "tuổi tác",
+    "ねんれいを きいて きます。",
+    "Tôi đi hỏi tuổi rồi về."
+   ],
+   [
+    "しゅうにゅう",
+    "shuunyuu",
+    "thu nhập",
+    "しゅうにゅうが ふえそうです。",
+    "Có vẻ thu nhập sẽ tăng."
+   ],
+   [
+    "ぴったり",
+    "pittari",
+    "vừa khít",
+    "この くつは ぴったりです。",
+    "Đôi giày này vừa khít."
+   ],
+   [
+    "そのうえ",
+    "sono ue",
+    "hơn nữa",
+    "やすいし、そのうえ おいしそうです。",
+    "Rẻ lại trông ngon."
+   ]
+  ],
+  "grammar": [
+   [
+    "V-ます(bỏ ます) そうです",
+    "sắp ~, có vẻ sắp ~",
+    [
+     [
+      "いまにも あめが ふりそうです。",
+      "Trời sắp mưa đến nơi."
+     ],
+     [
+      "ボタンが とれそうです。",
+      "Cúc áo sắp bung ra."
+     ],
+     [
+      "ガソリンが なくなりそうです。",
+      "Xăng sắp hết."
+     ]
+    ]
+   ],
+   [
+    "イA-／ナA- そうです",
+    "trông có vẻ ~",
+    [
+     [
+      "おいしそうですね。",
+      "Trông ngon nhỉ."
+     ],
+     [
+      "この かばんは じょうぶそうです。",
+      "Chiếc cặp này trông bền."
+     ],
+     [
+      "リンさんは しあわせそうです。",
+      "Chị Linh trông hạnh phúc."
+     ]
+    ]
+   ],
+   [
+    "V-て きます",
+    "đi V rồi quay lại",
+    [
+     [
+      "ちょっと コンビニで パンを かって きます。",
+      "Tôi ra cửa hàng tiện lợi mua ít bánh mì rồi về."
+     ],
+     [
+      "りゆうを きいて きます。",
+      "Tôi đi hỏi lý do rồi quay lại."
+     ]
+    ]
+   ],
+   [
+    "Phân biệt ～そうです (quan sát) và ～と いって いました (nghe nói)",
+    "so sánh",
+    [
+     [
+      "あの みせは おいしそうです。",
+      "Cửa hàng kia trông ngon."
+     ],
+     [
+      "たなかさんは あの みせは おいしいと いって いました。",
+      "Anh Tanaka nói cửa hàng đó ngon."
+     ]
+    ]
+   ]
+  ]
+ },
+ "44": {
+  "title": "Quá mức, dễ / khó làm, làm cho thành ~",
+  "words": [
+   [
+    "なみだ",
+    "namida",
+    "nước mắt",
+    "なみだが でました。",
+    "Nước mắt đã chảy."
+   ],
+   [
+    "くうき",
+    "kuuki",
+    "không khí",
+    "くうきが きれいです。",
+    "Không khí trong lành."
+   ],
+   [
+    "わしょく",
+    "washoku",
+    "món ăn Nhật",
+    "わしょくは たべやすいです。",
+    "Món Nhật dễ ăn."
+   ],
+   [
+    "ようしょく",
+    "youshoku",
+    "món ăn Tây",
+    "ようしょくは たべやすいです。",
+    "Món Tây dễ ăn."
+   ],
+   [
+    "おかず",
+    "okazu",
+    "món ăn kèm",
+    "おかずを たべすぎました。",
+    "Tôi đã ăn món ăn kèm quá nhiều."
+   ],
+   [
+    "シングル",
+    "shinguru",
+    "phòng đơn",
+    "シングルに して ください。",
+    "Xin cho phòng đơn."
+   ],
+   [
+    "ツイン",
+    "tsuin",
+    "phòng đôi hai giường",
+    "ツインに します。",
+    "Tôi chọn phòng hai giường."
+   ],
+   [
+    "せんたくもの",
+    "sentakumono",
+    "đồ giặt",
+    "せんたくものが かわきやすいです。",
+    "Đồ giặt dễ khô."
+   ],
+   [
+    "DVD",
+    "dibuidii",
+    "đĩa DVD",
+    "DVDを みすぎました。",
+    "Tôi đã xem DVD quá nhiều."
+   ],
+   [
+    "カット",
+    "katto",
+    "cắt tóc",
+    "カットを おねがいします。",
+    "Xin cắt tóc cho tôi."
+   ],
+   [
+    "シャンプー",
+    "shanpuu",
+    "gội đầu",
+    "シャンプーも おねがいします。",
+    "Cũng nhờ gội đầu giúp."
+   ],
+   [
+    "ショート",
+    "shooto",
+    "tóc ngắn",
+    "ショートに して ください。",
+    "Xin cắt kiểu ngắn."
+   ],
+   [
+    "たんす",
+    "tansu",
+    "tủ quần áo",
+    "たんすは じょうぶです。",
+    "Tủ quần áo bền."
+   ],
+   [
+    "なきます",
+    "nakimasu",
+    "khóc",
+    "こどもが なきすぎました。",
+    "Đứa trẻ đã khóc quá nhiều."
+   ],
+   [
+    "わらいます",
+    "waraimasu",
+    "cười",
+    "わらいすぎて、おなかが いたいです。",
+    "Tôi cười nhiều quá nên đau bụng."
+   ],
+   [
+    "ねむります",
+    "nemurimasu",
+    "ngủ",
+    "ゆうべ ねむりすぎました。",
+    "Tối qua tôi ngủ quá nhiều."
+   ],
+   [
+    "すべります",
+    "subemasu",
+    "trượt",
+    "みちが すべりやすいです。",
+    "Đường dễ trượt."
+   ],
+   [
+    "ちょうせつします",
+    "chousetsu shimasu",
+    "điều chỉnh",
+    "れいぼうを ちょうせつします。",
+    "Tôi điều chỉnh máy lạnh."
+   ],
+   [
+    "あんぜん［な］",
+    "anzen [na]",
+    "an toàn",
+    "あんぜんに します。",
+    "Tôi làm cho an toàn."
+   ],
+   [
+    "きけん［な］",
+    "kiken [na]",
+    "nguy hiểm",
+    "きけんな みちです。",
+    "Con đường nguy hiểm."
+   ],
+   [
+    "あつい",
+    "atsui",
+    "dày",
+    "あつすぎる ほんです。",
+    "Sách dày quá."
+   ],
+   [
+    "くうき",
+    "kuuki",
+    "không khí",
+    "くうきが きれいです。",
+    "Không khí trong lành."
+   ],
+   [
+    "なみだ",
+    "namida",
+    "nước mắt",
+    "なみだが でました。",
+    "Nước mắt đã chảy."
+   ],
+   [
+    "おかず",
+    "okazu",
+    "món ăn kèm",
+    "おかずを たべすぎました。",
+    "Tôi đã ăn món ăn kèm quá nhiều."
+   ],
+   [
+    "りょう",
+    "ryou",
+    "lượng",
+    "りょうが おおすぎます。",
+    "Lượng nhiều quá."
+   ],
+   [
+    "－ばい",
+    "-bai",
+    "~ lần (gấp ~)",
+    "２ばいの りょうです。",
+    "Lượng gấp đôi."
+   ],
+   [
+    "せんたくもの",
+    "sentakumono",
+    "đồ giặt",
+    "せんたくものが かわきやすいです。",
+    "Đồ giặt dễ khô."
+   ],
+   [
+    "DVD",
+    "DVD",
+    "đĩa DVD",
+    "DVDを みすぎました。",
+    "Tôi đã xem DVD quá nhiều."
+   ],
+   [
+    "どう なさいますか。",
+    "dou nasaimasu ka?",
+    "Anh/chị muốn thế nào ạ?",
+    "どう なさいますか。…カットを おねがいします。",
+    "Anh muốn thế nào ạ? …Cho tôi cắt tóc."
+   ],
+   [
+    "カット",
+    "katto",
+    "cắt tóc",
+    "カットを おねがいします。",
+    "Xin cắt tóc cho tôi."
+   ],
+   [
+    "シャンプー",
+    "shanpuu",
+    "gội đầu, dầu gội",
+    "シャンプーも おねがいします。",
+    "Cũng nhờ gội đầu giúp."
+   ],
+   [
+    "どういうふうに なさいますか。",
+    "douiu fuu ni nasaimasu ka?",
+    "Anh/chị muốn kiểu nào ạ?",
+    "どういうふうに なさいますか。…みじかく して ください。",
+    "Anh muốn kiểu nào ạ? …Cắt ngắn giúp tôi."
+   ],
+   [
+    "ショート",
+    "shooto",
+    "tóc ngắn",
+    "ショートに します。",
+    "Tôi chọn kiểu tóc ngắn."
+   ],
+   [
+    "これで よろしいでしょうか。",
+    "kore de yoroshii deshou ka",
+    "Thế này được chưa ạ?",
+    "これで よろしいでしょうか。…はい、けっこうです。",
+    "Thế này được chưa ạ? …Vâng, được rồi."
+   ],
+   [
+    "［どうも］おつかれさまでした。",
+    "[doumo] otsukaresama deshita",
+    "Anh/chị vất vả rồi.",
+    "おつかれさまでした。…ありがとう ございました。",
+    "Anh vất vả rồi. …Xin cảm ơn."
+   ],
+   [
+    "いやがります",
+    "iyagarimasu",
+    "không thích, ghét",
+    "こどもは ピーマンを いやがります。",
+    "Trẻ con ghét ớt chuông."
+   ],
+   [
+    "また",
+    "mata",
+    "và, lại",
+    "また あした きます。",
+    "Mai tôi lại đến."
+   ],
+   [
+    "うまく",
+    "umaku",
+    "khéo, suôn sẻ",
+    "うまく できました。",
+    "Tôi đã làm được suôn sẻ."
+   ],
+   [
+    "じゅんじょ",
+    "junjo",
+    "thứ tự",
+    "じゅんじょに ならびます。",
+    "Tôi xếp theo thứ tự."
+   ],
+   [
+    "あんしん［な］",
+    "anshin [na]",
+    "yên tâm",
+    "あんしんに します。",
+    "Làm cho yên tâm."
+   ],
+   [
+    "ひょうげん",
+    "hyougen",
+    "cách diễn đạt",
+    "いろいろな ひょうげんを おぼえます。",
+    "Tôi học nhiều cách diễn đạt."
+   ],
+   [
+    "たとえば",
+    "tatoeba",
+    "ví dụ",
+    "たとえば、わらいすぎます。",
+    "Ví dụ như cười quá nhiều."
+   ],
+   [
+    "わかれます",
+    "wakaremasu",
+    "chia tay",
+    "ともだちと わかれました。",
+    "Tôi đã chia tay bạn."
+   ],
+   [
+    "これら",
+    "korera",
+    "những cái này",
+    "これらは たべやすいです。",
+    "Những thứ này dễ ăn."
+   ],
+   [
+    "えんぎが わるい",
+    "engi ga warui",
+    "xui xẻo",
+    "えんぎが わるい ことばです。",
+    "Đó là từ xui xẻo."
+   ],
+   [
+    "ていねい［な］",
+    "teinei [na]",
+    "lịch sự, cẩn thận",
+    "ていねいに はなします。",
+    "Tôi nói chuyện lịch sự."
+   ],
+   [
+    "こまかい",
+    "komakai",
+    "nhỏ, chi tiết",
+    "こまかく きります。",
+    "Tôi cắt nhỏ."
+   ],
+   [
+    "はんぶん",
+    "hanbun",
+    "một nửa",
+    "はんぶんに します。",
+    "Tôi làm giảm còn một nửa."
+   ],
+   [
+    "たんす",
+    "tansu",
+    "tủ quần áo",
+    "たんすは じょうぶです。",
+    "Tủ quần áo bền."
+   ],
+   [
+    "りゆう",
+    "riyuu",
+    "lý do",
+    "りゆうを おしえて ください。",
+    "Hãy cho tôi biết lý do."
+   ]
+  ],
+  "grammar": [
+   [
+    "V-ます(bỏ ます)／イA-(bỏ い)／ナA- すぎます",
+    "quá ~",
+    [
+     [
+      "きのう たべすぎました。",
+      "Hôm qua tôi đã ăn quá nhiều."
+     ],
+     [
+      "この かばんは たかすぎます。",
+      "Chiếc cặp này đắt quá."
+     ],
+     [
+      "コーヒーが こすぎます。",
+      "Cà phê đậm quá."
+     ]
+    ]
+   ],
+   [
+    "V-ます(bỏ ます) やすいです／にくいです",
+    "dễ / khó ~",
+    [
+     [
+      "この ペンは かきやすいです。",
+      "Cây bút này dễ viết."
+     ],
+     [
+      "この みちは すべりやすいです。",
+      "Đường này dễ trượt."
+     ],
+     [
+      "この せつめいは わかりにくいです。",
+      "Lời giải thích này khó hiểu."
+     ]
+    ]
+   ],
+   [
+    "イA-く／ナA-に／N に します",
+    "làm cho ~, chọn ~",
+    [
+     [
+      "おんどを たかく して ください。",
+      "Xin hãy tăng nhiệt độ lên."
+     ],
+     [
+      "へやを きれいに して ください。",
+      "Xin hãy dọn phòng cho sạch."
+     ],
+     [
+      "シングルに します。",
+      "Tôi chọn phòng đơn."
+     ]
+    ]
+   ],
+   [
+    "N みたいに して ください",
+    "hãy làm giống ~",
+    [
+     [
+      "この しゃしんみたいに して ください。",
+      "Xin hãy làm giống bức ảnh này."
+     ],
+     [
+      "ショートに して ください。",
+      "Xin hãy cắt kiểu ngắn."
+     ]
+    ]
+   ]
+  ]
+ },
+ "45": {
+  "title": "Trường hợp ~ thì ~, mặc dù ~ nhưng ~",
+  "words": [
+   [
+    "ほしょうしょ",
+    "hoshousho",
+    "phiếu bảo hành",
+    "ほしょうしょが ある ばあいは、むりょうで なおせます。",
+    "Nếu có phiếu bảo hành thì sửa miễn phí."
+   ],
+   [
+    "りょうしゅうしょ",
+    "ryoushuusho",
+    "biên lai",
+    "りょうしゅうしょを もらいます。",
+    "Tôi lấy biên lai."
+   ],
+   [
+    "キャンプ",
+    "kyanpu",
+    "cắm trại",
+    "あめの ばあいは、キャンプを ちゅうしします。",
+    "Nếu mưa thì huỷ buổi cắm trại."
+   ],
+   [
+    "うめ",
+    "ume",
+    "hoa mơ",
+    "うめが さきました。",
+    "Hoa mơ đã nở."
+   ],
+   [
+    "めざましどけい",
+    "mezamashidokei",
+    "đồng hồ báo thức",
+    "めざましどけいを セットしたのに、おきられませんでした。",
+    "Đã đặt báo thức mà tôi không dậy được."
+   ],
+   [
+    "かかりいん",
+    "kakariin",
+    "nhân viên phụ trách",
+    "かかりいんに ききます。",
+    "Tôi hỏi nhân viên phụ trách."
+   ],
+   [
+    "おくりもの",
+    "okurimono",
+    "quà tặng",
+    "おくりものを えらびます。",
+    "Tôi chọn quà tặng."
+   ],
+   [
+    "レバー",
+    "rebaa",
+    "cần gạt",
+    "レバーを ひきます。",
+    "Tôi kéo cần gạt."
+   ],
+   [
+    "しんじます",
+    "shinjimasu",
+    "tin",
+    "ともだちを しんじます。",
+    "Tôi tin bạn."
+   ],
+   [
+    "キャンセルします",
+    "kyanseru shimasu",
+    "huỷ",
+    "ホテルを キャンセルしました。",
+    "Tôi đã huỷ khách sạn."
+   ],
+   [
+    "しらせます",
+    "shirasemasu",
+    "thông báo",
+    "あした しらせて ください。",
+    "Mai hãy thông báo cho tôi."
+   ],
+   [
+    "ほしょうしょ",
+    "hoshousho",
+    "phiếu bảo hành",
+    "ほしょうしょが あるばあいは、むりょうで なおせます。",
+    "Nếu có phiếu bảo hành thì sửa miễn phí."
+   ],
+   [
+    "りょうしゅうしょ",
+    "ryoushuusho",
+    "biên lai",
+    "りょうしゅうしょを もらいます。",
+    "Tôi lấy biên lai."
+   ],
+   [
+    "キャンプ",
+    "kyanpu",
+    "cắm trại",
+    "あめの ばあいは、キャンプを ちゅうしします。",
+    "Nếu mưa thì huỷ buổi cắm trại."
+   ],
+   [
+    "ちゅうし",
+    "chuushi",
+    "đình chỉ, huỷ",
+    "あめの ばあいは、ちゅうしです。",
+    "Nếu mưa thì huỷ."
+   ],
+   [
+    "てん",
+    "ten",
+    "điểm",
+    "テストの てんが わるかったのに、おちこみません。",
+    "Tuy điểm thi thấp nhưng tôi không chán nản."
+   ],
+   [
+    "うめ",
+    "ume",
+    "hoa mơ",
+    "うめの はなが さきました。",
+    "Hoa mơ đã nở."
+   ],
+   [
+    "きゅうに",
+    "kyuu ni",
+    "đột ngột",
+    "きゅうに あめが ふりました。",
+    "Trời đột ngột mưa."
+   ],
+   [
+    "むりに",
+    "muri ni",
+    "cố ép",
+    "むりに のまないで ください。",
+    "Xin đừng cố uống."
+   ],
+   [
+    "たのしみに して います",
+    "tanoshimi ni shite imasu",
+    "đang mong chờ",
+    "りょこうを たのしみに して います。",
+    "Tôi đang mong chờ chuyến đi."
+   ],
+   [
+    "いじょうです。",
+    "ijou desu",
+    "Đến đây là hết.",
+    "しつもんは いじょうです。",
+    "Câu hỏi của tôi đến đây là hết."
+   ],
+   [
+    "かかりいん",
+    "kakariin",
+    "nhân viên phụ trách",
+    "かかりいんに ききます。",
+    "Tôi hỏi nhân viên phụ trách."
+   ],
+   [
+    "－い",
+    "-i",
+    "hạng ~",
+    "１いに なりました。",
+    "Tôi đã đạt hạng nhất."
+   ],
+   [
+    "ゆうしょうします",
+    "yuushou shimasu",
+    "vô địch",
+    "わたしの チームが ゆうしょうしました。",
+    "Đội của tôi đã vô địch."
+   ],
+   [
+    "なやみ",
+    "nayami",
+    "nỗi phiền muộn",
+    "なやみが ある ばあいは、そうだんして ください。",
+    "Nếu có điều phiền muộn hãy trao đổi."
+   ],
+   [
+    "めざまし［どけい］",
+    "mezamashi [dokei]",
+    "[đồng hồ] báo thức",
+    "めざましどけいを セットしたのに、おきられませんでした。",
+    "Tuy đã đặt báo thức nhưng tôi không dậy được."
+   ],
+   [
+    "めが さめます",
+    "me ga samemasu",
+    "tỉnh dậy",
+    "あさ ろくじに めが さめます。",
+    "Tôi tỉnh dậy lúc 6 giờ sáng."
+   ],
+   [
+    "だいがくせい",
+    "daigakusei",
+    "sinh viên đại học",
+    "だいがくせいに なりました。",
+    "Tôi đã trở thành sinh viên đại học."
+   ],
+   [
+    "かいとう",
+    "kaitou",
+    "câu trả lời",
+    "かいとうを おくります。",
+    "Tôi gửi câu trả lời."
+   ],
+   [
+    "なります",
+    "narimasu",
+    "reo (chuông)",
+    "でんわが なります。",
+    "Điện thoại reo."
+   ],
+   [
+    "セットします",
+    "setto shimasu",
+    "đặt (đồng hồ)",
+    "めざましを セットします。",
+    "Tôi đặt báo thức."
+   ],
+   [
+    "それでも",
+    "soredemo",
+    "dù vậy",
+    "それでも おきられません。",
+    "Dù vậy tôi vẫn không dậy được."
+   ],
+   [
+    "あやまります",
+    "ayamarimasu",
+    "xin lỗi",
+    "ちゃんと あやまります。",
+    "Tôi xin lỗi đàng hoàng."
+   ],
+   [
+    "よういします",
+    "youi shimasu",
+    "chuẩn bị",
+    "ぼうしを よういします。",
+    "Tôi chuẩn bị mũ."
+   ],
+   [
+    "うまく いきます",
+    "umaku ikimasu",
+    "suôn sẻ",
+    "しごとが うまく いきました。",
+    "Công việc đã suôn sẻ."
+   ],
+   [
+    "おくりもの",
+    "okurimono",
+    "quà tặng",
+    "おくりものを えらびます。",
+    "Tôi chọn quà tặng."
+   ],
+   [
+    "まちがいでんわ",
+    "machigai denwa",
+    "gọi nhầm số",
+    "まちがいでんわを かけて しまいました。",
+    "Tôi lỡ gọi nhầm số."
+   ],
+   [
+    "かかり",
+    "kakari",
+    "người phụ trách",
+    "かかりの ひとに ききます。",
+    "Tôi hỏi người phụ trách."
+   ],
+   [
+    "レバー",
+    "rebaa",
+    "cần gạt",
+    "レバーを ひきます。",
+    "Tôi kéo cần gạt."
+   ],
+   [
+    "［－えん］さつ",
+    "[-en] satsu",
+    "tờ [~ yên]",
+    "せんえんさつを だします。",
+    "Tôi đưa tờ 1.000 yên."
+   ],
+   [
+    "ちゃんと",
+    "chanto",
+    "đúng đắn, đàng hoàng",
+    "ちゃんと はらいます。",
+    "Tôi trả tiền đàng hoàng."
+   ],
+   [
+    "ねむります",
+    "nemurimasu",
+    "ngủ",
+    "ゆうべ ねむれませんでした。",
+    "Tối qua tôi không ngủ được."
+   ]
+  ],
+  "grammar": [
+   [
+    "[thông thường] ばあいは、～",
+    "trong trường hợp ~ thì ~",
+    [
+     [
+      "じこに あった ばあいは、１１０ばんに でんわして ください。",
+      "Nếu gặp tai nạn, hãy gọi số 110."
+     ],
+     [
+      "かじの ばあいは、１１９ばんに でんわして ください。",
+      "Trường hợp hoả hoạn hãy gọi số 119."
+     ],
+     [
+      "あめの ばあいは、キャンプを ちゅうしします。",
+      "Nếu mưa thì huỷ buổi cắm trại."
+     ]
+    ]
+   ],
+   [
+    "[thông thường] のに、～",
+    "mặc dù ~ nhưng ~",
+    [
+     [
+      "めざましを セットしたのに、おきられませんでした。",
+      "Mặc dù đã đặt báo thức nhưng tôi không dậy được."
+     ],
+     [
+      "あした しけんなのに、ぜんぜん べんきょうして いません。",
+      "Mai thi rồi mà tôi chưa học gì cả."
+     ]
+    ]
+   ],
+   [
+    "ばあいは vs のに vs たら",
+    "so sánh",
+    [
+     [
+      "ひまな ばあいは、てつだって ください。",
+      "Nếu rảnh thì hãy giúp."
+     ],
+     [
+      "やすいのに、ぜんぜん うれません。",
+      "Rẻ thế mà chẳng bán được tí nào."
+     ]
+    ]
+   ]
+  ]
  }
 };
-window.LESSON_FILES = {"1": "0001-hiragana-a-i-u-e-o", "2": "0002-hiragana-ka-sa", "3": "0003-hiragana-ta-na", "4": "0004-hiragana-ha-ma", "5": "0005-hiragana-ya-ra-wa-n", "6": "0006-hiragana-dakuten", "7": "0007-hiragana-yoon-sokuon-long", "8": "0008-katakana-a-so", "9": "0009-katakana-ta-ho", "10": "0010-katakana-ma-n", "11": "0011-katakana-dakuten-extended", "12": "0012-minna-01-introductions", "13": "0013-minna-02-objects", "14": "0014-minna-03-places-prices", "15": "0015-minna-04-time-verbs", "16": "0016-minna-05-going-coming", "17": "0017-minna-06-eating-inviting", "18": "0018-minna-07-giving-receiving", "19": "0019-minna-08-adjectives", "20": "0020-minna-09-likes-skills", "21": "0021-minna-10-existence-location", "22": "0022-minna-11-counting", "23": "0023-minna-12-past-comparison", "24": "0024-minna-13-wants-purpose", "25": "0025-minna-14-te-form", "26": "0026-minna-15-permission-states", "27": "0027-minna-16-te-chain", "28": "0028-minna-17-nai-form", "29": "0029-minna-18-dictionary-form", "30": "0030-minna-19-ta-form", "31": "0031-minna-20-plain-form", "32": "0032-minna-21-opinion-quotes", "33": "0033-minna-22-noun-modifiers", "34": "0034-minna-23-when-and-then", "35": "0035-minna-24-giving-favors", "36": "0036-minna-25-conditionals", "37": "0037-minna-26-explaining", "38": "0038-minna-27-potential", "39": "0039-minna-28-simultaneous", "40": "0040-minna-29-state-and-completion", "41": "0041-minna-30-prepare-and-state", "42": "0042-minna-31-volitional", "43": "0043-minna-32-advice-guess", "44": "0044-minna-33-imperative-signs", "45": "0045-minna-34-as-instructed", "46": "0046-minna-35-ba-conditional", "47": "0047-minna-36-youni", "48": "0048-minna-37-passive", "49": "0049-minna-38-no-nominalizer", "50": "0050-minna-39-reason-te-node", "51": "0051-minna-40-ka-kadouka"};
+window.LESSON_FILES = {"1": "0001-hiragana-a-i-u-e-o", "2": "0002-hiragana-ka-sa", "3": "0003-hiragana-ta-na", "4": "0004-hiragana-ha-ma", "5": "0005-hiragana-ya-ra-wa-n", "6": "0006-hiragana-dakuten", "7": "0007-hiragana-yoon-sokuon-long", "8": "0008-katakana-a-so", "9": "0009-katakana-ta-ho", "10": "0010-katakana-ma-n", "11": "0011-katakana-dakuten-extended", "12": "0012-minna-01-introductions", "13": "0013-minna-02-objects", "14": "0014-minna-03-places-prices", "15": "0015-minna-04-time-verbs", "16": "0016-minna-05-going-coming", "17": "0017-minna-06-eating-inviting", "18": "0018-minna-07-giving-receiving", "19": "0019-minna-08-adjectives", "20": "0020-minna-09-likes-skills", "21": "0021-minna-10-existence-location", "22": "0022-minna-11-counting", "23": "0023-minna-12-past-comparison", "24": "0024-minna-13-wants-purpose", "25": "0025-minna-14-te-form", "26": "0026-minna-15-permission-states", "27": "0027-minna-16-te-chain", "28": "0028-minna-17-nai-form", "29": "0029-minna-18-dictionary-form", "30": "0030-minna-19-ta-form", "31": "0031-minna-20-plain-form", "32": "0032-minna-21-opinion-quotes", "33": "0033-minna-22-noun-modifiers", "34": "0034-minna-23-when-and-then", "35": "0035-minna-24-giving-favors", "36": "0036-minna-25-conditionals", "37": "0037-minna-26-explaining", "38": "0038-minna-27-potential", "39": "0039-minna-28-simultaneous", "40": "0040-minna-29-state-and-completion", "41": "0041-minna-30-prepare-and-state", "42": "0042-minna-31-volitional", "43": "0043-minna-32-advice-guess", "44": "0044-minna-33-imperative-signs", "45": "0045-minna-34-as-instructed", "46": "0046-minna-35-ba-conditional", "47": "0047-minna-36-youni", "48": "0048-minna-37-passive", "49": "0049-minna-38-no-nominalizer", "50": "0050-minna-39-reason-te-node", "51": "0051-minna-40-ka-kadouka", "52": "0052-minna-41-giving-receiving-polite", "53": "0053-minna-42-purpose-tame-ni", "54": "0054-minna-43-sou-desu", "55": "0055-minna-44-sugiru-yasui", "56": "0056-minna-45-baai-noni"};
