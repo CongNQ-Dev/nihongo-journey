@@ -136,9 +136,9 @@ LESSONS = {
  2: dict(slug="0002-hiragana-ka-sa", title="Hàng か và hàng さ", jp="かきくけこ さしすせそ",
    lede="Mười chữ mới, và lần đầu tiên bạn đọc được những từ thật như すし, かさ, おかし.",
    win="Đọc, nghe và viết tay được 10 chữ hàng か và さ; đọc được 12 từ chỉ gồm các chữ đã học.",
-   intro=f"""<p>Từ đây trở đi, mỗi hàng trong bảng hiragana là <strong>một phụ âm + năm nguyên âm theo đúng thứ tự a – i – u – e – o</strong>. Thuộc あいうえお là đã thuộc thứ tự của mọi hàng.<sup class="cite"><a href="{HIRA}">[wiki]</a></sup></p>""",
+   intro=f"""<p>Từ đây trở đi, mỗi hàng trong bảng hiragana là <strong>một phụ âm + năm nguyên âm theo đúng thứ tự a – i – u – e – o</strong>. Thuộc あいうえお là đã thuộc thứ tự của mọi hàng.</p>""",
    notes=f"""<ul>
-<li><strong>か行 = ka ki ku ke ko.</strong> Phụ âm “k” ở đầu từ có bật hơi nhẹ, nghe giữa “c” và “kh” tiếng Việt.<sup class="cite"><a href="{PH}">[phonology]</a></sup> Bấm nghe để so — tai bạn là chuẩn.</li>
+<li><strong>か行 = ka ki ku ke ko.</strong> Phụ âm “k” ở đầu từ có bật hơi nhẹ, nghe giữa “c” và “kh” tiếng Việt. Bấm nghe để so — tai bạn là chuẩn.</li>
 <li><strong>さ行 = sa <em>shi</em> su se so.</strong> し là ngoại lệ đầu tiên: đọc “shi”, không phải “si”. Cố ý tròn môi nhẹ và đưa lưỡi lùi về sau như khi nói “suỵt”.</li>
 <li><strong>く và す</strong> giữ nguyên âm “ư” của う: môi không chu ra.</li>
 </ul>
@@ -158,7 +158,7 @@ LESSONS = {
    win="Đọc, nghe và viết tay được 10 chữ hàng た và な; phát âm được つ (tsu).",
    intro="<p>Hàng た có hai chữ không theo quy luật romaji; hàng な thì hoàn toàn đều.</p>",
    notes=f"""<ul>
-<li><strong>た行 = ta <em>chi</em> <em>tsu</em> te to.</strong> ち đọc “chi”, つ đọc “tsu”.<sup class="cite"><a href="{PH}">[phonology]</a></sup></li>
+<li><strong>た行 = ta <em>chi</em> <em>tsu</em> te to.</strong> ち đọc “chi”, つ đọc “tsu”.</li>
 <li><strong>Cách nói つ:</strong> đặt lưỡi như khi nói “t”, rồi nhả ra thành tiếng xì “s”, cuối cùng là “ư”. Tiếng Việt không có âm “ts” — nói chậm “t-s-ư” vài lần rồi nhanh dần thành một tiếng.</li>
 <li><strong>な行 = na ni nu ne no</strong>, đều như tiếng Việt.</li>
 </ul>
@@ -178,8 +178,8 @@ LESSONS = {
    win="Đọc, nghe và viết tay được 10 chữ hàng は và ま; biết khi nào は đọc “wa”, へ đọc “e”.",
    intro="<p>Sau bài này bạn đã có 30 chữ — hơn nửa bảng.</p>",
    notes=f"""<ul>
-<li><strong>は行 = ha hi <em>fu</em> he ho.</strong> ふ không giống “ph” tiếng Việt: răng <em>không</em> chạm môi dưới, chỉ thổi hơi qua khe hai môi như thổi nến nhẹ.<sup class="cite"><a href="{PH}">[phonology]</a></sup></li>
-<li><strong>Trợ từ:</strong> khi は làm trợ từ chủ đề thì đọc “wa” — <span class="jp">わたしは</span> = watashi <em>wa</em>. Khi へ chỉ hướng thì đọc “e”.<sup class="cite"><a href="{HIRA}">[wiki]</a></sup> Bạn sẽ gặp わたしは ngay ở Minna bài 1.</li>
+<li><strong>は行 = ha hi <em>fu</em> he ho.</strong> ふ không giống “ph” tiếng Việt: răng <em>không</em> chạm môi dưới, chỉ thổi hơi qua khe hai môi như thổi nến nhẹ.</li>
+<li><strong>Trợ từ:</strong> khi は làm trợ từ chủ đề thì đọc “wa” — <span class="jp">わたしは</span> = watashi <em>wa</em>. Khi へ chỉ hướng thì đọc “e”. Bạn sẽ gặp わたしは ngay ở Minna bài 1.</li>
 <li><strong>ま行 = ma mi mu me mo</strong>, đều.</li>
 </ul>
 <h3>Chữ dễ lẫn</h3>
@@ -196,9 +196,9 @@ LESSONS = {
  5: dict(slug="0005-hiragana-ya-ra-wa-n", title="Hàng や, ら, わ và ん", jp="やゆよ らりるれろ わをん",
    lede="Mười một chữ cuối cùng. Xong bài này là xong 46 chữ hiragana cơ bản.",
    win="Đọc, nghe và viết tay được cả 46 chữ hiragana cơ bản; đọc được cụm ほんを よむ.",
-   intro="<p>Hàng や chỉ còn 3 chữ, hàng わ chỉ còn わ và を — các ô khác đã bị bỏ khỏi chữ viết hiện đại.<sup class=\"cite\"><a href=\"" + HIRA + "\">[wiki]</a></sup></p>",
+   intro="<p>Hàng や chỉ còn 3 chữ, hàng わ chỉ còn わ và を — các ô khác đã bị bỏ khỏi chữ viết hiện đại.</p>",
    notes=f"""<ul>
-<li><strong>ら行 = ra ri ru re ro.</strong> “r” tiếng Nhật là âm vỗ: đầu lưỡi chạm nhẹ lợi trên đúng <em>một</em> lần rồi rời ra — nghe giữa “r”, “l” và “đ”. Không rung lưỡi như “r” tiếng Việt miền Nam.<sup class="cite"><a href="{PH}">[phonology]</a></sup></li>
+<li><strong>ら行 = ra ri ru re ro.</strong> “r” tiếng Nhật là âm vỗ: đầu lưỡi chạm nhẹ lợi trên đúng <em>một</em> lần rồi rời ra — nghe giữa “r”, “l” và “đ”. Không rung lưỡi như “r” tiếng Việt miền Nam.</li>
 <li><strong>を</strong> đọc “o” giống hệt お, nhưng chỉ dùng làm trợ từ đánh dấu tân ngữ: <span class="jp">ほんを よむ</span> = đọc sách.</li>
 <li><strong>ん</strong> không bao giờ đứng đầu từ, và chiếm trọn <em>một nhịp</em>: <span class="jp">ほん</span> = ho-n (2 nhịp), <span class="jp">にほん</span> = ni-ho-n (3 nhịp). Nói đều từng nhịp.</li>
 </ul>
@@ -216,10 +216,10 @@ LESSONS = {
  6: dict(slug="0006-hiragana-dakuten", title="Hai chấm ゛ và vòng tròn ゜", jp="がざだばぱ",
    lede="Không cần chữ mới: hai dấu nhỏ biến 20 chữ đã học thành 25 âm mới.",
    win="Đọc và viết được toàn bộ が・ざ・だ・ば・ぱ行; nghe phân biệt được か/が, た/だ, は/ば/ぱ.",
-   intro=f"""<p><strong>゛ (dakuten)</strong> làm phụ âm “rung cổ”: k→g, s→z, t→d, h→b. <strong>゜ (handakuten)</strong> chỉ đi với hàng は: h→p.<sup class="cite"><a href="https://en.wikipedia.org/wiki/Dakuten_and_handakuten">[wiki]</a></sup> Đặt ngón tay lên cổ, nói “ka” rồi “ga”: âm sau rung.</p>""",
+   intro=f"""<p><strong>゛ (dakuten)</strong> làm phụ âm “rung cổ”: k→g, s→z, t→d, h→b. <strong>゜ (handakuten)</strong> chỉ đi với hàng は: h→p. Đặt ngón tay lên cổ, nói “ka” rồi “ga”: âm sau rung.</p>""",
    table="DAKUTEN",
    notes=f"""<ul>
-<li><strong>じ và ぢ</strong> đều đọc “ji”; <strong>ず và づ</strong> đều đọc “zu”. Hầu như luôn viết じ, ず — ぢ, づ chỉ gặp trong vài từ.<sup class="cite"><a href="https://en.wikipedia.org/wiki/Dakuten_and_handakuten">[wiki]</a></sup></li>
+<li><strong>じ và ぢ</strong> đều đọc “ji”; <strong>ず và づ</strong> đều đọc “zu”. Hầu như luôn viết じ, ず — ぢ, づ chỉ gặp trong vài từ.</li>
 <li><strong>ざ行</strong> không giống “d” giọng Nam hay “r”: đầu lưỡi gần lợi trên, có tiếng “z” rung. Nghe kỹ trước khi nhại.</li>
 <li><strong>ぱ行</strong> có “p” bật hơi nhẹ — tiếng Việt chỉ có “p” đầu từ trong từ mượn như “pin”.</li>
 </ul>""",
@@ -236,9 +236,9 @@ LESSONS = {
    intro="<p>Tiếng Nhật đếm âm theo <strong>nhịp</strong> (mora): mỗi chữ hiragana cỡ thường là một nhịp, nói dài đều nhau. Ba quy tắc dưới đây đều là chuyện “mấy nhịp”.</p>",
    table="YOON",
    notes=f"""<ul>
-<li><strong>Âm ghép (yōon):</strong> chữ hàng い (き, し, ち, に, ひ, み, り, ぎ, じ, び, ぴ) + ゃ ゅ ょ <em>viết nhỏ</em> = <em>một</em> nhịp: き+ゃ = kya. Viết cỡ thường きや = ki-ya, hai nhịp.<sup class="cite"><a href="https://en.wikipedia.org/wiki/Y%C5%8Don">[wiki]</a></sup></li>
-<li><strong>っ nhỏ (sokuon):</strong> dừng lại một nhịp rồi bật phụ âm sau: きって = ki-(dừng)-te, 3 nhịp; romaji viết gấp đôi phụ âm: kitte.<sup class="cite"><a href="https://en.wikipedia.org/wiki/Sokuon">[wiki]</a></sup></li>
-<li><strong>Trường âm:</strong> nguyên âm kéo dài thành 2 nhịp. Cách viết: cột あ + あ (おかあさん), cột い + い (おにいさん), cột う + う (くうき), cột え + い (せんせい — thường đọc “sensē”), cột お + う (とうきょう; một số từ dùng お: おおきい).<sup class="cite"><a href="{HIRA}">[wiki]</a></sup></li>
+<li><strong>Âm ghép (yōon):</strong> chữ hàng い (き, し, ち, に, ひ, み, り, ぎ, じ, び, ぴ) + ゃ ゅ ょ <em>viết nhỏ</em> = <em>một</em> nhịp: き+ゃ = kya. Viết cỡ thường きや = ki-ya, hai nhịp.</li>
+<li><strong>っ nhỏ (sokuon):</strong> dừng lại một nhịp rồi bật phụ âm sau: きって = ki-(dừng)-te, 3 nhịp; romaji viết gấp đôi phụ âm: kitte.</li>
+<li><strong>Trường âm:</strong> nguyên âm kéo dài thành 2 nhịp. Cách viết: cột あ + あ (おかあさん), cột い + い (おにいさん), cột う + う (くうき), cột え + い (せんせい — thường đọc “sensē”), cột お + う (とうきょう; một số từ dùng お: おおきい).</li>
 </ul>
 <h3>Ngắn hay dài làm đổi nghĩa</h3>
 <div class="table-wrap"><table>
@@ -264,7 +264,7 @@ LESSONS = {
  8: dict(slug="0008-katakana-a-so", title="Katakana: ア đến ソ", jp="アイウエオ カキクケコ サシスセソ",
    lede="Cùng âm thanh bạn đã biết, nét chữ khác. Katakana đi nhanh hơn nhiều.",
    win="Đọc và viết tay được 15 chữ katakana đầu tiên; đọc được từ ngoại lai như ケーキ, アイス.",
-   intro=f"""<p>Katakana ghi <strong>đúng những âm của hiragana</strong>, nhưng dùng cho từ ngoại lai (コーヒー, カメラ), tên người và địa danh nước ngoài — kể cả tên bạn — tên động thực vật trong văn bản khoa học, và để nhấn mạnh.<sup class="cite"><a href="{KATA}">[wiki]</a></sup> Nét katakana thẳng và góc cạnh hơn.</p>""",
+   intro=f"""<p>Katakana ghi <strong>đúng những âm của hiragana</strong>, nhưng dùng cho từ ngoại lai (コーヒー, カメラ), tên người và địa danh nước ngoài — kể cả tên bạn — tên động thực vật trong văn bản khoa học, và để nhấn mạnh. Nét katakana thẳng và góc cạnh hơn.</p>""",
    notes=f"""<ul>
 <li><strong>ー (dấu kéo dài)</strong> chỉ dùng trong katakana: nhân đôi nguyên âm đứng trước. <span class="jp">ケーキ</span> = ke-e-ki (3 nhịp).</li>
 <li><strong>Chữ “quen mặt”:</strong> <span class="jp">カ/か, キ/き, セ/せ</span> gần giống bản hiragana — học nhanh.</li>
@@ -313,13 +313,13 @@ LESSONS = {
  11: dict(slug="0011-katakana-dakuten-extended", title="Katakana: ゛゜, chữ nhỏ và âm ngoại lai", jp="ガ ッ ャ ティ ファ",
    lede="Mọi quy tắc của hiragana áp dụng y hệt — cộng thêm vài tổ hợp chỉ có trong từ ngoại lai.",
    win="Đọc được mọi từ katakana thông dụng, kể cả ベトナム, パーティー, コンピューター; viết tên mình bằng katakana.",
-   intro=f"""<p>゛, ゜, ッ nhỏ và ャュョ nhỏ hoạt động y như bài 0006–0007. Điểm mới duy nhất: katakana ghép thêm chữ nhỏ ァィゥェォ để ghi âm nước ngoài mà tiếng Nhật vốn không có.<sup class="cite"><a href="{KATA}">[wiki]</a></sup></p>""",
+   intro=f"""<p>゛, ゜, ッ nhỏ và ャュョ nhỏ hoạt động y như bài 0006–0007. Điểm mới duy nhất: katakana ghép thêm chữ nhỏ ァィゥェォ để ghi âm nước ngoài mà tiếng Nhật vốn không có.</p>""",
    table="KATA_EXT",
    notes=f"""<ul>
 <li><strong>ティ</strong> (ti) khác <strong>チ</strong> (chi): パーティー = pātī. <strong>ディ</strong> = di.</li>
 <li><strong>ファ フィ フェ フォ</strong> = fa fi fe fo; <strong>ウィ ウェ ウォ</strong> = wi we wo; <strong>シェ ジェ チェ</strong> = she je che.</li>
 <li><strong>ヴ</strong> ghi âm “v”, nhưng phần lớn từ dùng バ行 thay: ベトナム (Việt Nam).</li>
-<li><strong>Tên của bạn:</strong> tên người Việt được viết bằng katakana theo âm nghe được, không có một cách duy nhất.<sup class="cite"><a href="https://en.wikipedia.org/wiki/Transcription_into_Japanese">[wiki]</a></sup> Ví dụ địa danh: <span class="jp">ハノイ</span> (Hà Nội), <span class="jp">ホーチミン</span> (Hồ Chí Minh). Thử tự viết tên mình, rồi hỏi giáo viên để kiểm tra.</li>
+<li><strong>Tên của bạn:</strong> tên người Việt được viết bằng katakana theo âm nghe được, không có một cách duy nhất. Ví dụ địa danh: <span class="jp">ハノイ</span> (Hà Nội), <span class="jp">ホーチミン</span> (Hồ Chí Minh). Thử tự viết tên mình, rồi hỏi giáo viên để kiểm tra.</li>
 </ul>""",
    read=[("ギター","gitaa","đàn ghi-ta"),("バス","basu","xe buýt"),("ピアノ","piano","đàn piano"),("ジュース","juusu","nước ép"),("ベッド","beddo","cái giường"),("パーティー","paatii","bữa tiệc"),("カフェ","kafe","quán cà phê"),("チョコレート","chokoreeto","sô-cô-la"),("ロボット","robotto","người máy"),("コンピューター","konpyuutaa","máy tính"),("ベトナム","betonamu","Việt Nam"),("ハノイ","hanoi","Hà Nội"),("ホーチミン","hoochimin","Hồ Chí Minh"),("スマートフォン","sumaatofon","điện thoại thông minh")],
    read_note="Gõ ー bằng cách lặp nguyên âm, ッ bằng cách gấp đôi phụ âm: ベッド = beddo.",

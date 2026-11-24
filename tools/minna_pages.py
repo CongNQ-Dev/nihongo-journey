@@ -108,8 +108,7 @@ def lesson_html(n, files, page):
   <h1>{L['title']} <span class="jp">{L['jp']}</span></h1>
   <p class="lede">{L['lede']}</p>
 </header>
-<div class="win"><strong>Thành quả của bài này</strong>{L['win']}</div>
-{source_note(m)}"""]
+<div class="win"><strong>Thành quả của bài này</strong>{L['win']}</div>"""]
     s = 1
     out.append(section(s, "Ôn lại trước khi học"))
     out.append('<p>Làm hết thẻ đến hạn ở <a href="../flashcards.html">trang ôn flashcard</a> trước. Rồi trả lời 3 câu này <strong>từ trí nhớ</strong> — đừng mở lại bài cũ.</p>')
@@ -211,15 +210,6 @@ def lesson_html(n, files, page):
     out.append('<div class="recall">Nghỉ 5 phút, rồi không nhìn màn hình:<ol>' + "".join(f"<li>{r}</li>" for r in L["recall"])
                + '</ol>Tự chấm bằng bài này và <a href="../reference/minna-grammar.html">bảng ngữ pháp</a>. Chỗ phải cố mới nhớ ra chính là chỗ đang được ghi vào trí nhớ dài hạn.</div>')
 
-    s += 1
-    u, t, d = L["primary"]
-    out.append(section(s, "Nguồn nên đọc"))
-    out.append(f'<p><strong>Chính:</strong> phần giải thích ngữ pháp bài {m} trong <em>bản dịch & giải thích ngữ pháp tiếng Việt</em> của Minna no Nihongo I (3A Corporation) — bạn đã có sách. '
-               + (f'<strong>Đọc thêm trực tuyến (tiếng Anh, đúng mục):</strong> {tk_html(m)}.</p>' if tk_html(m)
-                  else f'<strong>Đọc thêm trực tuyến:</strong> <a href="{u}">{t}</a> — {d}</p>'))
-    used = sorted({k for k in C if C[k][0] in "".join(g[2] for g in L["grammar"])})
-    if used:
-        out.append('<ol class="sources">' + "".join(f'<li><a href="{C[k][0]}">{C[k][1]}</a></li>' for k in used) + "</ol>")
     out.append('<div class="ask"><strong>Hỏi lại giáo viên</strong>Mình (Claude) là giáo viên của bạn. Chỗ nào chưa rõ — trợ từ, ngữ điệu, câu trong sách, muốn đổi ảnh thẻ — cứ hỏi trong phiên chat. Làm xong phần “Nhớ lại”, báo kết quả để mình ghi nhận tiến độ.</div>')
     out.append(f'<p class="hint"><a href="../kanji.html#bai-{n}">Kanji của bài này →</a> · <a href="../practice.html">Luyện tự chọn: bốc từ vựng ngẫu nhiên →</a></p>')
     p, nx = files.get(n - 1), files.get(n + 1)
@@ -309,7 +299,7 @@ def numbers_reference(page):
 <h2>0 – 10</h2><div class="table-wrap"><table>{t1}</table></div>
 <p>4 còn đọc し, 7 còn đọc しち, 9 còn đọc く — gặp lại trong giờ và tháng. Ghép số: 11 じゅういち, 20 にじゅう, 47 よんじゅうなな.</p>
 <h2>Hàng trăm, nghìn, vạn</h2><div class="table-wrap"><table>{t2}</table></div>
-<p>Tiếng Nhật nhóm số theo <strong>vạn</strong> (4 chữ số): 23.000 = にまん さんぜん; 150.000 = じゅうごまん.<sup class="cite"><a href="{C['num'][0]}">[Tae Kim]</a></sup></p>
+<p>Tiếng Nhật nhóm số theo <strong>vạn</strong> (4 chữ số): 23.000 = にまん さんぜん; 150.000 = じゅうごまん.</p>
 <h2>Giờ và phút</h2><div class="table-wrap"><table><tr><th></th><th>giờ</th><th>phút</th></tr>{t3}</table></div>
 <p>Phút 20, 30…: にじゅっぷん, さんじゅっぷん; 30 phút còn nói <span class="jp">はん</span>. Sáng / chiều: ごぜん／ごご đứng trước giờ.</p>
 <h2>Thứ trong tuần</h2><div class="table-wrap"><table>{t6}</table></div>

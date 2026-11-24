@@ -302,10 +302,6 @@ def lesson_html(n):
     ref = "katakana" if kata_lesson else "hiragana"
     out.append('<div class="recall">Nghỉ 5 phút, rồi không nhìn màn hình:<ol>' + "".join(f"<li>{r}</li>" for r in L["recall"])
                + f'</ol>Tự chấm bằng <a href="../reference/{ref}.html">bảng {ref}</a>. Chỗ phải cố mới nhớ ra chính là chỗ đang được ghi vào trí nhớ dài hạn.</div>')
-    s += 1
-    t, u, d = L["primary"]
-    out.append(section(s, "Nguồn nên đọc"))
-    out.append(f'<p><a href="{u}">{t}</a> — {d}</p>')
     out.append('<div class="ask"><strong>Hỏi lại giáo viên</strong>Mình (Claude) là giáo viên của bạn. Chỗ nào chưa rõ — phát âm, nét chữ, muốn đổi ảnh thẻ — cứ hỏi trong phiên chat. Làm xong phần “Nhớ lại”, báo kết quả để mình ghi nhận tiến độ.</div>')
     p = LESSON_FILES.get(n - 1)
     nx = LESSON_FILES.get(n + 1)

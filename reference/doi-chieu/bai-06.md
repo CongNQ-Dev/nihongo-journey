@@ -1,7 +1,7 @@
 # Đối chiếu Minna bài 6: Ăn gì, ở đâu, đi cùng không?
 
 Cách dùng: mở sách Minna bài này, so từng dòng. Ghi ✓ nếu khớp, hoặc ghi cách sửa vào cột cuối.
-Nghĩa tiếng Việt ở đây do người soạn tự viết (chưa có nguồn); nghĩa tiếng Anh trích JMdict (EDRDG, CC BY-SA 4.0) bằng cách tra tự động nên có thể lệch nghĩa hoặc để trống (từ ghép, câu giao tiếp, tên riêng).
+Nghĩa tiếng Anh tra tự động nên có thể lệch nghĩa hoặc để trống (từ ghép, câu giao tiếp, tên riêng).
 
 ## Mẫu câu của bài (khoá đang dạy)
 
@@ -16,7 +16,7 @@ Nghĩa tiếng Việt ở đây do người soạn tự viết (chưa có nguồ
 
 ## Từ vựng
 
-| # | Từ | Chữ Hán | Nghĩa VN (khoá, chưa có nguồn) | Nghĩa EN (JMdict) | Khớp sách? |
+| # | Từ | Chữ Hán | Nghĩa VN | Nghĩa EN | Khớp sách? |
 |---|---|---|---|---|---|
 | 1 | たべます | 食べます | ăn | to eat / to live on (e.g. a salary), to live off, to subsist on |  |
 | 2 | のみます | 飲みます | uống | to drink, to swallow, to take (medicine) / to smoke (tobacco) |  |
