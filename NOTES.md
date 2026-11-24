@@ -154,6 +154,6 @@
 - CHƯA có nguồn: nghĩa tiếng Việt, câu ví dụ, hội thoại, giải thích ngữ pháp, chọn chữ Hán (do người soạn viết). Bước kế tiếp đã bàn: thay/bổ sung câu ví dụ bằng câu Tatoeba (CC BY 2.0 FR, cần ghi nguồn).
 
 ## Câu ví dụ Tatoeba (2026-11-24)
-- Chạy `tools/tatoeba_match.py` trên Mac: 1299 mục khớp, lọc tiếp bằng tay (bỏ mục có ～／ trong khoá, câu <5 chữ, kana ≤2 ký tự) còn **882** mục trong `tools/tatoeba_ex.json`; `tatoeba_apply.py` thay câu tự soạn khi build.
-- Bản dịch chỉ có tiếng Anh, ghi "(Tatoeba #id, tác giả, CC BY 2.0 FR)". Chưa có furigana cho chữ Hán trong câu. Chưa kiểm hết 882 câu bằng mắt, chỉ lấy mẫu ~40 câu.
+- Chạy `tools/tatoeba_match.py` trên Mac: 1299 mục khớp, lọc tiếp bằng tay (bỏ mục có ～／ trong khoá, câu <5 chữ, kana ≤2 ký tự) còn **882** mục, rồi đọc lại toàn bộ bằng mắt và loại 33 câu khớp nhầm từ/nghĩa (つまみ↔おつまみ, かります↔分かります, やさしい↔優しい…), còn **849** mục trong `tools/tatoeba_ex.json`; `tatoeba_apply.py` thay câu tự soạn khi build.
+- Bản dịch chỉ có tiếng Anh, ghi "(Tatoeba #id, tác giả, CC BY 2.0 FR)". Chưa có furigana cho chữ Hán trong câu. Đã đọc cả 882 câu một lượt (chỉ xét khớp từ/nghĩa, không phải người Nhật kiểm).
 - Khoảng 1700 mục còn lại vẫn là câu tự soạn, chưa có nguồn.

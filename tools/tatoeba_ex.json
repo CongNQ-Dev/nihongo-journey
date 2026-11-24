@@ -911,12 +911,6 @@
 "jp": "その信号を右ね。",
 "user": "small_snow"
 },
-"VOCAB|34|つまみ": {
-"en": "Do we have anything I can snack on?",
-"id": "188136",
-"jp": "何かおつまみない？",
-"user": "bunbuku"
-},
 "VOCAB|35|おかし": {
 "en": "This candy is sweet.",
 "id": "11038989",
@@ -976,12 +970,6 @@
 "id": "9415265",
 "jp": "花火を見た？",
 "user": "small_snow"
-},
-"VOCAB|38|まんが": {
-"en": "I'm a cartoonist.",
-"id": "3068313",
-"jp": "私は漫画家です。",
-"user": "arnab"
 },
 "VOCAB|38|ポケット": {
 "en": "Check your pockets.",
@@ -1222,12 +1210,6 @@
 "id": "222852",
 "jp": "この夏休みは日光に行きたい。",
 "user": "mookeee"
-},
-"VOCAB|46|れきし": {
-"en": "I am a historian.",
-"id": "12251169",
-"jp": "私は歴史家です。",
-"user": "opalandwoof"
 },
 "VOCAB|46|アフリカ": {
 "en": "South Africa is far away.",
@@ -1877,18 +1859,6 @@
 "jp": "いらっしゃい。",
 "user": "bunbuku"
 },
-"words|18|かします": {
-"en": "I'll manage it.",
-"id": "3583313",
-"jp": "何とかします。",
-"user": "arnab"
-},
-"words|18|かります": {
-"en": "Do you follow?",
-"id": "83717",
-"jp": "分かりますか。",
-"user": "mookeee"
-},
 "words|18|これから": {
 "en": "I'm going home now.",
 "id": "218960",
@@ -2171,12 +2141,6 @@
 "jp": "私は来週、新しい仕事を始めます。",
 "user": "bunbuku"
 },
-"words|25|ふります（あめが）": {
-"en": "Are you getting off?",
-"id": "901501",
-"jp": "降りますか？",
-"user": "joeycrunch"
-},
 "words|25|まっすぐ": {
 "en": "Look forward, please.",
 "id": "195363",
@@ -2345,12 +2309,6 @@
 "jp": "何を飲みますか。",
 "user": "bunbuku"
 },
-"words|28|２、３にち": {
-"en": "It's the third of October.",
-"id": "236068",
-"jp": "１０月３日です。",
-"user": "mookeee"
-},
 "words|29|あらいます": {
 "en": "I wash my face every morning.",
 "id": "152712",
@@ -2429,12 +2387,6 @@
 "jp": "調子はどう？",
 "user": "small_snow"
 },
-"words|30|でも": {
-"en": "Never mind!",
-"id": "187835",
-"jp": "何でもない。",
-"user": "arnab"
-},
 "words|30|とまります": {
 "en": "We'll stay at a hotel.",
 "id": "10953998",
@@ -2511,12 +2463,6 @@
 "en": "I'm just a plain old office worker.",
 "id": "477341",
 "jp": "私はしがないサラリーマンです。",
-"user": "bunbuku"
-},
-"words|32|あります（かいぎが）": {
-"en": "Any fever?",
-"id": "121893",
-"jp": "熱はありますか。",
 "user": "bunbuku"
 },
 "words|32|いいます": {
@@ -2680,18 +2626,6 @@
 "id": "229710",
 "jp": "高い建物ですね。",
 "user": "KK_kaku_"
-},
-"words|34|つまみ": {
-"en": "Do we have anything I can snack on?",
-"id": "188136",
-"jp": "何かおつまみない？",
-"user": "bunbuku"
-},
-"words|34|でます（おつりが）": {
-"en": "I'll get it.",
-"id": "167677",
-"jp": "私が出ます。",
-"user": "bunbuku"
 },
 "words|34|まっすぐ": {
 "en": "Look forward, please.",
@@ -3029,12 +2963,6 @@
 "jp": "辞書はあそこの本棚にあります。",
 "user": "small_snow"
 },
-"words|38|まんが": {
-"en": "I'm a cartoonist.",
-"id": "3068313",
-"jp": "私は漫画家です。",
-"user": "arnab"
-},
 "words|38|クリーニング": {
 "en": "Where is the laundry?",
 "id": "1700965",
@@ -3233,12 +3161,6 @@
 "jp": "お知らせください。",
 "user": "bunbuku"
 },
-"words|41|かけます（かべに）": {
-"en": "I'll call again later.",
-"id": "195442",
-"jp": "また後でかけます。",
-"user": "small_snow"
-},
 "words|41|きぼう": {
 "en": "There is not much hope.",
 "id": "230333",
@@ -3267,12 +3189,6 @@
 "en": "The earth is round.",
 "id": "126969",
 "jp": "地球は丸い。",
-"user": "bunbuku"
-},
-"words|41|ちゅうしゃ": {
-"en": "Where can I park?",
-"id": "200917",
-"jp": "どこに駐車できますか。",
 "user": "bunbuku"
 },
 "words|41|まるい": {
@@ -3359,12 +3275,6 @@
 "jp": "誰か来たよ。",
 "user": "small_snow"
 },
-"words|42|つきに": {
-"en": "There are no people on the moon.",
-"id": "6828194",
-"jp": "月には人がいない。",
-"user": "D0UG"
-},
 "words|42|にゅうがくしけん": {
 "en": "Yesterday she sat for the entrance examination.",
 "id": "169820",
@@ -3447,12 +3357,6 @@
 "en": "Have you read your horoscope today?",
 "id": "10899481",
 "jp": "今日は、星占い見た？",
-"user": "small_snow"
-},
-"words|43|まえ": {
-"en": "Come over here.",
-"id": "12851686",
-"jp": "こちらに来たまえ。",
 "user": "small_snow"
 },
 "words|43|もどります": {
@@ -3767,12 +3671,6 @@
 "jp": "私は山登りが好きです。",
 "user": "tommy_san"
 },
-"words|46|れきし": {
-"en": "I am a historian.",
-"id": "12251169",
-"jp": "私は歴史家です。",
-"user": "opalandwoof"
-},
 "words|46|アフリカ": {
 "en": "South Africa is far away.",
 "id": "640529",
@@ -3917,12 +3815,6 @@
 "jp": "ずいぶんと珍しいですね。",
 "user": "arnab"
 },
-"words|47|れきし": {
-"en": "I am a historian.",
-"id": "12251169",
-"jp": "私は歴史家です。",
-"user": "opalandwoof"
-},
 "words|48|いっしょうけんめい": {
 "en": "He studied very hard.",
 "id": "109923",
@@ -3977,12 +3869,6 @@
 "jp": "何語が話せますか？",
 "user": "mochico"
 },
-"words|48|まんが": {
-"en": "I'm a cartoonist.",
-"id": "3068313",
-"jp": "私は漫画家です。",
-"user": "arnab"
-},
 "words|48|みなさま": {
 "en": "How are you all doing?",
 "id": "1147121",
@@ -4006,12 +3892,6 @@
 "id": "8714261",
 "jp": "赤ちゃんは大丈夫？",
 "user": "bunbuku"
-},
-"words|49|うそ": {
-"en": "Let's not talk about it any more.",
-"id": "194409",
-"jp": "もうその話はやめましょう。",
-"user": "tommy_san"
 },
 "words|49|えきまえ": {
 "en": "There is a bank in front of the station.",
@@ -4115,12 +3995,6 @@
 "jp": "方法はありません。",
 "user": "acbarbosa"
 },
-"words|49|やさしい": {
-"en": "He is kind.",
-"id": "79426",
-"jp": "優しい人です。",
-"user": "bunbuku"
-},
 "words|49|ゆびわ": {
 "en": "My ring is gone.",
 "id": "10367619",
@@ -4132,12 +4006,6 @@
 "id": "3642234",
 "jp": "新しいクラスはどう？",
 "user": "tommy_san"
-},
-"words|50|あいます［合います］": {
-"en": "You'll have a hard time.",
-"id": "197521",
-"jp": "ひどい目にあいますよ。",
-"user": "bunbuku"
 },
 "words|50|おおぜい": {
 "en": "Were there many people watching?",
@@ -4319,12 +4187,6 @@
 "jp": "これをいただきます。",
 "user": "small_snow"
 },
-"words|52|えさ": {
-"en": "Don't make me go back there.",
-"id": "6704208",
-"jp": "そこへかえさないで。",
-"user": "Rabbit"
-},
 "words|52|おいわい": {
 "en": "We all celebrated for our friend's birthday.",
 "id": "13176269",
@@ -4403,12 +4265,6 @@
 "jp": "箱の中身は何？",
 "user": "Tadafumi"
 },
-"words|52|はあ": {
-"en": "The teacher is over there.",
-"id": "11052427",
-"jp": "先生はあそこよ。",
-"user": "small_snow"
-},
 "words|52|ふたり": {
 "en": "They got married.",
 "id": "123072",
@@ -4426,12 +4282,6 @@
 "id": "3506563",
 "jp": "ずいぶんと珍しいですね。",
 "user": "arnab"
-},
-"words|52|やさしい": {
-"en": "He is kind.",
-"id": "79426",
-"jp": "優しい人です。",
-"user": "bunbuku"
 },
 "words|52|やります": {
 "en": "Will you do it?",
@@ -4499,12 +4349,6 @@
 "jp": "自然に治りますよ。",
 "user": "bunbuku"
 },
-"words|53|じょうぶ［な］": {
-"en": "That's normal, ok.",
-"id": "10901808",
-"jp": "普通でだいじょうぶです。",
-"user": "small_snow"
-},
 "words|53|そろばん": {
 "en": "This is an abacus.",
 "id": "9741321",
@@ -4559,12 +4403,6 @@
 "jp": "旅行の目的は何ですか。",
 "user": "mookeee"
 },
-"words|53|わります": {
-"en": "To change the subject.",
-"id": "77160",
-"jp": "話はかわりますが。",
-"user": "mookeee"
-},
 "words|53|アパート": {
 "en": "This is a great apartment.",
 "id": "229463",
@@ -4595,12 +4433,6 @@
 "jp": "教師の収入はどれくらいですか。",
 "user": "bunbuku"
 },
-"words|54|じょうぶ［な］": {
-"en": "That's normal, ok.",
-"id": "10901808",
-"jp": "普通でだいじょうぶです。",
-"user": "small_snow"
-},
 "words|54|つまらない": {
 "en": "Are you bored?",
 "id": "8689056",
@@ -4618,18 +4450,6 @@
 "id": "536773",
 "jp": "庭にはばらがありません。",
 "user": "tomkun01"
-},
-"words|54|まずい": {
-"en": "This pizza is terrible.",
-"id": "10792679",
-"jp": "このビザはまずい。",
-"user": "small_snow"
-},
-"words|54|やさしい": {
-"en": "He is kind.",
-"id": "79426",
-"jp": "優しい人です。",
-"user": "bunbuku"
 },
 "words|54|りゆう": {
 "en": "There are many reasons.",
@@ -4666,12 +4486,6 @@
 "id": "2602586",
 "jp": "これはDVDです。",
 "user": "OrangeTart"
-},
-"words|55|あつい": {
-"en": "This book is very thick.",
-"id": "1278238",
-"jp": "この本はとても厚い。",
-"user": "mandel59"
 },
 "words|55|あんぜん［な］": {
 "en": "Drive safely.",
@@ -4967,12 +4781,6 @@
 "jp": "彼女は長生きした。",
 "user": "bunbuku"
 },
-"words|58|におい": {
-"en": "Come to my house.",
-"id": "10342034",
-"jp": "家においで。",
-"user": "small_snow"
-},
 "words|58|はっぴょう": {
 "en": "I think the time is right to introduce this product.",
 "id": "1525406",
@@ -5229,12 +5037,6 @@
 "en": "I really appreciate it.",
 "id": "145608",
 "jp": "心から感謝します。",
-"user": "small_snow"
-},
-"words|61|ころ": {
-"en": "Where does it hurt?",
-"id": "9992496",
-"jp": "痛いところはどこ？",
 "user": "small_snow"
 },
 "words|61|ございます": {

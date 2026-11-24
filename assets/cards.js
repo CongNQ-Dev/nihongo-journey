@@ -4741,8 +4741,8 @@ window.CARDS = [
   "kanji": "歴史",
   "romaji": "rekishi",
   "meaning": "lịch sử",
-  "ex": "私は歴史家です。",
-  "exvn": "I am a historian. (Tatoeba #12251169, opalandwoof, CC BY 2.0 FR)",
+  "ex": "れきしなら、きょうとが いいですよ。",
+  "exvn": "Nếu là lịch sử thì Kyoto tốt đấy.",
   "img": "img/v-rekishi.jpg",
   "credit": "Gary Lee Todd, Ph.D. · CC0"
  },
