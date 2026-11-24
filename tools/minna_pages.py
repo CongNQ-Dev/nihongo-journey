@@ -1,5 +1,5 @@
 """Sinh trang cho giai đoạn Minna (bài 0012+), bảng ngữ pháp và bảng số đếm. Gọi từ tools/build.py."""
-import html, json, random, re, zlib
+import html, json, os, random, re, zlib
 
 from minna_data import LESSONS, C
 from minna_vocab import VOCAB, vocab_id
@@ -51,6 +51,23 @@ def jp_cell(s):
     return f'<span class="jp">{s}</span>'
 
 
+def source_note(m):
+    """Nhãn nguồn của bài: cái gì đã so với nguồn nào, cái gì chưa. Trạng thái đối chiếu sách lưu ở tools/source_status.json."""
+    import json
+    try:
+        st = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "source_status.json"), encoding="utf-8"))
+    except (OSError, ValueError):
+        st = {}
+    done = st.get(str(m), {}).get("verified")
+    book = (f"Đã đối chiếu với sách Minna ngày {done}." if done
+            else "<strong>Chưa đối chiếu với sách Minna no Nihongo</strong>: hãy so với sách của bạn (bảng đối chiếu: "
+                 f'<a href="https://github.com/CongNQ-Dev/nihongo-journey/blob/main/reference/doi-chieu/bai-{m:02d}.md">bài {m}</a>).')
+    return ('<p class="hint">Nguồn của bài này — Mẫu câu: so với bảng Japan Foundation. Từ vựng (danh sách theo bài): so với bộ dữ liệu cộng đồng MinnaNoDS. '
+            'Cách đọc và chữ viết: so với JMdict (EDRDG). Câu ví dụ có “Tatoeba #” là câu cộng đồng, chưa có người Nhật thẩm định. '
+            'Nghĩa tiếng Việt, hội thoại, giải thích ngữ pháp và câu ví dụ không có số Tatoeba: <strong>tự soạn, chưa có nguồn</strong>. '
+            f'{book}</p>')
+
+
 def lesson_html(n, files, page):
     L = LESSONS[n]
     m = L["minna"]
@@ -60,7 +77,8 @@ def lesson_html(n, files, page):
   <h1>{L['title']} <span class="jp">{L['jp']}</span></h1>
   <p class="lede">{L['lede']}</p>
 </header>
-<div class="win"><strong>Thành quả của bài này</strong>{L['win']}</div>"""]
+<div class="win"><strong>Thành quả của bài này</strong>{L['win']}</div>
+{source_note(m)}"""]
     s = 1
     out.append(section(s, "Ôn lại trước khi học"))
     out.append('<p>Làm hết thẻ đến hạn ở <a href="../flashcards.html">trang ôn flashcard</a> trước. Rồi trả lời 3 câu này <strong>từ trí nhớ</strong> — đừng mở lại bài cũ.</p>')

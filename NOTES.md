@@ -157,3 +157,9 @@
 - Chạy `tools/tatoeba_match.py` trên Mac: 1299 mục khớp, lọc tiếp bằng tay (bỏ mục có ～／ trong khoá, câu <5 chữ, kana ≤2 ký tự) còn **882** mục, rồi đọc lại toàn bộ bằng mắt và loại 33 câu khớp nhầm từ/nghĩa (つまみ↔おつまみ, かります↔分かります, やさしい↔優しい…), còn **849** mục trong `tools/tatoeba_ex.json`; `tatoeba_apply.py` thay câu tự soạn khi build.
 - Bản dịch chỉ có tiếng Anh, ghi "(Tatoeba #id, tác giả, CC BY 2.0 FR)". Chưa có furigana cho chữ Hán trong câu. Đã đọc cả 882 câu một lượt (chỉ xét khớp từ/nghĩa, không phải người Nhật kiểm).
 - Khoảng 1700 mục còn lại vẫn là câu tự soạn, chưa có nguồn.
+
+## Đối chiếu với giáo trình Minna (2026-11-24, người học yêu cầu: mọi thứ phải có nguồn uy tín và chuẩn Minna)
+- Không chép nội dung sách vào repo. Cách làm: `python3 -I tools/doi_chieu.py DIR` (DIR chứa `JMdict_e`) sinh `reference/doi-chieu/bai-NN.md` (từ, nghĩa VN của khoá, nghĩa EN từ JMdict tra tự động, cột trống để người học so với sách).
+- Trạng thái từng bài ở `tools/source_status.json` ({"<bài Minna>": {"verified": "YYYY-MM-DD"}}). CHỈ ghi khi người học xác nhận đã so xong bài đó; mặc định mọi bài là "chưa đối chiếu với sách". Trang bài hiện nhãn nguồn (`source_note` trong `tools/minna_pages.py`) lấy từ file này.
+- Khi người học báo chỗ sai trong bảng: sửa ở `tools/minna_*.py`, chạy lại `doi_chieu.py` và `build.py`.
+- Nghĩa EN trong bảng tra tự động nên có thể lệch (từ nhiều nghĩa) hoặc trống (câu giao tiếp, tên riêng, từ ghép).

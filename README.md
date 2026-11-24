@@ -14,3 +14,4 @@ Repo này không chứa nội dung sách Minna no Nihongo (có bản quyền). B
 - Dữ liệu thứ tự nét (`assets/strokes.js`): [KanjiVG](https://kanjivg.tagaini.net/), CC BY-SA 3.0.
 - Đối chiếu chữ Hán / từ vựng: KANJIDIC2 và JMdict của [EDRDG](https://www.edrdg.org/) (CC BY-SA 4.0), bằng `tools/verify_dict.py`. Từ điển không lưu trong repo.
 - Câu ví dụ: một phần lấy từ [Tatoeba](https://tatoeba.org) (CC BY 2.0 FR), chọn bằng `tools/tatoeba_match.py`, kết quả ở `tools/tatoeba_ex.json` (kèm số câu và tác giả). Dữ liệu gốc Tatoeba không lưu trong repo.
+- Đối chiếu với giáo trình: bảng từng bài ở `reference/doi-chieu/` (nghĩa tiếng Anh trích JMdict); trạng thái ở `tools/source_status.json`.
