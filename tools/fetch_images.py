@@ -47,6 +47,15 @@ PICK = {  # đã duyệt bằng mắt 2026-11-14
 # Không tìm được ảnh đúng nghĩa → không có thẻ (từ vẫn nằm trong bảng từ vựng của bài).
 SKIP = set()
 
+# Đợt duyệt 2026-11-24 (473 thẻ Minna 11+): id → chỉ số ứng viên, -1 = không có ảnh đúng nghĩa (bỏ qua).
+_P = os.path.join(os.path.dirname(os.path.abspath(__file__)), "image_picks.json")
+if os.path.exists(_P):
+    for _k, _v in json.load(open(_P)).items():
+        if _v < 0:
+            SKIP.add(_k)
+        else:
+            PICK[_k] = _v
+
 # Thẻ mà kết quả “Quality images” lạc đề: tìm lại bằng query này, chỉ tìm thường.
 QUERY_FIX = {
     "v-onnanoko": "little girl smiling",
