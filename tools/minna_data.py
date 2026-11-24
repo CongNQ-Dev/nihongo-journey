@@ -31,8 +31,7 @@ C = {  # nguồn dẫn trong phần ngữ pháp
 
 
 def cite(k):
-    u, t = C[k]
-    return f'<sup class="cite"><a href="{u}" title="{t}">[{t.split(" — ")[0]}]</a></sup>'
+    return ''
 
 
 LESSONS = {}
