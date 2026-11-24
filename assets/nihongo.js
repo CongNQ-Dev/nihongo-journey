@@ -25,11 +25,15 @@
     speechSynthesis.cancel();
     // Bỏ ký hiệu chỉ để hiển thị: [な], （よい）, ～ ; … và ／ thành chỗ ngắt.
     text = String(text).replace(/\[[^\]]*\]|［[^］]*］|（[^）]*）|\([^)]*\)/g, "").replace(/[～〜]/g, "")
-      .replace(/…/g, "、").replace(/／/g, "、").replace(/[＿_]+/g, "").replace(/^[、\s]+/, "");
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "ja-JP"; if (voice) u.voice = voice; u.rate = rate || 0.8;
-    if (onend) u.onend = onend;
-    speechSynthesis.speak(u);
+      .replace(/…/g, "、").replace(/\s*／\s*/g, "、、").replace(/[＿_]+/g, "").replace(/^[、\s]+/, "");
+    // Nhiều biến thể (だれ／どなた): đọc từng biến thể, nghỉ giữa các biến thể, thay vì dồn thành một câu có dấu phẩy.
+    const parts = text.split(/[、]{2,}|\u0000/).map(x => x.trim()).filter(Boolean);
+    parts.forEach((part, k) => {
+      const u = new SpeechSynthesisUtterance(part);
+      u.lang = "ja-JP"; if (voice) u.voice = voice; u.rate = rate || 0.8;
+      if (onend && k === parts.length - 1) u.onend = onend;
+      speechSynthesis.speak(u);
+    });
   }
   const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const esc = s => String(s).replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
@@ -94,12 +98,27 @@
     const practice = !!(opt && opt.cards), review = !practice && el.hasAttribute("data-due");
     let queue = practice ? opt.cards.slice() : (window.CARDS || []).filter(c => review ? isDue(c.id) : String(c.lesson) === el.dataset.lesson && (el.dataset.type ? c.type === el.dataset.type : c.type !== "kanji"));
     if (review || practice) shuffle(queue);
+    /* Học mới: bài nhiều thẻ được chia thành các phần ≤ NEW_MAX thẻ, mỗi ngày học một phần. */
+    const all = queue.slice(), nParts = (!practice && !review && all.length > NEW_MAX) ? Math.ceil(all.length / NEW_MAX) : 1;
+    const size = Math.ceil(all.length / nParts), PKEY = "nihongo-part-" + (el.dataset.lesson || "") + "-" + (el.dataset.type || "");
+    let part = 0;
+    if (nParts > 1) {
+      let saved = null; try { saved = sessionStorage.getItem(PKEY); } catch {}
+      const firstNew = Array.from({ length: nParts }, (_, k) => k).find(k => all.slice(k * size, (k + 1) * size).some(c => isNew(c.id)));
+      part = saved != null && +saved < nParts ? +saved : (firstNew == null ? 0 : firstNew);
+      queue = all.slice(part * size, (part + 1) * size);
+    }
     const total = queue.length; let done = 0;
+    const partBar = () => nParts < 2 ? "" : `<div class="deck-parts" role="group" aria-label="Chia phần">${Array.from({ length: nParts }, (_, k) => {
+      const lo = k * size + 1, hi = Math.min(all.length, (k + 1) * size), left = all.slice(k * size, (k + 1) * size).filter(c => isNew(c.id)).length;
+      return `<button class="chip${k === part ? " on" : ""}" data-part="${k}" title="${left ? left + " thẻ chưa học" : "đã học hết phần này"}">Phần ${k + 1} · thẻ ${lo}–${hi}${left ? "" : " ✓"}</button>`;
+    }).join("")}</div><p class="hint">Bài có ${all.length} thẻ: mỗi ngày học một phần (khoảng ${NEW_MAX} thẻ), rồi ôn ở trang ôn tập.</p>`;
     const mode = practice ? (opt.graded ? "Ôn tập" : "Luyện tự chọn") : review ? "Ôn tập" : "Học mới";
     const mark = (c, ok) => { if (!practice || opt.graded) grade(c.id, ok); queue.shift(); if (ok) done++; else queue.push(c); show(); };
     el.classList.add("deck");
     function show() {
-      el.innerHTML = "";
+      el.innerHTML = partBar();
+      el.querySelectorAll("[data-part]").forEach(b => b.onclick = () => { try { sessionStorage.setItem(PKEY, b.dataset.part); } catch {} deck(el, opt); });
       if (!queue.length && practice) {
         const d = $("div", "deck-done", `Xong ${total} thẻ. ${opt.graded ? "Kết quả đã ghi vào lịch ôn." : "Luyện tự chọn không thay đổi lịch ôn hằng ngày."} <button class="btn primary" data-again>Làm lại lượt này</button>`);
         d.querySelector("[data-again]").onclick = () => deck(el, opt);
@@ -127,7 +146,7 @@
       const back = (vocab
         ? `<p class="fc-answer"><span class="sound">${c.meaning}</span><span class="hint">${c.romaji}${c.kanji ? ` · <span class="jp">${c.kanji}</span>` : ""}</span>
             <button class="say" data-say="${c.word}">nghe lại</button></p>
-          <p class="fc-word"><span class="jp">${c.ex}</span> <button class="say" data-say="${c.ex}">nghe câu</button><br><span class="hint">${c.exvn}</span></p>`
+          <p class="fc-word"><span class="jp">${c.exf || c.ex}</span> <button class="say" data-say="${esc(c.ex)}">nghe câu</button><br><span class="hint">${c.exvn}</span></p>`
         : `<p class="fc-answer"><span class="sound">${c.sound}</span><span class="hint">${c.vn || ""}</span>
             <button class="say" data-say="${c.say || c.glyph}">nghe lại</button>${videoFor(c.glyph) ? ` <button class="say" data-video="${videoFor(c.glyph).id}">▶ xem khẩu hình</button>` : ""}</p>
           ${c.word ? `<p class="fc-word"><span class="jp">${hl}</span> &nbsp;${c.romaji} — ${c.meaning}
@@ -298,6 +317,40 @@
      ["fu", "hu"], ["wo", "o"], ["nn", "n"], ["mp", "np"], ["mb", "nb"], ["oo", "ou"]].forEach(([a, b]) => { s = s.split(a).join(b); });
     return s;
   }
+  /* Kana -> romaji (Hepburn rút gọn) để chế độ gõ nhận cách đọc của mọi biến thể trong từ có ／. */
+  const KR = (() => {
+    const base = "a i u e o ka ki ku ke ko sa shi su se so ta chi tsu te to na ni nu ne no ha hi fu he ho ma mi mu me mo ya yu yo ra ri ru re ro wa wo n ga gi gu ge go za ji zu ze zo da ji zu de do ba bi bu be bo pa pi pu pe po".split(" ");
+    const hira = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ";
+    const m = {}; [...hira].forEach((c, i) => { m[c] = base[i]; });
+    "ぁぃぅぇぉ".split("").forEach((c, i) => { m[c] = "aiueo"[i]; });
+    return m;
+  })();
+  const toHira = t => t.replace(/[ァ-ヶ]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0x60));
+  function kanaRomaji(t) {
+    t = toHira(t.replace(/[～〜\s]/g, "")); let out = "", dbl = false;
+    const SM = { ゃ: "ya", ゅ: "yu", ょ: "yo" };
+    for (let i = 0; i < t.length; i++) {
+      const c = t[i];
+      if (c === "っ") { dbl = true; continue; }
+      if (c === "ー") { out += out.slice(-1); continue; }
+      let r = KR[c]; if (r == null) continue;
+      if (SM[t[i + 1]]) {                                   // きゃ → kya, しゃ → sha
+        const y = SM[t[i + 1]]; i++;
+        r = /^(sh|ch|j)i$/.test(r) ? r.slice(0, -1) + y.slice(1) : r.slice(0, -1) + y;
+      } else if ("ぁぃぅぇぉ".includes(t[i + 1] || "-") && r.length > 1) {   // ファ → fa, ティ → ti
+        r = r.slice(0, -1) + KR[t[i + 1]]; i++;
+      }
+      if (dbl) { r = (r[0] === "c" && r[1] === "h" ? "t" : r[0]) + r; dbl = false; }
+      out += r;
+    }
+    return out;
+  }
+  /* Mọi cách đọc chấp nhận được của một từ: romaji đã lưu + từng biến thể ／ + các biến thể nối liền. */
+  function readings(jp, ro) {
+    const set = new Set([ro]), parts = String(jp).split("／").map(x => x.trim()).filter(Boolean);
+    if (parts.length > 1) { parts.forEach(x => set.add(kanaRomaji(x))); set.add(parts.map(kanaRomaji).join("")); }
+    return [...set].filter(Boolean);
+  }
   function reader(el) {
     let items; try { items = JSON.parse(el.dataset.read); } catch { return; }
     items = items.map(x => x).sort(() => Math.random() - .5);
@@ -320,8 +373,8 @@
     function check() {
       if (answered) { if (i === -1) { items.sort(() => Math.random() - .5); score = 0; } i++; show(); inp.focus(); return; }
       const [jp, ro, vn] = items[i]; answered = true; speak(jp);
-      if (norm(inp.value) === norm(ro)) { score++; fb.className = "fb good"; fb.textContent = `Đúng: ${ro} — ${vn}.`; }
-      else { fb.className = "fb bad"; fb.textContent = `Chưa đúng: ${ro} — ${vn}. Đọc to lại một lần.`; }
+      if (readings(jp, ro).some(r => norm(inp.value) === norm(r))) { score++; fb.className = "fb good"; fb.textContent = `Đúng: ${ro} — ${vn}.`; }
+      else { fb.className = "fb bad"; fb.textContent = `Chưa đúng: ${readings(jp, ro).slice(0, 4).join(" / ")} — ${vn}. Đọc to lại một lần.`; }
       go.textContent = "Từ tiếp →";
     }
     go.onclick = check; inp.onkeydown = e => { if (e.key === "Enter") check(); };
@@ -372,6 +425,7 @@
      items: [{ text: "せんせい", prompt: "sensei", hint: "giáo viên" }, ...]
      Mỗi mục: nhìn romaji + nghĩa (hoặc nghe), tự viết từng chữ vào ô trống, rồi bấm
      "Xem đáp án" để nét chuẩn hiện chồng lên chữ mình viết, tự chấm Nhớ / Chưa nhớ. */
+  const WSKIP = /[\s／～〜…、。！？＿_\[\]［］（）()]+/g;   // ký hiệu chỉ để hiển thị, không có nét để viết
   function rewrite(el, items, opt) {
     opt = opt || {};
     const S = window.STROKES || {};
@@ -440,7 +494,7 @@
     function show() {
       shown = false; el.classList.remove("revealed"); applyHide();
       if (i >= order.length) return done();
-      const it = order[i], chars = [...it.text.replace(/\s+/g, "")];
+      const it = order[i], chars = [...it.text.replace(WSKIP, "")];
       el.innerHTML = `<p class="q"><span class="score">Mục ${i + 1}/${order.length} · nhớ ${ok}</span>Viết lại bằng tay, không nhìn đáp án:</p>
         <div class="rw-tgl">${tglLabel()}</div>
         <p class="rw-prompt"><b class="rw-ro">${esc(it.prompt)}</b>${it.hint ? ` <span class="rw-vn">— ${esc(it.hint)}</span>` : ""}
@@ -461,7 +515,7 @@
       el.querySelector(".rw-count").innerHTML = `<span class="jp rw-answer">${esc(it.text)}</span>`;
       el.querySelector(".rw-act").innerHTML = `<button class="btn" data-a="anim">Xem lại thứ tự nét</button><button class="btn" data-a="mine">Ẩn nét mình viết</button>
         <button class="btn again" data-a="miss">Chưa nhớ</button><button class="btn primary" data-a="ok">Nhớ đúng</button>`;
-      const chars = [...it.text.replace(/\s+/g, "")], pads = [...el.querySelectorAll(".pad")];
+      const chars = [...it.text.replace(WSKIP, "")], pads = [...el.querySelectorAll(".pad")];
       const sc = pads.map((p, k) => { const v = scorePad(p, chars[k]);
         if (v != null) p.insertAdjacentHTML("beforeend", `<span class="rw-score ${v >= .55 ? "good" : "bad"}">${Math.round(v * 100)}%</span>`); return v; }).filter(v => v != null);
       const fb = el.querySelector(".fb");

@@ -326,3 +326,10 @@ details.answers summary { cursor: pointer; color: var(--accent); }
 .stat-bars i{display:block;width:100%;max-width:2.2rem;background:var(--fg);opacity:.55;border-radius:3px 3px 0 0;min-height:2px}
 .stat-bars b{color:var(--fg);font-weight:600}
 @media (max-width:480px){.site-nav{font-size:.78rem;gap:.3rem .6rem}.pr-tabs{gap:0}.pr-tabs{overflow-x:auto}.pr-tabs button{padding:.55rem .4rem;font-size:.85rem;white-space:nowrap;flex:1 1 auto}.stat-bars span{font-size:.62rem}}
+
+/* Chia thẻ bài học thành các phần ~20 thẻ */
+.deck-parts { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0 .2rem; }
+.deck-parts + .hint { margin: 0 0 .6rem; font-size: .85rem; }
+
+/* Furigana (ruby) cho câu ví dụ lấy từ Tatoeba */
+.fc-word rt { font-size: .55em; opacity: .85; }

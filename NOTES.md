@@ -110,7 +110,7 @@
 - Nội dung nằm ở `tools/minna_ext_a.py` (bài 11–15), `_b` (16–20), `_c` (21–25). Mỗi file có `LESSONS`, `WORD_EX`, `VOCAB`, `KANJI`; `minna_data.py`, `minna_vocab.py`, `minna_word_ex.py`, `kanji_data.py` nạp chúng qua `EXT_MODULES`. Bài 26+ thì thêm `minna_ext_d.py` và ghi tên vào `EXT_MODULES` ở cả 4 file đó.
 - File bài học là 0022–0036 (Minna bài N = file N+11). Kanji mới: 80 chữ, thứ tự nét đã lấy bằng `tools/fetch_strokes.py`.
 - **Chưa có ảnh thẻ** cho từ vựng mới (Wikimedia không truy cập được lúc soạn): các bài đó hiện ghi chú "Chưa có thẻ ảnh" và bảng từ vẫn dùng được. Ở máy có mạng chạy `python3 -I tools/fetch_images.py search`, duyệt ảnh, thêm lựa chọn vào `PICK`, rồi `download` và `build`.
-- Mục "Nguồn nên đọc" của bài 11–25 trỏ về trang mục lục Tae Kim (`/learn/grammar`) vì không kiểm chứng được URL từng phần. Muốn chính xác hơn thì mở trang đó, chọn đúng mục rồi thay URL trong `primary`.
+- Mục "Nguồn nên đọc": ban đầu trỏ mục lục Tae Kim. Từ 2026-11-24 `tools/taekim_map.py` gán đúng mục Tae Kim cho 37/40 bài (đã mở từng trang, đối chiếu TIÊU ĐỀ các phần với mẫu câu); bài 34, 42, 45 chưa có mục khớp nên giữ link mục lục.
 - Toàn bộ giải thích, câu ví dụ và hội thoại do mình soạn, chưa có người Nhật kiểm tra: nên đối chiếu với sách Minna bài tương ứng và báo chỗ nào sai để sửa.
 
 ## Minna bài 26–30 (2026-11-22)
@@ -119,7 +119,7 @@
 ## Đối chiếu với nguồn chính thức (2026-11-23)
 - Nguồn: Japan Foundation, bảng "みんなの日本語 文型・表現 ↔ いろどり" (PDF công khai: yg.jpf.go.jp/wp-content/uploads/2023/11/Sentence-Patterns-Minna-no-Nihongo-and-IRODORI.20211027.pdf). Liệt kê mẫu câu từng bài, **không** liệt kê từ vựng hay câu ví dụ.
 - Kết quả bài 1–30: thứ tự và phân bổ mẫu câu khớp. Đã bổ sung chỗ thiếu: bài 1 ～さいです; bài 14 V-かた; bài 18 hai nghĩa của ことができます + ～まえに chỉ khoảng thời gian; bài 30 ba nghĩa của ておきます.
-- Chưa xác nhận bằng nguồn chính thức: bài 11 ～だけ và bài 21 N でも (PDF không nêu hai mục này). Từ vựng từng bài và câu ví dụ vẫn do mình tự soạn, chưa đối chiếu với sách.
+- Bài 11 ～だけ: PDF JF không nêu, nhưng có phần 「だけ」 trong mục "Expressing Amounts" của Tae Kim (đã gắn link). Bài 21 N でも: vẫn chưa xác nhận bằng nguồn nào. Từ vựng từng bài và câu ví dụ vẫn do mình tự soạn, chưa đối chiếu với sách.
 
 ## Đối chiếu từ vựng bài 1–30 (2026-11-23) và quy trình mới
 - Phép so với danh sách từ vựng của sách (công cụ `tools/check_vocab_coverage.py`) cho thấy bài 1–30 mới có 751/1475 từ (≈51%); 724 từ còn thiếu hoặc nằm sai bài. Mẫu câu thì khớp, nên lần đối chiếu mẫu câu trước không phát hiện được chỗ thiếu này.
@@ -150,12 +150,12 @@
 ## Đối chiếu từ điển mở (`tools/verify_dict.py`)
 - Chạy: `python3 -I tools/verify_dict.py DIR [kanji|words|all]` (DIR chứa `kanjidic2.xml`, `JMdict_e` đã giải nén; tải từ edrdg.org, cần cho phép `www.edrdg.org`, `ftp.edrdg.org`).
 - Đã so: 251 chữ Hán (On/Kun/Hán Việt vs KANJIDIC2; sửa 4 chỗ: 絵, 政, 中, 着) và 1450 cặp (cách đọc, chữ viết) của từ vựng vs JMdict: 1386 khớp, 64 không khớp là tên riêng, thương hiệu, viết tắt, câu giao tiếp, cụm đếm, một vài dạng chia (công cụ không tra được, không phải lỗi).
-- 着: KANJIDIC2 không có Hán Việt khớp, đang ghi "(chưa xác minh)".
+- 着: KANJIDIC2 không có Hán Việt. Đã lấy "trước" từ mục tiếng Việt của Wiktionary (CC BY-SA; trang liệt kê trước, trứ, chốc, trốc) ngày 2026-11-24; vẫn nên đối chiếu từ điển Hán Việt giấy.
 - CHƯA có nguồn: nghĩa tiếng Việt, câu ví dụ, hội thoại, giải thích ngữ pháp, chọn chữ Hán (do người soạn viết). Bước kế tiếp đã bàn: thay/bổ sung câu ví dụ bằng câu Tatoeba (CC BY 2.0 FR, cần ghi nguồn).
 
 ## Câu ví dụ Tatoeba (2026-11-24)
 - Chạy `tools/tatoeba_match.py` trên Mac: 1299 mục khớp, lọc tiếp bằng tay (bỏ mục có ～／ trong khoá, câu <5 chữ, kana ≤2 ký tự) còn **882** mục, rồi đọc lại toàn bộ bằng mắt và loại 33 câu khớp nhầm từ/nghĩa (つまみ↔おつまみ, かります↔分かります, やさしい↔優しい…), còn **849** mục trong `tools/tatoeba_ex.json`; `tatoeba_apply.py` thay câu tự soạn khi build.
-- Bản dịch chỉ có tiếng Anh, ghi "(Tatoeba #id, tác giả, CC BY 2.0 FR)". Chưa có furigana cho chữ Hán trong câu. Đã đọc cả 882 câu một lượt (chỉ xét khớp từ/nghĩa, không phải người Nhật kiểm).
+- Bản dịch chỉ có tiếng Anh, ghi "(Tatoeba #id, tác giả, CC BY 2.0 FR)". Furigana: `tools/tatoeba_furi.py DIR` (DIR chứa `jpn_transcriptions.tsv`, bunzip2 từ downloads.tatoeba.org/exports/per_language/jpn/) ghi trường `furi` vào `tatoeba_ex.json`; cả 849 câu khớp chữ 100%. Furigana do Tatoeba tạo tự động (không chuyên gia duyệt). Thẻ có thêm trường `exf` (HTML ruby) để hiện furigana ở mặt sau; `ex` giữ chữ thuần cho giọng đọc. Đã đọc cả 882 câu một lượt (chỉ xét khớp từ/nghĩa, không phải người Nhật kiểm).
 - Khoảng 1700 mục còn lại vẫn là câu tự soạn, chưa có nguồn.
 
 ## Đối chiếu với giáo trình Minna (2026-11-24, người học yêu cầu: mọi thứ phải có nguồn uy tín và chuẩn Minna)
@@ -169,3 +169,12 @@
 - `vocab_cards()` (minna_pages.py): thẻ từ VOCAB giữ id `v-...` (khi có ảnh thì tự có ảnh, không mất tiến độ ôn); thẻ từ `words` có id `w<số bài file>-<romaji>`; từ lặp ở bài sau không tạo thẻ mới. Tổng 2409 thẻ.
 - Cẩn thận khi đổi romaji của từ trong `words`: id thẻ chữ lấy từ romaji, đổi là mất tiến độ ôn của thẻ đó.
 - Service worker có thể giữ bản cũ: tải lại hai lần (hoặc xoá dữ liệu trang) mới thấy thẻ mới.
+
+## Cải tiến 2026-11-24 (mục 3 của danh sách việc còn lại)
+- **Từ có ／ (nhiều biến thể, 308 thẻ)**: giọng đọc đọc từng biến thể có nghỉ; chế độ "Gõ cách đọc" nhận romaji của BẤT KỲ biến thể nào (bộ chuyển kana→romaji `kanaRomaji` trong `assets/nihongo.js`); chế độ "Viết lại" bỏ ký hiệu ／ ～ … (không có nét) nên không còn ô viết thừa.
+- **Chia phần thẻ bài học**: bài > 20 thẻ chia thành các phần ≤ ~20 thẻ (`deck()` trong nihongo.js), mở phần đầu còn thẻ chưa học; nhớ phần đang chọn trong sessionStorage. Thứ tự thẻ trong phần giữ nguyên thứ tự bài.
+- **Furigana Tatoeba**: xem mục "Câu ví dụ Tatoeba".
+- **Nguồn nên đọc**: `tools/taekim_map.py`.
+- **Đề thử kiểu JLPT** (`jlpt.html`, `assets/mock.js`): đề 文字・語彙 TỰ SINH từ 946 từ có chữ Hán đã đối chiếu JMdict (đọc chữ Hán, viết chữ Hán, nghĩa). Không phải đề chính thức; N5 ≈ Minna 1–25, N4 ≈ 26–50 chỉ là ước lượng theo thứ tự giáo trình. Chưa có phần ngữ pháp, đọc hiểu, nghe hiểu: không có nguồn đề chính thức dùng được và câu hỏi tự soạn sẽ lại là nội dung chưa có nguồn.
+- **N3 trở lên: chưa làm**. Cần cả bộ bài mới (từ vựng, mẫu câu, chữ Hán) theo một giáo trình/nguồn N3 cụ thể (ví dụ Shin Kanzen / Soumatome / Minna Chukyu), cần người học chọn giáo trình rồi mới đối chiếu được. Không soạn từ trí nhớ (xem CLAUDE.md).
+- `tools/build.py` có `V_CSS/V_CARDS/V_JS` và `sync_versions()`: tăng số khi sửa `course.css`, `cards.js` (khi dữ liệu thẻ đổi), `nihongo.js`; build tự đồng bộ `?v=` sang các trang viết tay (practice, flashcards, notebook, search, jlpt, roadmap, bài 0001).

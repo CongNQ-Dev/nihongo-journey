@@ -168,6 +168,25 @@ def write_cards(cards):
 
 
 # ---------- trang ----------
+# Số phiên bản ?v= của file dùng chung. Tăng khi sửa file đó; sync_versions() đồng bộ sang các trang viết tay.
+V_CSS, V_CARDS, V_JS = 17, 13, 18
+HAND_PAGES = ["practice.html", "flashcards.html", "notebook.html", "search.html", "jlpt.html",
+              "lessons/0001-hiragana-a-i-u-e-o.html", "reference/roadmap.html"]
+
+
+def sync_versions():
+    for rel in HAND_PAGES:
+        path = os.path.join(ROOT, rel)
+        if not os.path.exists(path):
+            continue
+        t = open(path, encoding="utf-8").read()
+        n = re.sub(r"course\.css\?v=\d+", f"course.css?v={V_CSS}", t)
+        n = re.sub(r"cards\.js\?v=\d+", f"cards.js?v={V_CARDS}", n)
+        n = re.sub(r"nihongo\.js\?v=\d+", f"nihongo.js?v={V_JS}", n)
+        if n != t:
+            open(path, "w", encoding="utf-8").write(n)
+
+
 def page(title, body, base="../"):
     return f"""<!doctype html>
 <html lang="vi">
@@ -175,15 +194,15 @@ def page(title, body, base="../"):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
-<link rel="stylesheet" href="{base}assets/course.css?v=16">
+<link rel="stylesheet" href="{base}assets/course.css?v={V_CSS}">
 </head>
 <body>
 <main>
 {body}
 </main>
-<script src="{base}assets/cards.js?v=12"></script>
+<script src="{base}assets/cards.js?v={V_CARDS}"></script>
 <script src="{base}assets/strokes.js"></script>
-<script src="{base}assets/nihongo.js?v=17" data-base="{base}assets/"></script>
+<script src="{base}assets/nihongo.js?v={V_JS}" data-base="{base}assets/"></script>
 </body>
 </html>
 """
@@ -352,7 +371,7 @@ def index_html():
   <p class="lede">Hôm nay có <span data-due-count>0</span> thẻ cần ôn. Ôn trước, học bài mới sau.</p>
 </header>
 <div data-progress></div>
-<p class="actions"><a class="btn primary" href="flashcards.html" style="text-decoration:none">Ôn flashcard hôm nay</a> <a class="btn" href="practice.html" style="text-decoration:none">Luyện tự chọn</a> <a class="btn" href="kanji.html" style="text-decoration:none">Kanji</a> <a class="btn" href="notebook.html" style="text-decoration:none">Sổ tay viết</a></p>
+<p class="actions"><a class="btn primary" href="flashcards.html" style="text-decoration:none">Ôn flashcard hôm nay</a> <a class="btn" href="practice.html" style="text-decoration:none">Luyện tự chọn</a> <a class="btn" href="jlpt.html" style="text-decoration:none">Đề thử JLPT</a> <a class="btn" href="kanji.html" style="text-decoration:none">Kanji</a> <a class="btn" href="notebook.html" style="text-decoration:none">Sổ tay viết</a></p>
 <h2>Giai đoạn 0 · Bảng chữ cái</h2>
 <ol class="lesson-list">{items}</ol>
 <p>Học theo thứ tự, mỗi ngày tối đa một bài mới. Xong bài 0011 là đọc được Minna no Nihongo bài 1.</p>
@@ -389,8 +408,9 @@ def credits_html(cards):
 <div class="table-wrap"><table><thead><tr><th>Thẻ</th><th>Tác giả</th><th>Giấy phép</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
 <p class="hint">Thứ tự nét chữ: KanjiVG (CC BY-SA 3.0, kanjivg.tagaini.net).</p>
 <p class="hint">Cách đọc, nghĩa và âm Hán Việt của các chữ Hán, cùng cách đọc và chữ viết của từ vựng, được đối chiếu với KANJIDIC2 và JMdict của Electronic Dictionary Research and Development Group (EDRDG, CC BY-SA 4.0, edrdg.org). Chỉ dùng để kiểm tra; nghĩa tiếng Việt do người soạn tự viết.</p>
-<p class="hint">Nhiều câu ví dụ lấy từ <a href="https://tatoeba.org">Tatoeba</a> (CC BY 2.0 FR), kèm bản dịch tiếng Anh; số câu và tác giả được ghi ngay sau từng câu. Các câu ví dụ không có số Tatoeba do người soạn tự viết.</p>
-<nav class="next"><a href="index.html">Mục lục</a><a href="flashcards.html">Ôn hằng ngày</a><a href="practice.html">Luyện tự chọn</a></nav>"""
+<p class="hint">Âm Hán Việt của chữ 着 (“trước”) lấy từ mục tiếng Việt của <a href="https://en.wiktionary.org/wiki/%E7%9D%80">Wiktionary</a> (CC BY-SA). Các link “Đọc thêm” ở bài 11–50 trỏ tới <a href="https://guidetojapanese.org/learn/grammar">Tae Kim’s Guide to Japanese Grammar</a> (CC BY-NC-SA 3.0); chỉ dẫn link, không chép nội dung.</p>
+<p class="hint">Nhiều câu ví dụ lấy từ <a href="https://tatoeba.org">Tatoeba</a> (CC BY 2.0 FR), kèm bản dịch tiếng Anh; số câu và tác giả được ghi ngay sau từng câu. Furigana trên các câu này cũng do Tatoeba tạo tự động (cộng đồng, không có chuyên gia duyệt), chỉ là gợi ý cách đọc. Các câu ví dụ không có số Tatoeba do người soạn tự viết.</p>
+<nav class="next"><a href="index.html">Mục lục</a><a href="flashcards.html">Ôn hằng ngày</a><a href="practice.html">Luyện tự chọn</a><a href="jlpt.html">Đề thử JLPT</a></nav>"""
     return page("Nguồn ảnh", body, base="")
 
 
@@ -462,6 +482,7 @@ def main():
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(index_html())
     open(os.path.join(ROOT, "kanji.html"), "w", encoding="utf-8").write(kanji_html())
     open(os.path.join(ROOT, "credits.html"), "w", encoding="utf-8").write(credits_html(cards))
+    sync_versions()
     write_pwa()
     print(f"{len(cards)} thẻ, {len(LESSONS) + len(MINNA)} bài, 4 bảng tra cứu, index.html")
 

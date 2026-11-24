@@ -17,6 +17,10 @@ def _clean_word(w):
     return re.sub(r"[\[［（(].*?[\]］）)]", "", w).strip()
 
 
+from tatoeba_apply import ruby
+from taekim_map import html as tk_html
+
+
 def vocab_cards(images):
     """Thẻ ảnh cho từ có ảnh; THẺ CHỮ (không ảnh) cho từ chưa có ảnh và cho từ chức năng / câu cố định.
     Id thẻ chữ của từ có trong VOCAB giữ nguyên (v-...), nên khi sau này có ảnh thì thẻ tự có ảnh mà không mất tiến độ ôn."""
@@ -31,6 +35,7 @@ def vocab_cards(images):
         c = dict(id=vid, lesson=v[0], type="vocab", word=v[1], kanji=v[2], romaji=v[3], meaning=v[4], ex=v[6], exvn=v[7])
         if im:
             c.update(img=im["file"], credit=f'{im["artist"][:40]} · {im["license"]}')
+        if ruby(c["ex"]): c["exf"] = ruby(c["ex"])
         out.append(c)
     for n in sorted(LESSONS):
         L = LESSONS[n]
@@ -48,6 +53,7 @@ def vocab_cards(images):
             ro = re.sub(r"[～〜]", "", w[2].split("/")[0]).strip()
             out.append(dict(id=cid, lesson=n, type="vocab", word=word, kanji=(w[1] or "").split("／")[0] if w[1] else "",
                             romaji=ro, meaning=w[3], ex=ex[0], exvn=ex[1]))
+            if ruby(ex[0]): out[-1]["exf"] = ruby(ex[0])
     return out
 
 
@@ -209,7 +215,8 @@ def lesson_html(n, files, page):
     u, t, d = L["primary"]
     out.append(section(s, "Nguồn nên đọc"))
     out.append(f'<p><strong>Chính:</strong> phần giải thích ngữ pháp bài {m} trong <em>bản dịch & giải thích ngữ pháp tiếng Việt</em> của Minna no Nihongo I (3A Corporation) — bạn đã có sách. '
-               f'<strong>Đọc thêm trực tuyến:</strong> <a href="{u}">{t}</a> — {d}</p>')
+               + (f'<strong>Đọc thêm trực tuyến (tiếng Anh, đúng mục):</strong> {tk_html(m)}.</p>' if tk_html(m)
+                  else f'<strong>Đọc thêm trực tuyến:</strong> <a href="{u}">{t}</a> — {d}</p>'))
     used = sorted({k for k in C if C[k][0] in "".join(g[2] for g in L["grammar"])})
     if used:
         out.append('<ol class="sources">' + "".join(f'<li><a href="{C[k][0]}">{C[k][1]}</a></li>' for k in used) + "</ol>")

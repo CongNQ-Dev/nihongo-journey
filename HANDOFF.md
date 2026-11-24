@@ -51,8 +51,9 @@ Những phần này vẫn do người soạn tự viết, **chưa có nguồn**,
 - Hội thoại và giải thích ngữ pháp.
 - Việc chọn chữ Hán đưa vào bài.
 - Các câu ví dụ không tìm được câu Tatoeba (khoảng 40% mục).
-- Mục "Nguồn nên đọc" của bài 11–50 mới chỉ trỏ tới mục lục Tae Kim.
-- Hán Việt của 着 chưa xác minh.
+- Mục "Nguồn nên đọc": 37/40 bài đã trỏ đúng mục Tae Kim (`tools/taekim_map.py`); bài 34, 42, 45 vẫn trỏ mục lục.
+- Hán Việt của 着 lấy từ Wiktionary, nên đối chiếu thêm từ điển Hán Việt.
+- Còn lại: ～だけ/N でも (JF không nêu), đề JLPT chỉ có phần 文字・語彙 tự sinh, N3+ chưa làm.
 
 ## Quy trình sau mỗi thay đổi (theo `CLAUDE.md`)
 ```
