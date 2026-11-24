@@ -12,17 +12,42 @@ E = lambda s: html.escape(s, quote=True)  # noqa: E731
 HAVE_CARDS = set()   # số bài (file) đã có ít nhất một thẻ ảnh
 
 
+def _clean_word(w):
+    """Bỏ chú thích trong ngoặc ([な], （あめが）...) để làm mặt thẻ; giữ ～ và ／."""
+    return re.sub(r"[\[［（(].*?[\]］）)]", "", w).strip()
+
+
 def vocab_cards(images):
+    """Thẻ ảnh cho từ có ảnh; THẺ CHỮ (không ảnh) cho từ chưa có ảnh và cho từ chức năng / câu cố định.
+    Id thẻ chữ của từ có trong VOCAB giữ nguyên (v-...), nên khi sau này có ảnh thì thẻ tự có ảnh mà không mất tiến độ ôn."""
     out = []
+    seen = set()
     HAVE_CARDS.clear()
     for v in VOCAB:
         vid = vocab_id(v)
         im = images.get(vid)
-        if not im:  # ảnh chưa duyệt / chưa tải → chưa có thẻ
-            continue
         HAVE_CARDS.add(v[0])
-        out.append(dict(id=vid, lesson=v[0], type="vocab", word=v[1], kanji=v[2], romaji=v[3], meaning=v[4],
-                        ex=v[6], exvn=v[7], img=im["file"], credit=f'{im["artist"][:40]} · {im["license"]}'))
+        seen.add(_clean_word(v[1]))
+        c = dict(id=vid, lesson=v[0], type="vocab", word=v[1], kanji=v[2], romaji=v[3], meaning=v[4], ex=v[6], exvn=v[7])
+        if im:
+            c.update(img=im["file"], credit=f'{im["artist"][:40]} · {im["license"]}')
+        out.append(c)
+    for n in sorted(LESSONS):
+        L = LESSONS[n]
+        used = set()
+        for w, ex in zip(L["words"], WORD_EX[n]):
+            word = _clean_word(w[0])
+            if not word or word in seen:      # từ đã có thẻ ở bài trước thì không lặp lại
+                continue
+            seen.add(word)
+            slug = re.sub(r"[^a-z0-9]", "", w[2].lower()) or "x"
+            cid, k = f"w{n}-{slug}", 2
+            while cid in used:
+                cid, k = f"w{n}-{slug}{k}", k + 1
+            used.add(cid)
+            ro = re.sub(r"[～〜]", "", w[2].split("/")[0]).strip()
+            out.append(dict(id=cid, lesson=n, type="vocab", word=word, kanji=(w[1] or "").split("／")[0] if w[1] else "",
+                            romaji=ro, meaning=w[3], ex=ex[0], exvn=ex[1]))
     return out
 
 

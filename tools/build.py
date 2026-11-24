@@ -105,7 +105,7 @@ def all_cards():
                         meaning=c[6], img=im["file"], credit=f'{im["artist"][:40]} · {im["license"]}'))
     missing = [vocab_id(v) for v in VOCAB if vocab_id(v) not in IMAGES]
     if missing:
-        print("CHƯA CÓ ẢNH (bỏ qua thẻ):", " ".join(missing))
+        print("CHƯA CÓ ẢNH (dùng thẻ chữ):", " ".join(missing))
     out += minna_pages.vocab_cards(IMAGES)
     out += kanji_cards()
     return out
@@ -181,7 +181,7 @@ def page(title, body, base="../"):
 <main>
 {body}
 </main>
-<script src="{base}assets/cards.js?v=11"></script>
+<script src="{base}assets/cards.js?v=12"></script>
 <script src="{base}assets/strokes.js"></script>
 <script src="{base}assets/nihongo.js?v=17" data-base="{base}assets/"></script>
 </body>

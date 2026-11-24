@@ -163,3 +163,9 @@
 - Trạng thái từng bài ở `tools/source_status.json` ({"<bài Minna>": {"verified": "YYYY-MM-DD"}}). CHỈ ghi khi người học xác nhận đã so xong bài đó; mặc định mọi bài là "chưa đối chiếu với sách". Trang bài hiện nhãn nguồn (`source_note` trong `tools/minna_pages.py`) lấy từ file này.
 - Khi người học báo chỗ sai trong bảng: sửa ở `tools/minna_*.py`, chạy lại `doi_chieu.py` và `build.py`.
 - Nghĩa EN trong bảng tra tự động nên có thể lệch (từ nhiều nghĩa) hoặc trống (câu giao tiếp, tên riêng, từ ghép).
+
+## Thẻ chữ (2026-11-24, người học yêu cầu)
+- Quy ước cũ "mọi thẻ có ảnh" nới ra: từ vựng KHÔNG có ảnh (104 từ chưa tìm được ảnh đúng nghĩa) và từ chức năng / câu cố định (bảng `words`) có **thẻ chữ**: mặt trước chỉ chữ to, mặt sau nghĩa + câu ví dụ. Vẫn không dùng icon / emoji / hình vẽ thay ảnh.
+- `vocab_cards()` (minna_pages.py): thẻ từ VOCAB giữ id `v-...` (khi có ảnh thì tự có ảnh, không mất tiến độ ôn); thẻ từ `words` có id `w<số bài file>-<romaji>`; từ lặp ở bài sau không tạo thẻ mới. Tổng 2409 thẻ.
+- Cẩn thận khi đổi romaji của từ trong `words`: id thẻ chữ lấy từ romaji, đổi là mất tiến độ ôn của thẻ đó.
+- Service worker có thể giữ bản cũ: tải lại hai lần (hoặc xoá dữ liệu trang) mới thấy thẻ mới.
