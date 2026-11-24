@@ -48,19 +48,24 @@
   const vocabItems = CARDS.filter(c => c.type === "vocab").map(c => ({
     key: "v:" + c.id, label: c.word, group: "Minna bài " + (c.lesson - 11), read: c.romaji, vn: c.meaning, card: c }));
 
-  const POOLS = { hira: kanaItems(false), kata: kanaItems(true), vocab: vocabItems };
+  const kanjiItems = CARDS.filter(c => c.type === "kanji").map(c => {
+    const m = /^Hán Việt:\s*([^—]+?)\s*—\s*(.*)$/.exec(c.vn || "");
+    return { key: "j:" + c.id, label: c.glyph, group: "Minna bài " + (c.lesson - 11), read: m ? m[1] : c.vn, vn: m ? m[2] : "", card: c };
+  });
+  const POOLS = { hira: kanaItems(false), kata: kanaItems(true), vocab: vocabItems, kanji: kanjiItems };
   const ALL = {}; Object.values(POOLS).forEach(list => list.forEach(it => ALL[it.key] = it));
 
   /* ---------- Trạng thái (nhớ trong trình duyệt này) ---------- */
-  let st = { tab: "hira", sel: [], n: 5, lessons: [] };
+  let st = { tab: "hira", sel: [], n: 5, lessons: [], act: "write" };
   try { st = { ...st, ...JSON.parse(localStorage.getItem(KEY)) }; } catch {}
   let sel = new Set(st.sel.filter(k => ALL[k])), picked = [], mode = "cards";
-  const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ tab: st.tab, sel: [...sel], n: st.n, lessons: st.lessons })); } catch {} };
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ tab: st.tab, sel: [...sel], n: st.n, lessons: st.lessons, act: st.act })); } catch {} };
   const root = document.querySelector("[data-practice]");
-  const TABS = { hira: "Hiragana", kata: "Katakana", vocab: "Từ vựng", sent: "Đặt câu" };
+  const TABS = { hira: "Hiragana", kata: "Katakana", vocab: "Từ vựng", kanji: "Kanji", sent: "Câu & ngữ pháp" };
   const SENT = window.SENTENCES || {};
   const clampN = v => Math.max(1, Math.min(Math.round(+v) || 5, 100));
-  const tabOf = k => k[0] === "h" ? "hira" : k[0] === "k" ? "kata" : "vocab";
+  const tabOf = k => k[0] === "h" ? "hira" : k[0] === "k" ? "kata" : k[0] === "j" ? "kanji" : "vocab";
+  const isWord = it => it.key[0] === "v" || it.key[0] === "j";
   const chosen = () => [...sel].filter(k => tabOf(k) === st.tab);   // chỉ lấy lựa chọn của tab đang mở
   const pool = () => chosen().length ? chosen().map(k => ALL[k]) : POOLS[st.tab].slice();
 
@@ -83,8 +88,8 @@
         return `<button class="gcard${c === items.length ? " on" : c ? " part" : ""}" data-group="${esc(g)}"><b>${esc(g)}</b><span class="jp">${esc(prev)}</span>${c ? `<em>${c}/${items.length}</em>` : ""}</button>`;
       }).join("")}</div>
       <details class="pr-more"><summary>Hoặc chọn từng ${st.tab === "vocab" ? "từ" : "chữ"} một</summary>
-        <div class="pr-grid${st.tab === "vocab" ? " words" : ""}">${list.map(it =>
-          `<button class="cell jp${sel.has(it.key) ? " on" : ""}" data-key="${esc(it.key)}">${esc(it.label)}${st.tab === "vocab" ? `<small>${esc(it.vn)}</small>` : ""}</button>`).join("")}</div>
+        <div class="pr-grid${st.tab === "vocab" || st.tab === "kanji" ? " words" : ""}">${list.map(it =>
+          `<button class="cell jp${sel.has(it.key) ? " on" : ""}" data-key="${esc(it.key)}">${esc(it.label)}${st.tab === "vocab" || st.tab === "kanji" ? `<small>${esc(it.read)}</small>` : ""}</button>`).join("")}</div>
       </details>
       <div class="pr-dock">
         <p class="pr-sum">${summary}</p>
@@ -110,32 +115,17 @@
         <div class="pr-sess-head"><button class="btn" data-back>← Chọn lại</button>
           <strong>${picked.length} mục ngẫu nhiên</strong>
           <button class="btn" data-redraw>Bốc lượt khác</button></div>
-        <div class="pr-modes">${[["cards", "Flashcard"], ["write", "Viết lại"], ["recog", "Trắc nghiệm"], ["read", "Gõ cách đọc"], ["listen", "Nghe chọn"]].map(([k, v]) =>
-          `<button class="btn${k === mode ? " primary" : ""}" data-mode="${k}">${v}</button>`).join("")}</div>
         <div class="pr-stage"></div>
         <details class="pr-more"><summary>Xem ${picked.length} mục vừa bốc</summary>
-          <p class="pr-picked-list">${picked.map(it => `<button class="say jp" data-say="${esc(it.label)}">${esc(it.label)}</button> <span class="hint">${esc(it.read)}${st.tab === "vocab" || it.key[0] === "v" ? " · " + esc(it.vn) : ""}</span>`).join("<br>")}</p></details>
+          <p class="pr-picked-list">${picked.map(it => `<button class="say jp" data-say="${esc(it.label)}">${esc(it.label)}</button> <span class="hint">${esc(it.read)}${st.tab === "vocab" || isWord(it) ? " · " + esc(it.vn) : ""}</span>`).join("<br>")}</p></details>
       </div>`;
     run();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
   function run() {
-    root.querySelectorAll("[data-mode]").forEach(b => b.classList.toggle("primary", b.dataset.mode === mode));
     const stage = root.querySelector(".pr-stage"); stage.innerHTML = "";
     const el = document.createElement("div"); stage.append(el);
-    if (mode === "cards") N.deck(el, { cards: picked.map(it => it.card) });
-    if (mode === "write") N.rewrite(el, picked.map(it => ({ text: it.label, prompt: it.read,
-      hint: it.key[0] === "v" ? it.vn : (it.key[0] === "k" ? "katakana" : "hiragana") })));
-    if (mode === "recog") {
-      const conv = it => ({ text: it.label, romaji: it.read, vn: it.vn, kind: it.key[0] === "v" ? "vocab" : "kana" });
-      N.recognize(el, picked.map(conv), { pool: POOLS[st.tab].map(conv) });
-    }
-    if (mode === "read") { el.dataset.read = JSON.stringify(picked.map(it => [it.label, it.read, it.vn])); N.reader(el); }
-    if (mode === "listen") {
-      if (picked.length < 2) { el.className = "note"; el.textContent = "Cần ít nhất 2 mục để nghe chọn — hãy bốc nhiều hơn."; return; }
-      el.dataset.listen = picked.map(it => it.label.replace(/\s+/g, "")).join(" ");
-      el.dataset.rounds = Math.min(20, Math.max(8, picked.length * 2)); N.listen(el);
-    }
+    N.modes(el, picked.map(it => it.card), { graded: false, pool: POOLS[st.tab].map(it => it.card), mode });
   }
   function draw(all) {
     const p = N.shuffle(pool());
@@ -147,24 +137,66 @@
   const chosenLessons = () => st.lessons.filter(n => SENT[n]);
   let sq = [], si = 0, sdone = [], sshown = false;
 
+  const ACTS = [["write", "Đặt câu"], ["dict", "Chép chính tả"], ["gram", "Thẻ ngữ pháp"]];
+  const ACT_HINT = { write: "Từ vựng của các bài đã chọn được <b>trộn lại</b>. Bạn đặt một câu cho từng từ, dùng các mẫu ngữ pháp của chính những bài đó.",
+    dict: "Máy đọc một câu mẫu của các bài đã chọn, bạn nghe rồi gõ lại. Luyện nghe và nhớ mặt chữ cùng lúc.",
+    gram: "Mỗi thẻ là một mẫu ngữ pháp: nhìn mẫu, tự nói nghĩa và một câu ví dụ, rồi lật xem đáp án. Luyện thêm, không ghi vào lịch ôn." };
+  const GO = { write: w => `Trộn ${w || ""} từ &amp; đặt câu`, dict: () => "Bắt đầu chép chính tả (10 câu)", gram: () => "Xem thẻ ngữ pháp" };
   function setupSent() {
     const ls = chosenLessons(), words = ls.reduce((t, n) => t + SENT[n].words.length, 0);
     root.innerHTML = `
       <div class="pr-tabs" role="tablist">${Object.entries(TABS).map(([k, v]) =>
         `<button data-tab="${k}" class="${k === st.tab ? "on" : ""}">${v}</button>`).join("")}</div>
-      <h2 class="pr-h">1. Chọn các bài ngữ pháp <small>(ví dụ bài 1, 2, 3)</small></h2>
-      <p class="hint">Từ vựng của các bài đã chọn sẽ được <b>trộn lại</b>. Bạn đặt một câu cho từng từ, dùng các mẫu ngữ pháp của chính những bài đó.</p>
+      <div class="pr-modes">${ACTS.map(([k, v]) => `<button class="btn${k === st.act ? " primary" : ""}" data-act="${k}">${v}</button>`).join("")}</div>
+      <p class="hint">${ACT_HINT[st.act]}</p>
+      <h2 class="pr-h">Chọn các bài ngữ pháp <small>(ví dụ bài 1, 2, 3)</small></h2>
       <div class="pr-groups">${lessonNums().map(n => `<button class="gcard${ls.includes(n) ? " on" : ""}" data-sl="${n}"><b>Minna bài ${n}</b><span class="jp">${esc(SENT[n].title)}</span><em>${SENT[n].words.length} từ · ${SENT[n].grammar.length} mẫu</em></button>`).join("")}</div>
       <div class="pr-dock">
         <p class="pr-sum">${ls.length ? `Đã chọn bài <b>${ls.join(", ")}</b> — trộn được <b>${words}</b> từ` : "Chưa chọn bài nào — hãy bấm vào ít nhất một bài ở trên."}</p>
         <div class="pr-row">
-          <button class="btn primary big" data-sgo ${ls.length ? "" : "disabled"}>Trộn ${words || ""} từ &amp; đặt câu</button>
+          <button class="btn primary big" data-sgo ${ls.length ? "" : "disabled"}>${GO[st.act](words)}</button>
           ${ls.length ? `<button class="chip" data-sclear>Bỏ chọn</button>` : ""}
         </div>
       </div>`;
     save();
   }
+  const sentences = () => {                                       // mọi câu mẫu của các bài đã chọn, bỏ trùng
+    const seen = new Set(), out = [];
+    chosenLessons().forEach(n => { SENT[n].words.forEach(w => [[w[3], w[4]]].forEach(x => add(x))); SENT[n].grammar.forEach(g => g[2].forEach(x => add(x))); });
+    function add(x) { const k = (x[0] || "").trim(); if (k && !seen.has(k) && !/^…/.test(k) && k.length < 40) { seen.add(k); out.push(x); } }
+    return out;
+  };
+  function actShell(title, again) {
+    root.innerHTML = `<div class="pr-sess"><div class="pr-sess-head"><button class="btn" data-sback>← Chọn lại</button><strong>${title}</strong>
+      <button class="btn" data-sgo>${again}</button></div><div class="pr-stage"></div></div>`;
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    const el = document.createElement("div"); root.querySelector(".pr-stage").append(el); return el;
+  }
+  function startDict() {
+    const list = N.shuffle(sentences()).slice(0, 10);
+    N.dictation(actShell(`Chính tả · ${list.length} câu`, "Bốc câu khác"), list);
+  }
+  function startGram() {
+    const pats = N.shuffle(chosenLessons().flatMap(n => SENT[n].grammar.map(g => ({ n, g }))));
+    let i = 0, flipped = false, queue = pats.slice(), total = pats.length;
+    const el = actShell(`Ngữ pháp · ${total} mẫu`, "Trộn lại");
+    el.classList.add("quiz");
+    (function show() {
+      if (!queue.length) { el.innerHTML = `<p class="q">Xong ${total} mẫu.</p><p class="hint">Chưa chắc mẫu nào thì mở lại bài tương ứng hoặc bảng ngữ pháp Minna ở mục Tra cứu.</p>`; return; }
+      const { n, g } = queue[0];
+      el.innerHTML = `<p class="q"><span class="score">Còn ${queue.length}/${total} · bài ${n}</span>Mẫu này nghĩa là gì? Thử nói một câu ví dụ.</p>
+        <p class="word jp" style="font-size:1.5rem">${esc(g[0])}</p>
+        <div data-back hidden><p><b>${esc(g[1])}</b></p><ul>${g[2].map(x => `<li><span class="jp">${esc(x[0])}</span> <button class="say" data-say="${esc(x[0])}">nghe</button><br><span class="hint">${esc(x[1])}</span></li>`).join("")}</ul>
+          <div class="row"><button class="btn" data-no>Chưa nhớ</button> <button class="btn primary" data-yes>Nhớ rồi</button></div></div>
+        <p class="row" data-front><button class="btn primary" data-flip>Xem đáp án</button></p>`;
+      el.querySelector("[data-flip]").onclick = () => { el.querySelector("[data-back]").hidden = false; el.querySelector("[data-front]").hidden = true; };
+      const next = ok => { const c = queue.shift(); if (!ok) queue.push(c); show(); };
+      el.querySelector("[data-yes]").onclick = () => next(true); el.querySelector("[data-no]").onclick = () => next(false);
+    })();
+  }
   function startSent() {
+    if (st.act === "dict") return startDict();
+    if (st.act === "gram") return startGram();
     sq = N.shuffle(chosenLessons().flatMap(n => SENT[n].words.map(w => ({ w, n }))));
     si = 0; sdone = []; sshown = false; showSent();
   }
@@ -193,7 +225,8 @@
   root.addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b || st.tab !== "sent") return;
     const d = b.dataset, ta = root.querySelector("[data-stext]");
-    if (d.sl) { const n = +d.sl; st.lessons = st.lessons.includes(n) ? st.lessons.filter(x => x !== n) : [...st.lessons, n]; keep(setupSent); }
+    if (d.act) { st.act = d.act; keep(setupSent); }
+    else if (d.sl) { const n = +d.sl; st.lessons = st.lessons.includes(n) ? st.lessons.filter(x => x !== n) : [...st.lessons, n]; keep(setupSent); }
     else if (b.hasAttribute("data-sclear")) { st.lessons = []; keep(setupSent); }
     else if (b.hasAttribute("data-sgo")) startSent();
     else if (b.hasAttribute("data-sback")) setupSent();
@@ -226,7 +259,7 @@
     else if (b.hasAttribute("data-all")) draw(true);
     else if (b.hasAttribute("data-redraw")) draw(false);
     else if (b.hasAttribute("data-back")) setup();
-    else if (d.mode) { mode = d.mode; run(); }
+    
   });
   root.addEventListener("change", e => { if (e.target.matches("[data-n]")) { st.n = Math.min(clampN(e.target.value), pool().length); keep(setup); } });
   /* Vẽ lại màn chọn mà không làm trang nhảy lên đầu và giữ ô "chọn từng chữ" đang mở. */

@@ -65,7 +65,7 @@ KANJI = [
     (20, "音", "オン", "おと", "Âm", "âm thanh", "音楽", "おんがく", "ongaku", "âm nhạc"),
     (20, "楽", "ガク・ラク", "たの-しい", "Nhạc", "nhạc; vui", "音楽", "おんがく", "ongaku", "âm nhạc"),
     (20, "歌", "カ", "うた", "Ca", "hát, bài hát", "歌", "うた", "uta", "bài hát"),
-    (20, "絵", "カイ", "え", "Hội", "tranh", "絵", "え", "e", "tranh, bức vẽ"),
+    (20, "絵", "カイ・エ", "", "Hội", "tranh", "絵", "え", "e", "tranh, bức vẽ"),
     (20, "子", "シ", "こ", "Tử", "con", "子ども", "こども", "kodomo", "trẻ con"),
     # ---- 0021 · Minna 10
     (21, "男", "ダン", "おとこ", "Nam", "đàn ông", "男の人", "おとこのひと", "otoko no hito", "người đàn ông"),
@@ -75,3 +75,14 @@ KANJI = [
     (21, "公", "コウ", "", "Công", "công cộng", "公園", "こうえん", "kouen", "công viên"),
     (21, "園", "エン", "その", "Viên", "vườn", "公園", "こうえん", "kouen", "công viên"),
 ]
+
+
+# ---- Bài mở rộng (Minna 11+): mỗi file minna_ext_*.py có LESSONS / VOCAB / WORD_EX / KANJI ----
+EXT_MODULES = ("minna_ext_a", "minna_ext_b", "minna_ext_c", "minna_ext_d", "minna_ext_g", "minna_ext_h", "minna_ext_i", "minna_ext_j")
+import importlib as _il
+for _name in EXT_MODULES:
+    try:
+        _m = _il.import_module(_name)
+    except ModuleNotFoundError:
+        continue
+    KANJI.extend(_m.KANJI)

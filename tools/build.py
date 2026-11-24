@@ -105,7 +105,7 @@ def all_cards():
                         meaning=c[6], img=im["file"], credit=f'{im["artist"][:40]} · {im["license"]}'))
     missing = [vocab_id(v) for v in VOCAB if vocab_id(v) not in IMAGES]
     if missing:
-        print("CHƯA CÓ ẢNH (bỏ qua thẻ):", " ".join(missing))
+        print("CHƯA CÓ ẢNH (dùng thẻ chữ):", " ".join(missing))
     out += minna_pages.vocab_cards(IMAGES)
     out += kanji_cards()
     return out
@@ -138,7 +138,7 @@ def kanji_html():
 <div class="note"><strong>Cách học gọn</strong> Mỗi ngày 3–5 chữ mới, không hơn. Học chữ nào thì đọc to từ ví dụ của chữ đó, không chỉ nhìn chữ.</div>"""]
     for les in sorted(groups):
         lf = LESSON_FILES.get(les)
-        body.append(f'<h2>Minna bài {les - 11} · bài {les:04d}</h2>')
+        body.append(f'<h2 id="bai-{les}">Minna bài {les - 11} · bài {les:04d}</h2>')
         if lf:
             body.append(f'<p class="hint"><a href="lessons/{lf[0]}.html">Mở bài học {les:04d}</a></p>')
         for les_, ch, on, kun, hv, mean, word, kana, ro, wmean in groups[les]:
@@ -175,15 +175,15 @@ def page(title, body, base="../"):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
-<link rel="stylesheet" href="{base}assets/course.css?v=15">
+<link rel="stylesheet" href="{base}assets/course.css?v=16">
 </head>
 <body>
 <main>
 {body}
 </main>
-<script src="{base}assets/cards.js?v=11"></script>
+<script src="{base}assets/cards.js?v=12"></script>
 <script src="{base}assets/strokes.js"></script>
-<script src="{base}assets/nihongo.js?v=15" data-base="{base}assets/"></script>
+<script src="{base}assets/nihongo.js?v=17" data-base="{base}assets/"></script>
 </body>
 </html>
 """
@@ -345,7 +345,7 @@ def reference(k):
 def index_html():
     li = lambda rng: "".join(f'<li><span class="num">{n:04d}</span><a href="lessons/{f}.html">{t}</a><span class="jp">{jp}</span></li>'
                              for n, (f, t, jp) in sorted(LESSON_FILES.items()) if n in rng)
-    items, minna = li(range(1, 12)), li(MINNA)
+    items, minna, minna2 = li(range(1, 12)), li([r for r in MINNA if r <= 36]), li([r for r in MINNA if r > 36])
     body = f"""<header class="lesson-head">
   <div class="kicker">Tiếng Nhật · từ số 0 đến N2, rồi N1</div>
   <h1>Mục lục khoá học</h1>
@@ -359,9 +359,14 @@ def index_html():
 <h2>Giai đoạn 1 · Minna no Nihongo sơ cấp I</h2>
 <ol class="lesson-list">{minna}</ol>
 <p>Mỗi bài Minna dài hơn bài kana (60–75 phút) — chia hai buổi nếu cần: buổi 1 từ vựng + ngữ pháp, buổi 2 luyện + sách + viết. Cần có sách Minna, bản dịch tiếng Việt và file nghe.</p>
-<h2>Tra cứu</h2>
+<h2>Giai đoạn 2 · Minna no Nihongo sơ cấp II</h2>
+<ol class="lesson-list">{minna2}</ol>
+<p>Sơ cấp II (bài 26–50) nhanh hơn: nhiều thể động từ và mẫu câu liên kết. Học thể て, ない, từ điển, た thật chắc trước khi vào, và ôn flashcard mỗi ngày.</p>
+<h2 id="tra-cuu">Tra cứu</h2>
+<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li></ul>
+<h2 id="sao-luu">Sao lưu tiến độ</h2>
 <div data-backup></div>
-<ul><li><a href="reference/hiragana.html">Bảng hiragana</a></li><li><a href="reference/katakana.html">Bảng katakana</a></li><li><a href="reference/minna-grammar.html">Ngữ pháp Minna 1–10</a></li><li><a href="reference/numbers-counters.html">Số, giờ, ngày</a></li><li><a href="reference/roadmap.html">Bản đồ N5 → N1</a></li><li><a href="kanji.html">Kanji theo bài Minna</a></li><li><a href="credits.html">Nguồn ảnh</a></li></ul>"""
+<p class="hint">Ảnh thẻ và thứ tự nét lấy từ nguồn mở: <a href="credits.html">xem ghi nguồn</a>.</p>"""
     return page("Mục lục khoá tiếng Nhật", body, base="")
 
 
@@ -381,8 +386,10 @@ def credits_html(cards):
   <h1>Nguồn ảnh</h1>
   <p class="lede">Ảnh trên thẻ lấy từ Wikimedia Commons theo giấy phép Creative Commons hoặc phạm vi công cộng. Để thẻ gọn, tên tác giả và giấy phép được ghi ở trang này.</p>
 </header>
-<table><thead><tr><th>Thẻ</th><th>Tác giả</th><th>Giấy phép</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table>
+<div class="table-wrap"><table><thead><tr><th>Thẻ</th><th>Tác giả</th><th>Giấy phép</th><th></th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
 <p class="hint">Thứ tự nét chữ: KanjiVG (CC BY-SA 3.0, kanjivg.tagaini.net).</p>
+<p class="hint">Cách đọc, nghĩa và âm Hán Việt của các chữ Hán, cùng cách đọc và chữ viết của từ vựng, được đối chiếu với KANJIDIC2 và JMdict của Electronic Dictionary Research and Development Group (EDRDG, CC BY-SA 4.0, edrdg.org). Chỉ dùng để kiểm tra; nghĩa tiếng Việt do người soạn tự viết.</p>
+<p class="hint">Nhiều câu ví dụ lấy từ <a href="https://tatoeba.org">Tatoeba</a> (CC BY 2.0 FR), kèm bản dịch tiếng Anh; số câu và tác giả được ghi ngay sau từng câu. Các câu ví dụ không có số Tatoeba do người soạn tự viết.</p>
 <nav class="next"><a href="index.html">Mục lục</a><a href="flashcards.html">Ôn hằng ngày</a><a href="practice.html">Luyện tự chọn</a></nav>"""
     return page("Nguồn ảnh", body, base="")
 
@@ -400,8 +407,44 @@ def write_sentence_data():
         data[n - 11] = dict(title=L["title"], words=words,
                             grammar=[[g[0], g[1], [list(e) for e in g[3]]] for g in L["grammar"]])
     js = ("/* SINH TỰ ĐỘNG bởi tools/build.py — đừng sửa tay. Dữ liệu cho chế độ Đặt câu (practice.html). */\n"
-          "window.SENTENCES = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n")
+          "window.SENTENCES = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n"
+          "window.LESSON_FILES = " + json.dumps({n: f[0] for n, f in LESSON_FILES.items()}, ensure_ascii=False) + ";\n")
     open(os.path.join(ROOT, "assets", "sentences.js"), "w", encoding="utf-8").write(js)
+
+
+def write_pwa():
+    """sw.js: lưu sẵn mọi trang + asset để học khi không có mạng (cần https hoặc localhost). Phiên bản = hash nội dung."""
+    import hashlib
+    files = []
+    for d, _, fs in os.walk(ROOT):
+        if any(x in d for x in (".git", "tools", "learning-records", "node_modules")):
+            continue
+        for f in sorted(fs):
+            rel = os.path.relpath(os.path.join(d, f), ROOT).replace(os.sep, "/")
+            if rel.endswith((".html", ".js", ".css", ".jpg", ".png", ".svg", ".webmanifest")) and rel != "sw.js":
+                files.append(rel)
+    files.sort()
+    h = hashlib.sha1()
+    for rel in files:
+        h.update(rel.encode()); h.update(open(os.path.join(ROOT, rel), "rb").read())
+    sw = f"""/* SINH TỰ ĐỘNG bởi tools/build.py — đừng sửa tay. */
+const VER = "nihongo-{h.hexdigest()[:10]}", FILES = {json.dumps(files, ensure_ascii=False)};
+self.addEventListener("install", e => {{
+  e.waitUntil(caches.open(VER).then(c => Promise.all(FILES.map(f => c.add(f).catch(() => {{}})))).then(() => self.skipWaiting()));
+}});
+self.addEventListener("activate", e => {{
+  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== VER).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+}});
+/* Ưu tiên bản đã lưu (chạy được khi mất mạng), đồng thời tải bản mới ngầm cho lần sau. */
+self.addEventListener("fetch", e => {{
+  if (e.request.method !== "GET" || new URL(e.request.url).origin !== location.origin) return;
+  e.respondWith(caches.open(VER).then(c => c.match(e.request, {{ ignoreSearch: true }}).then(hit => {{
+    const net = fetch(e.request).then(r => {{ if (r.ok) c.put(e.request, r.clone()); return r; }}).catch(() => hit);
+    return hit || net;
+  }})));
+}});
+"""
+    open(os.path.join(ROOT, "sw.js"), "w", encoding="utf-8").write(sw)
 
 
 def main():
@@ -419,6 +462,7 @@ def main():
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(index_html())
     open(os.path.join(ROOT, "kanji.html"), "w", encoding="utf-8").write(kanji_html())
     open(os.path.join(ROOT, "credits.html"), "w", encoding="utf-8").write(credits_html(cards))
+    write_pwa()
     print(f"{len(cards)} thẻ, {len(LESSONS) + len(MINNA)} bài, 4 bảng tra cứu, index.html")
 
 

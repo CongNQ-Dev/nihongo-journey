@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 from kana_data import CARDS  # noqa: E402
 from minna_vocab import VOCAB, vocab_id  # noqa: E402
 
-UA = "kana-flashcards-study/1.0 (personal learning project)"
+UA = "nihongo-journey-study/1.0 (educational project; https://github.com/CongNQ-Dev/nihongo-journey)"
 API = "https://commons.wikimedia.org/w/api.php"
 CAND = os.path.join(ROOT, "tools", "candidates.json")
 CHOSEN = os.path.join(ROOT, "tools", "images.json")
@@ -46,6 +46,15 @@ PICK = {  # đã duyệt bằng mắt 2026-11-14
 
 # Không tìm được ảnh đúng nghĩa → không có thẻ (từ vẫn nằm trong bảng từ vựng của bài).
 SKIP = set()
+
+# Đợt duyệt 2026-11-24 (473 thẻ Minna 11+): id → chỉ số ứng viên, -1 = không có ảnh đúng nghĩa (bỏ qua).
+_P = os.path.join(os.path.dirname(os.path.abspath(__file__)), "image_picks.json")
+if os.path.exists(_P):
+    for _k, _v in json.load(open(_P)).items():
+        if _v < 0:
+            SKIP.add(_k)
+        else:
+            PICK[_k] = _v
 
 # Thẻ mà kết quả “Quality images” lạc đề: tìm lại bằng query này, chỉ tìm thường.
 QUERY_FIX = {
@@ -132,11 +141,11 @@ def cmd_search():
         if cid in old and old[cid]["query"] == q and old[cid]["cands"]:
             continue
         seen, cands = set(), []
-        for extra in (("",) if cid in QUERY_FIX else ("incategory:Quality_images", "")):
+        for extra in ("",):
             for x in search(q, extra):
                 if x["title"] not in seen:
                     seen.add(x["title"]); cands.append(x)
-            time.sleep(1.5)
+            time.sleep(4)
         old[cid] = dict(query=q, cands=cands[:6])
         json.dump(old, open(CAND, "w"), ensure_ascii=False, indent=1)
         print(cid, len(cands), flush=True)
@@ -144,6 +153,7 @@ def cmd_search():
 
 def fetch(url):
     import urllib.error
+    url = url.replace("://thumb.wikimedia.org/", "://upload.wikimedia.org/")
     for attempt in range(6):
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         try:

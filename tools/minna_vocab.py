@@ -6,6 +6,8 @@ VOCAB: (bài, kana, kanji, romaji, nghĩa, query Commons, câu ví dụ, nghĩa 
 - Id thẻ = "v-" + romaji (chỉ chữ cái). Đừng đổi romaji sau khi đã học — tiến độ ôn lưu theo id.
 """
 
+import re
+
 VOCAB = [
     # ---- 0012 · Minna 1
     (12, "せんせい", "先生", "sensei", "giáo viên, thầy/cô", "teacher at blackboard classroom", "たなかさんは せんせいです。", "Anh Tanaka là giáo viên."),
@@ -146,6 +148,26 @@ VOCAB = [
     (21, "こうえん", "公園", "kouen", "công viên", "park Japan", "こうえんに きが たくさん あります。", "Trong công viên có nhiều cây."),
     (21, "きっさてん", "喫茶店", "kissaten", "quán cà phê", "kissaten coffee shop Japan", "ぎんこうと ゆうびんきょくの あいだに きっさてんが あります。", "Giữa ngân hàng và bưu điện có quán cà phê."),
 ]
+
+
+# ---- Bài mở rộng (Minna 11+): mỗi file minna_ext_*.py có LESSONS / VOCAB / WORD_EX / KANJI ----
+EXT_MODULES = ("minna_ext_a", "minna_ext_b", "minna_ext_c", "minna_ext_d", "minna_ext_g", "minna_ext_h", "minna_ext_i", "minna_ext_j", "minna_add_a", "minna_add_b", "minna_add_c", "minna_add_d", "minna_add_e", "minna_add_f")
+import importlib as _il
+for _name in EXT_MODULES:
+    try:
+        _m = _il.import_module(_name)
+    except ModuleNotFoundError:
+        continue
+    VOCAB.extend(getattr(_m, "VOCAB", []))
+    for _rid, (_les, _ex, _exvn) in getattr(_m, "VOCAB_MOVE", {}).items():   # chuyển từ về đúng bài (kèm câu ví dụ hợp ngữ pháp bài đó)
+        for _i, _v in enumerate(VOCAB):
+            if "v-" + re.sub(r"[^a-z0-9]", "", _v[3].lower()) == _rid:
+                VOCAB[_i] = (_les, _v[1], _v[2], _v[3], _v[4], _v[5], _ex, _exvn)
+
+
+# Câu ví dụ có nguồn (Tatoeba) thay câu tự soạn khi có
+from tatoeba_apply import override as _ov
+VOCAB[:] = [(_v[0], _v[1], _v[2], _v[3], _v[4], _v[5], *_ov("VOCAB", _v[0], _v[1], _v[6], _v[7])) for _v in VOCAB]
 
 
 def vocab_id(v):

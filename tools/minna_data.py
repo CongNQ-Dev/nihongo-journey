@@ -72,6 +72,9 @@ LESSONS[12] = dict(
         ("N1 の N2", "N2 của / thuộc N1",
          "<p>の nối hai danh từ: N1 nói rõ N2 thuộc đâu. Ở bài này: nơi làm việc, trường học. Thứ tự ngược tiếng Việt: <span class=\"jp\">だいがくの がくせい</span> = sinh viên (của) đại học.</p>",
          [("わたしは さくらだいがくの がくせいです。", "Tôi là sinh viên trường đại học Sakura."), ("すずきさんは みどりびょういんの いしゃです。", "Chị Suzuki là bác sĩ bệnh viện Midori.")]),
+        ("N は ～さいです", "N ~ tuổi",
+         '<p>Nói tuổi: số + <span class="jp">さい</span> + です. Hỏi: <span class="jp">なんさいですか</span> (thân mật) hoặc <span class="jp">おいくつですか</span> (lịch sự). 1 tuổi: いっさい; 8 tuổi: はっさい; 20 tuổi: <span class="jp">はたち</span>.</p>',
+         [("わたしは にじゅうごさいです。", "Tôi 25 tuổi."), ("リンさんは おいくつですか。…さんじゅっさいです。", "Chị Linh bao nhiêu tuổi ạ? …30 tuổi.")]),
     ],
     drill=[
         ("わたし ＿ ナムです。", ["は", "も", "の", "か"], 1, "Chủ đề của câu → は.", True),
@@ -891,3 +894,16 @@ LESSONS[21] = dict(
             "Ôn bài 1–10: nói to 10 câu về bản thân, mỗi bài một câu."],
     primary=(TK + "verbs", "Tae Kim — Verb basics", "phần về ある và いる."),
 )
+
+
+# ---- Bài mở rộng (Minna 11+): mỗi file minna_ext_*.py có LESSONS / VOCAB / WORD_EX / KANJI ----
+EXT_MODULES = ("minna_ext_a", "minna_ext_b", "minna_ext_c", "minna_ext_d", "minna_ext_g", "minna_ext_h", "minna_ext_i", "minna_ext_j", "minna_add_a", "minna_add_b", "minna_add_c", "minna_add_d", "minna_add_e", "minna_add_f")
+import importlib as _il
+for _name in EXT_MODULES:
+    try:
+        _m = _il.import_module(_name)
+    except ModuleNotFoundError:
+        continue
+    LESSONS.update(getattr(_m, "LESSONS", {}))
+    for _n, _rows in getattr(_m, "WORDS_ADD", {}).items():       # từ chức năng bổ sung cho bài đã có
+        LESSONS[_n]["words"] = list(LESSONS[_n]["words"]) + [tuple(r[:4]) for r in _rows]

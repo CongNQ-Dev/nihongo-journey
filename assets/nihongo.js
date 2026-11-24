@@ -48,13 +48,20 @@
   });
 
   /* ---------- Lịch ôn Leitner ---------- */
-  const DAYS = [0, 1, 3, 7, 14], DAY = 864e5, KEY = "nihongo-srs-v1";
+  const DAYS = [0, 1, 3, 7, 14, 30, 60, 120], DAY = 864e5, KEY = "nihongo-srs-v1", SKEY = "nihongo-stats-v1";
   const load = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
   const save = s => { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch {} };
+  const dayKey = t => { const d = new Date(t || Date.now()); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
+  const loadStats = () => { try { return JSON.parse(localStorage.getItem(SKEY)) || {}; } catch { return {}; } };
+  function logStat(ok, fresh) {
+    try { const s = loadStats(), k = dayKey(), r = s[k] || { ok: 0, bad: 0 }; ok ? r.ok++ : r.bad++; if (fresh) r.fresh = (r.fresh || 0) + 1; s[k] = r; localStorage.setItem(SKEY, JSON.stringify(s)); } catch {}
+  }
+  const NEW_MAX = 20;                                                  // gợi ý, không chặn cứng
+  const newToday = () => (loadStats()[dayKey()] || {}).fresh || 0;
   function grade(id, ok) {
-    const s = load(), cur = s[id] || { box: 0 };
+    const s = load(), cur = s[id] || { box: 0 }, fresh = !s[id];
     const box = ok ? Math.min(cur.box + 1, DAYS.length - 1) : 0;
-    s[id] = { box, due: Date.now() + DAYS[box] * DAY }; save(s);
+    s[id] = { box, due: Date.now() + DAYS[box] * DAY, miss: (cur.miss || 0) + (ok ? 0 : 1) }; save(s); logStat(ok, fresh);
   }
   const isDue = id => { const c = load()[id]; return !!c && c.due <= Date.now(); };
   const isNew = id => !load()[id];
@@ -88,13 +95,13 @@
     let queue = practice ? opt.cards.slice() : (window.CARDS || []).filter(c => review ? isDue(c.id) : String(c.lesson) === el.dataset.lesson && (el.dataset.type ? c.type === el.dataset.type : c.type !== "kanji"));
     if (review || practice) shuffle(queue);
     const total = queue.length; let done = 0;
-    const mode = practice ? "Luyện tự chọn" : review ? "Ôn tập" : "Học mới";
-    const mark = (c, ok) => { if (!practice) grade(c.id, ok); queue.shift(); if (ok) done++; else queue.push(c); show(); };
+    const mode = practice ? (opt.graded ? "Ôn tập" : "Luyện tự chọn") : review ? "Ôn tập" : "Học mới";
+    const mark = (c, ok) => { if (!practice || opt.graded) grade(c.id, ok); queue.shift(); if (ok) done++; else queue.push(c); show(); };
     el.classList.add("deck");
     function show() {
       el.innerHTML = "";
       if (!queue.length && practice) {
-        const d = $("div", "deck-done", `Xong ${total} thẻ. Luyện tự chọn không thay đổi lịch ôn hằng ngày. <button class="btn primary" data-again>Làm lại lượt này</button>`);
+        const d = $("div", "deck-done", `Xong ${total} thẻ. ${opt.graded ? "Kết quả đã ghi vào lịch ôn." : "Luyện tự chọn không thay đổi lịch ôn hằng ngày."} <button class="btn primary" data-again>Làm lại lượt này</button>`);
         d.querySelector("[data-again]").onclick = () => deck(el, opt);
         el.append(d); if (opt.onDone) opt.onDone(); return;
       }
@@ -102,11 +109,11 @@
         const fresh = (window.CARDS || []).filter(c => isNew(c.id)).length;
         el.append($("div", "deck-done", review && !total
           ? `Hôm nay không có thẻ nào đến hạn.${fresh ? ` Còn ${fresh} thẻ chưa học — mở bài học tương ứng để học lần đầu.` : ""}`
-          : `Xong ${total} thẻ. Thẻ “nhớ rồi” sẽ quay lại sau 1, 3, 7, 14 ngày ở trang ôn tập.`));
+          : `Xong ${total} thẻ. Thẻ “nhớ rồi” sẽ quay lại sau 1, 3, 7, 14… ngày ở trang ôn tập.`));
         return;
       }
       const c = queue[0], vocab = c.type === "vocab", big = vocab ? c.word : c.glyph;
-      el.append($("div", "deck-bar", `<span>Thẻ ${done + 1} / ${total}</span><span>${mode}${vocab ? " · từ vựng" : ""}</span>`));
+      el.append($("div", "deck-bar", `<span>Thẻ ${done + 1} / ${total}</span><span>${mode}${vocab ? " · từ vựng" : ""}${!practice && !review && newToday() >= NEW_MAX ? ` · <b>hôm nay đã ${newToday()} thẻ mới, nên dừng</b>` : ""}</span>`));
       /* Hai mặt xếp chồng trong cùng một ô lưới nên luôn cao bằng nhau; lật bằng xoay 3D. */
       const face = (cls, veil, body) => {
         const photo = c.img
@@ -338,7 +345,7 @@
     const ch = el.dataset.write, paths = (window.STROKES || {})[ch] || [];
     el.classList.add("writer");
     const svgPaths = cls => paths.map(d => `<path class="${cls}" d="${d}"/>`).join("");
-    const nums = paths.map((d, i) => { const m = d.match(/M\s*([\d.]+)[ ,]([\d.]+)/); return `<text x="${+m[1] - 7}" y="${+m[2] + 1}">${i + 1}</text>`; }).join("");
+    const nums = paths.map((d, i) => { const m = d.match(/[Mm]\s*([\d.]+)[ ,]([\d.]+)/); return `<text x="${+m[1] - 7}" y="${+m[2] + 1}">${i + 1}</text>`; }).join("");
     el.innerHTML = `<div class="pad"><svg viewBox="0 0 109 109">${svgPaths("guide")}${svgPaths("ink")}${nums}</svg><canvas></canvas></div>
       <div class="row"><button class="btn" data-a="anim">Xem nét</button><button class="btn" data-a="clear">Xoá</button><button class="say" data-say="${ch}">nghe</button></div>`;
     const inks = [...el.querySelectorAll("path.ink")], cv = el.querySelector("canvas"), ctx = cv.getContext("2d");
@@ -572,6 +579,87 @@
     show();
   }
 
+  /* ---------- Chép chính tả: nghe câu, gõ lại ----------
+     Nihongo.dictation(el, [["わたしは ナムです。", "Tôi là Nam."], ...]) */
+  function dictation(el, items) {
+    const clean = t => String(t).replace(/^[…\s]+/, "").replace(/[\s、。，．,.!?！？…・「」『』（）()～〜ー-]/g, "");
+    let order = shuffle(items.slice()), i = 0, ok = 0, missed = [];
+    el.classList.add("quiz", "dict");
+    function show() {
+      if (i >= order.length) {
+        el.innerHTML = `<p class="q">Xong lượt chép chính tả.</p><p class="fb ${ok >= order.length * .8 ? "good" : "bad"}">Đúng ${ok}/${order.length}.</p>
+          <div class="row">${missed.length ? `<button class="btn primary" data-r="miss">Làm lại ${missed.length} câu sai</button>` : ""}<button class="btn${missed.length ? "" : " primary"}" data-r="all">Làm lại tất cả</button></div>`;
+        return;
+      }
+      const it = order[i];
+      el.innerHTML = `<p class="q"><span class="score">Câu ${i + 1}/${order.length} · đúng ${ok}</span>Nghe rồi gõ lại câu bạn nghe được (kana hoặc kanji đều được):</p>
+        <p class="row"><button class="btn primary" data-r="play">▶ Nghe</button> <button class="btn" data-r="slow">Nghe chậm</button></p>
+        <textarea class="jp" rows="2" style="width:100%;font-size:1.2rem" placeholder="Gõ câu bạn nghe được"></textarea>
+        <p class="row"><button class="btn primary" data-r="check">Kiểm tra</button> <button class="btn" data-r="reveal">Xem đáp án</button></p><div class="fb" data-fb></div>`;
+      speak(it[0]);
+    }
+    function finish(good) { if (good) ok++; else missed.push(order[i]); i++; show(); }
+    el.onclick = e => {
+      const b = e.target.closest("button"); if (!b || !order[i] && !b.dataset.r) return;
+      const r = b.dataset.r, it = order[i], fb = el.querySelector("[data-fb]"), ta = el.querySelector("textarea");
+      if (r === "play") speak(it[0]);
+      else if (r === "slow") speak(it[0], null, 0.55);
+      else if (r === "check" || r === "reveal") {
+        const good = r === "check" && clean(ta.value) === clean(it[0]);
+        if (good) { fb.className = "fb good"; fb.innerHTML = `Đúng: <span class="jp">${esc(it[0])}</span><br><span class="hint">${esc(it[1] || "")}</span> <button class="btn primary" data-r="good">Câu tiếp →</button>`; }
+        else {
+          fb.className = "fb bad";
+          fb.innerHTML = `Đáp án: <span class="jp">${esc(it[0])}</span><br><span class="hint">${esc(it[1] || "")}</span><br>
+            ${r === "check" ? `<button class="btn" data-r="good">Tôi viết đúng (chỉ khác cách viết)</button> ` : ""}<button class="btn primary" data-r="bad">Câu tiếp →</button>`;
+        }
+      }
+      else if (r === "good") finish(true);
+      else if (r === "bad") finish(false);
+      else if (r === "all" || r === "miss") { order = shuffle((r === "all" ? items : missed).slice()); i = ok = 0; missed = []; show(); }
+    };
+    show();
+  }
+
+  /* ---------- Gộp chế độ ôn: Flashcard / Viết lại / Trắc nghiệm / Gõ cách đọc / Nghe chọn ----------
+     Nihongo.modes(el, cards, { graded: true|false, pool: [thẻ gây nhiễu], tabs: ["deck", ...] })
+     graded = kết quả ghi vào lịch ôn (trang ôn hằng ngày); không graded = luyện tự do. */
+  const hvOf = c => { const m = /^Hán Việt:\s*([^—]+?)\s*—\s*(.*)$/.exec(c.vn || ""); return { name: m ? m[1] : (c.vn || ""), mean: m ? m[2] : "" }; };
+  function cardItem(c) {
+    if (c.type === "vocab") return { id: c.id, text: c.word, romaji: c.romaji, vn: c.meaning, kind: "vocab" };
+    if (c.type === "kanji") { const h = hvOf(c); return { id: c.id, text: c.glyph, romaji: h.name, vn: h.mean, kind: "vocab", say: c.say }; }
+    return { id: c.id, text: c.glyph, romaji: c.sound, vn: c.vn || "", kind: "kana" };
+  }
+  function modes(el, cards, opt) {
+    opt = opt || {};
+    const ALL = [["deck", "Flashcard"], ["write", "Viết lại"], ["recog", "Trắc nghiệm"], ["read", "Gõ cách đọc"], ["listen", "Nghe chọn"]];
+    const noText = cards.some(c => c.type === "kanji");              // kanji: không có kiểu gõ romaji / nghe chọn
+    const list = ALL.filter(([k]) => (opt.tabs ? opt.tabs.includes(k) : true) && !(noText && (k === "read" || k === "listen")));
+    let mode = (opt.mode && list.some(([k]) => k === opt.mode)) ? opt.mode : "deck";
+    el.innerHTML = ""; el.classList.add("modes");
+    if (!cards.length) { el.append($("div", "note", opt.empty || "Không có thẻ nào.")); return; }
+    const bar = $("div", "mode-switch"), stage = $("div"); el.append(bar, stage);
+    const items = cards.map(cardItem), grade_ = it => { if (opt.graded) grade(it.id, true); };
+    function run() {
+      [...bar.children].forEach(b => b.classList.toggle("primary", b.dataset.m === mode));
+      const host = $("div"); stage.innerHTML = ""; stage.append(host);
+      const onGrade = opt.graded ? (it, ok) => grade(it.id, ok) : null;
+      if (mode === "deck") deck(host, { cards, graded: !!opt.graded });
+      else if (mode === "write") rewrite(host, items.map(it => ({ id: it.id, text: it.text, prompt: it.romaji, hint: it.kind === "vocab" ? it.vn : (it.vn || "") })), { onGrade });
+      else if (mode === "recog") {
+        const kinds = new Set(items.map(x => x.kind)), pool = (opt.pool || cards).map(cardItem);
+        recognize(host, items, { pool: pool.filter(x => kinds.size > 1 || kinds.has(x.kind)), onGrade });
+      }
+      else if (mode === "read") { host.dataset.read = JSON.stringify(items.map(it => [it.text, it.romaji, it.vn])); reader(host); }
+      else if (mode === "listen") {
+        if (items.length < 2) { host.className = "note"; host.textContent = "Cần ít nhất 2 mục để nghe chọn."; return; }
+        host.dataset.listen = items.map(it => it.text.replace(/\s+/g, "")).join(" ");
+        host.dataset.rounds = Math.min(20, Math.max(8, items.length * 2)); listen(host);
+      }
+    }
+    list.forEach(([k, v]) => { const b = $("button", "btn", v); b.dataset.m = k; b.onclick = () => { mode = k; run(); }; bar.append(b); });
+    run();
+  }
+
   /* ---------- Tiến độ bài học, sao lưu ---------- */
   const LKEY = "nihongo-lessons-v1", EXAM = new Date(2027, 6, 4);
   const lessons = () => { try { return JSON.parse(localStorage.getItem(LKEY)) || {}; } catch { return {}; } };
@@ -591,15 +679,56 @@
   }
 
   function progress(el) {
-    const done = lessons(), all = [...document.querySelectorAll(".lesson-list .num")].map(x => x.textContent);
-    document.querySelectorAll(".lesson-list .num").forEach(x => { if (done[x.textContent]) x.parentElement.classList.add("done"); });
+    const done = lessons(), items = [...document.querySelectorAll(".lesson-list li")];
+    items.forEach(li => { const n = li.querySelector(".num").textContent; if (done[n]) li.classList.add("done"); });
     const kana = Object.keys(done).filter(n => +n <= 11).length, minna = Object.keys(done).filter(n => +n >= 12).length;
     const days = Math.ceil((EXAM - Date.now()) / DAY), left = Math.max(0, 50 - minna);
     const pace = days > 0 ? (left / (days / 7)).toFixed(1) : "—";
-    const composed = Math.max(0, all.length - 11);
+    const composed = Math.max(0, items.length - 11);
     el.innerHTML = `<div class="progress"><div class="bar"><i style="width:${Math.round(minna / 50 * 100)}%"></i></div>
-      <p><strong>Minna ${minna}/50 bài</strong> · kana ${kana}/11 bài · đã soạn ${composed}/50 bài Minna.<br>
+      <p>Đã học xong <strong>${minna}/50 bài Minna</strong> và ${kana}/11 bài kana. Khoá hiện có ${composed}/50 bài Minna.<br>
       Còn <strong>${days > 0 ? days : 0} ngày</strong> tới kỳ N4 dự kiến 4/7/2027 (chưa xác nhận trên jlpt.jp): cần khoảng <strong>${pace} bài Minna/tuần</strong> để kịp.</p></div>`;
+    const next = items.find(li => !li.classList.contains("done")), box = document.querySelector(".actions");
+    if (next && box) {
+      const a = $("a", "btn", "Học tiếp: " + next.querySelector(".num").textContent + " · " + esc(next.querySelector("a").textContent));
+      a.href = next.querySelector("a").getAttribute("href"); a.style.textDecoration = "none"; box.firstElementChild ? box.firstElementChild.after(a) : box.prepend(a);
+    }
+  }
+
+  /* ---------- Thống kê ôn tập: <div data-stats></div> ---------- */
+  function stats(el) {
+    const srs = load(), st = loadStats(), today = dayKey(), cards = {};
+    (window.CARDS || []).forEach(c => cards[c.id] = c);
+    const t = st[today] || { ok: 0, bad: 0 };
+    let streak = 0, d = new Date(); if (!st[dayKey(d)]) d.setDate(d.getDate() - 1);
+    while (st[dayKey(d)] && st[dayKey(d)].ok + st[dayKey(d)].bad > 0) { streak++; d.setDate(d.getDate() - 1); }
+    const ids = Object.keys(srs), start = new Date(); start.setHours(0, 0, 0, 0);
+    const days = Array.from({ length: 7 }, () => 0);
+    ids.forEach(id => { const off = Math.floor((srs[id].due - start.getTime()) / DAY); if (off <= 0) days[0]++; else if (off < 7) days[off]++; });
+    const max = Math.max(1, ...days), names = ["Hôm nay", "Mai", ...Array.from({ length: 5 }, (_, i) => { const x = new Date(start); x.setDate(x.getDate() + i + 2); return ["CN", "T2", "T3", "T4", "T5", "T6", "T7"][x.getDay()]; })];
+    const mature = ids.filter(id => srs[id].box >= 4).length;
+    const hard = ids.filter(id => srs[id].miss > 1 && cards[id]).sort((a, b) => srs[b].miss - srs[a].miss).slice(0, 6);
+    const label = c => esc(c.type === "vocab" ? c.word : c.glyph);
+    el.innerHTML = `<div class="stats"><div class="stat-row">
+      <div><b>${t.ok + t.bad}</b><span>thẻ đã ôn hôm nay${t.bad ? ` (${t.bad} chưa nhớ)` : ""}</span></div>
+      <div><b>${streak}</b><span>ngày học liên tục</span></div>
+      <div><b>${t.fresh || 0}/${NEW_MAX}</b><span>thẻ mới hôm nay (mức nên học)</span></div>
+      <div><b>${ids.length}</b><span>thẻ đang học, ${mature} đã chắc (≥14 ngày)</span></div></div>
+      <p class="hint">Thẻ đến hạn 7 ngày tới</p>
+      <div class="stat-bars">${days.map((n, i) => `<div><i style="height:${Math.round(n / max * 48)}px"></i><b>${n}</b><span>${names[i]}</span></div>`).join("")}</div>
+      ${hard.length ? `<p class="hint">Hay quên nhất: ${hard.map(id => `<span class="jp">${label(cards[id])}</span> ×${srs[id].miss}`).join(" · ")}</p>` : ""}</div>`;
+  }
+
+  /* ---------- Thanh điều hướng chung ---------- */
+  function siteNav() {
+    const main = document.querySelector("main"); if (!main || document.querySelector(".site-nav")) return;
+    const root = BASE.replace(/assets\/$/, ""), path = location.pathname;
+    const links = [["index.html", "Mục lục"], ["flashcards.html", "Ôn hằng ngày"], ["practice.html", "Luyện tự chọn"], ["kanji.html", "Kanji"], ["search.html", "Tìm"], ["notebook.html", "Sổ tay"], ["index.html#tra-cuu", "Tra cứu"]];
+    const nav = $("nav", "site-nav", links.map(([h, t]) => {
+      const file = h.split("#")[0], here = !h.includes("#") && (path.endsWith("/" + file) || (file === "index.html" && /\/$/.test(path)));
+      return `<a href="${root}${h}"${here ? ' aria-current="page"' : ""}>${t}</a>`;
+    }).join(""));
+    main.prepend(nav);
   }
 
   /* ---------- Tự động lưu vào file (Chrome/Edge trên máy tính) ----------
@@ -652,8 +781,10 @@
   function backup(el) {
     const when = t => new Date(t).toLocaleString("vi-VN", { dateStyle: "short", timeStyle: "short" });
     let note = "";
+    const mini = el.dataset.backup === "mini";
     const paint = () => {
       const t = +localStorage.getItem(FSKEY) || 0, stale = dataKeys().length && !FS.handle && (!t || Date.now() - t > 7 * DAY);
+      if (mini) { el.innerHTML = stale ? `<div class="note"><strong>Nên sao lưu tiến độ.</strong> Đã hơn 7 ngày chưa sao lưu. <a href="${BASE.replace(/assets\/$/, "")}index.html#sao-luu">Mở phần sao lưu</a></div>` : ""; return; }
       let auto;
       if (!FS.ok) auto = `<p class="hint">Trình duyệt này (Safari, Firefox, iPad) chưa hỗ trợ tự động lưu vào file. Hãy dùng Chrome hoặc Edge trên máy tính, hoặc tải file sao lưu thủ công bên dưới.</p>`;
       else if (!FS.handle) auto = `<p><button class="btn primary" data-link>Bật tự động lưu vào file…</button> <span class="hint">Chọn một file .json (nên đặt trong iCloud Drive/Google Drive để có bản sao ngoài máy).</span></p>`;
@@ -703,6 +834,17 @@
     paint();
   }
 
+  /* ---------- Cài lên màn hình chính + chạy offline (cần https hoặc localhost) ---------- */
+  function pwa() {
+    const root = BASE.replace(/assets\/$/, "");
+    if (!document.querySelector('link[rel=manifest]')) {
+      const l = $("link"); l.rel = "manifest"; l.href = root + "manifest.webmanifest"; document.head.append(l);
+      const a = $("link"); a.rel = "apple-touch-icon"; a.href = root + "assets/icon-192.png"; document.head.append(a);
+      const m = $("meta"); m.name = "theme-color"; m.content = "#243b6b"; document.head.append(m);
+    }
+    if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register(root + "sw.js").catch(() => {});
+  }
+
   function init() {
     document.querySelectorAll("[data-deck]").forEach(deck);
     document.querySelectorAll("[data-listen]").forEach(listen);
@@ -714,10 +856,12 @@
     document.querySelectorAll("[data-dialog]").forEach(dialog);
     document.querySelectorAll("[data-num]").forEach(numDrill);
     document.querySelectorAll("[data-progress]").forEach(progress);
+    document.querySelectorAll("[data-stats]").forEach(stats);
+    siteNav(); pwa();
     document.querySelectorAll("[data-backup]").forEach(backup);
     lessonDone();
     document.querySelectorAll("[data-due-count]").forEach(e => e.textContent = (window.CARDS || []).filter(c => isDue(c.id)).length);
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", init) : init();
-  window.Nihongo = { speak, deck, reader, listen, rewrite, recognize, shuffle, esc, grade, isDue };
+  window.Nihongo = { speak, stats, dictation, modes, cardItem, newToday, deck, reader, listen, rewrite, recognize, shuffle, esc, grade, isDue };
 })();

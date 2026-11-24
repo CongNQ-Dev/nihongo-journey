@@ -1,5 +1,5 @@
 """Sinh trang cho giai đoạn Minna (bài 0012+), bảng ngữ pháp và bảng số đếm. Gọi từ tools/build.py."""
-import html, json, random, re, zlib
+import html, json, os, random, re, zlib
 
 from minna_data import LESSONS, C
 from minna_vocab import VOCAB, vocab_id
@@ -9,15 +9,45 @@ J = lambda x: html.escape(json.dumps(x, ensure_ascii=False), quote=True)  # noqa
 E = lambda s: html.escape(s, quote=True)  # noqa: E731
 
 
+HAVE_CARDS = set()   # số bài (file) đã có ít nhất một thẻ ảnh
+
+
+def _clean_word(w):
+    """Bỏ chú thích trong ngoặc ([な], （あめが）...) để làm mặt thẻ; giữ ～ và ／."""
+    return re.sub(r"[\[［（(].*?[\]］）)]", "", w).strip()
+
+
 def vocab_cards(images):
+    """Thẻ ảnh cho từ có ảnh; THẺ CHỮ (không ảnh) cho từ chưa có ảnh và cho từ chức năng / câu cố định.
+    Id thẻ chữ của từ có trong VOCAB giữ nguyên (v-...), nên khi sau này có ảnh thì thẻ tự có ảnh mà không mất tiến độ ôn."""
     out = []
+    seen = set()
+    HAVE_CARDS.clear()
     for v in VOCAB:
         vid = vocab_id(v)
         im = images.get(vid)
-        if not im:  # ảnh chưa duyệt / chưa tải → chưa có thẻ
-            continue
-        out.append(dict(id=vid, lesson=v[0], type="vocab", word=v[1], kanji=v[2], romaji=v[3], meaning=v[4],
-                        ex=v[6], exvn=v[7], img=im["file"], credit=f'{im["artist"][:40]} · {im["license"]}'))
+        HAVE_CARDS.add(v[0])
+        seen.add(_clean_word(v[1]))
+        c = dict(id=vid, lesson=v[0], type="vocab", word=v[1], kanji=v[2], romaji=v[3], meaning=v[4], ex=v[6], exvn=v[7])
+        if im:
+            c.update(img=im["file"], credit=f'{im["artist"][:40]} · {im["license"]}')
+        out.append(c)
+    for n in sorted(LESSONS):
+        L = LESSONS[n]
+        used = set()
+        for w, ex in zip(L["words"], WORD_EX[n]):
+            word = _clean_word(w[0])
+            if not word or word in seen:      # từ đã có thẻ ở bài trước thì không lặp lại
+                continue
+            seen.add(word)
+            slug = re.sub(r"[^a-z0-9]", "", w[2].lower()) or "x"
+            cid, k = f"w{n}-{slug}", 2
+            while cid in used:
+                cid, k = f"w{n}-{slug}{k}", k + 1
+            used.add(cid)
+            ro = re.sub(r"[～〜]", "", w[2].split("/")[0]).strip()
+            out.append(dict(id=cid, lesson=n, type="vocab", word=word, kanji=(w[1] or "").split("／")[0] if w[1] else "",
+                            romaji=ro, meaning=w[3], ex=ex[0], exvn=ex[1]))
     return out
 
 
@@ -46,6 +76,23 @@ def jp_cell(s):
     return f'<span class="jp">{s}</span>'
 
 
+def source_note(m):
+    """Nhãn nguồn của bài: cái gì đã so với nguồn nào, cái gì chưa. Trạng thái đối chiếu sách lưu ở tools/source_status.json."""
+    import json
+    try:
+        st = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "source_status.json"), encoding="utf-8"))
+    except (OSError, ValueError):
+        st = {}
+    done = st.get(str(m), {}).get("verified")
+    book = (f"Đã đối chiếu với sách Minna ngày {done}." if done
+            else "<strong>Chưa đối chiếu với sách Minna no Nihongo</strong>: hãy so với sách của bạn (bảng đối chiếu: "
+                 f'<a href="https://github.com/CongNQ-Dev/nihongo-journey/blob/main/reference/doi-chieu/bai-{m:02d}.md">bài {m}</a>).')
+    return ('<p class="hint">Nguồn của bài này — Mẫu câu: so với bảng Japan Foundation. Từ vựng (danh sách theo bài): so với bộ dữ liệu cộng đồng MinnaNoDS. '
+            'Cách đọc và chữ viết: so với JMdict (EDRDG). Câu ví dụ có “Tatoeba #” là câu cộng đồng, chưa có người Nhật thẩm định. '
+            'Nghĩa tiếng Việt, hội thoại, giải thích ngữ pháp và câu ví dụ không có số Tatoeba: <strong>tự soạn, chưa có nguồn</strong>. '
+            f'{book}</p>')
+
+
 def lesson_html(n, files, page):
     L = LESSONS[n]
     m = L["minna"]
@@ -55,7 +102,8 @@ def lesson_html(n, files, page):
   <h1>{L['title']} <span class="jp">{L['jp']}</span></h1>
   <p class="lede">{L['lede']}</p>
 </header>
-<div class="win"><strong>Thành quả của bài này</strong>{L['win']}</div>"""]
+<div class="win"><strong>Thành quả của bài này</strong>{L['win']}</div>
+{source_note(m)}"""]
     s = 1
     out.append(section(s, "Ôn lại trước khi học"))
     out.append('<p>Làm hết thẻ đến hạn ở <a href="../flashcards.html">trang ôn flashcard</a> trước. Rồi trả lời 3 câu này <strong>từ trí nhớ</strong> — đừng mở lại bài cũ.</p>')
@@ -63,7 +111,7 @@ def lesson_html(n, files, page):
 
     s += 1
     out.append(section(s, "Từ vựng có ảnh"))
-    out.append(f'<p>{len(vocab)} từ dưới đây có thẻ ảnh. Nghe, nhại theo <strong>thành tiếng</strong>, rồi học bằng thẻ: ảnh bị che cho tới khi bạn tự nói ra nghĩa.</p>')
+    out.append(f'<p>{len(vocab)} từ dưới đây' + (' có thẻ ảnh. ' if n in HAVE_CARDS else ' (thẻ ảnh sẽ được thêm sau). ') + 'Nghe, nhại theo <strong>thành tiếng</strong>, rồi học bằng thẻ: ảnh bị che cho tới khi bạn tự nói ra nghĩa.</p>')
     out.append('<p>Với mỗi từ: (1) bấm <strong>▶ từ + câu</strong> — máy đọc từ, dừng, rồi đọc câu ví dụ có từ đó; (2) nhại lại cả từ lẫn câu thành tiếng; (3) che cột nghĩa, đọc câu và tự dịch. Hoặc nghe cả danh sách một lượt.</p>')
     seq_all = [x for v in vocab for x in (v[1], v[6])]
     out.append(f'<p><button class="btn primary" data-say-seq="{J(seq_all)}">▶ Nghe cả danh sách (từ → câu)</button> <button class="btn" data-say-stop>Dừng</button></p>')
@@ -76,7 +124,7 @@ def lesson_html(n, files, page):
     out.append('<h3>Nghe từ — chọn đúng</h3><p>Máy đọc một từ, bạn chọn từ vừa nghe. Mục tiêu 9/10.</p>'
                f'<div data-listen="{" ".join(v[1] for v in vocab)}" data-rounds="10"></div>')
     out.append('<h3>Thẻ ảnh</h3>')
-    out.append(f'<div data-deck data-lesson="{n}"></div>')
+    out.append(f'<div data-deck data-lesson="{n}"></div>' if n in HAVE_CARDS else '<div class="note"><strong>Chưa có thẻ ảnh</strong>Ảnh cho từ vựng bài này chưa được tải về, nên chưa có bộ thẻ. Học bằng bảng từ và phần luyện đọc / nghe ở trên; thẻ sẽ xuất hiện khi ảnh được thêm.</div>')
     out.append('<h3>Tự đặt câu</h3><p>Chọn 5 từ ở bảng trên, mỗi từ <strong>tự đặt một câu về chính bạn</strong> (dùng ngữ pháp đã học), viết ra giấy rồi đọc to. Gửi giáo viên trong phiên chat để được sửa.</p>')
     out.append('<h3>Từ chức năng và câu cố định (không có ảnh)</h3><p>Những từ này không chụp ảnh được — mỗi từ có một câu ví dụ để nghe và nhại theo, giống bảng trên.</p>')
     wex = WORD_EX[n]
@@ -166,18 +214,20 @@ def lesson_html(n, files, page):
     if used:
         out.append('<ol class="sources">' + "".join(f'<li><a href="{C[k][0]}">{C[k][1]}</a></li>' for k in used) + "</ol>")
     out.append('<div class="ask"><strong>Hỏi lại giáo viên</strong>Mình (Claude) là giáo viên của bạn. Chỗ nào chưa rõ — trợ từ, ngữ điệu, câu trong sách, muốn đổi ảnh thẻ — cứ hỏi trong phiên chat. Làm xong phần “Nhớ lại”, báo kết quả để mình ghi nhận tiến độ.</div>')
+    out.append(f'<p class="hint"><a href="../kanji.html#bai-{n}">Kanji của bài này →</a> · <a href="../practice.html">Luyện tự chọn: bốc từ vựng ngẫu nhiên →</a></p>')
     p, nx = files.get(n - 1), files.get(n + 1)
     left = f'<a href="{p[0]}.html">← {n - 1:04d} · {p[1]}</a>' if p else '<a href="../index.html">← Mục lục</a>'
-    right = f'<a href="{nx[0]}.html">{n + 1:04d} · {nx[1]} →</a>' if nx else '<span>Tiếp theo: Minna bài 11 (chưa soạn)</span>'
+    right = f'<a href="{nx[0]}.html">{n + 1:04d} · {nx[1]} →</a>' if nx else ('<span>Bạn đã đi hết Minna no Nihongo sơ cấp (bài 1–50) 🎉</span>' if m >= 50 else f'<span>Tiếp theo: Minna bài {m + 1} (chưa soạn)</span>')
     out.append(f'<nav class="next">{left}<a href="../index.html">Mục lục</a>{right}</nav>')
     return page(f"{n:04d} · Minna {m} · {L['title']}", "\n".join(out))
 
 
 def grammar_reference(page, files):
-    body = ["""<header class="lesson-head">
-  <div class="kicker">Tra cứu · Minna no Nihongo bài 1–10</div>
+    LAST = max(L["minna"] for L in LESSONS.values())
+    body = [f"""<header class="lesson-head">
+  <div class="kicker">Tra cứu · Minna no Nihongo bài 1–{LAST}</div>
   <h1>Bảng ngữ pháp sơ cấp</h1>
-  <p class="lede">Mọi mẫu câu của bài 1–10 trên một trang, kèm thuật ngữ và bảng trợ từ. Bấm câu ví dụ để nghe.</p>
+  <p class="lede">Mọi mẫu câu của bài 1–{LAST} trên một trang, kèm thuật ngữ và bảng trợ từ. Bấm câu ví dụ để nghe.</p>
 </header>""", """<h2>Thuật ngữ dùng trong khoá</h2><div class="table-wrap"><table>
 <tr><th>Thuật ngữ</th><th>Ký hiệu</th><th>Nghĩa trong khoá này</th></tr>
 <tr><td>Danh từ</td><td>N</td><td>người, vật, nơi chốn, thời gian: がくせい, えき, あした</td></tr>
@@ -196,7 +246,7 @@ def grammar_reference(page, files):
 <tr><td class="jp">の</td><td>của, thuộc, về, xuất xứ; vị trí</td><td class="jp">だいがくの がくせい・つくえの うえ</td><td>1–3, 10</td></tr>
 <tr><td class="jp">か</td><td>câu hỏi; ～か、～か lựa chọn</td><td class="jp">がくせいですか</td><td>1–2</td></tr>
 <tr><td class="jp">から／まで</td><td>từ / đến</td><td class="jp">くじから ごじまで</td><td>4</td></tr>
-<tr><td class="jp">と</td><td>và (nối danh từ); cùng với</td><td class="jp">パンと たまご・ともだちと</td><td>4–5</td></tr>
+<tr><td class="jp">と</td><td>và (nối danh từ); cùng với; trích dẫn; hễ ~ thì</td><td class="jp">パンと たまご・ともだちと・～と おもいます</td><td>4–5, 21, 23</td></tr>
 <tr><td class="jp">に</td><td>thời điểm; người nhận / người cho; nơi tồn tại</td><td class="jp">ろくじに・ははに・へやに</td><td>4, 7, 10</td></tr>
 <tr><td class="jp">へ</td><td>hướng di chuyển (đọc “e”)</td><td class="jp">きょうとへ いきます</td><td>5</td></tr>
 <tr><td class="jp">で</td><td>phương tiện; nơi hành động; công cụ, ngôn ngữ</td><td class="jp">でんしゃで・えきで・はしで</td><td>5–7</td></tr>
@@ -213,7 +263,7 @@ def grammar_reference(page, files):
             rows.append(f'<tr><td class="jp">{pat}</td><td>{pvn}</td><td>' + (f'<span class="jp" data-say="{E(ex[0])}">{ex[0]}</span><br><small>{ex[1]}</small>' if ex[0] else "") + "</td></tr>")
         body.append('<div class="table-wrap"><table>' + "".join(rows) + "</table></div>")
     body.append('<nav class="next"><a href="../index.html">Mục lục</a><a href="numbers-counters.html">Số, giờ, ngày</a><a href="../flashcards.html">Ôn flashcard</a></nav>')
-    return page("Tra cứu · Ngữ pháp Minna 1–10", "\n".join(body))
+    return page(f"Tra cứu · Ngữ pháp Minna 1–{LAST}", "\n".join(body))
 
 
 def numbers_reference(page):
@@ -259,5 +309,5 @@ def numbers_reference(page):
 <h2>Tháng</h2><div class="table-wrap"><table>{t4}</table></div>
 <h2>Ngày trong tháng</h2><div class="table-wrap"><table class="grid-table">{t5}</table></div>
 <h2>Tầng</h2><div class="table-wrap"><table class="grid-table"><tr>{t7}</tr></table></div>
-<nav class="next"><a href="../index.html">Mục lục</a><a href="minna-grammar.html">Ngữ pháp Minna 1–10</a><a href="../flashcards.html">Ôn flashcard</a></nav>"""
+<nav class="next"><a href="../index.html">Mục lục</a><a href="minna-grammar.html">Ngữ pháp Minna</a><a href="../flashcards.html">Ôn flashcard</a></nav>"""
     return page("Tra cứu · Số, giờ, ngày", body)
