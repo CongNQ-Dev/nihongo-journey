@@ -1,5094 +1,5943 @@
 {
 "VOCAB|12|いしゃ": {
 "en": "I'm a doctor.",
+"furi": "[私|わたし]は[医者|い|しゃ]です。",
 "id": "158511",
 "jp": "私は医者です。",
 "user": "tommy_san"
 },
 "VOCAB|12|かいしゃいん": {
 "en": "I'm an office worker.",
+"furi": "[会社|かい|しゃ][員|いん]です。",
 "id": "3326577",
 "jp": "会社員です。",
 "user": "boscowitch"
 },
 "VOCAB|12|かんこく": {
 "en": "I'm South Korean.",
+"furi": "[韓国|かん|こく][人|じん]です。",
 "id": "8692860",
 "jp": "韓国人です。",
 "user": "small_snow"
 },
 "VOCAB|12|せんせい": {
 "en": "I am a teacher, too.",
+"furi": "[私|わたし]も[先生|せん|せい]です。",
 "id": "152190",
 "jp": "私も先生です。",
 "user": "small_snow"
 },
 "VOCAB|12|ちゅうごく": {
 "en": "I am Chinese.",
+"furi": "[私|わたし]は[中国人|ちゅう|ごく|じん]です。",
 "id": "1073486",
 "jp": "私は中国人です。",
 "user": "bunbuku"
 },
 "VOCAB|12|にほん": {
 "en": "Are you a Japanese citizen?",
+"furi": "[日本人|に|ほん|じん]ですか。",
 "id": "122297",
 "jp": "日本人ですか。",
 "user": "bunbuku"
 },
 "VOCAB|12|びょういん": {
 "en": "This is a hospital.",
+"furi": "ここは[病院|びょう|いん]です。",
 "id": "2604697",
 "jp": "ここは病院です。",
 "user": "tommy_san"
 },
 "VOCAB|12|アメリカ": {
 "en": "I am an American.",
+"furi": "[私|わたし]はアメリカ[人|じん]です。",
 "id": "161499",
 "jp": "私はアメリカ人です。",
 "user": "tommy_san"
 },
 "VOCAB|12|イギリス": {
 "en": "No, I am English.",
+"furi": "いいえ、[私|わたし]はイギリス[人|じん]です。",
 "id": "1585505",
 "jp": "いいえ、私はイギリス人です。",
 "user": "Bah_Dure"
 },
 "VOCAB|12|エンジニア": {
 "en": "I am an engineer.",
+"furi": "[私|わたし]はエンジニアです。",
 "id": "3580937",
 "jp": "私はエンジニアです。",
 "user": "e4zh1nmcz"
 },
 "VOCAB|12|ドイツ": {
 "en": "I am German.",
+"furi": "[私|わたし]はドイツ[人|じん]です。",
 "id": "5385071",
 "jp": "私はドイツ人です。",
 "user": "7evenbananas"
 },
 "VOCAB|12|フランス": {
 "en": "I am French.",
+"furi": "[私|わたし]はフランス[人|じん]です。",
 "id": "536934",
 "jp": "私はフランス人です。",
 "user": "tomkun01"
 },
 "VOCAB|12|ブラジル": {
 "en": "I'm Brazilian.",
+"furi": "[私|わたし]はブラジル[人|じん]です。",
 "id": "7496921",
 "jp": "私はブラジル人です。",
 "user": "Leonroz"
 },
 "VOCAB|13|えんぴつ": {
 "en": "This is a pencil.",
+"furi": "これは[鉛筆|えん|ぴつ]。",
 "id": "6828204",
 "jp": "これは鉛筆。",
 "user": "D0UG"
 },
 "VOCAB|13|おみやげ": {
 "en": "This is a little gift for you.",
+"furi": "これはお[土産|みやげ]です。",
 "id": "218629",
 "jp": "これはお土産です。",
 "user": "KK_kaku_"
 },
 "VOCAB|13|かばん": {
 "en": "This is my bag.",
+"furi": "[私|わたし]のかばんです。",
 "id": "164225",
 "jp": "私のかばんです。",
 "user": "bunbuku"
 },
 "VOCAB|13|ざっし": {
 "en": "This is a car magazine.",
+"furi": "これは[自動車|じ|どう|しゃ]の[雑誌|ざっ|し]です。",
 "id": "10901791",
 "jp": "これは自動車の雑誌です。",
 "user": "small_snow"
 },
 "VOCAB|13|しんぶん": {
 "en": "This is a newspaper.",
+"furi": "これは[新聞|しん|ぶん]です。",
 "id": "3578411",
 "jp": "これは新聞です。",
 "user": "e4zh1nmcz"
 },
 "VOCAB|13|じしょ": {
 "en": "This is my dictionary.",
+"furi": "これは[私|わたし]の[辞書|じ|しょ]です。",
 "id": "218305",
 "jp": "これは私の辞書です。",
 "user": "small_snow"
 },
 "VOCAB|13|じどうしゃ": {
 "en": "This is my car.",
+"furi": "これは[私|わたし]の[自動車|じ|どう|しゃ]です。",
 "id": "4659110",
 "jp": "これは私の自動車です。",
 "user": "anhgosho"
 },
 "VOCAB|13|とけい": {
 "en": "How much is this watch?",
+"furi": "この[時計|と|けい]いくらですか？",
 "id": "2852688",
 "jp": "この時計いくらですか？",
 "user": "tommy_san"
 },
 "VOCAB|13|めいし": {
 "en": "Here's my business card.",
+"furi": "どうぞ、[私|わたし]の[名刺|めい|し]です。",
 "id": "2193086",
 "jp": "どうぞ、私の名刺です。",
 "user": "e4zh1nmcz"
 },
 "VOCAB|13|カメラ": {
 "en": "How much is this camera?",
+"furi": "このカメラいくらですか？",
 "id": "4817731",
 "jp": "このカメラいくらですか？",
 "user": "tommy_san"
 },
 "VOCAB|13|コンピューター": {
 "en": "This is my computer.",
+"furi": "これは[私|わたし]のコンピュータです。",
 "id": "2346870",
 "jp": "これは私のコンピュータです。",
 "user": "everylanguage"
 },
 "VOCAB|13|ノート": {
 "en": "This is my notebook.",
+"furi": "これは[私|わたし]のノートです。",
 "id": "10901827",
 "jp": "これは私のノートです。",
 "user": "small_snow"
 },
 "VOCAB|13|ボールペン": {
 "en": "How much is this ballpoint pen?",
+"furi": "このボールペンはいくらですか？",
 "id": "10965344",
 "jp": "このボールペンはいくらですか？",
 "user": "small_snow"
 },
 "VOCAB|13|ラジオ": {
 "en": "Is this a radio?",
+"furi": "これはラジオですか。",
 "id": "218506",
 "jp": "これはラジオですか。",
 "user": "bunbuku"
 },
 "VOCAB|14|うりば": {
 "en": "Where can I buy a CD?",
+"furi": "[C|しー][D|でぃー][売|う]り[場|ば]はどこですか？",
 "id": "9678873",
 "jp": "CD売り場はどこですか？",
 "user": "bunbuku"
 },
 "VOCAB|14|かいぎしつ": {
 "en": "Where is the meeting room?",
+"furi": "[会議|かい|ぎ][室|しつ]はどこ？",
 "id": "10608954",
 "jp": "会議室はどこ？",
 "user": "small_snow"
 },
 "VOCAB|14|しょくどう": {
 "en": "Where is the cafeteria?",
+"furi": "[食堂|しょく|どう]はどこですか。",
 "id": "145793",
 "jp": "食堂はどこですか。",
 "user": "small_snow"
 },
 "VOCAB|14|へや": {
 "en": "It's my room.",
+"furi": "[私|わたし]の[部屋|へ|や]です。",
 "id": "13507688",
 "jp": "私の部屋です。",
 "user": "small_snow"
 },
 "VOCAB|14|トイレ": {
 "en": "Where is the toilet?",
+"furi": "トイレはどこですか。",
 "id": "201726",
 "jp": "トイレはどこですか。",
 "user": "bunbuku"
 },
 "VOCAB|14|ネクタイ": {
 "en": "Where is your tie?",
+"furi": "ネクタイは？",
 "id": "12300728",
 "jp": "ネクタイは？",
 "user": "small_snow"
 },
 "VOCAB|14|ワイン": {
 "en": "It's wine.",
+"furi": "ワインです。",
 "id": "13028945",
 "jp": "ワインです。",
 "user": "small_snow"
 },
 "VOCAB|15|えいが": {
 "en": "When does the movie start?",
+"furi": "[映画|えい|が]は[何|なん][時|じ]からですか。",
 "id": "189309",
 "jp": "映画は何時からですか。",
 "user": "bunbuku"
 },
 "VOCAB|15|おきます": {
 "en": "What time do you get up every day?",
+"furi": "[毎日|まい|にち][何|なん][時|じ]に[起|お]きますか。",
 "id": "81297",
 "jp": "毎日何時に起きますか。",
 "user": "bunbuku"
 },
 "VOCAB|15|かいぎ": {
 "en": "What time will the meeting start?",
+"furi": "[会議|かい|ぎ]は[何|なん][時|じ]から？",
 "id": "11819668",
 "jp": "会議は何時から？",
 "user": "small_snow"
 },
 "VOCAB|15|ぎんこう": {
 "en": "This is a post office and that is a bank.",
+"furi": "これが[郵便|ゆう|びん][局|きょく]で、あれが[銀行|ぎん|こう]です。",
 "id": "218827",
 "jp": "これが郵便局で、あれが銀行です。",
 "user": "small_snow"
 },
 "VOCAB|15|としょかん": {
 "en": "See you tomorrow at the library.",
+"furi": "[明日|あした][図書館|と|しょ|かん]でね。",
 "id": "80292",
 "jp": "明日図書館でね。",
 "user": "mookeee"
 },
 "VOCAB|15|はたらきます": {
 "en": "I work even on Sunday.",
+"furi": "[日曜日|にち|よう|び]でも、[働|はたら]きます。",
 "id": "6021",
 "jp": "日曜日でも、働きます。",
 "user": "bunbuku"
 },
 "VOCAB|15|べんきょうします": {
 "en": "I study Korean.",
+"furi": "[私|わたし]は[韓国|かん|こく][語|ご]を[勉強|べん|きょう]します。",
 "id": "472101",
 "jp": "私は韓国語を勉強します。",
 "user": "bunbuku"
 },
 "VOCAB|15|やすみます": {
 "en": "I'll be absent tomorrow.",
+"furi": "[明日|あした]は[休|やす]みます。",
 "id": "80439",
 "jp": "明日は休みます。",
 "user": "bunbuku"
 },
 "VOCAB|15|ゆうびんきょく": {
 "en": "Where is the post office?",
+"furi": "[郵便|ゆう|びん][局|きょく]はどこですか。",
 "id": "79171",
 "jp": "郵便局はどこですか。",
 "user": "bunbuku"
 },
 "VOCAB|15|ロンドン": {
 "en": "I am a student at the University of London.",
+"furi": "[私|わたし]はロンドン[大学|だい|がく]の[学生|がく|せい]です。",
 "id": "158576",
 "jp": "私はロンドン大学の学生です。",
 "user": "Kaede"
 },
 "VOCAB|16|かぞく": {
 "en": "How many people are there in your family?",
+"furi": "[何|なん][人|にん][家族|か|ぞく]ですか。",
 "id": "187368",
 "jp": "何人家族ですか。",
 "user": "bunbuku"
 },
 "VOCAB|16|がっこう": {
 "en": "That's a school.",
+"furi": "あれは[学校|がっ|こう]。",
 "id": "6828202",
 "jp": "あれは学校。",
 "user": "D0UG"
 },
 "VOCAB|16|たんじょうび": {
 "en": "When is your birthday?",
+"furi": "[誕生|たん|じょう][日|び]いつ？",
 "id": "3073578",
 "jp": "誕生日いつ？",
 "user": "nnaffu"
 },
 "VOCAB|16|ちかてつ": {
 "en": "Excuse me, where's the subway station?",
+"furi": "すみません、[地下鉄|ち|か|てつ]の[駅|えき]はどこですか？",
 "id": "10181629",
 "jp": "すみません、地下鉄の駅はどこですか？",
 "user": "small_snow"
 },
 "VOCAB|16|でんしゃ": {
 "en": "I'll come by train.",
+"furi": "[電車|でん|しゃ]で[行|い]きます。",
 "id": "13115757",
 "jp": "電車で行きます。",
 "user": "small_snow"
 },
 "VOCAB|16|ともだち": {
 "en": "Is he a friend?",
+"furi": "[友達|とも|だち]ですか？",
 "id": "11518465",
 "jp": "友達ですか？",
 "user": "megamanenm"
 },
 "VOCAB|16|バス": {
 "en": "There comes the bus.",
+"furi": "バスが[来|き]ますよ。",
 "id": "198222",
 "jp": "バスが来ますよ。",
 "user": "small_snow"
 },
 "VOCAB|17|かいます": {
 "en": "I'll take it.",
+"furi": "これを[買|か]います。",
 "id": "217615",
 "jp": "これを買います。",
 "user": "bunbuku"
 },
 "VOCAB|17|かきます": {
 "en": "Where do you write?",
+"furi": "どこで[書|か]きますか。",
 "id": "743856",
 "jp": "どこで書きますか。",
 "user": "gracefully"
 },
 "VOCAB|17|ききます": {
 "en": "Tomorrow, I will ask him.",
+"furi": "[明日|あした]、[彼|かれ]に[聞|き]きます。",
 "id": "1484587",
 "jp": "明日、彼に聞きます。",
 "user": "marshmallowcat"
 },
 "VOCAB|17|くだもの": {
 "en": "Would you like some fruit?",
+"furi": "[果物|くだ|もの]はいかがですか？",
 "id": "10006471",
 "jp": "果物はいかがですか？",
 "user": "bunbuku"
 },
 "VOCAB|17|ごはん": {
 "en": "What's for dinner tonight?",
+"furi": "[今日|きょう]の[晩|ばん]ごはん[何|なに]？",
 "id": "4704222",
 "jp": "今日の晩ごはん何？",
 "user": "tommy_san"
 },
 "VOCAB|17|たべます": {
 "en": "For here, please.",
+"furi": "ここで[食|た]べます。",
 "id": "224546",
 "jp": "ここで食べます。",
 "user": "Ianagisacos"
 },
 "VOCAB|17|のみます": {
 "en": "What will you have to drink?",
+"furi": "[何|なに]を[飲|の]みますか。",
 "id": "187577",
 "jp": "何を飲みますか。",
 "user": "bunbuku"
 },
 "VOCAB|17|みます": {
 "en": "I watch television every day.",
+"furi": "テレビは[毎日|まい|にち][見|み]ますよ。",
 "id": "159389",
 "jp": "テレビは毎日見ますよ。",
 "user": "bunbuku"
 },
 "VOCAB|17|やさい": {
 "en": "She bought vegetables yesterday.",
+"furi": "[昨日|きのう][彼女|かの|じょ]は[野菜|や|さい]を[買|か]いました。",
 "id": "753459",
 "jp": "昨日彼女は野菜を買いました。",
 "user": "modelqueen13"
 },
 "VOCAB|17|よみます": {
 "en": "I read.",
+"furi": "[私|わたし]は[読|よ]みます。",
 "id": "2000082",
 "jp": "私は読みます。",
 "user": "User22901"
 },
 "VOCAB|17|テニス": {
 "en": "How about playing tennis?",
+"furi": "テニスをしませんか。",
 "id": "202178",
 "jp": "テニスをしませんか。",
 "user": "bunbuku"
 },
 "VOCAB|18|おかね": {
 "en": "Where's the money?",
+"furi": "お[金|かね]はどこ？",
 "id": "13669575",
 "jp": "お金はどこ？",
 "user": "small_snow"
 },
 "VOCAB|18|きっぷ": {
 "en": "Here's a ticket for you.",
+"furi": "あなたの[切符|きっ|ぷ]よ。",
 "id": "13864877",
 "jp": "あなたの切符よ。",
 "user": "small_snow"
 },
 "VOCAB|18|きります": {
 "en": "I'll cut it with a knife.",
+"furi": "ナイフで[切|き]ります。",
 "id": "6828177",
 "jp": "ナイフで切ります。",
 "user": "D0UG"
 },
 "VOCAB|18|にもつ": {
 "en": "I sent my mother a package yesterday.",
+"furi": "きのう[母|はは]に[荷物|に|もつ]を[送|おく]りました。",
 "id": "10899655",
 "jp": "きのう母に荷物を送りました。",
 "user": "small_snow"
 },
 "VOCAB|18|クリスマス": {
 "en": "Where do you go for Christmas?",
+"furi": "クリスマスにはどこに[行|い]きますか？",
 "id": "10837030",
 "jp": "クリスマスにはどこに行きますか？",
 "user": "minekai"
 },
 "VOCAB|18|スペイン": {
 "en": "I'm Spanish.",
+"furi": "[私|わたし]はスペイン[人|じん]です。",
 "id": "3221017",
 "jp": "私はスペイン人です。",
 "user": "e4zh1nmcz"
 },
 "VOCAB|18|パソコン": {
 "en": "How much does this laptop cost?",
+"furi": "このノートパソコン、いくらですか？",
 "id": "11619547",
 "jp": "このノートパソコン、いくらですか？",
 "user": "small_snow"
 },
 "VOCAB|18|プレゼント": {
 "en": "This is a present for you.",
+"furi": "プレゼントをどうぞ。",
 "id": "196917",
 "jp": "プレゼントをどうぞ。",
 "user": "bunbuku"
 },
 "VOCAB|19|いそがしい": {
 "en": "I'm busy.",
+"furi": "[私|わたし]は[忙|いそが]しい。",
 "id": "152827",
 "jp": "私は忙しい。",
 "user": "bunbuku"
 },
 "VOCAB|19|おいしい": {
 "en": "This fish is delicious.",
+"furi": "この[魚|さかな]おいしい。",
 "id": "3013049",
 "jp": "この魚おいしい。",
 "user": "tommy_san"
 },
 "VOCAB|19|たかい": {
 "en": "It's expensive though.",
+"furi": "でも[高|たか]いよ。",
 "id": "202087",
 "jp": "でも高いよ。",
 "user": "bunbuku"
 },
 "VOCAB|19|シャンハイ": {
 "en": "I'm Shanghainese.",
+"furi": "[私|わたし]は[上海|しゃんはい][人|じん]です。",
 "id": "347350",
 "jp": "私は上海人です。",
 "user": "zhouj1955"
 },
 "VOCAB|19|レストラン": {
 "en": "Where is the restaurant?",
+"furi": "レストランはどこですか？",
 "id": "5070677",
 "jp": "レストランはどこですか？",
 "user": "999yudai"
 },
 "VOCAB|20|おんがく": {
 "en": "Are you fond of music?",
+"furi": "[音楽|おん|がく]は[好|す]き？",
 "id": "188279",
 "jp": "音楽は好き？",
 "user": "bunbuku"
 },
 "VOCAB|20|かんじ": {
 "en": "I write kanji.",
+"furi": "[漢字|かん|じ]を[書|か]きます。",
 "id": "6828180",
 "jp": "漢字を書きます。",
 "user": "D0UG"
 },
 "VOCAB|20|こども": {
 "en": "How many children do you have?",
+"furi": "[子|こ]どもは[何|なん][人|にん]いますか。",
 "id": "1038473",
 "jp": "子どもは何人いますか。",
 "user": "bunbuku"
 },
 "VOCAB|20|やきゅう": {
 "en": "Do you play baseball?",
+"furi": "[野球|や|きゅう]をしますか？",
 "id": "7929834",
 "jp": "野球をしますか？",
 "user": "Ninja"
 },
 "VOCAB|20|りょうり": {
 "en": "Cooking is interesting.",
+"furi": "[料理|りょう|り]は[面白|おも|しろ]いよ。",
 "id": "10548509",
 "jp": "料理は面白いよ。",
 "user": "small_snow"
 },
 "VOCAB|20|りょこう": {
 "en": "Do you like to travel?",
+"furi": "[旅行|りょ|こう]は[好|す]き？",
 "id": "3309201",
 "jp": "旅行は好き？",
 "user": "tommy_san"
 },
 "VOCAB|20|アルバイト": {
 "en": "Do you have a part-time job?",
+"furi": "[何|なに]かアルバイトはしていますか。",
 "id": "188151",
 "jp": "何かアルバイトはしていますか。",
 "user": "small_snow"
 },
 "VOCAB|20|カラオケ": {
 "en": "Let's go sing karaoke.",
+"furi": "カラオケに[行|い]きましょう。",
 "id": "9582259",
 "jp": "カラオケに行きましょう。",
 "user": "small_snow"
 },
 "VOCAB|20|クラシック": {
 "en": "I like classical music.",
+"furi": "[私|わたし]はクラシックが[好|す]きです。",
 "id": "161120",
 "jp": "私はクラシックが好きです。",
 "user": "small_snow"
 },
 "VOCAB|20|コンサート": {
 "en": "I am going to a concert next week.",
+"furi": "[来週|らい|しゅう]コンサートに[行|い]きます。",
 "id": "78663",
 "jp": "来週コンサートに行きます。",
 "user": "mookeee"
 },
 "VOCAB|20|ジャズ": {
 "en": "I like jazz music.",
+"furi": "[私|わたし]はジャズが[好|す]きです。",
 "id": "160613",
 "jp": "私はジャズが好きです。",
 "user": "bunbuku"
 },
 "VOCAB|20|ダンス": {
 "en": "Do you like dancing?",
+"furi": "ダンスは[好|す]きですか。",
 "id": "203074",
 "jp": "ダンスは好きですか。",
 "user": "bunbuku"
 },
 "VOCAB|21|おとこのこ": {
 "en": "It's a boy.",
+"furi": "[男|おとこ]の[子|こ]ですよ。",
 "id": "10633458",
 "jp": "男の子ですよ。",
 "user": "small_snow"
 },
 "VOCAB|21|おとこのひと": {
 "en": "This man is Chinese.",
+"furi": "この[男|おとこ]の[人|ひと]は[中国人|ちゅう|ごく|じん]です。",
 "id": "2462798",
 "jp": "この男の人は中国人です。",
 "user": "flavio78"
 },
 "VOCAB|21|おんなのこ": {
 "en": "That girl likes that music.",
+"furi": "[女|おんな]の[子|こ]は[音楽|おん|がく]が[好|す]きです。",
 "id": "5259744",
 "jp": "女の子は音楽が好きです。",
 "user": "phoonaz"
 },
 "VOCAB|21|おんなのひと": {
 "en": "Is your father's friend a woman?",
+"furi": "あなたのお[父|とう]さんの[友達|とも|だち]は[女|おんな]の[人|ひと]ですか。",
 "id": "1196232",
 "jp": "あなたのお父さんの友達は女の人ですか。",
 "user": "FiRez"
 },
 "VOCAB|21|きっさてん": {
 "en": "There is a coffee shop over there.",
+"furi": "あそこに[喫茶店|きっ|さ|てん]があります。",
 "id": "1127354",
 "jp": "あそこに喫茶店があります。",
 "user": "negichan"
 },
 "VOCAB|21|こうえん": {
 "en": "There's a tree in the park.",
+"furi": "[公園|こう|えん]に[木|き]があります。",
 "id": "10953987",
 "jp": "公園に木があります。",
 "user": "soueihin"
 },
 "VOCAB|21|ほんや": {
 "en": "I bought some magazines at the bookstore.",
+"furi": "[本屋|ほん|や]で[雑誌|ざっ|し]を[買|か]いました。",
 "id": "10901506",
 "jp": "本屋で雑誌を買いました。",
 "user": "small_snow"
 },
 "VOCAB|21|コンビニ": {
 "en": "I'm going to work part-time at a convenience store.",
+"furi": "コンビニでアルバイトをします。",
 "id": "6828182",
 "jp": "コンビニでアルバイトをします。",
 "user": "D0UG"
 },
 "VOCAB|21|テーブル": {
 "en": "It's under the table.",
+"furi": "テーブルの[下|した]よ。",
 "id": "202412",
 "jp": "テーブルの下よ。",
 "user": "small_snow"
 },
 "VOCAB|21|ドア": {
 "en": "He is in front of the door.",
+"furi": "[彼|かれ]はドアの[前|まえ]にいます。",
 "id": "111772",
 "jp": "彼はドアの前にいます。",
 "user": "small_snow"
 },
 "VOCAB|21|ポスト": {
 "en": "Where is the mailbox?",
+"furi": "ポストはどこにありますか。",
 "id": "196278",
 "jp": "ポストはどこにありますか。",
 "user": "small_snow"
 },
 "VOCAB|22|ふうとう": {
 "en": "I need an envelope.",
+"furi": "[封筒|ふう|とう]をください。",
 "id": "84069",
 "jp": "封筒をください。",
 "user": "bunbuku"
 },
 "VOCAB|22|りんご": {
 "en": "Here's an apple.",
+"furi": "はい、りんご。",
 "id": "12164803",
 "jp": "はい、りんご。",
 "user": "small_snow"
 },
 "VOCAB|22|アイスクリーム": {
 "en": "Is the ice cream nice?",
+"furi": "アイスクリーム、おいしい？",
 "id": "11988872",
 "jp": "アイスクリーム、おいしい？",
 "user": "small_snow"
 },
 "VOCAB|22|オーストラリア": {
 "en": "I'm Australian.",
+"furi": "[私|わたし]はオーストラリア[人|じん]です。",
 "id": "13151076",
 "jp": "私はオーストラリア人です。",
 "user": "atitarev"
 },
 "VOCAB|22|サンドイッチ": {
 "en": "How about a sandwich?",
+"furi": "サンドイッチはいかが？",
 "id": "9777014",
 "jp": "サンドイッチはいかが？",
 "user": "small_snow"
 },
 "VOCAB|22|ビール": {
 "en": "A beer, please.",
+"furi": "ビールをください。",
 "id": "197657",
 "jp": "ビールをください。",
 "user": "bunbuku"
 },
 "VOCAB|23|おすし": {
 "en": "Let's have sushi.",
+"furi": "お[寿司|す|し]を[食|た]べましょう。",
 "id": "227030",
 "jp": "お寿司を食べましょう。",
 "user": "bunbuku"
 },
 "VOCAB|23|ぎゅうにく": {
 "en": "Beef is expensive.",
+"furi": "[牛肉|ぎゅう|にく]は[高|たか]い。",
 "id": "9192045",
 "jp": "牛肉は高い。",
 "user": "small_snow"
 },
 "VOCAB|23|くうこう": {
 "en": "I'm at the airport now.",
+"furi": "[今|いま][空港|くう|こう]にいます。",
 "id": "788209",
 "jp": "今空港にいます。",
 "user": "kenken"
 },
 "VOCAB|23|くもり": {
 "en": "It's a cloudy day.",
+"furi": "[曇|くも]りの[日|ひ]です。",
 "id": "123255",
 "jp": "曇りの日です。",
 "user": "bunbuku"
 },
 "VOCAB|23|せかい": {
 "en": "This world is difficult.",
+"furi": "この[世界|せ|かい]は[難|むずか]しい。",
 "id": "775200",
 "jp": "この世界は難しい。",
 "user": "klismangok"
 },
 "VOCAB|23|ぶたにく": {
 "en": "I eat pork with a fork.",
+"furi": "フォークで[豚肉|ぶた|にく]を[食|た]べます。",
 "id": "6828186",
 "jp": "フォークで豚肉を食べます。",
 "user": "D0UG"
 },
 "VOCAB|23|シンガポール": {
 "en": "I'm from Singapore.",
+"furi": "シンガポールから[来|き]ました。",
 "id": "3196466",
 "jp": "シンガポールから来ました。",
 "user": "tommy_san"
 },
 "VOCAB|23|ホンコン": {
 "en": "I'm in Hong Kong right now.",
+"furi": "[私|わたし]は[今|いま][香港|ほんこん]にいます。",
 "id": "2349287",
 "jp": "私は今香港にいます。",
 "user": "hutian"
 },
 "VOCAB|23|レモン": {
 "en": "This is a lemon tree.",
+"furi": "これはレモンの[木|き]です。",
 "id": "1508743",
 "jp": "これはレモンの木です。",
 "user": "ari_diary"
 },
 "VOCAB|24|おんせん": {
 "en": "The town is famous for its hot spring.",
+"furi": "その[町|まち]は[温泉|おん|せん]で[有名|ゆう|めい]です。",
 "id": "207797",
 "jp": "その町は温泉で有名です。",
 "user": "KK_kaku_"
 },
 "VOCAB|24|しやくしょ": {
 "en": "Where is the city hall?",
+"furi": "[市役所|し|やく|しょ]はどこですか？",
 "id": "10079796",
 "jp": "市役所はどこですか？",
 "user": "small_snow"
 },
 "VOCAB|24|つり": {
 "en": "Do you fish?",
+"furi": "[釣|つ]りはしますか？",
 "id": "3491591",
 "jp": "釣りはしますか？",
 "user": "arnab"
 },
 "VOCAB|24|プール": {
 "en": "We don't have a swimming pool.",
+"furi": "プールはありません。",
 "id": "5886964",
 "jp": "プールはありません。",
 "user": "rocky6959"
 },
 "VOCAB|24|ロシア": {
 "en": "I'm Russian.",
+"furi": "[私|わたし]はロシア[人|じん]です。",
 "id": "13172073",
 "jp": "私はロシア人です。",
 "user": "atitarev"
 },
 "VOCAB|25|さとう": {
 "en": "Is there still any sugar?",
+"furi": "まだ、[砂糖|さ|とう]はありますか？",
 "id": "195439",
 "jp": "まだ、砂糖はありますか？",
 "user": "small_snow"
 },
 "VOCAB|25|ちず": {
 "en": "Shall I draw a map for you?",
+"furi": "[地図|ち|ず]をかきましょうか？",
 "id": "126856",
 "jp": "地図をかきましょうか？",
 "user": "bunbuku"
 },
 "VOCAB|25|でんき": {
 "en": "Put out the light.",
+"furi": "[電気|でん|き][消|け]して。",
 "id": "8586482",
 "jp": "電気消して。",
 "user": "bunbuku"
 },
 "VOCAB|25|エアコン": {
 "en": "Turn the A/C on.",
+"furi": "エアコンつけて。",
 "id": "12098503",
 "jp": "エアコンつけて。",
 "user": "small_snow"
 },
 "VOCAB|25|ストーブ": {
 "en": "In the winter it's cold, so we turn on the stove.",
+"furi": "[冬|ふゆ]は[寒|さむ]いので、ストーブをつけます。",
 "id": "10925591",
 "jp": "冬は寒いので、ストーブをつけます。",
 "user": "small_snow"
 },
 "VOCAB|25|パスポート": {
 "en": "Passport, please.",
+"furi": "パスポートを[見|み]せて[下|くだ]さい。",
 "id": "198084",
 "jp": "パスポートを見せて下さい。",
 "user": "bunbuku"
 },
 "VOCAB|26|こうこう": {
 "en": "My mother is a high school teacher.",
+"furi": "[母|はは]は[高校|こう|こう]の[先生|せん|せい]です。",
 "id": "3050904",
 "jp": "母は高校の先生です。",
 "user": "tommy_san"
 },
 "VOCAB|26|じこくひょう": {
 "en": "Is there a timetable?",
+"furi": "[時刻|じ|こく][表|ひょう]はありますか？",
 "id": "8724681",
 "jp": "時刻表はありますか？",
 "user": "bunbuku"
 },
 "VOCAB|26|たてもの": {
 "en": "That is a high building, is it not?",
+"furi": "[高|たか]い[建物|たて|もの]ですね。",
 "id": "229710",
 "jp": "高い建物ですね。",
 "user": "KK_kaku_"
 },
 "VOCAB|26|ちゅうしゃじょう": {
 "en": "Is there a parking lot?",
+"furi": "[駐車|ちゅう|しゃ][場|じょう]はありますか。",
 "id": "126297",
 "jp": "駐車場はありますか。",
 "user": "bunbuku"
 },
 "VOCAB|26|カタログ": {
 "en": "This is this year's catalogue.",
+"furi": "これが[今年|こ|とし]のカタログです。",
 "id": "12324498",
 "jp": "これが今年のカタログです。",
 "user": "small_snow"
 },
 "VOCAB|27|おてら": {
 "en": "Where's the temple?",
+"furi": "お[寺|てら]はどこですか？",
 "id": "10049610",
 "jp": "お寺はどこですか？",
 "user": "small_snow"
 },
 "VOCAB|27|ジョギング": {
 "en": "My father began jogging last month.",
+"furi": "[父|ちち]は[先月|せん|げつ]ジョギングを[始|はじ]めました。",
 "id": "162808",
 "jp": "父は先月ジョギングを始めました。",
 "user": "bunbuku"
 },
 "VOCAB|27|ボタン": {
 "en": "Press the button.",
+"furi": "ボタンを[押|お]します。",
 "id": "10733638",
 "jp": "ボタンを押します。",
 "user": "megamanenm"
 },
 "VOCAB|28|おふろ": {
 "en": "It's time to take a bath.",
+"furi": "お[風呂|ふ|ろ]の[時間|じ|かん]です。",
 "id": "11763476",
 "jp": "お風呂の時間です。",
 "user": "small_snow"
 },
 "VOCAB|29|げんきん": {
 "en": "Can I pay by cash?",
+"furi": "[現金|げん|きん]でも[大丈夫|だい|じょう|ぶ]ですか？",
 "id": "11890833",
 "jp": "現金でも大丈夫ですか？",
 "user": "small_snow"
 },
 "VOCAB|29|どうぶつえん": {
 "en": "Let's go to the zoo!",
+"furi": "[動物|どう|ぶつ][園|えん]に[行|い]きましょう！",
 "id": "9540642",
 "jp": "動物園に行きましょう！",
 "user": "small_snow"
 },
 "VOCAB|29|にっき": {
 "en": "I keep a diary.",
+"furi": "[日記|にっ|き]をつけています。",
 "id": "8533443",
 "jp": "日記をつけています。",
 "user": "small_snow"
 },
 "VOCAB|29|ピアノ": {
 "en": "Do you like the piano?",
+"furi": "ピアノは[好|す]き？",
 "id": "9640768",
 "jp": "ピアノは好き？",
 "user": "bunbuku"
 },
 "VOCAB|30|ケーキ": {
 "en": "Help yourself to the cake.",
+"furi": "ケーキをどうぞ。",
 "id": "225312",
 "jp": "ケーキをどうぞ。",
 "user": "bunbuku"
 },
 "VOCAB|30|ゴルフ": {
 "en": "Are you fond of golf?",
+"furi": "ゴルフは[好|す]きですか。",
 "id": "219041",
 "jp": "ゴルフは好きですか。",
 "user": "bunbuku"
 },
 "VOCAB|31|サラリーマン": {
 "en": "I'm just a plain old office worker.",
+"furi": "[私|わたし]はしがないサラリーマンです。",
 "id": "477341",
 "jp": "私はしがないサラリーマンです。",
 "user": "bunbuku"
 },
 "VOCAB|32|スピーチ": {
 "en": "I'll give a speech tomorrow.",
+"furi": "[明日|あす]スピーチをします。",
 "id": "9575815",
 "jp": "明日スピーチをします。",
 "user": "small_snow"
 },
 "VOCAB|32|ニュース": {
 "en": "It's interesting news.",
+"furi": "[面白|おも|しろ]いニュースね。",
 "id": "11254037",
 "jp": "面白いニュースね。",
 "user": "small_snow"
 },
 "VOCAB|33|べんとう": {
 "en": "I eat lunch every day at noon.",
+"furi": "[私|わたし]は[毎日|まい|にち][昼|ひる]に[弁当|べん|とう]を[食|た]べます。",
 "id": "1483518",
 "jp": "私は毎日昼に弁当を食べます。",
 "user": "marshmallowcat"
 },
 "VOCAB|33|ぼうし": {
 "en": "Give me back my hat.",
+"furi": "[帽子|ぼう|し]、[返|かえ]して。",
 "id": "10516099",
 "jp": "帽子、返して。",
 "user": "small_snow"
 },
 "VOCAB|33|めがね": {
 "en": "Where are my glasses?",
+"furi": "[私|わたし]の[眼鏡|め|がね]はどこ？",
 "id": "163890",
 "jp": "私の眼鏡はどこ？",
 "user": "bunbuku"
 },
 "VOCAB|33|アパート": {
 "en": "This is a great apartment.",
+"furi": "いいアパートね。",
 "id": "229463",
 "jp": "いいアパートね。",
 "user": "bunbuku"
 },
 "VOCAB|33|コート": {
 "en": "What do you think of my new coat?",
+"furi": "この[新|あたら]しいコート、どう？",
 "id": "221048",
 "jp": "この新しいコート、どう？",
 "user": "Blanka_Meduzo"
 },
 "VOCAB|33|パリ": {
 "en": "He made a journey to Paris.",
+"furi": "[彼|かれ]はパリへ[旅行|りょ|こう]した。",
 "id": "111243",
 "jp": "彼はパリへ旅行した。",
 "user": "bunbuku"
 },
 "VOCAB|33|ロボット": {
 "en": "Do you like robots?",
+"furi": "ロボットは[好|す]きですか。",
 "id": "2125746",
 "jp": "ロボットは好きですか。",
 "user": "bunbuku"
 },
 "VOCAB|34|おゆ": {
 "en": "The hot water isn't running.",
+"furi": "お[湯|ゆ]が[出|で]ません。",
 "id": "226801",
 "jp": "お湯が出ません。",
 "user": "Ianagisacos"
 },
 "VOCAB|34|きかい": {
 "en": "This machine does not run well.",
+"furi": "この[機械|き|かい]は[調子|ちょう|し]が[悪|わる]い。",
 "id": "222459",
 "jp": "この機械は調子が悪い。",
 "user": "KK_kaku_"
 },
 "VOCAB|34|しんごう": {
 "en": "Turn right at the light.",
+"furi": "その[信号|しん|ごう]を[右|みぎ]ね。",
 "id": "9518574",
 "jp": "その信号を右ね。",
 "user": "small_snow"
 },
 "VOCAB|35|おかし": {
 "en": "This candy is sweet.",
+"furi": "このお[菓子|か|し]は[甘|あま]いです。",
 "id": "11038989",
 "jp": "このお菓子は甘いです。",
 "user": "small_snow"
 },
 "VOCAB|35|おばあさん": {
 "en": "The old lady got down from the bus.",
+"furi": "おばあさんはバスから[降|お]りた。",
 "id": "227592",
 "jp": "おばあさんはバスから降りた。",
 "user": "bunbuku"
 },
 "VOCAB|35|ひっこし": {
 "en": "He moved.",
+"furi": "[彼|かれ]は[引|ひ]っ[越|こ]した。",
 "id": "13428431",
 "jp": "彼は引っ越した。",
 "user": "demiurgastel"
 },
 "VOCAB|36|いなか": {
 "en": "I visited my father's hometown last summer.",
+"furi": "[去年|きょ|ねん]の[夏|なつ]、[父|ちち]の[田舎|いなか]に[行|い]きました。",
 "id": "182223",
 "jp": "去年の夏、父の田舎に行きました。",
 "user": "small_snow"
 },
 "VOCAB|36|たいしかん": {
 "en": "I'll go to the embassy tomorrow.",
+"furi": "[私|わたし]は[明日|あした][大使館|たい|し|かん]へ[行|い]きます。",
 "id": "10903698",
 "jp": "私は明日大使館へ行きます。",
 "user": "bunbuku"
 },
 "VOCAB|37|うんどうかい": {
 "en": "There is an athletic meet soon.",
+"furi": "もうすぐ[運動会|うん|どう|かい]があります。",
 "id": "194439",
 "jp": "もうすぐ運動会があります。",
 "user": "small_snow"
 },
 "VOCAB|37|ごみ": {
 "en": "Take the garbage out.",
+"furi": "ごみを[外|そと]に[出|だ]して。",
 "id": "4213360",
 "jp": "ごみを外に出して。",
 "user": "small_snow"
 },
 "VOCAB|37|ちこく": {
 "en": "You are late.",
+"furi": "[遅刻|ち|こく]したね。",
 "id": "126684",
 "jp": "遅刻したね。",
 "user": "mookeee"
 },
 "VOCAB|37|コース": {
 "en": "Do you have any day tours?",
+"furi": "[１|][日|にち]コースがありますか。",
 "id": "235703",
 "jp": "１日コースがありますか。",
 "user": "mookeee"
 },
 "VOCAB|38|はなび": {
 "en": "Did you see the fireworks?",
+"furi": "[花火|はな|び]を[見|み]た？",
 "id": "9415265",
 "jp": "花火を見た？",
 "user": "small_snow"
 },
 "VOCAB|38|ポケット": {
 "en": "Check your pockets.",
+"furi": "ポケットを[確認|かく|にん]して。",
 "id": "9308415",
 "jp": "ポケットを確認して。",
 "user": "small_snow"
 },
 "VOCAB|38|マンション": {
 "en": "Recently, I moved to a new apartment.",
+"furi": "[最近|さい|きん]、[新|あたら]しいマンションに[引|ひ]っ[越|こ]しました。",
 "id": "11285704",
 "jp": "最近、新しいマンションに引っ越しました。",
 "user": "small_snow"
 },
 "VOCAB|39|かしゅ": {
 "en": "Are you a singer?",
+"furi": "[歌手|か|しゅ]なんですか？",
 "id": "8728733",
 "jp": "歌手なんですか？",
 "user": "bunbuku"
 },
 "VOCAB|39|きゅうりょう": {
 "en": "What is your salary?",
+"furi": "[給料|きゅう|りょう]はいくら？",
 "id": "11878994",
 "jp": "給料はいくら？",
 "user": "small_snow"
 },
 "VOCAB|39|ばんぐみ": {
 "en": "That was a good show.",
+"furi": "いい[番組|ばん|ぐみ]でした。",
 "id": "11021695",
 "jp": "いい番組でした。",
 "user": "small_snow"
 },
 "VOCAB|39|びよういん": {
 "en": "Yesterday I went to the hairdresser's.",
+"furi": "[昨日|きのう][美容|び|よう][院|いん]へ[行|い]きました。",
 "id": "169816",
 "jp": "昨日美容院へ行きました。",
 "user": "KK_kaku_"
 },
 "VOCAB|39|ゲーム": {
 "en": "I lost the game.",
+"furi": "ゲームで[負|ま]けた。",
 "id": "12696376",
 "jp": "ゲームで負けた。",
 "user": "small_snow"
 },
 "VOCAB|39|ドラマ": {
 "en": "Do you watch Korean dramas?",
+"furi": "[韓国|かん|こく]ドラマを[見|み]ますか？",
 "id": "13254158",
 "jp": "韓国ドラマを見ますか？",
 "user": "atitarev"
 },
 "VOCAB|39|メモ": {
 "en": "I looked at my notes.",
+"furi": "[自分|じ|ぶん]のメモを[見|み]た。",
 "id": "8584098",
 "jp": "自分のメモを見た。",
 "user": "small_snow"
 },
 "VOCAB|40|さいふ": {
 "en": "I have lost my wallet.",
+"furi": "[財布|さい|ふ]をなくしたの。",
 "id": "5069",
 "jp": "財布をなくしたの。",
 "user": "bunbuku"
 },
 "VOCAB|40|わすれもの": {
 "en": "Do you have everything?",
+"furi": "[忘|わす]れ[物|もの]ない？",
 "id": "82540",
 "jp": "忘れ物ない？",
 "user": "mookeee"
 },
 "VOCAB|40|ガラス": {
 "en": "Beer bottles are made of glass.",
+"furi": "ビールびんはガラスでできている。",
 "id": "197661",
 "jp": "ビールびんはガラスでできている。",
 "user": "mookeee"
 },
 "VOCAB|40|コップ": {
 "en": "Which one is my cup?",
+"furi": "[僕|ぼく]のコップはどれ？",
 "id": "11505754",
 "jp": "僕のコップはどれ？",
 "user": "small_snow"
 },
 "VOCAB|41|かびん": {
 "en": "He dropped a vase.",
+"furi": "[彼|かれ]は[花瓶|か|びん]を[落|お]とした。",
 "id": "109184",
 "jp": "彼は花瓶を落とした。",
 "user": "bunbuku"
 },
 "VOCAB|41|にんぎょう": {
 "en": "That doll is scary.",
+"furi": "あの[人形|にん|ぎょう][怖|こわ]い。",
 "id": "6855705",
 "jp": "あの人形怖い。",
 "user": "Sonata"
 },
 "VOCAB|41|ほんだな": {
 "en": "There's a dictionary on that bookshelf.",
+"furi": "[辞書|じ|しょ]はあそこの[本棚|ほん|だな]にあります。",
 "id": "10987705",
 "jp": "辞書はあそこの本棚にあります。",
 "user": "small_snow"
 },
 "VOCAB|41|れいぞうこ": {
 "en": "Our fridge broke.",
+"furi": "[冷蔵庫|れい|ぞう|こ]が[壊|こわ]れた。",
 "id": "12462062",
 "jp": "冷蔵庫が壊れた。",
 "user": "small_snow"
 },
 "VOCAB|41|リュック": {
 "en": "My backpack is very heavy.",
+"furi": "[私|わたし]のリュック、とても[重|おも]いですよ。",
 "id": "10630157",
 "jp": "私のリュック、とても重いですよ。",
 "user": "small_snow"
 },
 "VOCAB|42|えいがかん": {
 "en": "Is the movie theater near the station?",
+"furi": "[映画館|えい|が|かん]は[駅|えき]から[近|ちか]いの？",
 "id": "3850777",
 "jp": "映画館は駅から近いの？",
 "user": "tommy_san"
 },
 "VOCAB|42|きょうかい": {
 "en": "That's a church.",
+"furi": "あれは[教会|きょう|かい]です。",
 "id": "1706370",
 "jp": "あれは教会です。",
 "user": "marcelostockle"
 },
 "VOCAB|42|けっこんしき": {
 "en": "When's the wedding?",
+"furi": "[結婚式|けっ|こん|しき]はいつ？",
 "id": "10043162",
 "jp": "結婚式はいつ？",
 "user": "small_snow"
 },
 "VOCAB|43|すいどう": {
 "en": "Tap water is dangerous.",
+"furi": "[水道|すい|どう][水|すい]は[危|あぶ]ないよ。",
 "id": "10107337",
 "jp": "水道水は危ないよ。",
 "user": "small_snow"
 },
 "VOCAB|43|たいよう": {
 "en": "I like the sun.",
+"furi": "[太陽|たい|よう]はいいね。",
 "id": "10617782",
 "jp": "太陽はいいね。",
 "user": "small_snow"
 },
 "VOCAB|43|インフルエンザ": {
 "en": "Do I have a flu?",
+"furi": "インフルエンザですか？",
 "id": "10097976",
 "jp": "インフルエンザですか？",
 "user": "small_snow"
 },
 "VOCAB|43|エンジン": {
 "en": "The engine doesn't work.",
+"furi": "エンジンがかからない。",
 "id": "227875",
 "jp": "エンジンがかからない。",
 "user": "bunbuku"
 },
 "VOCAB|43|チーム": {
 "en": "How many people are in your team?",
+"furi": "[何|なん][人|にん]チームですか？",
 "id": "12300661",
 "jp": "何人チームですか？",
 "user": "small_snow"
 },
 "VOCAB|44|いりぐち": {
 "en": "This is not the entrance.",
+"furi": "ここは[入口|いり|ぐち]ではありません。",
 "id": "2988140",
 "jp": "ここは入口ではありません。",
 "user": "tommy_san"
 },
 "VOCAB|44|けいさつ": {
 "en": "Where is the police station?",
+"furi": "[警察|けい|さつ]はどこですか。",
 "id": "176215",
 "jp": "警察はどこですか。",
 "user": "bunbuku"
 },
 "VOCAB|44|じしん": {
 "en": "I'm afraid of earthquakes.",
+"furi": "[私|わたし]は[地震|じ|しん]が[怖|こわ]い。",
 "id": "155126",
 "jp": "私は地震が怖い。",
 "user": "mookeee"
 },
 "VOCAB|44|せんたくき": {
 "en": "Is there a washing machine in the house?",
+"furi": "[家|いえ]に[洗濯機|せんたっき]はある？",
 "id": "8814794",
 "jp": "家に洗濯機はある？",
 "user": "bunbuku"
 },
 "VOCAB|44|でぐち": {
 "en": "Where's the exit?",
+"furi": "[出口|で|ぐち]はどこですか？",
 "id": "3549611",
 "jp": "出口はどこですか？",
 "user": "tommy_san"
 },
 "VOCAB|44|でんぽう": {
 "en": "Please answer me by telegram.",
+"furi": "[電報|でん|ぽう]でご[返事|へん|じ][下|くだ]さい。",
 "id": "124759",
 "jp": "電報でご返事下さい。",
 "user": "mookeee"
 },
 "VOCAB|44|ひじょうぐち": {
 "en": "Where's the emergency exit?",
+"furi": "[非常口|ひ|じょう|ぐち]はどこにありますか。",
 "id": "85758",
 "jp": "非常口はどこにありますか。",
 "user": "small_snow"
 },
 "VOCAB|44|ボール": {
 "en": "Balls are round.",
+"furi": "ボールは[丸|まる]い。",
 "id": "196476",
 "jp": "ボールは丸い。",
 "user": "bunbuku"
 },
 "VOCAB|45|おしろ": {
 "en": "That is an old castle.",
+"furi": "あれは[古|ふる]いお[城|しろ]です。",
 "id": "229712",
 "jp": "あれは古いお城です。",
 "user": "bunbuku"
 },
 "VOCAB|45|なべ": {
 "en": "What are nabemono like?",
+"furi": "なべ[物|もの]とはどんなものですか。",
 "id": "199083",
 "jp": "なべ物とはどんなものですか。",
 "user": "mookeee"
 },
 "VOCAB|45|シートベルト": {
 "en": "Did you fasten the seatbelt?",
+"furi": "シートベルトはした？",
 "id": "10159562",
 "jp": "シートベルトはした？",
 "user": "small_snow"
 },
 "VOCAB|45|ソース": {
 "en": "Is there enough gravy?",
+"furi": "ソースは[足|た]りてますか？",
 "id": "8733064",
 "jp": "ソースは足りてますか？",
 "user": "bunbuku"
 },
 "VOCAB|46|すいはんき": {
 "en": "Turn on the rice cooker, please.",
+"furi": "[炊飯|すい|はん][器|き]のスイッチを[入|い]れてね。",
 "id": "143618",
 "jp": "炊飯器のスイッチを入れてね。",
 "user": "bunbuku"
 },
 "VOCAB|46|にっこう": {
 "en": "We would like to visit Nikko during this summer vacation.",
+"furi": "この[夏休|なつ|やす]みは[日光|にっ|こう]に[行|い]きたい。",
 "id": "222852",
 "jp": "この夏休みは日光に行きたい。",
 "user": "mookeee"
 },
 "VOCAB|46|アフリカ": {
 "en": "South Africa is far away.",
+"furi": "[南|みなみ]アフリカは[遠|とお]い。",
 "id": "640529",
 "jp": "南アフリカは遠い。",
 "user": "arihato"
 },
 "VOCAB|46|カーテン": {
 "en": "Close the curtain.",
+"furi": "カーテン[閉|し]めて。",
 "id": "11588302",
 "jp": "カーテン閉めて。",
 "user": "small_snow"
 },
 "VOCAB|46|ハイキング": {
 "en": "I went hiking with the group.",
+"furi": "[私|わたし]はハイキングに[参加|さん|か]した。",
 "id": "159146",
 "jp": "私はハイキングに参加した。",
 "user": "bunbuku"
 },
 "VOCAB|47|きしゃ": {
 "en": "Here comes the train.",
+"furi": "あ、[汽車|き|しゃ]が[来|き]た。",
 "id": "234771",
 "jp": "あ、汽車が来た。",
 "user": "Sim5634"
 },
 "VOCAB|47|こうじょう": {
 "en": "There is no factory in this village.",
+"furi": "この[村|むら]には[工場|こう|じょう]は[一|ひと]つもない。",
 "id": "220682",
 "jp": "この村には工場は一つもない。",
 "user": "KK_kaku_"
 },
 "VOCAB|47|すいえい": {
 "en": "Swimming is good for your health.",
+"furi": "[水泳|すい|えい]は[健康|けん|こう]によい。",
 "id": "143686",
 "jp": "水泳は健康によい。",
 "user": "bunbuku"
 },
 "VOCAB|48|かがくしゃ": {
 "en": "He is a scientist.",
+"furi": "[彼|かれ]は[科学|か|がく][者|しゃ]です。",
 "id": "109217",
 "jp": "彼は科学者です。",
 "user": "bunbuku"
 },
 "VOCAB|48|けいかん": {
 "en": "You look like a cop.",
+"furi": "[警官|けい|かん]みたいですね。",
 "id": "3385029",
 "jp": "警官みたいですね。",
 "user": "e4zh1nmcz"
 },
 "VOCAB|48|ポルトガル": {
 "en": "She speaks Portuguese.",
+"furi": "[彼女|かの|じょ]はポルトガル[語|ご]を[話|はな]します。",
 "id": "1113446",
 "jp": "彼女はポルトガル語を話します。",
 "user": "bunbuku"
 },
 "VOCAB|49|あかちゃん": {
 "en": "Is the baby OK?",
+"furi": "[赤|あか]ちゃんは[大丈夫|だい|じょう|ぶ]？",
 "id": "8714261",
 "jp": "赤ちゃんは大丈夫？",
 "user": "bunbuku"
 },
 "VOCAB|49|かいがん": {
 "en": "There were a lot of people on the beach.",
+"furi": "[海岸|かい|がん]には[大勢|おお|ぜい]の[人|ひと]がいた。",
 "id": "10986418",
 "jp": "海岸には大勢の人がいた。",
 "user": "bunbuku"
 },
 "VOCAB|49|しょうがっこう": {
 "en": "I've loved French cakes since elementary school.",
+"furi": "[私|わたし]のフランスケーキ[好|ず]きは[小学校|しょう|がっ|こう]の[時|とき]からです。",
 "id": "146978",
 "jp": "私のフランスケーキ好きは小学校の時からです。",
 "user": "wakatyann630"
 },
 "VOCAB|49|ちゅうがっこう": {
 "en": "My father is teaching English in middle school.",
+"furi": "[父|ちち]は[中学校|ちゅう|がっ|こう]で[英語|えい|ご]を[教|おし]えています。",
 "id": "3050905",
 "jp": "父は中学校で英語を教えています。",
 "user": "tommy_san"
 },
 "VOCAB|49|ふたご": {
 "en": "I'm a twin.",
+"furi": "[私|わたし]は[双子|ふた|ご]です。",
 "id": "2252498",
 "jp": "私は双子です。",
 "user": "tommy_san"
 },
 "VOCAB|49|ゆびわ": {
 "en": "My ring is gone.",
+"furi": "[指輪|ゆび|わ]がない。",
 "id": "10367619",
 "jp": "指輪がない。",
 "user": "small_snow"
 },
 "VOCAB|50|おとな": {
 "en": "Two adults, please.",
+"furi": "[大人|おとな][２|に][枚|まい]ください。",
 "id": "137485",
 "jp": "大人２枚ください。",
 "user": "bunbuku"
 },
 "VOCAB|50|じこ": {
 "en": "I had an accident.",
+"furi": "[事故|じ|こ]にあいました。",
 "id": "150868",
 "jp": "事故にあいました。",
 "user": "small_snow"
 },
 "VOCAB|50|せっけん": {
 "en": "I washed my hands with soap.",
+"furi": "せっけんで[手|て]を[洗|あら]いました。",
 "id": "10899704",
 "jp": "せっけんで手を洗いました。",
 "user": "bunbuku"
 },
 "VOCAB|50|たいふう": {
 "en": "A typhoon's coming.",
+"furi": "[台風|たい|ふう]が[来|き]てます。",
 "id": "10227774",
 "jp": "台風が来てます。",
 "user": "small_snow"
 },
 "VOCAB|50|つなみ": {
 "en": "A tsunami is coming, so please be on the alert.",
+"furi": "[津波|つ|なみ]が[来|き]ますので[注意|ちゅう|い]してください。",
 "id": "789592",
 "jp": "津波が来ますので注意してください。",
 "user": "arihato"
 },
 "VOCAB|50|タオル": {
 "en": "I forgot my towel.",
+"furi": "タオルを[忘|わす]れました。",
 "id": "12440075",
 "jp": "タオルを忘れました。",
 "user": "small_snow"
 },
 "VOCAB|50|フロント": {
 "en": "Should I clean your windshield?",
+"furi": "フロントガラスをふきますか。",
 "id": "196875",
 "jp": "フロントガラスをふきますか。",
 "user": "bunbuku"
 },
 "VOCAB|51|うんてんしゅ": {
 "en": "The driver opened the door.",
+"furi": "[運転|うん|てん][手|しゅ]がドアを[開|あ]けた。",
 "id": "12593302",
 "jp": "運転手がドアを開けた。",
 "user": "small_snow"
 },
 "VOCAB|51|てんきよほう": {
 "en": "What is the weather forecast?",
+"furi": "[天気|てん|き][予報|よ|ほう]はどうですか？",
 "id": "13118125",
 "jp": "天気予報はどうですか？",
 "user": "atitarev"
 },
 "VOCAB|51|ながさき": {
 "en": "He was born in Nagasaki.",
+"furi": "[彼|かれ]は[長崎|なが|さき]で[生|う]まれました。",
 "id": "102053",
 "jp": "彼は長崎で生まれました。",
 "user": "bunbuku"
 },
 "VOCAB|51|コンテスト": {
 "en": "She took part in the contest.",
+"furi": "[彼女|かの|じょ]はそのコンテストに[参加|さん|か]した。",
 "id": "92602",
 "jp": "彼女はそのコンテストに参加した。",
 "user": "tommy__san"
 },
 "VOCAB|51|ズボン": {
 "en": "Give me back my pants.",
+"furi": "ズボン[返|かえ]してよ。",
 "id": "10516098",
 "jp": "ズボン返してよ。",
 "user": "small_snow"
 },
 "VOCAB|52|おもちゃ": {
 "en": "Fix my toy.",
+"furi": "おもちゃ、[直|なお]して。",
 "id": "11875901",
 "jp": "おもちゃ、直して。",
 "user": "small_snow"
 },
 "VOCAB|52|くつした": {
 "en": "Where are my red socks?",
+"furi": "[私|わたし]の[赤|あか]い[靴下|くつ|した]どこ？",
 "id": "11436376",
 "jp": "私の赤い靴下どこ？",
 "user": "bunbuku"
 },
 "VOCAB|52|てぶくろ": {
 "en": "Where are my gloves?",
+"furi": "[私|わたし]の[手袋|て|ぶくろ]どこ？",
 "id": "8653978",
 "jp": "私の手袋どこ？",
 "user": "bunbuku"
 },
 "VOCAB|52|ハンカチ": {
 "en": "How much is this handkerchief?",
+"furi": "このハンカチはいくらですか。",
 "id": "223306",
 "jp": "このハンカチはいくらですか。",
 "user": "bunbuku"
 },
 "VOCAB|52|バッグ": {
 "en": "Please open your bag.",
+"furi": "バッグを[開|あ]けて[下|くだ]さい。",
 "id": "197969",
 "jp": "バッグを開けて下さい。",
 "user": "bunbuku"
 },
 "VOCAB|53|そろばん": {
 "en": "This is an abacus.",
+"furi": "これは、そろばんです。",
 "id": "9741321",
 "jp": "これは、そろばんです。",
 "user": "small_snow"
 },
 "VOCAB|53|ベートーベン": {
 "en": "Beethoven's father was a singer.",
+"furi": "ベートーベンのお[父|とう]さんは、[歌手|か|しゅ]でした。",
 "id": "12121016",
 "jp": "ベートーベンのお父さんは、歌手でした。",
 "user": "small_snow"
 },
 "VOCAB|54|かいいん": {
 "en": "I was a member.",
+"furi": "[私|わたし]は[会員|かい|いん]でした。",
 "id": "3552071",
 "jp": "私は会員でした。",
 "user": "arnab"
 },
 "VOCAB|54|ばら": {
 "en": "There are no roses in the garden.",
+"furi": "[庭|にわ]にはばらがありません。",
 "id": "536773",
 "jp": "庭にはばらがありません。",
 "user": "tomkun01"
 },
 "VOCAB|54|ガソリン": {
 "en": "Oh, no! We're running out of gas.",
+"furi": "あ！まずい！ガソリンが[切|き]れてきた。",
 "id": "234772",
 "jp": "あ！まずい！ガソリンが切れてきた。",
 "user": "Sim5634"
 },
 "VOCAB|54|ドライブ": {
 "en": "What do you say to going for a drive?",
+"furi": "ドライブとかどう？",
 "id": "2233552",
 "jp": "ドライブとかどう？",
 "user": "tommy__san"
 },
 "VOCAB|54|パンフレット": {
 "en": "This pamphlet is free of charge.",
+"furi": "こちらのパンフレットは[無料|む|りょう]です。",
 "id": "223295",
 "jp": "こちらのパンフレットは無料です。",
 "user": "bunbuku"
 },
 "VOCAB|55|DVD": {
 "en": "This is a DVD.",
+"furi": "これは[DVD|]です。",
 "id": "2602586",
 "jp": "これはDVDです。",
 "user": "OrangeTart"
 },
 "VOCAB|55|くうき": {
 "en": "There is no air on the moon.",
+"furi": "[月|つき]には[空気|くう|き]がない。",
 "id": "175663",
 "jp": "月には空気がない。",
 "user": "arnab"
 },
 "VOCAB|55|せんたくもの": {
 "en": "Bring the laundry in.",
+"furi": "[洗濯|せん|たく][物|もの][入|い]れてきて。",
 "id": "141201",
 "jp": "洗濯物入れてきて。",
 "user": "small_snow"
 },
 "VOCAB|55|わしょく": {
 "en": "I like Japanese food.",
+"furi": "[和食|わ|しょく]が[好|す]きです。",
 "id": "9360079",
 "jp": "和食が好きです。",
 "user": "small_snow"
 },
 "VOCAB|55|カット": {
 "en": "Cut it in half.",
+"furi": "それは[半分|はん|ぶん]にカットして。",
 "id": "11961643",
 "jp": "それは半分にカットして。",
 "user": "bunbuku"
 },
 "VOCAB|55|シングル": {
 "en": "Single, please.",
+"furi": "シングルにしてください。",
 "id": "215170",
 "jp": "シングルにしてください。",
 "user": "small_snow"
 },
 "VOCAB|56|おくりもの": {
 "en": "I have some gifts.",
+"furi": "[贈|おく]り[物|もの]があります。",
 "id": "1323417",
 "jp": "贈り物があります。",
 "user": "bunbuku"
 },
 "VOCAB|56|りょうしゅうしょ": {
 "en": "Please give me a receipt.",
+"furi": "[領収|りょう|しゅう][書|しょ]をください。",
 "id": "13714023",
 "jp": "領収書をください。",
 "user": "GreySquirrel"
 },
 "VOCAB|56|キャンプ": {
 "en": "This is my first camping trip.",
+"furi": "これが[初|はじ]めてのキャンプです。",
 "id": "11545588",
 "jp": "これが初めてのキャンプです。",
 "user": "small_snow"
 },
 "VOCAB|57|ちゅうしゃ": {
 "en": "I'll give you a shot.",
+"furi": "[注射|ちゅう|しゃ]をしましょう。",
 "id": "126332",
 "jp": "注射をしましょう。",
 "user": "bunbuku"
 },
 "VOCAB|57|ベル": {
 "en": "I heard a bell ringing.",
+"furi": "ベルの[音|おと]がしたよ。",
 "id": "10802288",
 "jp": "ベルの音がしたよ。",
 "user": "small_snow"
 },
 "VOCAB|58|きゅうきゅうしゃ": {
 "en": "The ambulance has arrived.",
+"furi": "[救急|きゅう|きゅう][車|しゃ]、[来|き]たよ。",
 "id": "12816970",
 "jp": "救急車、来たよ。",
 "user": "small_snow"
 },
 "VOCAB|58|じんこう": {
 "en": "India is populous.",
+"furi": "インドは[人口|じん|こう]が[多|おお]い。",
 "id": "228369",
 "jp": "インドは人口が多い。",
 "user": "mookeee"
 },
 "VOCAB|58|イラン": {
 "en": "I came from Iran.",
+"furi": "イランから[来|き]ました。",
 "id": "3373645",
 "jp": "イランから来ました。",
 "user": "tommy_san"
 },
 "VOCAB|58|カリフォルニア": {
 "en": "California is famous for its fruit.",
+"furi": "カリフォルニアは[果物|くだ|もの]で[有名|ゆう|めい]です。",
 "id": "226168",
 "jp": "カリフォルニアは果物で有名です。",
 "user": "tommy_san"
 },
 "VOCAB|59|せいと": {
 "en": "He is a good student.",
+"furi": "[彼|かれ]はよい[生徒|せい|と]です。",
 "id": "110462",
 "jp": "彼はよい生徒です。",
 "user": "bunbuku"
 },
 "VOCAB|59|スケジュール": {
 "en": "I rescheduled.",
+"furi": "スケジュール[変|か]えたよ。",
 "id": "10666305",
 "jp": "スケジュール変えたよ。",
 "user": "KF"
 },
 "VOCAB|59|スピード": {
 "en": "Were you speeding?",
+"furi": "スピード[出|だ]してたの？",
 "id": "8796944",
 "jp": "スピード出してたの？",
 "user": "bunbuku"
 },
 "VOCAB|59|ファイル": {
 "en": "Which one is the correct file?",
+"furi": "[正|ただ]しいファイルどれですか。",
 "id": "1187323",
 "jp": "正しいファイルどれですか。",
 "user": "FiRez"
 },
 "VOCAB|60|いがくぶ": {
 "en": "I went to medical school.",
+"furi": "[私|わたし]は[医学部|い|がく|ぶ]に[行|い]きました。",
 "id": "6695774",
 "jp": "私は医学部に行きました。",
 "user": "jovecidasilva"
 },
 "VOCAB|60|さっか": {
 "en": "He writes books.",
+"furi": "[彼|かれ]は[作家|さっ|か]です。",
 "id": "106830",
 "jp": "彼は作家です。",
 "user": "bunbuku"
 },
 "VOCAB|60|とうきょうだいがく": {
 "en": "He entered Tokyo University this spring.",
+"furi": "[彼|かれ]はこの[春|はる][東京|とう|きょう][大学|だい|がく]に[入学|にゅう|がく]した。",
 "id": "113757",
 "jp": "彼はこの春東京大学に入学した。",
 "user": "tommy__san"
 },
 "VOCAB|60|はいざら": {
 "en": "I need an ashtray.",
+"furi": "[灰皿|はい|ざら]を[下|くだ]さい。",
 "id": "185012",
 "jp": "灰皿を下さい。",
 "user": "bunbuku"
 },
 "VOCAB|60|バスてい": {
 "en": "This is a bus stop.",
+"furi": "これはバス[停|てい]よ。",
 "id": "12041849",
 "jp": "これはバス停よ。",
 "user": "small_snow"
 },
 "VOCAB|61|こうがい": {
 "en": "My house is in the suburbs.",
+"furi": "[私|わたし]の[家|いえ]は[郊外|こう|がい]にある。",
 "id": "163959",
 "jp": "私の家は郊外にある。",
 "user": "bunbuku"
 },
 "VOCAB|61|アルバム": {
 "en": "He showed me his album.",
+"furi": "[彼|かれ]はアルバムを[見|み]せてくれた。",
 "id": "544742",
 "jp": "彼はアルバムを見せてくれた。",
 "user": "vastalto"
 },
 "words|12|あなた": {
 "en": "Is it you?",
+"furi": "あなたですか？",
 "id": "1001616",
 "jp": "あなたですか？",
 "user": "Nihonkage"
 },
 "words|12|あのひと": {
 "en": "He is a teacher.",
+"furi": "あの[人|ひと]は[教師|きょう|し]です。",
 "id": "13172299",
 "jp": "あの人は教師です。",
 "user": "atitarev"
 },
 "words|12|きょうし": {
 "en": "I'm a teacher.",
+"furi": "[私|わたし]は[教師|きょう|し]です。",
 "id": "157602",
 "jp": "私は教師です。",
 "user": "bunbuku"
 },
 "words|12|ぎんこういん": {
 "en": "I'm a bank clerk.",
+"furi": "[私|わたし]は[銀行員|ぎん|こう|いん]です。",
 "id": "3221181",
 "jp": "私は銀行員です。",
 "user": "e4zh1nmcz"
 },
 "words|12|こちらこそ": {
 "en": "The pleasure is mine.",
+"furi": "こちらこそ。",
 "id": "10573391",
 "jp": "こちらこそ。",
 "user": "small_snow"
 },
 "words|12|しつれいですが": {
 "en": "May I ask who's calling?",
+"furi": "[失礼|しつ|れい]ですが[.|][.|][.|][.|][.|][.|]。",
 "id": "10478031",
 "jp": "失礼ですが......。",
 "user": "small_snow"
 },
 "words|12|はじめまして": {
 "en": "Nice to meet you.",
+"furi": "はじめまして。",
 "id": "9699149",
 "jp": "はじめまして。",
 "user": "Sim5634"
 },
 "words|13|そうですか": {
 "en": "I see.",
+"furi": "そうですか。",
 "id": "5955917",
 "jp": "そうですか。",
 "user": "tatoebane"
 },
 "words|13|だれの": {
 "en": "Who is the owner of this car?",
+"furi": "この[車|くるま]は、だれのですか？",
 "id": "628695",
 "jp": "この車は、だれのですか？",
 "user": "satosi"
 },
 "words|13|ちがいます": {
 "en": "Isn't that so?",
+"furi": "[違|ちが]いますか？",
 "id": "3496743",
 "jp": "違いますか？",
 "user": "arnab"
 },
 "words|14|いくら": {
 "en": "How much is it?",
+"furi": "いくらですか？",
 "id": "5332",
 "jp": "いくらですか？",
 "user": "bunbuku"
 },
 "words|14|すみません": {
 "en": "I'm sorry.",
+"furi": "すみません。",
 "id": "408301",
 "jp": "すみません。",
 "user": "bunbuku"
 },
 "words|14|どちら": {
 "en": "What country are you from?",
+"furi": "[国|くに]はどちらですか。",
 "id": "10914888",
 "jp": "国はどちらですか。",
 "user": "small_snow"
 },
 "words|14|なんがい": {
 "en": "What floor is it?",
+"furi": "[何|なん][階|かい]ですか。",
 "id": "4561521",
 "jp": "何階ですか。",
 "user": "Kiraness"
 },
 "words|15|えーと": {
 "en": "Um, well.",
+"furi": "えーとですね。",
 "id": "11001436",
 "jp": "えーとですね。",
 "user": "small_snow"
 },
 "words|15|かようび": {
 "en": "Today is Tuesday.",
+"furi": "[今日|きょう]は[火曜日|か|よう|び]です。",
 "id": "11332317",
 "jp": "今日は火曜日です。",
 "user": "small_snow"
 },
 "words|15|げつようび": {
 "en": "It's Monday.",
+"furi": "[月曜日|げつ|よう|び]です。",
 "id": "175603",
 "jp": "月曜日です。",
 "user": "bunbuku"
 },
 "words|15|すいようび": {
 "en": "Today is Wednesday.",
+"furi": "[今日|きょう]は[水曜日|すい|よう|び]です。",
 "id": "1458037",
 "jp": "今日は水曜日です。",
 "user": "marcelostockle"
 },
 "words|15|そちら": {
 "en": "What time is it there?",
+"furi": "そちらは[今|いま][何|なん][時|じ]ですか？",
 "id": "2182818",
 "jp": "そちらは今何時ですか？",
 "user": "tommy_san"
 },
 "words|15|どようび": {
 "en": "It's Saturday today.",
+"furi": "[今日|きょう]は[土曜日|ど|よう|び]です。",
 "id": "171533",
 "jp": "今日は土曜日です。",
 "user": "bunbuku"
 },
 "words|15|なんじ": {
 "en": "What time do you have?",
+"furi": "[何|なん][時|じ]ですか。",
 "id": "5059",
 "jp": "何時ですか。",
 "user": "bunbuku"
 },
 "words|15|なんぷん": {
 "en": "What's the exact time now?",
+"furi": "[今|いま]、[何|なん][時|じ][何|なん][分|ぷん]ですか？",
 "id": "10962354",
 "jp": "今、何時何分ですか？",
 "user": "small_snow"
 },
 "words|15|なんようび": {
 "en": "What day is it today?",
+"furi": "[今日|きょう]、[何曜日|なん|よう|び]？",
 "id": "889710",
 "jp": "今日、何曜日？",
 "user": "bunbuku"
 },
 "words|15|にちようび": {
 "en": "It is Sunday tomorrow.",
+"furi": "[明日|あした]は[日曜日|にち|よう|び]です。",
 "id": "80407",
 "jp": "明日は日曜日です。",
 "user": "tommy_san"
 },
 "words|15|もくようび": {
 "en": "Today is Thursday.",
+"furi": "[今日|きょう]は[木曜日|もく|よう|び]です。",
 "id": "2670479",
 "jp": "今日は木曜日です。",
 "user": "tommy_san"
 },
 "words|16|あるいて": {
 "en": "I came on foot.",
+"furi": "[歩|ある]いてきました。",
 "id": "1937752",
 "jp": "歩いてきました。",
 "user": "FiRez"
 },
 "words|16|いきます": {
 "en": "I'll go.",
+"furi": "[私|わたし]が[行|い]きます。",
 "id": "1507527",
 "jp": "私が行きます。",
 "user": "bunbuku"
 },
 "words|16|かえります": {
 "en": "I'm coming back next week.",
+"furi": "[来週|らい|しゅう][帰|かえ]ります。",
 "id": "1879941",
 "jp": "来週帰ります。",
 "user": "small_snow"
 },
 "words|16|じてんしゃ": {
 "en": "Is this your bike?",
+"furi": "これは[君|きみ]の[自転車|じ|てん|しゃ]？",
 "id": "218624",
 "jp": "これは君の自転車？",
 "user": "small_snow"
 },
 "words|16|つぎの": {
 "en": "What's the next station?",
+"furi": "[次|つぎ]の[駅|えき]は、どこ？",
 "id": "9979543",
 "jp": "次の駅は、どこ？",
 "user": "small_snow"
 },
 "words|16|ひとりで": {
 "en": "I'm going to Japan by myself next month.",
+"furi": "[来月|らい|げつ][一人|ひと|り]で[日本|に|ほん]に[行|い]きます。",
 "id": "868622",
 "jp": "来月一人で日本に行きます。",
 "user": "Sonix"
 },
 "words|17|CD": {
 "en": "Those are my CDs.",
+"furi": "あれは[私|わたし]の[CD|しーでぃー]です。",
 "id": "229642",
 "jp": "あれは私のCDです。",
 "user": "bunbuku"
 },
 "words|17|あいます": {
 "en": "I'm seeing her this evening.",
+"furi": "[今晩|こん|ばん][私|わたし]は[彼女|かの|じょ]に[会|あ]います。",
 "id": "171211",
 "jp": "今晩私は彼女に会います。",
 "user": "bunbuku"
 },
 "words|17|いっしょに": {
 "en": "I'm coming with you.",
+"furi": "[一緒|いっ|しょ]に[行|い]きます。",
 "id": "190548",
 "jp": "一緒に行きます。",
 "user": "bunbuku"
 },
 "words|17|えいが": {
 "en": "I watched a movie.",
+"furi": "[映画|えい|が]を[見|み]ました。",
 "id": "10901497",
 "jp": "映画を見ました。",
 "user": "small_snow"
 },
 "words|17|します": {
 "en": "I'll do it today.",
+"furi": "[今日|きょう]します。",
 "id": "11052197",
 "jp": "今日します。",
 "user": "small_snow"
 },
 "words|17|しゅくだい": {
 "en": "I will be doing my homework.",
+"furi": "[私|わたし]は[宿題|しゅく|だい]をします。",
 "id": "1956413",
 "jp": "私は宿題をします。",
 "user": "e4zh1nmcz"
 },
 "words|17|すいます": {
 "en": "Do you smoke?",
+"furi": "たばこは[吸|す]いますか。",
 "id": "203425",
 "jp": "たばこは吸いますか。",
 "user": "tommy__san"
 },
 "words|17|たばこ": {
 "en": "Do you smoke?",
+"furi": "たばこは[吸|す]いますか。",
 "id": "203425",
 "jp": "たばこは吸いますか。",
 "user": "tommy__san"
 },
 "words|17|わかりました": {
 "en": "I see.",
+"furi": "わかりました。",
 "id": "5955914",
 "jp": "わかりました。",
 "user": "tatoebane"
 },
 "words|17|レストラン": {
 "en": "Where is the restaurant?",
+"furi": "レストランはどこですか？",
 "id": "5070677",
 "jp": "レストランはどこですか？",
 "user": "999yudai"
 },
 "words|18|あげます": {
 "en": "I will give you this.",
+"furi": "これをあなたにあげます。",
 "id": "1221471",
 "jp": "これをあなたにあげます。",
 "user": "FiRez"
 },
 "words|18|いらっしゃい": {
 "en": "Welcome.",
+"furi": "いらっしゃい。",
 "id": "416304",
 "jp": "いらっしゃい。",
 "user": "bunbuku"
 },
 "words|18|これから": {
 "en": "I'm going home now.",
+"furi": "これから[帰|かえ]ります。",
 "id": "218960",
 "jp": "これから帰ります。",
 "user": "bunbuku"
 },
 "words|18|しつれいします": {
 "en": "May I be excused?",
+"furi": "[失礼|しつ|れい]します。",
 "id": "507553",
 "jp": "失礼します。",
 "user": "orzage"
 },
 "words|18|ならいます": {
 "en": "I am taking French next year.",
+"furi": "[来年|らい|ねん][私|わたし]はフランス[語|ご]を[習|なら]います。",
 "id": "78572",
 "jp": "来年私はフランス語を習います。",
 "user": "bunbuku"
 },
 "words|18|りょこう": {
 "en": "When do you start on your trip?",
+"furi": "[旅行|りょ|こう]はいつから？",
 "id": "11340616",
 "jp": "旅行はいつから？",
 "user": "small_snow"
 },
 "words|18|シャツ": {
 "en": "Whose shirt is this?",
+"furi": "このシャツはだれのですか。",
 "id": "223699",
 "jp": "このシャツはだれのですか。",
 "user": "bunbuku"
 },
 "words|19|しんせつ[な]": {
 "en": "You're very kind.",
+"furi": "とても[親切|しん|せつ]ですね。",
 "id": "12316434",
 "jp": "とても親切ですね。",
 "user": "small_snow"
 },
 "words|19|そして": {
 "en": "And you're a teacher, right?",
+"furi": "そして、[先生|せん|せい]なんですよね？",
 "id": "11048054",
 "jp": "そして、先生なんですよね？",
 "user": "small_snow"
 },
 "words|19|つめたい": {
 "en": "Is the water cold?",
+"furi": "[水|みず]は[冷|つめ]たい？",
 "id": "8796822",
 "jp": "水は冷たい？",
 "user": "bunbuku"
 },
 "words|19|べんきょう": {
 "en": "Is the school work hard?",
+"furi": "[勉強|べん|きょう]は[難|むずか]しいの？",
 "id": "83293",
 "jp": "勉強は難しいの？",
 "user": "KK_kaku_"
 },
 "words|19|べんり[な]": {
 "en": "French is useful.",
+"furi": "フランス[語|ご]は[便利|べん|り]よ。",
 "id": "9749141",
 "jp": "フランス語は便利よ。",
 "user": "small_snow"
 },
 "words|19|ゆうめい[な]": {
 "en": "Are you famous?",
+"furi": "あなたは[有名|ゆう|めい]ですか？",
 "id": "3368796",
 "jp": "あなたは有名ですか？",
 "user": "verbum"
 },
 "words|19|ハンサム[な]": {
 "en": "He's handsome.",
+"furi": "[彼|かれ]はハンサムです。",
 "id": "13231274",
 "jp": "彼はハンサムです。",
 "user": "atitarev"
 },
 "words|20|あります": {
 "en": "I'm free.",
+"furi": "[時間|じ|かん]はあります。",
 "id": "1302434",
 "jp": "時間はあります。",
 "user": "bunbuku"
 },
 "words|20|ざんねんです": {
 "en": "That's too bad.",
+"furi": "[残念|ざん|ねん]ですが。",
 "id": "169258",
 "jp": "残念ですが。",
 "user": "bunbuku"
 },
 "words|20|じかん": {
 "en": "It's time for tea.",
+"furi": "お[茶|ちゃ]の[時間|じ|かん]よ。",
 "id": "12461936",
 "jp": "お茶の時間よ。",
 "user": "small_snow"
 },
 "words|20|ぜんぜん": {
 "en": "I have no idea.",
+"furi": "[全然|ぜん|ぜん]わかりません。",
 "id": "140787",
 "jp": "全然わかりません。",
 "user": "bunbuku"
 },
 "words|20|のみもの": {
 "en": "Would you like to drink something?",
+"furi": "[何|なに]か[飲|の]み[物|もの]はいかが？",
 "id": "188053",
 "jp": "何か飲み物はいかが？",
 "user": "small_snow"
 },
 "words|20|わかります": {
 "en": "I can see that.",
+"furi": "わかります。",
 "id": "4900369",
 "jp": "わかります。",
 "user": "huizi99"
 },
 "words|20|スポーツ": {
 "en": "Do you like sports?",
+"furi": "スポーツは[好|す]き？",
 "id": "3110652",
 "jp": "スポーツは好き？",
 "user": "tommy_san"
 },
 "words|20|チケット": {
 "en": "Tickets are expensive.",
+"furi": "チケットは[高|たか]い。",
 "id": "12725625",
 "jp": "チケットは高い。",
 "user": "small_snow"
 },
 "words|21|あります": {
 "en": "I'm free.",
+"furi": "[時間|じ|かん]はあります。",
 "id": "1302434",
 "jp": "時間はあります。",
 "user": "bunbuku"
 },
 "words|21|います": {
 "en": "I am at home.",
+"furi": "うちにいます。",
 "id": "404045",
 "jp": "うちにいます。",
 "user": "zipangu"
 },
 "words|21|ちかく": {
 "en": "I am near the station.",
+"furi": "[私|わたし]は[駅|えき]の[近|ちか]くにいます。",
 "id": "158262",
 "jp": "私は駅の近くにいます。",
 "user": "bunbuku"
 },
 "words|22|いくつ": {
 "en": "How old are you?",
+"furi": "いくつですか？",
 "id": "12890016",
 "jp": "いくつですか？",
 "user": "small_snow"
 },
 "words|22|いらっしゃいませ": {
 "en": "Welcome.",
+"furi": "いらっしゃいませ。",
 "id": "338114",
 "jp": "いらっしゃいませ。",
 "user": "shiboy"
 },
 "words|22|かかります": {
 "en": "How long is the ride?",
+"furi": "[何分|なん|ぷん]かかりますか？",
 "id": "187304",
 "jp": "何分かかりますか？",
 "user": "KK_kaku_"
 },
 "words|22|がいこく": {
 "en": "I will go abroad next year.",
+"furi": "[来年|らい|ねん][外国|がい|こく]へ[行|い]きます。",
 "id": "152388",
 "jp": "来年外国へ行きます。",
 "user": "KK_kaku_"
 },
 "words|22|ぜんぶで": {
 "en": "What is the total number of students?",
+"furi": "[学生|がく|せい]は[全部|ぜん|ぶ]で[何|なん][人|にん]ですか？",
 "id": "1117489",
 "jp": "学生は全部で何人ですか？",
 "user": "mookeee"
 },
 "words|22|どのくらい": {
 "en": "How high is it?",
+"furi": "どのくらい[高|たか]い？",
 "id": "200413",
 "jp": "どのくらい高い？",
 "user": "bunbuku"
 },
 "words|22|りゅうがくせい": {
 "en": "We have a foreign student coming from China next month.",
+"furi": "[来月|らい|げつ][中国|ちゅう|ごく]から[留学生|りゅう|がく|せい]が[来|き]ます。",
 "id": "10984928",
 "jp": "来月中国から留学生が来ます。",
 "user": "small_snow"
 },
 "words|22|クラス": {
 "en": "How is your new class?",
+"furi": "[新|あたら]しいクラスはどう？",
 "id": "3642234",
 "jp": "新しいクラスはどう？",
 "user": "tommy_san"
 },
 "words|23|きせつ": {
 "en": "Spring is the season of flowers.",
+"furi": "[春|はる]は[花|はな]の[季|き][節|せつ]ですね。",
 "id": "11821438",
 "jp": "春は花の季節ですね。",
 "user": "small_snow"
 },
 "words|23|しけん": {
 "en": "We will have an English test this afternoon.",
+"furi": "[今日|きょう]の[午後|ご|ご]に[英語|えい|ご]の[試験|し|けん]があります。",
 "id": "225797",
 "jp": "今日の午後に英語の試験があります。",
 "user": "bunbuku"
 },
 "words|23|てんき": {
 "en": "Is the weather nice?",
+"furi": "[天気|てん|き]はいい？",
 "id": "8763912",
 "jp": "天気はいい？",
 "user": "bunbuku"
 },
 "words|23|でも": {
 "en": "It's expensive though.",
+"furi": "でも[高|たか]いよ。",
 "id": "202087",
 "jp": "でも高いよ。",
 "user": "bunbuku"
 },
 "words|23|どちらも": {
 "en": "I like both.",
+"furi": "[私|わたし]はどちらも[好|す]きです。",
 "id": "159295",
 "jp": "私はどちらも好きです。",
 "user": "bunbuku"
 },
 "words|23|はじめて": {
 "en": "Is this your first visit to Japan?",
+"furi": "[日本|に|ほん]は[初|はじ]めてですか。",
 "id": "122452",
 "jp": "日本は初めてですか。",
 "user": "arnab"
 },
 "words|24|かいぎ": {
 "en": "What time will the meeting start?",
+"furi": "[会議|かい|ぎ]は[何|なん][時|じ]から？",
 "id": "11819668",
 "jp": "会議は何時から？",
 "user": "small_snow"
 },
 "words|24|けっこんします": {
 "en": "My elder sister is getting married at the weekend.",
+"furi": "[来週|らい|しゅう]、[姉|あね]が[結婚|けっ|こん]します。",
 "id": "10982404",
 "jp": "来週、姉が結婚します。",
 "user": "small_snow"
 },
 "words|24|さんぽします": {
 "en": "My father takes a walk every day.",
+"furi": "[父|ちち]は[毎日|まい|にち][散歩|さん|ぽ]します。",
 "id": "84353",
 "jp": "父は毎日散歩します。",
 "user": "bunbuku"
 },
 "words|24|たいへん[な]": {
 "en": "It is very cold today.",
+"furi": "[今日|きょう]は[大変|たい|へん][寒|さむ]い。",
 "id": "171553",
 "jp": "今日は大変寒い。",
 "user": "bunbuku"
 },
 "words|24|とうろく": {
 "en": "I've registered already.",
+"furi": "もう[登録|とう|ろく]したよ。",
 "id": "12148207",
 "jp": "もう登録したよ。",
 "user": "small_snow"
 },
 "words|24|ほしい": {
 "en": "I want some water.",
+"furi": "[水|みず]が[欲|ほ]しい。",
 "id": "143813",
 "jp": "水が欲しい。",
 "user": "mookeee"
 },
 "words|25|おつり": {
 "en": "Keep the change.",
+"furi": "お[釣|つ]りはいいです。",
 "id": "9314776",
 "jp": "お釣りはいいです。",
 "user": "small_snow"
 },
 "words|25|つかいます": {
 "en": "I use it.",
+"furi": "それを[使|つか]います。",
 "id": "159709",
 "jp": "それを使います。",
 "user": "KK_kaku_"
 },
 "words|25|てつだいます": {
 "en": "We'll help you.",
+"furi": "[手伝|て|つだ]いますね。",
 "id": "10657913",
 "jp": "手伝いますね。",
 "user": "small_snow"
 },
 "words|25|はじめます": {
 "en": "I am going to start a new job next week.",
+"furi": "[私|わたし]は[来週|らい|しゅう]、[新|あたら]しい[仕事|し|ごと]を[始|はじ]めます。",
 "id": "152416",
 "jp": "私は来週、新しい仕事を始めます。",
 "user": "bunbuku"
 },
 "words|25|まっすぐ": {
 "en": "Look forward, please.",
+"furi": "まっすぐ[前|まえ]を[見|み]てください。",
 "id": "195363",
 "jp": "まっすぐ前を見てください。",
 "user": "bunbuku"
 },
 "words|26|いらっしゃいます": {
 "en": "Is your mother at home?",
+"furi": "お[母|かあ]さんはいらっしゃいますか。",
 "id": "226613",
 "jp": "お母さんはいらっしゃいますか。",
 "user": "mookeee"
 },
 "words|26|ごかぞく": {
 "en": "Do you have a family?",
+"furi": "ご[家族|か|ぞく]はいますか。",
 "id": "237476",
 "jp": "ご家族はいますか。",
 "user": "mookeee"
 },
 "words|26|しやくしょ": {
 "en": "Where is the city hall?",
+"furi": "[市役所|し|やく|しょ]はどこですか？",
 "id": "10079796",
 "jp": "市役所はどこですか？",
 "user": "small_snow"
 },
 "words|26|じこくひょう": {
 "en": "Is there a timetable?",
+"furi": "[時刻|じ|こく][表|ひょう]はありますか？",
 "id": "8724681",
 "jp": "時刻表はありますか？",
 "user": "bunbuku"
 },
 "words|26|すみます": {
 "en": "I will live in this town starting from the new year.",
+"furi": "[私|わたし]は[来年|らい|ねん]からこの[町|まち]に[住|す]みます。",
 "id": "10903710",
 "jp": "私は来年からこの町に住みます。",
 "user": "bunbuku"
 },
 "words|26|すみません": {
 "en": "I'm sorry.",
+"furi": "すみません。",
 "id": "408301",
 "jp": "すみません。",
 "user": "bunbuku"
 },
 "words|26|せんもん": {
 "en": "What's your major?",
+"furi": "[君|きみ]の[専門|せん|もん]は[何|なに]？",
 "id": "1099055",
 "jp": "君の専門は何？",
 "user": "mookeee"
 },
 "words|26|つかいます": {
 "en": "I use it.",
+"furi": "それを[使|つか]います。",
 "id": "159709",
 "jp": "それを使います。",
 "user": "KK_kaku_"
 },
 "words|26|つくります": {
 "en": "What will you cook today?",
+"furi": "[今日|きょう]はどんな[料理|りょう|り]を[作|つく]りますか？",
 "id": "12270177",
 "jp": "今日はどんな料理を作りますか？",
 "user": "MathKay"
 },
 "words|26|とくに": {
 "en": "It is especially cold this morning.",
+"furi": "[今朝|けさ]は[特|とく]に[寒|さむ]い。",
 "id": "172252",
 "jp": "今朝は特に寒い。",
 "user": "bunbuku"
 },
 "words|26|みなさん": {
 "en": "Are you bachelors?",
+"furi": "[皆|みな]さん、[独身|どく|しん]なんですか？",
 "id": "8703034",
 "jp": "皆さん、独身なんですか？",
 "user": "bunbuku"
 },
 "words|27|かくにん": {
 "en": "Please confirm.",
+"furi": "ご[確認|かく|にん]ください。",
 "id": "217189",
 "jp": "ご確認ください。",
 "user": "bunbuku"
 },
 "words|27|だします": {
 "en": "Would you like your ears to show?",
+"furi": "[耳|みみ]は[出|だ]しますか。",
 "id": "150158",
 "jp": "耳は出しますか。",
 "user": "mookeee"
 },
 "words|27|でんわします": {
 "en": "I'll call you back later.",
+"furi": "[後|あと]で[電話|でん|わ]します。",
 "id": "174334",
 "jp": "後で電話します。",
 "user": "small_snow"
 },
 "words|27|のみます": {
 "en": "What will you have to drink?",
+"furi": "[何|なに]を[飲|の]みますか。",
 "id": "187577",
 "jp": "何を飲みますか。",
 "user": "bunbuku"
 },
 "words|27|のりかえます": {
 "en": "We'll change trains at the next station.",
+"furi": "[次|つぎ]の[駅|えき]で[乗|の]り[換|か]えます。",
 "id": "150313",
 "jp": "次の駅で乗り換えます。",
 "user": "bunbuku"
 },
 "words|27|はじめます": {
 "en": "I am going to start a new job next week.",
+"furi": "[私|わたし]は[来週|らい|しゅう]、[新|あたら]しい[仕事|し|ごと]を[始|はじ]めます。",
 "id": "152416",
 "jp": "私は来週、新しい仕事を始めます。",
 "user": "bunbuku"
 },
 "words|27|りゅうがくせい": {
 "en": "Are you an exchange student?",
+"furi": "[留学生|りゅう|がく|せい]の[方|かた]ですか？",
 "id": "2412266",
 "jp": "留学生の方ですか？",
 "user": "tommy_san"
 },
 "words|27|アジア": {
 "en": "Japanese are Asians.",
+"furi": "[日本人|に|ほん|じん]はアジア[人|じん]です。",
 "id": "772444",
 "jp": "日本人はアジア人です。",
 "user": "arihato"
 },
 "words|28|しんぱい[な]": {
 "en": "No need to worry.",
+"furi": "[心配|しん|ぱい]ないよ。",
 "id": "3459218",
 "jp": "心配ないよ。",
 "user": "arnab"
 },
 "words|28|せんせい": {
 "en": "I am a teacher, too.",
+"furi": "[私|わたし]も[先生|せん|せい]です。",
 "id": "152190",
 "jp": "私も先生です。",
 "user": "small_snow"
 },
 "words|28|たいせつ［な］": {
 "en": "I'll treasure it.",
+"furi": "[大切|たい|せつ]にします。",
 "id": "137434",
 "jp": "大切にします。",
 "user": "tommy_san"
 },
 "words|28|だします": {
 "en": "Would you like your ears to show?",
+"furi": "[耳|みみ]は[出|だ]しますか。",
 "id": "150158",
 "jp": "耳は出しますか。",
 "user": "mookeee"
 },
 "words|28|でかけます": {
 "en": "When will you leave?",
+"furi": "いつ[出|で]かけますか。",
 "id": "228646",
 "jp": "いつ出かけますか。",
 "user": "mookeee"
 },
 "words|28|ですから": {
 "en": "Because it was very expensive, I did not buy it.",
+"furi": "とても[高|たか]いですから[買|か]いませんでした。",
 "id": "6453904",
 "jp": "とても高いですから買いませんでした。",
 "user": "Tanaka"
 },
 "words|28|のど": {
 "en": "I have a sore throat.",
+"furi": "のどが[痛|いた]いです。",
 "id": "198561",
 "jp": "のどが痛いです。",
 "user": "wat"
 },
 "words|28|のみます（くすりを）": {
 "en": "What will you have to drink?",
+"furi": "[何|なに]を[飲|の]みますか。",
 "id": "187577",
 "jp": "何を飲みますか。",
 "user": "bunbuku"
 },
 "words|29|あらいます": {
 "en": "I wash my face every morning.",
+"furi": "[私|わたし]は[毎朝|まい|あさ][顔|かお]を[洗|あら]います。",
 "id": "152712",
 "jp": "私は毎朝顔を洗います。",
 "user": "small_snow"
 },
 "words|29|うたいます": {
 "en": "We'll all sing together.",
+"furi": "みんなで[一緒|いっ|しょ]に[歌|うた]を[歌|うた]います。",
 "id": "10987714",
 "jp": "みんなで一緒に歌を歌います。",
 "user": "small_snow"
 },
 "words|29|うんてんします": {
 "en": "He drives a car, doesn't he?",
+"furi": "[彼|かれ]は[車|くるま]を[運転|うん|てん]しますよね？",
 "id": "104641",
 "jp": "彼は車を運転しますよね？",
 "user": "mookeee"
 },
 "words|29|おいのり": {
 "en": "Let's pray.",
+"furi": "お[祈|いの]りしましょう。",
 "id": "3488677",
 "jp": "お祈りしましょう。",
 "user": "arnab"
 },
 "words|29|げんきん": {
 "en": "Can I pay by cash?",
+"furi": "[現金|げん|きん]でも[大丈夫|だい|じょう|ぶ]ですか？",
 "id": "11890833",
 "jp": "現金でも大丈夫ですか？",
 "user": "small_snow"
 },
 "words|29|できます": {
 "en": "Is that possible?",
+"furi": "できますか？",
 "id": "8691487",
 "jp": "できますか？",
 "user": "bunbuku"
 },
 "words|29|とくに": {
 "en": "It is especially cold this morning.",
+"furi": "[今朝|けさ]は[特|とく]に[寒|さむ]い。",
 "id": "172252",
 "jp": "今朝は特に寒い。",
 "user": "bunbuku"
 },
 "words|29|ひきます（ピアノを）": {
 "en": "I play the piano.",
+"furi": "[私|わたし]はピアノを[弾|ひ]きます。",
 "id": "159067",
 "jp": "私はピアノを弾きます。",
 "user": "bunbuku"
 },
 "words|29|ふるさと": {
 "en": "This is the village where I was born.",
+"furi": "ここは[私|わたし]の[故郷|こ|きょう]です。",
 "id": "224306",
 "jp": "ここは私の故郷です。",
 "user": "KK_kaku_"
 },
 "words|30|おかげさまで": {
 "en": "I'm fine, thank you.",
+"furi": "おかげさまで[元気|げん|き]です。",
 "id": "227762",
 "jp": "おかげさまで元気です。",
 "user": "bunbuku"
 },
 "words|30|しかし": {
 "en": "But I want a car.",
+"furi": "しかし、[車|くるま]は[欲|ほ]しい。",
 "id": "216308",
 "jp": "しかし、車は欲しい。",
 "user": "KK_kaku_"
 },
 "words|30|じつは": {
 "en": "Actually, she's my older sister.",
+"furi": "[実|じつ]は、[姉|あね]なんです。",
 "id": "11563505",
 "jp": "実は、姉なんです。",
 "user": "small_snow"
 },
 "words|30|ちょうし": {
 "en": "How is it going?",
+"furi": "[調子|ちょう|し]はどう？",
 "id": "8655852",
 "jp": "調子はどう？",
 "user": "small_snow"
 },
 "words|30|とまります": {
 "en": "We'll stay at a hotel.",
+"furi": "ホテルに[泊|と]まります。",
 "id": "10953998",
 "jp": "ホテルに泊まります。",
 "user": "small_snow"
 },
 "words|30|なります": {
 "en": "When will you be free?",
+"furi": "いつ[暇|ひま]になりますか？",
 "id": "177906",
 "jp": "いつ暇になりますか？",
 "user": "small_snow"
 },
 "words|30|のぼります": {
 "en": "I'm going to climb a mountain with a friend this weekend.",
+"furi": "[週末|しゅう|まつ]、[友達|とも|だち]と[山|やま]に[登|のぼ]ります。",
 "id": "10918339",
 "jp": "週末、友達と山に登ります。",
 "user": "small_snow"
 },
 "words|30|よわい": {
 "en": "My legs are weak.",
+"furi": "[私|わたし]の[足|あし]が[弱|よわ]い。",
 "id": "1135865",
 "jp": "私の足が弱い。",
 "user": "Scott"
 },
 "words|30|れんしゅう": {
 "en": "I practice three hours every day.",
+"furi": "[毎日|まい|にち][３|さん][時間|じ|かん][練習|れん|しゅう]してます。",
 "id": "10303703",
 "jp": "毎日３時間練習してます。",
 "user": "small_snow"
 },
 "words|30|ダイエット": {
 "en": "I'm on a diet.",
+"furi": "ダイエット[中|ちゅう]です。",
 "id": "203991",
 "jp": "ダイエット中です。",
 "user": "arnab"
 },
 "words|31|いります（ビザが）": {
 "en": "Do you need this?",
+"furi": "これ[要|い]ります？",
 "id": "11041810",
 "jp": "これ要ります？",
 "user": "small_snow"
 },
 "words|31|ことば": {
 "en": "Language is important.",
+"furi": "[言葉|こと|ば]は[大切|たい|せつ]ね。",
 "id": "12577570",
 "jp": "言葉は大切ね。",
 "user": "small_snow"
 },
 "words|31|しらべます": {
 "en": "I will look it up in the dictionary.",
+"furi": "[辞書|じ|しょ]で[調|しら]べます。",
 "id": "159702",
 "jp": "辞書で調べます。",
 "user": "KK_kaku_"
 },
 "words|31|でんわします": {
 "en": "I'll call you back later.",
+"furi": "[後|あと]で[電話|でん|わ]します。",
 "id": "174334",
 "jp": "後で電話します。",
 "user": "small_snow"
 },
 "words|31|ぶっか": {
 "en": "It's a very expensive country.",
+"furi": "[物価|ぶっ|か]がとても[高|たか]い[国|くに]です。",
 "id": "13885230",
 "jp": "物価がとても高い国です。",
 "user": "small_snow"
 },
 "words|31|よかったら": {
 "en": "If it is ok, can you be my friend?",
+"furi": "よかったら[友達|とも|だち]になりませんか？",
 "id": "3710330",
 "jp": "よかったら友達になりませんか？",
 "user": "tommy_san"
 },
 "words|31|サラリーマン": {
 "en": "I'm just a plain old office worker.",
+"furi": "[私|わたし]はしがないサラリーマンです。",
 "id": "477341",
 "jp": "私はしがないサラリーマンです。",
 "user": "bunbuku"
 },
 "words|32|いいます": {
 "en": "What do you call this flower?",
+"furi": "この[花|はな]は[何|なに]と[言|い]いますか。",
 "id": "222732",
 "jp": "この花は何と言いますか。",
 "user": "mookeee"
 },
 "words|32|いけん": {
 "en": "I agree.",
+"furi": "[同|おな]じ[意見|い|けん]です。",
 "id": "774830",
 "jp": "同じ意見です。",
 "user": "marloncori"
 },
 "words|32|おなじ": {
 "en": "I agree.",
+"furi": "[同|おな]じ[意見|い|けん]です。",
 "id": "774830",
 "jp": "同じ意見です。",
 "user": "marloncori"
 },
 "words|32|おもいます": {
 "en": "I think so.",
+"furi": "そう[思|おも]います。",
 "id": "213778",
 "jp": "そう思います。",
 "user": "Ianagisacos"
 },
 "words|32|じどうしゃ": {
 "en": "This is my car.",
+"furi": "これは[私|わたし]の[自動車|じ|どう|しゃ]です。",
 "id": "4659110",
 "jp": "これは私の自動車です。",
 "user": "anhgosho"
 },
 "words|32|そんなに": {
 "en": "How come you're so busy?",
+"furi": "[何|なに]がそんなに[忙|いそが]しいの？",
 "id": "3552525",
 "jp": "何がそんなに忙しいの？",
 "user": "tommy_san"
 },
 "words|32|ちきゅう": {
 "en": "The moon is distant from the earth.",
+"furi": "[月|つき]は[地球|ち|きゅう]から[遠|とお]い。",
 "id": "175635",
 "jp": "月は地球から遠い。",
 "user": "tommy__san"
 },
 "words|32|てんさい": {
 "en": "I might be a genius.",
+"furi": "[私|わたし]、[天才|てん|さい]かも！",
 "id": "12095501",
 "jp": "私、天才かも！",
 "user": "small_snow"
 },
 "words|32|ぶっか": {
 "en": "It's a very expensive country.",
+"furi": "[物価|ぶっ|か]がとても[高|たか]い[国|くに]です。",
 "id": "13885230",
 "jp": "物価がとても高い国です。",
 "user": "small_snow"
 },
 "words|32|やくに たちます": {
 "en": "A little language goes a long way.",
+"furi": "ちょっとした[言葉|こと|ば]が、とても[役|やく]に[立|た]ちます。",
 "id": "9856575",
 "jp": "ちょっとした言葉が、とても役に立ちます。",
 "user": "small_snow"
 },
 "words|32|アルバイト": {
 "en": "Do you have a part-time job?",
+"furi": "[何|なに]かアルバイトはしていますか。",
 "id": "188151",
 "jp": "何かアルバイトはしていますか。",
 "user": "small_snow"
 },
 "words|32|デザイン": {
 "en": "He designed the car.",
+"furi": "[彼|かれ]がその[車|くるま]をデザインした。",
 "id": "1168359",
 "jp": "彼がその車をデザインした。",
 "user": "bunbuku"
 },
 "words|33|えーと": {
 "en": "Um, well.",
+"furi": "えーとですね。",
 "id": "11001436",
 "jp": "えーとですね。",
 "user": "small_snow"
 },
 "words|33|きます（シャツを）": {
 "en": "Do you wear a kimono?",
+"furi": "[着物|き|もの]は[着|き]ますか。",
 "id": "126595",
 "jp": "着物は着ますか。",
 "user": "bunbuku"
 },
 "words|33|こちら": {
 "en": "This is my mother.",
+"furi": "こちらは[母|はは]です。",
 "id": "373214",
 "jp": "こちらは母です。",
 "user": "kotobaboke"
 },
 "words|33|つごう": {
 "en": "Where's convenient for you?",
+"furi": "どこが[都合|つ|ごう]がいい？",
 "id": "201006",
 "jp": "どこが都合がいい？",
 "user": "bunbuku"
 },
 "words|33|では": {
 "en": "See you again tomorrow.",
+"furi": "ではまた[明日|あした]。",
 "id": "202140",
 "jp": "ではまた明日。",
 "user": "bunbuku"
 },
 "words|33|やちん": {
 "en": "How much is the rent per month?",
+"furi": "[家賃|や|ちん]は[月|つき]いくらですか。",
 "id": "186913",
 "jp": "家賃は月いくらですか。",
 "user": "bunbuku"
 },
 "words|33|アパート": {
 "en": "This is a great apartment.",
+"furi": "いいアパートね。",
 "id": "229463",
 "jp": "いいアパートね。",
 "user": "bunbuku"
 },
 "words|33|ケーキ": {
 "en": "Help yourself to the cake.",
+"furi": "ケーキをどうぞ。",
 "id": "225312",
 "jp": "ケーキをどうぞ。",
 "user": "bunbuku"
 },
 "words|33|パリ": {
 "en": "He made a journey to Paris.",
+"furi": "[彼|かれ]はパリへ[旅行|りょ|こう]した。",
 "id": "111243",
 "jp": "彼はパリへ旅行した。",
 "user": "bunbuku"
 },
 "words|33|ロボット": {
 "en": "Do you like robots?",
+"furi": "ロボットは[好|す]きですか。",
 "id": "2125746",
 "jp": "ロボットは好きですか。",
 "user": "bunbuku"
 },
 "words|33|［お］べんとう": {
 "en": "I eat lunch every day at noon.",
+"furi": "[私|わたし]は[毎日|まい|にち][昼|ひる]に[弁当|べん|とう]を[食|た]べます。",
 "id": "1483518",
 "jp": "私は毎日昼に弁当を食べます。",
 "user": "marshmallowcat"
 },
 "words|34|きかい": {
 "en": "This machine does not run well.",
+"furi": "この[機械|き|かい]は[調子|ちょう|し]が[悪|わる]い。",
 "id": "222459",
 "jp": "この機械は調子が悪い。",
 "user": "KK_kaku_"
 },
 "words|34|ききます（ひとに）": {
 "en": "Tomorrow, I will ask him.",
+"furi": "[明日|あした]、[彼|かれ]に[聞|き]きます。",
 "id": "1484587",
 "jp": "明日、彼に聞きます。",
 "user": "marshmallowcat"
 },
 "words|34|こしょう": {
 "en": "My TV has broken down.",
+"furi": "テレビが[故障|こ|しょう]した。",
 "id": "202051",
 "jp": "テレビが故障した。",
 "user": "KK_kaku_"
 },
 "words|34|たてもの": {
 "en": "That is a high building, is it not?",
+"furi": "[高|たか]い[建物|たて|もの]ですね。",
 "id": "229710",
 "jp": "高い建物ですね。",
 "user": "KK_kaku_"
 },
 "words|34|まっすぐ": {
 "en": "Look forward, please.",
+"furi": "まっすぐ[前|まえ]を[見|み]てください。",
 "id": "195363",
 "jp": "まっすぐ前を見てください。",
 "user": "bunbuku"
 },
 "words|34|サイズ": {
 "en": "What's your shoe size?",
+"furi": "[靴|くつ]のサイズはいくつ？",
 "id": "10675609",
 "jp": "靴のサイズはいくつ？",
 "user": "bunbuku"
 },
 "words|35|あんないします": {
 "en": "I'll guide you.",
+"furi": "ご[案内|あん|ない]します。",
 "id": "10570941",
 "jp": "ご案内します。",
 "user": "small_snow"
 },
 "words|35|いみ": {
 "en": "I'm catching on.",
+"furi": "[意味|い|み]は[分|わ]かります。",
 "id": "191036",
 "jp": "意味は分かります。",
 "user": "bunbuku"
 },
 "words|35|いれます（コーヒーを）": {
 "en": "Would you like some sugar?",
+"furi": "[砂糖|さ|とう]は[入|い]れますか。",
 "id": "170877",
 "jp": "砂糖は入れますか。",
 "user": "bunbuku"
 },
 "words|35|くれます": {
 "en": "Show me the way, will you?",
+"furi": "[案内|あん|ない]してくれますか。",
 "id": "191238",
 "jp": "案内してくれますか。",
 "user": "small_snow"
 },
 "words|35|しょうかいします": {
 "en": "I'll introduce you to my brother.",
+"furi": "[兄|あに]を[紹介|しょう|かい]します。",
 "id": "10129180",
 "jp": "兄を紹介します。",
 "user": "small_snow"
 },
 "words|35|じぶんで": {
 "en": "I will do it myself.",
+"furi": "[自分|じ|ぶん]でします。",
 "id": "156296",
 "jp": "自分でします。",
 "user": "KK_kaku_"
 },
 "words|35|せつめいします": {
 "en": "I'll explain using photographs.",
+"furi": "[写真|しゃ|しん]で[説明|せつ|めい]します。",
 "id": "2402543",
 "jp": "写真で説明します。",
 "user": "wakatyann630"
 },
 "words|35|ぜんぶ": {
 "en": "Is that all?",
+"furi": "それで[全部|ぜん|ぶ]？",
 "id": "3507409",
 "jp": "それで全部？",
 "user": "arnab"
 },
 "words|35|なおします": {
 "en": "I'll fix it now.",
+"furi": "[今|いま]から[直|なお]します。",
 "id": "2241832",
 "jp": "今から直します。",
 "user": "tommy_san"
 },
 "words|35|ほかに": {
 "en": "Is there anything else you want?",
+"furi": "ほかに[欲|ほ]しい[物|もの]はありますか？",
 "id": "11013767",
 "jp": "ほかに欲しい物はありますか？",
 "user": "KK_kaku_"
 },
 "words|35|［お］べんとう": {
 "en": "I eat lunch every day at noon.",
+"furi": "[私|わたし]は[毎日|まい|にち][昼|ひる]に[弁当|べん|とう]を[食|た]べます。",
 "id": "1483518",
 "jp": "私は毎日昼に弁当を食べます。",
 "user": "marshmallowcat"
 },
 "words|36|いなか": {
 "en": "I visited my father's hometown last summer.",
+"furi": "[去年|きょ|ねん]の[夏|なつ]、[父|ちち]の[田舎|いなか]に[行|い]きました。",
 "id": "182223",
 "jp": "去年の夏、父の田舎に行きました。",
 "user": "small_snow"
 },
 "words|36|いみ": {
 "en": "I'm catching on.",
+"furi": "[意味|い|み]は[分|わ]かります。",
 "id": "191036",
 "jp": "意味は分かります。",
 "user": "bunbuku"
 },
 "words|36|こと": {
 "en": "Do you love me?",
+"furi": "[僕|ぼく]のこと[好|す]き？",
 "id": "82218",
 "jp": "僕のこと好き？",
 "user": "tommy_san"
 },
 "words|36|しつれいします": {
 "en": "May I be excused?",
+"furi": "[失礼|しつ|れい]します。",
 "id": "507553",
 "jp": "失礼します。",
 "user": "orzage"
 },
 "words|36|ぜんぜん": {
 "en": "No problem at all!",
+"furi": "[全然|ぜん|ぜん][問題|もん|だい]ないよ！",
 "id": "9328935",
 "jp": "全然問題ないよ！",
 "user": "small_snow"
 },
 "words|36|たいしかん": {
 "en": "I'll go to the embassy tomorrow.",
+"furi": "[私|わたし]は[明日|あした][大使館|たい|し|かん]へ[行|い]きます。",
 "id": "10903698",
 "jp": "私は明日大使館へ行きます。",
 "user": "bunbuku"
 },
 "words|36|つきます（えきに）": {
 "en": "Your luggage will arrive tomorrow.",
+"furi": "[明日|あした][荷物|に|もつ]が[着|つ]きます。",
 "id": "10954009",
 "jp": "明日荷物が着きます。",
 "user": "small_snow"
 },
 "words|36|グループ": {
 "en": "The group of students all walk together.",
+"furi": "[学生|がく|せい]のグループが[一緒|いっ|しょ]に[歩|ある]きます。",
 "id": "10951072",
 "jp": "学生のグループが一緒に歩きます。",
 "user": "small_snow"
 },
 "words|36|チャンス": {
 "en": "Please give me another chance.",
+"furi": "もう[一度|いち|ど]チャンスをください。",
 "id": "9687097",
 "jp": "もう一度チャンスをください。",
 "user": "bunbuku"
 },
 "words|37|こんど": {
 "en": "I'll try not to disappoint you next time.",
+"furi": "[今度|こん|ど]はがんばります。",
 "id": "172109",
 "jp": "今度はがんばります。",
 "user": "bunbuku"
 },
 "words|37|さいふ": {
 "en": "I have lost my wallet.",
+"furi": "[財布|さい|ふ]をなくしたの。",
 "id": "5069",
 "jp": "財布をなくしたの。",
 "user": "bunbuku"
 },
 "words|37|さんかします": {
 "en": "I'll attend the meeting.",
+"furi": "[会議|かい|ぎ]には[参加|さん|か]しますよ。",
 "id": "10503517",
 "jp": "会議には参加しますよ。",
 "user": "bunbuku"
 },
 "words|37|ちがいます": {
 "en": "Isn't that so?",
+"furi": "[違|ちが]いますか？",
 "id": "3496743",
 "jp": "違いますか？",
 "user": "arnab"
 },
 "words|37|ちょうど": {
 "en": "I'm busy at the moment.",
+"furi": "ちょうど[今|いま]は[忙|いそが]しい。",
 "id": "202918",
 "jp": "ちょうど今は忙しい。",
 "user": "bunbuku"
 },
 "words|37|ばしょ": {
 "en": "Tell me where it is.",
+"furi": "[場所|ば|しょ][教|おし]えて。",
 "id": "10906700",
 "jp": "場所教えて。",
 "user": "small_snow"
 },
 "words|37|へいじつ": {
 "en": "On weekdays, there are always fewer people.",
+"furi": "[平日|へい|じつ]はいつも[人|ひと]が[少|すく]ないです。",
 "id": "11283960",
 "jp": "平日はいつも人が少ないです。",
 "user": "small_snow"
 },
 "words|37|べつの": {
 "en": "I want another.",
+"furi": "[別|べつ]のが[欲|ほ]しい。",
 "id": "8817030",
 "jp": "別のが欲しい。",
 "user": "small_snow"
 },
 "words|37|みます": {
 "en": "Do cats dream?",
+"furi": "[猫|ねこ]は[夢|ゆめ]を[見|み]ますか？",
 "id": "8982983",
 "jp": "猫は夢を見ますか？",
 "user": "Shounen"
 },
 "words|37|やります": {
 "en": "Will you do it?",
+"furi": "やりますか。",
 "id": "1564979",
 "jp": "やりますか。",
 "user": "marcelostockle"
 },
 "words|37|よかったら": {
 "en": "If it is ok, can you be my friend?",
+"furi": "よかったら[友達|とも|だち]になりませんか？",
 "id": "3710330",
 "jp": "よかったら友達になりませんか？",
 "user": "tommy_san"
 },
 "words|37|れんらくします": {
 "en": "We'll be in touch.",
+"furi": "また[連絡|れん|らく]します。",
 "id": "3357837",
 "jp": "また連絡します。",
 "user": "arnab"
 },
 "words|37|ガス": {
 "en": "Did you turn off the gas?",
+"furi": "ガスは[止|と]めた？",
 "id": "3416687",
 "jp": "ガスは止めた？",
 "user": "arnab"
 },
 "words|37|ボランティア": {
 "en": "Are there any volunteers?",
+"furi": "ボランティアの[方|かた]はいらっしゃいますか？",
 "id": "8689122",
 "jp": "ボランティアの方はいらっしゃいますか？",
 "user": "small_snow"
 },
 "words|38|いつか": {
 "en": "Call me sometime.",
+"furi": "いつか[電話|でん|わ]してよ。",
 "id": "228981",
 "jp": "いつか電話してよ。",
 "user": "small_snow"
 },
 "words|38|かぐ": {
 "en": "Let's go to the furniture store.",
+"furi": "[家具|か|ぐ][屋|や]に[行|い]きましょう。",
 "id": "12484055",
 "jp": "家具屋に行きましょう。",
 "user": "Lumi"
 },
 "words|38|こどもたち": {
 "en": "My children really like animals.",
+"furi": "[私|わたし]の[子|こ]どもたちは[動物|どう|ぶつ]が[大好|だい|す]きです。",
 "id": "163523",
 "jp": "私の子どもたちは動物が大好きです。",
 "user": "Blanka_Meduzo"
 },
 "words|38|しょうらい": {
 "en": "I worry about my future.",
+"furi": "[将来|しょう|らい]が[心配|しん|ぱい]で。",
 "id": "11161625",
 "jp": "将来が心配で。",
 "user": "small_snow"
 },
 "words|38|しんぱい［な］": {
 "en": "No need to worry.",
+"furi": "[心配|しん|ぱい]ないよ。",
 "id": "3459218",
 "jp": "心配ないよ。",
 "user": "arnab"
 },
 "words|38|じどうはんばいき": {
 "en": "The vending machines are over there.",
+"furi": "[自動|じ|どう][販売|はん|ばい][機|き]はあそこにあります。",
 "id": "150020",
 "jp": "自動販売機はあそこにあります。",
 "user": "mookeee"
 },
 "words|38|じぶん": {
 "en": "I will do it myself.",
+"furi": "[自分|じ|ぶん]でします。",
 "id": "156296",
 "jp": "自分でします。",
 "user": "KK_kaku_"
 },
 "words|38|じゆうに": {
 "en": "Please go ahead and take a look at your leisure.",
+"furi": "どうぞ、ご[自由|じ|ゆう]にみてください。",
 "id": "2461914",
 "jp": "どうぞ、ご自由にみてください。",
 "user": "flavio78"
 },
 "words|38|すばらしい": {
 "en": "This is a splendid house.",
+"furi": "すばらしい[家|いえ]ですね。",
 "id": "214567",
 "jp": "すばらしい家ですね。",
 "user": "bunbuku"
 },
 "words|38|たとえば": {
 "en": "For example, do you like English?",
+"furi": "[例|たと]えば、[英語|えい|ご]が[好|す]きですか。",
 "id": "337412",
 "jp": "例えば、英語が好きですか。",
 "user": "Swift"
 },
 "words|38|だいどころ": {
 "en": "Where's the kitchen?",
+"furi": "[台所|だい|どころ]はどこ？",
 "id": "8532899",
 "jp": "台所はどこ？",
 "user": "small_snow"
 },
 "words|38|つけます": {
 "en": "I keep my diary every day.",
+"furi": "[私|わたし]は[毎日|まい|にち][日記|にっ|き]をつけます。",
 "id": "152695",
 "jp": "私は毎日日記をつけます。",
 "user": "mookeee"
 },
 "words|38|できます": {
 "en": "Is that possible?",
+"furi": "できますか？",
 "id": "8691487",
 "jp": "できますか？",
 "user": "bunbuku"
 },
 "words|38|とびます": {
 "en": "I'll be flying to Germany.",
+"furi": "ドイツに[飛|と]びます。",
 "id": "11286127",
 "jp": "ドイツに飛びます。",
 "user": "small_snow"
 },
 "words|38|はしります": {
 "en": "I run.",
+"furi": "[私|わたし]は[走|はし]ります。",
 "id": "155349",
 "jp": "私は走ります。",
 "user": "KK_kaku_"
 },
 "words|38|はっきり": {
 "en": "Can you see it clearly?",
+"furi": "はっきり[見|み]えますか？",
 "id": "13537593",
 "jp": "はっきり見えますか？",
 "user": "LeviHighway"
 },
 "words|38|ひらきます": {
 "en": "The door opens.",
+"furi": "ドアが[開|ひら]きます。",
 "id": "8888550",
 "jp": "ドアが開きます。",
 "user": "mochico"
 },
 "words|38|ほかの": {
 "en": "Isn't there anything else?",
+"furi": "[他|ほか]のものはないの？",
 "id": "4561554",
 "jp": "他のものはないの？",
 "user": "Kiraness"
 },
 "words|38|ほとんど": {
 "en": "They have few books.",
+"furi": "[本|ほん]はほとんどない。",
 "id": "81647",
 "jp": "本はほとんどない。",
 "user": "bunbuku"
 },
 "words|38|ほんだな": {
 "en": "There's a dictionary on that bookshelf.",
+"furi": "[辞書|じ|しょ]はあそこの[本棚|ほん|だな]にあります。",
 "id": "10987705",
 "jp": "辞書はあそこの本棚にあります。",
 "user": "small_snow"
 },
 "words|38|クリーニング": {
 "en": "Where is the laundry?",
+"furi": "クリーニング[屋|や]はどこですか？",
 "id": "1700965",
 "jp": "クリーニング屋はどこですか？",
 "user": "mookeee"
 },
 "words|38|ポケット": {
 "en": "Check your pockets.",
+"furi": "ポケットを[確認|かく|にん]して。",
 "id": "9308415",
 "jp": "ポケットを確認して。",
 "user": "small_snow"
 },
 "words|38|ロボット": {
 "en": "Do you like robots?",
+"furi": "ロボットは[好|す]きですか。",
 "id": "2125746",
 "jp": "ロボットは好きですか。",
 "user": "bunbuku"
 },
 "words|39|おしらせ": {
 "en": "Please let us know.",
+"furi": "お[知|し]らせください。",
 "id": "226882",
 "jp": "お知らせください。",
 "user": "bunbuku"
 },
 "words|39|さんかします": {
 "en": "I'll attend the meeting.",
+"furi": "[会議|かい|ぎ]には[参加|さん|か]しますよ。",
 "id": "10503517",
 "jp": "会議には参加しますよ。",
 "user": "bunbuku"
 },
 "words|39|しばらく": {
 "en": "I'll stay here for a bit.",
+"furi": "ここにしばらくいます。",
 "id": "440739",
 "jp": "ここにしばらくいます。",
 "user": "bourdu"
 },
 "words|39|しゅうかん": {
 "en": "It has become habit.",
+"furi": "[習慣|しゅう|かん]になりました。",
 "id": "11563298",
 "jp": "習慣になりました。",
 "user": "small_snow"
 },
 "words|39|しょうらい": {
 "en": "I worry about my future.",
+"furi": "[将来|しょう|らい]が[心配|しん|ぱい]で。",
 "id": "11161625",
 "jp": "将来が心配で。",
 "user": "small_snow"
 },
 "words|39|じつは": {
 "en": "Actually, she's my older sister.",
+"furi": "[実|じつ]は、[姉|あね]なんです。",
 "id": "11563505",
 "jp": "実は、姉なんです。",
 "user": "small_snow"
 },
 "words|39|じぶん": {
 "en": "I will do it myself.",
+"furi": "[自分|じ|ぶん]でします。",
 "id": "156296",
 "jp": "自分でします。",
 "user": "KK_kaku_"
 },
 "words|39|それで": {
 "en": "Is that all?",
+"furi": "それで[全部|ぜん|ぶ]？",
 "id": "3507409",
 "jp": "それで全部？",
 "user": "arnab"
 },
 "words|39|それに": {
 "en": "I really do love it.",
+"furi": "[私|わたし]、それに[目|め]がないのよ。",
 "id": "8871863",
 "jp": "私、それに目がないのよ。",
 "user": "bunbuku"
 },
 "words|39|たいてい": {
 "en": "I usually walk.",
+"furi": "たいてい[歩|ある]いて[行|い]きます。",
 "id": "203916",
 "jp": "たいてい歩いて行きます。",
 "user": "arnab"
 },
 "words|39|だいどころ": {
 "en": "Where's the kitchen?",
+"furi": "[台所|だい|どころ]はどこ？",
 "id": "8532899",
 "jp": "台所はどこ？",
 "user": "small_snow"
 },
 "words|39|ちがいます": {
 "en": "Isn't that so?",
+"furi": "[違|ちが]いますか？",
 "id": "3496743",
 "jp": "違いますか？",
 "user": "arnab"
 },
 "words|39|ひにち": {
 "en": "How long will it take?",
+"furi": "[日|ひ]にちはどのくらいかかりますか。",
 "id": "122926",
 "jp": "日にちはどのくらいかかりますか。",
 "user": "mookeee"
 },
 "words|39|びよういん": {
 "en": "Yesterday I went to the hairdresser's.",
+"furi": "[昨日|きのう][美容|び|よう][院|いん]へ[行|い]きました。",
 "id": "169816",
 "jp": "昨日美容院へ行きました。",
 "user": "KK_kaku_"
 },
 "words|39|ゲーム": {
 "en": "I lost the game.",
+"furi": "ゲームで[負|ま]けた。",
 "id": "12696376",
 "jp": "ゲームで負けた。",
 "user": "small_snow"
 },
 "words|40|えきいん": {
 "en": "I showed the station attendant my ticket.",
+"furi": "[私|わたし]は[駅員|えき|いん]に[切符|きっ|ぷ]を[見|み]せました。",
 "id": "10899803",
 "jp": "私は駅員に切符を見せました。",
 "user": "small_snow"
 },
 "words|40|えきまえ": {
 "en": "There is a good restaurant in front of the station.",
+"furi": "[駅前|えき|まえ]にいい[店|てん]があります。",
 "id": "10987713",
 "jp": "駅前にいい店があります。",
 "user": "small_snow"
 },
 "words|40|このへん": {
 "en": "It's cold around here.",
+"furi": "この[辺|へん]は[寒|さむ]いよ。",
 "id": "9972244",
 "jp": "この辺は寒いよ。",
 "user": "small_snow"
 },
 "words|40|しょるい": {
 "en": "We checked the document again.",
+"furi": "その[書類|しょ|るい]をもう[一度|いち|ど][調|しら]べた。",
 "id": "209397",
 "jp": "その書類をもう一度調べた。",
 "user": "bunbuku"
 },
 "words|40|しんじゅく": {
 "en": "Let's go to Shinjuku tomorrow morning.",
+"furi": "[明日|あした]の[朝|あさ]、[新宿|しん|じゅく]に[行|い]きましょう。",
 "id": "808712",
 "jp": "明日の朝、新宿に行きましょう。",
 "user": "ryanthewired"
 },
 "words|40|じしん": {
 "en": "I'm afraid of earthquakes.",
+"furi": "[私|わたし]は[地震|じ|しん]が[怖|こわ]い。",
 "id": "155126",
 "jp": "私は地震が怖い。",
 "user": "mookeee"
 },
 "words|40|へんじ": {
 "en": "There is no reply.",
+"furi": "[返事|へん|じ]がない。",
 "id": "10901650",
 "jp": "返事がない。",
 "user": "small_snow"
 },
 "words|40|みつかります": {
 "en": "You can't miss it.",
+"furi": "きっと[見|み]つかりますよ。",
 "id": "226023",
 "jp": "きっと見つかりますよ。",
 "user": "tommy__san"
 },
 "words|40|もえます": {
 "en": "Wood burns.",
+"furi": "[木|き]は[燃|も]えます。",
 "id": "2080647",
 "jp": "木は燃えます。",
 "user": "bunbuku"
 },
 "words|40|わすれもの": {
 "en": "Do you have everything?",
+"furi": "[忘|わす]れ[物|もの]ない？",
 "id": "82540",
 "jp": "忘れ物ない？",
 "user": "mookeee"
 },
 "words|40|ガラス": {
 "en": "Beer bottles are made of glass.",
+"furi": "ビールびんはガラスでできている。",
 "id": "197661",
 "jp": "ビールびんはガラスでできている。",
 "user": "mookeee"
 },
 "words|40|スピーチ": {
 "en": "I'll give a speech tomorrow.",
+"furi": "[明日|あす]スピーチをします。",
 "id": "9575815",
 "jp": "明日スピーチをします。",
 "user": "small_snow"
 },
 "words|40|ポケット": {
 "en": "Check your pockets.",
+"furi": "ポケットを[確認|かく|にん]して。",
 "id": "9308415",
 "jp": "ポケットを確認して。",
 "user": "small_snow"
 },
 "words|41|おこさん": {
 "en": "How old are your children?",
+"furi": "お[子|こ]さんはおいくつですか？",
 "id": "3574891",
 "jp": "お子さんはおいくつですか？",
 "user": "tommy_san"
 },
 "words|41|おしらせ": {
 "en": "Please let us know.",
+"furi": "お[知|し]らせください。",
 "id": "226882",
 "jp": "お知らせください。",
 "user": "bunbuku"
 },
 "words|41|きぼう": {
 "en": "There is not much hope.",
+"furi": "あまり[希望|き|ぼう]がない。",
 "id": "230333",
 "jp": "あまり希望がない。",
 "user": "small_snow"
 },
 "words|41|きめます": {
 "en": "I'll decide later.",
+"furi": "[後|あと]で[決|き]めます。",
 "id": "5185677",
 "jp": "後で決めます。",
 "user": "aoi0913"
 },
 "words|41|こうばん": {
 "en": "I saw a number of people around the police box.",
+"furi": "[交番|こう|ばん]の[周|まわ]りに[人|ひと]がたくさんいた。",
 "id": "174100",
 "jp": "交番の周りに人がたくさんいた。",
 "user": "bunbuku"
 },
 "words|41|すると": {
 "en": "Does it hurt when I do that?",
+"furi": "[私|わたし]がああすると[痛|いた]い？",
 "id": "9065795",
 "jp": "私がああすると痛い？",
 "user": "small_snow"
 },
 "words|41|ちきゅう": {
 "en": "The earth is round.",
+"furi": "[地球|ち|きゅう]は[丸|まる]い。",
 "id": "126969",
 "jp": "地球は丸い。",
 "user": "bunbuku"
 },
 "words|41|まるい": {
 "en": "The earth is round.",
+"furi": "[地球|ち|きゅう]は[丸|まる]い。",
 "id": "126969",
 "jp": "地球は丸い。",
 "user": "bunbuku"
 },
 "words|41|ミーティング": {
 "en": "The meeting was closed.",
+"furi": "ミーティングは[終|お]わりました。",
 "id": "1282980",
 "jp": "ミーティングは終わりました。",
 "user": "bunbuku"
 },
 "words|41|リュック": {
 "en": "My backpack is very heavy.",
+"furi": "[私|わたし]のリュック、とても[重|おも]いですよ。",
 "id": "10630157",
 "jp": "私のリュック、とても重いですよ。",
 "user": "small_snow"
 },
 "words|42|おきゃく［さん］": {
 "en": "That shop has many customers.",
+"furi": "あの[店|みせ]はお[客|きゃく]さんが[多|おお]い。",
 "id": "230538",
 "jp": "あの店はお客さんが多い。",
 "user": "KK_kaku_"
 },
 "words|42|おこさん": {
 "en": "How old are your children?",
+"furi": "お[子|こ]さんはおいくつですか？",
 "id": "3574891",
 "jp": "お子さんはおいくつですか？",
 "user": "tommy_san"
 },
 "words|42|かえり": {
 "en": "I'm coming back next week.",
+"furi": "[来週|らい|しゅう][帰|かえ]ります。",
 "id": "1879941",
 "jp": "来週帰ります。",
 "user": "small_snow"
 },
 "words|42|きゅうけいします": {
 "en": "I'm going to take a short break.",
+"furi": "[私|わたし]はこれから[少|すこ]し[休憩|きゅう|けい]します。",
 "id": "4897977",
 "jp": "私はこれから少し休憩します。",
 "user": "huizi99"
 },
 "words|42|こどもたち": {
 "en": "My children really like animals.",
+"furi": "[私|わたし]の[子|こ]どもたちは[動物|どう|ぶつ]が[大好|だい|す]きです。",
 "id": "163523",
 "jp": "私の子どもたちは動物が大好きです。",
 "user": "Blanka_Meduzo"
 },
 "words|42|さくぶん": {
 "en": "My teacher looked over my composition.",
+"furi": "[先生|せん|せい]は[私|わたし]の[作文|さく|ぶん]を[見|み]てくれた。",
 "id": "141590",
 "jp": "先生は私の作文を見てくれた。",
 "user": "KK_kaku_"
 },
 "words|42|じゆうに": {
 "en": "Please go ahead and take a look at your leisure.",
+"furi": "どうぞ、ご[自由|じ|ゆう]にみてください。",
 "id": "2461914",
 "jp": "どうぞ、ご自由にみてください。",
 "user": "flavio78"
 },
 "words|42|ずっと": {
 "en": "He has been busy.",
+"furi": "[彼|かれ]はずっと[忙|いそが]しい。",
 "id": "113377",
 "jp": "彼はずっと忙しい。",
 "user": "bunbuku"
 },
 "words|42|せかいじゅう": {
 "en": "He traveled all over the world.",
+"furi": "[彼|かれ]は[世界中|せ|かい|じゅう]を[旅行|りょ|こう]した。",
 "id": "103410",
 "jp": "彼は世界中を旅行した。",
 "user": "bunbuku"
 },
 "words|42|そつぎょうします": {
 "en": "I'll graduate this year.",
+"furi": "[今年|こ|とし][卒業|そつ|ぎょう]します。",
 "id": "8619746",
 "jp": "今年卒業します。",
 "user": "small_snow"
 },
 "words|42|だれか": {
 "en": "Someone's at the door.",
+"furi": "[誰|だれ]か[来|き]たよ。",
 "id": "10682365",
 "jp": "誰か来たよ。",
 "user": "small_snow"
 },
 "words|42|にゅうがくしけん": {
 "en": "Yesterday she sat for the entrance examination.",
+"furi": "[昨日|きのう][彼女|かの|じょ]は[入学|にゅう|がく][試験|し|けん]を[受|う]けた。",
 "id": "169820",
 "jp": "昨日彼女は入学試験を受けた。",
 "user": "KK_kaku_"
 },
 "words|42|はっぴょう": {
 "en": "I think the time is right to introduce this product.",
+"furi": "この[製品|せい|ひん]を[発表|はっ|ぴょう]するときが[来|き]た。",
 "id": "1525406",
 "jp": "この製品を発表するときが来た。",
 "user": "bunbuku"
 },
 "words|42|ふつうの": {
 "en": "Is this normal?",
+"furi": "これは[普通|ふ|つう]のこと？",
 "id": "8693575",
 "jp": "これは普通のこと？",
 "user": "bunbuku"
 },
 "words|42|みつけます": {
 "en": "I'll find one later.",
+"furi": "これから[見|み]つけます。",
 "id": "218959",
 "jp": "これから見つけます。",
 "user": "KK_kaku_"
 },
 "words|42|れんきゅう": {
 "en": "The holidays will be here soon.",
+"furi": "もうすぐで[連休|れん|きゅう]です。",
 "id": "11529749",
 "jp": "もうすぐで連休です。",
 "user": "small_snow"
 },
 "words|43|うんどうします": {
 "en": "I work out.",
+"furi": "[運動|うん|どう]します。",
 "id": "2575053",
 "jp": "運動します。",
 "user": "OrangeTart"
 },
 "words|43|おかしい": {
 "en": "Something is strange.",
+"furi": "[何|なに]かがおかしい。",
 "id": "12300727",
 "jp": "何かがおかしい。",
 "user": "small_snow"
 },
 "words|43|おそく": {
 "en": "I'll be late.",
+"furi": "[遅|おそ]くなります。",
 "id": "2465471",
 "jp": "遅くなります。",
 "user": "nihonjin"
 },
 "words|43|けんこう": {
 "en": "I'm healthy.",
+"furi": "[私|わたし]は[体|からだ]は[健康|けん|こう]です。",
 "id": "155251",
 "jp": "私は体は健康です。",
 "user": "mookeee"
 },
 "words|43|こんや": {
 "en": "I'm free tonight.",
+"furi": "[今夜|こん|や]は[暇|ひま]です。",
 "id": "171122",
 "jp": "今夜は暇です。",
 "user": "bunbuku"
 },
 "words|43|しんぱい［な］": {
 "en": "No need to worry.",
+"furi": "[心配|しん|ぱい]ないよ。",
 "id": "3459218",
 "jp": "心配ないよ。",
 "user": "arnab"
 },
 "words|43|せんせい": {
 "en": "I am a teacher, too.",
+"furi": "[私|わたし]も[先生|せん|せい]です。",
 "id": "152190",
 "jp": "私も先生です。",
 "user": "small_snow"
 },
 "words|43|はたらきすぎ": {
 "en": "You work too hard.",
+"furi": "[働|はたら]きすぎですよ。",
 "id": "177029",
 "jp": "働きすぎですよ。",
 "user": "KK_kaku_"
 },
 "words|43|ほしうらない": {
 "en": "Have you read your horoscope today?",
+"furi": "[今日|きょう]は、[星|ほし][占|うらな]い[見|み]た？",
 "id": "10899481",
 "jp": "今日は、星占い見た？",
 "user": "small_snow"
 },
 "words|43|もどります": {
 "en": "I will be back soon.",
+"furi": "すぐ[戻|もど]ります。",
 "id": "214752",
 "jp": "すぐ戻ります。",
 "user": "tommy_san"
 },
 "words|43|れんあい": {
 "en": "I like love stories.",
+"furi": "[私|わたし]は[恋愛|れん|あい][小説|しょう|せつ]が[好|す]きです。",
 "id": "524080",
 "jp": "私は恋愛小説が好きです。",
 "user": "qahwa"
 },
 "words|43|ヨーロッパ": {
 "en": "Europe is cold in the winter.",
+"furi": "[冬|ふゆ]のヨーロッパは[寒|さむ]い。",
 "id": "10588030",
 "jp": "冬のヨーロッパは寒い。",
 "user": "Sonata"
 },
 "words|43|［お］かねもち": {
 "en": "She is a wealthy woman.",
+"furi": "[彼女|かの|じょ]は[金持|かね|も]ちです。",
 "id": "90398",
 "jp": "彼女は金持ちです。",
 "user": "bunbuku"
 },
 "words|44|あいて": {
 "en": "This is a store that caters specially to students.",
+"furi": "これは[学生|がく|せい][相手|あい|て]の[店|みせ]です。",
 "id": "184210",
 "jp": "これは学生相手の店です。",
 "user": "Scott"
 },
 "words|44|あげます": {
 "en": "I will give you this.",
+"furi": "これをあなたにあげます。",
 "id": "1221471",
 "jp": "これをあなたにあげます。",
 "user": "FiRez"
 },
 "words|44|おきます": {
 "en": "I'll have to let you know.",
+"furi": "[考|かんが]えておきます。",
 "id": "173470",
 "jp": "考えておきます。",
 "user": "bunbuku"
 },
 "words|44|おなじ": {
 "en": "I agree.",
+"furi": "[同|おな]じ[意見|い|けん]です。",
 "id": "774830",
 "jp": "同じ意見です。",
 "user": "marloncori"
 },
 "words|44|きそく": {
 "en": "I explained the rules to her.",
+"furi": "[私|わたし]は[彼女|かの|じょ]に[規則|き|そく]を[説明|せつ|めい]した。",
 "id": "1041815",
 "jp": "私は彼女に規則を説明した。",
 "user": "mookeee"
 },
 "words|44|きもち": {
 "en": "Gross!",
+"furi": "[気持|き|も]ち[悪|わる]い！",
 "id": "2393230",
 "jp": "気持ち悪い！",
 "user": "anankei"
 },
 "words|44|けいさつ": {
 "en": "Where is the police station?",
+"furi": "[警察|けい|さつ]はどこですか。",
 "id": "176215",
 "jp": "警察はどこですか。",
 "user": "bunbuku"
 },
 "words|44|しめきり": {
 "en": "When is the deadline?",
+"furi": "[締|し]め[切|き]りはいつですか？",
 "id": "11140910",
 "jp": "締め切りはいつですか？",
 "user": "bunbuku"
 },
 "words|44|じしん": {
 "en": "I'm afraid of earthquakes.",
+"furi": "[私|わたし]は[地震|じ|しん]が[怖|こわ]い。",
 "id": "155126",
 "jp": "私は地震が怖い。",
 "user": "mookeee"
 },
 "words|44|たちいりきんし": {
 "en": "This is a restricted area.",
+"furi": "ここは[立入禁止|たち|いり|きん|し]です。",
 "id": "224274",
 "jp": "ここは立入禁止です。",
 "user": "small_snow"
 },
 "words|44|たとえば": {
 "en": "For example, do you like English?",
+"furi": "[例|たと]えば、[英語|えい|ご]が[好|す]きですか。",
 "id": "337412",
 "jp": "例えば、英語が好きですか。",
 "user": "Swift"
 },
 "words|44|だめ［な］": {
 "en": "It can't be today.",
+"furi": "[今日|きょう]はだめです。",
 "id": "7704604",
 "jp": "今日はだめです。",
 "user": "leafjensen"
 },
 "words|44|ちゅうしゃいはん": {
 "en": "Parking fines are very costly.",
+"furi": "[駐車|ちゅう|しゃ][違反|い|はん]の[罰金|ばっ|きん]は[高|たか]い。",
 "id": "126304",
 "jp": "駐車違反の罰金は高い。",
 "user": "small_snow"
 },
 "words|44|つたえます": {
 "en": "I'll tell him that.",
+"furi": "そう[伝|つた]えます。",
 "id": "213766",
 "jp": "そう伝えます。",
 "user": "Take32"
 },
 "words|44|できるだけ": {
 "en": "Be as quick as possible.",
+"furi": "できるだけ[早|はや]くね。",
 "id": "11310764",
 "jp": "できるだけ早くね。",
 "user": "small_snow"
 },
 "words|44|でんぽう": {
 "en": "Please answer me by telegram.",
+"furi": "[電報|でん|ぽう]でご[返事|へん|じ][下|くだ]さい。",
 "id": "124759",
 "jp": "電報でご返事下さい。",
 "user": "mookeee"
 },
 "words|44|ばっきん": {
 "en": "Parking fines are very costly.",
+"furi": "[駐車|ちゅう|しゃ][違反|い|はん]の[罰金|ばっ|きん]は[高|たか]い。",
 "id": "126304",
 "jp": "駐車違反の罰金は高い。",
 "user": "small_snow"
 },
 "words|44|ひとびと": {
 "en": "Thousands of people were there.",
+"furi": "[何|なん][千|ぜん]もの[人々|ひとびと]がそこにいた。",
 "id": "187360",
 "jp": "何千もの人々がそこにいた。",
 "user": "KK_kaku_"
 },
 "words|44|まもります": {
 "en": "He is as good as his word.",
+"furi": "[彼|かれ]は[約束|やく|そく]を[守|まも]ります。",
 "id": "2316970",
 "jp": "彼は約束を守ります。",
 "user": "bunbuku"
 },
 "words|44|もどります": {
 "en": "I will be back soon.",
+"furi": "すぐ[戻|もど]ります。",
 "id": "214752",
 "jp": "すぐ戻ります。",
 "user": "tommy_san"
 },
 "words|44|るす": {
 "en": "Mother is away from home.",
+"furi": "[母|はは]は[留守|る|す]です。",
 "id": "82839",
 "jp": "母は留守です。",
 "user": "bunbuku"
 },
 "words|44|るすばん": {
 "en": "Would you look after the place while I'm out?",
+"furi": "[留守番|る|す|ばん]しててね。",
 "id": "78219",
 "jp": "留守番しててね。",
 "user": "mookeee"
 },
 "words|44|わりびき": {
 "en": "Do you have a student fare?",
+"furi": "[学生|がく|せい][割引|わり|びき]はありますか。",
 "id": "184226",
 "jp": "学生割引はありますか。",
 "user": "tommy_san"
 },
 "words|44|マーク": {
 "en": "Mark's book is very interesting.",
+"furi": "マークの[本|ほん]はとても[面白|おも|しろ]い。",
 "id": "2064489",
 "jp": "マークの本はとても面白い。",
 "user": "bunbuku"
 },
 "words|45|おきゃく［さん］": {
 "en": "That shop has many customers.",
+"furi": "あの[店|みせ]はお[客|きゃく]さんが[多|おお]い。",
 "id": "230538",
 "jp": "あの店はお客さんが多い。",
 "user": "KK_kaku_"
 },
 "words|45|かぐ": {
 "en": "Let's go to the furniture store.",
+"furi": "[家具|か|ぐ][屋|や]に[行|い]きましょう。",
 "id": "12484055",
 "jp": "家具屋に行きましょう。",
 "user": "Lumi"
 },
 "words|45|さきに": {
 "en": "You can sleep first.",
+"furi": "[先|さき]に[寝|ね]てていいよ。",
 "id": "141908",
 "jp": "先に寝てていいよ。",
 "user": "small_snow"
 },
 "words|45|さっき": {
 "en": "What did you mean in that email you just sent?",
+"furi": "さっきのメールどういう[意味|い|み]？",
 "id": "2313031",
 "jp": "さっきのメールどういう意味？",
 "user": "tommy_san"
 },
 "words|45|ざいりょう": {
 "en": "What are they made of?",
+"furi": "[材料|ざい|りょう]は[何|なん]ですか？",
 "id": "10808962",
 "jp": "材料は何ですか？",
 "user": "bunbuku"
 },
 "words|45|なべ": {
 "en": "What are nabemono like?",
+"furi": "なべ[物|もの]とはどんなものですか。",
 "id": "199083",
 "jp": "なべ物とはどんなものですか。",
 "user": "mookeee"
 },
 "words|45|ゆうべ": {
 "en": "Did you call me last night?",
+"furi": "ゆうべ[私|わたし]に[電話|でん|わ]くれた？",
 "id": "79133",
 "jp": "ゆうべ私に電話くれた？",
 "user": "bunbuku"
 },
 "words|45|シートベルト": {
 "en": "Did you fasten the seatbelt?",
+"furi": "シートベルトはした？",
 "id": "10159562",
 "jp": "シートベルトはした？",
 "user": "small_snow"
 },
 "words|46|かいがい": {
 "en": "I want to go abroad.",
+"furi": "[海外|かい|がい]に[行|い]きたい。",
 "id": "1200846",
 "jp": "海外に行きたい。",
 "user": "bunbuku"
 },
 "words|46|かんけい": {
 "en": "This doesn't concern me.",
+"furi": "[私|わたし]には[関係|かん|けい]ない。",
 "id": "395840",
 "jp": "私には関係ない。",
 "user": "cheeheerow"
 },
 "words|46|きかい": {
 "en": "May I take a rain check?",
+"furi": "また、[次|つぎ]の[機会|き|かい]にでも。",
 "id": "195543",
 "jp": "また、次の機会にでも。",
 "user": "small_snow"
 },
 "words|46|きょか": {
 "en": "Do I need permission?",
+"furi": "[許可|きょ|か]が[必要|ひつ|よう]ですか？",
 "id": "11782640",
 "jp": "許可が必要ですか？",
 "user": "bunbuku"
 },
 "words|46|きんじょ": {
 "en": "He's my neighbour.",
+"furi": "[近所|きん|じょ]の[人|ひと]よ。",
 "id": "12383642",
 "jp": "近所の人よ。",
 "user": "small_snow"
 },
 "words|46|くわしい": {
 "en": "Are you familiar with sign language?",
+"furi": "[手話|しゅ|わ]に[詳|くわ]しい？",
 "id": "8757190",
 "jp": "手話に詳しい？",
 "user": "bunbuku"
 },
 "words|46|ことわざ": {
 "en": "This is a proverb the meaning of which I do not understand.",
+"furi": "これは[私|わたし]がその[意味|い|み]が[分|わ]からないことわざです。",
 "id": "218907",
 "jp": "これは私がその意味が分からないことわざです。",
 "user": "mookeee"
 },
 "words|46|すいはんき": {
 "en": "Turn on the rice cooker, please.",
+"furi": "[炊飯|すい|はん][器|き]のスイッチを[入|い]れてね。",
 "id": "143618",
 "jp": "炊飯器のスイッチを入れてね。",
 "user": "bunbuku"
 },
 "words|46|それなら": {
 "en": "If so, then there's no problem at all, is there?",
+"furi": "それなら、なんの[問題|もん|だい]もないじゃないですか。",
 "id": "518584",
 "jp": "それなら、なんの問題もないじゃないですか。",
 "user": "nihonjin"
 },
 "words|46|たのしみ": {
 "en": "I am looking forward to the trip.",
+"furi": "[旅行|りょ|こう]が[楽|たの]しみです。",
 "id": "152338",
 "jp": "旅行が楽しみです。",
 "user": "KK_kaku_"
 },
 "words|46|ひつよう［な］": {
 "en": "What do you need?",
+"furi": "[何|なに]が[必要|ひつ|よう]ですか。",
 "id": "187898",
 "jp": "何が必要ですか。",
 "user": "bunbuku"
 },
 "words|46|ふた": {
 "en": "She took off the lid of the box.",
+"furi": "[彼女|かの|じょ]は[箱|はこ]のふたを[開|あ]けた。",
 "id": "87535",
 "jp": "彼女は箱のふたを開けた。",
 "user": "bunbuku"
 },
 "words|46|ほうほう": {
 "en": "There's no way.",
+"furi": "[方法|ほう|ほう]はありません。",
 "id": "2192113",
 "jp": "方法はありません。",
 "user": "acbarbosa"
 },
 "words|46|むこう": {
 "en": "The castle is across the river.",
+"furi": "[城|しろ]は[川|かわ]の[向|む]こうにある。",
 "id": "146095",
 "jp": "城は川の向こうにある。",
 "user": "bunbuku"
 },
 "words|46|めずらしい": {
 "en": "It's so rare.",
+"furi": "ずいぶんと[珍|めずら]しいですね。",
 "id": "3506563",
 "jp": "ずいぶんと珍しいですね。",
 "user": "arnab"
 },
 "words|46|やまのぼり": {
 "en": "I like climbing mountains.",
+"furi": "[私|わたし]は[山登|やま|のぼ]りが[好|す]きです。",
 "id": "156654",
 "jp": "私は山登りが好きです。",
 "user": "tommy_san"
 },
 "words|46|アフリカ": {
 "en": "South Africa is far away.",
+"furi": "[南|みなみ]アフリカは[遠|とお]い。",
 "id": "640529",
 "jp": "南アフリカは遠い。",
 "user": "arihato"
 },
 "words|46|カーテン": {
 "en": "Close the curtain.",
+"furi": "カーテン[閉|し]めて。",
 "id": "11588302",
 "jp": "カーテン閉めて。",
 "user": "small_snow"
 },
 "words|46|ハイキング": {
 "en": "I went hiking with the group.",
+"furi": "[私|わたし]はハイキングに[参加|さん|か]した。",
 "id": "159146",
 "jp": "私はハイキングに参加した。",
 "user": "bunbuku"
 },
 "words|47|あんぜん［な］": {
 "en": "Drive safely.",
+"furi": "[安全|あん|ぜん][運転|うん|てん]してね。",
 "id": "485448",
 "jp": "安全運転してね。",
 "user": "bunbuku"
 },
 "words|47|うちゅう": {
 "en": "Space travel is no longer a dream.",
+"furi": "[宇宙|う|ちゅう][旅行|りょ|こう]はもはや[夢|ゆめ]ではない。",
 "id": "189859",
 "jp": "宇宙旅行はもはや夢ではない。",
 "user": "tommy__san"
 },
 "words|47|かならず": {
 "en": "I'll do it by all means.",
+"furi": "[必|かなら]ずやります。",
 "id": "85476",
 "jp": "必ずやります。",
 "user": "Take32"
 },
 "words|47|かなり": {
 "en": "It's pretty cold.",
+"furi": "かなり[寒|さむ]い。",
 "id": "226275",
 "jp": "かなり寒い。",
 "user": "arnab"
 },
 "words|47|きもち": {
 "en": "Gross!",
+"furi": "[気持|き|も]ち[悪|わる]い！",
 "id": "2393230",
 "jp": "気持ち悪い！",
 "user": "anankei"
 },
 "words|47|けんこう": {
 "en": "Swimming is good for your health.",
+"furi": "[水泳|すい|えい]は[健康|けん|こう]によい。",
 "id": "143686",
 "jp": "水泳は健康によい。",
 "user": "bunbuku"
 },
 "words|47|こうじょう": {
 "en": "There is no factory in this village.",
+"furi": "この[村|むら]には[工場|こう|じょう]は[一|ひと]つもない。",
 "id": "220682",
 "jp": "この村には工場は一つもない。",
 "user": "KK_kaku_"
 },
 "words|47|このごろ": {
 "en": "Recently we have had many mild days.",
+"furi": "このごろ[暖|あたた]かい[日|ひ]が[多|おお]い。",
 "id": "223738",
 "jp": "このごろ暖かい日が多い。",
 "user": "small_snow"
 },
 "words|47|じゆうに": {
 "en": "I want freedom.",
+"furi": "[自由|じ|ゆう]になりたい。",
 "id": "5055280",
 "jp": "自由になりたい。",
 "user": "hiroy"
 },
 "words|47|じょうずに": {
 "en": "I sang well.",
+"furi": "[上手|じょう|ず]に[歌|うた]えた。",
 "id": "13028930",
 "jp": "上手に歌えた。",
 "user": "small_snow"
 },
 "words|47|すいえい": {
 "en": "Swimming is good for your health.",
+"furi": "[水泳|すい|えい]は[健康|けん|こう]によい。",
 "id": "143686",
 "jp": "水泳は健康によい。",
 "user": "bunbuku"
 },
 "words|47|ぜったいに": {
 "en": "When pigs fly!",
+"furi": "[絶対|ぜっ|たい]に[無理|む|り]！",
 "id": "11572792",
 "jp": "絶対に無理！",
 "user": "small_snow"
 },
 "words|47|ちがいます": {
 "en": "Isn't that so?",
+"furi": "[違|ちが]いますか？",
 "id": "3496743",
 "jp": "違いますか？",
 "user": "arnab"
 },
 "words|47|ちきゅう": {
 "en": "The earth is round.",
+"furi": "[地球|ち|きゅう]は[丸|まる]い。",
 "id": "126969",
 "jp": "地球は丸い。",
 "user": "bunbuku"
 },
 "words|47|できるだけ": {
 "en": "Be as quick as possible.",
+"furi": "できるだけ[早|はや]くね。",
 "id": "11310764",
 "jp": "できるだけ早くね。",
 "user": "small_snow"
 },
 "words|47|とおく": {
 "en": "I saw a house in the distance.",
+"furi": "[遠|とお]くに[家|いえ]が[見|み]えた。",
 "id": "188672",
 "jp": "遠くに家が見えた。",
 "user": "bunbuku"
 },
 "words|47|とくべつ［な］": {
 "en": "Is there any place special you want to go?",
+"furi": "[特別|とく|べつ]に[行|い]きたい[場所|ば|しょ]はありますか？",
 "id": "8755628",
 "jp": "特別に行きたい場所はありますか？",
 "user": "bunbuku"
 },
 "words|47|とびます": {
 "en": "I'll be flying to Germany.",
+"furi": "ドイツに[飛|と]びます。",
 "id": "11286127",
 "jp": "ドイツに飛びます。",
 "user": "small_snow"
 },
 "words|47|はこびます": {
 "en": "Let me carry that box for you.",
+"furi": "その[箱|はこ]、[僕|ぼく]が[運|はこ]びますよ。",
 "id": "9941512",
 "jp": "その箱、僕が運びますよ。",
 "user": "bunbuku"
 },
 "words|47|ほとんど": {
 "en": "They have few books.",
+"furi": "[本|ほん]はほとんどない。",
 "id": "81647",
 "jp": "本はほとんどない。",
 "user": "bunbuku"
 },
 "words|47|めずらしい": {
 "en": "It's so rare.",
+"furi": "ずいぶんと[珍|めずら]しいですね。",
 "id": "3506563",
 "jp": "ずいぶんと珍しいですね。",
 "user": "arnab"
 },
 "words|48|いっしょうけんめい": {
 "en": "He studied very hard.",
+"furi": "[彼|かれ]は[一生懸命|いっ|しょう|けん|めい][勉強|べん|きょう]した。",
 "id": "109923",
 "jp": "彼は一生懸命勉強した。",
 "user": "bunbuku"
 },
 "words|48|けいかん": {
 "en": "You look like a cop.",
+"furi": "[警官|けい|かん]みたいですね。",
 "id": "3385029",
 "jp": "警官みたいですね。",
 "user": "e4zh1nmcz"
 },
 "words|48|ごうか［な］": {
 "en": "It's gorgeous.",
+"furi": "[豪華|ごう|か]ですね。",
 "id": "10585415",
 "jp": "豪華ですね。",
 "user": "small_snow"
 },
 "words|48|そのご": {
 "en": "After that, he went home.",
+"furi": "その[後|ご][彼|かれ]は[家|いえ]に[帰|かえ]りました。",
 "id": "236894",
 "jp": "その後彼は家に帰りました。",
 "user": "mookeee"
 },
 "words|48|たのみます": {
 "en": "I'll order this dish.",
+"furi": "[私|わたし]はこの[料理|りょう|り]を[頼|たの]みます。",
 "id": "10903677",
 "jp": "私はこの料理を頼みます。",
 "user": "small_snow"
 },
 "words|48|だれか": {
 "en": "Someone's at the door.",
+"furi": "[誰|だれ]か[来|き]たよ。",
 "id": "10682365",
 "jp": "誰か来たよ。",
 "user": "small_snow"
 },
 "words|48|とち": {
 "en": "It's a very rocky soil, isn't it?",
+"furi": "[石|いし]の[多|おお]い[土地|と|ち]ですね。",
 "id": "518883",
 "jp": "石の多い土地ですね。",
 "user": "blay_paul"
 },
 "words|48|なかま": {
 "en": "Count me in.",
+"furi": "[私|わたし]も[仲間|なか|ま]に[入|い]れて。",
 "id": "1153163",
 "jp": "私も仲間に入れて。",
 "user": "bunbuku"
 },
 "words|48|なにご": {
 "en": "What languages do you speak?",
+"furi": "[何|なに][語|ご]が[話|はな]せますか？",
 "id": "8679659",
 "jp": "何語が話せますか？",
 "user": "mochico"
 },
 "words|48|みなさま": {
 "en": "How are you all doing?",
+"furi": "[皆様|みな|さま]、ご[機嫌|き|げん]いかがですか？",
 "id": "1147121",
 "jp": "皆様、ご機嫌いかがですか？",
 "user": "Scott"
 },
 "words|48|デート": {
 "en": "Will you go on a date with me?",
+"furi": "デートしませんか？",
 "id": "10736122",
 "jp": "デートしませんか？",
 "user": "small_snow"
 },
 "words|48|－キロ": {
 "en": "The school is two kilometers ahead.",
+"furi": "[学校|がっ|こう]は[２|]キロ[先|さき]にある。",
 "id": "184425",
 "jp": "学校は２キロ先にある。",
 "user": "mookeee"
 },
 "words|49|あかちゃん": {
 "en": "Is the baby OK?",
+"furi": "[赤|あか]ちゃんは[大丈夫|だい|じょう|ぶ]？",
 "id": "8714261",
 "jp": "赤ちゃんは大丈夫？",
 "user": "bunbuku"
 },
 "words|49|えきまえ": {
 "en": "There is a bank in front of the station.",
+"furi": "[駅前|えき|まえ]に[銀行|ぎん|こう]があるよ。",
 "id": "188824",
 "jp": "駅前に銀行があるよ。",
 "user": "bunbuku"
 },
 "words|49|おととし": {
 "en": "I climbed this mountain the year before last.",
+"furi": "[私|わたし]は[一昨年|おととし]この[山|やま]に[登|のぼ]りました。",
 "id": "10899771",
 "jp": "私は一昨年この山に登りました。",
 "user": "small_snow"
 },
 "words|49|おとなしい": {
 "en": "This dog is obedient.",
+"furi": "この[犬|いぬ]は、おとなしい。",
 "id": "11263436",
 "jp": "この犬は、おとなしい。",
 "user": "small_snow"
 },
 "words|49|かいがん": {
 "en": "There were a lot of people on the beach.",
+"furi": "[海岸|かい|がん]には[大勢|おお|ぜい]の[人|ひと]がいた。",
 "id": "10986418",
 "jp": "海岸には大勢の人がいた。",
 "user": "bunbuku"
 },
 "words|49|きちんと": {
 "en": "He set things in order in his room.",
+"furi": "[彼|かれ]は[部屋|へ|や]をきちんと[整理|せい|り]した。",
 "id": "100289",
 "jp": "彼は部屋をきちんと整理した。",
 "user": "bunbuku"
 },
 "words|49|けんこう": {
 "en": "Swimming is good for your health.",
+"furi": "[水泳|すい|えい]は[健康|けん|こう]によい。",
 "id": "143686",
 "jp": "水泳は健康によい。",
 "user": "bunbuku"
 },
 "words|49|こうじょう": {
 "en": "There is no factory in this village.",
+"furi": "この[村|むら]には[工場|こう|じょう]は[一|ひと]つもない。",
 "id": "220682",
 "jp": "この村には工場は一つもない。",
 "user": "KK_kaku_"
 },
 "words|49|しかた": {
 "en": "That's pretty normal.",
+"furi": "それは、しかたないです。",
 "id": "2887323",
 "jp": "それは、しかたないです。",
 "user": "tokyomaths"
 },
 "words|49|しまい": {
 "en": "Do you have any sisters?",
+"furi": "[姉妹|し|まい]はいますか？",
 "id": "168885",
 "jp": "姉妹はいますか？",
 "user": "KK_kaku_"
 },
 "words|49|しゅうかん": {
 "en": "It has become habit.",
+"furi": "[習慣|しゅう|かん]になりました。",
 "id": "11563298",
 "jp": "習慣になりました。",
 "user": "small_snow"
 },
 "words|49|しょるい": {
 "en": "We checked the document again.",
+"furi": "その[書類|しょ|るい]をもう[一度|いち|ど][調|しら]べた。",
 "id": "209397",
 "jp": "その書類をもう一度調べた。",
 "user": "bunbuku"
 },
 "words|49|せいかく": {
 "en": "He has a nice personality.",
+"furi": "[彼|かれ]は[性格|せい|かく]がよい。",
 "id": "103394",
 "jp": "彼は性格がよい。",
 "user": "bunbuku"
 },
 "words|49|でんげん": {
 "en": "I turned off my phone.",
+"furi": "[携帯|けい|たい]の[電源|でん|げん]は[切|き]りました。",
 "id": "11052131",
 "jp": "携帯の電源は切りました。",
 "user": "small_snow"
 },
 "words|49|ねんれい": {
 "en": "Age is just a number.",
+"furi": "[年齢|ねん|れい]は[関係|かん|けい]ない。",
 "id": "10181518",
 "jp": "年齢は関係ない。",
 "user": "Sim5634"
 },
 "words|49|はこびます": {
 "en": "Let me carry that box for you.",
+"furi": "その[箱|はこ]、[僕|ぼく]が[運|はこ]びますよ。",
 "id": "9941512",
 "jp": "その箱、僕が運びますよ。",
 "user": "bunbuku"
 },
 "words|49|ふたご": {
 "en": "I'm a twin.",
+"furi": "[私|わたし]は[双子|ふた|ご]です。",
 "id": "2252498",
 "jp": "私は双子です。",
 "user": "tommy_san"
 },
 "words|49|ほうほう": {
 "en": "There's no way.",
+"furi": "[方法|ほう|ほう]はありません。",
 "id": "2192113",
 "jp": "方法はありません。",
 "user": "acbarbosa"
 },
 "words|49|ゆびわ": {
 "en": "My ring is gone.",
+"furi": "[指輪|ゆび|わ]がない。",
 "id": "10367619",
 "jp": "指輪がない。",
 "user": "small_snow"
 },
 "words|49|クラス": {
 "en": "How is your new class?",
+"furi": "[新|あたら]しいクラスはどう？",
 "id": "3642234",
 "jp": "新しいクラスはどう？",
 "user": "tommy_san"
 },
 "words|50|おおぜい": {
 "en": "Were there many people watching?",
+"furi": "[大勢|おお|ぜい]の[人|ひと]が[見|み]てた？",
 "id": "10759951",
 "jp": "大勢の人が見てた？",
 "user": "small_snow"
 },
 "words|50|おとな": {
 "en": "Two adults, please.",
+"furi": "[大人|おとな][２|に][枚|まい]ください。",
 "id": "137485",
 "jp": "大人２枚ください。",
 "user": "bunbuku"
 },
 "words|50|じゃま［な］": {
 "en": "You're in the way.",
+"furi": "あなた[邪魔|じゃ|ま]よ。",
 "id": "10201385",
 "jp": "あなた邪魔よ。",
 "user": "small_snow"
 },
 "words|50|そうたいします": {
 "en": "I have a fever, so I'll leave early.",
+"furi": "[熱|ねつ]があるから[早退|そう|たい]しますね。",
 "id": "11030208",
 "jp": "熱があるから早退しますね。",
 "user": "bunbuku"
 },
 "words|50|ちこくします": {
 "en": "I'll be late.",
+"furi": "[遅刻|ち|こく]します。",
 "id": "2465468",
 "jp": "遅刻します。",
 "user": "nihonjin"
 },
 "words|50|とちゅうで": {
 "en": "My car broke down on the way.",
+"furi": "[途中|と|ちゅう]で[私|わたし]の[車|くるま]が[故障|こ|しょう]した。",
 "id": "124578",
 "jp": "途中で私の車が故障した。",
 "user": "mookeee"
 },
 "words|50|ふくざつ［な］": {
 "en": "That's too complicated!",
+"furi": "[複雑|ふく|ざつ]すぎます！",
 "id": "10287866",
 "jp": "複雑すぎます！",
 "user": "small_snow"
 },
 "words|50|ぶつかります": {
 "en": "It falls on Sunday.",
+"furi": "ちょうど[日曜日|にち|よう|び]にぶつかりますね。",
 "id": "202889",
 "jp": "ちょうど日曜日にぶつかりますね。",
 "user": "small_snow"
 },
 "words|50|ようふく": {
 "en": "I bought new clothes at the department store.",
+"furi": "デパートで[新|あたら]しい[洋服|よう|ふく]を[買|か]いました。",
 "id": "10899740",
 "jp": "デパートで新しい洋服を買いました。",
 "user": "bunbuku"
 },
 "words|50|ハイキング": {
 "en": "I went hiking with the group.",
+"furi": "[私|わたし]はハイキングに[参加|さん|か]した。",
 "id": "159146",
 "jp": "私はハイキングに参加した。",
 "user": "bunbuku"
 },
 "words|50|フロント": {
 "en": "Should I clean your windshield?",
+"furi": "フロントガラスをふきますか。",
 "id": "196875",
 "jp": "フロントガラスをふきますか。",
 "user": "bunbuku"
 },
 "words|50|－ごうしつ": {
 "en": "What is my room number?",
+"furi": "[私|わたし]の[部屋|へ|や]は[何|なん][号室|ごう|しつ]ですか。",
 "id": "162732",
 "jp": "私の部屋は何号室ですか。",
 "user": "bunbuku"
 },
 "words|51|いっしょうけんめい": {
 "en": "He studied very hard.",
+"furi": "[彼|かれ]は[一生懸命|いっ|しょう|けん|めい][勉強|べん|きょう]した。",
 "id": "109923",
 "jp": "彼は一生懸命勉強した。",
 "user": "bunbuku"
 },
 "words|51|いまでも": {
 "en": "Are you still sad?",
+"furi": "[今|いま]でもまだ[悲|かな]しい？",
 "id": "8777776",
 "jp": "今でもまだ悲しい？",
 "user": "bunbuku"
 },
 "words|51|いらっしゃいます": {
 "en": "Do you have a daughter?",
+"furi": "[娘|むすめ]さんはいらっしゃいますか？",
 "id": "9942972",
 "jp": "娘さんはいらっしゃいますか？",
 "user": "small_snow"
 },
 "words|51|うんてんしゅ": {
 "en": "The driver opened the door.",
+"furi": "[運転|うん|てん][手|しゅ]がドアを[開|あ]けた。",
 "id": "12593302",
 "jp": "運転手がドアを開けた。",
 "user": "small_snow"
 },
 "words|51|きゅうに": {
 "en": "He quit without notice.",
+"furi": "[彼|かれ]は[急|きゅう]にやめた。",
 "id": "2250894",
 "jp": "彼は急にやめた。",
 "user": "bunbuku"
 },
 "words|51|じけん": {
 "en": "I looked into the incident.",
+"furi": "[私|わたし]はその[事件|じ|けん]を[調|しら]べた。",
 "id": "160108",
 "jp": "私はその事件を調べた。",
 "user": "bunbuku"
 },
 "words|51|せいせき": {
 "en": "He is doing fine in school.",
+"furi": "[彼|かれ]は[学校|がっ|こう]の[成績|せい|せき]がいい。",
 "id": "108875",
 "jp": "彼は学校の成績がいい。",
 "user": "Yassan"
 },
 "words|51|てんきよほう": {
 "en": "What is the weather forecast?",
+"furi": "[天気|てん|き][予報|よ|ほう]はどうですか？",
 "id": "13118125",
 "jp": "天気予報はどうですか？",
 "user": "atitarev"
 },
 "words|51|ところで": {
 "en": "By the way, are you free tonight?",
+"furi": "ところであなたは[今晩|こん|ばん][暇|ひま]ですか。",
 "id": "200844",
 "jp": "ところであなたは今晩暇ですか。",
 "user": "nickyeow"
 },
 "words|51|はなれた": {
 "en": "You'd better get away from here at once.",
+"furi": "すぐにここを[離|はな]れた[方|ほう]がいい。",
 "id": "12101344",
 "jp": "すぐにここを離れた方がいい。",
 "user": "bunbuku"
 },
 "words|51|ひつよう［な］": {
 "en": "What do you need?",
+"furi": "[何|なに]が[必要|ひつ|よう]ですか。",
 "id": "187898",
 "jp": "何が必要ですか。",
 "user": "bunbuku"
 },
 "words|51|へんじ": {
 "en": "There is no reply.",
+"furi": "[返事|へん|じ]がない。",
 "id": "10901650",
 "jp": "返事がない。",
 "user": "small_snow"
 },
 "words|51|ようす": {
 "en": "Go check on things.",
+"furi": "[様子|よう|す]を[見|み]て[来|き]て。",
 "id": "11258038",
 "jp": "様子を見て来て。",
 "user": "sh5555"
 },
 "words|51|ズボン": {
 "en": "Give me back my pants.",
+"furi": "ズボン[返|かえ]してよ。",
 "id": "10516098",
 "jp": "ズボン返してよ。",
 "user": "small_snow"
 },
 "words|51|テスト": {
 "en": "What kind of test is that?",
+"furi": "どんなテストですか。",
 "id": "199569",
 "jp": "どんなテストですか。",
 "user": "small_snow"
 },
 "words|51|－キロ": {
 "en": "The school is two kilometers ahead.",
+"furi": "[学校|がっ|こう]は[２|]キロ[先|さき]にある。",
 "id": "184425",
 "jp": "学校は２キロ先にある。",
 "user": "mookeee"
 },
 "words|51|［お］としより": {
 "en": "My parents aren't old yet.",
+"furi": "[私|わたし]の[両親|りょう|しん]はまだ[年寄|とし|よ]りではない。",
 "id": "162434",
 "jp": "私の両親はまだ年寄りではない。",
 "user": "mookeee"
 },
 "words|52|いただきます": {
 "en": "I'll take this.",
+"furi": "これをいただきます。",
 "id": "11041808",
 "jp": "これをいただきます。",
 "user": "small_snow"
 },
 "words|52|おいわい": {
 "en": "We all celebrated for our friend's birthday.",
+"furi": "[友達|とも|だち]の[誕生|たん|じょう][日|び]をみんなでお[祝|いわ]いした。",
 "id": "13176269",
 "jp": "友達の誕生日をみんなでお祝いした。",
 "user": "Gardenia"
 },
 "words|52|おたく": {
 "en": "Where is your house?",
+"furi": "お[宅|たく]はどちらですか？",
 "id": "3508032",
 "jp": "お宅はどちらですか？",
 "user": "arnab"
 },
 "words|52|おととし": {
 "en": "I moved to Australia the year before last.",
+"furi": "おととし、オーストラリアに[引|ひ]っ[越|こ]しました。",
 "id": "10901488",
 "jp": "おととし、オーストラリアに引っ越しました。",
 "user": "small_snow"
 },
 "words|52|おもちゃ": {
 "en": "Fix my toy.",
+"furi": "おもちゃ、[直|なお]して。",
 "id": "11875901",
 "jp": "おもちゃ、直して。",
 "user": "small_snow"
 },
 "words|52|きょうみ": {
 "en": "Are you interested in music?",
+"furi": "[音楽|おん|がく]に[興味|きょう|み]ある？",
 "id": "9096671",
 "jp": "音楽に興味ある？",
 "user": "bunbuku"
 },
 "words|52|くださいます": {
 "en": "Can I borrow your scissors?",
+"furi": "はさみを[貸|か]してくださいますか。",
 "id": "198275",
 "jp": "はさみを貸してくださいますか。",
 "user": "tommy_san"
 },
 "words|52|このあいだ": {
 "en": "I received her letter the other day.",
+"furi": "この[間|かん][彼女|かの|じょ]から[手紙|て|がみ]がきた。",
 "id": "1107953",
 "jp": "この間彼女から手紙がきた。",
 "user": "bunbuku"
 },
 "words|52|じょうほう": {
 "en": "Is this information right?",
+"furi": "この[情報|じょう|ほう]は[正|ただ]しいか。",
 "id": "221079",
 "jp": "この情報は正しいか。",
 "user": "shanghainese"
 },
 "words|52|すると": {
 "en": "Does it hurt when I do that?",
+"furi": "[私|わたし]がああすると[痛|いた]い？",
 "id": "9065795",
 "jp": "私がああすると痛い？",
 "user": "small_snow"
 },
 "words|52|せんじつ": {
 "en": "I received her letter the other day.",
+"furi": "[先日|せん|じつ][彼女|かの|じょ]から[手紙|て|がみ]がきた。",
 "id": "141447",
 "jp": "先日彼女から手紙がきた。",
 "user": "bunbuku"
 },
 "words|52|たすかります": {
 "en": "That helps a lot.",
+"furi": "とても[助|たす]かります。",
 "id": "4378691",
 "jp": "とても助かります。",
 "user": "bunbuku"
 },
 "words|52|たのしく": {
 "en": "Let's have some fun.",
+"furi": "[楽|たの]しくやりましょう。",
 "id": "184155",
 "jp": "楽しくやりましょう。",
 "user": "small_snow"
 },
 "words|52|なかみ": {
 "en": "What is in this box?",
+"furi": "[箱|はこ]の[中身|なか|み]は[何|なに]？",
 "id": "3320916",
 "jp": "箱の中身は何？",
 "user": "Tadafumi"
 },
 "words|52|ふたり": {
 "en": "They got married.",
+"furi": "[二人|ふたり]は[結婚|けっ|こん]した。",
 "id": "123072",
 "jp": "二人は結婚した。",
 "user": "mookeee"
 },
 "words|52|まっしろ［な］": {
 "en": "It's really snow white.",
+"furi": "[真|ま]っ[白|しろ]です。",
 "id": "145002",
 "jp": "真っ白です。",
 "user": "bunbuku"
 },
 "words|52|めずらしい": {
 "en": "It's so rare.",
+"furi": "ずいぶんと[珍|めずら]しいですね。",
 "id": "3506563",
 "jp": "ずいぶんと珍しいですね。",
 "user": "arnab"
 },
 "words|52|やります": {
 "en": "Will you do it?",
+"furi": "やりますか。",
 "id": "1564979",
 "jp": "やりますか。",
 "user": "marcelostockle"
 },
 "words|52|ゆびわ": {
 "en": "My ring is gone.",
+"furi": "[指輪|ゆび|わ]がない。",
 "id": "10367619",
 "jp": "指輪がない。",
 "user": "small_snow"
 },
 "words|52|よびます": {
 "en": "What do you call this bird in English?",
+"furi": "[英語|えい|ご]ではこの[鳥|とり]をなんと[呼|よ]びますか。",
 "id": "189227",
 "jp": "英語ではこの鳥をなんと呼びますか。",
 "user": "bunbuku"
 },
 "words|52|ハンカチ": {
 "en": "How much is this handkerchief?",
+"furi": "このハンカチはいくらですか。",
 "id": "223306",
 "jp": "このハンカチはいくらですか。",
 "user": "bunbuku"
 },
 "words|52|バッグ": {
 "en": "Please open your bag.",
+"furi": "バッグを[開|あ]けて[下|くだ]さい。",
 "id": "197969",
 "jp": "バッグを開けて下さい。",
 "user": "bunbuku"
 },
 "words|52|［お］みまい": {
 "en": "My son came to see me from time to time.",
+"furi": "[息子|むす|こ]がときどき[私|わたし]の[見舞|み|ま]いにきてくれた。",
 "id": "140204",
 "jp": "息子がときどき私の見舞いにきてくれた。",
 "user": "small_snow"
 },
 "words|53|あと": {
 "en": "I'll call you later.",
+"furi": "あとで[電話|でん|わ]します。",
 "id": "234305",
 "jp": "あとで電話します。",
 "user": "small_snow"
 },
 "words|53|いっしょうけんめい": {
 "en": "He studied very hard.",
+"furi": "[彼|かれ]は[一生懸命|いっ|しょう|けん|めい][勉強|べん|きょう]した。",
 "id": "109923",
 "jp": "彼は一生懸命勉強した。",
 "user": "bunbuku"
 },
 "words|53|こどもたち": {
 "en": "My children really like animals.",
+"furi": "[私|わたし]の[子|こ]どもたちは[動物|どう|ぶつ]が[大好|だい|す]きです。",
 "id": "163523",
 "jp": "私の子どもたちは動物が大好きです。",
 "user": "Blanka_Meduzo"
 },
 "words|53|ざいりょう": {
 "en": "What are they made of?",
+"furi": "[材料|ざい|りょう]は[何|なん]ですか？",
 "id": "10808962",
 "jp": "材料は何ですか？",
 "user": "bunbuku"
 },
 "words|53|しぜん": {
 "en": "It'll cure itself naturally.",
+"furi": "[自然|し|ぜん]に[治|なお]りますよ。",
 "id": "150103",
 "jp": "自然に治りますよ。",
 "user": "bunbuku"
 },
 "words|53|そろばん": {
 "en": "This is an abacus.",
+"furi": "これは、そろばんです。",
 "id": "9741321",
 "jp": "これは、そろばんです。",
 "user": "small_snow"
 },
 "words|53|たのしみ": {
 "en": "I am looking forward to the trip.",
+"furi": "[旅行|りょ|こう]が[楽|たの]しみです。",
 "id": "152338",
 "jp": "旅行が楽しみです。",
 "user": "KK_kaku_"
 },
 "words|53|どのくらい": {
 "en": "How high is it?",
+"furi": "どのくらい[高|たか]い？",
 "id": "200413",
 "jp": "どのくらい高い？",
 "user": "bunbuku"
 },
 "words|53|なべ": {
 "en": "What are nabemono like?",
+"furi": "なべ[物|もの]とはどんなものですか。",
 "id": "199083",
 "jp": "なべ物とはどんなものですか。",
 "user": "mookeee"
 },
 "words|53|はんぶん": {
 "en": "Give me half of it.",
+"furi": "[半分|はん|ぶん]よこせ。",
 "id": "121255",
 "jp": "半分よこせ。",
 "user": "tommy__san"
 },
 "words|53|ふた": {
 "en": "She took off the lid of the box.",
+"furi": "[彼女|かの|じょ]は[箱|はこ]のふたを[開|あ]けた。",
 "id": "87535",
 "jp": "彼女は箱のふたを開けた。",
 "user": "bunbuku"
 },
 "words|53|ふたり": {
 "en": "They got married.",
+"furi": "[二人|ふたり]は[結婚|けっ|こん]した。",
 "id": "123072",
 "jp": "二人は結婚した。",
 "user": "mookeee"
 },
 "words|53|まぜます": {
 "en": "Beat the eggs.",
+"furi": "[卵|たまご]をよくかき[混|ま]ぜます。",
 "id": "78485",
 "jp": "卵をよくかき混ぜます。",
 "user": "mookeee"
 },
 "words|53|もくてき": {
 "en": "What's the purpose of your trip?",
+"furi": "[旅行|りょ|こう]の[目的|もく|てき]は[何|なん]ですか。",
 "id": "78160",
 "jp": "旅行の目的は何ですか。",
 "user": "mookeee"
 },
 "words|53|アパート": {
 "en": "This is a great apartment.",
+"furi": "いいアパートね。",
 "id": "229463",
 "jp": "いいアパートね。",
 "user": "bunbuku"
 },
 "words|53|カップ": {
 "en": "The cup broke.",
+"furi": "カップが[割|わ]れた。",
 "id": "226319",
 "jp": "カップが割れた。",
 "user": "arnab"
 },
 "words|53|ベートーベン": {
 "en": "Beethoven's father was a singer.",
+"furi": "ベートーベンのお[父|とう]さんは、[歌手|か|しゅ]でした。",
 "id": "12121016",
 "jp": "ベートーベンのお父さんは、歌手でした。",
 "user": "small_snow"
 },
 "words|54|かいいん": {
 "en": "I was a member.",
+"furi": "[私|わたし]は[会員|かい|いん]でした。",
 "id": "3552071",
 "jp": "私は会員でした。",
 "user": "arnab"
 },
 "words|54|しゅうにゅう": {
 "en": "How much money does a teacher make?",
+"furi": "[教師|きょう|し]の[収入|しゅう|にゅう]はどれくらいですか。",
 "id": "8606694",
 "jp": "教師の収入はどれくらいですか。",
 "user": "bunbuku"
 },
 "words|54|つまらない": {
 "en": "Are you bored?",
+"furi": "つまらないの？",
 "id": "8689056",
 "jp": "つまらないの？",
 "user": "bunbuku"
 },
 "words|54|ねんれい": {
 "en": "Age is just a number.",
+"furi": "[年齢|ねん|れい]は[関係|かん|けい]ない。",
 "id": "10181518",
 "jp": "年齢は関係ない。",
 "user": "Sim5634"
 },
 "words|54|ばら": {
 "en": "There are no roses in the garden.",
+"furi": "[庭|にわ]にはばらがありません。",
 "id": "536773",
 "jp": "庭にはばらがありません。",
 "user": "tomkun01"
 },
 "words|54|りゆう": {
 "en": "There are many reasons.",
+"furi": "[理由|り|ゆう]はいろいろある。",
 "id": "10908693",
 "jp": "理由はいろいろある。",
 "user": "SomeHungryBois"
 },
 "words|54|ガソリン": {
 "en": "Oh, no! We're running out of gas.",
+"furi": "あ！まずい！ガソリンが[切|き]れてきた。",
 "id": "234772",
 "jp": "あ！まずい！ガソリンが切れてきた。",
 "user": "Sim5634"
 },
 "words|54|センス": {
 "en": "He has a sense of humor.",
+"furi": "[彼|かれ]はユーモアのセンスがある。",
 "id": "2295511",
 "jp": "彼はユーモアのセンスがある。",
 "user": "bunbuku"
 },
 "words|54|ドライブ": {
 "en": "What do you say to going for a drive?",
+"furi": "ドライブとかどう？",
 "id": "2233552",
 "jp": "ドライブとかどう？",
 "user": "tommy__san"
 },
 "words|54|パンフレット": {
 "en": "This pamphlet is free of charge.",
+"furi": "こちらのパンフレットは[無料|む|りょう]です。",
 "id": "223295",
 "jp": "こちらのパンフレットは無料です。",
 "user": "bunbuku"
 },
 "words|55|DVD": {
 "en": "This is a DVD.",
+"furi": "これは[DVD|]です。",
 "id": "2602586",
 "jp": "これはDVDです。",
 "user": "OrangeTart"
 },
 "words|55|あんぜん［な］": {
 "en": "Drive safely.",
+"furi": "[安全|あん|ぜん][運転|うん|てん]してね。",
 "id": "485448",
 "jp": "安全運転してね。",
 "user": "bunbuku"
 },
 "words|55|うまく": {
 "en": "That won't work.",
+"furi": "うまくいかないよ。",
 "id": "9524695",
 "jp": "うまくいかないよ。",
 "user": "bunbuku"
 },
 "words|55|くうき": {
 "en": "There is no air on the moon.",
+"furi": "[月|つき]には[空気|くう|き]がない。",
 "id": "175663",
 "jp": "月には空気がない。",
 "user": "arnab"
 },
 "words|55|こまかい": {
 "en": "The details aren't necessary.",
+"furi": "[細|こま]かいのは[必要|ひつ|よう]でない。",
 "id": "4808818",
 "jp": "細かいのは必要でない。",
 "user": "Chimera"
 },
 "words|55|これら": {
 "en": "These are birds.",
+"furi": "これらは[鳥|とり]です。",
 "id": "749660",
 "jp": "これらは鳥です。",
 "user": "gracefully"
 },
 "words|55|せんたくもの": {
 "en": "Bring the laundry in.",
+"furi": "[洗濯|せん|たく][物|もの][入|い]れてきて。",
 "id": "141201",
 "jp": "洗濯物入れてきて。",
 "user": "small_snow"
 },
 "words|55|たとえば": {
 "en": "For example, do you like English?",
+"furi": "[例|たと]えば、[英語|えい|ご]が[好|す]きですか。",
 "id": "337412",
 "jp": "例えば、英語が好きですか。",
 "user": "Swift"
 },
 "words|55|ていねい［な］": {
 "en": "She bowed to me politely.",
+"furi": "[彼女|かの|じょ]は[私|わたし]に[丁寧|てい|ねい]に[頭|あたま]を[下|さ]げた。",
 "id": "89463",
 "jp": "彼女は私に丁寧に頭を下げた。",
 "user": "small_snow"
 },
 "words|55|はんぶん": {
 "en": "Give me half of it.",
+"furi": "[半分|はん|ぶん]よこせ。",
 "id": "121255",
 "jp": "半分よこせ。",
 "user": "tommy__san"
 },
 "words|55|ひょうげん": {
 "en": "I cannot describe my feelings.",
+"furi": "[自分|じ|ぶん]の[気持|き|も]ちを[表現|ひょう|げん]できない。",
 "id": "149882",
 "jp": "自分の気持ちを表現できない。",
 "user": "small_snow"
 },
 "words|55|りゆう": {
 "en": "There are many reasons.",
+"furi": "[理由|り|ゆう]はいろいろある。",
 "id": "10908693",
 "jp": "理由はいろいろある。",
 "user": "SomeHungryBois"
 },
 "words|55|カット": {
 "en": "Cut it in half.",
+"furi": "それは[半分|はん|ぶん]にカットして。",
 "id": "11961643",
 "jp": "それは半分にカットして。",
 "user": "bunbuku"
 },
 "words|56|おくりもの": {
 "en": "I have some gifts.",
+"furi": "[贈|おく]り[物|もの]があります。",
 "id": "1323417",
 "jp": "贈り物があります。",
 "user": "bunbuku"
 },
 "words|56|かいとう": {
 "en": "I need to know your answer by Friday.",
+"furi": "[金曜日|きん|よう|び]までに[回答|かい|とう]が[必要|ひつ|よう]です。",
 "id": "179610",
 "jp": "金曜日までに回答が必要です。",
 "user": "bunbuku"
 },
 "words|56|きゅうに": {
 "en": "He quit without notice.",
+"furi": "[彼|かれ]は[急|きゅう]にやめた。",
 "id": "2250894",
 "jp": "彼は急にやめた。",
 "user": "bunbuku"
 },
 "words|56|しんじます": {
 "en": "She always believes me.",
+"furi": "[彼女|かの|じょ]はいつでも[私|わたし]を[信|しん]じます。",
 "id": "794261",
 "jp": "彼女はいつでも私を信じます。",
 "user": "arihato"
 },
 "words|56|それでも": {
 "en": "That sounds good to me.",
+"furi": "[私|わたし]はそれでもかまいませんよ。",
 "id": "159765",
 "jp": "私はそれでもかまいませんよ。",
 "user": "KK_kaku_"
 },
 "words|56|だいがくせい": {
 "en": "I am a university student.",
+"furi": "[大学生|だい|がく|せい]です。",
 "id": "137609",
 "jp": "大学生です。",
 "user": "tommy_san"
 },
 "words|56|ちゃんと": {
 "en": "Did you turn off the stove?",
+"furi": "ストーブちゃんと[消|け]した？",
 "id": "2800309",
 "jp": "ストーブちゃんと消した？",
 "user": "tommy_san"
 },
 "words|56|ちゅうし": {
 "en": "The game was rained out.",
+"furi": "[試合|し|あい]は[雨|あめ]で[中止|ちゅう|し]になりました。",
 "id": "151030",
 "jp": "試合は雨で中止になりました。",
 "user": "tommy__san"
 },
 "words|56|なやみ": {
 "en": "No matter which country, it's the same trouble.",
+"furi": "それは、どこの[国|くに]でも[同|おな]じ[悩|なや]みです。",
 "id": "11257877",
 "jp": "それは、どこの国でも同じ悩みです。",
 "user": "sh5555"
 },
 "words|56|なります": {
 "en": "I'll be late.",
+"furi": "[遅|おそ]くなります。",
 "id": "2465471",
 "jp": "遅くなります。",
 "user": "nihonjin"
 },
 "words|56|めざまし［どけい］": {
 "en": "Have you set the alarm clock?",
+"furi": "[目覚|め|ざ]ましはセットした？",
 "id": "12934034",
 "jp": "目覚ましはセットした？",
 "user": "small_snow"
 },
 "words|56|りょうしゅうしょ": {
 "en": "Please give me a receipt.",
+"furi": "[領収|りょう|しゅう][書|しょ]をください。",
 "id": "13714023",
 "jp": "領収書をください。",
 "user": "GreySquirrel"
 },
 "words|56|キャンセルします": {
 "en": "I'll cancel.",
+"furi": "キャンセルします。",
 "id": "10682795",
 "jp": "キャンセルします。",
 "user": "small_snow"
 },
 "words|56|キャンプ": {
 "en": "This is my first camping trip.",
+"furi": "これが[初|はじ]めてのキャンプです。",
 "id": "11545588",
 "jp": "これが初めてのキャンプです。",
 "user": "small_snow"
 },
 "words|57|あわてて": {
 "en": "I ran away in a hurry.",
+"furi": "[私|わたし]はあわてて[逃|に]げた。",
 "id": "161460",
 "jp": "私はあわてて逃げた。",
 "user": "tommy_san"
 },
 "words|57|ぐあい": {
 "en": "Are you feeling under the weather?",
+"furi": "[具合|ぐ|あい][悪|わる]いの？",
 "id": "179506",
 "jp": "具合悪いの？",
 "user": "tommy_san"
 },
 "words|57|こちら": {
 "en": "This is my mother.",
+"furi": "こちらは[母|はは]です。",
 "id": "373214",
 "jp": "こちらは母です。",
 "user": "kotobaboke"
 },
 "words|57|しょくよく": {
 "en": "I have no appetite.",
+"furi": "[私|わたし]は[食欲|しょく|よく]がない。",
 "id": "155779",
 "jp": "私は食欲がない。",
 "user": "tommy_san"
 },
 "words|57|たったいま": {
 "en": "He went out just now.",
+"furi": "[彼|かれ]はたった[今|いま]でかけました。",
 "id": "112022",
 "jp": "彼はたった今でかけました。",
 "user": "bunbuku"
 },
 "words|57|たとえば": {
 "en": "For example, do you like English?",
+"furi": "[例|たと]えば、[英語|えい|ご]が[好|す]きですか。",
 "id": "337412",
 "jp": "例えば、英語が好きですか。",
 "user": "Swift"
 },
 "words|57|ちしき": {
 "en": "He has knowledge, and experience as well.",
+"furi": "あの[人|ひと]には[知識|ち|しき]も[経験|けい|けん]もある。",
 "id": "230767",
 "jp": "あの人には知識も経験もある。",
 "user": "tommy__san"
 },
 "words|57|ちゅうしゃ": {
 "en": "I'll give you a shot.",
+"furi": "[注射|ちゅう|しゃ]をしましょう。",
 "id": "126332",
 "jp": "注射をしましょう。",
 "user": "bunbuku"
 },
 "words|57|ちょうど": {
 "en": "I'm busy at the moment.",
+"furi": "ちょうど[今|いま]は[忙|いそが]しい。",
 "id": "202918",
 "jp": "ちょうど今は忙しい。",
 "user": "bunbuku"
 },
 "words|57|はんとし": {
 "en": "I studied in England for six months when I was a student.",
+"furi": "[学生|がく|せい][時代|じ|だい]、イギリスに[半年|はん|とし][留学|りゅう|がく]しました。",
 "id": "184224",
 "jp": "学生時代、イギリスに半年留学しました。",
 "user": "tommy_san"
 },
 "words|57|やきます": {
 "en": "Do you bake bread?",
+"furi": "パンを[焼|や]きますか？",
 "id": "8026857",
 "jp": "パンを焼きますか？",
 "user": "Ninja"
 },
 "words|57|るす": {
 "en": "Mother is away from home.",
+"furi": "[母|はは]は[留守|る|す]です。",
 "id": "82839",
 "jp": "母は留守です。",
 "user": "bunbuku"
 },
 "words|57|パンフレット": {
 "en": "This pamphlet is free of charge.",
+"furi": "こちらのパンフレットは[無料|む|りょう]です。",
 "id": "223295",
 "jp": "こちらのパンフレットは無料です。",
 "user": "bunbuku"
 },
 "words|58|あいて": {
 "en": "This is a store that caters specially to students.",
+"furi": "これは[学生|がく|せい][相手|あい|て]の[店|みせ]です。",
 "id": "184210",
 "jp": "これは学生相手の店です。",
 "user": "Scott"
 },
 "words|58|かんけい": {
 "en": "This doesn't concern me.",
+"furi": "[私|わたし]には[関係|かん|けい]ない。",
 "id": "395840",
 "jp": "私には関係ない。",
 "user": "cheeheerow"
 },
 "words|58|きびしい": {
 "en": "She's a tough woman.",
+"furi": "[彼女|かの|じょ]は[手厳|て|きび]しい[人|ひと]です。",
 "id": "2332394",
 "jp": "彼女は手厳しい人です。",
 "user": "bunbuku"
 },
 "words|58|きゅうきゅうしゃ": {
 "en": "The ambulance has arrived.",
+"furi": "[救急|きゅう|きゅう][車|しゃ]、[来|き]たよ。",
 "id": "12816970",
 "jp": "救急車、来たよ。",
 "user": "small_snow"
 },
 "words|58|けしょう": {
 "en": "She wears a lot of makeup.",
+"furi": "[彼女|かの|じょ]は[化粧|け|しょう]が[濃|こ]い。",
 "id": "90943",
 "jp": "彼女は化粧が濃い。",
 "user": "mookeee"
 },
 "words|58|しらべ": {
 "en": "I will look it up in the dictionary.",
+"furi": "[辞書|じ|しょ]で[調|しら]べます。",
 "id": "159702",
 "jp": "辞書で調べます。",
 "user": "KK_kaku_"
 },
 "words|58|じっけん": {
 "en": "He carried on with his experiment.",
+"furi": "[彼|かれ]は[実験|じっ|けん]を[続|つづ]けた。",
 "id": "104718",
 "jp": "彼は実験を続けた。",
 "user": "bunbuku"
 },
 "words|58|じんこう": {
 "en": "India is populous.",
+"furi": "インドは[人口|じん|こう]が[多|おお]い。",
 "id": "228369",
 "jp": "インドは人口が多い。",
 "user": "mookeee"
 },
 "words|58|てんきよほう": {
 "en": "What is the weather forecast?",
+"furi": "[天気|てん|き][予報|よ|ほう]はどうですか？",
 "id": "13118125",
 "jp": "天気予報はどうですか？",
 "user": "atitarev"
 },
 "words|58|ながいき": {
 "en": "She lived a long life.",
+"furi": "[彼女|かの|じょ]は[長生|なが|い]きした。",
 "id": "87839",
 "jp": "彼女は長生きした。",
 "user": "bunbuku"
 },
 "words|58|はっぴょう": {
 "en": "I think the time is right to introduce this product.",
+"furi": "この[製品|せい|ひん]を[発表|はっ|ぴょう]するときが[来|き]た。",
 "id": "1525406",
 "jp": "この製品を発表するときが来た。",
 "user": "bunbuku"
 },
 "words|58|ひどい": {
 "en": "What horrible weather!",
+"furi": "ひどい[天気|てん|き]！",
 "id": "2456862",
 "jp": "ひどい天気！",
 "user": "tommy_san"
 },
 "words|58|りゆう": {
 "en": "There are many reasons.",
+"furi": "[理由|り|ゆう]はいろいろある。",
 "id": "10908693",
 "jp": "理由はいろいろある。",
 "user": "SomeHungryBois"
 },
 "words|58|データ": {
 "en": "The data hasn't been compiled yet.",
+"furi": "データはまだまとめていません。",
 "id": "202437",
 "jp": "データはまだまとめていません。",
 "user": "bunbuku"
 },
 "words|59|えいぎょう": {
 "en": "How many years have you been selling cars?",
+"furi": "[車|くるま]の[営業|えい|ぎょう]は[何|なん][年|ねん][目|め]？",
 "id": "11559608",
 "jp": "車の営業は何年目？",
 "user": "small_snow"
 },
 "words|59|きびしい": {
 "en": "She's a tough woman.",
+"furi": "[彼女|かの|じょ]は[手厳|て|きび]しい[人|ひと]です。",
 "id": "2332394",
 "jp": "彼女は手厳しい人です。",
 "user": "bunbuku"
 },
 "words|59|じゆうに": {
 "en": "I want freedom.",
+"furi": "[自由|じ|ゆう]になりたい。",
 "id": "5055280",
 "jp": "自由になりたい。",
 "user": "hiroy"
 },
 "words|59|せいと": {
 "en": "He is a good student.",
+"furi": "[彼|かれ]はよい[生徒|せい|と]です。",
 "id": "110462",
 "jp": "彼はよい生徒です。",
 "user": "bunbuku"
 },
 "words|59|ふつうの": {
 "en": "Is this normal?",
+"furi": "これは[普通|ふ|つう]のこと？",
 "id": "8693575",
 "jp": "これは普通のこと？",
 "user": "bunbuku"
 },
 "words|59|スケジュール": {
 "en": "I rescheduled.",
+"furi": "スケジュール[変|か]えたよ。",
 "id": "10666305",
 "jp": "スケジュール変えたよ。",
 "user": "KF"
 },
 "words|59|スピード": {
 "en": "Were you speeding?",
+"furi": "スピード[出|だ]してたの？",
 "id": "8796944",
 "jp": "スピード出してたの？",
 "user": "bunbuku"
 },
 "words|59|ファイル": {
 "en": "Which one is the correct file?",
+"furi": "[正|ただ]しいファイルどれですか。",
 "id": "1187323",
 "jp": "正しいファイルどれですか。",
 "user": "FiRez"
 },
 "words|60|いがくぶ": {
 "en": "I went to medical school.",
+"furi": "[私|わたし]は[医学部|い|がく|ぶ]に[行|い]きました。",
 "id": "6695774",
 "jp": "私は医学部に行きました。",
 "user": "jovecidasilva"
 },
 "words|60|いらっしゃいます": {
 "en": "Do you have a daughter?",
+"furi": "[娘|むすめ]さんはいらっしゃいますか？",
 "id": "9942972",
 "jp": "娘さんはいらっしゃいますか？",
 "user": "small_snow"
 },
 "words|60|えんりょなく": {
 "en": "Be my guest.",
+"furi": "どうぞ[遠慮|えん|りょ]なく。",
 "id": "201301",
 "jp": "どうぞ遠慮なく。",
 "user": "small_snow"
 },
 "words|60|おっしゃいます": {
 "en": "May I have your name, please?",
+"furi": "[名前|な|まえ]は[何|なん]とおっしゃいますか。",
 "id": "80777",
 "jp": "名前は何とおっしゃいますか。",
 "user": "mookeee"
 },
 "words|60|おもちです": {
 "en": "Do you have a car?",
+"furi": "[車|くるま]をお[持|も]ちですか？",
 "id": "1142563",
 "jp": "車をお持ちですか？",
 "user": "bunbuku"
 },
 "words|60|かつどう": {
 "en": "Have you ever done any volunteer work?",
+"furi": "ボランティア[活動|かつ|どう]をしたことがありますか。",
 "id": "1533033",
 "jp": "ボランティア活動をしたことがありますか。",
 "user": "bunbuku"
 },
 "words|60|ごぞんじです": {
 "en": "Do you know kabuki?",
+"furi": "[歌舞伎|か|ぶ|き]はご[存|ぞん]じですか。",
 "id": "186776",
 "jp": "歌舞伎はご存じですか。",
 "user": "small_snow"
 },
 "words|60|さっか": {
 "en": "He writes books.",
+"furi": "[彼|かれ]は[作家|さっ|か]です。",
 "id": "106830",
 "jp": "彼は作家です。",
 "user": "bunbuku"
 },
 "words|60|さっきょく": {
 "en": "I write songs.",
+"furi": "[作曲|さっ|きょく]をしています。",
 "id": "13894076",
 "jp": "作曲をしています。",
 "user": "small_snow"
 },
 "words|60|すごします": {
 "en": "I spend Christmas together with my whole family.",
+"furi": "クリスマスは、[家族|か|ぞく]みんなで[過|す]ごします。",
 "id": "10578189",
 "jp": "クリスマスは、家族みんなで過ごします。",
 "user": "small_snow"
 },
 "words|60|せかいてきに": {
 "en": "Her name is known all over the world.",
+"furi": "[彼女|かの|じょ]は[世界|せ|かい][的|てき]に[有名|ゆう|めい]です。",
 "id": "93915",
 "jp": "彼女は世界的に有名です。",
 "user": "small_snow"
 },
 "words|60|それでは": {
 "en": "Now it's time for the weather forecast.",
+"furi": "それでは、[天気|てん|き][予報|よ|ほう]の[時間|じ|かん]です。",
 "id": "1602097",
 "jp": "それでは、天気予報の時間です。",
 "user": "jathonjet"
 },
 "words|60|たまに": {
 "en": "Call me once in a while.",
+"furi": "たまには[電話|でん|わ]してね。",
 "id": "9963895",
 "jp": "たまには電話してね。",
 "user": "small_snow"
 },
 "words|60|ちっとも": {
 "en": "There is not the least wind today.",
+"furi": "[今日|きょう]はちっとも[風|かぜ]がない。",
 "id": "171757",
 "jp": "今日はちっとも風がない。",
 "user": "KK_kaku_"
 },
 "words|60|ちょうなん": {
 "en": "He's the oldest son.",
+"furi": "[彼|かれ]は[長男|ちょう|なん]です。",
 "id": "115424",
 "jp": "彼は長男です。",
 "user": "bunbuku"
 },
 "words|60|では": {
 "en": "See you again tomorrow.",
+"furi": "ではまた[明日|あした]。",
 "id": "202140",
 "jp": "ではまた明日。",
 "user": "bunbuku"
 },
 "words|60|とうきょうだいがく": {
 "en": "He entered Tokyo University this spring.",
+"furi": "[彼|かれ]はこの[春|はる][東京|とう|きょう][大学|だい|がく]に[入学|にゅう|がく]した。",
 "id": "113757",
 "jp": "彼はこの春東京大学に入学した。",
 "user": "tommy__san"
 },
 "words|60|どなたでも": {
 "en": "Anyone can do that.",
+"furi": "どなたでもできますよ。",
 "id": "9696168",
 "jp": "どなたでもできますよ。",
 "user": "bunbuku"
 },
 "words|60|なさいます": {
 "en": "What will you have to eat?",
+"furi": "[何|なに]になさいますか。",
 "id": "187730",
 "jp": "何になさいますか。",
 "user": "Ianagisacos"
 },
 "words|60|はいざら": {
 "en": "I need an ashtray.",
+"furi": "[灰皿|はい|ざら]を[下|くだ]さい。",
 "id": "185012",
 "jp": "灰皿を下さい。",
 "user": "bunbuku"
 },
 "words|60|めしあがります": {
 "en": "What would you like to eat?",
+"furi": "[何|なに]を[召|め]し[上|あ]がりますか。",
 "id": "187552",
 "jp": "何を召し上がりますか。",
 "user": "small_snow"
 },
 "words|60|やすみます": {
 "en": "I'll be absent tomorrow.",
+"furi": "[明日|あした]は[休|やす]みます。",
 "id": "80439",
 "jp": "明日は休みます。",
 "user": "bunbuku"
 },
 "words|60|バスてい": {
 "en": "This is a bus stop.",
+"furi": "これはバス[停|てい]よ。",
 "id": "12041849",
 "jp": "これはバス停よ。",
 "user": "small_snow"
 },
 "words|61|いたします": {
 "en": "I will inform you.",
+"furi": "お[知|し]らせいたします。",
 "id": "10982402",
 "jp": "お知らせいたします。",
 "user": "small_snow"
 },
 "words|61|いただきます": {
 "en": "I'll take this.",
+"furi": "これをいただきます。",
 "id": "11041808",
 "jp": "これをいただきます。",
 "user": "small_snow"
 },
 "words|61|おたく": {
 "en": "I'll pay you a visit at your house tomorrow.",
+"furi": "[明日|あした]お[宅|たく]に[伺|うかが]います。",
 "id": "80618",
 "jp": "明日お宅に伺います。",
 "user": "bunbuku"
 },
 "words|61|おります": {
 "en": "I'm looking forward to it.",
+"furi": "[楽|たの]しみにしております。",
 "id": "184148",
 "jp": "楽しみにしております。",
 "user": "small_snow"
 },
 "words|61|おれい": {
 "en": "I would like to thank you.",
+"furi": "お[礼|れい]が[言|い]いたいです。",
 "id": "11851906",
 "jp": "お礼が言いたいです。",
 "user": "small_snow"
 },
 "words|61|かんしゃします": {
 "en": "I really appreciate it.",
+"furi": "[心|こころ]から[感謝|かん|しゃ]します。",
 "id": "145608",
 "jp": "心から感謝します。",
 "user": "small_snow"
 },
 "words|61|こうがい": {
 "en": "My house is in the suburbs.",
+"furi": "[私|わたし]の[家|いえ]は[郊外|こう|がい]にある。",
 "id": "163959",
 "jp": "私の家は郊外にある。",
 "user": "bunbuku"
 },
 "words|61|こころから": {
 "en": "I really appreciate it.",
+"furi": "[心|こころ]から[感謝|かん|しゃ]します。",
 "id": "145608",
 "jp": "心から感謝します。",
 "user": "small_snow"
 },
 "words|61|ございます": {
 "en": "What's this?",
+"furi": "これはなんでございますか。",
 "id": "347297",
 "jp": "これはなんでございますか。",
 "user": "zhouj1955"
 },
 "words|61|さいごに": {
 "en": "She came last.",
+"furi": "[彼女|かの|じょ]は[最後|さい|ご]にきた。",
 "id": "89937",
 "jp": "彼女は最後にきた。",
 "user": "bunbuku"
 },
 "words|61|さいしょに": {
 "en": "He was the first to come.",
+"furi": "[彼|かれ]が[最初|さい|しょ]に[来|き]た。",
 "id": "120345",
 "jp": "彼が最初に来た。",
 "user": "bunbuku"
 },
 "words|61|しぜん": {
 "en": "It'll cure itself naturally.",
+"furi": "[自然|し|ぜん]に[治|なお]りますよ。",
 "id": "150103",
 "jp": "自然に治りますよ。",
 "user": "bunbuku"
 },
 "words|61|はんとし": {
 "en": "I studied in England for six months when I was a student.",
+"furi": "[学生|がく|せい][時代|じ|だい]、イギリスに[半年|はん|とし][留学|りゅう|がく]しました。",
 "id": "184224",
 "jp": "学生時代、イギリスに半年留学しました。",
 "user": "tommy_san"
 },
 "words|61|まいります": {
 "en": "I'm coming.",
+"furi": "すぐ[参|まい]ります。",
 "id": "214787",
 "jp": "すぐ参ります。",
 "user": "bunbuku"
 },
 "words|61|アルバム": {
 "en": "He showed me his album.",
+"furi": "[彼|かれ]はアルバムを[見|み]せてくれた。",
 "id": "544742",
 "jp": "彼はアルバムを見せてくれた。",
 "user": "vastalto"
 },
 "words|61|スケジュール": {
 "en": "I rescheduled.",
+"furi": "スケジュール[変|か]えたよ。",
 "id": "10666305",
 "jp": "スケジュール変えたよ。",
 "user": "KF"
 },
 "words|61|メールアドレス": {
 "en": "What is your email address?",
+"furi": "メールアドレス[何|なに]？",
 "id": "13224748",
 "jp": "メールアドレス何？",
 "user": "atitarev"

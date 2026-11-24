@@ -228,7 +228,7 @@ VOCAB += [
     (33, "アパート", "", "apaato", "căn hộ cho thuê", "apartment building Japan", "わたしが すんで いる アパートは ふるいです。", "Căn hộ tôi đang ở thì cũ."),
 ]
 KANJI += [
-    (33, "着", "チャク", "き-る・つ-く", "(chưa xác minh)", "mặc; đến", "着ます", "きます", "kimasu", "mặc"),
+    (33, "着", "チャク", "き-る・つ-く", "trước", "mặc; đến", "着ます", "きます", "kimasu", "mặc"),
     (33, "服", "フク", "", "Phục", "quần áo", "洋服", "ようふく", "youfuku", "quần áo kiểu Tây"),
     (33, "洋", "ヨウ", "", "Dương", "phương Tây", "洋服", "ようふく", "youfuku", "quần áo kiểu Tây"),
     (33, "和", "ワ", "やわ-らぐ", "Hoà", "Nhật; hoà bình", "和室", "わしつ", "washitsu", "phòng kiểu Nhật"),

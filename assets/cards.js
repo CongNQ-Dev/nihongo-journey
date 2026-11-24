@@ -1455,7 +1455,8 @@ window.CARDS = [
   "ex": "私も先生です。",
   "exvn": "I am a teacher, too. (Tatoeba #152190, small_snow, CC BY 2.0 FR)",
   "img": "img/v-sensei.jpg",
-  "credit": "IPPA photographer · CC BY 4.0"
+  "credit": "IPPA photographer · CC BY 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>も<ruby>先<rt>せん</rt></ruby><ruby>生<rt>せい</rt></ruby>です。"
  },
  {
   "id": "v-gakusei",
@@ -1481,7 +1482,8 @@ window.CARDS = [
   "ex": "会社員です。",
   "exvn": "I'm an office worker. (Tatoeba #3326577, boscowitch, CC BY 2.0 FR)",
   "img": "img/v-kaishain.jpg",
-  "credit": "Arnaud Matar · CC0"
+  "credit": "Arnaud Matar · CC0",
+  "exf": "<ruby>会<rt>かい</rt></ruby><ruby>社<rt>しゃ</rt></ruby><ruby>員<rt>いん</rt></ruby>です。"
  },
  {
   "id": "v-isha",
@@ -1494,7 +1496,8 @@ window.CARDS = [
   "ex": "私は医者です。",
   "exvn": "I'm a doctor. (Tatoeba #158511, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-isha.jpg",
-  "credit": "Alex Proimos · CC BY 2.0"
+  "credit": "Alex Proimos · CC BY 2.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>医<rt>い</rt></ruby><ruby>者<rt>しゃ</rt></ruby>です。"
  },
  {
   "id": "v-enjinia",
@@ -1507,7 +1510,8 @@ window.CARDS = [
   "ex": "私はエンジニアです。",
   "exvn": "I am an engineer. (Tatoeba #3580937, e4zh1nmcz, CC BY 2.0 FR)",
   "img": "img/v-enjinia.jpg",
-  "credit": "By Spc. Natalie Sampson, 470th Military  · Public domain"
+  "credit": "By Spc. Natalie Sampson, 470th Military  · Public domain",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はエンジニアです。"
  },
  {
   "id": "v-kenkyuusha",
@@ -1546,7 +1550,8 @@ window.CARDS = [
   "ex": "ここは病院です。",
   "exvn": "This is a hospital. (Tatoeba #2604697, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-byouin.jpg",
-  "credit": "Waka77 · CC0"
+  "credit": "Waka77 · CC0",
+  "exf": "ここは<ruby>病<rt>びょう</rt></ruby><ruby>院<rt>いん</rt></ruby>です。"
  },
  {
   "id": "v-betonamu",
@@ -1572,7 +1577,8 @@ window.CARDS = [
   "ex": "日本人ですか。",
   "exvn": "Are you a Japanese citizen? (Tatoeba #122297, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-nihon.jpg",
-  "credit": "Basile Morin · CC BY-SA 4.0"
+  "credit": "Basile Morin · CC BY-SA 4.0",
+  "exf": "<ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby><ruby>人<rt>じん</rt></ruby>ですか。"
  },
  {
   "id": "v-hon",
@@ -1598,7 +1604,8 @@ window.CARDS = [
   "ex": "これは私の辞書です。",
   "exvn": "This is my dictionary. (Tatoeba #218305, small_snow, CC BY 2.0 FR)",
   "img": "img/v-jisho.jpg",
-  "credit": "Cullen328 · CC BY-SA 4.0"
+  "credit": "Cullen328 · CC BY-SA 4.0",
+  "exf": "これは<ruby>私<rt>わたし</rt></ruby>の<ruby>辞<rt>じ</rt></ruby><ruby>書<rt>しょ</rt></ruby>です。"
  },
  {
   "id": "v-zasshi",
@@ -1611,7 +1618,8 @@ window.CARDS = [
   "ex": "これは自動車の雑誌です。",
   "exvn": "This is a car magazine. (Tatoeba #10901791, small_snow, CC BY 2.0 FR)",
   "img": "img/v-zasshi.jpg",
-  "credit": "Asturio Cantabrio · CC BY-SA 4.0"
+  "credit": "Asturio Cantabrio · CC BY-SA 4.0",
+  "exf": "これは<ruby>自<rt>じ</rt></ruby><ruby>動<rt>どう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>の<ruby>雑<rt>ざっ</rt></ruby><ruby>誌<rt>し</rt></ruby>です。"
  },
  {
   "id": "v-shinbun",
@@ -1624,7 +1632,8 @@ window.CARDS = [
   "ex": "これは新聞です。",
   "exvn": "This is a newspaper. (Tatoeba #3578411, e4zh1nmcz, CC BY 2.0 FR)",
   "img": "img/v-shinbun.jpg",
-  "credit": "Reinhold Möller Ermell · CC BY-SA 4.0"
+  "credit": "Reinhold Möller Ermell · CC BY-SA 4.0",
+  "exf": "これは<ruby>新<rt>しん</rt></ruby><ruby>聞<rt>ぶん</rt></ruby>です。"
  },
  {
   "id": "v-nooto",
@@ -1637,7 +1646,8 @@ window.CARDS = [
   "ex": "これは私のノートです。",
   "exvn": "This is my notebook. (Tatoeba #10901827, small_snow, CC BY 2.0 FR)",
   "img": "img/v-nooto.jpg",
-  "credit": "Shixart1985 · CC BY 2.0"
+  "credit": "Shixart1985 · CC BY 2.0",
+  "exf": "これは<ruby>私<rt>わたし</rt></ruby>のノートです。"
  },
  {
   "id": "v-meishi",
@@ -1650,7 +1660,8 @@ window.CARDS = [
   "ex": "どうぞ、私の名刺です。",
   "exvn": "Here's my business card. (Tatoeba #2193086, e4zh1nmcz, CC BY 2.0 FR)",
   "img": "img/v-meishi.jpg",
-  "credit": "Syced · CC0"
+  "credit": "Syced · CC0",
+  "exf": "どうぞ、<ruby>私<rt>わたし</rt></ruby>の<ruby>名<rt>めい</rt></ruby><ruby>刺<rt>し</rt></ruby>です。"
  },
  {
   "id": "v-enpitsu",
@@ -1663,7 +1674,8 @@ window.CARDS = [
   "ex": "これは鉛筆。",
   "exvn": "This is a pencil. (Tatoeba #6828204, D0UG, CC BY 2.0 FR)",
   "img": "img/v-enpitsu.jpg",
-  "credit": "dejankrsmanovic · CC BY 2.0"
+  "credit": "dejankrsmanovic · CC BY 2.0",
+  "exf": "これは<ruby>鉛<rt>えん</rt></ruby><ruby>筆<rt>ぴつ</rt></ruby>。"
  },
  {
   "id": "v-boorupen",
@@ -1689,7 +1701,8 @@ window.CARDS = [
   "ex": "この時計いくらですか？",
   "exvn": "How much is this watch? (Tatoeba #2852688, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-tokei.jpg",
-  "credit": "Petar Milošević · CC BY-SA 4.0"
+  "credit": "Petar Milošević · CC BY-SA 4.0",
+  "exf": "この<ruby>時<rt>と</rt></ruby><ruby>計<rt>けい</rt></ruby>いくらですか？"
  },
  {
   "id": "v-kaban",
@@ -1702,7 +1715,8 @@ window.CARDS = [
   "ex": "私のかばんです。",
   "exvn": "This is my bag. (Tatoeba #164225, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-kaban.jpg",
-  "credit": "Lupus in Saxonia · CC BY-SA 4.0"
+  "credit": "Lupus in Saxonia · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>のかばんです。"
  },
  {
   "id": "v-tsukue",
@@ -1741,7 +1755,8 @@ window.CARDS = [
   "ex": "これはお土産です。",
   "exvn": "This is a little gift for you. (Tatoeba #218629, KK_kaku_, CC BY 2.0 FR)",
   "img": "img/v-omiyage.jpg",
-  "credit": "Andy Atzert from Jersey City, NJ, United · CC BY 2.0"
+  "credit": "Andy Atzert from Jersey City, NJ, United · CC BY 2.0",
+  "exf": "これはお<ruby>土産<rt>みやげ</rt></ruby>です。"
  },
  {
   "id": "v-kyoushitsu",
@@ -1767,7 +1782,8 @@ window.CARDS = [
   "ex": "食堂はどこですか。",
   "exvn": "Where is the cafeteria? (Tatoeba #145793, small_snow, CC BY 2.0 FR)",
   "img": "img/v-shokudou.jpg",
-  "credit": "Diliff · CC BY-SA 4.0"
+  "credit": "Diliff · CC BY-SA 4.0",
+  "exf": "<ruby>食<rt>しょく</rt></ruby><ruby>堂<rt>どう</rt></ruby>はどこですか。"
  },
  {
   "id": "v-uketsuke",
@@ -1884,7 +1900,8 @@ window.CARDS = [
   "ex": "CD売り場はどこですか？",
   "exvn": "Where can I buy a CD? (Tatoeba #9678873, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-uriba.jpg",
-  "credit": "Unknown authorUnknown author · Public domain"
+  "credit": "Unknown authorUnknown author · Public domain",
+  "exf": "<ruby>C<rt>しー</rt></ruby><ruby>D<rt>でぃー</rt></ruby><ruby>売<rt>う</rt></ruby>り<ruby>場<rt>ば</rt></ruby>はどこですか？"
  },
  {
   "id": "v-kaisha",
@@ -1910,7 +1927,8 @@ window.CARDS = [
   "ex": "毎日何時に起きますか。",
   "exvn": "What time do you get up every day? (Tatoeba #81297, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-okimasu.jpg",
-  "credit": "Lankyrider · CC BY-SA 4.0"
+  "credit": "Lankyrider · CC BY-SA 4.0",
+  "exf": "<ruby>毎<rt>まい</rt></ruby><ruby>日<rt>にち</rt></ruby><ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きますか。"
  },
  {
   "id": "v-nemasu",
@@ -1936,7 +1954,8 @@ window.CARDS = [
   "ex": "日曜日でも、働きます。",
   "exvn": "I work even on Sunday. (Tatoeba #6021, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-hatarakimasu.jpg",
-  "credit": "Bookmark Content · CC BY-SA 4.0"
+  "credit": "Bookmark Content · CC BY-SA 4.0",
+  "exf": "<ruby>日<rt>にち</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>でも、<ruby>働<rt>はたら</rt></ruby>きます。"
  },
  {
   "id": "v-yasumimasu",
@@ -1949,7 +1968,8 @@ window.CARDS = [
   "ex": "明日は休みます。",
   "exvn": "I'll be absent tomorrow. (Tatoeba #80439, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-yasumimasu.jpg",
-  "credit": "Drew Coffman drewcoffman · CC0"
+  "credit": "Drew Coffman drewcoffman · CC0",
+  "exf": "<ruby>明日<rt>あした</rt></ruby>は<ruby>休<rt>やす</rt></ruby>みます。"
  },
  {
   "id": "v-benkyoushimasu",
@@ -1962,7 +1982,8 @@ window.CARDS = [
   "ex": "私は韓国語を勉強します。",
   "exvn": "I study Korean. (Tatoeba #472101, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-benkyoushimasu.jpg",
-  "credit": "English106 · CC BY 2.0"
+  "credit": "English106 · CC BY 2.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>韓<rt>かん</rt></ruby><ruby>国<rt>こく</rt></ruby><ruby>語<rt>ご</rt></ruby>を<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>きょう</rt></ruby>します。"
  },
  {
   "id": "v-depaato",
@@ -1988,7 +2009,8 @@ window.CARDS = [
   "ex": "これが郵便局で、あれが銀行です。",
   "exvn": "This is a post office and that is a bank. (Tatoeba #218827, small_snow, CC BY 2.0 FR)",
   "img": "img/v-ginkou.jpg",
-  "credit": "Chris Woodrich · CC BY-SA 4.0"
+  "credit": "Chris Woodrich · CC BY-SA 4.0",
+  "exf": "これが<ruby>郵<rt>ゆう</rt></ruby><ruby>便<rt>びん</rt></ruby><ruby>局<rt>きょく</rt></ruby>で、あれが<ruby>銀<rt>ぎん</rt></ruby><ruby>行<rt>こう</rt></ruby>です。"
  },
  {
   "id": "v-yuubinkyoku",
@@ -2001,7 +2023,8 @@ window.CARDS = [
   "ex": "郵便局はどこですか。",
   "exvn": "Where is the post office? (Tatoeba #79171, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-yuubinkyoku.jpg",
-  "credit": "Huugo · CC0"
+  "credit": "Huugo · CC0",
+  "exf": "<ruby>郵<rt>ゆう</rt></ruby><ruby>便<rt>びん</rt></ruby><ruby>局<rt>きょく</rt></ruby>はどこですか。"
  },
  {
   "id": "v-toshokan",
@@ -2014,7 +2037,8 @@ window.CARDS = [
   "ex": "明日図書館でね。",
   "exvn": "See you tomorrow at the library. (Tatoeba #80292, mookeee, CC BY 2.0 FR)",
   "img": "img/v-toshokan.jpg",
-  "credit": "Asturio Cantabrio · CC BY-SA 4.0"
+  "credit": "Asturio Cantabrio · CC BY-SA 4.0",
+  "exf": "<ruby>明日<rt>あした</rt></ruby><ruby>図<rt>と</rt></ruby><ruby>書<rt>しょ</rt></ruby><ruby>館<rt>かん</rt></ruby>でね。"
  },
  {
   "id": "v-bijutsukan",
@@ -2040,7 +2064,8 @@ window.CARDS = [
   "ex": "映画は何時からですか。",
   "exvn": "When does the movie start? (Tatoeba #189309, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-eiga.jpg",
-  "credit": "Sdkb · CC BY-SA 4.0"
+  "credit": "Sdkb · CC BY-SA 4.0",
+  "exf": "<ruby>映<rt>えい</rt></ruby><ruby>画<rt>が</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>からですか。"
  },
  {
   "id": "v-shiken",
@@ -2066,7 +2091,8 @@ window.CARDS = [
   "ex": "会議は何時から？",
   "exvn": "What time will the meeting start? (Tatoeba #11819668, small_snow, CC BY 2.0 FR)",
   "img": "img/v-kaigi.jpg",
-  "credit": "Matti Blume · CC BY-SA 4.0"
+  "credit": "Matti Blume · CC BY-SA 4.0",
+  "exf": "<ruby>会<rt>かい</rt></ruby><ruby>議<rt>ぎ</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>から？"
  },
  {
   "id": "v-densha",
@@ -2079,7 +2105,8 @@ window.CARDS = [
   "ex": "電車で行きます。",
   "exvn": "I'll come by train. (Tatoeba #13115757, small_snow, CC BY 2.0 FR)",
   "img": "img/v-densha.jpg",
-  "credit": "George N · CC BY 2.0"
+  "credit": "George N · CC BY 2.0",
+  "exf": "<ruby>電<rt>でん</rt></ruby><ruby>車<rt>しゃ</rt></ruby>で<ruby>行<rt>い</rt></ruby>きます。"
  },
  {
   "id": "v-chikatetsu",
@@ -2092,7 +2119,8 @@ window.CARDS = [
   "ex": "すみません、地下鉄の駅はどこですか？",
   "exvn": "Excuse me, where's the subway station? (Tatoeba #10181629, small_snow, CC BY 2.0 FR)",
   "img": "img/v-chikatetsu.jpg",
-  "credit": "Simiprof · CC0"
+  "credit": "Simiprof · CC0",
+  "exf": "すみません、<ruby>地<rt>ち</rt></ruby><ruby>下<rt>か</rt></ruby><ruby>鉄<rt>てつ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>はどこですか？"
  },
  {
   "id": "v-shinkansen",
@@ -2118,7 +2146,8 @@ window.CARDS = [
   "ex": "バスが来ますよ。",
   "exvn": "There comes the bus. (Tatoeba #198222, small_snow, CC BY 2.0 FR)",
   "img": "img/v-basu.jpg",
-  "credit": "TTTNIS · CC0"
+  "credit": "TTTNIS · CC0",
+  "exf": "バスが<ruby>来<rt>き</rt></ruby>ますよ。"
  },
  {
   "id": "v-takushii",
@@ -2170,7 +2199,8 @@ window.CARDS = [
   "ex": "友達ですか？",
   "exvn": "Is he a friend? (Tatoeba #11518465, megamanenm, CC BY 2.0 FR)",
   "img": "img/v-tomodachi.jpg",
-  "credit": "PattayaPatrol · CC BY-SA 4.0"
+  "credit": "PattayaPatrol · CC BY-SA 4.0",
+  "exf": "<ruby>友<rt>とも</rt></ruby><ruby>達<rt>だち</rt></ruby>ですか？"
  },
  {
   "id": "v-kazoku",
@@ -2183,7 +2213,8 @@ window.CARDS = [
   "ex": "何人家族ですか。",
   "exvn": "How many people are there in your family? (Tatoeba #187368, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-kazoku.jpg",
-  "credit": "Eric Ward · CC BY-SA 2.0"
+  "credit": "Eric Ward · CC BY-SA 2.0",
+  "exf": "<ruby>何<rt>なん</rt></ruby><ruby>人<rt>にん</rt></ruby><ruby>家<rt>か</rt></ruby><ruby>族<rt>ぞく</rt></ruby>ですか。"
  },
  {
   "id": "v-tanjoubi",
@@ -2196,7 +2227,8 @@ window.CARDS = [
   "ex": "誕生日いつ？",
   "exvn": "When is your birthday? (Tatoeba #3073578, nnaffu, CC BY 2.0 FR)",
   "img": "img/v-tanjoubi.jpg",
-  "credit": "Francesca Cesa Bianchi, Milano · CC BY-SA 3.0 it"
+  "credit": "Francesca Cesa Bianchi, Milano · CC BY-SA 3.0 it",
+  "exf": "<ruby>誕<rt>たん</rt></ruby><ruby>生<rt>じょう</rt></ruby><ruby>日<rt>び</rt></ruby>いつ？"
  },
  {
   "id": "v-gakkou",
@@ -2209,7 +2241,8 @@ window.CARDS = [
   "ex": "あれは学校。",
   "exvn": "That's a school. (Tatoeba #6828202, D0UG, CC BY 2.0 FR)",
   "img": "img/v-gakkou.jpg",
-  "credit": "とらもん192 · CC BY 4.0"
+  "credit": "とらもん192 · CC BY 4.0",
+  "exf": "あれは<ruby>学<rt>がっ</rt></ruby><ruby>校<rt>こう</rt></ruby>。"
  },
  {
   "id": "v-tabemasu",
@@ -2222,7 +2255,8 @@ window.CARDS = [
   "ex": "ここで食べます。",
   "exvn": "For here, please. (Tatoeba #224546, Ianagisacos, CC BY 2.0 FR)",
   "img": "img/v-tabemasu.jpg",
-  "credit": "Helgi Halldórsson from Reykjavík, Icelan · CC BY-SA 2.0"
+  "credit": "Helgi Halldórsson from Reykjavík, Icelan · CC BY-SA 2.0",
+  "exf": "ここで<ruby>食<rt>た</rt></ruby>べます。"
  },
  {
   "id": "v-nomimasu",
@@ -2235,7 +2269,8 @@ window.CARDS = [
   "ex": "何を飲みますか。",
   "exvn": "What will you have to drink? (Tatoeba #187577, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-nomimasu.jpg",
-  "credit": "Shixart1985 · CC BY 2.0"
+  "credit": "Shixart1985 · CC BY 2.0",
+  "exf": "<ruby>何<rt>なに</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みますか。"
  },
  {
   "id": "v-mimasu",
@@ -2248,7 +2283,8 @@ window.CARDS = [
   "ex": "テレビは毎日見ますよ。",
   "exvn": "I watch television every day. (Tatoeba #159389, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-mimasu.jpg",
-  "credit": "Horizon206 · CC0"
+  "credit": "Horizon206 · CC0",
+  "exf": "テレビは<ruby>毎<rt>まい</rt></ruby><ruby>日<rt>にち</rt></ruby><ruby>見<rt>み</rt></ruby>ますよ。"
  },
  {
   "id": "v-kikimasu",
@@ -2261,7 +2297,8 @@ window.CARDS = [
   "ex": "明日、彼に聞きます。",
   "exvn": "Tomorrow, I will ask him. (Tatoeba #1484587, marshmallowcat, CC BY 2.0 FR)",
   "img": "img/v-kikimasu.jpg",
-  "credit": "Florian Fuchs · CC BY-SA 3.0"
+  "credit": "Florian Fuchs · CC BY-SA 3.0",
+  "exf": "<ruby>明日<rt>あした</rt></ruby>、<ruby>彼<rt>かれ</rt></ruby>に<ruby>聞<rt>き</rt></ruby>きます。"
  },
  {
   "id": "v-yomimasu",
@@ -2274,7 +2311,8 @@ window.CARDS = [
   "ex": "私は読みます。",
   "exvn": "I read. (Tatoeba #2000082, User22901, CC BY 2.0 FR)",
   "img": "img/v-yomimasu.jpg",
-  "credit": "Shixart1985 · CC BY 2.0"
+  "credit": "Shixart1985 · CC BY 2.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>読<rt>よ</rt></ruby>みます。"
  },
  {
   "id": "v-kakimasu",
@@ -2287,7 +2325,8 @@ window.CARDS = [
   "ex": "どこで書きますか。",
   "exvn": "Where do you write? (Tatoeba #743856, gracefully, CC BY 2.0 FR)",
   "img": "img/v-kakimasu.jpg",
-  "credit": "Chardish at en.wikipedia · Public domain"
+  "credit": "Chardish at en.wikipedia · Public domain",
+  "exf": "どこで<ruby>書<rt>か</rt></ruby>きますか。"
  },
  {
   "id": "v-kaimasu",
@@ -2300,7 +2339,8 @@ window.CARDS = [
   "ex": "これを買います。",
   "exvn": "I'll take it. (Tatoeba #217615, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-kaimasu.jpg",
-  "credit": "Unknown authorUnknown author · Public domain"
+  "credit": "Unknown authorUnknown author · Public domain",
+  "exf": "これを<ruby>買<rt>か</rt></ruby>います。"
  },
  {
   "id": "v-torimasu",
@@ -2326,7 +2366,8 @@ window.CARDS = [
   "ex": "今日の晩ごはん何？",
   "exvn": "What's for dinner tonight? (Tatoeba #4704222, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-gohan.jpg",
-  "credit": "JIP · CC BY-SA 4.0"
+  "credit": "JIP · CC BY-SA 4.0",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>晩<rt>ばん</rt></ruby>ごはん<ruby>何<rt>なに</rt></ruby>？"
  },
  {
   "id": "v-niku",
@@ -2365,7 +2406,8 @@ window.CARDS = [
   "ex": "昨日彼女は野菜を買いました。",
   "exvn": "She bought vegetables yesterday. (Tatoeba #753459, modelqueen13, CC BY 2.0 FR)",
   "img": "img/v-yasai.jpg",
-  "credit": "Dietmar Rabich · CC BY-SA 4.0"
+  "credit": "Dietmar Rabich · CC BY-SA 4.0",
+  "exf": "<ruby>昨日<rt>きのう</rt></ruby><ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>野<rt>や</rt></ruby><ruby>菜<rt>さい</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。"
  },
  {
   "id": "v-kudamono",
@@ -2378,7 +2420,8 @@ window.CARDS = [
   "ex": "果物はいかがですか？",
   "exvn": "Would you like some fruit? (Tatoeba #10006471, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-kudamono.jpg",
-  "credit": "Friedrich Haag · CC BY-SA 4.0"
+  "credit": "Friedrich Haag · CC BY-SA 4.0",
+  "exf": "<ruby>果<rt>くだ</rt></ruby><ruby>物<rt>もの</rt></ruby>はいかがですか？"
  },
  {
   "id": "v-hanami",
@@ -2469,7 +2512,8 @@ window.CARDS = [
   "ex": "ナイフで切ります。",
   "exvn": "I'll cut it with a knife. (Tatoeba #6828177, D0UG, CC BY 2.0 FR)",
   "img": "img/v-kirimasu.jpg",
-  "credit": "Ermell · CC BY-SA 4.0"
+  "credit": "Ermell · CC BY-SA 4.0",
+  "exf": "ナイフで<ruby>切<rt>き</rt></ruby>ります。"
  },
  {
   "id": "v-pasokon",
@@ -2521,7 +2565,8 @@ window.CARDS = [
   "ex": "お金はどこ？",
   "exvn": "Where's the money? (Tatoeba #13669575, small_snow, CC BY 2.0 FR)",
   "img": "img/v-okane.jpg",
-  "credit": "AKS.9955 · Public domain"
+  "credit": "AKS.9955 · Public domain",
+  "exf": "お<ruby>金<rt>かね</rt></ruby>はどこ？"
  },
  {
   "id": "v-kippu",
@@ -2534,7 +2579,8 @@ window.CARDS = [
   "ex": "あなたの切符よ。",
   "exvn": "Here's a ticket for you. (Tatoeba #13864877, small_snow, CC BY 2.0 FR)",
   "img": "img/v-kippu.jpg",
-  "credit": "Sui-setz · Public domain"
+  "credit": "Sui-setz · Public domain",
+  "exf": "あなたの<ruby>切<rt>きっ</rt></ruby><ruby>符<rt>ぷ</rt></ruby>よ。"
  },
  {
   "id": "v-nengajou",
@@ -2560,7 +2606,8 @@ window.CARDS = [
   "ex": "きのう母に荷物を送りました。",
   "exvn": "I sent my mother a package yesterday. (Tatoeba #10899655, small_snow, CC BY 2.0 FR)",
   "img": "img/v-nimotsu.jpg",
-  "credit": "Bryan Ledgard · CC BY 2.0"
+  "credit": "Bryan Ledgard · CC BY 2.0",
+  "exf": "きのう<ruby>母<rt>はは</rt></ruby>に<ruby>荷<rt>に</rt></ruby><ruby>物<rt>もつ</rt></ruby>を<ruby>送<rt>おく</rt></ruby>りました。"
  },
  {
   "id": "v-oshiemasu",
@@ -2664,7 +2711,8 @@ window.CARDS = [
   "ex": "でも高いよ。",
   "exvn": "It's expensive though. (Tatoeba #202087, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-takai.jpg",
-  "credit": "Basile Morin · CC BY-SA 4.0"
+  "credit": "Basile Morin · CC BY-SA 4.0",
+  "exf": "でも<ruby>高<rt>たか</rt></ruby>いよ。"
  },
  {
   "id": "v-oishii",
@@ -2677,7 +2725,8 @@ window.CARDS = [
   "ex": "この魚おいしい。",
   "exvn": "This fish is delicious. (Tatoeba #3013049, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-oishii.jpg",
-  "credit": "Shisma · CC BY 4.0"
+  "credit": "Shisma · CC BY 4.0",
+  "exf": "この<ruby>魚<rt>さかな</rt></ruby>おいしい。"
  },
  {
   "id": "v-shizuka",
@@ -2729,7 +2778,8 @@ window.CARDS = [
   "ex": "私は忙しい。",
   "exvn": "I'm busy. (Tatoeba #152827, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-isogashii.jpg",
-  "credit": "PattayaPatrol · CC BY-SA 4.0"
+  "credit": "PattayaPatrol · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しい。"
  },
  {
   "id": "v-resutoran",
@@ -2755,7 +2805,8 @@ window.CARDS = [
   "ex": "料理は面白いよ。",
   "exvn": "Cooking is interesting. (Tatoeba #10548509, small_snow, CC BY 2.0 FR)",
   "img": "img/v-ryouri.jpg",
-  "credit": "MichaelMaggs · CC BY-SA 3.0"
+  "credit": "MichaelMaggs · CC BY-SA 3.0",
+  "exf": "<ruby>料<rt>りょう</rt></ruby><ruby>理<rt>り</rt></ruby>は<ruby>面<rt>おも</rt></ruby><ruby>白<rt>しろ</rt></ruby>いよ。"
  },
  {
   "id": "v-yakyuu",
@@ -2768,7 +2819,8 @@ window.CARDS = [
   "ex": "野球をしますか？",
   "exvn": "Do you play baseball? (Tatoeba #7929834, Ninja, CC BY 2.0 FR)",
   "img": "img/v-yakyuu.jpg",
-  "credit": "U.S. Marine Corps photo by Cpl. Stephen  · Public domain"
+  "credit": "U.S. Marine Corps photo by Cpl. Stephen  · Public domain",
+  "exf": "<ruby>野<rt>や</rt></ruby><ruby>球<rt>きゅう</rt></ruby>をしますか？"
  },
  {
   "id": "v-dansu",
@@ -2781,7 +2833,8 @@ window.CARDS = [
   "ex": "ダンスは好きですか。",
   "exvn": "Do you like dancing? (Tatoeba #203074, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-dansu.jpg",
-  "credit": "Virtual-Pano · CC BY-SA 4.0"
+  "credit": "Virtual-Pano · CC BY-SA 4.0",
+  "exf": "ダンスは<ruby>好<rt>す</rt></ruby>きですか。"
  },
  {
   "id": "v-ryokou",
@@ -2794,7 +2847,8 @@ window.CARDS = [
   "ex": "旅行は好き？",
   "exvn": "Do you like to travel? (Tatoeba #3309201, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-ryokou.jpg",
-  "credit": "Mattsjc · CC BY 4.0"
+  "credit": "Mattsjc · CC BY 4.0",
+  "exf": "<ruby>旅<rt>りょ</rt></ruby><ruby>行<rt>こう</rt></ruby>は<ruby>好<rt>す</rt></ruby>き？"
  },
  {
   "id": "v-ongaku",
@@ -2807,7 +2861,8 @@ window.CARDS = [
   "ex": "音楽は好き？",
   "exvn": "Are you fond of music? (Tatoeba #188279, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-ongaku.jpg",
-  "credit": "Antoine Montulé · CC BY-SA 4.0"
+  "credit": "Antoine Montulé · CC BY-SA 4.0",
+  "exf": "<ruby>音<rt>おん</rt></ruby><ruby>楽<rt>がく</rt></ruby>は<ruby>好<rt>す</rt></ruby>き？"
  },
  {
   "id": "v-uta",
@@ -2833,7 +2888,8 @@ window.CARDS = [
   "ex": "カラオケに行きましょう。",
   "exvn": "Let's go sing karaoke. (Tatoeba #9582259, small_snow, CC BY 2.0 FR)",
   "img": "img/v-karaoke.jpg",
-  "credit": "Christophe95 · CC BY-SA 4.0"
+  "credit": "Christophe95 · CC BY-SA 4.0",
+  "exf": "カラオケに<ruby>行<rt>い</rt></ruby>きましょう。"
  },
  {
   "id": "v-kabuki",
@@ -2872,7 +2928,8 @@ window.CARDS = [
   "ex": "漢字を書きます。",
   "exvn": "I write kanji. (Tatoeba #6828180, D0UG, CC BY 2.0 FR)",
   "img": "img/v-kanji.jpg",
-  "credit": "Mariko GODA · CC BY-SA 3.0"
+  "credit": "Mariko GODA · CC BY-SA 3.0",
+  "exf": "<ruby>漢<rt>かん</rt></ruby><ruby>字<rt>じ</rt></ruby>を<ruby>書<rt>か</rt></ruby>きます。"
  },
  {
   "id": "v-konsaato",
@@ -2885,7 +2942,8 @@ window.CARDS = [
   "ex": "来週コンサートに行きます。",
   "exvn": "I am going to a concert next week. (Tatoeba #78663, mookeee, CC BY 2.0 FR)",
   "img": "img/v-konsaato.jpg",
-  "credit": "Shixart1985 · CC BY 2.0"
+  "credit": "Shixart1985 · CC BY 2.0",
+  "exf": "<ruby>来<rt>らい</rt></ruby><ruby>週<rt>しゅう</rt></ruby>コンサートに<ruby>行<rt>い</rt></ruby>きます。"
  },
  {
   "id": "v-arubaito",
@@ -2898,7 +2956,8 @@ window.CARDS = [
   "ex": "何かアルバイトはしていますか。",
   "exvn": "Do you have a part-time job? (Tatoeba #188151, small_snow, CC BY 2.0 FR)",
   "img": "img/v-arubaito.jpg",
-  "credit": "photo taken by flickr user Young in Pana · CC BY 2.0"
+  "credit": "photo taken by flickr user Young in Pana · CC BY 2.0",
+  "exf": "<ruby>何<rt>なに</rt></ruby>かアルバイトはしていますか。"
  },
  {
   "id": "v-kodomo",
@@ -2911,7 +2970,8 @@ window.CARDS = [
   "ex": "子どもは何人いますか。",
   "exvn": "How many children do you have? (Tatoeba #1038473, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-kodomo.jpg",
-  "credit": "Rachelboo2 · CC0"
+  "credit": "Rachelboo2 · CC0",
+  "exf": "<ruby>子<rt>こ</rt></ruby>どもは<ruby>何<rt>なん</rt></ruby><ruby>人<rt>にん</rt></ruby>いますか。"
  },
  {
   "id": "v-otokonohito",
@@ -2924,7 +2984,8 @@ window.CARDS = [
   "ex": "この男の人は中国人です。",
   "exvn": "This man is Chinese. (Tatoeba #2462798, flavio78, CC BY 2.0 FR)",
   "img": "img/v-otokonohito.jpg",
-  "credit": "Abhi Puthenpurackal · CC0"
+  "credit": "Abhi Puthenpurackal · CC0",
+  "exf": "この<ruby>男<rt>おとこ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>は<ruby>中<rt>ちゅう</rt></ruby><ruby>国<rt>ごく</rt></ruby><ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-onnanohito",
@@ -2937,7 +2998,8 @@ window.CARDS = [
   "ex": "あなたのお父さんの友達は女の人ですか。",
   "exvn": "Is your father's friend a woman? (Tatoeba #1196232, FiRez, CC BY 2.0 FR)",
   "img": "img/v-onnanohito.jpg",
-  "credit": "Basile Morin · CC BY-SA 4.0"
+  "credit": "Basile Morin · CC BY-SA 4.0",
+  "exf": "あなたのお<ruby>父<rt>とう</rt></ruby>さんの<ruby>友<rt>とも</rt></ruby><ruby>達<rt>だち</rt></ruby>は<ruby>女<rt>おんな</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>ですか。"
  },
  {
   "id": "v-otokonoko",
@@ -2950,7 +3012,8 @@ window.CARDS = [
   "ex": "男の子ですよ。",
   "exvn": "It's a boy. (Tatoeba #10633458, small_snow, CC BY 2.0 FR)",
   "img": "img/v-otokonoko.jpg",
-  "credit": "Wilfredor · CC0"
+  "credit": "Wilfredor · CC0",
+  "exf": "<ruby>男<rt>おとこ</rt></ruby>の<ruby>子<rt>こ</rt></ruby>ですよ。"
  },
  {
   "id": "v-onnanoko",
@@ -2963,7 +3026,8 @@ window.CARDS = [
   "ex": "女の子は音楽が好きです。",
   "exvn": "That girl likes that music. (Tatoeba #5259744, phoonaz, CC BY 2.0 FR)",
   "img": "img/v-onnanoko.jpg",
-  "credit": "Basile Morin · CC BY-SA 4.0"
+  "credit": "Basile Morin · CC BY-SA 4.0",
+  "exf": "<ruby>女<rt>おんな</rt></ruby>の<ruby>子<rt>こ</rt></ruby>は<ruby>音<rt>おん</rt></ruby><ruby>楽<rt>がく</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。"
  },
  {
   "id": "v-panda",
@@ -3015,7 +3079,8 @@ window.CARDS = [
   "ex": "テーブルの下よ。",
   "exvn": "It's under the table. (Tatoeba #202412, small_snow, CC BY 2.0 FR)",
   "img": "img/v-teeburu.jpg",
-  "credit": "ZemplinTemplar · CC BY-SA 4.0"
+  "credit": "ZemplinTemplar · CC BY-SA 4.0",
+  "exf": "テーブルの<ruby>下<rt>した</rt></ruby>よ。"
  },
  {
   "id": "v-tana",
@@ -3054,7 +3119,8 @@ window.CARDS = [
   "ex": "彼はドアの前にいます。",
   "exvn": "He is in front of the door. (Tatoeba #111772, small_snow, CC BY 2.0 FR)",
   "img": "img/v-doa.jpg",
-  "credit": "Radomianin · CC BY-SA 4.0"
+  "credit": "Radomianin · CC BY-SA 4.0",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>はドアの<ruby>前<rt>まえ</rt></ruby>にいます。"
  },
  {
   "id": "v-posuto",
@@ -3093,7 +3159,8 @@ window.CARDS = [
   "ex": "公園に木があります。",
   "exvn": "There's a tree in the park. (Tatoeba #10953987, soueihin, CC BY 2.0 FR)",
   "img": "img/v-kouen.jpg",
-  "credit": "M.O. Stevens · Public domain"
+  "credit": "M.O. Stevens · Public domain",
+  "exf": "<ruby>公<rt>こう</rt></ruby><ruby>園<rt>えん</rt></ruby>に<ruby>木<rt>き</rt></ruby>があります。"
  },
  {
   "id": "v-kissaten",
@@ -3106,7 +3173,8 @@ window.CARDS = [
   "ex": "あそこに喫茶店があります。",
   "exvn": "There is a coffee shop over there. (Tatoeba #1127354, negichan, CC BY 2.0 FR)",
   "img": "img/v-kissaten.jpg",
-  "credit": "MIKI Yoshihito · CC BY 2.0"
+  "credit": "MIKI Yoshihito · CC BY 2.0",
+  "exf": "あそこに<ruby>喫<rt>きっ</rt></ruby><ruby>茶<rt>さ</rt></ruby><ruby>店<rt>てん</rt></ruby>があります。"
  },
  {
   "id": "v-mikan",
@@ -3169,7 +3237,8 @@ window.CARDS = [
   "ex": "封筒をください。",
   "exvn": "I need an envelope. (Tatoeba #84069, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-fuutou.jpg",
-  "credit": "Anizotropia · Public domain"
+  "credit": "Anizotropia · Public domain",
+  "exf": "<ruby>封<rt>ふう</rt></ruby><ruby>筒<rt>とう</rt></ruby>をください。"
  },
  {
   "id": "v-hikouki",
@@ -3221,7 +3290,8 @@ window.CARDS = [
   "ex": "この世界は難しい。",
   "exvn": "This world is difficult. (Tatoeba #775200, klismangok, CC BY 2.0 FR)",
   "img": "img/v-sekai.jpg",
-  "credit": "Markus Koljonen (Dilaudid) · CC BY-SA 3.0"
+  "credit": "Markus Koljonen (Dilaudid) · CC BY-SA 3.0",
+  "exf": "この<ruby>世<rt>せ</rt></ruby><ruby>界<rt>かい</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しい。"
  },
  {
   "id": "v-umi",
@@ -3260,7 +3330,8 @@ window.CARDS = [
   "ex": "今空港にいます。",
   "exvn": "I'm at the airport now. (Tatoeba #788209, kenken, CC BY 2.0 FR)",
   "img": "img/v-kuukou.jpg",
-  "credit": "Arne Müseler · CC BY-SA 3.0 de"
+  "credit": "Arne Müseler · CC BY-SA 3.0 de",
+  "exf": "<ruby>今<rt>いま</rt></ruby><ruby>空<rt>くう</rt></ruby><ruby>港<rt>こう</rt></ruby>にいます。"
  },
  {
   "id": "v-omatsuri",
@@ -3390,7 +3461,8 @@ window.CARDS = [
   "ex": "その町は温泉で有名です。",
   "exvn": "The town is famous for its hot spring. (Tatoeba #207797, KK_kaku_, CC BY 2.0 FR)",
   "img": "img/v-onsen.jpg",
-  "credit": "Alpsdake · CC BY-SA 4.0"
+  "credit": "Alpsdake · CC BY-SA 4.0",
+  "exf": "その<ruby>町<rt>まち</rt></ruby>は<ruby>温<rt>おん</rt></ruby><ruby>泉<rt>せん</rt></ruby>で<ruby>有<rt>ゆう</rt></ruby><ruby>名<rt>めい</rt></ruby>です。"
  },
  {
   "id": "v-ryokan",
@@ -3442,7 +3514,8 @@ window.CARDS = [
   "ex": "パスポートを見せて下さい。",
   "exvn": "Passport, please. (Tatoeba #198084, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-pasupooto.jpg",
-  "credit": "Gpkp · CC BY-SA 4.0"
+  "credit": "Gpkp · CC BY-SA 4.0",
+  "exf": "パスポートを<ruby>見<rt>み</rt></ruby>せて<ruby>下<rt>くだ</rt></ruby>さい。"
  },
  {
   "id": "v-chizu",
@@ -3453,7 +3526,8 @@ window.CARDS = [
   "romaji": "chizu",
   "meaning": "bản đồ",
   "ex": "地図をかきましょうか？",
-  "exvn": "Shall I draw a map for you? (Tatoeba #126856, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Shall I draw a map for you? (Tatoeba #126856, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>地<rt>ち</rt></ruby><ruby>図<rt>ず</rt></ruby>をかきましょうか？"
  },
  {
   "id": "v-shio",
@@ -3479,7 +3553,8 @@ window.CARDS = [
   "ex": "まだ、砂糖はありますか？",
   "exvn": "Is there still any sugar? (Tatoeba #195439, small_snow, CC BY 2.0 FR)",
   "img": "img/v-satou.jpg",
-  "credit": "Lauri Andler (Phantom) · CC BY-SA 3.0"
+  "credit": "Lauri Andler (Phantom) · CC BY-SA 3.0",
+  "exf": "まだ、<ruby>砂<rt>さ</rt></ruby><ruby>糖<rt>とう</rt></ruby>はありますか？"
  },
  {
   "id": "v-denki",
@@ -3492,7 +3567,8 @@ window.CARDS = [
   "ex": "電気消して。",
   "exvn": "Put out the light. (Tatoeba #8586482, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-denki.jpg",
-  "credit": "Marcello Casal Jr/Agência Brasil · CC BY 3.0 br"
+  "credit": "Marcello Casal Jr/Agência Brasil · CC BY 3.0 br",
+  "exf": "<ruby>電<rt>でん</rt></ruby><ruby>気<rt>き</rt></ruby><ruby>消<rt>け</rt></ruby>して。"
  },
  {
   "id": "v-sutoobu",
@@ -3505,7 +3581,8 @@ window.CARDS = [
   "ex": "冬は寒いので、ストーブをつけます。",
   "exvn": "In the winter it's cold, so we turn on the stove. (Tatoeba #10925591, small_snow, CC BY 2.0 FR)",
   "img": "img/v-sutoobu.jpg",
-  "credit": "Douglas P. Perkins · CC BY 3.0"
+  "credit": "Douglas P. Perkins · CC BY 3.0",
+  "exf": "<ruby>冬<rt>ふゆ</rt></ruby>は<ruby>寒<rt>さむ</rt></ruby>いので、ストーブをつけます。"
  },
  {
   "id": "v-terebi",
@@ -3529,7 +3606,8 @@ window.CARDS = [
   "romaji": "katarogu",
   "meaning": "ca-ta-lô",
   "ex": "これが今年のカタログです。",
-  "exvn": "This is this year's catalogue. (Tatoeba #12324498, small_snow, CC BY 2.0 FR)"
+  "exvn": "This is this year's catalogue. (Tatoeba #12324498, small_snow, CC BY 2.0 FR)",
+  "exf": "これが<ruby>今<rt>こ</rt></ruby><ruby>年<rt>とし</rt></ruby>のカタログです。"
  },
  {
   "id": "v-jikokuhyou",
@@ -3542,7 +3620,8 @@ window.CARDS = [
   "ex": "時刻表はありますか？",
   "exvn": "Is there a timetable? (Tatoeba #8724681, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-jikokuhyou.jpg",
-  "credit": "Jonashtand · CC BY-SA 4.0"
+  "credit": "Jonashtand · CC BY-SA 4.0",
+  "exf": "<ruby>時<rt>じ</rt></ruby><ruby>刻<rt>こく</rt></ruby><ruby>表<rt>ひょう</rt></ruby>はありますか？"
  },
  {
   "id": "v-fuku",
@@ -3592,7 +3671,8 @@ window.CARDS = [
   "romaji": "chuushajou",
   "meaning": "bãi đỗ xe",
   "ex": "駐車場はありますか。",
-  "exvn": "Is there a parking lot? (Tatoeba #126297, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Is there a parking lot? (Tatoeba #126297, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>駐<rt>ちゅう</rt></ruby><ruby>車<rt>しゃ</rt></ruby><ruby>場<rt>じょう</rt></ruby>はありますか。"
  },
  {
   "id": "v-tatemono",
@@ -3605,7 +3685,8 @@ window.CARDS = [
   "ex": "高い建物ですね。",
   "exvn": "That is a high building, is it not? (Tatoeba #229710, KK_kaku_, CC BY 2.0 FR)",
   "img": "img/v-tatemono.jpg",
-  "credit": "ノボホショコロトソ · CC BY 4.0"
+  "credit": "ノボホショコロトソ · CC BY 4.0",
+  "exf": "<ruby>高<rt>たか</rt></ruby>い<ruby>建<rt>たて</rt></ruby><ruby>物<rt>もの</rt></ruby>ですね。"
  },
  {
   "id": "v-shawaa",
@@ -3631,7 +3712,8 @@ window.CARDS = [
   "ex": "お寺はどこですか？",
   "exvn": "Where's the temple? (Tatoeba #10049610, small_snow, CC BY 2.0 FR)",
   "img": "img/v-otera.jpg",
-  "credit": "Basile Morin · CC BY-SA 4.0"
+  "credit": "Basile Morin · CC BY-SA 4.0",
+  "exf": "お<ruby>寺<rt>てら</rt></ruby>はどこですか？"
  },
  {
   "id": "v-jinja",
@@ -3670,7 +3752,8 @@ window.CARDS = [
   "ex": "父は先月ジョギングを始めました。",
   "exvn": "My father began jogging last month. (Tatoeba #162808, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-jogingu.jpg",
-  "credit": "John Robert McPherson · CC BY-SA 4.0"
+  "credit": "John Robert McPherson · CC BY-SA 4.0",
+  "exf": "<ruby>父<rt>ちち</rt></ruby>は<ruby>先<rt>せん</rt></ruby><ruby>月<rt>げつ</rt></ruby>ジョギングを<ruby>始<rt>はじ</rt></ruby>めました。"
  },
  {
   "id": "v-botan",
@@ -3683,7 +3766,8 @@ window.CARDS = [
   "ex": "ボタンを押します。",
   "exvn": "Press the button. (Tatoeba #10733638, megamanenm, CC BY 2.0 FR)",
   "img": "img/v-botan.jpg",
-  "credit": "Dejan Krsmanovic · CC BY 2.0"
+  "credit": "Dejan Krsmanovic · CC BY 2.0",
+  "exf": "ボタンを<ruby>押<rt>お</rt></ruby>します。"
  },
  {
   "id": "v-kusuri",
@@ -3709,7 +3793,8 @@ window.CARDS = [
   "ex": "お風呂の時間です。",
   "exvn": "It's time to take a bath. (Tatoeba #11763476, small_snow, CC BY 2.0 FR)",
   "img": "img/v-ofuro.jpg",
-  "credit": "BradBeattie · CC BY-SA 3.0"
+  "credit": "BradBeattie · CC BY-SA 3.0",
+  "exf": "お<ruby>風<rt>ふ</rt></ruby><ruby>呂<rt>ろ</rt></ruby>の<ruby>時<rt>じ</rt></ruby><ruby>間<rt>かん</rt></ruby>です。"
  },
  {
   "id": "v-gomibako",
@@ -3783,7 +3868,8 @@ window.CARDS = [
   "ex": "動物園に行きましょう！",
   "exvn": "Let's go to the zoo! (Tatoeba #9540642, small_snow, CC BY 2.0 FR)",
   "img": "img/v-doubutsuen.jpg",
-  "credit": "Spiegel さん https://www.flickr.com/photos · CC BY 2.0"
+  "credit": "Spiegel さん https://www.flickr.com/photos · CC BY 2.0",
+  "exf": "<ruby>動<rt>どう</rt></ruby><ruby>物<rt>ぶつ</rt></ruby><ruby>園<rt>えん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きましょう！"
  },
  {
   "id": "v-nikki",
@@ -3794,7 +3880,8 @@ window.CARDS = [
   "romaji": "nikki",
   "meaning": "nhật ký",
   "ex": "日記をつけています。",
-  "exvn": "I keep a diary. (Tatoeba #8533443, small_snow, CC BY 2.0 FR)"
+  "exvn": "I keep a diary. (Tatoeba #8533443, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>日<rt>にっ</rt></ruby><ruby>記<rt>き</rt></ruby>をつけています。"
  },
  {
   "id": "v-genkin",
@@ -3807,7 +3894,8 @@ window.CARDS = [
   "ex": "現金でも大丈夫ですか？",
   "exvn": "Can I pay by cash? (Tatoeba #11890833, small_snow, CC BY 2.0 FR)",
   "img": "img/v-genkin.jpg",
-  "credit": "AKS.9955 · Public domain"
+  "credit": "AKS.9955 · Public domain",
+  "exf": "<ruby>現<rt>げん</rt></ruby><ruby>金<rt>きん</rt></ruby>でも<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>じょう</rt></ruby><ruby>夫<rt>ぶ</rt></ruby>ですか？"
  },
  {
   "id": "v-gorufu",
@@ -3820,7 +3908,8 @@ window.CARDS = [
   "ex": "ゴルフは好きですか。",
   "exvn": "Are you fond of golf? (Tatoeba #219041, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-gorufu.jpg",
-  "credit": "Neuroxic · CC BY 4.0"
+  "credit": "Neuroxic · CC BY 4.0",
+  "exf": "ゴルフは<ruby>好<rt>す</rt></ruby>きですか。"
  },
  {
   "id": "v-sumou",
@@ -3907,7 +3996,8 @@ window.CARDS = [
   "romaji": "sarariiman",
   "meaning": "nhân viên văn phòng",
   "ex": "私はしがないサラリーマンです。",
-  "exvn": "I'm just a plain old office worker. (Tatoeba #477341, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm just a plain old office worker. (Tatoeba #477341, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はしがないサラリーマンです。"
  },
  {
   "id": "v-sakkaa",
@@ -3946,7 +4036,8 @@ window.CARDS = [
   "ex": "面白いニュースね。",
   "exvn": "It's interesting news. (Tatoeba #11254037, small_snow, CC BY 2.0 FR)",
   "img": "img/v-nyuusu.jpg",
-  "credit": "Rezowan · CC BY-SA 4.0"
+  "credit": "Rezowan · CC BY-SA 4.0",
+  "exf": "<ruby>面<rt>おも</rt></ruby><ruby>白<rt>しろ</rt></ruby>いニュースね。"
  },
  {
   "id": "v-supiichi",
@@ -3959,7 +4050,8 @@ window.CARDS = [
   "ex": "明日スピーチをします。",
   "exvn": "I'll give a speech tomorrow. (Tatoeba #9575815, small_snow, CC BY 2.0 FR)",
   "img": "img/v-supiichi.jpg",
-  "credit": "U.S. Department of State · Public domain"
+  "credit": "U.S. Department of State · Public domain",
+  "exf": "<ruby>明日<rt>あす</rt></ruby>スピーチをします。"
  },
  {
   "id": "v-shushou",
@@ -3981,7 +4073,8 @@ window.CARDS = [
   "romaji": "kooto",
   "meaning": "áo khoác",
   "ex": "この新しいコート、どう？",
-  "exvn": "What do you think of my new coat? (Tatoeba #221048, Blanka_Meduzo, CC BY 2.0 FR)"
+  "exvn": "What do you think of my new coat? (Tatoeba #221048, Blanka_Meduzo, CC BY 2.0 FR)",
+  "exf": "この<ruby>新<rt>あたら</rt></ruby>しいコート、どう？"
  },
  {
   "id": "v-suutsu",
@@ -4005,7 +4098,8 @@ window.CARDS = [
   "ex": "帽子、返して。",
   "exvn": "Give me back my hat. (Tatoeba #10516099, small_snow, CC BY 2.0 FR)",
   "img": "img/v-boushi.jpg",
-  "credit": "Ikhadeejatu · CC BY-SA 4.0"
+  "credit": "Ikhadeejatu · CC BY-SA 4.0",
+  "exf": "<ruby>帽<rt>ぼう</rt></ruby><ruby>子<rt>し</rt></ruby>、<ruby>返<rt>かえ</rt></ruby>して。"
  },
  {
   "id": "v-megane",
@@ -4018,7 +4112,8 @@ window.CARDS = [
   "ex": "私の眼鏡はどこ？",
   "exvn": "Where are my glasses? (Tatoeba #163890, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-megane.jpg",
-  "credit": "عدنان حليم · CC BY-SA 4.0"
+  "credit": "عدنان حليم · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>の<ruby>眼<rt>め</rt></ruby><ruby>鏡<rt>がね</rt></ruby>はどこ？"
  },
  {
   "id": "v-futon",
@@ -4066,7 +4161,8 @@ window.CARDS = [
   "romaji": "shingou",
   "meaning": "đèn giao thông",
   "ex": "その信号を右ね。",
-  "exvn": "Turn right at the light. (Tatoeba #9518574, small_snow, CC BY 2.0 FR)"
+  "exvn": "Turn right at the light. (Tatoeba #9518574, small_snow, CC BY 2.0 FR)",
+  "exf": "その<ruby>信<rt>しん</rt></ruby><ruby>号<rt>ごう</rt></ruby>を<ruby>右<rt>みぎ</rt></ruby>ね。"
  },
  {
   "id": "v-kousaten",
@@ -4118,7 +4214,8 @@ window.CARDS = [
   "ex": "このお菓子は甘いです。",
   "exvn": "This candy is sweet. (Tatoeba #11038989, small_snow, CC BY 2.0 FR)",
   "img": "img/v-okashi.jpg",
-  "credit": "Douglas Perkins · CC0"
+  "credit": "Douglas Perkins · CC0",
+  "exf": "このお<ruby>菓<rt>か</rt></ruby><ruby>子<rt>し</rt></ruby>は<ruby>甘<rt>あま</rt></ruby>いです。"
  },
  {
   "id": "v-hikkoshi",
@@ -4131,7 +4228,8 @@ window.CARDS = [
   "ex": "彼は引っ越した。",
   "exvn": "He moved. (Tatoeba #13428431, demiurgastel, CC BY 2.0 FR)",
   "img": "img/v-hikkoshi.jpg",
-  "credit": "Dwight Burdette · CC BY 3.0"
+  "credit": "Dwight Burdette · CC BY 3.0",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>した。"
  },
  {
   "id": "v-hoomusutei",
@@ -4164,7 +4262,8 @@ window.CARDS = [
   "romaji": "obaasan",
   "meaning": "bà",
   "ex": "おばあさんはバスから降りた。",
-  "exvn": "The old lady got down from the bus. (Tatoeba #227592, bunbuku, CC BY 2.0 FR)"
+  "exvn": "The old lady got down from the bus. (Tatoeba #227592, bunbuku, CC BY 2.0 FR)",
+  "exf": "おばあさんはバスから<ruby>降<rt>お</rt></ruby>りた。"
  },
  {
   "id": "v-inaka",
@@ -4177,7 +4276,8 @@ window.CARDS = [
   "ex": "去年の夏、父の田舎に行きました。",
   "exvn": "I visited my father's hometown last summer. (Tatoeba #182223, small_snow, CC BY 2.0 FR)",
   "img": "img/v-inaka.jpg",
-  "credit": "rumpleteaser from Nagoya, Japan · CC BY 2.0"
+  "credit": "rumpleteaser from Nagoya, Japan · CC BY 2.0",
+  "exf": "<ruby>去<rt>きょ</rt></ruby><ruby>年<rt>ねん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>、<ruby>父<rt>ちち</rt></ruby>の<ruby>田舎<rt>いなか</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。"
  },
  {
   "id": "v-taishikan",
@@ -4190,7 +4290,8 @@ window.CARDS = [
   "ex": "私は明日大使館へ行きます。",
   "exvn": "I'll go to the embassy tomorrow. (Tatoeba #10903698, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-taishikan.jpg",
-  "credit": "Chmee2 · CC BY-SA 3.0"
+  "credit": "Chmee2 · CC BY-SA 3.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>明日<rt>あした</rt></ruby><ruby>大<rt>たい</rt></ruby><ruby>使<rt>し</rt></ruby><ruby>館<rt>かん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。"
  },
  {
   "id": "v-kagi",
@@ -4214,7 +4315,8 @@ window.CARDS = [
   "romaji": "gomi",
   "meaning": "rác",
   "ex": "ごみを外に出して。",
-  "exvn": "Take the garbage out. (Tatoeba #4213360, small_snow, CC BY 2.0 FR)"
+  "exvn": "Take the garbage out. (Tatoeba #4213360, small_snow, CC BY 2.0 FR)",
+  "exf": "ごみを<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>だ</rt></ruby>して。"
  },
  {
   "id": "v-bin",
@@ -4253,7 +4355,8 @@ window.CARDS = [
   "ex": "１日コースがありますか。",
   "exvn": "Do you have any day tours? (Tatoeba #235703, mookeee, CC BY 2.0 FR)",
   "img": "img/v-koosu.jpg",
-  "credit": "Ibrahim Husain Meraj · CC BY-SA 4.0"
+  "credit": "Ibrahim Husain Meraj · CC BY-SA 4.0",
+  "exf": "<ruby>１<rt></rt></ruby><ruby>日<rt>にち</rt></ruby>コースがありますか。"
  },
  {
   "id": "v-chikoku",
@@ -4264,7 +4367,8 @@ window.CARDS = [
   "romaji": "chikoku",
   "meaning": "việc đi muộn",
   "ex": "遅刻したね。",
-  "exvn": "You are late. (Tatoeba #126684, mookeee, CC BY 2.0 FR)"
+  "exvn": "You are late. (Tatoeba #126684, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>遅<rt>ち</rt></ruby><ruby>刻<rt>こく</rt></ruby>したね。"
  },
  {
   "id": "v-petto",
@@ -4303,7 +4407,8 @@ window.CARDS = [
   "ex": "花火を見た？",
   "exvn": "Did you see the fireworks? (Tatoeba #9415265, small_snow, CC BY 2.0 FR)",
   "img": "img/v-hanabi.jpg",
-  "credit": "Dick Thomas Johnson from Tokyo, Japan · CC BY 2.0"
+  "credit": "Dick Thomas Johnson from Tokyo, Japan · CC BY 2.0",
+  "exf": "<ruby>花<rt>はな</rt></ruby><ruby>火<rt>び</rt></ruby>を<ruby>見<rt>み</rt></ruby>た？"
  },
  {
   "id": "v-keshiki",
@@ -4340,7 +4445,8 @@ window.CARDS = [
   "romaji": "dorama",
   "meaning": "phim truyền hình",
   "ex": "韓国ドラマを見ますか？",
-  "exvn": "Do you watch Korean dramas? (Tatoeba #13254158, atitarev, CC BY 2.0 FR)"
+  "exvn": "Do you watch Korean dramas? (Tatoeba #13254158, atitarev, CC BY 2.0 FR)",
+  "exf": "<ruby>韓<rt>かん</rt></ruby><ruby>国<rt>こく</rt></ruby>ドラマを<ruby>見<rt>み</rt></ruby>ますか？"
  },
  {
   "id": "v-kashu",
@@ -4353,7 +4459,8 @@ window.CARDS = [
   "ex": "歌手なんですか？",
   "exvn": "Are you a singer? (Tatoeba #8728733, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-kashu.jpg",
-  "credit": "PattayaPatrol · CC BY-SA 4.0"
+  "credit": "PattayaPatrol · CC BY-SA 4.0",
+  "exf": "<ruby>歌<rt>か</rt></ruby><ruby>手<rt>しゅ</rt></ruby>なんですか？"
  },
  {
   "id": "v-kyuuryou",
@@ -4364,7 +4471,8 @@ window.CARDS = [
   "romaji": "kyuuryou",
   "meaning": "lương",
   "ex": "給料はいくら？",
-  "exvn": "What is your salary? (Tatoeba #11878994, small_snow, CC BY 2.0 FR)"
+  "exvn": "What is your salary? (Tatoeba #11878994, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>給<rt>きゅう</rt></ruby><ruby>料<rt>りょう</rt></ruby>はいくら？"
  },
  {
   "id": "v-memo",
@@ -4377,7 +4485,8 @@ window.CARDS = [
   "ex": "自分のメモを見た。",
   "exvn": "I looked at my notes. (Tatoeba #8584098, small_snow, CC BY 2.0 FR)",
   "img": "img/v-memo.jpg",
-  "credit": "Newone · Public domain"
+  "credit": "Newone · Public domain",
+  "exf": "<ruby>自<rt>じ</rt></ruby><ruby>分<rt>ぶん</rt></ruby>のメモを<ruby>見<rt>み</rt></ruby>た。"
  },
  {
   "id": "v-bangumi",
@@ -4388,7 +4497,8 @@ window.CARDS = [
   "romaji": "bangumi",
   "meaning": "chương trình TV",
   "ex": "いい番組でした。",
-  "exvn": "That was a good show. (Tatoeba #11021695, small_snow, CC BY 2.0 FR)"
+  "exvn": "That was a good show. (Tatoeba #11021695, small_snow, CC BY 2.0 FR)",
+  "exf": "いい<ruby>番<rt>ばん</rt></ruby><ruby>組<rt>ぐみ</rt></ruby>でした。"
  },
  {
   "id": "v-saifu",
@@ -4401,7 +4511,8 @@ window.CARDS = [
   "ex": "財布をなくしたの。",
   "exvn": "I have lost my wallet. (Tatoeba #5069, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-saifu.jpg",
-  "credit": "Eugenepik · CC BY-SA 4.0"
+  "credit": "Eugenepik · CC BY-SA 4.0",
+  "exf": "<ruby>財<rt>さい</rt></ruby><ruby>布<rt>ふ</rt></ruby>をなくしたの。"
  },
  {
   "id": "v-koppu",
@@ -4412,7 +4523,8 @@ window.CARDS = [
   "romaji": "koppu",
   "meaning": "cốc",
   "ex": "僕のコップはどれ？",
-  "exvn": "Which one is my cup? (Tatoeba #11505754, small_snow, CC BY 2.0 FR)"
+  "exvn": "Which one is my cup? (Tatoeba #11505754, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>僕<rt>ぼく</rt></ruby>のコップはどれ？"
  },
  {
   "id": "v-fukuro",
@@ -4436,7 +4548,8 @@ window.CARDS = [
   "romaji": "wasuremono",
   "meaning": "đồ bỏ quên",
   "ex": "忘れ物ない？",
-  "exvn": "Do you have everything? (Tatoeba #82540, mookeee, CC BY 2.0 FR)"
+  "exvn": "Do you have everything? (Tatoeba #82540, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>ない？"
  },
  {
   "id": "v-kasa",
@@ -4486,7 +4599,8 @@ window.CARDS = [
   "ex": "辞書はあそこの本棚にあります。",
   "exvn": "There's a dictionary on that bookshelf. (Tatoeba #10987705, small_snow, CC BY 2.0 FR)",
   "img": "img/v-hondana.jpg",
-  "credit": "Roman Eisele · CC BY-SA 4.0"
+  "credit": "Roman Eisele · CC BY-SA 4.0",
+  "exf": "<ruby>辞<rt>じ</rt></ruby><ruby>書<rt>しょ</rt></ruby>はあそこの<ruby>本<rt>ほん</rt></ruby><ruby>棚<rt>だな</rt></ruby>にあります。"
  },
  {
   "id": "v-kabe",
@@ -4510,7 +4624,8 @@ window.CARDS = [
   "ex": "冷蔵庫が壊れた。",
   "exvn": "Our fridge broke. (Tatoeba #12462062, small_snow, CC BY 2.0 FR)",
   "img": "img/v-reizouko.jpg",
-  "credit": "Infrogmation of New Orleans · CC BY-SA 2.0"
+  "credit": "Infrogmation of New Orleans · CC BY-SA 2.0",
+  "exf": "<ruby>冷<rt>れい</rt></ruby><ruby>蔵<rt>ぞう</rt></ruby><ruby>庫<rt>こ</rt></ruby>が<ruby>壊<rt>こわ</rt></ruby>れた。"
  },
  {
   "id": "v-tenrankai",
@@ -4536,7 +4651,8 @@ window.CARDS = [
   "ex": "結婚式はいつ？",
   "exvn": "When's the wedding? (Tatoeba #10043162, small_snow, CC BY 2.0 FR)",
   "img": "img/v-kekkonshiki.jpg",
-  "credit": "Unknown authorUnknown author · Public domain"
+  "credit": "Unknown authorUnknown author · Public domain",
+  "exf": "<ruby>結<rt>けっ</rt></ruby><ruby>婚<rt>こん</rt></ruby><ruby>式<rt>しき</rt></ruby>はいつ？"
  },
  {
   "id": "v-kyoukai",
@@ -4549,7 +4665,8 @@ window.CARDS = [
   "ex": "あれは教会です。",
   "exvn": "That's a church. (Tatoeba #1706370, marcelostockle, CC BY 2.0 FR)",
   "img": "img/v-kyoukai.jpg",
-  "credit": "Acroterion · CC BY-SA 4.0"
+  "credit": "Acroterion · CC BY-SA 4.0",
+  "exf": "あれは<ruby>教<rt>きょう</rt></ruby><ruby>会<rt>かい</rt></ruby>です。"
  },
  {
   "id": "v-daigakuin",
@@ -4573,7 +4690,8 @@ window.CARDS = [
   "ex": "映画館は駅から近いの？",
   "exvn": "Is the movie theater near the station? (Tatoeba #3850777, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-eigakan.jpg",
-  "credit": "Fred Cherrygarden · CC BY-SA 4.0"
+  "credit": "Fred Cherrygarden · CC BY-SA 4.0",
+  "exf": "<ruby>映<rt>えい</rt></ruby><ruby>画<rt>が</rt></ruby><ruby>館<rt>かん</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>から<ruby>近<rt>ちか</rt></ruby>いの？"
  },
  {
   "id": "v-mura",
@@ -4688,7 +4806,8 @@ window.CARDS = [
   "ex": "太陽はいいね。",
   "exvn": "I like the sun. (Tatoeba #10617782, small_snow, CC BY 2.0 FR)",
   "img": "img/v-taiyou.jpg",
-  "credit": "Khanahmedsam · CC BY-SA 4.0"
+  "credit": "Khanahmedsam · CC BY-SA 4.0",
+  "exf": "<ruby>太<rt>たい</rt></ruby><ruby>陽<rt>よう</rt></ruby>はいいね。"
  },
  {
   "id": "v-hoshi",
@@ -4751,7 +4870,8 @@ window.CARDS = [
   "ex": "何人チームですか？",
   "exvn": "How many people are in your team? (Tatoeba #12300661, small_snow, CC BY 2.0 FR)",
   "img": "img/v-chiimu.jpg",
-  "credit": "Alfian bhatok · CC BY-SA 4.0"
+  "credit": "Alfian bhatok · CC BY-SA 4.0",
+  "exf": "<ruby>何<rt>なん</rt></ruby><ruby>人<rt>にん</rt></ruby>チームですか？"
  },
  {
   "id": "v-orinpikku",
@@ -4827,7 +4947,8 @@ window.CARDS = [
   "ex": "水道水は危ないよ。",
   "exvn": "Tap water is dangerous. (Tatoeba #10107337, small_snow, CC BY 2.0 FR)",
   "img": "img/v-suidou.jpg",
-  "credit": "Andreas Lischka · CC0"
+  "credit": "Andreas Lischka · CC0",
+  "exf": "<ruby>水<rt>すい</rt></ruby><ruby>道<rt>どう</rt></ruby><ruby>水<rt>すい</rt></ruby>は<ruby>危<rt>あぶ</rt></ruby>ないよ。"
  },
  {
   "id": "v-keisatsu",
@@ -4838,7 +4959,8 @@ window.CARDS = [
   "romaji": "keisatsu",
   "meaning": "cảnh sát",
   "ex": "警察はどこですか。",
-  "exvn": "Where is the police station? (Tatoeba #176215, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Where is the police station? (Tatoeba #176215, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>警<rt>けい</rt></ruby><ruby>察<rt>さつ</rt></ruby>はどこですか。"
  },
  {
   "id": "v-iriguchi",
@@ -4849,7 +4971,8 @@ window.CARDS = [
   "romaji": "iriguchi",
   "meaning": "lối vào",
   "ex": "ここは入口ではありません。",
-  "exvn": "This is not the entrance. (Tatoeba #2988140, tommy_san, CC BY 2.0 FR)"
+  "exvn": "This is not the entrance. (Tatoeba #2988140, tommy_san, CC BY 2.0 FR)",
+  "exf": "ここは<ruby>入<rt>いり</rt></ruby><ruby>口<rt>ぐち</rt></ruby>ではありません。"
  },
  {
   "id": "v-deguchi",
@@ -4862,7 +4985,8 @@ window.CARDS = [
   "ex": "出口はどこですか？",
   "exvn": "Where's the exit? (Tatoeba #3549611, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-deguchi.jpg",
-  "credit": "運動会プロテインパワー · CC BY-SA 4.0"
+  "credit": "運動会プロテインパワー · CC BY-SA 4.0",
+  "exf": "<ruby>出<rt>で</rt></ruby><ruby>口<rt>ぐち</rt></ruby>はどこですか？"
  },
  {
   "id": "v-hijouguchi",
@@ -4875,7 +4999,8 @@ window.CARDS = [
   "ex": "非常口はどこにありますか。",
   "exvn": "Where's the emergency exit? (Tatoeba #85758, small_snow, CC BY 2.0 FR)",
   "img": "img/v-hijouguchi.jpg",
-  "credit": "Oakw · Public domain"
+  "credit": "Oakw · Public domain",
+  "exf": "<ruby>非<rt>ひ</rt></ruby><ruby>常<rt>じょう</rt></ruby><ruby>口<rt>ぐち</rt></ruby>はどこにありますか。"
  },
  {
   "id": "v-sentakuki",
@@ -4888,7 +5013,8 @@ window.CARDS = [
   "ex": "家に洗濯機はある？",
   "exvn": "Is there a washing machine in the house? (Tatoeba #8814794, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-sentakuki.jpg",
-  "credit": "Dinkun Chen · CC BY-SA 4.0"
+  "credit": "Dinkun Chen · CC BY-SA 4.0",
+  "exf": "<ruby>家<rt>いえ</rt></ruby>に<ruby>洗濯機<rt>せんたっき</rt></ruby>はある？"
  },
  {
   "id": "v-booru",
@@ -4901,7 +5027,8 @@ window.CARDS = [
   "ex": "ボールは丸い。",
   "exvn": "Balls are round. (Tatoeba #196476, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-booru.jpg",
-  "credit": "കാക്കര · CC BY-SA 3.0"
+  "credit": "കാക്കര · CC BY-SA 3.0",
+  "exf": "ボールは<ruby>丸<rt>まる</rt></ruby>い。"
  },
  {
   "id": "v-denpou",
@@ -4914,7 +5041,8 @@ window.CARDS = [
   "ex": "電報でご返事下さい。",
   "exvn": "Please answer me by telegram. (Tatoeba #124759, mookeee, CC BY 2.0 FR)",
   "img": "img/v-denpou.jpg",
-  "credit": "Elvis Presley and Colonel Parker / Weste · Public domain"
+  "credit": "Elvis Presley and Colonel Parker / Weste · Public domain",
+  "exf": "<ruby>電<rt>でん</rt></ruby><ruby>報<rt>ぽう</rt></ruby>でご<ruby>返<rt>へん</rt></ruby><ruby>事<rt>じ</rt></ruby><ruby>下<rt>くだ</rt></ruby>さい。"
  },
  {
   "id": "v-jishin",
@@ -4927,7 +5055,8 @@ window.CARDS = [
   "ex": "私は地震が怖い。",
   "exvn": "I'm afraid of earthquakes. (Tatoeba #155126, mookeee, CC BY 2.0 FR)",
   "img": "img/v-jishin.jpg",
-  "credit": "C messier · CC BY-SA 4.0"
+  "credit": "C messier · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>地<rt>じ</rt></ruby><ruby>震<rt>しん</rt></ruby>が<ruby>怖<rt>こわ</rt></ruby>い。"
  },
  {
   "id": "v-shouyu",
@@ -4953,7 +5082,8 @@ window.CARDS = [
   "ex": "ソースは足りてますか？",
   "exvn": "Is there enough gravy? (Tatoeba #8733064, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-soosu.jpg",
-  "credit": "James Petts from London, England · CC BY-SA 2.0"
+  "credit": "James Petts from London, England · CC BY-SA 2.0",
+  "exf": "ソースは<ruby>足<rt>た</rt></ruby>りてますか？"
  },
  {
   "id": "v-tamanegi",
@@ -4977,7 +5107,8 @@ window.CARDS = [
   "ex": "なべ物とはどんなものですか。",
   "exvn": "What are nabemono like? (Tatoeba #199083, mookeee, CC BY 2.0 FR)",
   "img": "img/v-nabe.jpg",
-  "credit": "Quercus acuta · CC BY-SA 4.0"
+  "credit": "Quercus acuta · CC BY-SA 4.0",
+  "exf": "なべ<ruby>物<rt>もの</rt></ruby>とはどんなものですか。"
  },
  {
   "id": "v-donburi",
@@ -5016,7 +5147,8 @@ window.CARDS = [
   "ex": "あれは古いお城です。",
   "exvn": "That is an old castle. (Tatoeba #229712, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-oshiro.jpg",
-  "credit": "Bernard Gagnon · CC BY-SA 3.0"
+  "credit": "Bernard Gagnon · CC BY-SA 3.0",
+  "exf": "あれは<ruby>古<rt>ふる</rt></ruby>いお<ruby>城<rt>しろ</rt></ruby>です。"
  },
  {
   "id": "v-supootsukurabu",
@@ -5131,7 +5263,8 @@ window.CARDS = [
   "ex": "炊飯器のスイッチを入れてね。",
   "exvn": "Turn on the rice cooker, please. (Tatoeba #143618, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-suihanki.jpg",
-  "credit": "allegro Takahi from sendai, Japan · CC BY 2.0"
+  "credit": "allegro Takahi from sendai, Japan · CC BY 2.0",
+  "exf": "<ruby>炊<rt>すい</rt></ruby><ruby>飯<rt>はん</rt></ruby><ruby>器<rt>き</rt></ruby>のスイッチを<ruby>入<rt>い</rt></ruby>れてね。"
  },
  {
   "id": "v-kaaten",
@@ -5144,7 +5277,8 @@ window.CARDS = [
   "ex": "カーテン閉めて。",
   "exvn": "Close the curtain. (Tatoeba #11588302, small_snow, CC BY 2.0 FR)",
   "img": "img/v-kaaten.jpg",
-  "credit": "Nieuw~commonswiki · CC BY-SA 3.0"
+  "credit": "Nieuw~commonswiki · CC BY-SA 3.0",
+  "exf": "カーテン<ruby>閉<rt>し</rt></ruby>めて。"
  },
  {
   "id": "v-himo",
@@ -5183,7 +5317,8 @@ window.CARDS = [
   "ex": "この夏休みは日光に行きたい。",
   "exvn": "We would like to visit Nikko during this summer vacation. (Tatoeba #222852, mookeee, CC BY 2.0 FR)",
   "img": "img/v-nikkou.jpg",
-  "credit": "lumoplank · CC0"
+  "credit": "lumoplank · CC0",
+  "exf": "この<ruby>夏<rt>なつ</rt></ruby><ruby>休<rt>やす</rt></ruby>みは<ruby>日<rt>にっ</rt></ruby><ruby>光<rt>こう</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたい。"
  },
  {
   "id": "v-afurika",
@@ -5196,7 +5331,8 @@ window.CARDS = [
   "ex": "南アフリカは遠い。",
   "exvn": "South Africa is far away. (Tatoeba #640529, arihato, CC BY 2.0 FR)",
   "img": "img/v-afurika.jpg",
-  "credit": "Bernard DUPONT from FRANCE · CC BY-SA 2.0"
+  "credit": "Bernard DUPONT from FRANCE · CC BY-SA 2.0",
+  "exf": "<ruby>南<rt>みなみ</rt></ruby>アフリカは<ruby>遠<rt>とお</rt></ruby>い。"
  },
  {
   "id": "v-yakoubasu",
@@ -5233,7 +5369,8 @@ window.CARDS = [
   "romaji": "haikingu",
   "meaning": "đi bộ đường dài",
   "ex": "私はハイキングに参加した。",
-  "exvn": "I went hiking with the group. (Tatoeba #159146, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I went hiking with the group. (Tatoeba #159146, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はハイキングに<ruby>参<rt>さん</rt></ruby><ruby>加<rt>か</rt></ruby>した。"
  },
  {
   "id": "v-kendou",
@@ -5259,7 +5396,8 @@ window.CARDS = [
   "ex": "水泳は健康によい。",
   "exvn": "Swimming is good for your health. (Tatoeba #143686, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-suiei.jpg",
-  "credit": "Staff Sgt. Michael Appleby · Public domain"
+  "credit": "Staff Sgt. Michael Appleby · Public domain",
+  "exf": "<ruby>水<rt>すい</rt></ruby><ruby>泳<rt>えい</rt></ruby>は<ruby>健<rt>けん</rt></ruby><ruby>康<rt>こう</rt></ruby>によい。"
  },
  {
   "id": "v-kisha",
@@ -5272,7 +5410,8 @@ window.CARDS = [
   "ex": "あ、汽車が来た。",
   "exvn": "Here comes the train. (Tatoeba #234771, Sim5634, CC BY 2.0 FR)",
   "img": "img/v-kisha.jpg",
-  "credit": "Alexxx1979 · CC BY-SA 4.0"
+  "credit": "Alexxx1979 · CC BY-SA 4.0",
+  "exf": "あ、<ruby>汽<rt>き</rt></ruby><ruby>車<rt>しゃ</rt></ruby>が<ruby>来<rt>き</rt></ruby>た。"
  },
  {
   "id": "v-kisen",
@@ -5298,7 +5437,8 @@ window.CARDS = [
   "ex": "この村には工場は一つもない。",
   "exvn": "There is no factory in this village. (Tatoeba #220682, KK_kaku_, CC BY 2.0 FR)",
   "img": "img/v-koujou.jpg",
-  "credit": "掬茶 · CC BY-SA 4.0"
+  "credit": "掬茶 · CC BY-SA 4.0",
+  "exf": "この<ruby>村<rt>むら</rt></ruby>には<ruby>工<rt>こう</rt></ruby><ruby>場<rt>じょう</rt></ruby>は<ruby>一<rt>ひと</rt></ruby>つもない。"
  },
  {
   "id": "v-tango",
@@ -5411,7 +5551,8 @@ window.CARDS = [
   "ex": "警官みたいですね。",
   "exvn": "You look like a cop. (Tatoeba #3385029, e4zh1nmcz, CC BY 2.0 FR)",
   "img": "img/v-keikan.jpg",
-  "credit": "Unknown authorUnknown author · Public domain"
+  "credit": "Unknown authorUnknown author · Public domain",
+  "exf": "<ruby>警<rt>けい</rt></ruby><ruby>官<rt>かん</rt></ruby>みたいですね。"
  },
  {
   "id": "v-waarudokappu",
@@ -5463,7 +5604,8 @@ window.CARDS = [
   "ex": "彼女はポルトガル語を話します。",
   "exvn": "She speaks Portuguese. (Tatoeba #1113446, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-porutogaru.jpg",
-  "credit": "Berthold Werner · CC BY-SA 4.0"
+  "credit": "Berthold Werner · CC BY-SA 4.0",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>はポルトガル<ruby>語<rt>ご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>します。"
  },
  {
   "id": "v-saujiarabia",
@@ -5554,7 +5696,8 @@ window.CARDS = [
   "ex": "彼は科学者です。",
   "exvn": "He is a scientist. (Tatoeba #109217, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-kagakusha.jpg",
-  "credit": "Esculab · CC0"
+  "credit": "Esculab · CC0",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>科<rt>か</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>者<rt>しゃ</rt></ruby>です。"
  },
  {
   "id": "v-murasakishikibu",
@@ -5591,7 +5734,8 @@ window.CARDS = [
   "ex": "赤ちゃんは大丈夫？",
   "exvn": "Is the baby OK? (Tatoeba #8714261, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-akachan.jpg",
-  "credit": "Kenny Louie from Vancouver, Canada · CC BY 2.0"
+  "credit": "Kenny Louie from Vancouver, Canada · CC BY 2.0",
+  "exf": "<ruby>赤<rt>あか</rt></ruby>ちゃんは<ruby>大<rt>だい</rt></ruby><ruby>丈<rt>じょう</rt></ruby><ruby>夫<rt>ぶ</rt></ruby>？"
  },
  {
   "id": "v-shougakkou",
@@ -5604,7 +5748,8 @@ window.CARDS = [
   "ex": "私のフランスケーキ好きは小学校の時からです。",
   "exvn": "I've loved French cakes since elementary school. (Tatoeba #146978, wakatyann630, CC BY 2.0 FR)",
   "img": "img/v-shougakkou.jpg",
-  "credit": "Edotih Yno · CC BY-SA 4.0"
+  "credit": "Edotih Yno · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>のフランスケーキ<ruby>好<rt>ず</rt></ruby>きは<ruby>小<rt>しょう</rt></ruby><ruby>学<rt>がっ</rt></ruby><ruby>校<rt>こう</rt></ruby>の<ruby>時<rt>とき</rt></ruby>からです。"
  },
  {
   "id": "v-chuugakkou",
@@ -5617,7 +5762,8 @@ window.CARDS = [
   "ex": "父は中学校で英語を教えています。",
   "exvn": "My father is teaching English in middle school. (Tatoeba #3050905, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-chuugakkou.jpg",
-  "credit": "Higa4 · CC0"
+  "credit": "Higa4 · CC0",
+  "exf": "<ruby>父<rt>ちち</rt></ruby>は<ruby>中<rt>ちゅう</rt></ruby><ruby>学<rt>がっ</rt></ruby><ruby>校<rt>こう</rt></ruby>で<ruby>英<rt>えい</rt></ruby><ruby>語<rt>ご</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えています。"
  },
  {
   "id": "v-kaigan",
@@ -5630,7 +5776,8 @@ window.CARDS = [
   "ex": "海岸には大勢の人がいた。",
   "exvn": "There were a lot of people on the beach. (Tatoeba #10986418, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-kaigan.jpg",
-  "credit": "Raita Futo from Tokyo, Japan · CC BY 2.0"
+  "credit": "Raita Futo from Tokyo, Japan · CC BY 2.0",
+  "exf": "<ruby>海<rt>かい</rt></ruby><ruby>岸<rt>がん</rt></ruby>には<ruby>大<rt>おお</rt></ruby><ruby>勢<rt>ぜい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がいた。"
  },
  {
   "id": "v-yubiwa",
@@ -5643,7 +5790,8 @@ window.CARDS = [
   "ex": "指輪がない。",
   "exvn": "My ring is gone. (Tatoeba #10367619, small_snow, CC BY 2.0 FR)",
   "img": "img/v-yubiwa.jpg",
-  "credit": "W.carter · CC BY 4.0"
+  "credit": "W.carter · CC BY 4.0",
+  "exf": "<ruby>指<rt>ゆび</rt></ruby><ruby>輪<rt>わ</rt></ruby>がない。"
  },
  {
   "id": "v-hanko",
@@ -5667,7 +5815,8 @@ window.CARDS = [
   "ex": "私は双子です。",
   "exvn": "I'm a twin. (Tatoeba #2252498, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-futago.jpg",
-  "credit": "Glow at Danish Wikipedia · CC BY-SA 3.0"
+  "credit": "Glow at Danish Wikipedia · CC BY-SA 3.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>双<rt>ふた</rt></ruby><ruby>子<rt>ご</rt></ruby>です。"
  },
  {
   "id": "v-genbakudoomu",
@@ -5732,7 +5881,8 @@ window.CARDS = [
   "ex": "津波が来ますので注意してください。",
   "exvn": "A tsunami is coming, so please be on the alert. (Tatoeba #789592, arihato, CC BY 2.0 FR)",
   "img": "img/v-tsunami.jpg",
-  "credit": "After Katsushika Hokusai · Public domain"
+  "credit": "After Katsushika Hokusai · Public domain",
+  "exf": "<ruby>津<rt>つ</rt></ruby><ruby>波<rt>なみ</rt></ruby>が<ruby>来<rt>き</rt></ruby>ますので<ruby>注<rt>ちゅう</rt></ruby><ruby>意<rt>い</rt></ruby>してください。"
  },
  {
   "id": "v-taifuu",
@@ -5745,7 +5895,8 @@ window.CARDS = [
   "ex": "台風が来てます。",
   "exvn": "A typhoon's coming. (Tatoeba #10227774, small_snow, CC BY 2.0 FR)",
   "img": "img/v-taifuu.jpg",
-  "credit": "NOAA · Public domain"
+  "credit": "NOAA · Public domain",
+  "exf": "<ruby>台<rt>たい</rt></ruby><ruby>風<rt>ふう</rt></ruby>が<ruby>来<rt>き</rt></ruby>てます。"
  },
  {
   "id": "v-kaminari",
@@ -5784,7 +5935,8 @@ window.CARDS = [
   "ex": "事故にあいました。",
   "exvn": "I had an accident. (Tatoeba #150868, small_snow, CC BY 2.0 FR)",
   "img": "img/v-jiko.jpg",
-  "credit": "Shuets Udono · CC BY-SA 2.0"
+  "credit": "Shuets Udono · CC BY-SA 2.0",
+  "exf": "<ruby>事<rt>じ</rt></ruby><ruby>故<rt>こ</rt></ruby>にあいました。"
  },
  {
   "id": "v-omiai",
@@ -5832,7 +5984,8 @@ window.CARDS = [
   "ex": "タオルを忘れました。",
   "exvn": "I forgot my towel. (Tatoeba #12440075, small_snow, CC BY 2.0 FR)",
   "img": "img/v-taoru.jpg",
-  "credit": "Tony Webster · CC BY 2.0"
+  "credit": "Tony Webster · CC BY 2.0",
+  "exf": "タオルを<ruby>忘<rt>わす</rt></ruby>れました。"
  },
  {
   "id": "v-sekken",
@@ -5845,7 +5998,8 @@ window.CARDS = [
   "ex": "せっけんで手を洗いました。",
   "exvn": "I washed my hands with soap. (Tatoeba #10899704, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-sekken.jpg",
-  "credit": "MarliesVH · CC BY 4.0"
+  "credit": "MarliesVH · CC BY 4.0",
+  "exf": "せっけんで<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>いました。"
  },
  {
   "id": "v-torakku",
@@ -5869,7 +6023,8 @@ window.CARDS = [
   "romaji": "otona",
   "meaning": "người lớn",
   "ex": "大人２枚ください。",
-  "exvn": "Two adults, please. (Tatoeba #137485, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Two adults, please. (Tatoeba #137485, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>大人<rt>おとな</rt></ruby><ruby>２<rt>に</rt></ruby><ruby>枚<rt>まい</rt></ruby>ください。"
  },
  {
   "id": "v-seijinshiki",
@@ -5904,7 +6059,8 @@ window.CARDS = [
   "romaji": "tenkiyohou",
   "meaning": "dự báo thời tiết",
   "ex": "天気予報はどうですか？",
-  "exvn": "What is the weather forecast? (Tatoeba #13118125, atitarev, CC BY 2.0 FR)"
+  "exvn": "What is the weather forecast? (Tatoeba #13118125, atitarev, CC BY 2.0 FR)",
+  "exf": "<ruby>天<rt>てん</rt></ruby><ruby>気<rt>き</rt></ruby><ruby>予<rt>よ</rt></ruby><ruby>報<rt>ほう</rt></ruby>はどうですか？"
  },
  {
   "id": "v-bounenkai",
@@ -5939,7 +6095,8 @@ window.CARDS = [
   "romaji": "kontesuto",
   "meaning": "cuộc thi",
   "ex": "彼女はそのコンテストに参加した。",
-  "exvn": "She took part in the contest. (Tatoeba #92602, tommy__san, CC BY 2.0 FR)"
+  "exvn": "She took part in the contest. (Tatoeba #92602, tommy__san, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>はそのコンテストに<ruby>参<rt>さん</rt></ruby><ruby>加<rt>か</rt></ruby>した。"
  },
  {
   "id": "v-zubon",
@@ -5952,7 +6109,8 @@ window.CARDS = [
   "ex": "ズボン返してよ。",
   "exvn": "Give me back my pants. (Tatoeba #10516098, small_snow, CC BY 2.0 FR)",
   "img": "img/v-zubon.jpg",
-  "credit": "Thamizhpparithi Maari · CC BY-SA 4.0"
+  "credit": "Thamizhpparithi Maari · CC BY-SA 4.0",
+  "exf": "ズボン<ruby>返<rt>かえ</rt></ruby>してよ。"
  },
  {
   "id": "v-ootobai",
@@ -5989,7 +6147,8 @@ window.CARDS = [
   "ex": "運転手がドアを開けた。",
   "exvn": "The driver opened the door. (Tatoeba #12593302, small_snow, CC BY 2.0 FR)",
   "img": "img/v-untenshu.jpg",
-  "credit": "Guilhem Vellut from Annecy, France · CC BY 2.0"
+  "credit": "Guilhem Vellut from Annecy, France · CC BY 2.0",
+  "exf": "<ruby>運<rt>うん</rt></ruby><ruby>転<rt>てん</rt></ruby><ruby>手<rt>しゅ</rt></ruby>がドアを<ruby>開<rt>あ</rt></ruby>けた。"
  },
  {
   "id": "v-hannin",
@@ -6039,7 +6198,8 @@ window.CARDS = [
   "ex": "彼は長崎で生まれました。",
   "exvn": "He was born in Nagasaki. (Tatoeba #102053, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-nagasaki.jpg",
-  "credit": "Balon Greyjoy · CC0"
+  "credit": "Balon Greyjoy · CC0",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>長<rt>なが</rt></ruby><ruby>崎<rt>さき</rt></ruby>で<ruby>生<rt>う</rt></ruby>まれました。"
  },
  {
   "id": "v-sendai",
@@ -6076,7 +6236,8 @@ window.CARDS = [
   "ex": "おもちゃ、直して。",
   "exvn": "Fix my toy. (Tatoeba #11875901, small_snow, CC BY 2.0 FR)",
   "img": "img/v-omocha.jpg",
-  "credit": "English: Andrew Krizhanovsky Русский: Ан · Public domain"
+  "credit": "English: Andrew Krizhanovsky Русский: Ан · Public domain",
+  "exf": "おもちゃ、<ruby>直<rt>なお</rt></ruby>して。"
  },
  {
   "id": "v-ehon",
@@ -6141,7 +6302,8 @@ window.CARDS = [
   "ex": "私の赤い靴下どこ？",
   "exvn": "Where are my red socks? (Tatoeba #11436376, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-kutsushita.jpg",
-  "credit": "Rusportma · CC0"
+  "credit": "Rusportma · CC0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>の<ruby>赤<rt>あか</rt></ruby>い<ruby>靴<rt>くつ</rt></ruby><ruby>下<rt>した</rt></ruby>どこ？"
  },
  {
   "id": "v-tebukuro",
@@ -6154,7 +6316,8 @@ window.CARDS = [
   "ex": "私の手袋どこ？",
   "exvn": "Where are my gloves? (Tatoeba #8653978, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-tebukuro.jpg",
-  "credit": "Kristin from Oslo, Norway · CC BY 2.0"
+  "credit": "Kristin from Oslo, Norway · CC BY 2.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>の<ruby>手<rt>て</rt></ruby><ruby>袋<rt>ぶくろ</rt></ruby>どこ？"
  },
  {
   "id": "v-youchien",
@@ -6217,7 +6380,8 @@ window.CARDS = [
   "ex": "バッグを開けて下さい。",
   "exvn": "Please open your bag. (Tatoeba #197969, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-baggu.jpg",
-  "credit": "không rõ · CC BY-SA 4.0"
+  "credit": "không rõ · CC BY-SA 4.0",
+  "exf": "バッグを<ruby>開<rt>あ</rt></ruby>けて<ruby>下<rt>くだ</rt></ruby>さい。"
  },
  {
   "id": "v-otoshidama",
@@ -6395,7 +6559,8 @@ window.CARDS = [
   "ex": "ベートーベンのお父さんは、歌手でした。",
   "exvn": "Beethoven's father was a singer. (Tatoeba #12121016, small_snow, CC BY 2.0 FR)",
   "img": "img/v-beetooben.jpg",
-  "credit": "Scott Gentling · CC BY-SA 4.0"
+  "credit": "Scott Gentling · CC BY-SA 4.0",
+  "exf": "ベートーベンのお<ruby>父<rt>とう</rt></ruby>さんは、<ruby>歌<rt>か</rt></ruby><ruby>手<rt>しゅ</rt></ruby>でした。"
  },
  {
   "id": "v-poorando",
@@ -6443,7 +6608,8 @@ window.CARDS = [
   "ex": "あ！まずい！ガソリンが切れてきた。",
   "exvn": "Oh, no! We're running out of gas. (Tatoeba #234772, Sim5634, CC BY 2.0 FR)",
   "img": "img/v-gasorin.jpg",
-  "credit": "Infrogmation · CC BY-SA 4.0"
+  "credit": "Infrogmation · CC BY-SA 4.0",
+  "exf": "あ！まずい！ガソリンが<ruby>切<rt>き</rt></ruby>れてきた。"
  },
  {
   "id": "v-panfuretto",
@@ -6454,7 +6620,8 @@ window.CARDS = [
   "romaji": "panfuretto",
   "meaning": "tờ rơi, cuốn giới thiệu",
   "ex": "こちらのパンフレットは無料です。",
-  "exvn": "This pamphlet is free of charge. (Tatoeba #223295, bunbuku, CC BY 2.0 FR)"
+  "exvn": "This pamphlet is free of charge. (Tatoeba #223295, bunbuku, CC BY 2.0 FR)",
+  "exf": "こちらのパンフレットは<ruby>無<rt>む</rt></ruby><ruby>料<rt>りょう</rt></ruby>です。"
  },
  {
   "id": "v-bara",
@@ -6467,7 +6634,8 @@ window.CARDS = [
   "ex": "庭にはばらがありません。",
   "exvn": "There are no roses in the garden. (Tatoeba #536773, tomkun01, CC BY 2.0 FR)",
   "img": "img/v-bara.jpg",
-  "credit": "M0tty · CC BY-SA 4.0"
+  "credit": "M0tty · CC BY-SA 4.0",
+  "exf": "<ruby>庭<rt>にわ</rt></ruby>にはばらがありません。"
  },
  {
   "id": "v-doraibu",
@@ -6493,7 +6661,8 @@ window.CARDS = [
   "ex": "私は会員でした。",
   "exvn": "I was a member. (Tatoeba #3552071, arnab, CC BY 2.0 FR)",
   "img": "img/v-kaiin.jpg",
-  "credit": "Wavepainter · CC BY-SA 4.0"
+  "credit": "Wavepainter · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>会<rt>かい</rt></ruby><ruby>員<rt>いん</rt></ruby>でした。"
  },
  {
   "id": "v-namida",
@@ -6517,7 +6686,8 @@ window.CARDS = [
   "ex": "月には空気がない。",
   "exvn": "There is no air on the moon. (Tatoeba #175663, arnab, CC BY 2.0 FR)",
   "img": "img/v-kuuki.jpg",
-  "credit": "Unknown authorUnknown author · CC0"
+  "credit": "Unknown authorUnknown author · CC0",
+  "exf": "<ruby>月<rt>つき</rt></ruby>には<ruby>空<rt>くう</rt></ruby><ruby>気<rt>き</rt></ruby>がない。"
  },
  {
   "id": "v-washoku",
@@ -6528,7 +6698,8 @@ window.CARDS = [
   "romaji": "washoku",
   "meaning": "món ăn Nhật",
   "ex": "和食が好きです。",
-  "exvn": "I like Japanese food. (Tatoeba #9360079, small_snow, CC BY 2.0 FR)"
+  "exvn": "I like Japanese food. (Tatoeba #9360079, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>和<rt>わ</rt></ruby><ruby>食<rt>しょく</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。"
  },
  {
   "id": "v-youshoku",
@@ -6589,7 +6760,8 @@ window.CARDS = [
   "ex": "洗濯物入れてきて。",
   "exvn": "Bring the laundry in. (Tatoeba #141201, small_snow, CC BY 2.0 FR)",
   "img": "img/v-sentakumono.jpg",
-  "credit": "Michal Klajban · CC BY-SA 4.0"
+  "credit": "Michal Klajban · CC BY-SA 4.0",
+  "exf": "<ruby>洗<rt>せん</rt></ruby><ruby>濯<rt>たく</rt></ruby><ruby>物<rt>もの</rt></ruby><ruby>入<rt>い</rt></ruby>れてきて。"
  },
  {
   "id": "v-dibuidii",
@@ -6602,7 +6774,8 @@ window.CARDS = [
   "ex": "これはDVDです。",
   "exvn": "This is a DVD. (Tatoeba #2602586, OrangeTart, CC BY 2.0 FR)",
   "img": "img/v-dibuidii.jpg",
-  "credit": "Mr.ちゅらさん · CC BY-SA 4.0"
+  "credit": "Mr.ちゅらさん · CC BY-SA 4.0",
+  "exf": "これは<ruby>DVD<rt></rt></ruby>です。"
  },
  {
   "id": "v-katto",
@@ -6613,7 +6786,8 @@ window.CARDS = [
   "romaji": "katto",
   "meaning": "cắt tóc",
   "ex": "それは半分にカットして。",
-  "exvn": "Cut it in half. (Tatoeba #11961643, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Cut it in half. (Tatoeba #11961643, bunbuku, CC BY 2.0 FR)",
+  "exf": "それは<ruby>半<rt>はん</rt></ruby><ruby>分<rt>ぶん</rt></ruby>にカットして。"
  },
  {
   "id": "v-shanpuu",
@@ -6674,7 +6848,8 @@ window.CARDS = [
   "romaji": "ryoushuusho",
   "meaning": "biên lai",
   "ex": "領収書をください。",
-  "exvn": "Please give me a receipt. (Tatoeba #13714023, GreySquirrel, CC BY 2.0 FR)"
+  "exvn": "Please give me a receipt. (Tatoeba #13714023, GreySquirrel, CC BY 2.0 FR)",
+  "exf": "<ruby>領<rt>りょう</rt></ruby><ruby>収<rt>しゅう</rt></ruby><ruby>書<rt>しょ</rt></ruby>をください。"
  },
  {
   "id": "v-kyanpu",
@@ -6687,7 +6862,8 @@ window.CARDS = [
   "ex": "これが初めてのキャンプです。",
   "exvn": "This is my first camping trip. (Tatoeba #11545588, small_snow, CC BY 2.0 FR)",
   "img": "img/v-kyanpu.jpg",
-  "credit": "Vyacheslav Argenberg · CC BY 4.0"
+  "credit": "Vyacheslav Argenberg · CC BY 4.0",
+  "exf": "これが<ruby>初<rt>はじ</rt></ruby>めてのキャンプです。"
  },
  {
   "id": "v-ume",
@@ -6737,7 +6913,8 @@ window.CARDS = [
   "ex": "贈り物があります。",
   "exvn": "I have some gifts. (Tatoeba #1323417, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-okurimono.jpg",
-  "credit": "không rõ · Public domain"
+  "credit": "không rõ · Public domain",
+  "exf": "<ruby>贈<rt>おく</rt></ruby>り<ruby>物<rt>もの</rt></ruby>があります。"
  },
  {
   "id": "v-rebaa",
@@ -6798,7 +6975,8 @@ window.CARDS = [
   "ex": "注射をしましょう。",
   "exvn": "I'll give you a shot. (Tatoeba #126332, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-chuusha.jpg",
-  "credit": "Courtesy of NIAID Ryan Kissinger · Public domain"
+  "credit": "Courtesy of NIAID Ryan Kissinger · Public domain",
+  "exf": "<ruby>注<rt>ちゅう</rt></ruby><ruby>射<rt>しゃ</rt></ruby>をしましょう。"
  },
  {
   "id": "v-yuka",
@@ -6822,7 +7000,8 @@ window.CARDS = [
   "romaji": "beru",
   "meaning": "chuông",
   "ex": "ベルの音がしたよ。",
-  "exvn": "I heard a bell ringing. (Tatoeba #10802288, small_snow, CC BY 2.0 FR)"
+  "exvn": "I heard a bell ringing. (Tatoeba #10802288, small_snow, CC BY 2.0 FR)",
+  "exf": "ベルの<ruby>音<rt>おと</rt></ruby>がしたよ。"
  },
  {
   "id": "v-shisutemu",
@@ -6859,7 +7038,8 @@ window.CARDS = [
   "ex": "救急車、来たよ。",
   "exvn": "The ambulance has arrived. (Tatoeba #12816970, small_snow, CC BY 2.0 FR)",
   "img": "img/v-kyuukyuusha.jpg",
-  "credit": "CEphoto, Uwe Aranas · CC BY-SA 3.0"
+  "credit": "CEphoto, Uwe Aranas · CC BY-SA 3.0",
+  "exf": "<ruby>救<rt>きゅう</rt></ruby><ruby>急<rt>きゅう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>、<ruby>来<rt>き</rt></ruby>たよ。"
  },
  {
   "id": "v-daitouryou",
@@ -6933,7 +7113,8 @@ window.CARDS = [
   "ex": "カリフォルニアは果物で有名です。",
   "exvn": "California is famous for its fruit. (Tatoeba #226168, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-kariforunia.jpg",
-  "credit": "Cary Bass · CC BY-SA 3.0"
+  "credit": "Cary Bass · CC BY-SA 3.0",
+  "exf": "カリフォルニアは<ruby>果<rt>くだ</rt></ruby><ruby>物<rt>もの</rt></ruby>で<ruby>有<rt>ゆう</rt></ruby><ruby>名<rt>めい</rt></ruby>です。"
  },
  {
   "id": "v-iran",
@@ -6946,7 +7127,8 @@ window.CARDS = [
   "ex": "イランから来ました。",
   "exvn": "I came from Iran. (Tatoeba #3373645, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-iran.jpg",
-  "credit": "Amir Pashaei · CC BY-SA 4.0"
+  "credit": "Amir Pashaei · CC BY-SA 4.0",
+  "exf": "イランから<ruby>来<rt>き</rt></ruby>ました。"
  },
  {
   "id": "v-jinkou",
@@ -6957,7 +7139,8 @@ window.CARDS = [
   "romaji": "jinkou",
   "meaning": "dân số",
   "ex": "インドは人口が多い。",
-  "exvn": "India is populous. (Tatoeba #228369, mookeee, CC BY 2.0 FR)"
+  "exvn": "India is populous. (Tatoeba #228369, mookeee, CC BY 2.0 FR)",
+  "exf": "インドは<ruby>人<rt>じん</rt></ruby><ruby>口<rt>こう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い。"
  },
  {
   "id": "v-juku",
@@ -6979,7 +7162,8 @@ window.CARDS = [
   "romaji": "seito",
   "meaning": "học sinh",
   "ex": "彼はよい生徒です。",
-  "exvn": "He is a good student. (Tatoeba #110462, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He is a good student. (Tatoeba #110462, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>はよい<ruby>生<rt>せい</rt></ruby><ruby>徒<rt>と</rt></ruby>です。"
  },
  {
   "id": "v-shougakusei",
@@ -7029,7 +7213,8 @@ window.CARDS = [
   "ex": "スピード出してたの？",
   "exvn": "Were you speeding? (Tatoeba #8796944, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-supiido.jpg",
-  "credit": "Bluescan sv.wiki · Public domain"
+  "credit": "Bluescan sv.wiki · Public domain",
+  "exf": "スピード<ruby>出<rt>だ</rt></ruby>してたの？"
  },
  {
   "id": "v-sukejuuru",
@@ -7040,7 +7225,8 @@ window.CARDS = [
   "romaji": "sukejuuru",
   "meaning": "lịch trình",
   "ex": "スケジュール変えたよ。",
-  "exvn": "I rescheduled. (Tatoeba #10666305, KF, CC BY 2.0 FR)"
+  "exvn": "I rescheduled. (Tatoeba #10666305, KF, CC BY 2.0 FR)",
+  "exf": "スケジュール<ruby>変<rt>か</rt></ruby>えたよ。"
  },
  {
   "id": "v-fairu",
@@ -7053,7 +7239,8 @@ window.CARDS = [
   "ex": "正しいファイルどれですか。",
   "exvn": "Which one is the correct file? (Tatoeba #1187323, FiRez, CC BY 2.0 FR)",
   "img": "img/v-fairu.jpg",
-  "credit": "Rico Heil (silmaril) · CC BY-SA 3.0"
+  "credit": "Rico Heil (silmaril) · CC BY-SA 3.0",
+  "exf": "<ruby>正<rt>ただ</rt></ruby>しいファイルどれですか。"
  },
  {
   "id": "v-basutei",
@@ -7066,7 +7253,8 @@ window.CARDS = [
   "ex": "これはバス停よ。",
   "exvn": "This is a bus stop. (Tatoeba #12041849, small_snow, CC BY 2.0 FR)",
   "img": "img/v-basutei.jpg",
-  "credit": "Tomo · CC BY 2.0"
+  "credit": "Tomo · CC BY 2.0",
+  "exf": "これはバス<ruby>停<rt>てい</rt></ruby>よ。"
  },
  {
   "id": "v-haizara",
@@ -7079,7 +7267,8 @@ window.CARDS = [
   "ex": "灰皿を下さい。",
   "exvn": "I need an ashtray. (Tatoeba #185012, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-haizara.jpg",
-  "credit": "খাঁ শুভেন্দু · CC BY-SA 4.0"
+  "credit": "খাঁ শুভেন্দু · CC BY-SA 4.0",
+  "exf": "<ruby>灰<rt>はい</rt></ruby><ruby>皿<rt>ざら</rt></ruby>を<ruby>下<rt>くだ</rt></ruby>さい。"
  },
  {
   "id": "v-mausu",
@@ -7127,7 +7316,8 @@ window.CARDS = [
   "romaji": "sakka",
   "meaning": "nhà văn",
   "ex": "彼は作家です。",
-  "exvn": "He writes books. (Tatoeba #106830, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He writes books. (Tatoeba #106830, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>作<rt>さっ</rt></ruby><ruby>家<rt>か</rt></ruby>です。"
  },
  {
   "id": "v-toukyoudaigaku",
@@ -7140,7 +7330,8 @@ window.CARDS = [
   "ex": "彼はこの春東京大学に入学した。",
   "exvn": "He entered Tokyo University this spring. (Tatoeba #113757, tommy__san, CC BY 2.0 FR)",
   "img": "img/v-toukyoudaigaku.jpg",
-  "credit": "Nesnad · CC BY 4.0"
+  "credit": "Nesnad · CC BY 4.0",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>はこの<ruby>春<rt>はる</rt></ruby><ruby>東<rt>とう</rt></ruby><ruby>京<rt>きょう</rt></ruby><ruby>大<rt>だい</rt></ruby><ruby>学<rt>がく</rt></ruby>に<ruby>入<rt>にゅう</rt></ruby><ruby>学<rt>がく</rt></ruby>した。"
  },
  {
   "id": "v-igakubu",
@@ -7151,7 +7342,8 @@ window.CARDS = [
   "romaji": "igakubu",
   "meaning": "khoa y",
   "ex": "私は医学部に行きました。",
-  "exvn": "I went to medical school. (Tatoeba #6695774, jovecidasilva, CC BY 2.0 FR)"
+  "exvn": "I went to medical school. (Tatoeba #6695774, jovecidasilva, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>医<rt>い</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>部<rt>ぶ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました。"
  },
  {
   "id": "v-gaido",
@@ -7214,7 +7406,8 @@ window.CARDS = [
   "ex": "彼はアルバムを見せてくれた。",
   "exvn": "He showed me his album. (Tatoeba #544742, vastalto, CC BY 2.0 FR)",
   "img": "img/v-arubamu.jpg",
-  "credit": "Mats Landin · CC0"
+  "credit": "Mats Landin · CC0",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>はアルバムを<ruby>見<rt>み</rt></ruby>せてくれた。"
  },
  {
   "id": "v-kougai",
@@ -7225,7 +7418,8 @@ window.CARDS = [
   "romaji": "kougai",
   "meaning": "ngoại ô",
   "ex": "私の家は郊外にある。",
-  "exvn": "My house is in the suburbs. (Tatoeba #163959, bunbuku, CC BY 2.0 FR)"
+  "exvn": "My house is in the suburbs. (Tatoeba #163959, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>は<ruby>郊<rt>こう</rt></ruby><ruby>外<rt>がい</rt></ruby>にある。"
  },
  {
   "id": "v-shoukin",
@@ -7249,7 +7443,8 @@ window.CARDS = [
   "ex": "私はアメリカ人です。",
   "exvn": "I am an American. (Tatoeba #161499, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-amerika.jpg",
-  "credit": "William Warby · CC BY 2.0"
+  "credit": "William Warby · CC BY 2.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はアメリカ<ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-igirisu",
@@ -7262,7 +7457,8 @@ window.CARDS = [
   "ex": "いいえ、私はイギリス人です。",
   "exvn": "No, I am English. (Tatoeba #1585505, Bah_Dure, CC BY 2.0 FR)",
   "img": "img/v-igirisu.jpg",
-  "credit": "Colin · CC BY-SA 4.0"
+  "credit": "Colin · CC BY-SA 4.0",
+  "exf": "いいえ、<ruby>私<rt>わたし</rt></ruby>はイギリス<ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-indo",
@@ -7301,7 +7497,8 @@ window.CARDS = [
   "ex": "韓国人です。",
   "exvn": "I'm South Korean. (Tatoeba #8692860, small_snow, CC BY 2.0 FR)",
   "img": "img/v-kankoku.jpg",
-  "credit": "Frank Schulenburg · CC BY-SA 4.0"
+  "credit": "Frank Schulenburg · CC BY-SA 4.0",
+  "exf": "<ruby>韓<rt>かん</rt></ruby><ruby>国<rt>こく</rt></ruby><ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-tai",
@@ -7327,7 +7524,8 @@ window.CARDS = [
   "ex": "私はドイツ人です。",
   "exvn": "I am German. (Tatoeba #5385071, 7evenbananas, CC BY 2.0 FR)",
   "img": "img/v-doitsu.jpg",
-  "credit": "Thomas Wolf, www.foto-tw.de · CC BY-SA 3.0"
+  "credit": "Thomas Wolf, www.foto-tw.de · CC BY-SA 3.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はドイツ<ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-burajiru",
@@ -7340,7 +7538,8 @@ window.CARDS = [
   "ex": "私はブラジル人です。",
   "exvn": "I'm Brazilian. (Tatoeba #7496921, Leonroz, CC BY 2.0 FR)",
   "img": "img/v-burajiru.jpg",
-  "credit": "Donatas Dabravolskas · CC BY-SA 4.0"
+  "credit": "Donatas Dabravolskas · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はブラジル<ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-furansu",
@@ -7353,7 +7552,8 @@ window.CARDS = [
   "ex": "私はフランス人です。",
   "exvn": "I am French. (Tatoeba #536934, tomkun01, CC BY 2.0 FR)",
   "img": "img/v-furansu.jpg",
-  "credit": "Getfunky Paris · CC BY 2.0"
+  "credit": "Getfunky Paris · CC BY 2.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はフランス<ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-chuugoku",
@@ -7366,7 +7566,8 @@ window.CARDS = [
   "ex": "私は中国人です。",
   "exvn": "I am Chinese. (Tatoeba #1073486, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-chuugoku.jpg",
-  "credit": "CEphoto, Uwe Aranas · CC BY-SA 3.0"
+  "credit": "CEphoto, Uwe Aranas · CC BY-SA 3.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>中<rt>ちゅう</rt></ruby><ruby>国<rt>ごく</rt></ruby><ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-techou",
@@ -7455,7 +7656,8 @@ window.CARDS = [
   "ex": "これは私のコンピュータです。",
   "exvn": "This is my computer. (Tatoeba #2346870, everylanguage, CC BY 2.0 FR)",
   "img": "img/v-konpyuutaa.jpg",
-  "credit": "Microrao · CC BY-SA 4.0"
+  "credit": "Microrao · CC BY-SA 4.0",
+  "exf": "これは<ruby>私<rt>わたし</rt></ruby>のコンピュータです。"
  },
  {
   "id": "v-kuruma",
@@ -7546,7 +7748,8 @@ window.CARDS = [
   "ex": "これは私の自動車です。",
   "exvn": "This is my car. (Tatoeba #4659110, anhgosho, CC BY 2.0 FR)",
   "img": "img/v-jidousha.jpg",
-  "credit": "Aos.1905 · CC BY 4.0"
+  "credit": "Aos.1905 · CC BY 4.0",
+  "exf": "これは<ruby>私<rt>わたし</rt></ruby>の<ruby>自<rt>じ</rt></ruby><ruby>動<rt>どう</rt></ruby><ruby>車<rt>しゃ</rt></ruby>です。"
  },
  {
   "id": "v-jimusho",
@@ -7572,7 +7775,8 @@ window.CARDS = [
   "ex": "会議室はどこ？",
   "exvn": "Where is the meeting room? (Tatoeba #10608954, small_snow, CC BY 2.0 FR)",
   "img": "img/v-kaigishitsu.jpg",
-  "credit": "Gnom · CC BY-SA 4.0"
+  "credit": "Gnom · CC BY-SA 4.0",
+  "exf": "<ruby>会<rt>かい</rt></ruby><ruby>議<rt>ぎ</rt></ruby><ruby>室<rt>しつ</rt></ruby>はどこ？"
  },
  {
   "id": "v-robii",
@@ -7598,7 +7802,8 @@ window.CARDS = [
   "ex": "私の部屋です。",
   "exvn": "It's my room. (Tatoeba #13507688, small_snow, CC BY 2.0 FR)",
   "img": "img/v-heya.jpg",
-  "credit": "Wilfredor · CC0"
+  "credit": "Wilfredor · CC0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>の<ruby>部<rt>へ</rt></ruby><ruby>屋<rt>や</rt></ruby>です。"
  },
  {
   "id": "v-erebeetaa",
@@ -7661,7 +7866,8 @@ window.CARDS = [
   "ex": "私はロンドン大学の学生です。",
   "exvn": "I am a student at the University of London. (Tatoeba #158576, Kaede, CC BY 2.0 FR)",
   "img": "img/v-rondon.jpg",
-  "credit": "Diliff · CC BY-SA 3.0"
+  "credit": "Diliff · CC BY-SA 3.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はロンドン<ruby>大<rt>だい</rt></ruby><ruby>学<rt>がく</rt></ruby>の<ruby>学<rt>がく</rt></ruby><ruby>生<rt>せい</rt></ruby>です。"
  },
  {
   "id": "v-pekin",
@@ -7843,7 +8049,8 @@ window.CARDS = [
   "ex": "クリスマスにはどこに行きますか？",
   "exvn": "Where do you go for Christmas? (Tatoeba #10837030, minekai, CC BY 2.0 FR)",
   "img": "img/v-kurisumasu.jpg",
-  "credit": "Alhill42 · CC BY-SA 4.0"
+  "credit": "Alhill42 · CC BY-SA 4.0",
+  "exf": "クリスマスにはどこに<ruby>行<rt>い</rt></ruby>きますか？"
  },
  {
   "id": "v-fakusu",
@@ -7880,7 +8087,8 @@ window.CARDS = [
   "ex": "私はスペイン人です。",
   "exvn": "I'm Spanish. (Tatoeba #3221017, e4zh1nmcz, CC BY 2.0 FR)",
   "img": "img/v-supein.jpg",
-  "credit": "kallerna · CC BY-SA 4.0"
+  "credit": "kallerna · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はスペイン<ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-yooroppa",
@@ -7952,7 +8160,8 @@ window.CARDS = [
   "ex": "私は上海人です。",
   "exvn": "I'm Shanghainese. (Tatoeba #347350, zhouj1955, CC BY 2.0 FR)",
   "img": "img/v-shanhai.jpg",
-  "credit": "King of Hearts · CC BY-SA 4.0"
+  "credit": "King of Hearts · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>上海<rt>しゃんはい</rt></ruby><ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-kinkakuji",
@@ -8004,7 +8213,8 @@ window.CARDS = [
   "ex": "私はクラシックが好きです。",
   "exvn": "I like classical music. (Tatoeba #161120, small_snow, CC BY 2.0 FR)",
   "img": "img/v-kurashikku.jpg",
-  "credit": "Uatema · CC BY-SA 3.0"
+  "credit": "Uatema · CC BY-SA 3.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はクラシックが<ruby>好<rt>す</rt></ruby>きです。"
  },
  {
   "id": "v-jazu",
@@ -8017,7 +8227,8 @@ window.CARDS = [
   "ex": "私はジャズが好きです。",
   "exvn": "I like jazz music. (Tatoeba #160613, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-jazu.jpg",
-  "credit": "Andy Newcombe Farnborough, UK · CC BY-SA 2.0"
+  "credit": "Andy Newcombe Farnborough, UK · CC BY-SA 2.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はジャズが<ruby>好<rt>す</rt></ruby>きです。"
  },
  {
   "id": "v-zou",
@@ -8080,7 +8291,8 @@ window.CARDS = [
   "ex": "本屋で雑誌を買いました。",
   "exvn": "I bought some magazines at the bookstore. (Tatoeba #10901506, small_snow, CC BY 2.0 FR)",
   "img": "img/v-honya.jpg",
-  "credit": "Corpse Reviver · CC BY-SA 3.0"
+  "credit": "Corpse Reviver · CC BY-SA 3.0",
+  "exf": "<ruby>本<rt>ほん</rt></ruby><ruby>屋<rt>や</rt></ruby>で<ruby>雑<rt>ざっ</rt></ruby><ruby>誌<rt>し</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。"
  },
  {
   "id": "v-chirisoosu",
@@ -8167,7 +8379,8 @@ window.CARDS = [
   "ex": "私はオーストラリア人です。",
   "exvn": "I'm Australian. (Tatoeba #13151076, atitarev, CC BY 2.0 FR)",
   "img": "img/v-oosutoraria.jpg",
-  "credit": "Thomas Adams · CC BY-SA 4.0"
+  "credit": "Thomas Adams · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はオーストラリア<ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-haru",
@@ -8258,7 +8471,8 @@ window.CARDS = [
   "ex": "曇りの日です。",
   "exvn": "It's a cloudy day. (Tatoeba #123255, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-kumori.jpg",
-  "credit": "Basile Morin · CC BY-SA 4.0"
+  "credit": "Basile Morin · CC BY-SA 4.0",
+  "exf": "<ruby>曇<rt>くも</rt></ruby>りの<ruby>日<rt>ひ</rt></ruby>です。"
  },
  {
   "id": "v-osushi",
@@ -8271,7 +8485,8 @@ window.CARDS = [
   "ex": "お寿司を食べましょう。",
   "exvn": "Let's have sushi. (Tatoeba #227030, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-osushi.jpg",
-  "credit": "Mojmir Churavy · CC0"
+  "credit": "Mojmir Churavy · CC0",
+  "exf": "お<ruby>寿<rt>す</rt></ruby><ruby>司<rt>し</rt></ruby>を<ruby>食<rt>た</rt></ruby>べましょう。"
  },
  {
   "id": "v-tenpura",
@@ -8297,7 +8512,8 @@ window.CARDS = [
   "ex": "フォークで豚肉を食べます。",
   "exvn": "I eat pork with a fork. (Tatoeba #6828186, D0UG, CC BY 2.0 FR)",
   "img": "img/v-butaniku.jpg",
-  "credit": "Presixlla MOON · CC BY-SA 4.0"
+  "credit": "Presixlla MOON · CC BY-SA 4.0",
+  "exf": "フォークで<ruby>豚<rt>ぶた</rt></ruby><ruby>肉<rt>にく</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。"
  },
  {
   "id": "v-toriniku",
@@ -8323,7 +8539,8 @@ window.CARDS = [
   "ex": "牛肉は高い。",
   "exvn": "Beef is expensive. (Tatoeba #9192045, small_snow, CC BY 2.0 FR)",
   "img": "img/v-gyuuniku.jpg",
-  "credit": "Ceeseven · CC BY-SA 4.0"
+  "credit": "Ceeseven · CC BY-SA 4.0",
+  "exf": "<ruby>牛<rt>ぎゅう</rt></ruby><ruby>肉<rt>にく</rt></ruby>は<ruby>高<rt>たか</rt></ruby>い。"
  },
  {
   "id": "v-remon",
@@ -8336,7 +8553,8 @@ window.CARDS = [
   "ex": "これはレモンの木です。",
   "exvn": "This is a lemon tree. (Tatoeba #1508743, ari_diary, CC BY 2.0 FR)",
   "img": "img/v-remon.jpg",
-  "credit": "André Karwath aka Aka · CC BY-SA 2.5"
+  "credit": "André Karwath aka Aka · CC BY-SA 2.5",
+  "exf": "これはレモンの<ruby>木<rt>き</rt></ruby>です。"
  },
  {
   "id": "v-momiji",
@@ -8375,7 +8593,8 @@ window.CARDS = [
   "ex": "私は今香港にいます。",
   "exvn": "I'm in Hong Kong right now. (Tatoeba #2349287, hutian, CC BY 2.0 FR)",
   "img": "img/v-honkon.jpg",
-  "credit": "Estial · CC BY-SA 4.0"
+  "credit": "Estial · CC BY-SA 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>今<rt>いま</rt></ruby><ruby>香港<rt>ほんこん</rt></ruby>にいます。"
  },
  {
   "id": "v-shingapooru",
@@ -8388,7 +8607,8 @@ window.CARDS = [
   "ex": "シンガポールから来ました。",
   "exvn": "I'm from Singapore. (Tatoeba #3196466, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-shingapooru.jpg",
-  "credit": "Basile Morin · CC BY-SA 4.0"
+  "credit": "Basile Morin · CC BY-SA 4.0",
+  "exf": "シンガポールから<ruby>来<rt>き</rt></ruby>ました。"
  },
  {
   "id": "v-tsuri",
@@ -8401,7 +8621,8 @@ window.CARDS = [
   "ex": "釣りはしますか？",
   "exvn": "Do you fish? (Tatoeba #3491591, arnab, CC BY 2.0 FR)",
   "img": "img/v-tsuri.jpg",
-  "credit": "Ivan Radic · CC BY 2.0"
+  "credit": "Ivan Radic · CC BY 2.0",
+  "exf": "<ruby>釣<rt>つ</rt></ruby>りはしますか？"
  },
  {
   "id": "v-shiyakusho",
@@ -8414,7 +8635,8 @@ window.CARDS = [
   "ex": "市役所はどこですか？",
   "exvn": "Where is the city hall? (Tatoeba #10079796, small_snow, CC BY 2.0 FR)",
   "img": "img/v-shiyakusho.jpg",
-  "credit": "Daniel Lu (User:dllu) · CC BY-SA 4.0"
+  "credit": "Daniel Lu (User:dllu) · CC BY-SA 4.0",
+  "exf": "<ruby>市<rt>し</rt></ruby><ruby>役<rt>やく</rt></ruby><ruby>所<rt>しょ</rt></ruby>はどこですか？"
  },
  {
   "id": "v-teishoku",
@@ -8453,7 +8675,8 @@ window.CARDS = [
   "ex": "私はロシア人です。",
   "exvn": "I'm Russian. (Tatoeba #13172073, atitarev, CC BY 2.0 FR)",
   "img": "img/v-roshia.jpg",
-  "credit": "Юрий Д.К. · CC BY 4.0"
+  "credit": "Юрий Д.К. · CC BY 4.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はロシア<ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "v-denshijisho",
@@ -8479,7 +8702,8 @@ window.CARDS = [
   "ex": "母は高校の先生です。",
   "exvn": "My mother is a high school teacher. (Tatoeba #3050904, tommy_san, CC BY 2.0 FR)",
   "img": "img/v-koukou.jpg",
-  "credit": "RageZ · CC BY 2.0"
+  "credit": "RageZ · CC BY 2.0",
+  "exf": "<ruby>母<rt>はは</rt></ruby>は<ruby>高<rt>こう</rt></ruby><ruby>校<rt>こう</rt></ruby>の<ruby>先<rt>せん</rt></ruby><ruby>生<rt>せい</rt></ruby>です。"
  },
  {
   "id": "v-pureigaido",
@@ -8527,7 +8751,8 @@ window.CARDS = [
   "ex": "ピアノは好き？",
   "exvn": "Do you like the piano? (Tatoeba #9640768, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-piano.jpg",
-  "credit": "The original photos of the grand piano a · CC BY-SA 3.0"
+  "credit": "The original photos of the grand piano a · CC BY-SA 3.0",
+  "exf": "ピアノは<ruby>好<rt>す</rt></ruby>き？"
  },
  {
   "id": "v-intaanetto",
@@ -8631,7 +8856,8 @@ window.CARDS = [
   "ex": "私は毎日昼に弁当を食べます。",
   "exvn": "I eat lunch every day at noon. (Tatoeba #1483518, marshmallowcat, CC BY 2.0 FR)",
   "img": "img/v-bentou.jpg",
-  "credit": "Melissa · CC BY 2.0"
+  "credit": "Melissa · CC BY 2.0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>毎<rt>まい</rt></ruby><ruby>日<rt>にち</rt></ruby><ruby>昼<rt>ひる</rt></ruby>に<ruby>弁<rt>べん</rt></ruby><ruby>当<rt>とう</rt></ruby>を<ruby>食<rt>た</rt></ruby>べます。"
  },
  {
   "id": "v-robotto",
@@ -8644,7 +8870,8 @@ window.CARDS = [
   "ex": "ロボットは好きですか。",
   "exvn": "Do you like robots? (Tatoeba #2125746, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-robotto.jpg",
-  "credit": "Kartverket · CC BY 2.0"
+  "credit": "Kartverket · CC BY 2.0",
+  "exf": "ロボットは<ruby>好<rt>す</rt></ruby>きですか。"
  },
  {
   "id": "v-pari",
@@ -8657,7 +8884,8 @@ window.CARDS = [
   "ex": "彼はパリへ旅行した。",
   "exvn": "He made a journey to Paris. (Tatoeba #111243, bunbuku, CC BY 2.0 FR)",
   "img": "img/v-pari.jpg",
-  "credit": "Getfunky Paris · CC BY 2.0"
+  "credit": "Getfunky Paris · CC BY 2.0",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>はパリへ<ruby>旅<rt>りょ</rt></ruby><ruby>行<rt>こう</rt></ruby>した。"
  },
  {
   "id": "v-oyu",
@@ -8668,7 +8896,8 @@ window.CARDS = [
   "romaji": "oyu",
   "meaning": "nước nóng",
   "ex": "お湯が出ません。",
-  "exvn": "The hot water isn't running. (Tatoeba #226801, Ianagisacos, CC BY 2.0 FR)"
+  "exvn": "The hot water isn't running. (Tatoeba #226801, Ianagisacos, CC BY 2.0 FR)",
+  "exf": "お<ruby>湯<rt>ゆ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ません。"
  },
  {
   "id": "v-kikai",
@@ -8679,7 +8908,8 @@ window.CARDS = [
   "romaji": "kikai",
   "meaning": "máy móc",
   "ex": "この機械は調子が悪い。",
-  "exvn": "This machine does not run well. (Tatoeba #222459, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "This machine does not run well. (Tatoeba #222459, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "この<ruby>機<rt>き</rt></ruby><ruby>械<rt>かい</rt></ruby>は<ruby>調<rt>ちょう</rt></ruby><ruby>子<rt>し</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い。"
  },
  {
   "id": "v-tsumami",
@@ -8738,7 +8968,8 @@ window.CARDS = [
   "romaji": "undoukai",
   "meaning": "hội thao",
   "ex": "もうすぐ運動会があります。",
-  "exvn": "There is an athletic meet soon. (Tatoeba #194439, small_snow, CC BY 2.0 FR)"
+  "exvn": "There is an athletic meet soon. (Tatoeba #194439, small_snow, CC BY 2.0 FR)",
+  "exf": "もうすぐ<ruby>運<rt>うん</rt></ruby><ruby>動<rt>どう</rt></ruby><ruby>会<rt>かい</rt></ruby>があります。"
  },
  {
   "id": "v-bonodori",
@@ -8840,7 +9071,8 @@ window.CARDS = [
   "ex": "最近、新しいマンションに引っ越しました。",
   "exvn": "Recently, I moved to a new apartment. (Tatoeba #11285704, small_snow, CC BY 2.0 FR)",
   "img": "img/v-manshon.jpg",
-  "credit": "Mr.ちゅらさん · CC BY 4.0"
+  "credit": "Mr.ちゅらさん · CC BY 4.0",
+  "exf": "<ruby>最<rt>さい</rt></ruby><ruby>近<rt>きん</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しいマンションに<ruby>引<rt>ひ</rt></ruby>っ<ruby>越<rt>こ</rt></ruby>しました。"
  },
  {
   "id": "v-doraemon",
@@ -8864,7 +9096,8 @@ window.CARDS = [
   "ex": "ポケットを確認して。",
   "exvn": "Check your pockets. (Tatoeba #9308415, small_snow, CC BY 2.0 FR)",
   "img": "img/v-poketto.jpg",
-  "credit": "Ajay Suresh from New York, NY, USA · CC BY 2.0"
+  "credit": "Ajay Suresh from New York, NY, USA · CC BY 2.0",
+  "exf": "ポケットを<ruby>確<rt>かく</rt></ruby><ruby>認<rt>にん</rt></ruby>して。"
  },
  {
   "id": "v-manga",
@@ -8901,7 +9134,8 @@ window.CARDS = [
   "ex": "ゲームで負けた。",
   "exvn": "I lost the game. (Tatoeba #12696376, small_snow, CC BY 2.0 FR)",
   "img": "img/v-geemu.jpg",
-  "credit": "Evan-Amos · Public domain"
+  "credit": "Evan-Amos · Public domain",
+  "exf": "ゲームで<ruby>負<rt>ま</rt></ruby>けた。"
  },
  {
   "id": "v-biyouin",
@@ -8914,7 +9148,8 @@ window.CARDS = [
   "ex": "昨日美容院へ行きました。",
   "exvn": "Yesterday I went to the hairdresser's. (Tatoeba #169816, KK_kaku_, CC BY 2.0 FR)",
   "img": "img/v-biyouin.jpg",
-  "credit": "Ka23 13 · CC BY-SA 4.0"
+  "credit": "Ka23 13 · CC BY-SA 4.0",
+  "exf": "<ruby>昨日<rt>きのう</rt></ruby><ruby>美<rt>び</rt></ruby><ruby>容<rt>よう</rt></ruby><ruby>院<rt>いん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きました。"
  },
  {
   "id": "v-taiikukan",
@@ -8986,7 +9221,8 @@ window.CARDS = [
   "romaji": "kabin",
   "meaning": "bình hoa",
   "ex": "彼は花瓶を落とした。",
-  "exvn": "He dropped a vase. (Tatoeba #109184, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He dropped a vase. (Tatoeba #109184, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>花<rt>か</rt></ruby><ruby>瓶<rt>びん</rt></ruby>を<ruby>落<rt>お</rt></ruby>とした。"
  },
  {
   "id": "v-kagami",
@@ -9010,7 +9246,8 @@ window.CARDS = [
   "ex": "あの人形怖い。",
   "exvn": "That doll is scary. (Tatoeba #6855705, Sonata, CC BY 2.0 FR)",
   "img": "img/v-ningyou.jpg",
-  "credit": "katorisi · CC BY 3.0"
+  "credit": "katorisi · CC BY 3.0",
+  "exf": "あの<ruby>人<rt>にん</rt></ruby><ruby>形<rt>ぎょう</rt></ruby><ruby>怖<rt>こわ</rt></ruby>い。"
  },
  {
   "id": "v-ryukku",
@@ -9023,7 +9260,8 @@ window.CARDS = [
   "ex": "私のリュック、とても重いですよ。",
   "exvn": "My backpack is very heavy. (Tatoeba #10630157, small_snow, CC BY 2.0 FR)",
   "img": "img/v-ryukku.jpg",
-  "credit": "WrS.tm.pl · CC0"
+  "credit": "WrS.tm.pl · CC0",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>のリュック、とても<ruby>重<rt>おも</rt></ruby>いですよ。"
  },
  {
   "id": "v-kaichuudentou",
@@ -9080,7 +9318,8 @@ window.CARDS = [
   "romaji": "ano hito",
   "meaning": "người kia (あのかた: lịch sự hơn)",
   "ex": "あの人は教師です。",
-  "exvn": "He is a teacher. (Tatoeba #13172299, atitarev, CC BY 2.0 FR)"
+  "exvn": "He is a teacher. (Tatoeba #13172299, atitarev, CC BY 2.0 FR)",
+  "exf": "あの<ruby>人<rt>ひと</rt></ruby>は<ruby>教<rt>きょう</rt></ruby><ruby>師<rt>し</rt></ruby>です。"
  },
  {
   "id": "w12-san",
@@ -9201,7 +9440,8 @@ window.CARDS = [
   "romaji": "shitsurei desu ga",
   "meaning": "xin lỗi, cho tôi hỏi…",
   "ex": "失礼ですが......。",
-  "exvn": "May I ask who's calling? (Tatoeba #10478031, small_snow, CC BY 2.0 FR)"
+  "exvn": "May I ask who's calling? (Tatoeba #10478031, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>失<rt>しつ</rt></ruby><ruby>礼<rt>れい</rt></ruby>ですが<ruby>.<rt></rt></ruby><ruby>.<rt></rt></ruby><ruby>.<rt></rt></ruby><ruby>.<rt></rt></ruby><ruby>.<rt></rt></ruby><ruby>.<rt></rt></ruby>。"
  },
  {
   "id": "w12-chan",
@@ -9234,7 +9474,8 @@ window.CARDS = [
   "romaji": "kyoushi",
   "meaning": "giáo viên (nghề nghiệp, nói về mình)",
   "ex": "私は教師です。",
-  "exvn": "I'm a teacher. (Tatoeba #157602, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm a teacher. (Tatoeba #157602, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>教<rt>きょう</rt></ruby><ruby>師<rt>し</rt></ruby>です。"
  },
  {
   "id": "w12-shain",
@@ -9256,7 +9497,8 @@ window.CARDS = [
   "romaji": "ginkouin",
   "meaning": "nhân viên ngân hàng",
   "ex": "私は銀行員です。",
-  "exvn": "I'm a bank clerk. (Tatoeba #3221181, e4zh1nmcz, CC BY 2.0 FR)"
+  "exvn": "I'm a bank clerk. (Tatoeba #3221181, e4zh1nmcz, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>銀<rt>ぎん</rt></ruby><ruby>行<rt>こう</rt></ruby><ruby>員<rt>いん</rt></ruby>です。"
  },
  {
   "id": "w12-watashitachi",
@@ -9388,7 +9630,8 @@ window.CARDS = [
   "romaji": "dare no",
   "meaning": "của ai",
   "ex": "この車は、だれのですか？",
-  "exvn": "Who is the owner of this car? (Tatoeba #628695, satosi, CC BY 2.0 FR)"
+  "exvn": "Who is the owner of this car? (Tatoeba #628695, satosi, CC BY 2.0 FR)",
+  "exf": "この<ruby>車<rt>くるま</rt></ruby>は、だれのですか？"
  },
  {
   "id": "w13-nanno",
@@ -9432,7 +9675,8 @@ window.CARDS = [
   "romaji": "chigaimasu",
   "meaning": "không phải, sai rồi",
   "ex": "違いますか？",
-  "exvn": "Isn't that so? (Tatoeba #3496743, arnab, CC BY 2.0 FR)"
+  "exvn": "Isn't that so? (Tatoeba #3496743, arnab, CC BY 2.0 FR)",
+  "exf": "<ruby>違<rt>ちが</rt></ruby>いますか？"
  },
  {
   "id": "w13-anou",
@@ -9608,7 +9852,8 @@ window.CARDS = [
   "romaji": "dochira",
   "meaning": "phía nào, ở đâu (lịch sự)",
   "ex": "国はどちらですか。",
-  "exvn": "What country are you from? (Tatoeba #10914888, small_snow, CC BY 2.0 FR)"
+  "exvn": "What country are you from? (Tatoeba #10914888, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>国<rt>くに</rt></ruby>はどちらですか。"
  },
  {
   "id": "w14-kuni",
@@ -9652,7 +9897,8 @@ window.CARDS = [
   "romaji": "nangai",
   "meaning": "tầng mấy",
   "ex": "何階ですか。",
-  "exvn": "What floor is it? (Tatoeba #4561521, Kiraness, CC BY 2.0 FR)"
+  "exvn": "What floor is it? (Tatoeba #4561521, Kiraness, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なん</rt></ruby><ruby>階<rt>かい</rt></ruby>ですか。"
  },
  {
   "id": "w14-chika",
@@ -9861,7 +10107,8 @@ window.CARDS = [
   "romaji": "nanji",
   "meaning": "mấy giờ",
   "ex": "何時ですか。",
-  "exvn": "What time do you have? (Tatoeba #5059, bunbuku, CC BY 2.0 FR)"
+  "exvn": "What time do you have? (Tatoeba #5059, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>ですか。"
  },
  {
   "id": "w15-gozengogo",
@@ -9949,7 +10196,8 @@ window.CARDS = [
   "romaji": "getsuyoubi",
   "meaning": "thứ Hai",
   "ex": "月曜日です。",
-  "exvn": "It's Monday. (Tatoeba #175603, bunbuku, CC BY 2.0 FR)"
+  "exvn": "It's Monday. (Tatoeba #175603, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>月<rt>げつ</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>です。"
  },
  {
   "id": "w15-kayoubi",
@@ -9960,7 +10208,8 @@ window.CARDS = [
   "romaji": "kayoubi",
   "meaning": "thứ Ba",
   "ex": "今日は火曜日です。",
-  "exvn": "Today is Tuesday. (Tatoeba #11332317, small_snow, CC BY 2.0 FR)"
+  "exvn": "Today is Tuesday. (Tatoeba #11332317, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>火<rt>か</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>です。"
  },
  {
   "id": "w15-suiyoubi",
@@ -9971,7 +10220,8 @@ window.CARDS = [
   "romaji": "suiyoubi",
   "meaning": "thứ Tư",
   "ex": "今日は水曜日です。",
-  "exvn": "Today is Wednesday. (Tatoeba #1458037, marcelostockle, CC BY 2.0 FR)"
+  "exvn": "Today is Wednesday. (Tatoeba #1458037, marcelostockle, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>水<rt>すい</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>です。"
  },
  {
   "id": "w15-mokuyoubi",
@@ -9982,7 +10232,8 @@ window.CARDS = [
   "romaji": "mokuyoubi",
   "meaning": "thứ Năm",
   "ex": "今日は木曜日です。",
-  "exvn": "Today is Thursday. (Tatoeba #2670479, tommy_san, CC BY 2.0 FR)"
+  "exvn": "Today is Thursday. (Tatoeba #2670479, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>木<rt>もく</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>です。"
  },
  {
   "id": "w15-kinyoubi",
@@ -10004,7 +10255,8 @@ window.CARDS = [
   "romaji": "doyoubi",
   "meaning": "thứ Bảy",
   "ex": "今日は土曜日です。",
-  "exvn": "It's Saturday today. (Tatoeba #171533, bunbuku, CC BY 2.0 FR)"
+  "exvn": "It's Saturday today. (Tatoeba #171533, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>土<rt>ど</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>です。"
  },
  {
   "id": "w15-nichiyoubi",
@@ -10015,7 +10267,8 @@ window.CARDS = [
   "romaji": "nichiyoubi",
   "meaning": "Chủ nhật",
   "ex": "明日は日曜日です。",
-  "exvn": "It is Sunday tomorrow. (Tatoeba #80407, tommy_san, CC BY 2.0 FR)"
+  "exvn": "It is Sunday tomorrow. (Tatoeba #80407, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>明日<rt>あした</rt></ruby>は<ruby>日<rt>にち</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>です。"
  },
  {
   "id": "w15-nanyoubi",
@@ -10026,7 +10279,8 @@ window.CARDS = [
   "romaji": "nan'youbi",
   "meaning": "thứ mấy",
   "ex": "今日、何曜日？",
-  "exvn": "What day is it today? (Tatoeba #889710, bunbuku, CC BY 2.0 FR)"
+  "exvn": "What day is it today? (Tatoeba #889710, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>、<ruby>何<rt>なん</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>？"
  },
  {
   "id": "w15-taihendesune",
@@ -10059,7 +10313,8 @@ window.CARDS = [
   "romaji": "nanpun",
   "meaning": "mấy phút",
   "ex": "今、何時何分ですか？",
-  "exvn": "What's the exact time now? (Tatoeba #10962354, small_snow, CC BY 2.0 FR)"
+  "exvn": "What's the exact time now? (Tatoeba #10962354, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>今<rt>いま</rt></ruby>、<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby><ruby>何<rt>なん</rt></ruby><ruby>分<rt>ぷん</rt></ruby>ですか？"
  },
  {
   "id": "w15-made",
@@ -10191,7 +10446,8 @@ window.CARDS = [
   "romaji": "sochira",
   "meaning": "phía đó, chỗ bạn (lịch sự)",
   "ex": "そちらは今何時ですか？",
-  "exvn": "What time is it there? (Tatoeba #2182818, tommy_san, CC BY 2.0 FR)"
+  "exvn": "What time is it there? (Tatoeba #2182818, tommy_san, CC BY 2.0 FR)",
+  "exf": "そちらは<ruby>今<rt>いま</rt></ruby><ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>ですか？"
  },
  {
   "id": "w16-ikimasu",
@@ -10202,7 +10458,8 @@ window.CARDS = [
   "romaji": "ikimasu",
   "meaning": "đi",
   "ex": "私が行きます。",
-  "exvn": "I'll go. (Tatoeba #1507527, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'll go. (Tatoeba #1507527, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>が<ruby>行<rt>い</rt></ruby>きます。"
  },
  {
   "id": "w16-kimasu",
@@ -10224,7 +10481,8 @@ window.CARDS = [
   "romaji": "kaerimasu",
   "meaning": "về (nhà, nước mình)",
   "ex": "来週帰ります。",
-  "exvn": "I'm coming back next week. (Tatoeba #1879941, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'm coming back next week. (Tatoeba #1879941, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>来<rt>らい</rt></ruby><ruby>週<rt>しゅう</rt></ruby><ruby>帰<rt>かえ</rt></ruby>ります。"
  },
  {
   "id": "w16-jitensha",
@@ -10235,7 +10493,8 @@ window.CARDS = [
   "romaji": "jitensha",
   "meaning": "xe đạp",
   "ex": "これは君の自転車？",
-  "exvn": "Is this your bike? (Tatoeba #218624, small_snow, CC BY 2.0 FR)"
+  "exvn": "Is this your bike? (Tatoeba #218624, small_snow, CC BY 2.0 FR)",
+  "exf": "これは<ruby>君<rt>きみ</rt></ruby>の<ruby>自<rt>じ</rt></ruby><ruby>転<rt>てん</rt></ruby><ruby>車<rt>しゃ</rt></ruby>？"
  },
  {
   "id": "w16-aruite",
@@ -10246,7 +10505,8 @@ window.CARDS = [
   "romaji": "aruite",
   "meaning": "đi bộ",
   "ex": "歩いてきました。",
-  "exvn": "I came on foot. (Tatoeba #1937752, FiRez, CC BY 2.0 FR)"
+  "exvn": "I came on foot. (Tatoeba #1937752, FiRez, CC BY 2.0 FR)",
+  "exf": "<ruby>歩<rt>ある</rt></ruby>いてきました。"
  },
  {
   "id": "w16-hitoride",
@@ -10257,7 +10517,8 @@ window.CARDS = [
   "romaji": "hitori de",
   "meaning": "một mình",
   "ex": "来月一人で日本に行きます。",
-  "exvn": "I'm going to Japan by myself next month. (Tatoeba #868622, Sonix, CC BY 2.0 FR)"
+  "exvn": "I'm going to Japan by myself next month. (Tatoeba #868622, Sonix, CC BY 2.0 FR)",
+  "exf": "<ruby>来<rt>らい</rt></ruby><ruby>月<rt>げつ</rt></ruby><ruby>一<rt>ひと</rt></ruby><ruby>人<rt>り</rt></ruby>で<ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。"
  },
  {
   "id": "w16-karekanojo",
@@ -10444,7 +10705,8 @@ window.CARDS = [
   "romaji": "tsugi no",
   "meaning": "tiếp theo, kế tiếp",
   "ex": "次の駅は、どこ？",
-  "exvn": "What's the next station? (Tatoeba #9979543, small_snow, CC BY 2.0 FR)"
+  "exvn": "What's the next station? (Tatoeba #9979543, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>は、どこ？"
  },
  {
   "id": "w16-futsuukyuukoutokkyuu",
@@ -10488,7 +10750,8 @@ window.CARDS = [
   "romaji": "shimasu",
   "meaning": "làm, chơi (môn thể thao…)",
   "ex": "今日します。",
-  "exvn": "I'll do it today. (Tatoeba #11052197, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'll do it today. (Tatoeba #11052197, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>します。"
  },
  {
   "id": "w17-aimasu",
@@ -10499,7 +10762,8 @@ window.CARDS = [
   "romaji": "aimasu",
   "meaning": "gặp (ともだちに あいます)",
   "ex": "今晩私は彼女に会います。",
-  "exvn": "I'm seeing her this evening. (Tatoeba #171211, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm seeing her this evening. (Tatoeba #171211, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>今<rt>こん</rt></ruby><ruby>晩<rt>ばん</rt></ruby><ruby>私<rt>わたし</rt></ruby>は<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>に<ruby>会<rt>あ</rt></ruby>います。"
  },
  {
   "id": "w17-suimasu",
@@ -10510,7 +10774,8 @@ window.CARDS = [
   "romaji": "suimasu",
   "meaning": "hút (thuốc)",
   "ex": "たばこは吸いますか。",
-  "exvn": "Do you smoke? (Tatoeba #203425, tommy__san, CC BY 2.0 FR)"
+  "exvn": "Do you smoke? (Tatoeba #203425, tommy__san, CC BY 2.0 FR)",
+  "exf": "たばこは<ruby>吸<rt>す</rt></ruby>いますか。"
  },
  {
   "id": "w17-naninan",
@@ -10532,7 +10797,8 @@ window.CARDS = [
   "romaji": "issho ni",
   "meaning": "cùng nhau",
   "ex": "一緒に行きます。",
-  "exvn": "I'm coming with you. (Tatoeba #190548, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm coming with you. (Tatoeba #190548, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>一<rt>いっ</rt></ruby><ruby>緒<rt>しょ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きます。"
  },
  {
   "id": "w17-chotto",
@@ -10675,7 +10941,8 @@ window.CARDS = [
   "romaji": "shukudai",
   "meaning": "bài tập về nhà",
   "ex": "私は宿題をします。",
-  "exvn": "I will be doing my homework. (Tatoeba #1956413, e4zh1nmcz, CC BY 2.0 FR)"
+  "exvn": "I will be doing my homework. (Tatoeba #1956413, e4zh1nmcz, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>宿<rt>しゅく</rt></ruby><ruby>題<rt>だい</rt></ruby>をします。"
  },
  {
   "id": "w17-nandesuka",
@@ -10708,7 +10975,8 @@ window.CARDS = [
   "romaji": "shiidii",
   "meaning": "đĩa CD",
   "ex": "あれは私のCDです。",
-  "exvn": "Those are my CDs. (Tatoeba #229642, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Those are my CDs. (Tatoeba #229642, bunbuku, CC BY 2.0 FR)",
+  "exf": "あれは<ruby>私<rt>わたし</rt></ruby>の<ruby>CD<rt>しーでぃー</rt></ruby>です。"
  },
  {
   "id": "w18-agemasu",
@@ -10763,7 +11031,8 @@ window.CARDS = [
   "romaji": "naraimasu",
   "meaning": "học (từ ai đó)",
   "ex": "来年私はフランス語を習います。",
-  "exvn": "I am taking French next year. (Tatoeba #78572, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I am taking French next year. (Tatoeba #78572, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>来<rt>らい</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>私<rt>わたし</rt></ruby>はフランス<ruby>語<rt>ご</rt></ruby>を<ruby>習<rt>なら</rt></ruby>います。"
  },
  {
   "id": "w18-okurimasu",
@@ -10884,7 +11153,8 @@ window.CARDS = [
   "romaji": "korekara",
   "meaning": "từ bây giờ, sắp",
   "ex": "これから帰ります。",
-  "exvn": "I'm going home now. (Tatoeba #218960, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm going home now. (Tatoeba #218960, bunbuku, CC BY 2.0 FR)",
+  "exf": "これから<ruby>帰<rt>かえ</rt></ruby>ります。"
  },
  {
   "id": "w18-sutekidesune",
@@ -10917,7 +11187,8 @@ window.CARDS = [
   "romaji": "shitsurei shimasu",
   "meaning": "xin phép (khi vào / về)",
   "ex": "失礼します。",
-  "exvn": "May I be excused? (Tatoeba #507553, orzage, CC BY 2.0 FR)"
+  "exvn": "May I be excused? (Tatoeba #507553, orzage, CC BY 2.0 FR)",
+  "exf": "<ruby>失<rt>しつ</rt></ruby><ruby>礼<rt>れい</rt></ruby>します。"
  },
  {
   "id": "w18-douzooagarikudasai",
@@ -10994,7 +11265,8 @@ window.CARDS = [
   "romaji": "hansamu",
   "meaning": "đẹp trai",
   "ex": "彼はハンサムです。",
-  "exvn": "He's handsome. (Tatoeba #13231274, atitarev, CC BY 2.0 FR)"
+  "exvn": "He's handsome. (Tatoeba #13231274, atitarev, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>はハンサムです。"
  },
  {
   "id": "w19-shinsetsu",
@@ -11005,7 +11277,8 @@ window.CARDS = [
   "romaji": "shinsetsu",
   "meaning": "tốt bụng",
   "ex": "とても親切ですね。",
-  "exvn": "You're very kind. (Tatoeba #12316434, small_snow, CC BY 2.0 FR)"
+  "exvn": "You're very kind. (Tatoeba #12316434, small_snow, CC BY 2.0 FR)",
+  "exf": "とても<ruby>親<rt>しん</rt></ruby><ruby>切<rt>せつ</rt></ruby>ですね。"
  },
  {
   "id": "w19-yuumei",
@@ -11016,7 +11289,8 @@ window.CARDS = [
   "romaji": "yuumei",
   "meaning": "nổi tiếng",
   "ex": "あなたは有名ですか？",
-  "exvn": "Are you famous? (Tatoeba #3368796, verbum, CC BY 2.0 FR)"
+  "exvn": "Are you famous? (Tatoeba #3368796, verbum, CC BY 2.0 FR)",
+  "exf": "あなたは<ruby>有<rt>ゆう</rt></ruby><ruby>名<rt>めい</rt></ruby>ですか？"
  },
  {
   "id": "w19-genki",
@@ -11049,7 +11323,8 @@ window.CARDS = [
   "romaji": "benri",
   "meaning": "tiện lợi",
   "ex": "フランス語は便利よ。",
-  "exvn": "French is useful. (Tatoeba #9749141, small_snow, CC BY 2.0 FR)"
+  "exvn": "French is useful. (Tatoeba #9749141, small_snow, CC BY 2.0 FR)",
+  "exf": "フランス<ruby>語<rt>ご</rt></ruby>は<ruby>便<rt>べん</rt></ruby><ruby>利<rt>り</rt></ruby>よ。"
  },
  {
   "id": "w19-suteki",
@@ -11093,7 +11368,8 @@ window.CARDS = [
   "romaji": "tsumetai",
   "meaning": "lạnh (khi chạm)",
   "ex": "水は冷たい？",
-  "exvn": "Is the water cold? (Tatoeba #8796822, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Is the water cold? (Tatoeba #8796822, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>水<rt>みず</rt></ruby>は<ruby>冷<rt>つめ</rt></ruby>たい？"
  },
  {
   "id": "w19-muzukashiiyasashii",
@@ -11203,7 +11479,8 @@ window.CARDS = [
   "romaji": "soshite",
   "meaning": "và, thêm nữa (nối câu)",
   "ex": "そして、先生なんですよね？",
-  "exvn": "And you're a teacher, right? (Tatoeba #11048054, small_snow, CC BY 2.0 FR)"
+  "exvn": "And you're a teacher, right? (Tatoeba #11048054, small_snow, CC BY 2.0 FR)",
+  "exf": "そして、<ruby>先<rt>せん</rt></ruby><ruby>生<rt>せい</rt></ruby>なんですよね？"
  },
  {
   "id": "w19-ga",
@@ -11313,7 +11590,8 @@ window.CARDS = [
   "romaji": "benkyou",
   "meaning": "việc học",
   "ex": "勉強は難しいの？",
-  "exvn": "Is the school work hard? (Tatoeba #83293, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "Is the school work hard? (Tatoeba #83293, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>勉<rt>べん</rt></ruby><ruby>強<rt>きょう</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しいの？"
  },
  {
   "id": "w19-soudesune",
@@ -11357,7 +11635,8 @@ window.CARDS = [
   "romaji": "arimasu",
   "meaning": "có (sở hữu)",
   "ex": "時間はあります。",
-  "exvn": "I'm free. (Tatoeba #1302434, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm free. (Tatoeba #1302434, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>時<rt>じ</rt></ruby><ruby>間<rt>かん</rt></ruby>はあります。"
  },
  {
   "id": "w20-sukikirai",
@@ -11390,7 +11669,8 @@ window.CARDS = [
   "romaji": "nomimono",
   "meaning": "đồ uống",
   "ex": "何か飲み物はいかが？",
-  "exvn": "Would you like to drink something? (Tatoeba #188053, small_snow, CC BY 2.0 FR)"
+  "exvn": "Would you like to drink something? (Tatoeba #188053, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なに</rt></ruby>か<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>はいかが？"
  },
  {
   "id": "w20-supootsu",
@@ -11401,7 +11681,8 @@ window.CARDS = [
   "romaji": "supootsu",
   "meaning": "thể thao",
   "ex": "スポーツは好き？",
-  "exvn": "Do you like sports? (Tatoeba #3110652, tommy_san, CC BY 2.0 FR)"
+  "exvn": "Do you like sports? (Tatoeba #3110652, tommy_san, CC BY 2.0 FR)",
+  "exf": "スポーツは<ruby>好<rt>す</rt></ruby>き？"
  },
  {
   "id": "w20-jihiraganakatakanaroomaji",
@@ -11434,7 +11715,8 @@ window.CARDS = [
   "romaji": "chiketto",
   "meaning": "vé",
   "ex": "チケットは高い。",
-  "exvn": "Tickets are expensive. (Tatoeba #12725625, small_snow, CC BY 2.0 FR)"
+  "exvn": "Tickets are expensive. (Tatoeba #12725625, small_snow, CC BY 2.0 FR)",
+  "exf": "チケットは<ruby>高<rt>たか</rt></ruby>い。"
  },
  {
   "id": "w20-jikan",
@@ -11445,7 +11727,8 @@ window.CARDS = [
   "romaji": "jikan",
   "meaning": "thời gian",
   "ex": "お茶の時間よ。",
-  "exvn": "It's time for tea. (Tatoeba #12461936, small_snow, CC BY 2.0 FR)"
+  "exvn": "It's time for tea. (Tatoeba #12461936, small_snow, CC BY 2.0 FR)",
+  "exf": "お<ruby>茶<rt>ちゃ</rt></ruby>の<ruby>時<rt>じ</rt></ruby><ruby>間<rt>かん</rt></ruby>よ。"
  },
  {
   "id": "w20-youjiyakusoku",
@@ -11489,7 +11772,8 @@ window.CARDS = [
   "romaji": "zenzen",
   "meaning": "hoàn toàn (không)",
   "ex": "全然わかりません。",
-  "exvn": "I have no idea. (Tatoeba #140787, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I have no idea. (Tatoeba #140787, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>全<rt>ぜん</rt></ruby><ruby>然<rt>ぜん</rt></ruby>わかりません。"
  },
  {
   "id": "w20-hayaku",
@@ -11522,7 +11806,8 @@ window.CARDS = [
   "romaji": "zannen desu",
   "meaning": "tiếc quá",
   "ex": "残念ですが。",
-  "exvn": "That's too bad. (Tatoeba #169258, bunbuku, CC BY 2.0 FR)"
+  "exvn": "That's too bad. (Tatoeba #169258, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>残<rt>ざん</rt></ruby><ruby>念<rt>ねん</rt></ruby>ですが。"
  },
  {
   "id": "w20-goshujinokusan",
@@ -11808,7 +12093,8 @@ window.CARDS = [
   "romaji": "chikaku",
   "meaning": "gần",
   "ex": "私は駅の近くにいます。",
-  "exvn": "I am near the station. (Tatoeba #158262, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I am near the station. (Tatoeba #158262, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くにいます。"
  },
  {
   "id": "w21-aida",
@@ -11962,7 +12248,8 @@ window.CARDS = [
   "romaji": "dono kurai",
   "meaning": "bao lâu, bao nhiêu (hỏi khoảng thời gian, số lượng)",
   "ex": "どのくらい高い？",
-  "exvn": "How high is it? (Tatoeba #200413, bunbuku, CC BY 2.0 FR)"
+  "exvn": "How high is it? (Tatoeba #200413, bunbuku, CC BY 2.0 FR)",
+  "exf": "どのくらい<ruby>高<rt>たか</rt></ruby>い？"
  },
  {
   "id": "w22-kakarimasu",
@@ -11973,7 +12260,8 @@ window.CARDS = [
   "romaji": "kakarimasu",
   "meaning": "mất, tốn (thời gian, tiền)",
   "ex": "何分かかりますか？",
-  "exvn": "How long is the ride? (Tatoeba #187304, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "How long is the ride? (Tatoeba #187304, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なん</rt></ruby><ruby>分<rt>ぷん</rt></ruby>かかりますか？"
  },
  {
   "id": "w22-zenbude",
@@ -11984,7 +12272,8 @@ window.CARDS = [
   "romaji": "zenbu de",
   "meaning": "tổng cộng",
   "ex": "学生は全部で何人ですか？",
-  "exvn": "What is the total number of students? (Tatoeba #1117489, mookeee, CC BY 2.0 FR)"
+  "exvn": "What is the total number of students? (Tatoeba #1117489, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>学<rt>がく</rt></ruby><ruby>生<rt>せい</rt></ruby>は<ruby>全<rt>ぜん</rt></ruby><ruby>部<rt>ぶ</rt></ruby>で<ruby>何<rt>なん</rt></ruby><ruby>人<rt>にん</rt></ruby>ですか？"
  },
  {
   "id": "w22-dake",
@@ -12083,7 +12372,8 @@ window.CARDS = [
   "romaji": "gaikoku",
   "meaning": "nước ngoài",
   "ex": "来年外国へ行きます。",
-  "exvn": "I will go abroad next year. (Tatoeba #152388, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "I will go abroad next year. (Tatoeba #152388, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>来<rt>らい</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>外<rt>がい</rt></ruby><ruby>国<rt>こく</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。"
  },
  {
   "id": "w22-ryuugakusei",
@@ -12094,7 +12384,8 @@ window.CARDS = [
   "romaji": "ryuugakusei",
   "meaning": "lưu học sinh, du học sinh",
   "ex": "来月中国から留学生が来ます。",
-  "exvn": "We have a foreign student coming from China next month. (Tatoeba #10984928, small_snow, CC BY 2.0 FR)"
+  "exvn": "We have a foreign student coming from China next month. (Tatoeba #10984928, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>来<rt>らい</rt></ruby><ruby>月<rt>げつ</rt></ruby><ruby>中<rt>ちゅう</rt></ruby><ruby>国<rt>ごく</rt></ruby>から<ruby>留<rt>りゅう</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>生<rt>せい</rt></ruby>が<ruby>来<rt>き</rt></ruby>ます。"
  },
  {
   "id": "w22-kurasu",
@@ -12105,7 +12396,8 @@ window.CARDS = [
   "romaji": "kurasu",
   "meaning": "lớp học",
   "ex": "新しいクラスはどう？",
-  "exvn": "How is your new class? (Tatoeba #3642234, tommy_san, CC BY 2.0 FR)"
+  "exvn": "How is your new class? (Tatoeba #3642234, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>新<rt>あたら</rt></ruby>しいクラスはどう？"
  },
  {
   "id": "w22-minna",
@@ -12292,7 +12584,8 @@ window.CARDS = [
   "romaji": "kisetsu",
   "meaning": "mùa; はる (xuân) なつ (hạ) あき (thu) ふゆ (đông)",
   "ex": "春は花の季節ですね。",
-  "exvn": "Spring is the season of flowers. (Tatoeba #11821438, small_snow, CC BY 2.0 FR)"
+  "exvn": "Spring is the season of flowers. (Tatoeba #11821438, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>春<rt>はる</rt></ruby>は<ruby>花<rt>はな</rt></ruby>の<ruby>季<rt>き</rt></ruby><ruby>節<rt>せつ</rt></ruby>ですね。"
  },
  {
   "id": "w23-tenki",
@@ -12303,7 +12596,8 @@ window.CARDS = [
   "romaji": "tenki",
   "meaning": "thời tiết",
   "ex": "天気はいい？",
-  "exvn": "Is the weather nice? (Tatoeba #8763912, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Is the weather nice? (Tatoeba #8763912, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>天<rt>てん</rt></ruby><ruby>気<rt>き</rt></ruby>はいい？"
  },
  {
   "id": "w23-dochiradotchi",
@@ -12336,7 +12630,8 @@ window.CARDS = [
   "romaji": "hajimete",
   "meaning": "lần đầu tiên",
   "ex": "日本は初めてですか。",
-  "exvn": "Is this your first visit to Japan? (Tatoeba #122452, arnab, CC BY 2.0 FR)"
+  "exvn": "Is this your first visit to Japan? (Tatoeba #122452, arnab, CC BY 2.0 FR)",
+  "exf": "<ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby>は<ruby>初<rt>はじ</rt></ruby>めてですか。"
  },
  {
   "id": "w23-dochiramo",
@@ -12347,7 +12642,8 @@ window.CARDS = [
   "romaji": "dochira mo",
   "meaning": "cả hai",
   "ex": "私はどちらも好きです。",
-  "exvn": "I like both. (Tatoeba #159295, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I like both. (Tatoeba #159295, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はどちらも<ruby>好<rt>す</rt></ruby>きです。"
  },
  {
   "id": "w23-tadaima",
@@ -12413,7 +12709,8 @@ window.CARDS = [
   "romaji": "demo",
   "meaning": "nhưng (đầu câu)",
   "ex": "でも高いよ。",
-  "exvn": "It's expensive though. (Tatoeba #202087, bunbuku, CC BY 2.0 FR)"
+  "exvn": "It's expensive though. (Tatoeba #202087, bunbuku, CC BY 2.0 FR)",
+  "exf": "でも<ruby>高<rt>たか</rt></ruby>いよ。"
  },
  {
   "id": "w24-hoshii",
@@ -12424,7 +12721,8 @@ window.CARDS = [
   "romaji": "hoshii",
   "meaning": "muốn có (đồ vật)",
   "ex": "水が欲しい。",
-  "exvn": "I want some water. (Tatoeba #143813, mookeee, CC BY 2.0 FR)"
+  "exvn": "I want some water. (Tatoeba #143813, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>水<rt>みず</rt></ruby>が<ruby>欲<rt>ほ</rt></ruby>しい。"
  },
  {
   "id": "w24-tai",
@@ -12479,7 +12777,8 @@ window.CARDS = [
   "romaji": "sanpo shimasu",
   "meaning": "đi dạo (さんぽします＋こうえんを)",
   "ex": "父は毎日散歩します。",
-  "exvn": "My father takes a walk every day. (Tatoeba #84353, bunbuku, CC BY 2.0 FR)"
+  "exvn": "My father takes a walk every day. (Tatoeba #84353, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>父<rt>ちち</rt></ruby>は<ruby>毎<rt>まい</rt></ruby><ruby>日<rt>にち</rt></ruby><ruby>散<rt>さん</rt></ruby><ruby>歩<rt>ぽ</rt></ruby>します。"
  },
  {
   "id": "w24-mukaemasu",
@@ -12512,7 +12811,8 @@ window.CARDS = [
   "romaji": "kekkon shimasu",
   "meaning": "kết hôn",
   "ex": "来週、姉が結婚します。",
-  "exvn": "My elder sister is getting married at the weekend. (Tatoeba #10982404, small_snow, CC BY 2.0 FR)"
+  "exvn": "My elder sister is getting married at the weekend. (Tatoeba #10982404, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>来<rt>らい</rt></ruby><ruby>週<rt>しゅう</rt></ruby>、<ruby>姉<rt>あね</rt></ruby>が<ruby>結<rt>けっ</rt></ruby><ruby>婚<rt>こん</rt></ruby>します。"
  },
  {
   "id": "w24-taihen",
@@ -12523,7 +12823,8 @@ window.CARDS = [
   "romaji": "taihen",
   "meaning": "vất vả, khổ; nghiêm trọng",
   "ex": "今日は大変寒い。",
-  "exvn": "It is very cold today. (Tatoeba #171553, bunbuku, CC BY 2.0 FR)"
+  "exvn": "It is very cold today. (Tatoeba #171553, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>大<rt>たい</rt></ruby><ruby>変<rt>へん</rt></ruby><ruby>寒<rt>さむ</rt></ruby>い。"
  },
  {
   "id": "w24-nanikadokoka",
@@ -12721,7 +13022,8 @@ window.CARDS = [
   "romaji": "touroku",
   "meaning": "đăng ký (とうろくを します)",
   "ex": "もう登録したよ。",
-  "exvn": "I've registered already. (Tatoeba #12148207, small_snow, CC BY 2.0 FR)"
+  "exvn": "I've registered already. (Tatoeba #12148207, small_snow, CC BY 2.0 FR)",
+  "exf": "もう<ruby>登<rt>とう</rt></ruby><ruby>録<rt>ろく</rt></ruby>したよ。"
  },
  {
   "id": "w24-dashimasutegamio",
@@ -12809,7 +13111,8 @@ window.CARDS = [
   "romaji": "tetsudaimasu",
   "meaning": "giúp đỡ",
   "ex": "手伝いますね。",
-  "exvn": "We'll help you. (Tatoeba #10657913, small_snow, CC BY 2.0 FR)"
+  "exvn": "We'll help you. (Tatoeba #10657913, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>手<rt>て</rt></ruby><ruby>伝<rt>つだ</rt></ruby>いますね。"
  },
  {
   "id": "w25-yobimasuhanashimasu",
@@ -12842,7 +13145,8 @@ window.CARDS = [
   "romaji": "hajimemasu",
   "meaning": "bắt đầu",
   "ex": "私は来週、新しい仕事を始めます。",
-  "exvn": "I am going to start a new job next week. (Tatoeba #152416, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I am going to start a new job next week. (Tatoeba #152416, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>来<rt>らい</rt></ruby><ruby>週<rt>しゅう</rt></ruby>、<ruby>新<rt>あたら</rt></ruby>しい<ruby>仕<rt>し</rt></ruby><ruby>事<rt>ごと</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めます。"
  },
  {
   "id": "w25-furimasu",
@@ -12996,7 +13300,8 @@ window.CARDS = [
   "romaji": "tsukaimasu",
   "meaning": "dùng, sử dụng",
   "ex": "それを使います。",
-  "exvn": "I use it. (Tatoeba #159709, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "I use it. (Tatoeba #159709, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "それを<ruby>使<rt>つか</rt></ruby>います。"
  },
  {
   "id": "w25-suwarimasutachimasu",
@@ -13018,7 +13323,8 @@ window.CARDS = [
   "romaji": "massugu",
   "meaning": "thẳng",
   "ex": "まっすぐ前を見てください。",
-  "exvn": "Look forward, please. (Tatoeba #195363, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Look forward, please. (Tatoeba #195363, bunbuku, CC BY 2.0 FR)",
+  "exf": "まっすぐ<ruby>前<rt>まえ</rt></ruby>を<ruby>見<rt>み</rt></ruby>てください。"
  },
  {
   "id": "w25-mou",
@@ -13051,7 +13357,8 @@ window.CARDS = [
   "romaji": "otsuri",
   "meaning": "tiền thừa",
   "ex": "お釣りはいいです。",
-  "exvn": "Keep the change. (Tatoeba #9314776, small_snow, CC BY 2.0 FR)"
+  "exvn": "Keep the change. (Tatoeba #9314776, small_snow, CC BY 2.0 FR)",
+  "exf": "お<ruby>釣<rt>つ</rt></ruby>りはいいです。"
  },
  {
   "id": "w25-magarimasumigie",
@@ -13084,7 +13391,8 @@ window.CARDS = [
   "romaji": "tsukurimasu",
   "meaning": "làm, chế tạo",
   "ex": "今日はどんな料理を作りますか？",
-  "exvn": "What will you cook today? (Tatoeba #12270177, MathKay, CC BY 2.0 FR)"
+  "exvn": "What will you cook today? (Tatoeba #12270177, MathKay, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>はどんな<ruby>料<rt>りょう</rt></ruby><ruby>理<rt>り</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りますか？"
  },
  {
   "id": "w26-urimasu",
@@ -13117,7 +13425,8 @@ window.CARDS = [
   "romaji": "sumimasu",
   "meaning": "sống, cư trú",
   "ex": "私は来年からこの町に住みます。",
-  "exvn": "I will live in this town starting from the new year. (Tatoeba #10903710, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I will live in this town starting from the new year. (Tatoeba #10903710, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>来<rt>らい</rt></ruby><ruby>年<rt>ねん</rt></ruby>からこの<ruby>町<rt>まち</rt></ruby>に<ruby>住<rt>す</rt></ruby>みます。"
  },
  {
   "id": "w26-kenkyuushimasu",
@@ -13161,7 +13470,8 @@ window.CARDS = [
   "romaji": "senmon",
   "meaning": "chuyên môn, chuyên ngành",
   "ex": "君の専門は何？",
-  "exvn": "What's your major? (Tatoeba #1099055, mookeee, CC BY 2.0 FR)"
+  "exvn": "What's your major? (Tatoeba #1099055, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>君<rt>きみ</rt></ruby>の<ruby>専<rt>せん</rt></ruby><ruby>門<rt>もん</rt></ruby>は<ruby>何<rt>なに</rt></ruby>？"
  },
  {
   "id": "w26-dokushin",
@@ -13194,7 +13504,8 @@ window.CARDS = [
   "romaji": "irasshaimasu",
   "meaning": "có mặt, ở (dạng kính ngữ của います)",
   "ex": "お母さんはいらっしゃいますか。",
-  "exvn": "Is your mother at home? (Tatoeba #226613, mookeee, CC BY 2.0 FR)"
+  "exvn": "Is your mother at home? (Tatoeba #226613, mookeee, CC BY 2.0 FR)",
+  "exf": "お<ruby>母<rt>かあ</rt></ruby>さんはいらっしゃいますか。"
  },
  {
   "id": "w26-nipponbashi",
@@ -13238,7 +13549,8 @@ window.CARDS = [
   "romaji": "tokuni",
   "meaning": "đặc biệt là",
   "ex": "今朝は特に寒い。",
-  "exvn": "It is especially cold this morning. (Tatoeba #172252, bunbuku, CC BY 2.0 FR)"
+  "exvn": "It is especially cold this morning. (Tatoeba #172252, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>今朝<rt>けさ</rt></ruby>は<ruby>特<rt>とく</rt></ruby>に<ruby>寒<rt>さむ</rt></ruby>い。"
  },
  {
   "id": "w26-gokazoku",
@@ -13249,7 +13561,8 @@ window.CARDS = [
   "romaji": "gokazoku",
   "meaning": "gia đình (của người khác)",
   "ex": "ご家族はいますか。",
-  "exvn": "Do you have a family? (Tatoeba #237476, mookeee, CC BY 2.0 FR)"
+  "exvn": "Do you have a family? (Tatoeba #237476, mookeee, CC BY 2.0 FR)",
+  "exf": "ご<ruby>家<rt>か</rt></ruby><ruby>族<rt>ぞく</rt></ruby>はいますか。"
  },
  {
   "id": "w27-norimasuorimasu",
@@ -13271,7 +13584,8 @@ window.CARDS = [
   "romaji": "norikaemasu",
   "meaning": "đổi tàu, đổi xe",
   "ex": "次の駅で乗り換えます。",
-  "exvn": "We'll change trains at the next station. (Tatoeba #150313, bunbuku, CC BY 2.0 FR)"
+  "exvn": "We'll change trains at the next station. (Tatoeba #150313, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>駅<rt>えき</rt></ruby>で<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えます。"
  },
  {
   "id": "w27-abimasu",
@@ -13414,7 +13728,8 @@ window.CARDS = [
   "romaji": "denwa shimasu",
   "meaning": "gọi điện",
   "ex": "後で電話します。",
-  "exvn": "I'll call you back later. (Tatoeba #174334, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'll call you back later. (Tatoeba #174334, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>後<rt>あと</rt></ruby>で<ruby>電<rt>でん</rt></ruby><ruby>話<rt>わ</rt></ruby>します。"
  },
  {
   "id": "w27-se",
@@ -13502,7 +13817,8 @@ window.CARDS = [
   "romaji": "kakunin",
   "meaning": "xác nhận (かくにんします)",
   "ex": "ご確認ください。",
-  "exvn": "Please confirm. (Tatoeba #217189, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Please confirm. (Tatoeba #217189, bunbuku, CC BY 2.0 FR)",
+  "exf": "ご<ruby>確<rt>かく</rt></ruby><ruby>認<rt>にん</rt></ruby>ください。"
  },
  {
   "id": "w27-jr",
@@ -13546,7 +13862,8 @@ window.CARDS = [
   "romaji": "ajia",
   "meaning": "châu Á",
   "ex": "日本人はアジア人です。",
-  "exvn": "Japanese are Asians. (Tatoeba #772444, arihato, CC BY 2.0 FR)"
+  "exvn": "Japanese are Asians. (Tatoeba #772444, arihato, CC BY 2.0 FR)",
+  "exf": "<ruby>日<rt>に</rt></ruby><ruby>本<rt>ほん</rt></ruby><ruby>人<rt>じん</rt></ruby>はアジア<ruby>人<rt>じん</rt></ruby>です。"
  },
  {
   "id": "w27-kengakushimasu",
@@ -13623,7 +13940,8 @@ window.CARDS = [
   "romaji": "dekakemasu",
   "meaning": "đi ra ngoài",
   "ex": "いつ出かけますか。",
-  "exvn": "When will you leave? (Tatoeba #228646, mookeee, CC BY 2.0 FR)"
+  "exvn": "When will you leave? (Tatoeba #228646, mookeee, CC BY 2.0 FR)",
+  "exf": "いつ<ruby>出<rt>で</rt></ruby>かけますか。"
  },
  {
   "id": "w28-nugimasu",
@@ -13656,7 +13974,8 @@ window.CARDS = [
   "romaji": "shinpai",
   "meaning": "lo lắng",
   "ex": "心配ないよ。",
-  "exvn": "No need to worry. (Tatoeba #3459218, arnab, CC BY 2.0 FR)"
+  "exvn": "No need to worry. (Tatoeba #3459218, arnab, CC BY 2.0 FR)",
+  "exf": "<ruby>心<rt>しん</rt></ruby><ruby>配<rt>ぱい</rt></ruby>ないよ。"
  },
  {
   "id": "w28-zangyoushucchou",
@@ -13744,7 +14063,8 @@ window.CARDS = [
   "romaji": "taisetsu [na]",
   "meaning": "quan trọng, quý giá",
   "ex": "大切にします。",
-  "exvn": "I'll treasure it. (Tatoeba #137434, tommy_san, CC BY 2.0 FR)"
+  "exvn": "I'll treasure it. (Tatoeba #137434, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>大<rt>たい</rt></ruby><ruby>切<rt>せつ</rt></ruby>にします。"
  },
  {
   "id": "w28-abunai",
@@ -13810,7 +14130,8 @@ window.CARDS = [
   "romaji": "desukara",
   "meaning": "vì vậy, cho nên",
   "ex": "とても高いですから買いませんでした。",
-  "exvn": "Because it was very expensive, I did not buy it. (Tatoeba #6453904, Tanaka, CC BY 2.0 FR)"
+  "exvn": "Because it was very expensive, I did not buy it. (Tatoeba #6453904, Tanaka, CC BY 2.0 FR)",
+  "exf": "とても<ruby>高<rt>たか</rt></ruby>いですから<ruby>買<rt>か</rt></ruby>いませんでした。"
  },
  {
   "id": "w28-doushimashitaka",
@@ -13832,7 +14153,8 @@ window.CARDS = [
   "romaji": "nodo",
   "meaning": "cổ họng",
   "ex": "のどが痛いです。",
-  "exvn": "I have a sore throat. (Tatoeba #198561, wat, CC BY 2.0 FR)"
+  "exvn": "I have a sore throat. (Tatoeba #198561, wat, CC BY 2.0 FR)",
+  "exf": "のどが<ruby>痛<rt>いた</rt></ruby>いです。"
  },
  {
   "id": "w28-gaitaidesu",
@@ -13876,7 +14198,8 @@ window.CARDS = [
   "romaji": "araimasu",
   "meaning": "rửa, giặt",
   "ex": "私は毎朝顔を洗います。",
-  "exvn": "I wash my face every morning. (Tatoeba #152712, small_snow, CC BY 2.0 FR)"
+  "exvn": "I wash my face every morning. (Tatoeba #152712, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>毎<rt>まい</rt></ruby><ruby>朝<rt>あさ</rt></ruby><ruby>顔<rt>かお</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>います。"
  },
  {
   "id": "w29-hikimasu",
@@ -13887,7 +14210,8 @@ window.CARDS = [
   "romaji": "hikimasu",
   "meaning": "chơi (đàn)",
   "ex": "私はピアノを弾きます。",
-  "exvn": "I play the piano. (Tatoeba #159067, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I play the piano. (Tatoeba #159067, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はピアノを<ruby>弾<rt>ひ</rt></ruby>きます。"
  },
  {
   "id": "w29-utaimasu",
@@ -13898,7 +14222,8 @@ window.CARDS = [
   "romaji": "utaimasu",
   "meaning": "hát",
   "ex": "みんなで一緒に歌を歌います。",
-  "exvn": "We'll all sing together. (Tatoeba #10987714, small_snow, CC BY 2.0 FR)"
+  "exvn": "We'll all sing together. (Tatoeba #10987714, small_snow, CC BY 2.0 FR)",
+  "exf": "みんなで<ruby>一<rt>いっ</rt></ruby><ruby>緒<rt>しょ</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>を<ruby>歌<rt>うた</rt></ruby>います。"
  },
  {
   "id": "w29-atsumemasusutemasu",
@@ -13931,7 +14256,8 @@ window.CARDS = [
   "romaji": "unten shimasu",
   "meaning": "lái xe",
   "ex": "彼は車を運転しますよね？",
-  "exvn": "He drives a car, doesn't he? (Tatoeba #104641, mookeee, CC BY 2.0 FR)"
+  "exvn": "He drives a car, doesn't he? (Tatoeba #104641, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>車<rt>くるま</rt></ruby>を<ruby>運<rt>うん</rt></ruby><ruby>転<rt>てん</rt></ruby>しますよね？"
  },
  {
   "id": "w29-yoyakushimasukengakushimasu",
@@ -14019,7 +14345,8 @@ window.CARDS = [
   "romaji": "oinori",
   "meaning": "lời cầu nguyện (おいのりを します)",
   "ex": "お祈りしましょう。",
-  "exvn": "Let's pray. (Tatoeba #3488677, arnab, CC BY 2.0 FR)"
+  "exvn": "Let's pray. (Tatoeba #3488677, arnab, CC BY 2.0 FR)",
+  "exf": "お<ruby>祈<rt>いの</rt></ruby>りしましょう。"
  },
  {
   "id": "w29-hontoudesuka",
@@ -14041,7 +14368,8 @@ window.CARDS = [
   "romaji": "furusato",
   "meaning": "quê hương (cũng là tên bài hát 「ふるさと」)",
   "ex": "ここは私の故郷です。",
-  "exvn": "This is the village where I was born. (Tatoeba #224306, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "This is the village where I was born. (Tatoeba #224306, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "ここは<ruby>私<rt>わたし</rt></ruby>の<ruby>故<rt>こ</rt></ruby><ruby>郷<rt>きょう</rt></ruby>です。"
  },
  {
   "id": "w29-kokusai",
@@ -14063,7 +14391,8 @@ window.CARDS = [
   "romaji": "noborimasu",
   "meaning": "leo (núi)",
   "ex": "週末、友達と山に登ります。",
-  "exvn": "I'm going to climb a mountain with a friend this weekend. (Tatoeba #10918339, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'm going to climb a mountain with a friend this weekend. (Tatoeba #10918339, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>週<rt>しゅう</rt></ruby><ruby>末<rt>まつ</rt></ruby>、<ruby>友<rt>とも</rt></ruby><ruby>達<rt>だち</rt></ruby>と<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>ります。"
  },
  {
   "id": "w30-tomarimasu",
@@ -14074,7 +14403,8 @@ window.CARDS = [
   "romaji": "tomarimasu",
   "meaning": "trọ, nghỉ lại (ホテルに とまります)",
   "ex": "ホテルに泊まります。",
-  "exvn": "We'll stay at a hotel. (Tatoeba #10953998, small_snow, CC BY 2.0 FR)"
+  "exvn": "We'll stay at a hotel. (Tatoeba #10953998, small_snow, CC BY 2.0 FR)",
+  "exf": "ホテルに<ruby>泊<rt>と</rt></ruby>まります。"
  },
  {
   "id": "w30-soujishimasusentakushimasu",
@@ -14107,7 +14437,8 @@ window.CARDS = [
   "romaji": "narimasu",
   "meaning": "trở thành, trở nên",
   "ex": "いつ暇になりますか？",
-  "exvn": "When will you be free? (Tatoeba #177906, small_snow, CC BY 2.0 FR)"
+  "exvn": "When will you be free? (Tatoeba #177906, small_snow, CC BY 2.0 FR)",
+  "exf": "いつ<ruby>暇<rt>ひま</rt></ruby>になりますか？"
  },
  {
   "id": "w30-nemui",
@@ -14140,7 +14471,8 @@ window.CARDS = [
   "romaji": "choushi",
   "meaning": "tình trạng (ちょうしが いい／わるい)",
   "ex": "調子はどう？",
-  "exvn": "How is it going? (Tatoeba #8655852, small_snow, CC BY 2.0 FR)"
+  "exvn": "How is it going? (Tatoeba #8655852, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>調<rt>ちょう</rt></ruby><ruby>子<rt>し</rt></ruby>はどう？"
  },
  {
   "id": "w30-ichidoichidomo",
@@ -14173,7 +14505,8 @@ window.CARDS = [
   "romaji": "okagesama de",
   "meaning": "nhờ ơn trời, may nhờ bạn (đáp lại lời hỏi thăm)",
   "ex": "おかげさまで元気です。",
-  "exvn": "I'm fine, thank you. (Tatoeba #227762, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm fine, thank you. (Tatoeba #227762, bunbuku, CC BY 2.0 FR)",
+  "exf": "おかげさまで<ruby>元<rt>げん</rt></ruby><ruby>気<rt>き</rt></ruby>です。"
  },
  {
   "id": "w30-gorufusumoupachinko",
@@ -14195,7 +14528,8 @@ window.CARDS = [
   "romaji": "yowai",
   "meaning": "yếu",
   "ex": "私の足が弱い。",
-  "exvn": "My legs are weak. (Tatoeba #1135865, Scott, CC BY 2.0 FR)"
+  "exvn": "My legs are weak. (Tatoeba #1135865, Scott, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>の<ruby>足<rt>あし</rt></ruby>が<ruby>弱<rt>よわ</rt></ruby>い。"
  },
  {
   "id": "w30-renshuu",
@@ -14206,7 +14540,8 @@ window.CARDS = [
   "romaji": "renshuu",
   "meaning": "luyện tập (れんしゅうを します)",
   "ex": "毎日３時間練習してます。",
-  "exvn": "I practice three hours every day. (Tatoeba #10303703, small_snow, CC BY 2.0 FR)"
+  "exvn": "I practice three hours every day. (Tatoeba #10303703, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>毎<rt>まい</rt></ruby><ruby>日<rt>にち</rt></ruby><ruby>３<rt>さん</rt></ruby><ruby>時<rt>じ</rt></ruby><ruby>間<rt>かん</rt></ruby><ruby>練<rt>れん</rt></ruby><ruby>習<rt>しゅう</rt></ruby>してます。"
  },
  {
   "id": "w30-kanpai",
@@ -14228,7 +14563,8 @@ window.CARDS = [
   "romaji": "daietto",
   "meaning": "ăn kiêng (ダイエットを します)",
   "ex": "ダイエット中です。",
-  "exvn": "I'm on a diet. (Tatoeba #203991, arnab, CC BY 2.0 FR)"
+  "exvn": "I'm on a diet. (Tatoeba #203991, arnab, CC BY 2.0 FR)",
+  "exf": "ダイエット<ruby>中<rt>ちゅう</rt></ruby>です。"
  },
  {
   "id": "w30-murina",
@@ -14283,7 +14619,8 @@ window.CARDS = [
   "romaji": "jitsu wa",
   "meaning": "thật ra là",
   "ex": "実は、姉なんです。",
-  "exvn": "Actually, she's my older sister. (Tatoeba #11563505, small_snow, CC BY 2.0 FR)"
+  "exvn": "Actually, she's my older sister. (Tatoeba #11563505, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>実<rt>じつ</rt></ruby>は、<ruby>姉<rt>あね</rt></ruby>なんです。"
  },
  {
   "id": "w30-nankaimo",
@@ -14305,7 +14642,8 @@ window.CARDS = [
   "romaji": "shikashi",
   "meaning": "tuy nhiên",
   "ex": "しかし、車は欲しい。",
-  "exvn": "But I want a car. (Tatoeba #216308, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "But I want a car. (Tatoeba #216308, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "しかし、<ruby>車<rt>くるま</rt></ruby>は<ruby>欲<rt>ほ</rt></ruby>しい。"
  },
  {
   "id": "w30-hi",
@@ -14349,7 +14687,8 @@ window.CARDS = [
   "romaji": "kotoba",
   "meaning": "từ, ngôn ngữ",
   "ex": "言葉は大切ね。",
-  "exvn": "Language is important. (Tatoeba #12577570, small_snow, CC BY 2.0 FR)"
+  "exvn": "Language is important. (Tatoeba #12577570, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>言<rt>こと</rt></ruby><ruby>葉<rt>ば</rt></ruby>は<ruby>大<rt>たい</rt></ruby><ruby>切<rt>せつ</rt></ruby>ね。"
  },
  {
   "id": "w31-bukka",
@@ -14360,7 +14699,8 @@ window.CARDS = [
   "romaji": "bukka",
   "meaning": "giá cả, vật giá",
   "ex": "物価がとても高い国です。",
-  "exvn": "It's a very expensive country. (Tatoeba #13885230, small_snow, CC BY 2.0 FR)"
+  "exvn": "It's a very expensive country. (Tatoeba #13885230, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>物<rt>ぶっ</rt></ruby><ruby>価<rt>か</rt></ruby>がとても<ruby>高<rt>たか</rt></ruby>い<ruby>国<rt>くに</rt></ruby>です。"
  },
  {
   "id": "w31-kimonobiza",
@@ -14382,7 +14722,8 @@ window.CARDS = [
   "romaji": "irimasu",
   "meaning": "cần (ビザが いります)",
   "ex": "これ要ります？",
-  "exvn": "Do you need this? (Tatoeba #11041810, small_snow, CC BY 2.0 FR)"
+  "exvn": "Do you need this? (Tatoeba #11041810, small_snow, CC BY 2.0 FR)",
+  "exf": "これ<ruby>要<rt>い</rt></ruby>ります？"
  },
  {
   "id": "w31-shirabemasu",
@@ -14393,7 +14734,8 @@ window.CARDS = [
   "romaji": "shirabemasu",
   "meaning": "tra cứu, điều tra",
   "ex": "辞書で調べます。",
-  "exvn": "I will look it up in the dictionary. (Tatoeba #159702, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "I will look it up in the dictionary. (Tatoeba #159702, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>辞<rt>じ</rt></ruby><ruby>書<rt>しょ</rt></ruby>で<ruby>調<rt>しら</rt></ruby>べます。"
  },
  {
   "id": "w31-naoshimasushuurishimasu",
@@ -14503,7 +14845,8 @@ window.CARDS = [
   "romaji": "yokattara",
   "meaning": "nếu bạn thấy ổn, nếu được",
   "ex": "よかったら友達になりませんか？",
-  "exvn": "If it is ok, can you be my friend? (Tatoeba #3710330, tommy_san, CC BY 2.0 FR)"
+  "exvn": "If it is ok, can you be my friend? (Tatoeba #3710330, tommy_san, CC BY 2.0 FR)",
+  "exf": "よかったら<ruby>友<rt>とも</rt></ruby><ruby>達<rt>だち</rt></ruby>になりませんか？"
  },
  {
   "id": "w32-omoimasu",
@@ -14514,7 +14857,8 @@ window.CARDS = [
   "romaji": "omoimasu",
   "meaning": "nghĩ, cho rằng",
   "ex": "そう思います。",
-  "exvn": "I think so. (Tatoeba #213778, Ianagisacos, CC BY 2.0 FR)"
+  "exvn": "I think so. (Tatoeba #213778, Ianagisacos, CC BY 2.0 FR)",
+  "exf": "そう<ruby>思<rt>おも</rt></ruby>います。"
  },
  {
   "id": "w32-iimasu",
@@ -14525,7 +14869,8 @@ window.CARDS = [
   "romaji": "iimasu",
   "meaning": "nói",
   "ex": "この花は何と言いますか。",
-  "exvn": "What do you call this flower? (Tatoeba #222732, mookeee, CC BY 2.0 FR)"
+  "exvn": "What do you call this flower? (Tatoeba #222732, mookeee, CC BY 2.0 FR)",
+  "exf": "この<ruby>花<rt>はな</rt></ruby>は<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。"
  },
  {
   "id": "w32-tarimasu",
@@ -14558,7 +14903,8 @@ window.CARDS = [
   "romaji": "yaku ni tachimasu",
   "meaning": "có ích",
   "ex": "ちょっとした言葉が、とても役に立ちます。",
-  "exvn": "A little language goes a long way. (Tatoeba #9856575, small_snow, CC BY 2.0 FR)"
+  "exvn": "A little language goes a long way. (Tatoeba #9856575, small_snow, CC BY 2.0 FR)",
+  "exf": "ちょっとした<ruby>言<rt>こと</rt></ruby><ruby>葉<rt>ば</rt></ruby>が、とても<ruby>役<rt>やく</rt></ruby>に<ruby>立<rt>た</rt></ruby>ちます。"
  },
  {
   "id": "w32-mudafuben",
@@ -14580,7 +14926,8 @@ window.CARDS = [
   "romaji": "onaji",
   "meaning": "giống nhau, cùng",
   "ex": "同じ意見です。",
-  "exvn": "I agree. (Tatoeba #774830, marloncori, CC BY 2.0 FR)"
+  "exvn": "I agree. (Tatoeba #774830, marloncori, CC BY 2.0 FR)",
+  "exf": "<ruby>同<rt>おな</rt></ruby>じ<ruby>意<rt>い</rt></ruby><ruby>見<rt>けん</rt></ruby>です。"
  },
  {
   "id": "w32-sugoi",
@@ -14635,7 +14982,8 @@ window.CARDS = [
   "romaji": "iken",
   "meaning": "ý kiến",
   "ex": "同じ意見です。",
-  "exvn": "I agree. (Tatoeba #774830, marloncori, CC BY 2.0 FR)"
+  "exvn": "I agree. (Tatoeba #774830, marloncori, CC BY 2.0 FR)",
+  "exf": "<ruby>同<rt>おな</rt></ruby>じ<ruby>意<rt>い</rt></ruby><ruby>見<rt>けん</rt></ruby>です。"
  },
  {
   "id": "w32-hontouuso",
@@ -14690,7 +15038,8 @@ window.CARDS = [
   "romaji": "dezain",
   "meaning": "thiết kế",
   "ex": "彼がその車をデザインした。",
-  "exvn": "He designed the car. (Tatoeba #1168359, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He designed the car. (Tatoeba #1168359, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>がその<ruby>車<rt>くるま</rt></ruby>をデザインした。"
  },
  {
   "id": "w32-yume",
@@ -14712,7 +15061,8 @@ window.CARDS = [
   "romaji": "tensai",
   "meaning": "thiên tài",
   "ex": "私、天才かも！",
-  "exvn": "I might be a genius. (Tatoeba #12095501, small_snow, CC BY 2.0 FR)"
+  "exvn": "I might be a genius. (Tatoeba #12095501, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>、<ruby>天<rt>てん</rt></ruby><ruby>才<rt>さい</rt></ruby>かも！"
  },
  {
   "id": "w32-hanashi",
@@ -14734,7 +15084,8 @@ window.CARDS = [
   "romaji": "chikyuu",
   "meaning": "Trái Đất",
   "ex": "月は地球から遠い。",
-  "exvn": "The moon is distant from the earth. (Tatoeba #175635, tommy__san, CC BY 2.0 FR)"
+  "exvn": "The moon is distant from the earth. (Tatoeba #175635, tommy__san, CC BY 2.0 FR)",
+  "exf": "<ruby>月<rt>つき</rt></ruby>は<ruby>地<rt>ち</rt></ruby><ruby>球<rt>きゅう</rt></ruby>から<ruby>遠<rt>とお</rt></ruby>い。"
  },
  {
   "id": "w32-saikin",
@@ -14954,7 +15305,8 @@ window.CARDS = [
   "romaji": "sonna ni",
   "meaning": "đến mức đó (đi với phủ định)",
   "ex": "何がそんなに忙しいの？",
-  "exvn": "How come you're so busy? (Tatoeba #3552525, tommy_san, CC BY 2.0 FR)"
+  "exvn": "How come you're so busy? (Tatoeba #3552525, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なに</rt></ruby>がそんなに<ruby>忙<rt>いそが</rt></ruby>しいの？"
  },
  {
   "id": "w33-hakimasu",
@@ -15042,7 +15394,8 @@ window.CARDS = [
   "romaji": "kochira",
   "meaning": "đây (người, phía này, lịch sự)",
   "ex": "こちらは母です。",
-  "exvn": "This is my mother. (Tatoeba #373214, kotobaboke, CC BY 2.0 FR)"
+  "exvn": "This is my mother. (Tatoeba #373214, kotobaboke, CC BY 2.0 FR)",
+  "exf": "こちらは<ruby>母<rt>はは</rt></ruby>です。"
  },
  {
   "id": "w33-yachin",
@@ -15053,7 +15406,8 @@ window.CARDS = [
   "romaji": "yachin",
   "meaning": "tiền thuê nhà",
   "ex": "家賃は月いくらですか。",
-  "exvn": "How much is the rent per month? (Tatoeba #186913, bunbuku, CC BY 2.0 FR)"
+  "exvn": "How much is the rent per month? (Tatoeba #186913, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>家<rt>や</rt></ruby><ruby>賃<rt>ちん</rt></ruby>は<ruby>月<rt>つき</rt></ruby>いくらですか。"
  },
  {
   "id": "w33-dainingukicchinwashitsu",
@@ -15086,7 +15440,8 @@ window.CARDS = [
   "romaji": "tsugou",
   "meaning": "sự thuận tiện (つごうが いい／わるい)",
   "ex": "どこが都合がいい？",
-  "exvn": "Where's convenient for you? (Tatoeba #201006, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Where's convenient for you? (Tatoeba #201006, bunbuku, CC BY 2.0 FR)",
+  "exf": "どこが<ruby>都<rt>つ</rt></ruby><ruby>合<rt>ごう</rt></ruby>がいい？"
  },
  {
   "id": "w33-osagashidesuka",
@@ -15108,7 +15463,8 @@ window.CARDS = [
   "romaji": "dewa",
   "meaning": "vậy thì",
   "ex": "ではまた明日。",
-  "exvn": "See you again tomorrow. (Tatoeba #202140, bunbuku, CC BY 2.0 FR)"
+  "exvn": "See you again tomorrow. (Tatoeba #202140, bunbuku, CC BY 2.0 FR)",
+  "exf": "ではまた<ruby>明日<rt>あした</rt></ruby>。"
  },
  {
   "id": "w33-banrinochouj",
@@ -15240,7 +15596,8 @@ window.CARDS = [
   "romaji": "saizu",
   "meaning": "cỡ, kích cỡ",
   "ex": "靴のサイズはいくつ？",
-  "exvn": "What's your shoe size? (Tatoeba #10675609, bunbuku, CC BY 2.0 FR)"
+  "exvn": "What's your shoe size? (Tatoeba #10675609, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>靴<rt>くつ</rt></ruby>のサイズはいくつ？"
  },
  {
   "id": "w34-koshou",
@@ -15251,7 +15608,8 @@ window.CARDS = [
   "romaji": "koshou",
   "meaning": "hỏng hóc (こしょうします)",
   "ex": "テレビが故障した。",
-  "exvn": "My TV has broken down. (Tatoeba #202051, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "My TV has broken down. (Tatoeba #202051, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "テレビが<ruby>故<rt>こ</rt></ruby><ruby>障<rt>しょう</rt></ruby>した。"
  },
  {
   "id": "w34-michi",
@@ -15328,7 +15686,8 @@ window.CARDS = [
   "romaji": "kuremasu",
   "meaning": "cho (tôi, người trong nhóm tôi)",
   "ex": "案内してくれますか。",
-  "exvn": "Show me the way, will you? (Tatoeba #191238, small_snow, CC BY 2.0 FR)"
+  "exvn": "Show me the way, will you? (Tatoeba #191238, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>案<rt>あん</rt></ruby><ruby>内<rt>ない</rt></ruby>してくれますか。"
  },
  {
   "id": "w35-naoshimasu",
@@ -15339,7 +15698,8 @@ window.CARDS = [
   "romaji": "naoshimasu",
   "meaning": "sửa",
   "ex": "今から直します。",
-  "exvn": "I'll fix it now. (Tatoeba #2241832, tommy_san, CC BY 2.0 FR)"
+  "exvn": "I'll fix it now. (Tatoeba #2241832, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>今<rt>いま</rt></ruby>から<ruby>直<rt>なお</rt></ruby>します。"
  },
  {
   "id": "w35-tsureteikimasutsuretekimasu",
@@ -15361,7 +15721,8 @@ window.CARDS = [
   "romaji": "shoukai shimasu",
   "meaning": "giới thiệu",
   "ex": "兄を紹介します。",
-  "exvn": "I'll introduce you to my brother. (Tatoeba #10129180, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'll introduce you to my brother. (Tatoeba #10129180, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>兄<rt>あに</rt></ruby>を<ruby>紹<rt>しょう</rt></ruby><ruby>介<rt>かい</rt></ruby>します。"
  },
  {
   "id": "w35-annaishimasu",
@@ -15372,7 +15733,8 @@ window.CARDS = [
   "romaji": "annai shimasu",
   "meaning": "hướng dẫn, dẫn đường",
   "ex": "ご案内します。",
-  "exvn": "I'll guide you. (Tatoeba #10570941, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'll guide you. (Tatoeba #10570941, small_snow, CC BY 2.0 FR)",
+  "exf": "ご<ruby>案<rt>あん</rt></ruby><ruby>内<rt>ない</rt></ruby>します。"
  },
  {
   "id": "w35-setsumeishimasu",
@@ -15383,7 +15745,8 @@ window.CARDS = [
   "romaji": "setsumei shimasu",
   "meaning": "giải thích",
   "ex": "写真で説明します。",
-  "exvn": "I'll explain using photographs. (Tatoeba #2402543, wakatyann630, CC BY 2.0 FR)"
+  "exvn": "I'll explain using photographs. (Tatoeba #2402543, wakatyann630, CC BY 2.0 FR)",
+  "exf": "<ruby>写<rt>しゃ</rt></ruby><ruby>真<rt>しん</rt></ruby>で<ruby>説<rt>せつ</rt></ruby><ruby>明<rt>めい</rt></ruby>します。"
  },
  {
   "id": "w35-iremasu",
@@ -15394,7 +15757,8 @@ window.CARDS = [
   "romaji": "iremasu",
   "meaning": "pha (cà phê, trà)",
   "ex": "砂糖は入れますか。",
-  "exvn": "Would you like some sugar? (Tatoeba #170877, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Would you like some sugar? (Tatoeba #170877, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>砂<rt>さ</rt></ruby><ruby>糖<rt>とう</rt></ruby>は<ruby>入<rt>い</rt></ruby>れますか。"
  },
  {
   "id": "w35-ojiisanobaasan",
@@ -15438,7 +15802,8 @@ window.CARDS = [
   "romaji": "jibun de",
   "meaning": "tự mình",
   "ex": "自分でします。",
-  "exvn": "I will do it myself. (Tatoeba #156296, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "I will do it myself. (Tatoeba #156296, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>自<rt>じ</rt></ruby><ruby>分<rt>ぶん</rt></ruby>でします。"
  },
  {
   "id": "w35-ojiisanojiichan",
@@ -15471,7 +15836,8 @@ window.CARDS = [
   "romaji": "zenbu",
   "meaning": "tất cả",
   "ex": "それで全部？",
-  "exvn": "Is that all? (Tatoeba #3507409, arnab, CC BY 2.0 FR)"
+  "exvn": "Is that all? (Tatoeba #3507409, arnab, CC BY 2.0 FR)",
+  "exf": "それで<ruby>全<rt>ぜん</rt></ruby><ruby>部<rt>ぶ</rt></ruby>？"
  },
  {
   "id": "w35-hokani",
@@ -15482,7 +15848,8 @@ window.CARDS = [
   "romaji": "hoka ni",
   "meaning": "ngoài ra",
   "ex": "ほかに欲しい物はありますか？",
-  "exvn": "Is there anything else you want? (Tatoeba #11013767, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "Is there anything else you want? (Tatoeba #11013767, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "ほかに<ruby>欲<rt>ほ</rt></ruby>しい<ruby>物<rt>もの</rt></ruby>はありますか？"
  },
  {
   "id": "w35-hahanohi",
@@ -15504,7 +15871,8 @@ window.CARDS = [
   "romaji": "imi",
   "meaning": "ý nghĩa",
   "ex": "意味は分かります。",
-  "exvn": "I'm catching on. (Tatoeba #191036, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm catching on. (Tatoeba #191036, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>意<rt>い</rt></ruby><ruby>味<rt>み</rt></ruby>は<ruby>分<rt>わ</rt></ruby>かります。"
  },
  {
   "id": "w36-kangaemasu",
@@ -15526,7 +15894,8 @@ window.CARDS = [
   "romaji": "tsukimasu",
   "meaning": "đến (nơi)",
   "ex": "明日荷物が着きます。",
-  "exvn": "Your luggage will arrive tomorrow. (Tatoeba #10954009, small_snow, CC BY 2.0 FR)"
+  "exvn": "Your luggage will arrive tomorrow. (Tatoeba #10954009, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>明日<rt>あした</rt></ruby><ruby>荷<rt>に</rt></ruby><ruby>物<rt>もつ</rt></ruby>が<ruby>着<rt>つ</rt></ruby>きます。"
  },
  {
   "id": "w36-moshiikura",
@@ -15581,7 +15950,8 @@ window.CARDS = [
   "romaji": "chansu",
   "meaning": "cơ hội",
   "ex": "もう一度チャンスをください。",
-  "exvn": "Please give me another chance. (Tatoeba #9687097, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Please give me another chance. (Tatoeba #9687097, bunbuku, CC BY 2.0 FR)",
+  "exf": "もう<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby>チャンスをください。"
  },
  {
   "id": "w36-tenkin",
@@ -15603,7 +15973,8 @@ window.CARDS = [
   "romaji": "koto",
   "meaning": "việc, chuyện (～の こと)",
   "ex": "僕のこと好き？",
-  "exvn": "Do you love me? (Tatoeba #82218, tommy_san, CC BY 2.0 FR)"
+  "exvn": "Do you love me? (Tatoeba #82218, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>僕<rt>ぼく</rt></ruby>のこと<ruby>好<rt>す</rt></ruby>き？"
  },
  {
   "id": "w36-iroiroosewaninarimashita",
@@ -15647,7 +16018,8 @@ window.CARDS = [
   "romaji": "guruupu",
   "meaning": "nhóm",
   "ex": "学生のグループが一緒に歩きます。",
-  "exvn": "The group of students all walk together. (Tatoeba #10951072, small_snow, CC BY 2.0 FR)"
+  "exvn": "The group of students all walk together. (Tatoeba #10951072, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>学<rt>がく</rt></ruby><ruby>生<rt>せい</rt></ruby>のグループが<ruby>一<rt>いっ</rt></ruby><ruby>緒<rt>しょ</rt></ruby>に<ruby>歩<rt>ある</rt></ruby>きます。"
  },
  {
   "id": "w36-ippainomimashou",
@@ -15691,7 +16063,8 @@ window.CARDS = [
   "romaji": "sanka shimasu",
   "meaning": "tham gia",
   "ex": "会議には参加しますよ。",
-  "exvn": "I'll attend the meeting. (Tatoeba #10503517, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'll attend the meeting. (Tatoeba #10503517, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>会<rt>かい</rt></ruby><ruby>議<rt>ぎ</rt></ruby>には<ruby>参<rt>さん</rt></ruby><ruby>加<rt>か</rt></ruby>しますよ。"
  },
  {
   "id": "w37-moushikomimasu",
@@ -15746,7 +16119,8 @@ window.CARDS = [
   "romaji": "renraku shimasu",
   "meaning": "liên lạc",
   "ex": "また連絡します。",
-  "exvn": "We'll be in touch. (Tatoeba #3357837, arnab, CC BY 2.0 FR)"
+  "exvn": "We'll be in touch. (Tatoeba #3357837, arnab, CC BY 2.0 FR)",
+  "exf": "また<ruby>連<rt>れん</rt></ruby><ruby>絡<rt>らく</rt></ruby>します。"
  },
  {
   "id": "w37-komarimasu",
@@ -15779,7 +16153,8 @@ window.CARDS = [
   "romaji": "choudo",
   "meaning": "vừa đúng, vừa mới",
   "ex": "ちょうど今は忙しい。",
-  "exvn": "I'm busy at the moment. (Tatoeba #202918, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm busy at the moment. (Tatoeba #202918, bunbuku, CC BY 2.0 FR)",
+  "exf": "ちょうど<ruby>今<rt>いま</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しい。"
  },
  {
   "id": "w37-hiroimasu",
@@ -15823,7 +16198,8 @@ window.CARDS = [
   "romaji": "basho",
   "meaning": "nơi, chỗ",
   "ex": "場所教えて。",
-  "exvn": "Tell me where it is. (Tatoeba #10906700, small_snow, CC BY 2.0 FR)"
+  "exvn": "Tell me where it is. (Tatoeba #10906700, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>場<rt>ば</rt></ruby><ruby>所<rt>しょ</rt></ruby><ruby>教<rt>おし</rt></ruby>えて。"
  },
  {
   "id": "w37-borantia",
@@ -15834,7 +16210,8 @@ window.CARDS = [
   "romaji": "borantia",
   "meaning": "tình nguyện viên",
   "ex": "ボランティアの方はいらっしゃいますか？",
-  "exvn": "Are there any volunteers? (Tatoeba #8689122, small_snow, CC BY 2.0 FR)"
+  "exvn": "Are there any volunteers? (Tatoeba #8689122, small_snow, CC BY 2.0 FR)",
+  "exf": "ボランティアの<ruby>方<rt>かた</rt></ruby>はいらっしゃいますか？"
  },
  {
   "id": "w37-heijitsu",
@@ -15845,7 +16222,8 @@ window.CARDS = [
   "romaji": "heijitsu",
   "meaning": "ngày thường",
   "ex": "平日はいつも人が少ないです。",
-  "exvn": "On weekdays, there are always fewer people. (Tatoeba #11283960, small_snow, CC BY 2.0 FR)"
+  "exvn": "On weekdays, there are always fewer people. (Tatoeba #11283960, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>平<rt>へい</rt></ruby><ruby>日<rt>じつ</rt></ruby>はいつも<ruby>人<rt>ひと</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないです。"
  },
  {
   "id": "w37-ben",
@@ -15867,7 +16245,8 @@ window.CARDS = [
   "romaji": "kondo",
   "meaning": "lần tới, lần này",
   "ex": "今度はがんばります。",
-  "exvn": "I'll try not to disappoint you next time. (Tatoeba #172109, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'll try not to disappoint you next time. (Tatoeba #172109, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>今<rt>こん</rt></ruby><ruby>度<rt>ど</rt></ruby>はがんばります。"
  },
  {
   "id": "w37-zuibun",
@@ -15955,7 +16334,8 @@ window.CARDS = [
   "romaji": "gasu",
   "meaning": "ga",
   "ex": "ガスは止めた？",
-  "exvn": "Did you turn off the gas? (Tatoeba #3416687, arnab, CC BY 2.0 FR)"
+  "exvn": "Did you turn off the gas? (Tatoeba #3416687, arnab, CC BY 2.0 FR)",
+  "exf": "ガスは<ruby>止<rt>と</rt></ruby>めた？"
  },
  {
   "id": "w37-uchuuuchuusenuchuusuteeshonuchuuhikoushi",
@@ -16087,7 +16467,8 @@ window.CARDS = [
   "romaji": "betsu no",
   "meaning": "khác, riêng",
   "ex": "別のが欲しい。",
-  "exvn": "I want another. (Tatoeba #8817030, small_snow, CC BY 2.0 FR)"
+  "exvn": "I want another. (Tatoeba #8817030, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>別<rt>べつ</rt></ruby>のが<ruby>欲<rt>ほ</rt></ruby>しい。"
  },
  {
   "id": "w37-gaisha",
@@ -16109,7 +16490,8 @@ window.CARDS = [
   "romaji": "hashirimasu",
   "meaning": "chạy",
   "ex": "私は走ります。",
-  "exvn": "I run. (Tatoeba #155349, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "I run. (Tatoeba #155349, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>走<rt>はし</rt></ruby>ります。"
  },
  {
   "id": "w38-miemasukikoemasu",
@@ -16131,7 +16513,8 @@ window.CARDS = [
   "romaji": "hirakimasu",
   "meaning": "mở, tổ chức (lớp, cửa hàng)",
   "ex": "ドアが開きます。",
-  "exvn": "The door opens. (Tatoeba #8888550, mochico, CC BY 2.0 FR)"
+  "exvn": "The door opens. (Tatoeba #8888550, mochico, CC BY 2.0 FR)",
+  "exf": "ドアが<ruby>開<rt>ひら</rt></ruby>きます。"
  },
  {
   "id": "w38-pettotori",
@@ -16186,7 +16569,8 @@ window.CARDS = [
   "romaji": "jiyuu ni",
   "meaning": "tự do, thoải mái",
   "ex": "どうぞ、ご自由にみてください。",
-  "exvn": "Please go ahead and take a look at your leisure. (Tatoeba #2461914, flavio78, CC BY 2.0 FR)"
+  "exvn": "Please go ahead and take a look at your leisure. (Tatoeba #2461914, flavio78, CC BY 2.0 FR)",
+  "exf": "どうぞ、ご<ruby>自<rt>じ</rt></ruby><ruby>由<rt>ゆう</rt></ruby>にみてください。"
  },
  {
   "id": "w38-shika",
@@ -16208,7 +16592,8 @@ window.CARDS = [
   "romaji": "hoka no",
   "meaning": "khác, ngoài ra",
   "ex": "他のものはないの？",
-  "exvn": "Isn't there anything else? (Tatoeba #4561554, Kiraness, CC BY 2.0 FR)"
+  "exvn": "Isn't there anything else? (Tatoeba #4561554, Kiraness, CC BY 2.0 FR)",
+  "exf": "<ruby>他<rt>ほか</rt></ruby>のものはないの？"
  },
  {
   "id": "w38-kuriiningu",
@@ -16219,7 +16604,8 @@ window.CARDS = [
   "romaji": "kuriiningu",
   "meaning": "giặt là",
   "ex": "クリーニング屋はどこですか？",
-  "exvn": "Where is the laundry? (Tatoeba #1700965, mookeee, CC BY 2.0 FR)"
+  "exvn": "Where is the laundry? (Tatoeba #1700965, mookeee, CC BY 2.0 FR)",
+  "exf": "クリーニング<ruby>屋<rt>や</rt></ruby>はどこですか？"
  },
  {
   "id": "w38-iemanshonkicchinpaatiiruumu",
@@ -16241,7 +16627,8 @@ window.CARDS = [
   "romaji": "hakkiri",
   "meaning": "rõ ràng",
   "ex": "はっきり見えますか？",
-  "exvn": "Can you see it clearly? (Tatoeba #13537593, LeviHighway, CC BY 2.0 FR)"
+  "exvn": "Can you see it clearly? (Tatoeba #13537593, LeviHighway, CC BY 2.0 FR)",
+  "exf": "はっきり<ruby>見<rt>み</rt></ruby>えますか？"
  },
  {
   "id": "w38-kagu",
@@ -16252,7 +16639,8 @@ window.CARDS = [
   "romaji": "kagu",
   "meaning": "đồ nội thất",
   "ex": "家具屋に行きましょう。",
-  "exvn": "Let's go to the furniture store. (Tatoeba #12484055, Lumi, CC BY 2.0 FR)"
+  "exvn": "Let's go to the furniture store. (Tatoeba #12484055, Lumi, CC BY 2.0 FR)",
+  "exf": "<ruby>家<rt>か</rt></ruby><ruby>具<rt>ぐ</rt></ruby><ruby>屋<rt>や</rt></ruby>に<ruby>行<rt>い</rt></ruby>きましょう。"
  },
  {
   "id": "w38-subarashii",
@@ -16263,7 +16651,8 @@ window.CARDS = [
   "romaji": "subarashii",
   "meaning": "tuyệt vời",
   "ex": "すばらしい家ですね。",
-  "exvn": "This is a splendid house. (Tatoeba #214567, bunbuku, CC BY 2.0 FR)"
+  "exvn": "This is a splendid house. (Tatoeba #214567, bunbuku, CC BY 2.0 FR)",
+  "exf": "すばらしい<ruby>家<rt>いえ</rt></ruby>ですね。"
  },
  {
   "id": "w38-kodomotachi",
@@ -16274,7 +16663,8 @@ window.CARDS = [
   "romaji": "kodomotachi",
   "meaning": "bọn trẻ",
   "ex": "私の子どもたちは動物が大好きです。",
-  "exvn": "My children really like animals. (Tatoeba #163523, Blanka_Meduzo, CC BY 2.0 FR)"
+  "exvn": "My children really like animals. (Tatoeba #163523, Blanka_Meduzo, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>の<ruby>子<rt>こ</rt></ruby>どもたちは<ruby>動<rt>どう</rt></ruby><ruby>物<rt>ぶつ</rt></ruby>が<ruby>大<rt>だい</rt></ruby><ruby>好<rt>す</rt></ruby>きです。"
  },
  {
   "id": "w38-daisukina",
@@ -16318,7 +16708,8 @@ window.CARDS = [
   "romaji": "tatoeba",
   "meaning": "ví dụ như",
   "ex": "例えば、英語が好きですか。",
-  "exvn": "For example, do you like English? (Tatoeba #337412, Swift, CC BY 2.0 FR)"
+  "exvn": "For example, do you like English? (Tatoeba #337412, Swift, CC BY 2.0 FR)",
+  "exf": "<ruby>例<rt>たと</rt></ruby>えば、<ruby>英<rt>えい</rt></ruby><ruby>語<rt>ご</rt></ruby>が<ruby>好<rt>す</rt></ruby>きですか。"
  },
  {
   "id": "w38-tobimasu",
@@ -16329,7 +16720,8 @@ window.CARDS = [
   "romaji": "tobimasu",
   "meaning": "bay",
   "ex": "ドイツに飛びます。",
-  "exvn": "I'll be flying to Germany. (Tatoeba #11286127, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'll be flying to Germany. (Tatoeba #11286127, small_snow, CC BY 2.0 FR)",
+  "exf": "ドイツに<ruby>飛<rt>と</rt></ruby>びます。"
  },
  {
   "id": "w38-jibun",
@@ -16340,7 +16732,8 @@ window.CARDS = [
   "romaji": "jibun",
   "meaning": "bản thân",
   "ex": "自分でします。",
-  "exvn": "I will do it myself. (Tatoeba #156296, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "I will do it myself. (Tatoeba #156296, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>自<rt>じ</rt></ruby><ruby>分<rt>ぶん</rt></ruby>でします。"
  },
  {
   "id": "w38-shourai",
@@ -16351,7 +16744,8 @@ window.CARDS = [
   "romaji": "shourai",
   "meaning": "tương lai",
   "ex": "将来が心配で。",
-  "exvn": "I worry about my future. (Tatoeba #11161625, small_snow, CC BY 2.0 FR)"
+  "exvn": "I worry about my future. (Tatoeba #11161625, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>将<rt>しょう</rt></ruby><ruby>来<rt>らい</rt></ruby>が<ruby>心<rt>しん</rt></ruby><ruby>配<rt>ぱい</rt></ruby>で。"
  },
  {
   "id": "w38-tsuushinhanbai",
@@ -16373,7 +16767,8 @@ window.CARDS = [
   "romaji": "daidokoro",
   "meaning": "bếp",
   "ex": "台所はどこ？",
-  "exvn": "Where's the kitchen? (Tatoeba #8532899, small_snow, CC BY 2.0 FR)"
+  "exvn": "Where's the kitchen? (Tatoeba #8532899, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>台<rt>だい</rt></ruby><ruby>所<rt>どころ</rt></ruby>はどこ？"
  },
  {
   "id": "w38-hotondo",
@@ -16384,7 +16779,8 @@ window.CARDS = [
   "romaji": "hotondo",
   "meaning": "hầu như",
   "ex": "本はほとんどない。",
-  "exvn": "They have few books. (Tatoeba #81647, bunbuku, CC BY 2.0 FR)"
+  "exvn": "They have few books. (Tatoeba #81647, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>本<rt>ほん</rt></ruby>はほとんどない。"
  },
  {
   "id": "w38-kansaikuukouizu",
@@ -16439,7 +16835,8 @@ window.CARDS = [
   "romaji": "itsuka",
   "meaning": "một ngày nào đó",
   "ex": "いつか電話してよ。",
-  "exvn": "Call me sometime. (Tatoeba #228981, small_snow, CC BY 2.0 FR)"
+  "exvn": "Call me sometime. (Tatoeba #228981, small_snow, CC BY 2.0 FR)",
+  "exf": "いつか<ruby>電<rt>でん</rt></ruby><ruby>話<rt>わ</rt></ruby>してよ。"
  },
  {
   "id": "w38-tatemasu",
@@ -16472,7 +16869,8 @@ window.CARDS = [
   "romaji": "tsukemasu",
   "meaning": "gắn, bật",
   "ex": "私は毎日日記をつけます。",
-  "exvn": "I keep my diary every day. (Tatoeba #152695, mookeee, CC BY 2.0 FR)"
+  "exvn": "I keep my diary every day. (Tatoeba #152695, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>毎<rt>まい</rt></ruby><ruby>日<rt>にち</rt></ruby><ruby>日<rt>にっ</rt></ruby><ruby>記<rt>き</rt></ruby>をつけます。"
  },
  {
   "id": "w39-uremasu",
@@ -16681,7 +17079,8 @@ window.CARDS = [
   "romaji": "taitei",
   "meaning": "thường thường",
   "ex": "たいてい歩いて行きます。",
-  "exvn": "I usually walk. (Tatoeba #203916, arnab, CC BY 2.0 FR)"
+  "exvn": "I usually walk. (Tatoeba #203916, arnab, CC BY 2.0 FR)",
+  "exf": "たいてい<ruby>歩<rt>ある</rt></ruby>いて<ruby>行<rt>い</rt></ruby>きます。"
  },
  {
   "id": "w39-soreni",
@@ -16692,7 +17091,8 @@ window.CARDS = [
   "romaji": "sore ni",
   "meaning": "hơn nữa",
   "ex": "私、それに目がないのよ。",
-  "exvn": "I really do love it. (Tatoeba #8871863, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I really do love it. (Tatoeba #8871863, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>、それに<ruby>目<rt>め</rt></ruby>がないのよ。"
  },
  {
   "id": "w39-sorede",
@@ -16703,7 +17103,8 @@ window.CARDS = [
   "romaji": "sorede",
   "meaning": "vì vậy, thế nên",
   "ex": "それで全部？",
-  "exvn": "Is that all? (Tatoeba #3507409, arnab, CC BY 2.0 FR)"
+  "exvn": "Is that all? (Tatoeba #3507409, arnab, CC BY 2.0 FR)",
+  "exf": "それで<ruby>全<rt>ぜん</rt></ruby><ruby>部<rt>ぶ</rt></ruby>？"
  },
  {
   "id": "w39-chottoonegaigaarundesuga",
@@ -16736,7 +17137,8 @@ window.CARDS = [
   "romaji": "oshirase",
   "meaning": "thông báo",
   "ex": "お知らせください。",
-  "exvn": "Please let us know. (Tatoeba #226882, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Please let us know. (Tatoeba #226882, bunbuku, CC BY 2.0 FR)",
+  "exf": "お<ruby>知<rt>し</rt></ruby>らせください。"
  },
  {
   "id": "w39-hinichi",
@@ -16747,7 +17149,8 @@ window.CARDS = [
   "romaji": "hinichi",
   "meaning": "ngày tháng",
   "ex": "日にちはどのくらいかかりますか。",
-  "exvn": "How long will it take? (Tatoeba #122926, mookeee, CC BY 2.0 FR)"
+  "exvn": "How long will it take? (Tatoeba #122926, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>日<rt>ひ</rt></ruby>にちはどのくらいかかりますか。"
  },
  {
   "id": "w39-do",
@@ -16846,7 +17249,8 @@ window.CARDS = [
   "romaji": "shuukan",
   "meaning": "thói quen, tập quán",
   "ex": "習慣になりました。",
-  "exvn": "It has become habit. (Tatoeba #11563298, small_snow, CC BY 2.0 FR)"
+  "exvn": "It has become habit. (Tatoeba #11563298, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>習<rt>しゅう</rt></ruby><ruby>慣<rt>かん</rt></ruby>になりました。"
  },
  {
   "id": "w40-akimasushimarimasu",
@@ -16923,7 +17327,8 @@ window.CARDS = [
   "romaji": "mitsukarimasu",
   "meaning": "được tìm thấy",
   "ex": "きっと見つかりますよ。",
-  "exvn": "You can't miss it. (Tatoeba #226023, tommy__san, CC BY 2.0 FR)"
+  "exvn": "You can't miss it. (Tatoeba #226023, tommy__san, CC BY 2.0 FR)",
+  "exf": "きっと<ruby>見<rt>み</rt></ruby>つかりますよ。"
  },
  {
   "id": "w40-saifufukuro",
@@ -16945,7 +17350,8 @@ window.CARDS = [
   "romaji": "kono hen",
   "meaning": "quanh đây",
   "ex": "この辺は寒いよ。",
-  "exvn": "It's cold around here. (Tatoeba #9972244, small_snow, CC BY 2.0 FR)"
+  "exvn": "It's cold around here. (Tatoeba #9972244, small_snow, CC BY 2.0 FR)",
+  "exf": "この<ruby>辺<rt>へん</rt></ruby>は<ruby>寒<rt>さむ</rt></ruby>いよ。"
  },
  {
   "id": "w40-hazuremasubotanga",
@@ -17011,7 +17417,8 @@ window.CARDS = [
   "romaji": "shorui",
   "meaning": "giấy tờ, tài liệu",
   "ex": "その書類をもう一度調べた。",
-  "exvn": "We checked the document again. (Tatoeba #209397, bunbuku, CC BY 2.0 FR)"
+  "exvn": "We checked the document again. (Tatoeba #209397, bunbuku, CC BY 2.0 FR)",
+  "exf": "その<ruby>書<rt>しょ</rt></ruby><ruby>類<rt>るい</rt></ruby>をもう<ruby>一<rt>いち</rt></ruby><ruby>度<rt>ど</rt></ruby><ruby>調<rt>しら</rt></ruby>べた。"
  },
  {
   "id": "w40-ekiin",
@@ -17022,7 +17429,8 @@ window.CARDS = [
   "romaji": "ekiin",
   "meaning": "nhân viên nhà ga",
   "ex": "私は駅員に切符を見せました。",
-  "exvn": "I showed the station attendant my ticket. (Tatoeba #10899803, small_snow, CC BY 2.0 FR)"
+  "exvn": "I showed the station attendant my ticket. (Tatoeba #10899803, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>駅<rt>えき</rt></ruby><ruby>員<rt>いん</rt></ruby>に<ruby>切<rt>きっ</rt></ruby><ruby>符<rt>ぷ</rt></ruby>を<ruby>見<rt>み</rt></ruby>せました。"
  },
  {
   "id": "w40-henji",
@@ -17033,7 +17441,8 @@ window.CARDS = [
   "romaji": "henji",
   "meaning": "câu trả lời (へんじを します)",
   "ex": "返事がない。",
-  "exvn": "There is no reply. (Tatoeba #10901650, small_snow, CC BY 2.0 FR)"
+  "exvn": "There is no reply. (Tatoeba #10901650, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>返<rt>へん</rt></ruby><ruby>事<rt>じ</rt></ruby>がない。"
  },
  {
   "id": "w40-osakinidouzo",
@@ -17143,7 +17552,8 @@ window.CARDS = [
   "romaji": "shinjuku",
   "meaning": "Shinjuku",
   "ex": "明日の朝、新宿に行きましょう。",
-  "exvn": "Let's go to Shinjuku tomorrow morning. (Tatoeba #808712, ryanthewired, CC BY 2.0 FR)"
+  "exvn": "Let's go to Shinjuku tomorrow morning. (Tatoeba #808712, ryanthewired, CC BY 2.0 FR)",
+  "exf": "<ruby>明日<rt>あした</rt></ruby>の<ruby>朝<rt>あさ</rt></ruby>、<ruby>新<rt>しん</rt></ruby><ruby>宿<rt>じゅく</rt></ruby>に<ruby>行<rt>い</rt></ruby>きましょう。"
  },
  {
   "id": "w40-hari",
@@ -17176,7 +17586,8 @@ window.CARDS = [
   "romaji": "ekimae",
   "meaning": "khu vực trước ga",
   "ex": "駅前にいい店があります。",
-  "exvn": "There is a good restaurant in front of the station. (Tatoeba #10987713, small_snow, CC BY 2.0 FR)"
+  "exvn": "There is a good restaurant in front of the station. (Tatoeba #10987713, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>駅<rt>えき</rt></ruby><ruby>前<rt>まえ</rt></ruby>にいい<ruby>店<rt>てん</rt></ruby>があります。"
  },
  {
   "id": "w40-taoremasu",
@@ -17418,7 +17829,8 @@ window.CARDS = [
   "romaji": "kimemasu",
   "meaning": "quyết định",
   "ex": "後で決めます。",
-  "exvn": "I'll decide later. (Tatoeba #5185677, aoi0913, CC BY 2.0 FR)"
+  "exvn": "I'll decide later. (Tatoeba #5185677, aoi0913, CC BY 2.0 FR)",
+  "exf": "<ruby>後<rt>あと</rt></ruby>で<ruby>決<rt>き</rt></ruby>めます。"
  },
  {
   "id": "w41-yoshuushimasufukushuushimasu",
@@ -17462,7 +17874,8 @@ window.CARDS = [
   "romaji": "miitingu",
   "meaning": "cuộc họp (ngắn)",
   "ex": "ミーティングは終わりました。",
-  "exvn": "The meeting was closed. (Tatoeba #1282980, bunbuku, CC BY 2.0 FR)"
+  "exvn": "The meeting was closed. (Tatoeba #1282980, bunbuku, CC BY 2.0 FR)",
+  "exf": "ミーティングは<ruby>終<rt>お</rt></ruby>わりました。"
  },
  {
   "id": "w41-yoteiyoteihyou",
@@ -17583,7 +17996,8 @@ window.CARDS = [
   "romaji": "marui",
   "meaning": "tròn",
   "ex": "地球は丸い。",
-  "exvn": "The earth is round. (Tatoeba #126969, bunbuku, CC BY 2.0 FR)"
+  "exvn": "The earth is round. (Tatoeba #126969, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>地<rt>ち</rt></ruby><ruby>球<rt>きゅう</rt></ruby>は<ruby>丸<rt>まる</rt></ruby>い。"
  },
  {
   "id": "w41-aru",
@@ -17638,7 +18052,8 @@ window.CARDS = [
   "romaji": "suru to",
   "meaning": "thế là, rồi thì",
   "ex": "私がああすると痛い？",
-  "exvn": "Does it hurt when I do that? (Tatoeba #9065795, small_snow, CC BY 2.0 FR)"
+  "exvn": "Does it hurt when I do that? (Tatoeba #9065795, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>がああすると<ruby>痛<rt>いた</rt></ruby>い？"
  },
  {
   "id": "w41-megasamemasu",
@@ -17682,7 +18097,8 @@ window.CARDS = [
   "romaji": "okosan",
   "meaning": "con (của người khác)",
   "ex": "お子さんはおいくつですか？",
-  "exvn": "How old are your children? (Tatoeba #3574891, tommy_san, CC BY 2.0 FR)"
+  "exvn": "How old are your children? (Tatoeba #3574891, tommy_san, CC BY 2.0 FR)",
+  "exf": "お<ruby>子<rt>こ</rt></ruby>さんはおいくつですか？"
  },
  {
   "id": "w41-annaisho",
@@ -17726,7 +18142,8 @@ window.CARDS = [
   "romaji": "kibou",
   "meaning": "nguyện vọng, mong muốn",
   "ex": "あまり希望がない。",
-  "exvn": "There is not much hope. (Tatoeba #230333, small_snow, CC BY 2.0 FR)"
+  "exvn": "There is not much hope. (Tatoeba #230333, small_snow, CC BY 2.0 FR)",
+  "exf": "あまり<ruby>希<rt>き</rt></ruby><ruby>望<rt>ぼう</rt></ruby>がない。"
  },
  {
   "id": "w41-nanikagokibougaarimasuka",
@@ -17781,7 +18198,8 @@ window.CARDS = [
   "romaji": "mitsukemasu",
   "meaning": "tìm thấy",
   "ex": "これから見つけます。",
-  "exvn": "I'll find one later. (Tatoeba #218959, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "I'll find one later. (Tatoeba #218959, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "これから<ruby>見<rt>み</rt></ruby>つけます。"
  },
  {
   "id": "w42-ukemasushikeno",
@@ -17803,7 +18221,8 @@ window.CARDS = [
   "romaji": "kyuukei shimasu",
   "meaning": "nghỉ giải lao",
   "ex": "私はこれから少し休憩します。",
-  "exvn": "I'm going to take a short break. (Tatoeba #4897977, huizi99, CC BY 2.0 FR)"
+  "exvn": "I'm going to take a short break. (Tatoeba #4897977, huizi99, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はこれから<ruby>少<rt>すこ</rt></ruby>し<ruby>休<rt>きゅう</rt></ruby><ruby>憩<rt>けい</rt></ruby>します。"
  },
  {
   "id": "w42-renkyuu",
@@ -17814,7 +18233,8 @@ window.CARDS = [
   "romaji": "renkyuu",
   "meaning": "kỳ nghỉ liền nhiều ngày",
   "ex": "もうすぐで連休です。",
-  "exvn": "The holidays will be here soon. (Tatoeba #11529749, small_snow, CC BY 2.0 FR)"
+  "exvn": "The holidays will be here soon. (Tatoeba #11529749, small_snow, CC BY 2.0 FR)",
+  "exf": "もうすぐで<ruby>連<rt>れん</rt></ruby><ruby>休<rt>きゅう</rt></ruby>です。"
  },
  {
   "id": "w42-sakubun",
@@ -17825,7 +18245,8 @@ window.CARDS = [
   "romaji": "sakubun",
   "meaning": "bài văn",
   "ex": "先生は私の作文を見てくれた。",
-  "exvn": "My teacher looked over my composition. (Tatoeba #141590, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "My teacher looked over my composition. (Tatoeba #141590, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>先<rt>せん</rt></ruby><ruby>生<rt>せい</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>の<ruby>作<rt>さく</rt></ruby><ruby>文<rt>ぶん</rt></ruby>を<ruby>見<rt>み</rt></ruby>てくれた。"
  },
  {
   "id": "w42-happyou",
@@ -17836,7 +18257,8 @@ window.CARDS = [
   "romaji": "happyou",
   "meaning": "công bố, thuyết trình",
   "ex": "この製品を発表するときが来た。",
-  "exvn": "I think the time is right to introduce this product. (Tatoeba #1525406, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I think the time is right to introduce this product. (Tatoeba #1525406, bunbuku, CC BY 2.0 FR)",
+  "exf": "この<ruby>製<rt>せい</rt></ruby><ruby>品<rt>ひん</rt></ruby>を<ruby>発<rt>はっ</rt></ruby><ruby>表<rt>ぴょう</rt></ruby>するときが<ruby>来<rt>き</rt></ruby>た。"
  },
  {
   "id": "w42-osoushikishiki",
@@ -17869,7 +18291,8 @@ window.CARDS = [
   "romaji": "kaeri",
   "meaning": "lúc về",
   "ex": "来週帰ります。",
-  "exvn": "I'm coming back next week. (Tatoeba #1879941, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'm coming back next week. (Tatoeba #1879941, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>来<rt>らい</rt></ruby><ruby>週<rt>しゅう</rt></ruby><ruby>帰<rt>かえ</rt></ruby>ります。"
  },
  {
   "id": "w42-gou",
@@ -17891,7 +18314,8 @@ window.CARDS = [
   "romaji": "zutto",
   "meaning": "suốt, liên tục",
   "ex": "彼はずっと忙しい。",
-  "exvn": "He has been busy. (Tatoeba #113377, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He has been busy. (Tatoeba #113377, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>はずっと<ruby>忙<rt>いそが</rt></ruby>しい。"
  },
  {
   "id": "w42-shinkoube",
@@ -17924,7 +18348,8 @@ window.CARDS = [
   "romaji": "nyuugaku shiken",
   "meaning": "kỳ thi đầu vào",
   "ex": "昨日彼女は入学試験を受けた。",
-  "exvn": "Yesterday she sat for the entrance examination. (Tatoeba #169820, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "Yesterday she sat for the entrance examination. (Tatoeba #169820, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>昨日<rt>きのう</rt></ruby><ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>入<rt>にゅう</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>試<rt>し</rt></ruby><ruby>験<rt>けん</rt></ruby>を<ruby>受<rt>う</rt></ruby>けた。"
  },
  {
   "id": "w42-tsukini",
@@ -17946,7 +18371,8 @@ window.CARDS = [
   "romaji": "sotsugyou shimasu",
   "meaning": "tốt nghiệp",
   "ex": "今年卒業します。",
-  "exvn": "I'll graduate this year. (Tatoeba #8619746, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'll graduate this year. (Tatoeba #8619746, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>今<rt>こ</rt></ruby><ruby>年<rt>とし</rt></ruby><ruby>卒<rt>そつ</rt></ruby><ruby>業<rt>ぎょう</rt></ruby>します。"
  },
  {
   "id": "w42-tojimasu",
@@ -18001,7 +18427,8 @@ window.CARDS = [
   "romaji": "okyaku [san]",
   "meaning": "khách",
   "ex": "あの店はお客さんが多い。",
-  "exvn": "That shop has many customers. (Tatoeba #230538, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "That shop has many customers. (Tatoeba #230538, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "あの<ruby>店<rt>みせ</rt></ruby>はお<ruby>客<rt>きゃく</rt></ruby>さんが<ruby>多<rt>おお</rt></ruby>い。"
  },
  {
   "id": "w42-dareka",
@@ -18012,7 +18439,8 @@ window.CARDS = [
   "romaji": "dareka",
   "meaning": "ai đó",
   "ex": "誰か来たよ。",
-  "exvn": "Someone's at the door. (Tatoeba #10682365, small_snow, CC BY 2.0 FR)"
+  "exvn": "Someone's at the door. (Tatoeba #10682365, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>誰<rt>だれ</rt></ruby>か<ruby>来<rt>き</rt></ruby>たよ。"
  },
  {
   "id": "w42-futsuuno",
@@ -18023,7 +18451,8 @@ window.CARDS = [
   "romaji": "futsuu no",
   "meaning": "bình thường",
   "ex": "これは普通のこと？",
-  "exvn": "Is this normal? (Tatoeba #8693575, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Is this normal? (Tatoeba #8693575, bunbuku, CC BY 2.0 FR)",
+  "exf": "これは<ruby>普<rt>ふ</rt></ruby><ruby>通<rt>つう</rt></ruby>のこと？"
  },
  {
   "id": "w42-sekaijuu",
@@ -18034,7 +18463,8 @@ window.CARDS = [
   "romaji": "sekaijuu",
   "meaning": "khắp thế giới",
   "ex": "彼は世界中を旅行した。",
-  "exvn": "He traveled all over the world. (Tatoeba #103410, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He traveled all over the world. (Tatoeba #103410, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>世<rt>せ</rt></ruby><ruby>界<rt>かい</rt></ruby><ruby>中<rt>じゅう</rt></ruby>を<ruby>旅<rt>りょ</rt></ruby><ruby>行<rt>こう</rt></ruby>した。"
  },
  {
   "id": "w42-atsumarimasu",
@@ -18100,7 +18530,8 @@ window.CARDS = [
   "romaji": "undou shimasu",
   "meaning": "tập thể dục",
   "ex": "運動します。",
-  "exvn": "I work out. (Tatoeba #2575053, OrangeTart, CC BY 2.0 FR)"
+  "exvn": "I work out. (Tatoeba #2575053, OrangeTart, CC BY 2.0 FR)",
+  "exf": "<ruby>運<rt>うん</rt></ruby><ruby>動<rt>どう</rt></ruby>します。"
  },
  {
   "id": "w43-seikoushimasu",
@@ -18221,7 +18652,8 @@ window.CARDS = [
   "romaji": "okashii",
   "meaning": "lạ, buồn cười",
   "ex": "何かがおかしい。",
-  "exvn": "Something is strange. (Tatoeba #12300727, small_snow, CC BY 2.0 FR)"
+  "exvn": "Something is strange. (Tatoeba #12300727, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なに</rt></ruby>かがおかしい。"
  },
  {
   "id": "w43-urusai",
@@ -18265,7 +18697,8 @@ window.CARDS = [
   "romaji": "konya",
   "meaning": "tối nay",
   "ex": "今夜は暇です。",
-  "exvn": "I'm free tonight. (Tatoeba #171122, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm free tonight. (Tatoeba #171122, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>今<rt>こん</rt></ruby><ruby>夜<rt>や</rt></ruby>は<ruby>暇<rt>ひま</rt></ruby>です。"
  },
  {
   "id": "w43-yuugata",
@@ -18298,7 +18731,8 @@ window.CARDS = [
   "romaji": "osoku",
   "meaning": "muộn",
   "ex": "遅くなります。",
-  "exvn": "I'll be late. (Tatoeba #2465471, nihonjin, CC BY 2.0 FR)"
+  "exvn": "I'll be late. (Tatoeba #2465471, nihonjin, CC BY 2.0 FR)",
+  "exf": "<ruby>遅<rt>おそ</rt></ruby>くなります。"
  },
  {
   "id": "w43-i",
@@ -18342,7 +18776,8 @@ window.CARDS = [
   "romaji": "hoshiuranai",
   "meaning": "bói chòm sao",
   "ex": "今日は、星占い見た？",
-  "exvn": "Have you read your horoscope today? (Tatoeba #10899481, small_snow, CC BY 2.0 FR)"
+  "exvn": "Have you read your horoscope today? (Tatoeba #10899481, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>は、<ruby>星<rt>ほし</rt></ruby><ruby>占<rt>うらな</rt></ruby>い<ruby>見<rt>み</rt></ruby>た？"
  },
  {
   "id": "w43-hatarakisugi",
@@ -18353,7 +18788,8 @@ window.CARDS = [
   "romaji": "hatarakisugi",
   "meaning": "làm việc quá sức",
   "ex": "働きすぎですよ。",
-  "exvn": "You work too hard. (Tatoeba #177029, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "You work too hard. (Tatoeba #177029, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>働<rt>はたら</rt></ruby>きすぎですよ。"
  },
  {
   "id": "w43-atarimasutakarakujiga",
@@ -18375,7 +18811,8 @@ window.CARDS = [
   "romaji": "kenkou",
   "meaning": "sức khoẻ",
   "ex": "私は体は健康です。",
-  "exvn": "I'm healthy. (Tatoeba #155251, mookeee, CC BY 2.0 FR)"
+  "exvn": "I'm healthy. (Tatoeba #155251, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>体<rt>からだ</rt></ruby>は<ruby>健<rt>けん</rt></ruby><ruby>康<rt>こう</rt></ruby>です。"
  },
  {
   "id": "w43-renai",
@@ -18386,7 +18823,8 @@ window.CARDS = [
   "romaji": "renai",
   "meaning": "chuyện tình yêu",
   "ex": "私は恋愛小説が好きです。",
-  "exvn": "I like love stories. (Tatoeba #524080, qahwa, CC BY 2.0 FR)"
+  "exvn": "I like love stories. (Tatoeba #524080, qahwa, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>恋<rt>れん</rt></ruby><ruby>愛<rt>あい</rt></ruby><ruby>小<rt>しょう</rt></ruby><ruby>説<rt>せつ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きです。"
  },
  {
   "id": "w43-rakkiiaitemu",
@@ -18408,7 +18846,8 @@ window.CARDS = [
   "romaji": "modorimasu",
   "meaning": "quay lại",
   "ex": "すぐ戻ります。",
-  "exvn": "I will be back soon. (Tatoeba #214752, tommy_san, CC BY 2.0 FR)"
+  "exvn": "I will be back soon. (Tatoeba #214752, tommy_san, CC BY 2.0 FR)",
+  "exf": "すぐ<ruby>戻<rt>もど</rt></ruby>ります。"
  },
  {
   "id": "w43-naorimasubyoukiga",
@@ -18452,7 +18891,8 @@ window.CARDS = [
   "romaji": "[o]kanemochi",
   "meaning": "người giàu",
   "ex": "彼女は金持ちです。",
-  "exvn": "She is a wealthy woman. (Tatoeba #90398, bunbuku, CC BY 2.0 FR)"
+  "exvn": "She is a wealthy woman. (Tatoeba #90398, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>金<rt>かね</rt></ruby><ruby>持<rt>も</rt></ruby>ちです。"
  },
  {
   "id": "w44-nigemasu",
@@ -18507,7 +18947,8 @@ window.CARDS = [
   "romaji": "mamorimasu",
   "meaning": "tuân thủ, bảo vệ",
   "ex": "彼は約束を守ります。",
-  "exvn": "He is as good as his word. (Tatoeba #2316970, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He is as good as his word. (Tatoeba #2316970, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>約<rt>やく</rt></ruby><ruby>束<rt>そく</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ります。"
  },
  {
   "id": "w44-tsutaemasu",
@@ -18518,7 +18959,8 @@ window.CARDS = [
   "romaji": "tsutaemasu",
   "meaning": "truyền đạt, nhắn lại",
   "ex": "そう伝えます。",
-  "exvn": "I'll tell him that. (Tatoeba #213766, Take32, CC BY 2.0 FR)"
+  "exvn": "I'll tell him that. (Tatoeba #213766, Take32, CC BY 2.0 FR)",
+  "exf": "そう<ruby>伝<rt>つた</rt></ruby>えます。"
  },
  {
   "id": "w44-chuuishimasukurumani",
@@ -18562,7 +19004,8 @@ window.CARDS = [
   "romaji": "dame [na]",
   "meaning": "không được, hỏng",
   "ex": "今日はだめです。",
-  "exvn": "It can't be today. (Tatoeba #7704604, leafjensen, CC BY 2.0 FR)"
+  "exvn": "It can't be today. (Tatoeba #7704604, leafjensen, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>はだめです。"
  },
  {
   "id": "w44-seki",
@@ -18584,7 +19027,8 @@ window.CARDS = [
   "romaji": "maaku",
   "meaning": "ký hiệu, dấu",
   "ex": "マークの本はとても面白い。",
-  "exvn": "Mark's book is very interesting. (Tatoeba #2064489, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Mark's book is very interesting. (Tatoeba #2064489, bunbuku, CC BY 2.0 FR)",
+  "exf": "マークの<ruby>本<rt>ほん</rt></ruby>はとても<ruby>面<rt>おも</rt></ruby><ruby>白<rt>しろ</rt></ruby>い。"
  },
  {
   "id": "w44-shimekiri",
@@ -18595,7 +19039,8 @@ window.CARDS = [
   "romaji": "shimekiri",
   "meaning": "hạn chót",
   "ex": "締め切りはいつですか？",
-  "exvn": "When is the deadline? (Tatoeba #11140910, bunbuku, CC BY 2.0 FR)"
+  "exvn": "When is the deadline? (Tatoeba #11140910, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>締<rt>し</rt></ruby>め<ruby>切<rt>き</rt></ruby>りはいつですか？"
  },
  {
   "id": "w44-kisoku",
@@ -18606,7 +19051,8 @@ window.CARDS = [
   "romaji": "kisoku",
   "meaning": "quy tắc",
   "ex": "私は彼女に規則を説明した。",
-  "exvn": "I explained the rules to her. (Tatoeba #1041815, mookeee, CC BY 2.0 FR)"
+  "exvn": "I explained the rules to her. (Tatoeba #1041815, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>に<ruby>規<rt>き</rt></ruby><ruby>則<rt>そく</rt></ruby>を<ruby>説<rt>せつ</rt></ruby><ruby>明<rt>めい</rt></ruby>した。"
  },
  {
   "id": "w44-kiken",
@@ -18639,7 +19085,8 @@ window.CARDS = [
   "romaji": "tachiiri kinshi",
   "meaning": "cấm vào",
   "ex": "ここは立入禁止です。",
-  "exvn": "This is a restricted area. (Tatoeba #224274, small_snow, CC BY 2.0 FR)"
+  "exvn": "This is a restricted area. (Tatoeba #224274, small_snow, CC BY 2.0 FR)",
+  "exf": "ここは<ruby>立<rt>たち</rt></ruby><ruby>入<rt>いり</rt></ruby><ruby>禁<rt>きん</rt></ruby><ruby>止<rt>し</rt></ruby>です。"
  },
  {
   "id": "w44-jokou",
@@ -18672,7 +19119,8 @@ window.CARDS = [
   "romaji": "waribiki",
   "meaning": "giảm giá",
   "ex": "学生割引はありますか。",
-  "exvn": "Do you have a student fare? (Tatoeba #184226, tommy_san, CC BY 2.0 FR)"
+  "exvn": "Do you have a student fare? (Tatoeba #184226, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>学<rt>がく</rt></ruby><ruby>生<rt>せい</rt></ruby><ruby>割<rt>わり</rt></ruby><ruby>引<rt>びき</rt></ruby>はありますか。"
  },
  {
   "id": "w44-nomihoudai",
@@ -18749,7 +19197,8 @@ window.CARDS = [
   "romaji": "chuusha ihan",
   "meaning": "đỗ xe sai quy định",
   "ex": "駐車違反の罰金は高い。",
-  "exvn": "Parking fines are very costly. (Tatoeba #126304, small_snow, CC BY 2.0 FR)"
+  "exvn": "Parking fines are very costly. (Tatoeba #126304, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>駐<rt>ちゅう</rt></ruby><ruby>車<rt>しゃ</rt></ruby><ruby>違<rt>い</rt></ruby><ruby>反<rt>はん</rt></ruby>の<ruby>罰<rt>ばっ</rt></ruby><ruby>金<rt>きん</rt></ruby>は<ruby>高<rt>たか</rt></ruby>い。"
  },
  {
   "id": "w44-bakkin",
@@ -18760,7 +19209,8 @@ window.CARDS = [
   "romaji": "bakkin",
   "meaning": "tiền phạt",
   "ex": "駐車違反の罰金は高い。",
-  "exvn": "Parking fines are very costly. (Tatoeba #126304, small_snow, CC BY 2.0 FR)"
+  "exvn": "Parking fines are very costly. (Tatoeba #126304, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>駐<rt>ちゅう</rt></ruby><ruby>車<rt>しゃ</rt></ruby><ruby>違<rt>い</rt></ruby><ruby>反<rt>はん</rt></ruby>の<ruby>罰<rt>ばっ</rt></ruby><ruby>金<rt>きん</rt></ruby>は<ruby>高<rt>たか</rt></ruby>い。"
  },
  {
   "id": "w44-tasukeaimasu",
@@ -18826,7 +19276,8 @@ window.CARDS = [
   "romaji": "aite",
   "meaning": "đối phương, người đối diện",
   "ex": "これは学生相手の店です。",
-  "exvn": "This is a store that caters specially to students. (Tatoeba #184210, Scott, CC BY 2.0 FR)"
+  "exvn": "This is a store that caters specially to students. (Tatoeba #184210, Scott, CC BY 2.0 FR)",
+  "exf": "これは<ruby>学<rt>がく</rt></ruby><ruby>生<rt>せい</rt></ruby><ruby>相<rt>あい</rt></ruby><ruby>手<rt>て</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>です。"
  },
  {
   "id": "w44-kimochi",
@@ -18837,7 +19288,8 @@ window.CARDS = [
   "romaji": "kimochi",
   "meaning": "cảm xúc",
   "ex": "気持ち悪い！",
-  "exvn": "Gross! (Tatoeba #2393230, anankei, CC BY 2.0 FR)"
+  "exvn": "Gross! (Tatoeba #2393230, anankei, CC BY 2.0 FR)",
+  "exf": "<ruby>気<rt>き</rt></ruby><ruby>持<rt>も</rt></ruby>ち<ruby>悪<rt>わる</rt></ruby>い！"
  },
  {
   "id": "w44-sagemasu",
@@ -18914,7 +19366,8 @@ window.CARDS = [
   "romaji": "hitobito",
   "meaning": "mọi người",
   "ex": "何千もの人々がそこにいた。",
-  "exvn": "Thousands of people were there. (Tatoeba #187360, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "Thousands of people were there. (Tatoeba #187360, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なん</rt></ruby><ruby>千<rt>ぜん</rt></ruby>もの<ruby>人々<rt>ひとびと</rt></ruby>がそこにいた。"
  },
  {
   "id": "w44-kyuuyou",
@@ -18958,7 +19411,8 @@ window.CARDS = [
   "romaji": "dekirudake",
   "meaning": "cố hết mức có thể",
   "ex": "できるだけ早くね。",
-  "exvn": "Be as quick as possible. (Tatoeba #11310764, small_snow, CC BY 2.0 FR)"
+  "exvn": "Be as quick as possible. (Tatoeba #11310764, small_snow, CC BY 2.0 FR)",
+  "exf": "できるだけ<ruby>早<rt>はや</rt></ruby>くね。"
  },
  {
   "id": "w44-mijikaku",
@@ -19024,7 +19478,8 @@ window.CARDS = [
   "romaji": "rusu",
   "meaning": "vắng nhà",
   "ex": "母は留守です。",
-  "exvn": "Mother is away from home. (Tatoeba #82839, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Mother is away from home. (Tatoeba #82839, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>母<rt>はは</rt></ruby>は<ruby>留<rt>る</rt></ruby><ruby>守<rt>す</rt></ruby>です。"
  },
  {
   "id": "w44-rusuban",
@@ -19035,7 +19490,8 @@ window.CARDS = [
   "romaji": "rusuban",
   "meaning": "trông nhà",
   "ex": "留守番しててね。",
-  "exvn": "Would you look after the place while I'm out? (Tatoeba #78219, mookeee, CC BY 2.0 FR)"
+  "exvn": "Would you look after the place while I'm out? (Tatoeba #78219, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>留<rt>る</rt></ruby><ruby>守<rt>す</rt></ruby><ruby>番<rt>ばん</rt></ruby>しててね。"
  },
  {
   "id": "w44-oiwai",
@@ -19222,7 +19678,8 @@ window.CARDS = [
   "romaji": "yuube",
   "meaning": "tối qua",
   "ex": "ゆうべ私に電話くれた？",
-  "exvn": "Did you call me last night? (Tatoeba #79133, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Did you call me last night? (Tatoeba #79133, bunbuku, CC BY 2.0 FR)",
+  "exf": "ゆうべ<ruby>私<rt>わたし</rt></ruby>に<ruby>電<rt>でん</rt></ruby><ruby>話<rt>わ</rt></ruby>くれた？"
  },
  {
   "id": "w45-sakki",
@@ -19233,7 +19690,8 @@ window.CARDS = [
   "romaji": "sakki",
   "meaning": "lúc nãy",
   "ex": "さっきのメールどういう意味？",
-  "exvn": "What did you mean in that email you just sent? (Tatoeba #2313031, tommy_san, CC BY 2.0 FR)"
+  "exvn": "What did you mean in that email you just sent? (Tatoeba #2313031, tommy_san, CC BY 2.0 FR)",
+  "exf": "さっきのメールどういう<ruby>意<rt>い</rt></ruby><ruby>味<rt>み</rt></ruby>？"
  },
  {
   "id": "w45-ochaotatemasu",
@@ -19255,7 +19713,8 @@ window.CARDS = [
   "romaji": "saki ni",
   "meaning": "trước",
   "ex": "先に寝てていいよ。",
-  "exvn": "You can sleep first. (Tatoeba #141908, small_snow, CC BY 2.0 FR)"
+  "exvn": "You can sleep first. (Tatoeba #141908, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>先<rt>さき</rt></ruby>に<ruby>寝<rt>ね</rt></ruby>てていいよ。"
  },
  {
   "id": "w45-nosemasu",
@@ -19299,7 +19758,8 @@ window.CARDS = [
   "romaji": "zairyou",
   "meaning": "nguyên liệu",
   "ex": "材料は何ですか？",
-  "exvn": "What are they made of? (Tatoeba #10808962, bunbuku, CC BY 2.0 FR)"
+  "exvn": "What are they made of? (Tatoeba #10808962, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>材<rt>ざい</rt></ruby><ruby>料<rt>りょう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？"
  },
  {
   "id": "w45-bun",
@@ -19486,7 +19946,8 @@ window.CARDS = [
   "romaji": "mukou",
   "meaning": "phía bên kia",
   "ex": "城は川の向こうにある。",
-  "exvn": "The castle is across the river. (Tatoeba #146095, bunbuku, CC BY 2.0 FR)"
+  "exvn": "The castle is across the river. (Tatoeba #146095, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>城<rt>しろ</rt></ruby>は<ruby>川<rt>かわ</rt></ruby>の<ruby>向<rt>む</rt></ruby>こうにある。"
  },
  {
   "id": "w46-shimaminato",
@@ -19508,7 +19969,8 @@ window.CARDS = [
   "romaji": "kinjo",
   "meaning": "hàng xóm, khu lân cận",
   "ex": "近所の人よ。",
-  "exvn": "He's my neighbour. (Tatoeba #12383642, small_snow, CC BY 2.0 FR)"
+  "exvn": "He's my neighbour. (Tatoeba #12383642, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>近<rt>きん</rt></ruby><ruby>所<rt>じょ</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>よ。"
  },
  {
   "id": "w46-kaigai",
@@ -19519,7 +19981,8 @@ window.CARDS = [
   "romaji": "kaigai",
   "meaning": "nước ngoài, hải ngoại",
   "ex": "海外に行きたい。",
-  "exvn": "I want to go abroad. (Tatoeba #1200846, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I want to go abroad. (Tatoeba #1200846, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>海<rt>かい</rt></ruby><ruby>外<rt>がい</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたい。"
  },
  {
   "id": "w46-yamanobori",
@@ -19530,7 +19993,8 @@ window.CARDS = [
   "romaji": "yamanobori",
   "meaning": "leo núi",
   "ex": "私は山登りが好きです。",
-  "exvn": "I like climbing mountains. (Tatoeba #156654, tommy_san, CC BY 2.0 FR)"
+  "exvn": "I like climbing mountains. (Tatoeba #156654, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>山<rt>やま</rt></ruby><ruby>登<rt>のぼ</rt></ruby>りが<ruby>好<rt>す</rt></ruby>きです。"
  },
  {
   "id": "w46-kyoka",
@@ -19541,7 +20005,8 @@ window.CARDS = [
   "romaji": "kyoka",
   "meaning": "sự cho phép",
   "ex": "許可が必要ですか？",
-  "exvn": "Do I need permission? (Tatoeba #11782640, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Do I need permission? (Tatoeba #11782640, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>許<rt>きょ</rt></ruby><ruby>可<rt>か</rt></ruby>が<ruby>必<rt>ひつ</rt></ruby><ruby>要<rt>よう</rt></ruby>ですか？"
  },
  {
   "id": "w46-maru",
@@ -19651,7 +20116,8 @@ window.CARDS = [
   "romaji": "sore nara",
   "meaning": "nếu vậy thì",
   "ex": "それなら、なんの問題もないじゃないですか。",
-  "exvn": "If so, then there's no problem at all, is there? (Tatoeba #518584, nihonjin, CC BY 2.0 FR)"
+  "exvn": "If so, then there's no problem at all, is there? (Tatoeba #518584, nihonjin, CC BY 2.0 FR)",
+  "exf": "それなら、なんの<ruby>問<rt>もん</rt></ruby><ruby>題<rt>だい</rt></ruby>もないじゃないですか。"
  },
  {
   "id": "w46-ryokousha",
@@ -19673,7 +20139,8 @@ window.CARDS = [
   "romaji": "kuwashii",
   "meaning": "chi tiết, am hiểu",
   "ex": "手話に詳しい？",
-  "exvn": "Are you familiar with sign language? (Tatoeba #8757190, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Are you familiar with sign language? (Tatoeba #8757190, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>手<rt>しゅ</rt></ruby><ruby>話<rt>わ</rt></ruby>に<ruby>詳<rt>くわ</rt></ruby>しい？"
  },
  {
   "id": "w46-shu",
@@ -19706,7 +20173,8 @@ window.CARDS = [
   "romaji": "kotowaza",
   "meaning": "tục ngữ",
   "ex": "これは私がその意味が分からないことわざです。",
-  "exvn": "This is a proverb the meaning of which I do not understand. (Tatoeba #218907, mookeee, CC BY 2.0 FR)"
+  "exvn": "This is a proverb the meaning of which I do not understand. (Tatoeba #218907, mookeee, CC BY 2.0 FR)",
+  "exf": "これは<ruby>私<rt>わたし</rt></ruby>がその<ruby>意<rt>い</rt></ruby><ruby>味<rt>み</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からないことわざです。"
  },
  {
   "id": "w46-kankei",
@@ -19717,7 +20185,8 @@ window.CARDS = [
   "romaji": "kankei",
   "meaning": "mối quan hệ",
   "ex": "私には関係ない。",
-  "exvn": "This doesn't concern me. (Tatoeba #395840, cheeheerow, CC BY 2.0 FR)"
+  "exvn": "This doesn't concern me. (Tatoeba #395840, cheeheerow, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>には<ruby>関<rt>かん</rt></ruby><ruby>係<rt>けい</rt></ruby>ない。"
  },
  {
   "id": "w46-nakayokushimasu",
@@ -19739,7 +20208,8 @@ window.CARDS = [
   "romaji": "hitsuyou [na]",
   "meaning": "cần thiết",
   "ex": "何が必要ですか。",
-  "exvn": "What do you need? (Tatoeba #187898, bunbuku, CC BY 2.0 FR)"
+  "exvn": "What do you need? (Tatoeba #187898, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なに</rt></ruby>が<ruby>必<rt>ひつ</rt></ruby><ruby>要<rt>よう</rt></ruby>ですか。"
  },
  {
   "id": "w46-rakuna",
@@ -19761,7 +20231,8 @@ window.CARDS = [
   "romaji": "mezurashii",
   "meaning": "hiếm, lạ",
   "ex": "ずいぶんと珍しいですね。",
-  "exvn": "It's so rare. (Tatoeba #3506563, arnab, CC BY 2.0 FR)"
+  "exvn": "It's so rare. (Tatoeba #3506563, arnab, CC BY 2.0 FR)",
+  "exf": "ずいぶんと<ruby>珍<rt>めずら</rt></ruby>しいですね。"
  },
  {
   "id": "w46-sousa",
@@ -19783,7 +20254,8 @@ window.CARDS = [
   "romaji": "houhou",
   "meaning": "phương pháp",
   "ex": "方法はありません。",
-  "exvn": "There's no way. (Tatoeba #2192113, acbarbosa, CC BY 2.0 FR)"
+  "exvn": "There's no way. (Tatoeba #2192113, acbarbosa, CC BY 2.0 FR)",
+  "exf": "<ruby>方<rt>ほう</rt></ruby><ruby>法<rt>ほう</rt></ruby>はありません。"
  },
  {
   "id": "w46-futa",
@@ -19794,7 +20266,8 @@ window.CARDS = [
   "romaji": "futa",
   "meaning": "nắp",
   "ex": "彼女は箱のふたを開けた。",
-  "exvn": "She took off the lid of the box. (Tatoeba #87535, bunbuku, CC BY 2.0 FR)"
+  "exvn": "She took off the lid of the box. (Tatoeba #87535, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>箱<rt>はこ</rt></ruby>のふたを<ruby>開<rt>あ</rt></ruby>けた。"
  },
  {
   "id": "w46-kyoku",
@@ -19816,7 +20289,8 @@ window.CARDS = [
   "romaji": "tanoshimi",
   "meaning": "niềm vui, mong đợi",
   "ex": "旅行が楽しみです。",
-  "exvn": "I am looking forward to the trip. (Tatoeba #152338, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "I am looking forward to the trip. (Tatoeba #152338, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>旅<rt>りょ</rt></ruby><ruby>行<rt>こう</rt></ruby>が<ruby>楽<rt>たの</rt></ruby>しみです。"
  },
  {
   "id": "w46-hajimeni",
@@ -19904,7 +20378,8 @@ window.CARDS = [
   "romaji": "uchuu",
   "meaning": "vũ trụ",
   "ex": "宇宙旅行はもはや夢ではない。",
-  "exvn": "Space travel is no longer a dream. (Tatoeba #189859, tommy__san, CC BY 2.0 FR)"
+  "exvn": "Space travel is no longer a dream. (Tatoeba #189859, tommy__san, CC BY 2.0 FR)",
+  "exf": "<ruby>宇<rt>う</rt></ruby><ruby>宙<rt>ちゅう</rt></ruby><ruby>旅<rt>りょ</rt></ruby><ruby>行<rt>こう</rt></ruby>はもはや<ruby>夢<rt>ゆめ</rt></ruby>ではない。"
  },
  {
   "id": "w47-maishuumaitsukimaitoshimainen",
@@ -19926,7 +20401,8 @@ window.CARDS = [
   "romaji": "konogoro",
   "meaning": "dạo này",
   "ex": "このごろ暖かい日が多い。",
-  "exvn": "Recently we have had many mild days. (Tatoeba #223738, small_snow, CC BY 2.0 FR)"
+  "exvn": "Recently we have had many mild days. (Tatoeba #223738, small_snow, CC BY 2.0 FR)",
+  "exf": "このごろ<ruby>暖<rt>あたた</rt></ruby>かい<ruby>日<rt>ひ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い。"
  },
  {
   "id": "w47-yatto",
@@ -19948,7 +20424,8 @@ window.CARDS = [
   "romaji": "kanari",
   "meaning": "khá",
   "ex": "かなり寒い。",
-  "exvn": "It's pretty cold. (Tatoeba #226275, arnab, CC BY 2.0 FR)"
+  "exvn": "It's pretty cold. (Tatoeba #226275, arnab, CC BY 2.0 FR)",
+  "exf": "かなり<ruby>寒<rt>さむ</rt></ruby>い。"
  },
  {
   "id": "w47-kanarazu",
@@ -19959,7 +20436,8 @@ window.CARDS = [
   "romaji": "kanarazu",
   "meaning": "nhất định",
   "ex": "必ずやります。",
-  "exvn": "I'll do it by all means. (Tatoeba #85476, Take32, CC BY 2.0 FR)"
+  "exvn": "I'll do it by all means. (Tatoeba #85476, Take32, CC BY 2.0 FR)",
+  "exf": "<ruby>必<rt>かなら</rt></ruby>ずやります。"
  },
  {
   "id": "w47-zettaini",
@@ -19970,7 +20448,8 @@ window.CARDS = [
   "romaji": "zettai ni",
   "meaning": "tuyệt đối",
   "ex": "絶対に無理！",
-  "exvn": "When pigs fly! (Tatoeba #11572792, small_snow, CC BY 2.0 FR)"
+  "exvn": "When pigs fly! (Tatoeba #11572792, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>絶<rt>ぜっ</rt></ruby><ruby>対<rt>たい</rt></ruby>に<ruby>無<rt>む</rt></ruby><ruby>理<rt>り</rt></ruby>！"
  },
  {
   "id": "w47-jouzuni",
@@ -19981,7 +20460,8 @@ window.CARDS = [
   "romaji": "jouzu ni",
   "meaning": "một cách giỏi",
   "ex": "上手に歌えた。",
-  "exvn": "I sang well. (Tatoeba #13028930, small_snow, CC BY 2.0 FR)"
+  "exvn": "I sang well. (Tatoeba #13028930, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>上<rt>じょう</rt></ruby><ruby>手<rt>ず</rt></ruby>に<ruby>歌<rt>うた</rt></ruby>えた。"
  },
  {
   "id": "w47-okyakusama",
@@ -20003,7 +20483,8 @@ window.CARDS = [
   "romaji": "tokubetsu [na]",
   "meaning": "đặc biệt",
   "ex": "特別に行きたい場所はありますか？",
-  "exvn": "Is there any place special you want to go? (Tatoeba #8755628, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Is there any place special you want to go? (Tatoeba #8755628, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>特<rt>とく</rt></ruby><ruby>別<rt>べつ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたい<ruby>場<rt>ば</rt></ruby><ruby>所<rt>しょ</rt></ruby>はありますか？"
  },
  {
   "id": "w47-shiteirasshaimasu",
@@ -20069,7 +20550,8 @@ window.CARDS = [
   "romaji": "tooku",
   "meaning": "nơi xa",
   "ex": "遠くに家が見えた。",
-  "exvn": "I saw a house in the distance. (Tatoeba #188672, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I saw a house in the distance. (Tatoeba #188672, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>遠<rt>とお</rt></ruby>くに<ruby>家<rt>いえ</rt></ruby>が<ruby>見<rt>み</rt></ruby>えた。"
  },
  {
   "id": "w47-kishakisen",
@@ -20102,7 +20584,8 @@ window.CARDS = [
   "romaji": "hakobimasu",
   "meaning": "chở, vận chuyển",
   "ex": "その箱、僕が運びますよ。",
-  "exvn": "Let me carry that box for you. (Tatoeba #9941512, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Let me carry that box for you. (Tatoeba #9941512, bunbuku, CC BY 2.0 FR)",
+  "exf": "その<ruby>箱<rt>はこ</rt></ruby>、<ruby>僕<rt>ぼく</rt></ruby>が<ruby>運<rt>はこ</rt></ruby>びますよ。"
  },
  {
   "id": "w47-todokimasunimotsuga",
@@ -20190,7 +20673,8 @@ window.CARDS = [
   "romaji": "anzen [na]",
   "meaning": "an toàn",
   "ex": "安全運転してね。",
-  "exvn": "Drive safely. (Tatoeba #485448, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Drive safely. (Tatoeba #485448, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>安<rt>あん</rt></ruby><ruby>全<rt>ぜん</rt></ruby><ruby>運<rt>うん</rt></ruby><ruby>転<rt>てん</rt></ruby>してね。"
  },
  {
   "id": "w48-homemasu",
@@ -20234,7 +20718,8 @@ window.CARDS = [
   "romaji": "tanomimasu",
   "meaning": "nhờ",
   "ex": "私はこの料理を頼みます。",
-  "exvn": "I'll order this dish. (Tatoeba #10903677, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'll order this dish. (Tatoeba #10903677, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はこの<ruby>料<rt>りょう</rt></ruby><ruby>理<rt>り</rt></ruby>を<ruby>頼<rt>たの</rt></ruby>みます。"
  },
  {
   "id": "w48-fumimasu",
@@ -20388,7 +20873,8 @@ window.CARDS = [
   "romaji": "nanigo",
   "meaning": "tiếng nước nào",
   "ex": "何語が話せますか？",
-  "exvn": "What languages do you speak? (Tatoeba #8679659, mochico, CC BY 2.0 FR)"
+  "exvn": "What languages do you speak? (Tatoeba #8679659, mochico, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なに</rt></ruby><ruby>語<rt>ご</rt></ruby>が<ruby>話<rt>はな</rt></ruby>せますか？"
  },
  {
   "id": "w48-yokattadesune",
@@ -20454,7 +20940,8 @@ window.CARDS = [
   "romaji": "minasama",
   "meaning": "quý vị (kính ngữ của みなさん)",
   "ex": "皆様、ご機嫌いかがですか？",
-  "exvn": "How are you all doing? (Tatoeba #1147121, Scott, CC BY 2.0 FR)"
+  "exvn": "How are you all doing? (Tatoeba #1147121, Scott, CC BY 2.0 FR)",
+  "exf": "<ruby>皆<rt>みな</rt></ruby><ruby>様<rt>さま</rt></ruby>、ご<ruby>機<rt>き</rt></ruby><ruby>嫌<rt>げん</rt></ruby>いかがですか？"
  },
  {
   "id": "w48-yakemasuuchiga",
@@ -20476,7 +20963,8 @@ window.CARDS = [
   "romaji": "sono go",
   "meaning": "sau đó",
   "ex": "その後彼は家に帰りました。",
-  "exvn": "After that, he went home. (Tatoeba #236894, mookeee, CC BY 2.0 FR)"
+  "exvn": "After that, he went home. (Tatoeba #236894, mookeee, CC BY 2.0 FR)",
+  "exf": "その<ruby>後<rt>ご</rt></ruby><ruby>彼<rt>かれ</rt></ruby>は<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>りました。"
  },
  {
   "id": "w48-nohitotsu",
@@ -20520,7 +21008,8 @@ window.CARDS = [
   "romaji": "-kiro",
   "meaning": "~ kg / ~ km",
   "ex": "学校は２キロ先にある。",
-  "exvn": "The school is two kilometers ahead. (Tatoeba #184425, mookeee, CC BY 2.0 FR)"
+  "exvn": "The school is two kilometers ahead. (Tatoeba #184425, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>学<rt>がっ</rt></ruby><ruby>校<rt>こう</rt></ruby>は<ruby>２<rt></rt></ruby>キロ<ruby>先<rt>さき</rt></ruby>にある。"
  },
  {
   "id": "w48-goukana",
@@ -20531,7 +21020,8 @@ window.CARDS = [
   "romaji": "gouka [na]",
   "meaning": "lộng lẫy",
   "ex": "豪華ですね。",
-  "exvn": "It's gorgeous. (Tatoeba #10585415, small_snow, CC BY 2.0 FR)"
+  "exvn": "It's gorgeous. (Tatoeba #10585415, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>豪<rt>ごう</rt></ruby><ruby>華<rt>か</rt></ruby>ですね。"
  },
  {
   "id": "w48-choukoku",
@@ -20586,7 +21076,8 @@ window.CARDS = [
   "romaji": "nakama",
   "meaning": "đồng nghiệp, bạn bè cùng nhóm",
   "ex": "私も仲間に入れて。",
-  "exvn": "Count me in. (Tatoeba #1153163, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Count me in. (Tatoeba #1153163, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>も<ruby>仲<rt>なか</rt></ruby><ruby>間<rt>ま</rt></ruby>に<ruby>入<rt>い</rt></ruby>れて。"
  },
  {
   "id": "w48-shikashisonoato",
@@ -20608,7 +21099,8 @@ window.CARDS = [
   "romaji": "isshoukenmei",
   "meaning": "hết sức mình",
   "ex": "彼は一生懸命勉強した。",
-  "exvn": "He studied very hard. (Tatoeba #109923, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He studied very hard. (Tatoeba #109923, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>一<rt>いっ</rt></ruby><ruby>生<rt>しょう</rt></ruby><ruby>懸<rt>けん</rt></ruby><ruby>命<rt>めい</rt></ruby><ruby>勉<rt>べん</rt></ruby><ruby>強<rt>きょう</rt></ruby>した。"
  },
  {
   "id": "w48-nezumiippikimoimasen",
@@ -20740,7 +21232,8 @@ window.CARDS = [
   "romaji": "tochi",
   "meaning": "đất đai",
   "ex": "石の多い土地ですね。",
-  "exvn": "It's a very rocky soil, isn't it? (Tatoeba #518883, blay_paul, CC BY 2.0 FR)"
+  "exvn": "It's a very rocky soil, isn't it? (Tatoeba #518883, blay_paul, CC BY 2.0 FR)",
+  "exf": "<ruby>石<rt>いし</rt></ruby>の<ruby>多<rt>おお</rt></ruby>い<ruby>土<rt>と</rt></ruby><ruby>地<rt>ち</rt></ruby>ですね。"
  },
  {
   "id": "w48-souon",
@@ -20839,7 +21332,8 @@ window.CARDS = [
   "romaji": "dengen",
   "meaning": "nguồn điện",
   "ex": "携帯の電源は切りました。",
-  "exvn": "I turned off my phone. (Tatoeba #11052131, small_snow, CC BY 2.0 FR)"
+  "exvn": "I turned off my phone. (Tatoeba #11052131, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>携<rt>けい</rt></ruby><ruby>帯<rt>たい</rt></ruby>の<ruby>電<rt>でん</rt></ruby><ruby>源<rt>げん</rt></ruby>は<ruby>切<rt>き</rt></ruby>りました。"
  },
  {
   "id": "w49-sei",
@@ -20861,7 +21355,8 @@ window.CARDS = [
   "romaji": "ototoshi",
   "meaning": "năm kia (hai năm trước)",
   "ex": "私は一昨年この山に登りました。",
-  "exvn": "I climbed this mountain the year before last. (Tatoeba #10899771, small_snow, CC BY 2.0 FR)"
+  "exvn": "I climbed this mountain the year before last. (Tatoeba #10899771, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>一昨年<rt>おととし</rt></ruby>この<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>りました。"
  },
  {
   "id": "w49-aikenai",
@@ -20916,7 +21411,8 @@ window.CARDS = [
   "romaji": "kichinto",
   "meaning": "gọn gàng, đàng hoàng",
   "ex": "彼は部屋をきちんと整理した。",
-  "exvn": "He set things in order in his room. (Tatoeba #100289, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He set things in order in his room. (Tatoeba #100289, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>部<rt>へ</rt></ruby><ruby>屋<rt>や</rt></ruby>をきちんと<ruby>整<rt>せい</rt></ruby><ruby>理<rt>り</rt></ruby>した。"
  },
  {
   "id": "w49-seirishimasu",
@@ -20971,7 +21467,8 @@ window.CARDS = [
   "romaji": "shimai",
   "meaning": "chị em gái",
   "ex": "姉妹はいますか？",
-  "exvn": "Do you have any sisters? (Tatoeba #168885, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "Do you have any sisters? (Tatoeba #168885, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>姉<rt>し</rt></ruby><ruby>妹<rt>まい</rt></ruby>はいますか？"
  },
  {
   "id": "w49-gonensei",
@@ -21004,7 +21501,8 @@ window.CARDS = [
   "romaji": "seikaku",
   "meaning": "tính cách",
   "ex": "彼は性格がよい。",
-  "exvn": "He has a nice personality. (Tatoeba #103394, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He has a nice personality. (Tatoeba #103394, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>性<rt>せい</rt></ruby><ruby>格<rt>かく</rt></ruby>がよい。"
  },
  {
   "id": "w49-otonashii",
@@ -21015,7 +21513,8 @@ window.CARDS = [
   "romaji": "otonashii",
   "meaning": "hiền lành, trầm lặng",
   "ex": "この犬は、おとなしい。",
-  "exvn": "This dog is obedient. (Tatoeba #11263436, small_snow, CC BY 2.0 FR)"
+  "exvn": "This dog is obedient. (Tatoeba #11263436, small_snow, CC BY 2.0 FR)",
+  "exf": "この<ruby>犬<rt>いぬ</rt></ruby>は、おとなしい。"
  },
  {
   "id": "w49-yasashii",
@@ -21092,7 +21591,8 @@ window.CARDS = [
   "romaji": "nenrei",
   "meaning": "tuổi tác",
   "ex": "年齢は関係ない。",
-  "exvn": "Age is just a number. (Tatoeba #10181518, Sim5634, CC BY 2.0 FR)"
+  "exvn": "Age is just a number. (Tatoeba #10181518, Sim5634, CC BY 2.0 FR)",
+  "exf": "<ruby>年<rt>ねん</rt></ruby><ruby>齢<rt>れい</rt></ruby>は<ruby>関<rt>かん</rt></ruby><ruby>係<rt>けい</rt></ruby>ない。"
  },
  {
   "id": "w49-shikata",
@@ -21213,7 +21713,8 @@ window.CARDS = [
   "romaji": "fukuzatsu [na]",
   "meaning": "phức tạp",
   "ex": "複雑すぎます！",
-  "exvn": "That's too complicated! (Tatoeba #10287866, small_snow, CC BY 2.0 FR)"
+  "exvn": "That's too complicated! (Tatoeba #10287866, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>複<rt>ふく</rt></ruby><ruby>雑<rt>ざつ</rt></ruby>すぎます！"
  },
  {
   "id": "w50-jamana",
@@ -21224,7 +21725,8 @@ window.CARDS = [
   "romaji": "jama [na]",
   "meaning": "vướng, cản trở",
   "ex": "あなた邪魔よ。",
-  "exvn": "You're in the way. (Tatoeba #10201385, small_snow, CC BY 2.0 FR)"
+  "exvn": "You're in the way. (Tatoeba #10201385, small_snow, CC BY 2.0 FR)",
+  "exf": "あなた<ruby>邪<rt>じゃ</rt></ruby><ruby>魔<rt>ま</rt></ruby>よ。"
  },
  {
   "id": "w50-kitanai",
@@ -21290,7 +21792,8 @@ window.CARDS = [
   "romaji": "-goushitsu",
   "meaning": "phòng số ~",
   "ex": "私の部屋は何号室ですか。",
-  "exvn": "What is my room number? (Tatoeba #162732, bunbuku, CC BY 2.0 FR)"
+  "exvn": "What is my room number? (Tatoeba #162732, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>の<ruby>部<rt>へ</rt></ruby><ruby>屋<rt>や</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>号<rt>ごう</rt></ruby><ruby>室<rt>しつ</rt></ruby>ですか。"
  },
  {
   "id": "w50-taorusekken",
@@ -21312,7 +21815,8 @@ window.CARDS = [
   "romaji": "oozei",
   "meaning": "đông người",
   "ex": "大勢の人が見てた？",
-  "exvn": "Were there many people watching? (Tatoeba #10759951, small_snow, CC BY 2.0 FR)"
+  "exvn": "Were there many people watching? (Tatoeba #10759951, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>大<rt>おお</rt></ruby><ruby>勢<rt>ぜい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>見<rt>み</rt></ruby>てた？"
  },
  {
   "id": "w50-otsukaresamadeshita",
@@ -21345,7 +21849,8 @@ window.CARDS = [
   "romaji": "tochuu de",
   "meaning": "giữa đường",
   "ex": "途中で私の車が故障した。",
-  "exvn": "My car broke down on the way. (Tatoeba #124578, mookeee, CC BY 2.0 FR)"
+  "exvn": "My car broke down on the way. (Tatoeba #124578, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>途<rt>と</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>で<ruby>私<rt>わたし</rt></ruby>の<ruby>車<rt>くるま</rt></ruby>が<ruby>故<rt>こ</rt></ruby><ruby>障<rt>しょう</rt></ruby>した。"
  },
  {
   "id": "w50-butsukarimasu",
@@ -21356,7 +21861,8 @@ window.CARDS = [
   "romaji": "butsukarimasu",
   "meaning": "va, đâm",
   "ex": "ちょうど日曜日にぶつかりますね。",
-  "exvn": "It falls on Sunday. (Tatoeba #202889, small_snow, CC BY 2.0 FR)"
+  "exvn": "It falls on Sunday. (Tatoeba #202889, small_snow, CC BY 2.0 FR)",
+  "exf": "ちょうど<ruby>日<rt>にち</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>にぶつかりますね。"
  },
  {
   "id": "w50-shikashimata",
@@ -21378,7 +21884,8 @@ window.CARDS = [
   "romaji": "youfuku",
   "meaning": "quần áo kiểu Tây",
   "ex": "デパートで新しい洋服を買いました。",
-  "exvn": "I bought new clothes at the department store. (Tatoeba #10899740, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I bought new clothes at the department store. (Tatoeba #10899740, bunbuku, CC BY 2.0 FR)",
+  "exf": "デパートで<ruby>新<rt>あたら</rt></ruby>しい<ruby>洋<rt>よう</rt></ruby><ruby>服<rt>ふく</rt></ruby>を<ruby>買<rt>か</rt></ruby>いました。"
  },
  {
   "id": "w50-seiyoukashimasu",
@@ -21433,7 +21940,8 @@ window.CARDS = [
   "romaji": "chikoku shimasu",
   "meaning": "đi muộn",
   "ex": "遅刻します。",
-  "exvn": "I'll be late. (Tatoeba #2465468, nihonjin, CC BY 2.0 FR)"
+  "exvn": "I'll be late. (Tatoeba #2465468, nihonjin, CC BY 2.0 FR)",
+  "exf": "<ruby>遅<rt>ち</rt></ruby><ruby>刻<rt>こく</rt></ruby>します。"
  },
  {
   "id": "w50-soutaishimasu",
@@ -21444,7 +21952,8 @@ window.CARDS = [
   "romaji": "soutai shimasu",
   "meaning": "về sớm",
   "ex": "熱があるから早退しますね。",
-  "exvn": "I have a fever, so I'll leave early. (Tatoeba #11030208, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I have a fever, so I'll leave early. (Tatoeba #11030208, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>熱<rt>ねつ</rt></ruby>があるから<ruby>早<rt>そう</rt></ruby><ruby>退<rt>たい</rt></ruby>しますね。"
  },
  {
   "id": "w50-denwadai",
@@ -21609,7 +22118,8 @@ window.CARDS = [
   "romaji": "[o]toshiyori",
   "meaning": "người già",
   "ex": "私の両親はまだ年寄りではない。",
-  "exvn": "My parents aren't old yet. (Tatoeba #162434, mookeee, CC BY 2.0 FR)"
+  "exvn": "My parents aren't old yet. (Tatoeba #162434, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>の<ruby>両<rt>りょう</rt></ruby><ruby>親<rt>しん</rt></ruby>はまだ<ruby>年<rt>とし</rt></ruby><ruby>寄<rt>よ</rt></ruby>りではない。"
  },
  {
   "id": "w51-nagasaomosatakasaookisa",
@@ -21708,7 +22218,8 @@ window.CARDS = [
   "romaji": "seiseki",
   "meaning": "thành tích, điểm",
   "ex": "彼は学校の成績がいい。",
-  "exvn": "He is doing fine in school. (Tatoeba #108875, Yassan, CC BY 2.0 FR)"
+  "exvn": "He is doing fine in school. (Tatoeba #108875, Yassan, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>学<rt>がっ</rt></ruby><ruby>校<rt>こう</rt></ruby>の<ruby>成<rt>せい</rt></ruby><ruby>績<rt>せき</rt></ruby>がいい。"
  },
  {
   "id": "w51-tokorode",
@@ -21719,7 +22230,8 @@ window.CARDS = [
   "romaji": "tokoro de",
   "meaning": "nhân tiện, à này",
   "ex": "ところであなたは今晩暇ですか。",
-  "exvn": "By the way, are you free tonight? (Tatoeba #200844, nickyeow, CC BY 2.0 FR)"
+  "exvn": "By the way, are you free tonight? (Tatoeba #200844, nickyeow, CC BY 2.0 FR)",
+  "exf": "ところであなたは<ruby>今<rt>こん</rt></ruby><ruby>晩<rt>ばん</rt></ruby><ruby>暇<rt>ひま</rt></ruby>ですか。"
  },
  {
   "id": "w51-yousu",
@@ -21730,7 +22242,8 @@ window.CARDS = [
   "romaji": "yousu",
   "meaning": "tình hình, vẻ ngoài",
   "ex": "様子を見て来て。",
-  "exvn": "Go check on things. (Tatoeba #11258038, sh5555, CC BY 2.0 FR)"
+  "exvn": "Go check on things. (Tatoeba #11258038, sh5555, CC BY 2.0 FR)",
+  "exf": "<ruby>様<rt>よう</rt></ruby><ruby>子<rt>す</rt></ruby>を<ruby>見<rt>み</rt></ruby>て<ruby>来<rt>き</rt></ruby>て。"
  },
  {
   "id": "w51-jiken",
@@ -21741,7 +22254,8 @@ window.CARDS = [
   "romaji": "jiken",
   "meaning": "vụ việc",
   "ex": "私はその事件を調べた。",
-  "exvn": "I looked into the incident. (Tatoeba #160108, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I looked into the incident. (Tatoeba #160108, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はその<ruby>事<rt>じ</rt></ruby><ruby>件<rt>けん</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べた。"
  },
  {
   "id": "w51-ootobaibakudan",
@@ -21774,7 +22288,8 @@ window.CARDS = [
   "romaji": "hanareta",
   "meaning": "xa, cách xa",
   "ex": "すぐにここを離れた方がいい。",
-  "exvn": "You'd better get away from here at once. (Tatoeba #12101344, bunbuku, CC BY 2.0 FR)"
+  "exvn": "You'd better get away from here at once. (Tatoeba #12101344, bunbuku, CC BY 2.0 FR)",
+  "exf": "すぐにここを<ruby>離<rt>はな</rt></ruby>れた<ruby>方<rt>ほう</rt></ruby>がいい。"
  },
  {
   "id": "w51-kyuuni",
@@ -21785,7 +22300,8 @@ window.CARDS = [
   "romaji": "kyuu ni",
   "meaning": "đột ngột",
   "ex": "彼は急にやめた。",
-  "exvn": "He quit without notice. (Tatoeba #2250894, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He quit without notice. (Tatoeba #2250894, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>急<rt>きゅう</rt></ruby>にやめた。"
  },
  {
   "id": "w51-ugokashimasu",
@@ -21829,7 +22345,8 @@ window.CARDS = [
   "romaji": "ima demo",
   "meaning": "đến bây giờ vẫn",
   "ex": "今でもまだ悲しい？",
-  "exvn": "Are you still sad? (Tatoeba #8777776, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Are you still sad? (Tatoeba #8777776, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>今<rt>いま</rt></ruby>でもまだ<ruby>悲<rt>かな</rt></ruby>しい？"
  },
  {
   "id": "w51-uchuuchikyuu",
@@ -21917,7 +22434,8 @@ window.CARDS = [
   "romaji": "kudasaimasu",
   "meaning": "cho (tôi) (kính ngữ)",
   "ex": "はさみを貸してくださいますか。",
-  "exvn": "Can I borrow your scissors? (Tatoeba #198275, tommy_san, CC BY 2.0 FR)"
+  "exvn": "Can I borrow your scissors? (Tatoeba #198275, tommy_san, CC BY 2.0 FR)",
+  "exf": "はさみを<ruby>貸<rt>か</rt></ruby>してくださいますか。"
  },
  {
   "id": "w52-agemasusagemasu",
@@ -21961,7 +22479,8 @@ window.CARDS = [
   "romaji": "oiwai",
   "meaning": "quà chúc mừng",
   "ex": "友達の誕生日をみんなでお祝いした。",
-  "exvn": "We all celebrated for our friend's birthday. (Tatoeba #13176269, Gardenia, CC BY 2.0 FR)"
+  "exvn": "We all celebrated for our friend's birthday. (Tatoeba #13176269, Gardenia, CC BY 2.0 FR)",
+  "exf": "<ruby>友<rt>とも</rt></ruby><ruby>達<rt>だち</rt></ruby>の<ruby>誕<rt>たん</rt></ruby><ruby>生<rt>じょう</rt></ruby><ruby>日<rt>び</rt></ruby>をみんなでお<ruby>祝<rt>いわ</rt></ruby>いした。"
  },
  {
   "id": "w52-omimai",
@@ -21972,7 +22491,8 @@ window.CARDS = [
   "romaji": "[o]mimai",
   "meaning": "thăm bệnh, quà thăm bệnh",
   "ex": "息子がときどき私の見舞いにきてくれた。",
-  "exvn": "My son came to see me from time to time. (Tatoeba #140204, small_snow, CC BY 2.0 FR)"
+  "exvn": "My son came to see me from time to time. (Tatoeba #140204, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>息<rt>むす</rt></ruby><ruby>子<rt>こ</rt></ruby>がときどき<ruby>私<rt>わたし</rt></ruby>の<ruby>見<rt>み</rt></ruby><ruby>舞<rt>ま</rt></ruby>いにきてくれた。"
  },
  {
   "id": "w52-kyoumi",
@@ -21983,7 +22503,8 @@ window.CARDS = [
   "romaji": "kyoumi",
   "meaning": "sự quan tâm",
   "ex": "音楽に興味ある？",
-  "exvn": "Are you interested in music? (Tatoeba #9096671, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Are you interested in music? (Tatoeba #9096671, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>音<rt>おん</rt></ruby><ruby>楽<rt>がく</rt></ruby>に<ruby>興<rt>きょう</rt></ruby><ruby>味<rt>み</rt></ruby>ある？"
  },
  {
   "id": "w52-jouhou",
@@ -21994,7 +22515,8 @@ window.CARDS = [
   "romaji": "jouhou",
   "meaning": "thông tin",
   "ex": "この情報は正しいか。",
-  "exvn": "Is this information right? (Tatoeba #221079, shanghainese, CC BY 2.0 FR)"
+  "exvn": "Is this information right? (Tatoeba #221079, shanghainese, CC BY 2.0 FR)",
+  "exf": "この<ruby>情<rt>じょう</rt></ruby><ruby>報<rt>ほう</rt></ruby>は<ruby>正<rt>ただ</rt></ruby>しいか。"
  },
  {
   "id": "w52-bunpouhatsuon",
@@ -22104,7 +22626,8 @@ window.CARDS = [
   "romaji": "kono aida",
   "meaning": "hôm nọ",
   "ex": "この間彼女から手紙がきた。",
-  "exvn": "I received her letter the other day. (Tatoeba #1107953, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I received her letter the other day. (Tatoeba #1107953, bunbuku, CC BY 2.0 FR)",
+  "exf": "この<ruby>間<rt>かん</rt></ruby><ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>から<ruby>手<rt>て</rt></ruby><ruby>紙<rt>がみ</rt></ruby>がきた。"
  },
  {
   "id": "w52-hitokoto",
@@ -22126,7 +22649,8 @@ window.CARDS = [
   "romaji": "futari",
   "meaning": "hai người, cặp đôi",
   "ex": "二人は結婚した。",
-  "exvn": "They got married. (Tatoeba #123072, mookeee, CC BY 2.0 FR)"
+  "exvn": "They got married. (Tatoeba #123072, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>二人<rt>ふたり</rt></ruby>は<ruby>結<rt>けっ</rt></ruby><ruby>婚<rt>こん</rt></ruby>した。"
  },
  {
   "id": "w52-otaku",
@@ -22137,7 +22661,8 @@ window.CARDS = [
   "romaji": "otaku",
   "meaning": "nhà (của người khác)",
   "ex": "お宅はどちらですか？",
-  "exvn": "Where is your house? (Tatoeba #3508032, arnab, CC BY 2.0 FR)"
+  "exvn": "Where is your house? (Tatoeba #3508032, arnab, CC BY 2.0 FR)",
+  "exf": "お<ruby>宅<rt>たく</rt></ruby>はどちらですか？"
  },
  {
   "id": "w52-douzooshiawaseni",
@@ -22225,7 +22750,8 @@ window.CARDS = [
   "romaji": "masshiro [na]",
   "meaning": "trắng tinh",
   "ex": "真っ白です。",
-  "exvn": "It's really snow white. (Tatoeba #145002, bunbuku, CC BY 2.0 FR)"
+  "exvn": "It's really snow white. (Tatoeba #145002, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>真<rt>ま</rt></ruby>っ<ruby>白<rt>しろ</rt></ruby>です。"
  },
  {
   "id": "w52-nakami",
@@ -22236,7 +22762,8 @@ window.CARDS = [
   "romaji": "nakami",
   "meaning": "bên trong, nội dung",
   "ex": "箱の中身は何？",
-  "exvn": "What is in this box? (Tatoeba #3320916, Tadafumi, CC BY 2.0 FR)"
+  "exvn": "What is in this box? (Tatoeba #3320916, Tadafumi, CC BY 2.0 FR)",
+  "exf": "<ruby>箱<rt>はこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby><ruby>身<rt>み</rt></ruby>は<ruby>何<rt>なに</rt></ruby>？"
  },
  {
   "id": "w52-yobimasu",
@@ -22247,7 +22774,8 @@ window.CARDS = [
   "romaji": "yobimasu",
   "meaning": "gọi, mời",
   "ex": "英語ではこの鳥をなんと呼びますか。",
-  "exvn": "What do you call this bird in English? (Tatoeba #189227, bunbuku, CC BY 2.0 FR)"
+  "exvn": "What do you call this bird in English? (Tatoeba #189227, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>英<rt>えい</rt></ruby><ruby>語<rt>ご</rt></ruby>ではこの<ruby>鳥<rt>とり</rt></ruby>をなんと<ruby>呼<rt>よ</rt></ruby>びますか。"
  },
  {
   "id": "w52-haa",
@@ -22291,7 +22819,8 @@ window.CARDS = [
   "romaji": "senjitsu",
   "meaning": "hôm trước",
   "ex": "先日彼女から手紙がきた。",
-  "exvn": "I received her letter the other day. (Tatoeba #141447, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I received her letter the other day. (Tatoeba #141447, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>先<rt>せん</rt></ruby><ruby>日<rt>じつ</rt></ruby><ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>から<ruby>手<rt>て</rt></ruby><ruby>紙<rt>がみ</rt></ruby>がきた。"
  },
  {
   "id": "w52-tasukarimasu",
@@ -22302,7 +22831,8 @@ window.CARDS = [
   "romaji": "tasukarimasu",
   "meaning": "đỡ quá, nhờ có",
   "ex": "とても助かります。",
-  "exvn": "That helps a lot. (Tatoeba #4378691, bunbuku, CC BY 2.0 FR)"
+  "exvn": "That helps a lot. (Tatoeba #4378691, bunbuku, CC BY 2.0 FR)",
+  "exf": "とても<ruby>助<rt>たす</rt></ruby>かります。"
  },
  {
   "id": "w52-tanoshiku",
@@ -22313,7 +22843,8 @@ window.CARDS = [
   "romaji": "tanoshiku",
   "meaning": "một cách vui vẻ",
   "ex": "楽しくやりましょう。",
-  "exvn": "Let's have some fun. (Tatoeba #184155, small_snow, CC BY 2.0 FR)"
+  "exvn": "Let's have some fun. (Tatoeba #184155, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>楽<rt>たの</rt></ruby>しくやりましょう。"
  },
  {
   "id": "w53-tsutsumimasu",
@@ -22346,7 +22877,8 @@ window.CARDS = [
   "romaji": "mazemasu",
   "meaning": "trộn",
   "ex": "卵をよくかき混ぜます。",
-  "exvn": "Beat the eggs. (Tatoeba #78485, mookeee, CC BY 2.0 FR)"
+  "exvn": "Beat the eggs. (Tatoeba #78485, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>卵<rt>たまご</rt></ruby>をよくかき<ruby>混<rt>ま</rt></ruby>ぜます。"
  },
  {
   "id": "w53-keisanshimasu",
@@ -22412,7 +22944,8 @@ window.CARDS = [
   "romaji": "mokuteki",
   "meaning": "mục đích",
   "ex": "旅行の目的は何ですか。",
-  "exvn": "What's the purpose of your trip? (Tatoeba #78160, mookeee, CC BY 2.0 FR)"
+  "exvn": "What's the purpose of your trip? (Tatoeba #78160, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>旅<rt>りょ</rt></ruby><ruby>行<rt>こう</rt></ruby>の<ruby>目<rt>もく</rt></ruby><ruby>的<rt>てき</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。"
  },
  {
   "id": "w53-sennukikankiri",
@@ -22467,7 +23000,8 @@ window.CARDS = [
   "romaji": "hanbun",
   "meaning": "một nửa",
   "ex": "半分よこせ。",
-  "exvn": "Give me half of it. (Tatoeba #121255, tommy__san, CC BY 2.0 FR)"
+  "exvn": "Give me half of it. (Tatoeba #121255, tommy__san, CC BY 2.0 FR)",
+  "exf": "<ruby>半<rt>はん</rt></ruby><ruby>分<rt>ぶん</rt></ruby>よこせ。"
  },
  {
   "id": "w53-sekaihatsu",
@@ -22599,7 +23133,8 @@ window.CARDS = [
   "romaji": "ato",
   "meaning": "còn lại",
   "ex": "あとで電話します。",
-  "exvn": "I'll call you later. (Tatoeba #234305, small_snow, CC BY 2.0 FR)"
+  "exvn": "I'll call you later. (Tatoeba #234305, small_snow, CC BY 2.0 FR)",
+  "exf": "あとで<ruby>電<rt>でん</rt></ruby><ruby>話<rt>わ</rt></ruby>します。"
  },
  {
   "id": "w53-kappuraameninsutantoraamen",
@@ -22632,7 +23167,8 @@ window.CARDS = [
   "romaji": "kappu",
   "meaning": "cốc",
   "ex": "カップが割れた。",
-  "exvn": "The cup broke. (Tatoeba #226319, arnab, CC BY 2.0 FR)"
+  "exvn": "The cup broke. (Tatoeba #226319, arnab, CC BY 2.0 FR)",
+  "exf": "カップが<ruby>割<rt>わ</rt></ruby>れた。"
  },
  {
   "id": "w53-nokawarini",
@@ -22819,7 +23355,8 @@ window.CARDS = [
   "romaji": "riyuu",
   "meaning": "lý do",
   "ex": "理由はいろいろある。",
-  "exvn": "There are many reasons. (Tatoeba #10908693, SomeHungryBois, CC BY 2.0 FR)"
+  "exvn": "There are many reasons. (Tatoeba #10908693, SomeHungryBois, CC BY 2.0 FR)",
+  "exf": "<ruby>理<rt>り</rt></ruby><ruby>由<rt>ゆう</rt></ruby>はいろいろある。"
  },
  {
   "id": "w54-ayamarimasu",
@@ -22852,7 +23389,8 @@ window.CARDS = [
   "romaji": "sensu",
   "meaning": "gu, óc thẩm mỹ",
   "ex": "彼はユーモアのセンスがある。",
-  "exvn": "He has a sense of humor. (Tatoeba #2295511, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He has a sense of humor. (Tatoeba #2295511, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>はユーモアのセンスがある。"
  },
  {
   "id": "w54-tekitouna",
@@ -22874,7 +23412,8 @@ window.CARDS = [
   "romaji": "shuunyuu",
   "meaning": "thu nhập",
   "ex": "教師の収入はどれくらいですか。",
-  "exvn": "How much money does a teacher make? (Tatoeba #8606694, bunbuku, CC BY 2.0 FR)"
+  "exvn": "How much money does a teacher make? (Tatoeba #8606694, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>教<rt>きょう</rt></ruby><ruby>師<rt>し</rt></ruby>の<ruby>収<rt>しゅう</rt></ruby><ruby>入<rt>にゅう</rt></ruby>はどれくらいですか。"
  },
  {
   "id": "w54-pittari",
@@ -23127,7 +23666,8 @@ window.CARDS = [
   "romaji": "hyougen",
   "meaning": "cách diễn đạt",
   "ex": "自分の気持ちを表現できない。",
-  "exvn": "I cannot describe my feelings. (Tatoeba #149882, small_snow, CC BY 2.0 FR)"
+  "exvn": "I cannot describe my feelings. (Tatoeba #149882, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>自<rt>じ</rt></ruby><ruby>分<rt>ぶん</rt></ruby>の<ruby>気<rt>き</rt></ruby><ruby>持<rt>も</rt></ruby>ちを<ruby>表<rt>ひょう</rt></ruby><ruby>現<rt>げん</rt></ruby>できない。"
  },
  {
   "id": "w55-wakaremasu",
@@ -23149,7 +23689,8 @@ window.CARDS = [
   "romaji": "korera",
   "meaning": "những cái này",
   "ex": "これらは鳥です。",
-  "exvn": "These are birds. (Tatoeba #749660, gracefully, CC BY 2.0 FR)"
+  "exvn": "These are birds. (Tatoeba #749660, gracefully, CC BY 2.0 FR)",
+  "exf": "これらは<ruby>鳥<rt>とり</rt></ruby>です。"
  },
  {
   "id": "w55-engigawarui",
@@ -23171,7 +23712,8 @@ window.CARDS = [
   "romaji": "teinei [na]",
   "meaning": "lịch sự, cẩn thận",
   "ex": "彼女は私に丁寧に頭を下げた。",
-  "exvn": "She bowed to me politely. (Tatoeba #89463, small_snow, CC BY 2.0 FR)"
+  "exvn": "She bowed to me politely. (Tatoeba #89463, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>に<ruby>丁<rt>てい</rt></ruby><ruby>寧<rt>ねい</rt></ruby>に<ruby>頭<rt>あたま</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げた。"
  },
  {
   "id": "w55-komakai",
@@ -23182,7 +23724,8 @@ window.CARDS = [
   "romaji": "komakai",
   "meaning": "nhỏ, chi tiết",
   "ex": "細かいのは必要でない。",
-  "exvn": "The details aren't necessary. (Tatoeba #4808818, Chimera, CC BY 2.0 FR)"
+  "exvn": "The details aren't necessary. (Tatoeba #4808818, Chimera, CC BY 2.0 FR)",
+  "exf": "<ruby>細<rt>こま</rt></ruby>かいのは<ruby>必<rt>ひつ</rt></ruby><ruby>要<rt>よう</rt></ruby>でない。"
  },
  {
   "id": "w56-shinjimasu",
@@ -23193,7 +23736,8 @@ window.CARDS = [
   "romaji": "shinjimasu",
   "meaning": "tin",
   "ex": "彼女はいつでも私を信じます。",
-  "exvn": "She always believes me. (Tatoeba #794261, arihato, CC BY 2.0 FR)"
+  "exvn": "She always believes me. (Tatoeba #794261, arihato, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>はいつでも<ruby>私<rt>わたし</rt></ruby>を<ruby>信<rt>しん</rt></ruby>じます。"
  },
  {
   "id": "w56-kyanserushimasu",
@@ -23215,7 +23759,8 @@ window.CARDS = [
   "romaji": "chuushi",
   "meaning": "đình chỉ, huỷ",
   "ex": "試合は雨で中止になりました。",
-  "exvn": "The game was rained out. (Tatoeba #151030, tommy__san, CC BY 2.0 FR)"
+  "exvn": "The game was rained out. (Tatoeba #151030, tommy__san, CC BY 2.0 FR)",
+  "exf": "<ruby>試<rt>し</rt></ruby><ruby>合<rt>あい</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>で<ruby>中<rt>ちゅう</rt></ruby><ruby>止<rt>し</rt></ruby>になりました。"
  },
  {
   "id": "w56-ten",
@@ -23314,7 +23859,8 @@ window.CARDS = [
   "romaji": "nayami",
   "meaning": "nỗi phiền muộn",
   "ex": "それは、どこの国でも同じ悩みです。",
-  "exvn": "No matter which country, it's the same trouble. (Tatoeba #11257877, sh5555, CC BY 2.0 FR)"
+  "exvn": "No matter which country, it's the same trouble. (Tatoeba #11257877, sh5555, CC BY 2.0 FR)",
+  "exf": "それは、どこの<ruby>国<rt>くに</rt></ruby>でも<ruby>同<rt>おな</rt></ruby>じ<ruby>悩<rt>なや</rt></ruby>みです。"
  },
  {
   "id": "w56-mezamashidokei",
@@ -23325,7 +23871,8 @@ window.CARDS = [
   "romaji": "mezamashi [dokei]",
   "meaning": "[đồng hồ] báo thức",
   "ex": "目覚ましはセットした？",
-  "exvn": "Have you set the alarm clock? (Tatoeba #12934034, small_snow, CC BY 2.0 FR)"
+  "exvn": "Have you set the alarm clock? (Tatoeba #12934034, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>目<rt>め</rt></ruby><ruby>覚<rt>ざ</rt></ruby>ましはセットした？"
  },
  {
   "id": "w56-daigakusei",
@@ -23336,7 +23883,8 @@ window.CARDS = [
   "romaji": "daigakusei",
   "meaning": "sinh viên đại học",
   "ex": "大学生です。",
-  "exvn": "I am a university student. (Tatoeba #137609, tommy_san, CC BY 2.0 FR)"
+  "exvn": "I am a university student. (Tatoeba #137609, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>大<rt>だい</rt></ruby><ruby>学<rt>がく</rt></ruby><ruby>生<rt>せい</rt></ruby>です。"
  },
  {
   "id": "w56-kaitou",
@@ -23347,7 +23895,8 @@ window.CARDS = [
   "romaji": "kaitou",
   "meaning": "câu trả lời",
   "ex": "金曜日までに回答が必要です。",
-  "exvn": "I need to know your answer by Friday. (Tatoeba #179610, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I need to know your answer by Friday. (Tatoeba #179610, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>金<rt>きん</rt></ruby><ruby>曜<rt>よう</rt></ruby><ruby>日<rt>び</rt></ruby>までに<ruby>回<rt>かい</rt></ruby><ruby>答<rt>とう</rt></ruby>が<ruby>必<rt>ひつ</rt></ruby><ruby>要<rt>よう</rt></ruby>です。"
  },
  {
   "id": "w56-settoshimasu",
@@ -23369,7 +23918,8 @@ window.CARDS = [
   "romaji": "soredemo",
   "meaning": "dù vậy",
   "ex": "私はそれでもかまいませんよ。",
-  "exvn": "That sounds good to me. (Tatoeba #159765, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "That sounds good to me. (Tatoeba #159765, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はそれでもかまいませんよ。"
  },
  {
   "id": "w56-youishimasu",
@@ -23424,7 +23974,8 @@ window.CARDS = [
   "romaji": "chanto",
   "meaning": "đúng đắn, đàng hoàng",
   "ex": "ストーブちゃんと消した？",
-  "exvn": "Did you turn off the stove? (Tatoeba #2800309, tommy_san, CC BY 2.0 FR)"
+  "exvn": "Did you turn off the stove? (Tatoeba #2800309, tommy_san, CC BY 2.0 FR)",
+  "exf": "ストーブちゃんと<ruby>消<rt>け</rt></ruby>した？"
  },
  {
   "id": "w57-watashimasu",
@@ -23457,7 +24008,8 @@ window.CARDS = [
   "romaji": "yakimasu",
   "meaning": "nướng",
   "ex": "パンを焼きますか？",
-  "exvn": "Do you bake bread? (Tatoeba #8026857, Ninja, CC BY 2.0 FR)"
+  "exvn": "Do you bake bread? (Tatoeba #8026857, Ninja, CC BY 2.0 FR)",
+  "exf": "パンを<ruby>焼<rt>や</rt></ruby>きますか？"
  },
  {
   "id": "w57-genin",
@@ -23490,7 +24042,8 @@ window.CARDS = [
   "romaji": "hantoshi",
   "meaning": "nửa năm",
   "ex": "学生時代、イギリスに半年留学しました。",
-  "exvn": "I studied in England for six months when I was a student. (Tatoeba #184224, tommy_san, CC BY 2.0 FR)"
+  "exvn": "I studied in England for six months when I was a student. (Tatoeba #184224, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>学<rt>がく</rt></ruby><ruby>生<rt>せい</rt></ruby><ruby>時<rt>じ</rt></ruby><ruby>代<rt>だい</rt></ruby>、イギリスに<ruby>半<rt>はん</rt></ruby><ruby>年<rt>とし</rt></ruby><ruby>留<rt>りゅう</rt></ruby><ruby>学<rt>がく</rt></ruby>しました。"
  },
  {
   "id": "w57-tattaima",
@@ -23501,7 +24054,8 @@ window.CARDS = [
   "romaji": "tatta ima",
   "meaning": "vừa ngay lúc nãy",
   "ex": "彼はたった今でかけました。",
-  "exvn": "He went out just now. (Tatoeba #112022, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He went out just now. (Tatoeba #112022, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>はたった<ruby>今<rt>いま</rt></ruby>でかけました。"
  },
  {
   "id": "w57-imaiidesuka",
@@ -23545,7 +24099,8 @@ window.CARDS = [
   "romaji": "guai",
   "meaning": "tình trạng",
   "ex": "具合悪いの？",
-  "exvn": "Are you feeling under the weather? (Tatoeba #179506, tommy_san, CC BY 2.0 FR)"
+  "exvn": "Are you feeling under the weather? (Tatoeba #179506, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>具<rt>ぐ</rt></ruby><ruby>合<rt>あい</rt></ruby><ruby>悪<rt>わる</rt></ruby>いの？"
  },
  {
   "id": "w57-moushiwakearimasen",
@@ -23633,7 +24188,8 @@ window.CARDS = [
   "romaji": "awatete",
   "meaning": "vội vã",
   "ex": "私はあわてて逃げた。",
-  "exvn": "I ran away in a hurry. (Tatoeba #161460, tommy_san, CC BY 2.0 FR)"
+  "exvn": "I ran away in a hurry. (Tatoeba #161460, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>はあわてて<ruby>逃<rt>に</rt></ruby>げた。"
  },
  {
   "id": "w57-junbanni",
@@ -23666,7 +24222,8 @@ window.CARDS = [
   "romaji": "shokuyoku",
   "meaning": "cảm giác thèm ăn",
   "ex": "私は食欲がない。",
-  "exvn": "I have no appetite. (Tatoeba #155779, tommy_san, CC BY 2.0 FR)"
+  "exvn": "I have no appetite. (Tatoeba #155779, tommy_san, CC BY 2.0 FR)",
+  "exf": "<ruby>私<rt>わたし</rt></ruby>は<ruby>食<rt>しょく</rt></ruby><ruby>欲<rt>よく</rt></ruby>がない。"
  },
  {
   "id": "w57-chishiki",
@@ -23677,7 +24234,8 @@ window.CARDS = [
   "romaji": "chishiki",
   "meaning": "kiến thức",
   "ex": "あの人には知識も経験もある。",
-  "exvn": "He has knowledge, and experience as well. (Tatoeba #230767, tommy__san, CC BY 2.0 FR)"
+  "exvn": "He has knowledge, and experience as well. (Tatoeba #230767, tommy__san, CC BY 2.0 FR)",
+  "exf": "あの<ruby>人<rt>ひと</rt></ruby>には<ruby>知<rt>ち</rt></ruby><ruby>識<rt>しき</rt></ruby>も<ruby>経<rt>けい</rt></ruby><ruby>験<rt>けん</rt></ruby>もある。"
  },
  {
   "id": "w57-houko",
@@ -23743,7 +24301,8 @@ window.CARDS = [
   "romaji": "kibishii",
   "meaning": "nghiêm khắc",
   "ex": "彼女は手厳しい人です。",
-  "exvn": "She's a tough woman. (Tatoeba #2332394, bunbuku, CC BY 2.0 FR)"
+  "exvn": "She's a tough woman. (Tatoeba #2332394, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>手<rt>て</rt></ruby><ruby>厳<rt>きび</rt></ruby>しい<ruby>人<rt>ひと</rt></ruby>です。"
  },
  {
   "id": "w58-hidoi",
@@ -23754,7 +24313,8 @@ window.CARDS = [
   "romaji": "hidoi",
   "meaning": "tệ, kinh khủng",
   "ex": "ひどい天気！",
-  "exvn": "What horrible weather! (Tatoeba #2456862, tommy_san, CC BY 2.0 FR)"
+  "exvn": "What horrible weather! (Tatoeba #2456862, tommy_san, CC BY 2.0 FR)",
+  "exf": "ひどい<ruby>天<rt>てん</rt></ruby><ruby>気<rt>き</rt></ruby>！"
  },
  {
   "id": "w58-jikken",
@@ -23765,7 +24325,8 @@ window.CARDS = [
   "romaji": "jikken",
   "meaning": "thí nghiệm",
   "ex": "彼は実験を続けた。",
-  "exvn": "He carried on with his experiment. (Tatoeba #104718, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He carried on with his experiment. (Tatoeba #104718, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>実<rt>じっ</rt></ruby><ruby>験<rt>けん</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けた。"
  },
  {
   "id": "w58-deeta",
@@ -23864,7 +24425,8 @@ window.CARDS = [
   "romaji": "keshou",
   "meaning": "trang điểm",
   "ex": "彼女は化粧が濃い。",
-  "exvn": "She wears a lot of makeup. (Tatoeba #90943, mookeee, CC BY 2.0 FR)"
+  "exvn": "She wears a lot of makeup. (Tatoeba #90943, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>化<rt>け</rt></ruby><ruby>粧<rt>しょう</rt></ruby>が<ruby>濃<rt>こ</rt></ruby>い。"
  },
  {
   "id": "w58-joseidansei",
@@ -23886,7 +24448,8 @@ window.CARDS = [
   "romaji": "nagaiki",
   "meaning": "sống lâu",
   "ex": "彼女は長生きした。",
-  "exvn": "She lived a long life. (Tatoeba #87839, bunbuku, CC BY 2.0 FR)"
+  "exvn": "She lived a long life. (Tatoeba #87839, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>長<rt>なが</rt></ruby><ruby>生<rt>い</rt></ruby>きした。"
  },
  {
   "id": "w58-irankariforuniaguamu",
@@ -23941,7 +24504,8 @@ window.CARDS = [
   "romaji": "shirabe",
   "meaning": "kết quả khảo sát",
   "ex": "辞書で調べます。",
-  "exvn": "I will look it up in the dictionary. (Tatoeba #159702, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "I will look it up in the dictionary. (Tatoeba #159702, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>辞<rt>じ</rt></ruby><ruby>書<rt>しょ</rt></ruby>で<ruby>調<rt>しら</rt></ruby>べます。"
  },
  {
   "id": "w59-todokemasu",
@@ -24007,7 +24571,8 @@ window.CARDS = [
   "romaji": "eigyou",
   "meaning": "kinh doanh, bán hàng",
   "ex": "車の営業は何年目？",
-  "exvn": "How many years have you been selling cars? (Tatoeba #11559608, small_snow, CC BY 2.0 FR)"
+  "exvn": "How many years have you been selling cars? (Tatoeba #11559608, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>車<rt>くるま</rt></ruby>の<ruby>営<rt>えい</rt></ruby><ruby>業<rt>ぎょう</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>目<rt>め</rt></ruby>？"
  },
  {
   "id": "w59-soremadeni",
@@ -24194,7 +24759,8 @@ window.CARDS = [
   "romaji": "sugoshimasu",
   "meaning": "trải qua, sống",
   "ex": "クリスマスは、家族みんなで過ごします。",
-  "exvn": "I spend Christmas together with my whole family. (Tatoeba #10578189, small_snow, CC BY 2.0 FR)"
+  "exvn": "I spend Christmas together with my whole family. (Tatoeba #10578189, small_snow, CC BY 2.0 FR)",
+  "exf": "クリスマスは、<ruby>家<rt>か</rt></ruby><ruby>族<rt>ぞく</rt></ruby>みんなで<ruby>過<rt>す</rt></ruby>ごします。"
  },
  {
   "id": "w60-meshiagarimasu",
@@ -24205,7 +24771,8 @@ window.CARDS = [
   "romaji": "meshiagarimasu",
   "meaning": "ăn, uống (kính ngữ)",
   "ex": "何を召し上がりますか。",
-  "exvn": "What would you like to eat? (Tatoeba #187552, small_snow, CC BY 2.0 FR)"
+  "exvn": "What would you like to eat? (Tatoeba #187552, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なに</rt></ruby>を<ruby>召<rt>め</rt></ruby>し<ruby>上<rt>あ</rt></ruby>がりますか。"
  },
  {
   "id": "w60-osshaimasu",
@@ -24216,7 +24783,8 @@ window.CARDS = [
   "romaji": "osshaimasu",
   "meaning": "nói (kính ngữ)",
   "ex": "名前は何とおっしゃいますか。",
-  "exvn": "May I have your name, please? (Tatoeba #80777, mookeee, CC BY 2.0 FR)"
+  "exvn": "May I have your name, please? (Tatoeba #80777, mookeee, CC BY 2.0 FR)",
+  "exf": "<ruby>名<rt>な</rt></ruby><ruby>前<rt>まえ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>とおっしゃいますか。"
  },
  {
   "id": "w60-nasaimasu",
@@ -24227,7 +24795,8 @@ window.CARDS = [
   "romaji": "nasaimasu",
   "meaning": "làm (kính ngữ)",
   "ex": "何になさいますか。",
-  "exvn": "What will you have to eat? (Tatoeba #187730, Ianagisacos, CC BY 2.0 FR)"
+  "exvn": "What will you have to eat? (Tatoeba #187730, Ianagisacos, CC BY 2.0 FR)",
+  "exf": "<ruby>何<rt>なに</rt></ruby>になさいますか。"
  },
  {
   "id": "w60-goranninarimasu",
@@ -24249,7 +24818,8 @@ window.CARDS = [
   "romaji": "gozonji desu",
   "meaning": "biết (kính ngữ)",
   "ex": "歌舞伎はご存じですか。",
-  "exvn": "Do you know kabuki? (Tatoeba #186776, small_snow, CC BY 2.0 FR)"
+  "exvn": "Do you know kabuki? (Tatoeba #186776, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>歌<rt>か</rt></ruby><ruby>舞<rt>ぶ</rt></ruby><ruby>伎<rt>き</rt></ruby>はご<ruby>存<rt>ぞん</rt></ruby>じですか。"
  },
  {
   "id": "w60-okusama",
@@ -24271,7 +24841,8 @@ window.CARDS = [
   "romaji": "tama ni",
   "meaning": "thỉnh thoảng",
   "ex": "たまには電話してね。",
-  "exvn": "Call me once in a while. (Tatoeba #9963895, small_snow, CC BY 2.0 FR)"
+  "exvn": "Call me once in a while. (Tatoeba #9963895, small_snow, CC BY 2.0 FR)",
+  "exf": "たまには<ruby>電<rt>でん</rt></ruby><ruby>話<rt>わ</rt></ruby>してね。"
  },
  {
   "id": "w60-donatademo",
@@ -24447,7 +25018,8 @@ window.CARDS = [
   "romaji": "chittomo",
   "meaning": "chẳng ~ chút nào",
   "ex": "今日はちっとも風がない。",
-  "exvn": "There is not the least wind today. (Tatoeba #171757, KK_kaku_, CC BY 2.0 FR)"
+  "exvn": "There is not the least wind today. (Tatoeba #171757, KK_kaku_, CC BY 2.0 FR)",
+  "exf": "<ruby>今日<rt>きょう</rt></ruby>はちっとも<ruby>風<rt>かぜ</rt></ruby>がない。"
  },
  {
   "id": "w60-enryonaku",
@@ -24458,7 +25030,8 @@ window.CARDS = [
   "romaji": "enryo naku",
   "meaning": "xin cứ tự nhiên",
   "ex": "どうぞ遠慮なく。",
-  "exvn": "Be my guest. (Tatoeba #201301, small_snow, CC BY 2.0 FR)"
+  "exvn": "Be my guest. (Tatoeba #201301, small_snow, CC BY 2.0 FR)",
+  "exf": "どうぞ<ruby>遠<rt>えん</rt></ruby><ruby>慮<rt>りょ</rt></ruby>なく。"
  },
  {
   "id": "w60-koushi",
@@ -24502,7 +25075,8 @@ window.CARDS = [
   "romaji": "sekaiteki ni",
   "meaning": "mang tầm thế giới",
   "ex": "彼女は世界的に有名です。",
-  "exvn": "Her name is known all over the world. (Tatoeba #93915, small_snow, CC BY 2.0 FR)"
+  "exvn": "Her name is known all over the world. (Tatoeba #93915, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>世<rt>せ</rt></ruby><ruby>界<rt>かい</rt></ruby><ruby>的<rt>てき</rt></ruby>に<ruby>有<rt>ゆう</rt></ruby><ruby>名<rt>めい</rt></ruby>です。"
  },
  {
   "id": "w60-deirasshaimasu",
@@ -24524,7 +25098,8 @@ window.CARDS = [
   "romaji": "chounan",
   "meaning": "con trai cả",
   "ex": "彼は長男です。",
-  "exvn": "He's the oldest son. (Tatoeba #115424, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He's the oldest son. (Tatoeba #115424, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>長<rt>ちょう</rt></ruby><ruby>男<rt>なん</rt></ruby>です。"
  },
  {
   "id": "w60-shougai",
@@ -24546,7 +25121,8 @@ window.CARDS = [
   "romaji": "omochi desu",
   "meaning": "có (kính ngữ)",
   "ex": "車をお持ちですか？",
-  "exvn": "Do you have a car? (Tatoeba #1142563, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Do you have a car? (Tatoeba #1142563, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>車<rt>くるま</rt></ruby>をお<ruby>持<rt>も</rt></ruby>ちですか？"
  },
  {
   "id": "w60-sakkyoku",
@@ -24557,7 +25133,8 @@ window.CARDS = [
   "romaji": "sakkyoku",
   "meaning": "sáng tác nhạc",
   "ex": "作曲をしています。",
-  "exvn": "I write songs. (Tatoeba #13894076, small_snow, CC BY 2.0 FR)"
+  "exvn": "I write songs. (Tatoeba #13894076, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>作<rt>さっ</rt></ruby><ruby>曲<rt>きょく</rt></ruby>をしています。"
  },
  {
   "id": "w60-katsudou",
@@ -24568,7 +25145,8 @@ window.CARDS = [
   "romaji": "katsudou",
   "meaning": "hoạt động",
   "ex": "ボランティア活動をしたことがありますか。",
-  "exvn": "Have you ever done any volunteer work? (Tatoeba #1533033, bunbuku, CC BY 2.0 FR)"
+  "exvn": "Have you ever done any volunteer work? (Tatoeba #1533033, bunbuku, CC BY 2.0 FR)",
+  "exf": "ボランティア<ruby>活<rt>かつ</rt></ruby><ruby>動<rt>どう</rt></ruby>をしたことがありますか。"
  },
  {
   "id": "w60-soredewa",
@@ -24579,7 +25157,8 @@ window.CARDS = [
   "romaji": "sore dewa",
   "meaning": "vậy thì",
   "ex": "それでは、天気予報の時間です。",
-  "exvn": "Now it's time for the weather forecast. (Tatoeba #1602097, jathonjet, CC BY 2.0 FR)"
+  "exvn": "Now it's time for the weather forecast. (Tatoeba #1602097, jathonjet, CC BY 2.0 FR)",
+  "exf": "それでは、<ruby>天<rt>てん</rt></ruby><ruby>気<rt>き</rt></ruby><ruby>予<rt>よ</rt></ruby><ruby>報<rt>ほう</rt></ruby>の<ruby>時<rt>じ</rt></ruby><ruby>間<rt>かん</rt></ruby>です。"
  },
  {
   "id": "w60-ooekenzaburou",
@@ -24612,7 +25191,8 @@ window.CARDS = [
   "romaji": "mairimasu",
   "meaning": "đi, đến (khiêm nhường)",
   "ex": "すぐ参ります。",
-  "exvn": "I'm coming. (Tatoeba #214787, bunbuku, CC BY 2.0 FR)"
+  "exvn": "I'm coming. (Tatoeba #214787, bunbuku, CC BY 2.0 FR)",
+  "exf": "すぐ<ruby>参<rt>まい</rt></ruby>ります。"
  },
  {
   "id": "w61-moushimasu",
@@ -24634,7 +25214,8 @@ window.CARDS = [
   "romaji": "itashimasu",
   "meaning": "làm (khiêm nhường)",
   "ex": "お知らせいたします。",
-  "exvn": "I will inform you. (Tatoeba #10982402, small_snow, CC BY 2.0 FR)"
+  "exvn": "I will inform you. (Tatoeba #10982402, small_snow, CC BY 2.0 FR)",
+  "exf": "お<ruby>知<rt>し</rt></ruby>らせいたします。"
  },
  {
   "id": "w61-haikenshimasu",
@@ -24700,7 +25281,8 @@ window.CARDS = [
   "romaji": "meeru adoresu",
   "meaning": "địa chỉ thư điện tử",
   "ex": "メールアドレス何？",
-  "exvn": "What is your email address? (Tatoeba #13224748, atitarev, CC BY 2.0 FR)"
+  "exvn": "What is your email address? (Tatoeba #13224748, atitarev, CC BY 2.0 FR)",
+  "exf": "メールアドレス<ruby>何<rt>なに</rt></ruby>？"
  },
  {
   "id": "w61-saraishuu",
@@ -24788,7 +25370,8 @@ window.CARDS = [
   "romaji": "kokoro kara",
   "meaning": "từ tận đáy lòng",
   "ex": "心から感謝します。",
-  "exvn": "I really appreciate it. (Tatoeba #145608, small_snow, CC BY 2.0 FR)"
+  "exvn": "I really appreciate it. (Tatoeba #145608, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>心<rt>こころ</rt></ruby>から<ruby>感<rt>かん</rt></ruby><ruby>謝<rt>しゃ</rt></ruby>します。"
  },
  {
   "id": "w61-kanshashimasu",
@@ -24799,7 +25382,8 @@ window.CARDS = [
   "romaji": "kansha shimasu",
   "meaning": "cảm tạ",
   "ex": "心から感謝します。",
-  "exvn": "I really appreciate it. (Tatoeba #145608, small_snow, CC BY 2.0 FR)"
+  "exvn": "I really appreciate it. (Tatoeba #145608, small_snow, CC BY 2.0 FR)",
+  "exf": "<ruby>心<rt>こころ</rt></ruby>から<ruby>感<rt>かん</rt></ruby><ruby>謝<rt>しゃ</rt></ruby>します。"
  },
  {
   "id": "w61-orei",
@@ -24810,7 +25394,8 @@ window.CARDS = [
   "romaji": "orei",
   "meaning": "lời cảm ơn, quà đáp lễ",
   "ex": "お礼が言いたいです。",
-  "exvn": "I would like to thank you. (Tatoeba #11851906, small_snow, CC BY 2.0 FR)"
+  "exvn": "I would like to thank you. (Tatoeba #11851906, small_snow, CC BY 2.0 FR)",
+  "exf": "お<ruby>礼<rt>れい</rt></ruby>が<ruby>言<rt>い</rt></ruby>いたいです。"
  },
  {
   "id": "w61-ogenkideirasshaimasuka",
@@ -24876,7 +25461,8 @@ window.CARDS = [
   "romaji": "saisho ni",
   "meaning": "trước tiên",
   "ex": "彼が最初に来た。",
-  "exvn": "He was the first to come. (Tatoeba #120345, bunbuku, CC BY 2.0 FR)"
+  "exvn": "He was the first to come. (Tatoeba #120345, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>最<rt>さい</rt></ruby><ruby>初<rt>しょ</rt></ruby>に<ruby>来<rt>き</rt></ruby>た。"
  },
  {
   "id": "w61-saigoni",
@@ -24887,7 +25473,8 @@ window.CARDS = [
   "romaji": "saigo ni",
   "meaning": "cuối cùng",
   "ex": "彼女は最後にきた。",
-  "exvn": "She came last. (Tatoeba #89937, bunbuku, CC BY 2.0 FR)"
+  "exvn": "She came last. (Tatoeba #89937, bunbuku, CC BY 2.0 FR)",
+  "exf": "<ruby>彼<rt>かの</rt></ruby><ruby>女<rt>じょ</rt></ruby>は<ruby>最<rt>さい</rt></ruby><ruby>後<rt>ご</rt></ruby>にきた。"
  },
  {
   "id": "w61-tadaima",
@@ -26281,7 +26868,7 @@ window.CARDS = [
   "type": "kanji",
   "glyph": "着",
   "sound": "On: チャク · Kun: き-る・つ-く",
-  "vn": "Hán Việt: (chưa xác minh) — mặc; đến",
+  "vn": "Hán Việt: trước — mặc; đến",
   "word": "着ます",
   "romaji": "kimasu",
   "meaning": "mặc",
